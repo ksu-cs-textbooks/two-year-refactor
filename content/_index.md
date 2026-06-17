@@ -1,6 +1,5 @@
 +++
 archetype = "home"
-title = "Hugo Starter"
+title = "CS Two-Year Refactor"
 +++
 
-Lorem Ipsum.

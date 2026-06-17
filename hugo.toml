@@ -1,11 +1,11 @@
 # Base URL where the site will be hosted
 # TODO changeme
-baseURL = "https://textbooks.cs.ksu.edu/hugo-starter"
+baseURL = "https://textbooks.cs.ksu.edu/two-year-refactor"
 # Default language for the site
 languageCode = "en-us"
 # Site Title
 # TODO changeme
-title = "Hugo Starter Template"
+title = "CS Two Year Refactor"
 # This setting is deprecated and should be turned off
 canonifyURLs = false
 # Allow relative URLs (not for use with subfolders)
