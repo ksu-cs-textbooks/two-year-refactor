@@ -1,0 +1,58 @@
+---
+title: "STRUCTURE"
+pre: "B4. "
+weight: 40
+---
+
+**Year 1, Spring · Weeks 9–16 · 8-week block · 3 credits**
+
+> *Working draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.*
+
+**Two-year arc:** Read (B1) → Modify (B2) → Model (B3) → **➤ Structure (B4)** → Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)
+
+---
+
+## Purpose
+
+**Cognitive frame:** STRUCTURE across scales. The same idea — parts and relationships — in data, systems, networks, and the humans who build them.
+
+**Essential question:** *How does structure work — in data, systems, networks, and the humans who build them?*
+
+STRUCTURE across scales. Cognitive frame: structure/representation as one idea (parts + relationships) at every scale — data (trees/hashing), systems (client-server/APIs), networks, and humans (Conway’s Law seeds the Sociotechnical thread). Algorithmic Complexity arrives as the COST of structural choices — how to choose among contract-satisfying implementations (clean handoff from B3). Data visualization is embedded (HCI throughline), not a course. Persistence-proper moves to B5; file formats appear only as representation. End-of-Year-1 checkpoint / transfer point.
+
+## Structure
+
+Computer science courses (3):
+
+| Code | Course | Cr | Focus |
+|---|---|---|---|
+| CS-110 | **Trees, Hashing & Hierarchies** | 1 | Hierarchical and associative structure (Data Structures spiral). Taught as structure; ADT contracts from B3 continue (a tree/map has a contract too). |
+| CS-111 | **Systems & APIs** | 1 | Client-server decomposition; the API as system structure across a network boundary (APIs spiral + Boundaries network-boundary pass). Conway Law seed links system structure to human/org structure (Sociotechnical thread). Data visualization embedded here (HCI throughline), not a separate course. |
+| CS-112 | **Algorithmic Complexity** | 1 | Big-O, sorting/searching — the COST of structural choices; how to choose among implementations satisfying the same contract (handoff from B3). Optimization-reasoning seed. Loosely pairs with MATH-102 (B3). |
+
+**Block load:** 3 concurrent courses (3 CS + 0 external), 3 credits.
+
+> **End-of-Year-1 checkpoint.** A student exiting after this block has completed a coherent foundation (read → modify → model → structure) plus the Kansas transfer-aligned core. This is a real, defensible exit/transfer point worth formalizing.
+
+## Threads passing through this block
+
+Competencies are program-level and developed across many blocks; this block is one context in which they are demonstrated. The threads with a pass here:
+
+- **Data Structures & Representation** — Trees, hashing, hierarchies — hierarchical/associative structure (pass 3).
+- **APIs & Networked Systems** — Build + consume an API; system structure across a network boundary (pass 2).
+- **Boundaries & Contracts** — The boundary becomes a process/network boundary; an API is a contract (pass 2).
+- **Algorithmic Thinking & Complexity** — Arrives here as the COST of structural choices; choose among contract-satisfying implementations (pass 1, moved from B3).
+- **Sociotechnical Structure** — SEEDED here via Conway’s Law — systems mirror the organizations that build them; links system structure to human structure (pass 1). Spirals to B6 (team forms), B7 (defend), B8 (postmortem).
+- **HCI / Accessible Design** — SVG data visualization — honest visual representation of data; the data-viz throughline (pass 2). Embedded, not a separate course.
+- **Computational Models** — Server-side concurrency, conceptual (pass 3).
+
+## Open questions for faculty review
+
+1. Data visualization is now an embedded HCI throughline, not a standalone course — it appears woven into Trees or Systems & APIs. Confirm faculty can see/assess it without a dedicated course slot.
+2. Persistence-proper moved to Block 5; only file formats (as representation) remain in Year 1. An exiting student at the Year-1 checkpoint has files/CSV/JSON from B2 transformation work but no databases — acceptable, since databases were always Year 2.
+3. Block 4 is the conceptual host for “network structure” (where OSI Networking Fundamentals would connect), but OSI placement and its 2 credits remain deferred to cross-block optimization.
+4. Containers (deployment structure) are foreshadowed here via the Boundaries thread but belong properly to Block 8.
+
+---
+
+*Spine position: **Structure**. Builds on Block 3. Leads into Block 5.*
