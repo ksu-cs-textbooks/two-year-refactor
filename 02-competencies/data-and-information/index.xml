@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data and Information :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/02-competencies/data-and-information/index.html</link>
+    <description>Data and Information Represent Information I can select and apply appropriate representations for information within computational systems.&#xA;I organize and model information in ways that support effective storage, communication, analysis, and processing.&#xA;Manage Data Resources I can acquire, store, transform, and integrate data from multiple sources to support computational goals.&#xA;I work with structured and unstructured data using appropriate technologies, formats, and workflows.&#xA;Investigate Questions with Data I can use computational and statistical methods to investigate questions and evaluate evidence.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/02-competencies/data-and-information/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

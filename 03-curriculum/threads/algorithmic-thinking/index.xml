@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithmic Thinking &amp; Complexity :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/threads/algorithmic-thinking/index.html</link>
+    <description>Thread: Algorithmic Thinking &amp; Complexity Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).&#xA;In one line: From Big-O as theory, to graph optimization, to a real bottleneck under load.&#xA;Character Moved its first pass from B3 to B4 so it can answer the question B3’s contract-first ADTs raise: how do you choose among implementations of the same contract? Closely shadowed by the Optimization lens.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/threads/algorithmic-thinking/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

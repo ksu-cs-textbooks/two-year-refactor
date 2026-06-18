@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sociotechncial Structure :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/threads/socio-technical/index.html</link>
+    <description>Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).&#xA;In one line: Systems and the humans who build them are one structural fabric — from observing the parallel, to living it, to reflecting on it.&#xA;Character Models the BUILDERS structurally, not just the users — extending the notional machine’s top layer. Seeded conceptually, then lived through the team project, then reflected on. Complements the Git collaboration thread (Git is the tool; this is the social reality the tool serves).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/threads/socio-technical/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

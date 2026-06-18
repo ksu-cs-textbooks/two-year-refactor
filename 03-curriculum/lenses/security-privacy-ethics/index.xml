@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security, Privacy &amp; Ethical Reasoning :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/lenses/security-privacy-ethics/index.html</link>
+    <description>Working draft for faculty review. A lens is a cross-cutting concern that runs across blocks, not a topic taught in one place. It is one of three lenses (Security/Privacy/Ethics, Documentation, Optimization), distinct from the nine spiraling threads and the one bounded practice.&#xA;In one line: A standing question — who could be harmed, what should we even collect, what are we trusting — asked wherever relevant content appears, formalized once.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/lenses/security-privacy-ethics/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

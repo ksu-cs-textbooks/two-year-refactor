@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS Two-Year Refactor :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/01-introduction/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/01-introduction/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>Competencies</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/02-competencies/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/02-competencies/index.html</guid>
+      <description>The identifed competency domains and associated competencies.</description>
+    </item>
+    <item>
+      <title>Curriculum Structure</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/index.html</guid>
+      <description>Working draft for faculty review. This is the front door to a set of 22 companion files: 8 block files, 9 thread files, 3 lens files, and 1 bounded-practice file. Course codes throughout are placeholders.&#xA;What this is A competency-based, systems-thinking foundation for a B.S. in Computer Science, shared by students who will go on to specialize (Cybersecurity, Data Science, AI Systems, Software Architecture). It is built as a spiral curriculum: ideas recur across the two years, each return deepening or generalizing the last, rather than being taught once and left behind.</description>
+    </item>
+    <item>
+      <title>Course Containers</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/04-course-containers/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/04-course-containers/index.html</guid>
+      <description>The mappings of the curriculum structure and competencies into course containers.&#xA;flowchart TD subgraph Block1 CIS101[ Imperative Programming ] CIS102[ Functional Programming ] CIS103[ Computational Representation ] MATH101[ Logic and Sets ] end subgraph Block2 CIS104[ Object-Oriented Programming ] CIS105[ Code Reading &amp; Debugging I ] CIS106[ Web Foundations ] end subgraph Block3 CIS107[ Object-Oriented Programming II ] CIS108[ Linear Data Structures ] CIS109[ Algorithmic Complexity ] end subgraph Block4 CIS107[ Trees, Hashing &amp; Hiearchies ] CIS108[ APIs &amp; Data Validation ] CIS109[ Data Persistence I ] end subgraph Block5 end CIS101 --&gt; CIS104 flowchart LR</description>
+    </item>
+  </channel>
+</rss>

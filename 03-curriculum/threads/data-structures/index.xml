@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structures &amp; Representation :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/threads/data-structures/index.html</link>
+    <description>Thread: Data Structures &amp; Representation Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).&#xA;In one line: From the most primitive representation to the most general, each pass a genuine generalization of the last.&#xA;Character The strongest spiral in the design. Each pass is a real generalization, not a harder repeat. After B3 it is taught contract-first (ADT interface before implementation), which is what lets B4 ask ‘how do we choose among implementations of the same contract?’</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/threads/data-structures/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

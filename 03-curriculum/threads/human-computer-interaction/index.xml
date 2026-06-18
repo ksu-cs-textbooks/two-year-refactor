@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HCI / Accessible &amp; Human-Centered Design :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/threads/human-computer-interaction/index.html</link>
+    <description>Thread: HCI / Accessible &amp; Human-Centered Design Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).&#xA;In one line: From accessibility-checklist compliance to requirements-driven design — carrying TWO embedded throughlines (accessibility + data visualization).&#xA;Character Carries two throughlines that belong together (both are about communicating to a human effectively and honestly). The key transition is B2’s checklist compliance → B8’s designing from others’ needs outward.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/threads/human-computer-interaction/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

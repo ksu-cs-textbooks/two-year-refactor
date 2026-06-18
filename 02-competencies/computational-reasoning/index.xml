@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Reasoning Domain :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/02-competencies/computational-reasoning/index.html</link>
+    <description>Analyze Computational Systems I can explain the behavior of computational systems by investigating their components, interactions, and execution.&#xA;I analyze software and computing systems to determine how they operate, identify sources of behavior, and predict outcomes under varying conditions.&#xA;Develop Abstractions I can create and apply abstractions that reduce complexity while preserving essential characteristics of a problem or system.&#xA;I organize information, processes, and system components into meaningful models that support understanding, communication, and solution development.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/02-competencies/computational-reasoning/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

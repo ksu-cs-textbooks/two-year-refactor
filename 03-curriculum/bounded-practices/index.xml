@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bounded Practices :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/bounded-practices/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/bounded-practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI-Assisted Development</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/bounded-practices/ai-assisted/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/bounded-practices/ai-assisted/index.html</guid>
+      <description>Working draft for faculty review. A bounded practice deepens only in student judgment while its scope deliberately stays flat — the single thread of this type, distinct from the nine spirals and three lenses.&#xA;In one line: Depth increases only in the student’s critical judgment; the SCOPE of permitted AI use stays narrow and constant — explain, discuss, quiz, critique — never “write this for me and I’ll submit it.”</description>
+    </item>
+  </channel>
+</rss>
