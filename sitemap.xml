@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/spiral-method/index.html</loc>
-    <lastmod>2026-06-21T19:29:55-05:00</lastmod>
+    <lastmod>2026-06-22T16:44:13-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/lenses/lens-trustworthy-computing/index.html</loc>
@@ -150,7 +150,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/developmental-experiences/index.html</loc>
-    <lastmod>2026-06-21T19:29:55-05:00</lastmod>
+    <lastmod>2026-06-22T16:44:13-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/assessment/signature-assessments/index.html</loc>
@@ -206,7 +206,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/ai-discipline/index.html</loc>
-    <lastmod>2026-06-21T19:29:55-05:00</lastmod>
+    <lastmod>2026-06-22T16:44:13-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/index.html</loc>
@@ -277,6 +277,10 @@
     <lastmod>2026-06-22T15:18:16-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/signature-applications/index.html</loc>
+    <lastmod>2026-06-22T16:44:13-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/stat-102/index.html</loc>
     <lastmod>2026-06-22T15:18:16-05:00</lastmod>
   </url>
@@ -309,6 +313,10 @@
     <lastmod>2026-06-21T19:29:55-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/signature-applications/tallgrass/index.html</loc>
+    <lastmod>2026-06-22T16:44:13-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/index.html</loc>
     <lastmod>2026-06-21T19:29:55-05:00</lastmod>
   </url>
@@ -329,12 +337,20 @@
     <lastmod>2026-06-21T19:29:55-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/signature-applications/rhizome/index.html</loc>
+    <lastmod>2026-06-22T16:44:13-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/blocks/block-7-judge/index.html</loc>
     <lastmod>2026-06-22T15:18:16-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-7/index.html</loc>
     <lastmod>2026-06-21T19:29:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/signature-applications/chrysalis/index.html</loc>
+    <lastmod>2026-06-22T16:44:13-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/threads/thread-correctness-verification/index.html</loc>

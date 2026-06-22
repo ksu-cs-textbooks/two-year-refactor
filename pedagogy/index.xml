@@ -12,21 +12,28 @@
       <link>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/spiral-method/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/spiral-method/index.html</guid>
-      <description></description>
+      <description>Working draft for faculty review. This page describes the pedagogical principles behind the curriculum’s spiral structure. For the block-by-block expression of those principles, see the block files in Chapter 1.&#xA;What a spiral curriculum is — and isn’t A spiral curriculum is one in which ideas recur — not as review, but as return. Each time a concept appears, the context is richer, the student’s tools are sharper, and the encounter goes deeper. The alternative is coverage: teach a topic once, test it, and move on. Coverage is efficient but brittle; the spiral is slower but builds genuine understanding.</description>
     </item>
     <item>
       <title>Recurring Developmental Experiences</title>
       <link>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/developmental-experiences/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/developmental-experiences/index.html</guid>
-      <description></description>
+      <description>Working draft for faculty review. This page describes the within-block experiential cycle that grows across the two years. For the signature applications that serve as its substrate, see the Tallgrass, Rhizome, and Chrysalis pages in this chapter.&#xA;The premise: systems-level thinking before programming skill Traditional CS instruction begins with programming skill: write a loop, write a function, write a class. The ability to read and reason about existing code — to navigate a large unfamiliar codebase, diagnose where something is wrong, and extend it without breaking what works — is treated as an advanced skill developed later, after programming foundations are established.</description>
     </item>
     <item>
       <title>Disciplined Use of AI</title>
       <link>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/ai-discipline/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/ai-discipline/index.html</guid>
-      <description></description>
+      <description>Working draft for faculty review. This page describes the AI-Assisted Development bounded practice — the one thread whose scope is deliberately held flat while student judgment deepens. For block-by-block expression, see the block files in Chapter 1.&#xA;The tension this page addresses AI code generation tools — large language models that write, explain, debug, and review code — are now ubiquitous in professional software development and accessible to first-semester undergraduates. Designing a CS curriculum that ignores them is not realistic. Designing one that hands off cognitive work to them defeats the purpose.</description>
+    </item>
+    <item>
+      <title>Signature Applications</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/signature-applications/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/signature-applications/index.html</guid>
+      <description>Working draft for faculty review. The signature application concept is a pedagogical design decision — not yet ratified. This document describes the intent; the three companion pages describe each application.&#xA;The concept The two-year core is built around a spiral: the same ideas return, each time deeper. Signature applications make that spiral concrete — students revisit the same three production codebases across all eight blocks, each time with more tools and more responsibility.</description>
     </item>
   </channel>
 </rss>

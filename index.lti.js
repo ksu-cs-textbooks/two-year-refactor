@@ -145,8 +145,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Pedagogical Approach",
-    "description": "",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "Working draft for faculty review. This page describes the pedagogical principles behind the curriculum’s spiral structure. For the block-by-block expression of those principles, see the block files in Chapter 1.\nWhat a spiral curriculum is — and isn’t A spiral curriculum is one in which ideas recur — not as review, but as return. Each time a concept appears, the context is richer, the student’s tools are sharper, and the encounter goes deeper. The alternative is coverage: teach a topic once, test it, and move on. Coverage is efficient but brittle; the spiral is slower but builds genuine understanding.",
+    "modified": "2026-06-22T16:44:13-05:00",
     "tags": [],
     "title": "The Spiral Method",
     "uri": "/two-year-refactor/pedagogy/spiral-method/index.html"
@@ -297,8 +297,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Pedagogical Approach",
-    "description": "",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "Working draft for faculty review. This page describes the within-block experiential cycle that grows across the two years. For the signature applications that serve as its substrate, see the Tallgrass, Rhizome, and Chrysalis pages in this chapter.\nThe premise: systems-level thinking before programming skill Traditional CS instruction begins with programming skill: write a loop, write a function, write a class. The ability to read and reason about existing code — to navigate a large unfamiliar codebase, diagnose where something is wrong, and extend it without breaking what works — is treated as an advanced skill developed later, after programming foundations are established.",
+    "modified": "2026-06-22T16:44:13-05:00",
     "tags": [],
     "title": "Recurring Developmental Experiences",
     "uri": "/two-year-refactor/pedagogy/developmental-experiences/index.html"
@@ -409,8 +409,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Pedagogical Approach",
-    "description": "",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "Working draft for faculty review. This page describes the AI-Assisted Development bounded practice — the one thread whose scope is deliberately held flat while student judgment deepens. For block-by-block expression, see the block files in Chapter 1.\nThe tension this page addresses AI code generation tools — large language models that write, explain, debug, and review code — are now ubiquitous in professional software development and accessible to first-semester undergraduates. Designing a CS curriculum that ignores them is not realistic. Designing one that hands off cognitive work to them defeats the purpose.",
+    "modified": "2026-06-22T16:44:13-05:00",
     "tags": [],
     "title": "Disciplined Use of AI",
     "uri": "/two-year-refactor/pedagogy/ai-discipline/index.html"
@@ -552,6 +552,14 @@ var relearn_lti_index = [
     "uri": "/two-year-refactor/analyses/service-gist/index.html"
   },
   {
+    "breadcrumb": "Pedagogical Approach",
+    "description": "Working draft for faculty review. The signature application concept is a pedagogical design decision — not yet ratified. This document describes the intent; the three companion pages describe each application.\nThe concept The two-year core is built around a spiral: the same ideas return, each time deeper. Signature applications make that spiral concrete — students revisit the same three production codebases across all eight blocks, each time with more tools and more responsibility.",
+    "modified": "2026-06-22T16:44:13-05:00",
+    "tags": [],
+    "title": "Signature Applications",
+    "uri": "/two-year-refactor/pedagogy/signature-applications/index.html"
+  },
+  {
     "breadcrumb": "Course Designs \u003e Block 6 — Build Responsibly",
     "description": "STAT-102 — Probability 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Follows Counting (B2/B3); foundational for ML. Probability ownership vs. discrete math to be settled in cross-department co-design.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
     "modified": "2026-06-22T15:18:16-05:00",
@@ -616,6 +624,14 @@ var relearn_lti_index = [
     "uri": "/two-year-refactor/assessment/competencies/systems-and-infrastructure/index.html"
   },
   {
+    "breadcrumb": "Pedagogical Approach \u003e Signature Applications",
+    "description": "Working draft for faculty review. Tallgrass is one of three signature applications — large production codebases students study, contribute to, and extend across the two-year spiral. See Signature Applications for the pedagogical framing.\nWhat it is Tallgrass is a Kansas historical visualization and archival data system. It has two tightly coupled sub-systems:\nSub-system 1 — Visualization frontend A primarily static web application that renders interactive visualizations of Kansas changing over time: population by county, highway networks, lakes and waterways, railroads, schools, hospitals, and other civic infrastructure. The application consumes pre-built static JSON and GeoJSON files and requires no server-side rendering at runtime.",
+    "modified": "2026-06-22T16:44:13-05:00",
+    "tags": [],
+    "title": "Tallgrass",
+    "uri": "/two-year-refactor/pedagogy/signature-applications/tallgrass/index.html"
+  },
+  {
     "breadcrumb": "",
     "description": "How the design satisfies external requirements: ABET accreditation mappings, the K-State degree replacement, and service-department mappings.",
     "modified": "2026-06-21T19:29:55-05:00",
@@ -656,6 +672,14 @@ var relearn_lti_index = [
     "uri": "/two-year-refactor/assessment/competencies/professional-practice/index.html"
   },
   {
+    "breadcrumb": "Pedagogical Approach \u003e Signature Applications",
+    "description": "Working draft for faculty review. Rhizome is one of three signature applications — large production codebases students study, contribute to, and extend across the two-year spiral. See Signature Applications for the pedagogical framing.\nWhat it is Rhizome is an environmental sensing and data science platform with three coupled sub-systems operating at different scales — from the classroom to the state.\nSub-system 1 — Classroom sensor network A real-time sensor network monitoring the environmental conditions of plants growing in the classrooms where the program is taught. Sensors measure air temperature, relative humidity, soil moisture, light intensity, CO₂ concentration, and growth metrics relevant to plant health, including Normalized Difference Vegetation Index (NDVI) as a proxy for photosynthetic activity.",
+    "modified": "2026-06-22T16:44:13-05:00",
+    "tags": [],
+    "title": "Rhizome",
+    "uri": "/two-year-refactor/pedagogy/signature-applications/rhizome/index.html"
+  },
+  {
     "breadcrumb": "Core Design \u003e Blocks",
     "description": "Year 2, Spring · Weeks 1–8 · 8-week block · 3 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → ➤ Judge (B7) → Operate (B8)\nPurpose Cognitive frame: INTEGRATION \u0026 JUDGMENT — design under uncertainty. The first block where problems lack a single right answer.",
     "modified": "2026-06-22T15:18:16-05:00",
@@ -670,6 +694,14 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Block 7 — Judge",
     "uri": "/two-year-refactor/course-designs/block-7/index.html"
+  },
+  {
+    "breadcrumb": "Pedagogical Approach \u003e Signature Applications",
+    "description": "Working draft for faculty review. Chrysalis is one of three signature applications — large production codebases students study, contribute to, and extend across the two-year spiral. See Signature Applications for the pedagogical framing.\nWhat it is Chrysalis is the program’s real-time communication and competency assessment platform. It serves two purposes simultaneously:\nStudent tool: Real-time messaging between students and between students and instructors, organized by cohort, block, and course. Students use Chrysalis from the first week of Block 1 as their primary in-program communication channel.",
+    "modified": "2026-06-22T16:44:13-05:00",
+    "tags": [],
+    "title": "Chrysalis",
+    "uri": "/two-year-refactor/pedagogy/signature-applications/chrysalis/index.html"
   },
   {
     "breadcrumb": "Core Design \u003e Threads",
