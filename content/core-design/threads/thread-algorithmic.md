@@ -4,8 +4,6 @@ weight = 50
 ordinal = "1.2.5"
 +++
 
-# Thread: Algorithmic Thinking & Complexity
-
 > *Working draft for faculty review. A **spiral** deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).*
 
 **In one line:** From Big-O as theory, to graph optimization, to a real bottleneck under load.

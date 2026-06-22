@@ -4,8 +4,6 @@ weight = 80
 ordinal = "1.1.8"
 +++
 
-# Block 8 — IN PRODUCTION: delivery, operation & accountability — the system meets the real world
-
 **Year 2, Spring · Weeks 9–16 · 8-week block · 3 credits**
 
 > *Working draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.*

@@ -1,10 +1,8 @@
 ---
 title: "Data and Information"
-pre: "4. "
-weight: 40
+pre: "3. "
+weight: 30
 ---
-
-# Data and Information
 
 ### Represent Information
 

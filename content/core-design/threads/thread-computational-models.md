@@ -4,8 +4,6 @@ weight = 60
 ordinal = "1.2.6"
 +++
 
-# Thread: Computational Models
-
 > *Working draft for faculty review. A **spiral** deepens through escalating passes across blocks. This is the flagship spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).*
 
 **In one line:** The landscape of ways to express computation — imperative, functional, declarative, concurrent — with 'how does each model handle failure' woven through.

@@ -4,8 +4,6 @@ weight = 10
 ordinal = "1.2.1"
 +++
 
-# Thread: Data Structures & Representation
-
 > *Working draft for faculty review. A **spiral** deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).*
 
 **In one line:** From the most primitive representation to the most general, each pass a genuine generalization — with graphs spiraling as a strand within.

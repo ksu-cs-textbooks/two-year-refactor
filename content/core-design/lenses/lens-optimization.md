@@ -4,8 +4,6 @@ weight = 20
 ordinal = "1.3.2"
 +++
 
-# Lens: Optimization Reasoning
-
 > *Working draft for faculty review. A **lens** is a standing question or practice applied across blocks, scope growing with capability — not a topic taught in one place. One of three lenses (with nine spirals and one bounded practice — 13 threads total).*
 
 **In one line:** "Best under constraints," named wherever it already arises, so students reach the AI specialization already thinking in optimization terms.

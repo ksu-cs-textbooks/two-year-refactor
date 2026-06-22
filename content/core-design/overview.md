@@ -4,8 +4,6 @@ weight = 10
 ordinal = "1.0"
 +++
 
-# First-Two-Year CS Foundation — Program Overview
-
 > *Working draft for faculty review. This is the front door to a set of 22 companion files: 8 block files, 9 thread files, 3 lens files, and 1 bounded-practice file. Course codes throughout are placeholders.*
 
 ## What this is

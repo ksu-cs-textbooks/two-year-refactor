@@ -4,8 +4,6 @@ weight = 30
 ordinal = "1.3.3"
 +++
 
-# Lens: Professional Practices
-
 > *Working draft for faculty review. A **lens** is a standing question or practice applied across blocks, scope growing with capability — not a topic taught in one place. One of three lenses (with nine spirals and one bounded practice — 13 threads total).*
 
 **In one line:** The individual craft of being a professional: documentation, version control, code style, code review, communication, self-reflection, estimation, and continued learning — each maturing as it recurs.

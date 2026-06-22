@@ -4,8 +4,6 @@ weight = 70
 ordinal = "1.2.7"
 +++
 
-# Thread: Correctness & Verification
-
 > *Working draft for faculty review. A **spiral** deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).*
 
 **In one line:** Does the code do what it's specified to do? — informal reasoning → regression → testing and verification, named and contrasted.

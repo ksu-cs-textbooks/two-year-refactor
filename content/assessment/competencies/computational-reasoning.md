@@ -1,7 +1,7 @@
 ---
-title: "Computational Reasoning Domain"
-pre: "2. "
-weight: 20
+title: "Computational Reasoning"
+pre: "1. "
+weight: 10
 ---
 
 ### Analyze Computational Systems

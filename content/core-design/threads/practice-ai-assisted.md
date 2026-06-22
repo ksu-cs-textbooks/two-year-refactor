@@ -4,8 +4,6 @@ weight = 100
 ordinal = "1.2.10"
 +++
 
-# Bounded Practice: AI-Assisted Development
-
 > *Working draft for faculty review. A **bounded practice** deepens only in student judgment while its scope deliberately stays flat — the single thread of this type, distinct from the nine spirals and three lenses.*
 
 **In one line:** Depth increases only in the student's critical judgment; the SCOPE of permitted AI use stays narrow and constant — explain, discuss, quiz, critique — never "write this for me and I'll submit it."

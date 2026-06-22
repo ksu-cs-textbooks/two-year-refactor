@@ -97,6 +97,10 @@ When migrating: preserve the existing Relearn front matter (title, weight, ordin
 
 The rationale behind every curricular choice — block frames, the 13-thread taxonomy, external-course pacing, OS grounding, ABET mappings, the specialization model — lives in the design log committed to this repo (`/resources/design-log.md`). **Consult it before changing curricular substance**, and append a short dated note when a substantive design decision is made here, so cross-session continuity holds. Claude Code has no memory of the chat sessions where this design was developed; the log is the source of truth for intent.
 
+## Existing courses
+
+The current CS department course offerings are found in `resources/existing-cs-courses.json`. Use this to inform analysis and program creation. If you need a course that does not seem to exist, ask for it.
+
 ## Domain guardrails
 
 - Course codes in the core (CS-101 etc.) are **placeholders**; CIS/STAT/MATH numbers are **real K-State courses**. Don't conflate them.

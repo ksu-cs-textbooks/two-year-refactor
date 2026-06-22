@@ -4,8 +4,6 @@ weight = 90
 ordinal = "1.2.9"
 +++
 
-# Thread: Sociotechnical Structure
-
 > *Working draft for faculty review. A **spiral** deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).*
 
 **In one line:** Systems and the humans who build them are one structural fabric (Conway's Law) — observe → live → defend → reflect; the collective/team counterpart to Professional Practices.

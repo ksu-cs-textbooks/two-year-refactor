@@ -4,8 +4,6 @@ weight = 20
 ordinal = "1.2.2"
 +++
 
-# Thread: Code Comprehension
-
 > *Working draft for faculty review. A **spiral** deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).*
 
 **In one line:** Understanding programs — your own and others' — from 'make it work' to 'defend it under scrutiny.'

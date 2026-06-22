@@ -4,8 +4,6 @@ weight = 40
 ordinal = "1.2.4"
 +++
 
-# Thread: Human-Centered Computing
-
 > *Working draft for faculty review. A **spiral** deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).*
 
 **In one line:** Computing in service of human needs: design FOR, communicate TO, and validate WITH people — perceive → represent → comprehend → defend → fitness-for-purpose.

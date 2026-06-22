@@ -4,8 +4,6 @@ weight = 10
 ordinal = "1.3.1"
 +++
 
-# Lens: Trustworthy Computing
-
 > *Working draft for faculty review. A **lens** is a standing question or practice applied across blocks, scope growing with capability — not a topic taught in one place. One of three lenses (with nine spirals and one bounded practice — 13 threads total).*
 
 **In one line:** Can people trust this system, and the people who built it? — security, privacy, and ethical reasoning asked wherever content raises it, formalized once.

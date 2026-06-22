@@ -4,8 +4,6 @@ weight = 30
 ordinal = "1.2.3"
 +++
 
-# Thread: APIs & Networked Systems
-
 > *Working draft for faculty review. A **spiral** deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).*
 
 **In one line:** Consume → build → integrate multiple → operate in production.
