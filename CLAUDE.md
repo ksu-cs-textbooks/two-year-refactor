@@ -95,7 +95,7 @@ When migrating: preserve the existing Relearn front matter (title, weight, ordin
 
 ## Design decision log (read this for the *why*)
 
-The rationale behind every curricular choice — block frames, the 13-thread taxonomy, external-course pacing, OS grounding, ABET mappings, the specialization model — lives in the design log committed to this repo (e.g. `/docs/design-log.md` or wherever it was placed). **Consult it before changing curricular substance**, and append a short dated note when a substantive design decision is made here, so cross-session continuity holds. Claude Code has no memory of the chat sessions where this design was developed; the log is the source of truth for intent.
+The rationale behind every curricular choice — block frames, the 13-thread taxonomy, external-course pacing, OS grounding, ABET mappings, the specialization model — lives in the design log committed to this repo (`/resources/design-log.md`). **Consult it before changing curricular substance**, and append a short dated note when a substantive design decision is made here, so cross-session continuity holds. Claude Code has no memory of the chat sessions where this design was developed; the log is the source of truth for intent.
 
 ## Domain guardrails
 
