@@ -1,16 +1,16 @@
 +++
-title = "STAT-101 Descriptive Statistics & Data Summarization"
+title = "MATH-104 Discrete Math: Graphs, Trees, and Networks"
 weight = 40
 ordinal = "4.4.4"
 +++
 
-## STAT-101 — Descriptive Statistics & Data Summarization
+## MATH-104 — Discrete Math: Graphs, Trees, and Networks
 
 **1 credit (co-designed external)**
 
 ### Working description
 
-(External/co-designed, stats dept. Describe data the student is now structuring; feeds the data-visualization throughline. First of the statistics-for-ML sequence.)
+(External/co-designed. Concurrent with CS-110's first graph pass — provides formal graph theory (graphs, trees, networks) as students begin representing and traversing graphs in B4.)
 
 ### To develop
 

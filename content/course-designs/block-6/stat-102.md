@@ -1,7 +1,7 @@
 +++
 title = "STAT-102 Probability"
-weight = 30
-ordinal = "4.5.3"
+weight = 40
+ordinal = "4.6.4"
 +++
 
 ## STAT-102 — Probability

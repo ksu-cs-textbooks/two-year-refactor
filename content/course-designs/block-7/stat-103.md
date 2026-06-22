@@ -1,7 +1,7 @@
 +++
 title = "STAT-103 Random Variables, Distributions & Sampling"
-weight = 40
-ordinal = "4.6.4"
+weight = 30
+ordinal = "4.7.3"
 +++
 
 ## STAT-103 — Random Variables, Distributions & Sampling

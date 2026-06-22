@@ -27,14 +27,14 @@ Computer science courses (3):
 | Code | Course | Cr | Focus |
 |---|---|---|---|
 | CS-110 | **Trees, Hashing & Hierarchies** | 1 | Hierarchical and associative structure (Data Structures spiral). Taught as structure; ADT contracts from B3 continue (a tree/map has a contract too). Graph spiral: representing and building graphs (adjacency list/matrix — the adjacency matrix is also a natural seed for basic linear algebra), basic traversal. Spatial indexing as applied trees/hashing: quadtrees and R-trees (trees), geohashing (spatial hashing) — a real-world application that makes the structures concrete. |
-| CS-111 | **Systems & APIs** | 1 | Client-server decomposition; the API as system structure across a network boundary (APIs spiral + Boundaries network-boundary pass). Conway Law seed links system structure to human/org structure (Sociotechnical thread). Dataflow model named (Computational Models): a web-server request flows through a pipeline of stages (parse to auth to route to handle to serialize to respond). Data visualization embedded here (Human-Centered Computing throughline), not a separate course; D3 data-join and method-chaining as the client-side dataflow counterpart. |
+| CS-111 | **Systems & APIs** | 1 | Client-server decomposition; the API as system structure across a network boundary (APIs spiral + Boundaries network-boundary pass). Conway Law seed links system structure to human/org structure (Sociotechnical thread). Dataflow model named (Computational Models): a web-server request flows through a pipeline of stages (parse to auth to route to handle to serialize to respond). Data visualization embedded here (Human-Centered Computing throughline), not a separate course; D3 data-join and method-chaining as the client-side dataflow counterpart. **Component-based GUI architecture (web components):** custom elements, shadow DOM, and slots as the "structure" applied to user interfaces — a reusable boundary unit whose name is its contract, shadow DOM is its encapsulated internals, and slots are its interface. Event-driven programming formalized as a structural pattern (register → dispatch → handle in queue), deepening the event-loop first named in B2. |
 | CS-112 | **Algorithmic Complexity** | 1 | Big-O, sorting/searching — the COST of structural choices; how to choose among implementations satisfying the same contract (handoff from B3). Optimization-reasoning seed. Loosely pairs with MATH-102 (B3). |
 
 Co-designed external courses (1):
 
 | Code | Course | Cr | Notes |
 |---|---|---|---|
-| STAT-101 | **Descriptive Statistics & Data Summarization** | 1 | (External/co-designed, stats dept. Describe data the student is now structuring; feeds the data-visualization throughline. First of the statistics-for-ML sequence.) |
+| MATH-104 | **Discrete Math: Graphs, Trees, and Networks** | 1 | (External/co-designed. Concurrent with CS-110's first graph pass — provides formal graph theory as students begin representing and traversing graphs in this block.) |
 
 **Block load:** 4 concurrent courses (3 CS + 1 external), 3 credits.
 

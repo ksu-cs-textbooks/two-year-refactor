@@ -4,121 +4,101 @@ weight = 30
 ordinal = "5.3"
 +++
 
-> *Working draft for faculty review. This is a **recommendation for a degree that does not yet exist** \u2014 a proposal for a Data Science specialization built on the shared two-year core, using real K-State courses where they exist and flagging honestly where new courses or cross-department coordination would be needed. Core course codes are placeholders; CIS course numbers are actual K-State courses.*
+> *Working draft for faculty review. A proposal for a CS-housed Data Science specialization built on the shared two-year core, using real K-State courses. Note up front: the **Statistics department already offers a B.S. in Data Science**, so this proposal is framed as a CS-flavored, partnership-oriented specialization rather than a duplicate. Core course codes are placeholders; CIS/STAT/MATH numbers are actual K-State courses.*
 
-## Premise
+## Premise and positioning
 
-Under the specialization model, every degree is the **identical two-year core + a degree-specific upper division**. This document proposes the upper division for a Data Science specialization. Of the four specializations, Data Science has arguably the **strongest core on-ramp** \u2014 the foundation already does a great deal of the data-science groundwork \u2014 but it is also the most **cross-department dependent**, leaning heavily on Statistics and Mathematics.
+Under the specialization model, every degree is the identical two-year core plus a degree-specific upper division. For Data Science there is an important wrinkle: **Statistics already has a B.S. in Data Science**, built on a calculus-first, mathematical-statistics spine (Calc I–III → linear algebra → STAT 610/611). A CS-side Data Science specialization should therefore be **deliberately CS-flavored** — heavier on programming, data engineering, databases, and systems — and should **partner with Statistics** for statistical depth rather than rebuild it. The differentiator: CS contributes the computing and engineering; Statistics contributes the inferential theory.
 
 ## What the core already provides (the on-ramps)
 
-Data-science-bound students arrive having spiraled through more relevant threads than any other specialization:
+Data-science-bound students arrive having spiraled through Data Structures & Representation (including geospatial), the full (non-calculus) statistics sequence, the Human-Centered Computing visualization throughline, declarative SQL and dataflow in Computational Models, Optimization Reasoning, and a notebook data-analysis capstone with responsible-AI judgment.
 
-- **Data Structures & Representation** \u2014 including the graph sub-spiral and the geospatial sub-theme (vector/raster representation, spatial indexing). Real breadth in how data is shaped.
-- **The full statistics sequence** \u2014 descriptive statistics, probability, distributions & sampling, and regression. Four courses, one per relevant block (non-calculus, intro level). This is the spine of data science and it is *already in the core*.
-- **Human-Centered Computing** \u2014 the data-visualization throughline (honest charts; visualization as investigation, not just output) and the validation/fitness emphasis. Communicating and validating with data is core to the discipline.
-- **Computational Models** \u2014 declarative querying (SQL named explicitly) and dataflow (transformation pipelines, D3). The data-pipeline mental model is established.
-- **Optimization Reasoning** \u2014 "best under constraints," including multi-objective tradeoffs.
-- **AI-Assisted Development** \u2014 culminating in notebook-based data analysis plus responsible-A.I. judgment (CS-210).
+## Prerequisite mapping (core → specialization)
 
-The core's B5 (databases, the Data Investigation assessment) and the embedded statistics make data-science students unusually well-prepared *before* the specialization begins. This should be stated as a selling point: much of a traditional data-science first year is already in the common core.
+K-State's DS-relevant courses carry prerequisites the core satisfies by design:
 
-## Year-3 mathematics prerequisites
+| Course prerequisite | Satisfied by |
+|---|---|
+| CIS 300 (data structures) | Data Structures & Representation thread (B3–B4) |
+| CIS 301 (logic) | Absorbed (MATH-101 + Correctness & Verification) |
+| CC 310 (Python) | Core language-agnostic foundation + an optional Python certificate |
+| STAT 225 / STAT 510 (intro stats) | The core's STAT-101–104 sequence (non-calculus) |
+| MATH 510 (discrete) | The core's MATH-101–104 sequence |
 
-Lighter than A.I., but real:
+## CS-side specialization stack (real undergraduate courses)
 
-- **Linear Algebra** \u2014 for dimensionality reduction, matrix methods, and the linear-algebra view of regression and ML.
-- **Calculus-based probability/statistics** \u2014 the rigorous successor to the core's conceptual stats (e.g. STAT 511 Introductory Probability and Statistics II exists as a feeder).
-- **Calculus** \u2014 needed for the above and for optimization in ML, though data science leans less heavily on it than A.I.
+K-State has built a genuine undergraduate 500-level data-science suite — the earlier worry that depth was graduate-only was mistaken:
 
-## Specialization stack \u2014 from available K-State courses
+| Course | Role |
+|---|---|
+| **CIS 533 Introduction to Data Science Foundations** | Data wrangling, feature engineering, classification, regression, clustering, outlier detection, **and societal aspects** — covers much of the ABET lifecycle in one course |
+| **CIS 531 Introduction to Programming Techniques for Data Science** | MapReduce, big-data tooling, data integration and transformation |
+| **CIS 560 Database System Concepts** | Data management depth (the core's B5 is the foundation) |
+| **CIS 561 Introduction to Data Science in Practice** | A **capstone-bearing practicum** — directly serves the ABET major-project requirement |
+| Graduate electives (CIS 731/733/860/864) | Further depth (data engineering, advanced databases) via accelerated access |
 
-As with A.I., K-State's data depth is largely **graduate-level**; the undergraduate offering is thin and would need new 500-level courses or accelerated access. K-State does have a Data Analytics M.S. and a strong data-mining/KDD research group to draw faculty from.
+## Statistics partnership stack (real courses)
 
-| Course | Status | Role |
+Rather than duplicate Statistics, the specialization draws on its courses for inferential and modeling depth:
+
+| Course | Role | Calculus needed? |
 |---|---|---|
-| **CIS 560 Database System Concepts** | Exists | Database depth (the core's B5 is the foundation; 560 is the deeper spiral) |
-| **CIS 732 Machine Learning & Pattern Recognition** | Graduate | Shared with A.I.; predictive modeling \u2014 needs a 500-level version or accelerated access |
-| **CIS 861 Data Science in Practice** | Graduate | A practicum \u2014 strong capstone candidate |
-| **CIS 864 Data Engineering** | Graduate (prereq 761/764) | Pipelines and data systems at scale |
-| **CIS 860 Advanced Database Systems** | Graduate | Data mining, warehousing, OLAP |
-| **CIS 833 Information Retrieval & Text Mining** | Graduate | Unstructured-data elective |
-| **Statistics Department courses** | Exist (STAT) | STAT 511+ and regression/applied courses \u2014 data science is statistics-heavy and this is essential cross-department territory |
+| **STAT 705 Regression & ANOVA** | Regression/modeling baseline | No (one prior stats course) |
+| **STAT 766 Applied Data Mining / ML & Predictive Analytics** | Statistics-side ML (trees, SVM, random forests, boosting, clustering, topic models) | No (needs 705 + programming) |
+| **STAT 745 Statistical Graphics** | **Data visualization** (serves ABET viz directly) | No (needs 705) |
+| **STAT 760 Optimization for Data Science** | Optimization (convex/nonconvex, applied to ML) | Yes (needs STAT 511 + linear algebra) |
+| **STAT 713 Applied Linear Statistical Models** | Matrix-based regression/modeling | Needs linear algebra |
+| **STAT 511 / STAT 610–611** | Calculus-based inference; mathematical-statistics rigor | Yes (Calc II / Calc III) |
+| **STAT 764 Applied Spatio-Temporal Statistics** | Geospatial statistics (ties to the core's geospatial sub-theme) | Needs 705/713 |
 
-## Recommended shape
+## Mathematics
 
-1. **Year-3 math:** Linear Algebra and calculus-based statistics (with calculus as needed).
-2. **Database depth:** CIS 560 (building on the core's B5).
-3. **Predictive modeling:** a Machine Learning course (CIS 732 or a new 500-level equivalent) \u2014 shared with A.I.
-4. **Data engineering / mining:** CIS 864 and/or CIS 860 (pipelines, warehousing, mining).
-5. **Statistics depth:** STAT-department courses beyond the core's sequence \u2014 the cross-department spine.
-6. **Capstone:** a data-science practicum in the spirit of CIS 861.
-7. **Optional electives:** text mining (833), advanced databases, visualization.
+- **Linear algebra: MATH 551 (Applied Matrix Theory)** — applied, needs only Calc I, and bundles linear programming. Preferred over MATH 515 (which needs Calc III). *A custom linear-algebra course built off the core math progression — potentially landing before calculus — would fit the foundation's philosophy better and is worth pursuing with Mathematics.*
+- **Calculus** moves to year 3 (the core decision).
 
-## Honest gaps and flags
+## The calculus-sequencing tension (flagged honestly)
 
-1. **Cross-department dependency is the defining feature.** Data science is as much Statistics as Computer Science. This specialization cannot be designed by C.S. alone \u2014 it requires genuine co-design with the Statistics department for the upper-division statistics courses, and the core's *non-calculus* statistics constraint must be reconciled with the calculus-based statistics the specialization needs in year 3.
-2. **Thin undergraduate data-science inventory.** CIS 861/864/860 are graduate courses. Undergraduate-accessible versions, accelerated access, or new 500-levels are needed.
-3. **Dedicated visualization course.** The core carries a data-visualization throughline but not a full course; a dedicated viz course may be wanted at the specialization level given its centrality to data science.
-4. **Shared ML course with A.I.** A single Machine Learning course can likely serve both specializations \u2014 an efficiency worth planning deliberately.
-5. **Shared upper-division + ABET.** Which of CIS 501/505/560/575 this specialization requires, and ABET sufficiency of the required path, is part of the pending 500-level restructure analysis.
+This is the most important planning issue for this specialization. Statistics' own DS degree **front-loads calculus** (Calc I–III in years 1–2) precisely to make the rigorous stats sequence (STAT 510/511, 610/611) reachable on time. **Our core defers calculus to year 3**, which means the calculus-based statistics and optimization courses cannot begin until year 3 and therefore **compress into years 3–4** for our specialization students.
 
-## Bottom line
-
-Data Science is the specialization the core most naturally feeds \u2014 the four-course statistics sequence, the data-structures and geospatial representation work, the visualization throughline, declarative SQL and dataflow, and the notebook data-analysis capstone mean students arrive substantially prepared. The two real challenges are **cross-department co-design with Statistics** (including reconciling the non-calculus core stats with the calculus-based year-3 statistics) and, as with A.I., the **thin undergraduate course inventory** (the practicum, data-engineering, and mining courses are currently graduate-level and would need undergraduate equivalents or accelerated access).
+Partial mitigation: a meaningful slice of useful statistics is reachable **without** calculus — STAT 705 (regression) → STAT 766 (ML) and STAT 745 (visualization) form a non-calculus path covering regression, machine learning, and visualization. But statistical **inference rigor** (511, 610/611) and **optimization** (STAT 760, which needs 511) genuinely require calculus and will bunch up late. The faculty choice is explicit: (a) accept compressed year-3/4 math-statistics, (b) pull calculus earlier for DS-bound students, or (c) build the specialization preferentially on the non-calculus-reachable courses where ABET coverage allows.
 
 ---
 
 # ABET Accreditation Mapping
 
-ABET's data-science program criteria require **at least 45 semester credit hours of data science coursework** covering a defined set of lifecycle topics and spanning concepts, plus advanced depth, an application area, and a major integrative project. The criteria map unusually well onto the core + proposed specialization \u2014 a useful validation that the core's data-science on-ramp was well-aimed \u2014 but several specific gaps and one structural constraint need explicit attention.
+ABET requires **≥45 SCH of data science coursework** covering lifecycle topics and spanning concepts, plus advanced depth, an application area, and a major project.
 
 ## Lifecycle topics
 
-| ABET lifecycle topic | Where it lives | Status |
+| ABET topic | Coverage | Status |
 |---|---|---|
-| Data acquisition & representativeness | Core: data transformation (CS-104), API data (B4), Data Investigation (B5); sampling in STAT-103 | **Partial** \u2014 acquisition covered; *representativeness/sampling bias* is a data-science-specific concept that needs explicit naming |
-| Data management | Core B5 (SQL + database design); CIS 560 depth; CIS 864 data engineering | Covered |
-| Data preparation & integration | Core: CS-104 transformation, CS-207 data integration (B7) | Covered |
-| Data analysis | Core: CS-210 notebook analysis (B8); the statistics sequence | Covered |
-| Model development & deployment | Specialization ML course; **deployment maps to core B8 (CS-208 Deployment & Operations)** | Covered \u2014 a nice reuse of the core's operations work |
-| Visualization & communication | Core: Human-Centered Computing visualization throughline + Professional Practices communication | Covered \u2014 a genuine core strength; a dedicated visualization course would add depth |
+| Data acquisition & representativeness | CIS 531 (acquisition/integration); core; sampling in the core stats | Partial — name *representativeness/sampling bias* explicitly |
+| Data management | CIS 560; core B5 | Covered |
+| Data preparation & integration | CIS 531, CIS 533 (wrangling/feature engineering) | Covered |
+| Data analysis | CIS 533; STAT 705/766; core CS-210 | Covered |
+| Model development & deployment | STAT 766 / CIS 532 (models); deployment via core B8 | Covered |
+| Visualization & communication | **STAT 745** + core Human-Centered visualization throughline | Covered |
 
 ## Spanning concepts
 
-| ABET spanning concept | Where it lives | Status |
+| ABET concept | Coverage | Status |
 |---|---|---|
-| Data ethics (legitimate use, **algorithmic fairness**) | Core: Trustworthy Computing lens; CS-210 Responsible A.I.; honest-visualization ethics | **Partial** \u2014 ethics and legitimate use covered; *algorithmic fairness* as a named topic needs explicit specialization coverage |
-| Governance (privacy, security, **stewardship**) | Core: Trustworthy Computing (privacy, security, data minimization); B5 access control | **Partial** \u2014 privacy/security strong; *data stewardship / lifecycle governance* needs strengthening |
-| Applied statistics & math: **inference**, modeling, linear algebra, probability, optimization | Core stats sequence (descriptive, non-calculus); year-3 calculus-based statistics, linear algebra; Optimization Reasoning lens; regression (STAT-104); ML modeling | **Mostly covered, with a sequencing note** \u2014 *statistical inference* (hypothesis testing, confidence intervals) requires the year-3 calculus-based statistics, not the core's descriptive/non-calculus stats. Linear algebra and optimization are year-3. The dependency must be sequenced deliberately |
-| Computing (data structures & algorithms) | Core: Data Structures & Representation thread; Algorithmic Thinking & Complexity thread | **Covered strongly** \u2014 home turf |
+| Data ethics, **algorithmic fairness** | CIS 533 societal aspects + core Trustworthy Computing | Partial — name *algorithmic fairness* explicitly |
+| Governance (privacy, security, **stewardship**) | Core Trustworthy Computing; CIS 560 | Partial — strengthen *stewardship* |
+| Applied stats/math: **inference**, modeling, linear algebra, probability, optimization | Core stats; STAT 705/713/511/610-611 (inference/modeling); MATH 551 (linear algebra); **STAT 760** (optimization) | Covered — but inference rigor is calculus-gated (year 3); sequence deliberately |
+| Computing (data structures & algorithms) | Core Data Structures + Algorithmic threads | Covered strongly |
 
-## Advanced coursework, application area, and project
+## Depth, application area, project
 
-- **Advanced data science coursework (depth):** the specialization stack (ML, data engineering, advanced databases, text mining, practicum) \u2014 covered, pending undergraduate-level availability of currently-graduate courses.
-- **Application area (context):** **a new explicit requirement.** ABET wants data science applied to a domain. Options that fit existing strengths: **geospatial** (the core's geospatial representation + algorithms, and the Geography/GIS relationship); **bioinformatics** (CIS 834 Machine Learning for Bioinformatics exists); or **business analytics**. An application area must be named and a path built.
-- **Major project (integrative capstone):** CIS 861 Data Science in Practice, or a new capstone \u2014 covered.
+- **Advanced coursework:** CIS 731/733/860/864 + STAT 730/768/716/717 (graduate/upper electives).
+- **Application area:** name one — **geospatial** (core geospatial theme + STAT 764), **bioinformatics** (CIS 734), or business.
+- **Major project:** **CIS 561 (Data Science in Practice)** is capstone-bearing — covered.
 
-## The 45-credit floor \u2014 careful accounting needed
+## The 45-credit accounting
 
-This is the structural constraint. ABET requires \u226545 SCH of *data science* coursework, and not all of the core counts. Statistics, data structures, databases, data transformation/integration, visualization, and the analysis course clearly count (~12\u201315 core credits); but general-CS portions of the core (imperative/functional programming, OOP, security, systems) likely do **not** count as "data science coursework." So the effective core contribution to the 45 is **less than the total core credits**, which means the specialization stack plus the year-3 mathematics must be sized to carry the remainder. A rough accounting:
+Not all of the core counts as "data science coursework." DS-counting core (~12–15) + CS-side stack (CIS 531/533/560/561 ≈ 12) + Statistics stack (STAT 705/745/760/766 ≈ 12) + math (MATH 551 + calculus-based stats ≈ 6–9) clears 45 comfortably — more easily than the earlier draft suggested, because the real course suite exists. Size the *required* (not merely available) courses to clear the floor.
 
-- Core, DS-counting portion: ~12\u201315 SCH
-- Specialization stack: ~15\u201321 SCH
-- Year-3 math (linear algebra, calculus-based probability/statistics, optimization): ~9\u201312 SCH
+## Bottom line
 
-That sums to roughly 36\u201348 SCH \u2014 it **can** clear 45, but only with deliberate sizing. The 45-credit floor is a real design constraint that sets how many specialization and math credits must be *required* (not merely available).
-
-## Gaps to close for ABET
-
-1. **Representativeness / sampling bias** \u2014 name and cover it explicitly (data-science-specific, currently only implicit).
-2. **Algorithmic fairness** \u2014 add as a named topic in the specialization (the core does responsible A.I. but not fairness by name).
-3. **Data stewardship / lifecycle governance** \u2014 strengthen beyond the core's privacy/security.
-4. **Statistical inference sequencing** \u2014 confirm the year-3 calculus-based statistics delivers inference, since the core stats is deliberately descriptive/non-calculus.
-5. **Application area** \u2014 name at least one (geospatial, bioinformatics, or business) and build the path.
-6. **45-SCH accounting** \u2014 size the required specialization + math credits so the data-science-counting total clears 45, recognizing that general-CS core credits may not count.
-
-## Bottom line on ABET
-
-The fit is strong: the lifecycle and spanning concepts are nearly all present across the core and proposed specialization, and computing/data-structures (often a weak point for data-science programs housed outside CS) is a core strength here. The work to be accreditation-ready is **targeted, not structural** \u2014 name a few currently-implicit topics (representativeness, algorithmic fairness, stewardship), confirm the year-3 statistics delivers inference, choose an application area, and do the 45-credit accounting carefully so the required (not just available) data-science credits clear the floor.
-
+With the real course suite, Data Science is well-supported: CIS 533/531/560/561 give a CS-flavored core, Statistics supplies inference/ML/visualization/optimization depth (STAT 705/766/745/760), and CIS 561 provides the capstone. The two real issues are **the calculus-sequencing tension** (our deferral compresses the calculus-gated stats into years 3–4, unlike Statistics' calculus-first DS degree) and **coordination with the existing Statistics DS degree** (differentiate as CS-flavored, partner rather than duplicate). The remaining ABET naming gaps — representativeness, algorithmic fairness, stewardship — are targeted additions, not structural.

@@ -12,7 +12,7 @@ ordinal = "1.2.1"
 
 ## Character
 
-The strongest spiral in the design. Each pass is a real generalization, not a harder repeat. After B3 it is taught contract-first (ADT interface before implementation), which lets B4 ask 'how do we choose among implementations of the same contract?' Graphs are a deliberate sub-spiral inside this thread (B3 model → B4 represent → B5 persist → B7 algorithms+theory) rather than a single terminal pass. Geospatial data rides the thread as an applied representation sub-theme (B3 vector/raster representation → B4 spatial indexing via trees/hashing), which also deepens the GIS service relationship.
+The strongest spiral in the design. Each pass is a real generalization, not a harder repeat. After B3 it is taught contract-first (ADT interface before implementation), which lets B4 ask 'how do we choose among implementations of the same contract?' Graphs are a deliberate sub-spiral inside this thread (B3 model → B4 represent+theory → B5 persist → B7 algorithms) rather than a single terminal pass. Geospatial data rides the thread as an applied representation sub-theme (B3 vector/raster representation → B4 spatial indexing via trees/hashing), which also deepens the GIS service relationship.
 
 ## Passes across the two years
 
@@ -20,13 +20,13 @@ The strongest spiral in the design. Each pass is a real generalization, not a ha
 |---|---|---|
 | B1 (Y1 Fall) | CS-103 Computational Representation | Bits, booleans, numbers — the most primitive representation. |
 | B3 (Y1 Spring) | CS-109 Abstract Data Types | Linear structures (lists, stacks, queues) as ADTs — contract first, implementation hidden. Graph sub-spiral begins: graphs as a MODEL for relationship-structured data. Geospatial representation seed: points/lines/polygons (vector) and rasters (grids). |
-| B4 (Y1 Spring) | CS-110 Trees, Hashing & Hierarchies | Hierarchical/associative structure; contracts continue. Graph sub-spiral: representing and building graphs (adjacency list/matrix — the matrix also seeds basic linear algebra), basic traversal. Spatial indexing as applied trees/hashing: quadtrees, R-trees, geohashing. |
+| B4 (Y1 Spring) | CS-110 Trees, Hashing & Hierarchies + MATH-104 | Hierarchical/associative structure; contracts continue. Graph sub-spiral: representing and building graphs (adjacency list/matrix — the matrix also seeds basic linear algebra), basic traversal. MATH-104 concurrent: formal graph theory (graphs, trees, networks) as students begin the graph sub-spiral. Spatial indexing as applied trees/hashing: quadtrees, R-trees, geohashing. |
 | B5 (Y2 Fall) | CS-201/202 + graph DB | Relational data as a formal, queryable model. Graph sub-spiral: a brief touch of a graph database (Neo4j/Cypher) as another persistent store alongside relational. |
-| B7 (Y2 Spring) | CS-206/207 | Graph sub-spiral capstone: graph algorithms + MATH-104 graph theory, landing on four blocks of prior graph use. Document/NoSQL: representation when the relational model doesn't fit — closes the loop. |
+| B7 (Y2 Spring) | CS-206/207 | Graph sub-spiral capstone: graph algorithms, landing on several blocks of prior graph use. Document/NoSQL: representation when the relational model doesn't fit — closes the loop. |
 
 ## Connections
 
-- Hands off to Algorithmic Thinking at B4 (same contract, different cost). Carries Boundaries & Contracts from B3. The graph sub-spiral is paced against the external graph-theory course (MATH-104, B7).
+- Hands off to Algorithmic Thinking at B4 (same contract, different cost). Carries Boundaries & Contracts from B3. The graph sub-spiral opens with MATH-104 concurrent at B4 — formal theory lands at the same block as the first hands-on graph representation work.
 
 ## Open questions for faculty review
 

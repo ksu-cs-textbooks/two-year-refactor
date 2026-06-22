@@ -33,7 +33,7 @@ Co-designed external courses (1):
 
 | Code | Course | Cr | Notes |
 |---|---|---|---|
-| MATH-104 | **Discrete Math: Graphs, Trees, and Networks** | 1 | (External/co-designed. Formalizes the graph spiral that runs B3→B7 — the deep pass, landing on four blocks of prior graph use.) |
+| STAT-103 | **Random Variables, Distributions & Sampling** | 1 | (External/co-designed, stats dept. Distributions, sampling, central limit theorem.) |
 
 **Block load:** 3 concurrent courses (2 CS + 1 external), 3 credits.
 

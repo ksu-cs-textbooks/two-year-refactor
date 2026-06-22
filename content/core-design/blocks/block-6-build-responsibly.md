@@ -34,7 +34,7 @@ Co-designed external courses (1):
 
 | Code | Course | Cr | Notes |
 |---|---|---|---|
-| STAT-103 | **Random Variables, Distributions & Sampling** | 1 | (External/co-designed, stats dept. Distributions, sampling, central limit theorem.) |
+| STAT-102 | **Probability** | 1 | (External/co-designed, stats dept. Follows Counting (B2/B3); foundational for ML. Probability ownership vs. discrete math to be settled in cross-department co-design.) |
 
 **Block load:** 4 concurrent courses (3 CS + 1 external), 3 credits.
 

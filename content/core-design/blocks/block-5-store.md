@@ -33,7 +33,7 @@ Co-designed external courses (1):
 
 | Code | Course | Cr | Notes |
 |---|---|---|---|
-| STAT-102 | **Probability** | 1 | (External/co-designed, stats dept. Follows Counting (B2/B3); foundational for ML. Probability ownership vs. discrete math to be settled in cross-department co-design.) |
+| STAT-101 | **Descriptive Statistics & Data Summarization** | 1 | (External/co-designed, stats dept. Describe data the student is now storing; feeds the data-visualization throughline. First of the statistics-for-ML sequence.) |
 
 **Block load:** 3 concurrent courses (2 CS + 1 external), 3 credits.
 
@@ -55,7 +55,7 @@ Competencies are program-level and developed across many blocks; this block is o
 
 1. Service-course model: SQL Fundamentals + Database Design form a 2-credit "Relational Databases" service unit, intended to be followed by a partner department's domain-application course (e.g. business data applications) — together a one-semester progression for a visiting student. This is the general service-course model: we own the domain-neutral foundation, the partner owns the application.
 2. This reverses an earlier idea (round 7) of pushing Database Design into Block 6 to make a full-semester service course; keeping both in Block 5 protects Block 6 from further density.
-3. External pacing was reworked to exactly one per block (math B1–B3 + B7, statistics B4–B6 + B8). B5 now carries STAT-102 Probability. Load is regular across the curriculum (six blocks of 4 courses, two of 3).
+3. External pacing now runs as math B1–B4 (consecutive) and statistics B5–B8 (consecutive). B5 now carries STAT-101 Descriptive Statistics. Load is regular across the curriculum (six blocks of 4 courses, two of 3).
 4. Probability ownership is unresolved: the discrete-math draft's Course 2 already covers finite/counting-based probability through Bayes, while the statistics sequence wants continuous probability + distributions. Likely split (discrete owns finite, stats owns continuous) but this is for the cross-department co-design meeting.
 
 ---
