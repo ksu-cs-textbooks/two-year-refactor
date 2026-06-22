@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block 3 — Model :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/index.html</link>
+    <description>Course designs for Block 3 (Model).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS-107 Object-Oriented Programming I</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/cs-107/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/cs-107/index.html</guid>
+      <description>CS-107 — Object-Oriented Programming I 1 credit&#xA;Working description Encapsulation, inheritance, abstraction, classes — modeling a domain and drawing boundaries. Moved from B2. Encapsulation as boundary-drawing (Boundaries &amp; Contracts thread).&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    </item>
+    <item>
+      <title>CS-108 Object-Oriented Programming II</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/cs-108/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/cs-108/index.html</guid>
+      <description>CS-108 — Object-Oriented Programming II 1 credit&#xA;Working description Collections, iterators, OOP design principles — abstraction over data access/traversal; modeling discipline.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    </item>
+    <item>
+      <title>CS-109 Abstract Data Types</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/cs-109/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/cs-109/index.html</guid>
+      <description>CS-109 — Abstract Data Types 1 credit&#xA;Working description Lists, linked lists, stacks, queues taught CONTRACT-FIRST: the ADT interface and its guarantees before implementation. Same-contract-multiple-implementations sets up B4 cost-based choice. Function pre/post-conditions name B1 informal verification reasoning. Graph spiral begins: graphs introduced as a MODEL for relationship-structured data (people/friendships, pages/links, task dependencies) — conceptual, no algorithms yet. Geospatial representation seed: points, lines, polygons (vector) and rasters (grids) as representation choices for spatial data.</description>
+    </item>
+    <item>
+      <title>MATH-103 Discrete Math: Recursive and Modular Computation</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/math-103/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/math-103/index.html</guid>
+      <description>MATH-103 — Discrete Math: Recursive and Modular Computation 1 credit (co-designed external)&#xA;Working description (External/co-designed. Recursion arrives as ADTs/trees need it; modular arithmetic seeds B6 cryptography.)&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="description" content="How the design satisfies external requirements: ABET accreditation mappings, the K-State degree replacement, and service-department mappings.">
+    <meta name="author" content="Russell Feldhausen">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta name="twitter:title" content="Analyses :: CS Two Year Refactor">
+    <meta name="twitter:description" content="How the design satisfies external requirements: ABET accreditation mappings, the K-State degree replacement, and service-department mappings.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/analyses/index.html">
+    <meta property="og:site_name" content="CS Two Year Refactor">
+    <meta property="og:title" content="Analyses :: CS Two Year Refactor">
+    <meta property="og:description" content="How the design satisfies external requirements: ABET accreditation mappings, the K-State degree replacement, and service-department mappings.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta itemprop="name" content="Analyses :: CS Two Year Refactor">
+    <meta itemprop="description" content="How the design satisfies external requirements: ABET accreditation mappings, the K-State degree replacement, and service-department mappings.">
+    <meta itemprop="dateModified" content="2026-06-21T19:29:55-05:00">
+    <meta itemprop="wordCount" content="16">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <title>Analyses :: CS Two Year Refactor</title>
+    <link href="https://textbooks.cs.ksu.edu/two-year-refactor/analyses/index.html" rel="canonical" type="text/html" title="Analyses :: CS Two Year Refactor">
+    <link href="/two-year-refactor/analyses/index.xml" rel="alternate" type="application/rss+xml" title="Analyses :: CS Two Year Refactor">
+    <link href="/two-year-refactor/analyses/tele.html" rel="alternate" type="text/html" title="Analyses :: CS Two Year Refactor">
+    <link href="/two-year-refactor/analyses/embed.html" rel="alternate" type="text/html" title="Analyses :: CS Two Year Refactor">
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782159576" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1782159576" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782159576";
+    </script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782159576" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782159576" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782159576" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782159576" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1782159576" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-print.min.css?1782159576" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/analyses\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/two-year-refactor';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/two-year-refactor/css/custom.css?1782159576" rel="stylesheet">
+  </head>
+  <body class="mobile-support print" data-url="/two-year-refactor/analyses/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/two-year-refactor/index.html"><span itemprop="name">Two-Year CS Redesign</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Analyses</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/hugo-starter/edit/main/content/analyses/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/analyses/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/specializations/software-architecture/index.html" title="Software Architecture (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/analyses/abet-cs/index.html" title="ABET CS Criteria Analysis (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/analyses/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/analyses/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable analyses" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="analyses">Analyses</h1>
+
+<p>How the design satisfies external requirements: ABET accreditation mappings, the K-State degree replacement, and service-department mappings.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+          <section>
+            <h1 class="a11y-only">Subsections of Analyses</h1>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="abet-cs-criteria-analysis">ABET CS Criteria Analysis</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. Checks the redesigned B.S. in Computer Science against ABET&rsquo;s computer-science program criteria. The binding question: does the <strong>required</strong> path (common core + capstone + whatever stays required) independently satisfy ABET, with former-required 500-levels as elective depth? Core course codes are placeholders; CIS numbers are actual K-State courses.</em></p></blockquote>
+<h2 id="why-this-is-the-binding-analysis">Why this is the binding analysis</h2>
+<p>The project&rsquo;s scope escalated from &ldquo;replace sub-500 CIS&rdquo; to &ldquo;restructure the entire required CS core,&rdquo; with courses like CIS 560 and 575 migrating to elective status. ABET is the constraint that makes this safe or not: the <strong>required</strong> path must satisfy every CS criterion on its own, with electives providing genuine depth rather than load-bearing coverage. This analysis maps the criteria against the core and identifies exactly which gaps force a course to remain required.</p>
+<h2 id="computer-science-40-sch">Computer science (≥40 SCH)</h2>
+<h3 id="substantial-coverage-requirements">Substantial-coverage requirements</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Requirement</th>
+          <th>Coverage</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Algorithms &amp; complexity</td>
+          <td>Algorithmic Thinking thread (B4 complexity, B7 graph algorithms, B8 real bottleneck) + Data Structures</td>
+          <td><strong>Likely substantial</strong> for the floor; CIS 575 becomes elective depth. Faculty judgment on &ldquo;substantial&rdquo; advised</td>
+      </tr>
+      <tr>
+          <td><strong>Computer science theory</strong></td>
+          <td>Core has complexity (Big-O), computational models (paradigms), logic/verification — but <strong>not</strong> automata, computability, or formal languages</td>
+          <td><strong>GAP</strong> — the core is deliberately applied and light on classical CS theory. The most significant finding</td>
+      </tr>
+      <tr>
+          <td>Concepts of programming languages</td>
+          <td>Computational Models thread (imperative, functional, declarative, concurrent, dataflow, logic)</td>
+          <td><strong>Covered strongly</strong> — the flagship thread <em>is</em> programming-language concepts; arguably better than a traditional course</td>
+      </tr>
+      <tr>
+          <td>Software development</td>
+          <td>Code Comprehension, Correctness &amp; Verification, Professional Practices, Sociotechnical Structure, B6 team project, B8 deployment</td>
+          <td><strong>Covered strongly</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Substantial coverage of ≥1 general-purpose language</strong></td>
+          <td>Core is deliberately language-<em>agnostic</em>; deep single-language work lives in <strong>certificates outside the 120-credit degree</strong></td>
+          <td><strong>GAP / philosophy collision</strong> — out-of-degree certificates likely do not count for ABET</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="exposure-requirements-lower-bar">Exposure requirements (lower bar)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Requirement</th>
+          <th>Coverage</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Computer architecture &amp; organization</td>
+          <td>Programming-centric architecture absorbed into the core (stack/heap at B1, cache/memory-hierarchy at B8)</td>
+          <td>Exposure likely met; verify whether ABET wants ISA/organization depth we lack</td>
+      </tr>
+      <tr>
+          <td>Information management</td>
+          <td>Core B5 (databases, SQL, schema design)</td>
+          <td>Covered — arguably substantial, not just exposure</td>
+      </tr>
+      <tr>
+          <td>Networking &amp; communication</td>
+          <td>APIs &amp; Networked Systems thread + the (deferred) OSI Networking unit</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>Operating systems</td>
+          <td>Core now includes programmer-facing OS grounding: the process/execution model (seeded B1), and processes vs threads, preemptive vs cooperative scheduling, kernel/user space, plus virtual memory and paging/thrashing (B8)</td>
+          <td><strong>Covered</strong> at the exposure level ABET asks for — surfaced to ground the concurrent computational models and the memory-hierarchy-trumps-Big-O lesson; not a full classical-OS course, but genuine exposure to the core OS concepts</td>
+      </tr>
+      <tr>
+          <td>Parallel &amp; distributed computing</td>
+          <td>Computational Models (concurrent, actor model at B8) + B8 fault tolerance</td>
+          <td>Covered</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="other-cs-requirements">Other CS requirements</h3>
+<ul>
+<li><strong>Computing-based systems at varying levels of abstraction:</strong> the core is <em>built</em> on this — the representation spiral (primitive \u2192 graph), the Boundaries &amp; Contracts meta-thread, the abstraction progression. <strong>Covered strongly</strong> — a core philosophy, not just a checkbox.</li>
+<li><strong>Major project:</strong> the capstone, plus the B6 Team Software Project and B8 System Integration Project. Covered.</li>
+</ul>
+<h2 id="mathematics--statistics-15-sch-rigor--introductory-calculus">Mathematics &amp; statistics (≥15 SCH, rigor ≥ introductory calculus)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Requirement</th>
+          <th>Coverage</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Discrete mathematics</td>
+          <td>Core MATH-101–104 (4 cr)</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>Probability</td>
+          <td>STAT-102 (core, conceptual) + year-3 calculus-based</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>Statistics</td>
+          <td>Core STAT-101–104 (4 cr)</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>Rigor ≥ introductory calculus</td>
+          <td>Year-3 calculus + linear algebra sit within the 15-SCH block</td>
+          <td><strong>Met at the block level</strong> — see tension below</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>The rigor tension.</strong> The foundation statistics is deliberately <em>non-calculus</em> (calculus was moved to year 3). ABET wants the math/stats block to carry calculus-level rigor. The resolution: the 15-SCH block <em>includes</em> year-3 calculus and linear algebra, so the <strong>block</strong> clears the rigor bar even though the foundation stats within it is conceptual. Two consequences to confirm: (1) year-3 calculus must be counted within the 15 SCH, and (2) the 15-SCH math/stats requirement therefore formally spans into year 3 — acceptable for a four-year degree, but it should be explicit.</p>
+<h2 id="science">Science</h2>
+<p>Coursework applying the scientific method in a non-computing area — a science/gen-ed requirement K-State already satisfies, outside CS coursework and unaffected by this redesign. Noted only for completeness.</p>
+<h2 id="the-three-real-gaps--and-how-they-decide-required-vs-elective">The three real gaps — and how they decide required vs. elective</h2>
+<p>The value of this analysis: the ABET gaps <strong>determine which 500-level courses must stay required</strong>. Courses whose <em>foundations</em> the core already covers can become electives; courses that fill a core gap must stay required.</p>
+<ol>
+<li><strong>Computer science theory</strong> (automata, computability, formal languages). The core does not cover it. <strong>Implication:</strong> a formal-theory course (e.g. CIS 570/770) likely <strong>stays required</strong>, or the core is strengthened to add theory. This is the clearest &ldquo;must stay required&rdquo; consequence.</li>
+<li><strong>General-purpose language, substantial coverage.</strong> The language-agnostic core plus out-of-degree certificates likely does not satisfy ABET. <strong>Implication — one of:</strong> (a) a language course stays required in the degree; (b) one core course takes a language deep (in tension with the multi-paradigm design); or (c) the certificate model is restructured so a certificate counts toward degree credit for ABET. This is a genuine collision between the design philosophy and the criterion, and it must be resolved deliberately.</li>
+<li><strong>Operating systems exposure — now addressed.</strong> Programmer-facing OS grounding (process/execution model at B1; processes/threads/scheduling and virtual memory/paging/thrashing at B8) is woven into the Computational Models and Algorithmic Thinking threads, where it grounds the concurrent-model distinctions and the systems-reality-trumps-Big-O lesson. This provides genuine OS <em>exposure</em> without a dedicated OS course.</li>
+</ol>
+<p>By contrast, the courses the restructure <em>wanted</em> to make elective are safe to: <strong>CIS 560 (databases)</strong> and <strong>CIS 575 (algorithm analysis)</strong> — the core covers their foundations (B5 databases; B4/B7 algorithms), so they become legitimate elective depth rather than required coverage.</p>
+<h2 id="recommended-required-vs-elective-shape-subject-to-faculty-judgment">Recommended required-vs-elective shape (subject to faculty judgment)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Likely status</th>
+          <th>Reason</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Two-year core (30 cr)</td>
+          <td><strong>Required</strong></td>
+          <td>Covers most ABET CS criteria</td>
+      </tr>
+      <tr>
+          <td>CIS 570/770 Formal Languages / Theory</td>
+          <td><strong>Likely required</strong></td>
+          <td>Fills the CS-theory gap</td>
+      </tr>
+      <tr>
+          <td>A general-purpose language course <em>or</em> restructured certificate</td>
+          <td><strong>Likely required</strong> (form TBD)</td>
+          <td>Fills the language-coverage gap</td>
+      </tr>
+      <tr>
+          <td>An OS course</td>
+          <td><strong>Not required on ABET grounds</strong></td>
+          <td>OS exposure now covered by the woven programmer-facing grounding (B1 + B8)</td>
+      </tr>
+      <tr>
+          <td>CIS 560 Databases</td>
+          <td><strong>Elective</strong></td>
+          <td>Core covers the foundation</td>
+      </tr>
+      <tr>
+          <td>CIS 575 Algorithm Analysis</td>
+          <td><strong>Elective</strong></td>
+          <td>Core covers the foundation</td>
+      </tr>
+      <tr>
+          <td>CIS 501 Software Architecture, CIS 505 Programming Languages</td>
+          <td><strong>Likely elective</strong></td>
+          <td>Core threads (Boundaries/Sociotechnical/HCI; Computational Models) cover the foundations — confirm</td>
+      </tr>
+      <tr>
+          <td>Capstone</td>
+          <td><strong>Required</strong></td>
+          <td>ABET major-project requirement</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="open-questions">Open questions</h2>
+<ol>
+<li><strong>CS theory.</strong> Add a required theory course, or strengthen the core to cover automata/computability? (The core&rsquo;s applied orientation was deliberate; adding theory is a real change.)</li>
+<li><strong>Language coverage.</strong> Which resolution — required language course, a language-deep core course, or certificates restructured to count? This decides the fate of the language-agnostic philosophy <em>within the accredited degree</em>.</li>
+<li><strong>Operating systems — resolved.</strong> The woven programmer-facing OS grounding (process model, threads/scheduling, virtual memory/paging/thrashing) provides the exposure ABET asks for; confirm faculty agree it clears the bar.</li>
+<li><strong>&ldquo;Substantial&rdquo; thresholds.</strong> Faculty judgment on whether core algorithms and architecture coverage clears &ldquo;substantial&rdquo;/&ldquo;exposure&rdquo; without the former depth courses.</li>
+<li><strong>Math rigor accounting.</strong> Confirm year-3 calculus counts within the 15-SCH math/stats block, making the non-calculus foundation stats acceptable.</li>
+</ol>
+<h2 id="bottom-line">Bottom line</h2>
+<p>The redesigned core satisfies the <strong>majority</strong> of ABET CS criteria, several of them strongly (programming-language concepts, software development, abstraction, information management). The accreditation work is now concentrated in <strong>two gaps</strong> — CS theory and substantial single-language coverage (operating-systems exposure having been closed by weaving programmer-facing OS grounding into the Computational Models and Algorithmic threads) — and those gaps are <em>productive</em>, because they convert the open &ldquo;which 500-levels stay required&rdquo; question into a principled answer: the courses that fill the core&rsquo;s ABET gaps stay required; the courses whose foundations the core already covers (560, 575, likely 501 and 505) become elective depth. The one genuine philosophical decision forced by ABET is the <strong>general-purpose-language requirement</strong>, which collides with the language-agnostic core and the out-of-degree certificate model and must be resolved explicitly.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="k-state-sub-500-cis-replacement">K-State Sub-500 CIS Replacement</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. Maps the proposed replacement of all sub-500 CIS courses in the K-State B.S. in Computer Science (Fall 2026 requirements) with the redesigned two-year core. Surfaces gaps, overlaps, and the decisions needed. Course codes for the new core are placeholders.</em></p></blockquote>
+<h2 id="what-is-being-replaced">What is being replaced</h2>
+<p>The current degree&rsquo;s CS Requirements block is 41 credits. Of that, the <strong>sub-500 CIS courses total 23 credits</strong>:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Cr</th>
+          <th>Nature</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 115 Introduction to Computing Science</td>
+          <td>2</td>
+          <td>Intro</td>
+      </tr>
+      <tr>
+          <td>CIS 116 Introduction to Programming</td>
+          <td>1</td>
+          <td>Intro programming</td>
+      </tr>
+      <tr>
+          <td>CIS 200 Programming Fundamentals</td>
+          <td>4</td>
+          <td>Programming</td>
+      </tr>
+      <tr>
+          <td>CIS 300 Data and Program Structures</td>
+          <td>3</td>
+          <td>Data structures</td>
+      </tr>
+      <tr>
+          <td>CIS 301 Logical Foundations of Programming</td>
+          <td>3</td>
+          <td><strong>Formal logic</strong></td>
+      </tr>
+      <tr>
+          <td>CIS 308 C/C++ Programming Laboratory</td>
+          <td>1</td>
+          <td><strong>Language-specific</strong></td>
+      </tr>
+      <tr>
+          <td>CIS 400 Object-Oriented Design, Implementation and Testing</td>
+          <td>3</td>
+          <td>OOP</td>
+      </tr>
+      <tr>
+          <td>CIS 415 Ethics and Conduct for Computing Professionals</td>
+          <td>3</td>
+          <td><strong>Ethics (standalone)</strong></td>
+      </tr>
+      <tr>
+          <td>CIS 450 Computer Architecture and Operations</td>
+          <td>3</td>
+          <td><strong>Architecture</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>The bolded four are the crux: they are <strong>not</strong> intro programming, and the two-year core was scoped around programming, data structures, and OOP. They need explicit decisions.</p>
+<p>For reference, what <strong>stays</strong> (500-level CIS and the non-CIS requirement): CIS 501 Software Architecture, CIS 505 Programming Languages, CIS 560 Database System Concepts, CIS 575 Algorithm Analysis, the capstone, ECE 241 Intro to Computer Engineering, and the restricted/technical electives.</p>
+<h2 id="the-headline-finding-this-is-not-a-11-replacement">The headline finding: this is not a 1:1 replacement</h2>
+<p>The two-year core is a <strong>different shape</strong> than the 23 credits it would replace. Three things are true at once:</p>
+<ol>
+<li>
+<p><strong>It cleanly covers the programming spine.</strong> CIS 115/116/200 (intro + programming) map to our Blocks 1\u20132; CIS 300 (data structures) maps to Blocks 3\u20134; CIS 400 (OOP) maps to Block 3. This is the clean part.</p>
+</li>
+<li>
+<p><strong>It leaves four gaps</strong> \u2014 content in sub-500 CIS that the core does not fully cover:</p>
+<ul>
+<li><strong>Computer architecture (CIS 450)</strong> \u2014 largely <em>not</em> in the core. We have CS-103 Computational Representation (boolean logic, number systems, bits) but not computer organization, assembly, or memory hierarchy. We also deliberately cut HDL/FPGA earlier in the redesign. This is the biggest gap.</li>
+<li><strong>Formal logic (CIS 301)</strong> \u2014 partially covered. Our external MATH-101 (Logic &amp; Sets), the Correctness &amp; Verification thread (pre/post-conditions, verification), and Boundaries &amp; Contracts touch this, but CIS 301 is a dedicated logic-of-programming course and ours is distributed.</li>
+<li><strong>Ethics (CIS 415)</strong> \u2014 covered <em>differently</em>. Our Trustworthy Computing lens and the Block 6 &ldquo;Responsible Development&rdquo; frame weave ethics throughout, by design. CIS 415 is a standalone 3-credit ethics course. Replacing a dedicated course with embedded treatment is a genuine pedagogical/philosophical choice, not an automatic substitution.</li>
+<li><strong>C/C++ specifics (CIS 308)</strong> \u2014 not covered. Our core is deliberately language-agnostic; CIS 308 is a specific C/C++ lab.</li>
+</ul>
+</li>
+<li>
+<p><strong>It reaches <em>upward</em> into current 500-level content.</strong> Our core teaches database design, algorithmic complexity, software/systems design, testing, security, and human-centered computing \u2014 material K-State currently places at 500-level (CIS 560 Databases, CIS 575 Algorithm Analysis, CIS 501 Software Architecture). So the core not only replaces sub-500 CIS, it <strong>overlaps several 500-level courses that are supposed to stay.</strong></p>
+</li>
+</ol>
+<h2 id="credit-reconciliation">Credit reconciliation</h2>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>Credits</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Sub-500 CIS being removed</td>
+          <td>23</td>
+      </tr>
+      <tr>
+          <td>Our core \u2014 CS courses</td>
+          <td>22</td>
+      </tr>
+      <tr>
+          <td>Our core \u2014 embedded external (discrete math + statistics)</td>
+          <td>8</td>
+      </tr>
+      <tr>
+          <td>Our core \u2014 total</td>
+          <td>30</td>
+      </tr>
+  </tbody>
+</table>
+<p>Two reconciliation problems sit in these numbers:</p>
+<p><strong>A. CS credits are roughly even (22 vs 23), but coverage differs.</strong> The 22 CS credits replace 23 sub-500 CIS credits at near-parity, <em>but</em> they cover a different content set (gaining databases/testing/security/HCI, missing architecture/C++/standalone-logic/standalone-ethics). Near-even credit totals mask a real content shift.</p>
+<p><strong>B. The embedded external courses collide with existing requirements.</strong> K-State&rsquo;s Math block <em>already</em> requires <strong>MATH 510 Discrete Mathematics (3)</strong> and <strong>STAT 510 Introductory Probability and Statistics I (3)</strong>, separate from the CS Requirements. Our core embeds its <em>own</em> discrete-math sequence (4 \u00d7 1cr) and statistics sequence (4 \u00d7 1cr). These <strong>duplicate or must replace</strong> MATH 510 and STAT 510. This needs explicit reconciliation \u2014 otherwise students take discrete math and statistics twice, in two different forms.</p>
+<p><strong>C. Upward overlap may or may not let students skip 500-levels.</strong> If the core covers CIS 560 (databases) and CIS 575 (algorithm analysis) content, do students still take those 500-level courses (reinforcement, with the core as prerequisite depth) or place out of them (changing the total degree credit count)? This directly affects the 41-credit CS Requirements total.</p>
+<h2 id="course-by-course-mapping">Course-by-course mapping</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Current sub-500 CIS</th>
+          <th>Maps to (new core)</th>
+          <th>Assessment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 115 Intro to Computing Science (2)</td>
+          <td>B1 reading-first framing + CS-101/103</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>CIS 116 Intro to Programming (1)</td>
+          <td>CS-101 Imperative Programming</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>CIS 200 Programming Fundamentals (4)</td>
+          <td>CS-101 + CS-102 + CS-104</td>
+          <td>Covered (and broader \u2014 adds functional + data transformation)</td>
+      </tr>
+      <tr>
+          <td>CIS 300 Data and Program Structures (3)</td>
+          <td>CS-109 + CS-110 + CS-112</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>CIS 301 Logical Foundations of Programming (3)</td>
+          <td>MATH-101 + Correctness &amp; Verification thread + Boundaries &amp; Contracts</td>
+          <td><strong>Partial \u2014 distributed, not a dedicated course</strong></td>
+      </tr>
+      <tr>
+          <td>CIS 308 C/C++ Lab (1)</td>
+          <td>\u2014</td>
+          <td><strong>Gap \u2014 core is language-agnostic</strong></td>
+      </tr>
+      <tr>
+          <td>CIS 400 OOD, Implementation &amp; Testing (3)</td>
+          <td>CS-107 + CS-108 (+ Correctness &amp; Verification)</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>CIS 415 Ethics &amp; Conduct (3)</td>
+          <td>Trustworthy Computing lens + B6 Responsible Development</td>
+          <td><strong>Covered differently \u2014 embedded, not standalone</strong></td>
+      </tr>
+      <tr>
+          <td>CIS 450 Computer Architecture &amp; Operations (3)</td>
+          <td>CS-103 (partial)</td>
+          <td><strong>Gap \u2014 architecture largely absent</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="decisions-needed">Decisions needed</h2>
+<p>The replacement can&rsquo;t be finalized without these. Grouped by urgency:</p>
+<p><strong>The four gap courses:</strong></p>
+<ol>
+<li><strong>Computer architecture (CIS 450).</strong> The core does not cover it. Options: keep CIS 450 as a separate surviving requirement; move architecture to a 500-level course; add an architecture unit to the core; or rely on ECE 241 (Intro to Computer Engineering, which stays) to carry it. Which?</li>
+<li><strong>Ethics (CIS 415).</strong> Replace the standalone 3-credit ethics course with the core&rsquo;s embedded ethics (Trustworthy Computing + B6), or keep a dedicated ethics course alongside the core? This is a philosophy decision with ABET professional-responsibility implications.</li>
+<li><strong>Formal logic (CIS 301).</strong> Is the core&rsquo;s distributed coverage (MATH-101 + verification + contracts) sufficient, or is a dedicated logic-of-programming course still required?</li>
+<li><strong>C/C++ (CIS 308).</strong> Does the program need specific C/C++ exposure (systems-adjacent, CompE-adjacent), or is the language-agnostic core acceptable here?</li>
+</ol>
+<p><strong>The external-course collision:</strong>
+5. <strong>MATH 510 / STAT 510.</strong> Do the core&rsquo;s embedded discrete-math and statistics sequences <em>replace</em> MATH 510 and STAT 510, or do those remain separate requirements (creating duplication)? If they replace, the Math block (currently 17\u201318 cr) changes and the reconciliation must satisfy KBOR/K-State Core quantitative-literacy requirements.</p>
+<p><strong>The upward overlap:</strong>
+6. <strong>500-level overlap.</strong> The core covers content currently at CIS 560 (databases) and CIS 575 (algorithm analysis). Do students still take those, or place out? This sets the new CS Requirements credit total.</p>
+<p><strong>Scope confirmation:</strong>
+7. <strong>Confirm the replacement set.</strong> Does &ldquo;all CIS under 500&rdquo; mean all nine courses (23 cr), including the four non-programming ones \u2014 or only the programming sequence (CIS 115/116/200/300/400 = 13 cr), leaving logic/ethics/architecture/C++ as separate survivors?</p>
+<h2 id="what-i-need-from-you-to-finalize">What I need from you to finalize</h2>
+<ul>
+<li><strong>Answers to decisions 1\u20137 above</strong> \u2014 especially #7 (scope), since it determines whether this is a 23-credit or a 13-credit replacement, and #1 (architecture) and #5 (MATH 510/STAT 510), which are the two hardest reconciliations.</li>
+<li>A <strong>target credit count</strong> for the new CS Requirements block (currently 41), so the core + surviving 500-levels + any retained gap courses can be sized to it.</li>
+<li>Whether the <strong>specialization degrees</strong> (Cybersecurity, Data Science, AI Systems, Software Architecture) we designed the core to feed are intended to map onto K-State&rsquo;s existing restricted/technical-elective and capstone structure, or to replace it.</li>
+</ul>
+<hr>
+<h1 id="resolutions-current-state--updated-after-faculty-input">Resolutions (current state — updated after faculty input)</h1>
+<p>The analysis above captured the <em>initial</em> mapping. The following decisions have since been made, closing most gaps:</p>
+<h2 id="resolved">Resolved</h2>
+<ul>
+<li><strong>Discrete math + statistics — the core&rsquo;s embedded sequences replace MATH 510 and STAT 510.</strong> No duplication. The foundation math footprint is exactly 8 one-credit courses: four discrete (MATH-101–104) and four <strong>non-calculus</strong> statistics (STAT-101–104), one external per block.</li>
+<li><strong>Computer architecture (CIS 450) — absorbed.</strong> Its content is programming-centric (stack/heap, cache misses, memory model from the programmer&rsquo;s view), not digital-logic/hardware design. Now named explicitly in the core: the stack/heap memory model at CS-103 (B1), and cache misses / memory-hierarchy / locality in the B8 performance pass (CS-208).</li>
+<li><strong>Formal logic (CIS 301) — absorbed.</strong> The distributed coverage (MATH-101 Logic &amp; Sets + the Correctness &amp; Verification thread + Boundaries &amp; Contracts) is accepted as sufficient.</li>
+<li><strong>C/C++ (CIS 308) — handled by a language certificate.</strong> Rather than forcing a specific language into the deliberately language-agnostic core, the program will offer <strong>language certificates</strong> (~1 credit each, a single language taught deeply) as <strong>supplementary micro-credentials outside the 120-credit degree</strong>. The core teaches paradigms and the ability to read any language (Code Comprehension thread); a certificate adds deep single-language fluency. This also serves other departments (e.g. a Computer Engineering student takes a C/C++ certificate).</li>
+<li><strong>Databases (CIS 560) — narrows to an elective.</strong> The core&rsquo;s B5 (SQL Fundamentals + Database Design) is the foundation; CIS 560 spirals deeper on relational algebra and relational theory as <strong>elective depth</strong>, likely no longer required. The core feeds it rather than replacing it.</li>
+<li><strong>Algorithm analysis (CIS 575) — likely narrows to an elective</strong>, same pattern: the core&rsquo;s B4 complexity + B7 graph algorithms are the foundation; 575 becomes optional deeper analysis.</li>
+<li><strong>Calculus — moved to year 3</strong> (Calc 2 possibly not required). Never part of the two-year core. Its move confirms the statistics sequence must be <strong>non-calculus / intro-level</strong> in the foundation, with calculus-based statistical rigor deferred to year 3+.</li>
+<li><strong>Linear algebra — moved to year 3</strong> with calculus (both ML prerequisites). The foundation keeps only the adjacency-matrix seed at CS-110 (B4). This resolves the long-open &ldquo;ninth external&rdquo; question — the foundation has exactly 8 externals, one per block.</li>
+</ul>
+<h2 id="soft-resolved">Soft-resolved</h2>
+<ul>
+<li><strong>Ethics (CIS 415).</strong> The plan is <strong>embedded ethics</strong> (the Trustworthy Computing lens + the Block 6 &ldquo;Responsible Development&rdquo; frame) as the primary and load-bearing treatment. A standalone year-3 ethics course <em>may</em> be retained but is uncertain (the ethics faculty member is retiring). <strong>Design implication:</strong> the embedded ethics must be strong enough to carry the ABET professional-responsibility outcome on its own, since the standalone course cannot be relied upon.</li>
+</ul>
+<h2 id="the-emerging-structural-pattern">The emerging structural pattern</h2>
+<p>Several currently-required 500-level courses (560, 575, and likely 501 Software Architecture and 505 Programming Languages) are becoming <strong>elective depth that the core feeds</strong> rather than required courses. This is the spiral philosophy extended across the whole degree: the core spirals <em>broadly</em> (years 1–2); electives spiral <em>deeper</em> on chosen topics (years 3–4).</p>
+<p><strong>This escalates the scope of the project.</strong> What began as &ldquo;replace sub-500 CIS with the two-year core&rdquo; is becoming a <strong>restructuring of the entire required CS core</strong>, with required courses migrating to elective status. That requires its own dedicated analysis with <strong>ABET student outcomes as the binding constraint</strong>: the <em>required</em> path (core + whatever 500-levels remain required + capstone) must satisfy every ABET outcome on its own, with electives as genuine depth, not load-bearing coverage. This is the recommended next analysis.</p>
+<h2 id="updated-credit-picture">Updated credit picture</h2>
+<p>The core (22 CS + 8 external = 30 cr) replaces roughly <strong>29 K-State credits</strong>: 23 of sub-500 CIS plus the 6 credits of MATH 510 + STAT 510 that the embedded sequences now cover. The replacement is <strong>nearly credit-neutral</strong> — the earlier &ldquo;over budget&rdquo; concern was an artifact of not counting the discrete/stats requirements the core absorbs from the math block.</p>
+<h2 id="remaining-genuinely-open">Remaining genuinely open</h2>
+<ul>
+<li><strong>The full 500-level analysis</strong> (501, 505, and any others) against ABET — the recommended next step, and now the largest open piece.</li>
+<li><strong>Total CS Requirements credit count</strong> after the restructure (currently 41) — depends on which 500-levels remain required.</li>
+<li><strong>Specialization-degree mapping</strong> onto K-State&rsquo;s restricted-elective and capstone structure.</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="service-computer-engineering">Service: Computer Engineering</h1>
+
+<h1 id="service-mapping-computer-engineering">Service Mapping: Computer Engineering</h1>
+<blockquote>
+<p><em>Working draft for faculty review. How Computer Engineering&rsquo;s current 12-credit dependency on our CS courses maps onto the redesigned modular curriculum. Course codes are placeholders.</em></p></blockquote>
+<h2 id="context">Context</h2>
+<p>Computer Engineering currently consumes <strong>12 credits</strong> from us, as four traditional 3-credit, 16-week courses:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Traditional course</th>
+          <th>Typical content</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>CS0</strong></td>
+          <td>Gentle introduction to programming</td>
+      </tr>
+      <tr>
+          <td><strong>CS1</strong></td>
+          <td>First real programming: variables, control flow, functions, basic data</td>
+      </tr>
+      <tr>
+          <td><strong>Data Structures</strong></td>
+          <td>Lists, stacks, queues, trees, hashing; light graph introduction; complexity</td>
+      </tr>
+      <tr>
+          <td><strong>OOP</strong></td>
+          <td>Encapsulation, inheritance, polymorphism, classes</td>
+      </tr>
+  </tbody>
+</table>
+<p>Our redesign deliberately <strong>dissolved</strong> these monolithic courses into spiraled 1-credit, 8-week pieces, reorganized by concept and paradigm rather than the traditional sequence. This is the hardest service case we have, because Computer Engineering wants the <em>recognizable traditional packaging</em> that the redesign specifically took apart. The good news: the content is nearly all present, the pieces happen to co-locate by semester, and the original three-layer design (transcript courses / developmental experiences / competencies) anticipated exactly this kind of administrative repackaging.</p>
+<h2 id="how-the-content-maps-to-our-pieces">How the content maps to our pieces</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Traditional course</th>
+          <th>Our pieces</th>
+          <th>Fit</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>CS0</strong> (gentle intro)</td>
+          <td>CS-101 Imperative Programming (gentle on-ramp / early portion); optionally CS-103 Computational Representation for digital foundations</td>
+          <td>Good — CS0 as a gentle programming intro overlaps CS-101 directly; the earlier &ldquo;CS0 gap&rdquo; was only a gap if CS0 meant pseudocode-only pre-programming, which it does not</td>
+      </tr>
+      <tr>
+          <td><strong>CS1</strong> (first real programming)</td>
+          <td>CS-101 Imperative Programming + CS-104 Data Transformation &amp; Manipulation (CS-102 Functional optional)</td>
+          <td>Good — with a caveat on the CS0/CS1 boundary (below)</td>
+      </tr>
+      <tr>
+          <td><strong>Data Structures</strong></td>
+          <td>CS-109 Abstract Data Types + CS-110 Trees, Hashing &amp; Hierarchies + CS-112 Algorithmic Complexity</td>
+          <td>Strong — these three are essentially a distributed data-structures course, and all fall in one semester (Year 1 Spring). Graph content is introduction-only in their DS, which our B3 graph-as-model and B4 represent passes cover without reaching into B7</td>
+      </tr>
+      <tr>
+          <td><strong>OOP</strong></td>
+          <td>CS-107 OOP I + CS-108 OOP II</td>
+          <td>Strong — we kept OOP I/II as a recognizable pair, both in Year 1 Spring</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Semester coherence (an unplanned benefit):</strong> related pieces cluster in the same term. CS1 material is Year 1 Fall; Data Structures and OOP material are Year 1 Spring. So the traditional one-semester course shape is reconstructable from the timing, not just the content — a CompE &ldquo;Data Structures&rdquo; drawing from B3+B4 is genuinely one semester.</p>
+<h2 id="the-credit-volume-issue-the-real-crux">The credit-volume issue (the real crux)</h2>
+<p>The minimal mapping above sums to roughly <strong>8–9 of our credits</strong> to cover what Computer Engineering currently delivers as <strong>12</strong>. This gap is the central thing to resolve, because it has consequences for ABET contact hours and for Computer Engineering&rsquo;s total degree credit count. Three possible explanations, which are not mutually exclusive:</p>
+<ol>
+<li><strong>Our pieces are denser.</strong> Focused 1-credit courses may cover the same competencies in fewer credit-hours. Plausible, but ABET review will want the contact-hour accounting to back it up.</li>
+<li><strong>There is genuinely less seat-time.</strong> If so, Computer Engineering would be receiving fewer instructional hours, and their degree would be 3–4 credits short unless backfilled.</li>
+<li><strong>The competency develops beyond the minimal pieces.</strong> Our spiral keeps developing data-structures and programming competency in later courses (B5, B7). A traditional-course-equivalent bundle could legitimately roll up <em>more</em> of our pieces than the minimal mapping — sizing each bundle to hit both the credit target and the competency target.</li>
+</ol>
+<p>Explanation 3 is the most likely resolution and the one that makes the repackaging work: the bundles are <em>sized</em> to 12 credits by including the appropriate spiral pieces, not capped at the minimal mapping. But this is a deliberate packaging decision, not an automatic fact, and it must be made explicitly with Computer Engineering&rsquo;s outcomes and ABET requirements in hand.</p>
+<h2 id="option-a--traditional-course-repackaging">Option A — Traditional-Course Repackaging</h2>
+<p>Expose a <strong>Computer-Engineering-facing transcript view</strong> that bundles our 1-credit pieces under recognizable CS0/CS1/DS/OOP course numbers and names, leveraging the three-layer design (the transcript-course layer is explicitly administrative). The actual learning remains our spiraled pieces; only the packaging adapts.</p>
+<p><strong>Pros:</strong> Computer Engineering keeps its recognizable course structure and existing ABET mapping with minimal disruption. Uses a design feature (the administrative transcript layer) that already exists for this purpose. Semester coherence makes the bundles clean.</p>
+<p><strong>Cons:</strong> Requires careful credit-sizing to reach 12 (see above). A bundle that needs pieces from multiple blocks could span semesters (mostly avoided here, since the relevant pieces co-locate). Creates a maintenance obligation — the transcript view must stay synchronized with the underlying pieces as they evolve.</p>
+<h2 id="option-b--re-map-to-the-modular-structure">Option B — Re-map to the Modular Structure</h2>
+<p>Computer Engineering adopts our actual 1-credit/8-week structure and re-maps its own degree requirements and ABET documentation onto our competencies and pieces directly.</p>
+<p><strong>Pros:</strong> No artificial repackaging or synchronization burden. Computer Engineering students get our actual (arguably stronger) spiraled pedagogy and the competency framework as-is. Honest one-to-one between what is taught and what is recorded.</p>
+<p><strong>Cons:</strong> More work for Computer Engineering — it changes their degree structure and requires ABET re-mapping on their side. The credit-volume question still applies (they would take ~8–9 of our credits, or more if they choose fuller coverage). Loses the familiar CS0/CS1/DS/OOP labels that may matter for their accreditation narrative and student transfer.</p>
+<h2 id="open-issues">Open issues</h2>
+<ol>
+<li><strong>Credit volume (12 vs ~8–9).</strong> The load-bearing question. Resolve by deciding whether bundles are sized up to 12 by including more spiral pieces (Option A) or whether Computer Engineering accepts a different credit count (either option). Needs their ABET contact-hour requirements.</li>
+<li><strong>CS0/CS1 boundary.</strong> Both lean on CS-101. The cleanest split treats CS-101 + CS-102 + CS-104 as shared raw material and draws the CS0/CS1 line wherever Computer Engineering&rsquo;s outcomes split — the transcript bundles may source from overlapping pieces.</li>
+<li><strong>Graph sufficiency — resolved.</strong> Graphs are introduction-only in their Data Structures; our B3/B4 graph passes suffice, so the DS bundle stays within Year 1 Spring.</li>
+<li><strong>ABET contact-hour mapping.</strong> Whichever option, the contact-hour accounting must satisfy ABET for both programs.</li>
+</ol>
+<h2 id="where-this-fits-the-service-course-model">Where this fits the service-course model</h2>
+<p>Computer Engineering establishes a <strong>third service pattern</strong>, alongside the two already defined:</p>
+<ol>
+<li><strong>Topical Unit</strong> — a self-contained subject plus a partner&rsquo;s domain-application course (Relational Databases, OSI Networking).</li>
+<li><strong>Curated Foundational Path</strong> — a domain-selected sequence of early courses (Geography/GIS scripting, Communications/digital media).</li>
+<li><strong>Traditional-Course Repackaging</strong> — bundling 1-credit pieces into recognizable traditional transcript courses via the three-layer design (Computer Engineering: CS0/CS1/DS/OOP).</li>
+</ol>
+<p>All three exploit the same modular, layered architecture. That the design supports three quite different service patterns without altering the pedagogy is a genuine validation of the modular bet.</p>
+<h2 id="what-we-need-from-computer-engineering">What we need from Computer Engineering</h2>
+<ul>
+<li>Their CS0, CS1, Data Structures, and OOP <strong>learning outcomes</strong> (to confirm the mappings and set the CS0/CS1 boundary).</li>
+<li>Their <strong>ABET contact-hour requirements</strong> for these courses (to resolve the credit-volume question).</li>
+<li>A preference between <strong>Option A</strong> (repackaging) and <strong>Option B</strong> (re-map), recognizing the credit-volume question must be answered either way.</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="service-geographic-information-systems--technology">Service: Geographic Information Systems &amp; Technology</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. Maps the B.S. in Geographic Information Systems &amp; Technology Computational Core requirement onto the redesigned modular curriculum. Based on syllabi for CC 110, 210, 310, 315, 410, and 520 on file in <code>resources/syllabai/</code>. Course codes for the new core are placeholders.</em></p></blockquote>
+<h2 id="context">Context</h2>
+<p>The B.S. in Geographic Information Systems &amp; Technology (GIST) requires a <strong>Computational Core (CC)</strong> as its computing foundation — seven courses from K-State&rsquo;s Computational Core sequence, plus a web fundamentals course:</p>
+<table>
+  <thead>
+      <tr>
+          <th>CC course</th>
+          <th>Title</th>
+          <th>Credits</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CC 110</td>
+          <td>Introduction to Computing</td>
+          <td>not stated in syllabus</td>
+      </tr>
+      <tr>
+          <td>CC 210</td>
+          <td>Fundamental Computer Programming Concepts</td>
+          <td>4</td>
+      </tr>
+      <tr>
+          <td>CC 310</td>
+          <td>Data Structures &amp; Algorithms I</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>CC 315</td>
+          <td>Data Structures &amp; Algorithms II</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>CC 410</td>
+          <td>Advanced Programming</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>CC 520</td>
+          <td>Database Essentials</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>(web fundamentals course)</td>
+          <td>course not specified</td>
+          <td>unknown</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Estimated total:</strong> approximately 17–20 credits, depending on CC 110&rsquo;s credit count and the web course. The exact credit count for CC 110 is not stated in its syllabus and should be confirmed with the Geography department.</p>
+<p>The CC sequence is Python-based, online, and modular. It runs from a broad computing survey (CC 110) through object-oriented software development (CC 410), with a parallel database track (CC 520). GIS-specific domain courses — spatial analysis, remote sensing, cartography, ArcGIS/QGIS workflows — layer on top of this foundation.</p>
+<h2 id="the-cc-sequence-summarized">The CC sequence, summarized</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Core content</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>CC 110</strong></td>
+          <td>History of computing; binary, Boolean logic, data encoding; computational thinking; AI/HCI/cybersecurity breadth survey; brief programming exposure</td>
+      </tr>
+      <tr>
+          <td><strong>CC 210</strong></td>
+          <td>Variables, types, operators, conditionals, loops, functions, file I/O, collections, programmer-defined objects, MVC pattern; Python 3</td>
+      </tr>
+      <tr>
+          <td><strong>CC 310</strong></td>
+          <td>Lists, stacks, queues, trees, graphs (basic); searching, sorting, hashing; recursion; complexity analysis; Python</td>
+      </tr>
+      <tr>
+          <td><strong>CC 315</strong></td>
+          <td>Advanced trees, graphs (deep), heaps; graph searching, shortest path, MST; requirements analysis; domain application; Python</td>
+      </tr>
+      <tr>
+          <td><strong>CC 410</strong></td>
+          <td>Software engineering methodologies; design patterns; computer security; advanced OOP; <strong>GUI programming</strong>; <strong>event-driven programming</strong>; professional communication and collaboration; iterative milestone project</td>
+      </tr>
+      <tr>
+          <td><strong>CC 520</strong></td>
+          <td>SQL; NoSQL and its relation to SQL; DBMS design; programming with databases; database system architecture; database efficiency; practical applications</td>
+      </tr>
+      <tr>
+          <td><strong>web fund.</strong></td>
+          <td>Not specified — likely web technologies, HTML/CSS/JavaScript, or web-mapping frameworks</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="course-by-course-mapping">Course-by-course mapping</h2>
+<h3 id="cc-110--introduction-to-computing">CC 110 — Introduction to Computing</h3>
+<p><strong>Content:</strong> History of computing, binary representation, Boolean logic, data encoding and encryption, computational thinking, internet technology, AI/HCI/cybersecurity/data science breadth survey, basic programming exposure. No prerequisites; online self-paced.</p>
+<p><strong>Maps to:</strong> B1 — CS-101 Imperative Programming (first programming contact) + CS-103 Computational Representation (binary, Boolean logic, data encoding, encryption). The broad &ldquo;CS fields&rdquo; framing of the course aligns with the reading-first orientation of Block 1.</p>
+<p><strong>Fit:</strong> Good for representation content (CS-103 is a dedicated, deeper pass through bits, Boolean algebra, and data encoding). The breadth survey of CS fields (AI, robotics, HCI) has no single equivalent in the new core — these are distributed across threads (Trustworthy Computing, Human-Centered Computing, Computational Models). The historical/contextual survey content is genuinely absent as a standalone topic, which is not a programming competency gap; it could be addressed by the GIS program&rsquo;s own orientation materials.</p>
+<hr>
+<h3 id="cc-210--fundamental-computer-programming-concepts">CC 210 — Fundamental Computer Programming Concepts</h3>
+<p><strong>Content:</strong> Values/types/variables, conditionals/loops, functions, file I/O (stdin/stdout/text files), collections, programmer-defined objects, Model-View-Controller pattern. Python 3, 4-credit course.</p>
+<p><strong>Maps to:</strong> B1 — CS-101 Imperative Programming (variables, control flow, functions), CS-102 Functional Programming (a view CC 210 does not take), CS-104 Data Transformation &amp; Manipulation (collections, file I/O, data pipelines). B3 — CS-107/108 OOP I &amp; II (programmer-defined objects, MVC).</p>
+<p><strong>Fit:</strong> Strong. The new core covers all CC 210 content and adds functional programming (CS-102), which CC 210 omits entirely. MVC appears in our OOP I/II but in B3, after two full blocks of programming foundation; CC 210 introduces it within a single four-credit course. This is a sequencing difference, not a content gap — the concept arrives at approximately the same developmental stage.</p>
+<p><strong>Credit note:</strong> CC 210 is 4 credits; the equivalent new-core slice spans CS-101 + CS-102 + CS-104 (B1) + CS-107 + CS-108 (B3) = 5 credits of 1-credit courses. The new core is therefore denser on this material, not thinner.</p>
+<hr>
+<h3 id="cc-310--data-structures--algorithms-i">CC 310 — Data Structures &amp; Algorithms I</h3>
+<p><strong>Content:</strong> Lists, stacks, queues, trees, graphs (basic traversal), searching, sorting, hashing, recursion, complexity analysis. Python, 3-credit course. Prerequisites: CC 210, Math 100.</p>
+<p><strong>Maps to:</strong> B3 — CS-109 Abstract Data Types (linear structures as ADTs — lists, stacks, queues — contract-first; graph spiral begins: graphs as a model). B4 — CS-110 Trees, Hashing &amp; Hierarchies (trees, hashing, basic graph representation and traversal), CS-112 Algorithmic Complexity (Big-O, searching/sorting, cost of structural choices).</p>
+<p><strong>Fit:</strong> Excellent. These three new-core courses are essentially a distributed data-structures course. Basic graph content is introduction-only in CC 310, which matches our B3 graph-as-model and B4 basic-traversal passes — no overshoot. <strong>Semester coherence holds:</strong> CS-109, CS-110, and CS-112 all fall in Year 1 Spring (same semester), so the traditional one-semester course shape is reconstructable from timing alone.</p>
+<hr>
+<h3 id="cc-315--data-structures--algorithms-ii">CC 315 — Data Structures &amp; Algorithms II</h3>
+<p><strong>Content:</strong> Advanced trees, graphs (deep pass), heaps; graph searching, shortest path, Minimal Spanning Tree; requirements analysis; application to domain areas. Python, 3-credit course. Prerequisite: CC 310.</p>
+<p><strong>Maps to:</strong> B4 — CS-110 (advanced tree structures, continued from B3). B7 — CS-206 Graphs &amp; Network Algorithms (Dijkstra, A*, MST — named explicitly as optimization), CS-207 Document Databases &amp; Data Integration (requirements analysis framing, domain application, multi-source integration).</p>
+<p><strong>Fit:</strong> Good for graph algorithms; strong for domain application framing. <strong>One content gap: heaps.</strong> Heaps are named explicitly in CC 315 but have no dedicated home in the new core. They may be appropriately embedded in CS-110 (as a tree variant) or CS-112 (as a data structure with Big-O implications) — but this is not explicit in current course designs and should be confirmed.</p>
+<p><strong>Timing difference:</strong> CC 310 and CC 315 are taken sequentially in consecutive semesters. The new-core equivalent spans B3 (CS-109) through B7 (CS-206/207) — material distributed across both years of the two-year core rather than two back-to-back semesters. This is pedagogically intentional (spiral deepening, with graph content returning at increasing depth), but is a structural change the GIS department needs to understand and accept.</p>
+<hr>
+<h3 id="cc-410--advanced-programming">CC 410 — Advanced Programming</h3>
+<p><strong>Content:</strong> Software engineering methodologies, design patterns and architectures, computer security, advanced OOP (inheritance, polymorphism), <strong>GUI programming</strong>, <strong>event-driven programming</strong>, professional communication and collaboration, iterative milestone project that serves as a capstone for the CC program. 3-credit course. Prerequisite: CC 315.</p>
+<p><strong>Maps to:</strong> B3 — CS-107/108 OOP I &amp; II (advanced OOP, design patterns). B6 — CS-203 Software Testing &amp; Validation (automated tests, unit and integration testing), CS-204 Security Fundamentals (threat identification, authentication, authorization), CS-205 Collaborative Development (collaborative Git, team project, professional communication). The iterative milestone project maps to the Team Software Project in CS-205.</p>
+<p><strong>Fit:</strong> Strong, including the GUI and event-driven content. What CC 410 calls &ldquo;GUI programming&rdquo; and &ldquo;event-driven programming&rdquo; is addressed in the new core through a progressive web GUI trajectory rather than a single course:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Block</th>
+          <th>Course</th>
+          <th>Web GUI pass</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>B1</td>
+          <td>CS-101</td>
+          <td>HTML and CSS introduced as the initial reading substrate — trace a web document (DOM tree, browser rendering pipeline) before writing Python or JavaScript</td>
+      </tr>
+      <tr>
+          <td>B2</td>
+          <td>CS-106</td>
+          <td>Semantic HTML/CSS deepened; JavaScript + async/event-loop via fetch; the event loop as a QUEUE of callbacks introduced explicitly; the browser framed as a mini-OS scheduling your code</td>
+      </tr>
+      <tr>
+          <td>B4</td>
+          <td>CS-111</td>
+          <td><strong>Component-based GUI architecture (web components):</strong> custom elements, shadow DOM, slots — the B4 &ldquo;structure&rdquo; pass applied to user interfaces; event-driven programming formalized as a structural pattern (register → dispatch → handle), not just an async detail</td>
+      </tr>
+  </tbody>
+</table>
+<p>This is a web-platform GUI model rather than a desktop/toolkit GUI model (e.g. Java Swing, PyQt). GIS students building web-facing tools, interactive maps, or web-based dashboards are well-served. GIS students targeting desktop GIS add-ins (ArcGIS Pro Python toolboxes, QGIS C++ plugins) would still need a platform-specific supplement — see open questions.</p>
+<p>The iterative milestone project structure in CC 410 (building a non-trivial software project across the semester in weekly milestones) maps well to our Team Software Project in B6 — same spirit, same purpose.</p>
+<hr>
+<h3 id="cc-520--database-essentials">CC 520 — Database Essentials</h3>
+<p><strong>Content:</strong> SQL language, NoSQL and its relation to SQL, DBMS design, programming with databases, database system architecture, database efficiency, practical applications. Uses MS SQL Server. Prerequisites: CC 315, CC 410 (concurrent or prior).</p>
+<p><strong>Maps to:</strong> B5 — CS-201 SQL Fundamentals (SELECT/INSERT/UPDATE/DELETE/JOIN, query optimization seed, declarative model), CS-202 Database Design (schema design, normalization, integrity, security, transactions). B7 — CS-207 Document Databases &amp; Data Integration (NoSQL data models, combining disparate sources).</p>
+<p><strong>Fit:</strong> Strong for SQL and NoSQL. The new core deliberately sequences SQL fundamentals before database design, which matches CC 520&rsquo;s internal progression. <strong>One gap: DBMS internals and system architecture.</strong> CC 520 explicitly covers database system architecture and efficiency; the new core&rsquo;s B5 teaches schema design and query optimization conceptually (index awareness, query plans) but does not reach storage engines, buffer management, or DBMS architecture at the same depth. Given the foundational posture of the new core, this gap is appropriate — a GIS spatial databases elective (PostGIS, spatial SQL) would be the natural next step.</p>
+<hr>
+<h3 id="web-fundamentals-course">Web fundamentals course</h3>
+<p><strong>Content:</strong> Not specified in the GIST program materials provided.</p>
+<p><strong>Maps to:</strong> B2 — CS-106 Web Foundations &amp; Data-Driven Rendering (HTML, CSS, JavaScript, data-driven rendering via D3 data joins, web as a computational platform, the web-server request pipeline).</p>
+<p><strong>Fit:</strong> Direct, assuming the GIS web fundamentals requirement is a general web technologies course. If the requirement is specifically a <strong>web mapping</strong> course (Leaflet, OpenLayers, Mapbox GL) rather than a general web foundations course, that would be a partner-department course beyond the new core — a domain application layer, not a foundational computing layer.</p>
+<hr>
+<h2 id="summary-table">Summary table</h2>
+<table>
+  <thead>
+      <tr>
+          <th>GIS Computational Core requirement</th>
+          <th>New core equivalent</th>
+          <th>Fit</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CC 110 Introduction to Computing</td>
+          <td>CS-101 + CS-103 (B1)</td>
+          <td>Adequate — breadth survey distributed across threads</td>
+      </tr>
+      <tr>
+          <td>CC 210 Programming Fundamentals</td>
+          <td>CS-101 + CS-102 + CS-104 (B1) + CS-107 + CS-108 (B3)</td>
+          <td>Strong — adds functional programming</td>
+      </tr>
+      <tr>
+          <td>CC 310 Data Structures I</td>
+          <td>CS-109 (B3) + CS-110 + CS-112 (B4)</td>
+          <td>Excellent — same semester, Year 1 Spring</td>
+      </tr>
+      <tr>
+          <td>CC 315 Data Structures II</td>
+          <td>CS-110 (B4) + CS-206 + CS-207 (B7)</td>
+          <td>Good — heaps gap; Year 2 timing</td>
+      </tr>
+      <tr>
+          <td>CC 410 Advanced Programming</td>
+          <td>CS-107 + CS-108 (B3) + CS-203 + CS-204 + CS-205 (B6) + web GUI trajectory B1→B2→B4</td>
+          <td>Strong — web platform covers GUI/event-driven; desktop add-in tools may need supplement</td>
+      </tr>
+      <tr>
+          <td>CC 520 Database Essentials</td>
+          <td>CS-201 + CS-202 (B5) + CS-207 (B7)</td>
+          <td>Strong — DBMS internals gap</td>
+      </tr>
+      <tr>
+          <td>Web fundamentals course</td>
+          <td>CS-106 (B2)</td>
+          <td>Direct (if general web; see note above)</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="what-the-new-core-adds-beyond-the-cc">What the new core adds beyond the CC</h2>
+<p>Several new-core additions are particularly well-suited to GIS students:</p>
+<ul>
+<li><strong>Spatial data structures</strong> — CS-110 explicitly names quadtrees, R-trees, and geohashing as applied trees/hashing, directly relevant to spatial indexing. This content is absent from the CC sequence.</li>
+<li><strong>Geospatial graph algorithms</strong> — CS-206 uses road-network routing (Dijkstra, A* as geospatially-motivated heuristic search) and spatial joins/nearest-neighbor queries as primary motivators. GIS students will recognize these as core GIS operations.</li>
+<li><strong>Web GUI trajectory</strong> — HTML+CSS (B1) → event-loop/data-driven rendering (B2/CS-106) → component-based GUI architecture via web components (B4/CS-111) forms a complete GUI and event-driven programming pathway. The CC sequence addresses GUI with a single desktop-model course (CC 410); the new core distributes it across the web platform, which is increasingly where GIS tools live.</li>
+<li><strong>Data visualization as a throughline</strong> — SVG data visualization is embedded in CS-111 and carried through the Human-Centered Computing thread, directly supporting cartographic and geovisualization work. The CC sequence has no equivalent throughline.</li>
+<li><strong>Statistics sequence (STAT-101–104)</strong> — The embedded statistics sequence (descriptive statistics, probability, distributions, regression) provides the quantitative foundation GIS students need for spatial statistics; the CC sequence has no math/statistics component.</li>
+<li><strong>Data analysis</strong> — CS-210 (Data Analysis &amp; Responsible AI) covers notebook-based data analysis and honest visualization, directly serving GIS&rsquo;s quantitative workflows.</li>
+<li><strong>Security and data ethics</strong> — GIS increasingly handles sensitive location data (tracking, surveillance, sensitive facility locations). CS-204 and the Trustworthy Computing thread address data minimization and privacy in a way the CC sequence does not.</li>
+<li><strong>Functional programming (CS-102)</strong> — Not in the CC sequence; useful for GIS scripting where data pipelines and transformation chains are common.</li>
+</ul>
+<h2 id="credit-comparison">Credit comparison</h2>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>Credits</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>GIS Computational Core (estimated)</td>
+          <td>~17–20</td>
+      </tr>
+      <tr>
+          <td>New core — full 8-block sequence</td>
+          <td>30 (22 CS + 8 external)</td>
+      </tr>
+  </tbody>
+</table>
+<p>The GIS program would not take all 30 credits. A curated path covering the CC equivalent draws from:</p>
+<p><strong>Minimum slice:</strong> B1 (CS-101–104) + CS-106 (B2) + B3 (CS-107–109) + CS-110 + CS-112 (B4) + CS-201 + CS-202 (B5) + CS-203 + CS-205 (B6) + CS-206 + CS-207 (B7) = <strong>15 CS credits</strong> plus relevant external courses.</p>
+<p>Whether the GIS program selects this slice, a fuller cut that includes B4 external (MATH-104 graph theory, which directly supports GIS graph work), or adds the statistics sequence, is a decision for the Geography department.</p>
+<h2 id="the-gis-service-pattern">The GIS service pattern</h2>
+<p>This is a clean instance of the <strong>Curated Foundational Path</strong> service pattern: the GIS department selects a domain-matched subset of the modular core, choosing pieces where the spatial and geospatial context is already built in.</p>
+<p>What makes this pattern particularly clean for GIST: the new core&rsquo;s data structures, graph algorithms, and data visualization content was co-designed with geospatial application explicitly in mind. A GIS student following the selected path is not working around a generic CS course — they are taking content where road networks, spatial indexes, and map-based data visualization are the primary examples. The domain alignment is structural, not cosmetic.</p>
+<p>This mirrors the Computer Engineering service case (see <code>service-computer-engineering.md</code>) but with a better content fit from the start: while CompE needed repackaging to recover familiar traditional-course shapes, GIST gets the content it needs without repackaging, because the core&rsquo;s spiral structure already escalates geospatial content through the data-structures thread.</p>
+<h2 id="open-questions">Open questions</h2>
+<ol>
+<li>
+<p><strong>Desktop GIS add-ins (residual GUI question).</strong> The web GUI pathway (B1→B2→B4) covers web-based GUI and event-driven programming. GIS students targeting desktop add-ins (ArcGIS Pro Python toolboxes using arcpy, QGIS C++ plugin framework) work in a platform-specific environment the core does not address. Options: (a) treat this as covered by the GIS domain courses where those tools are actually used; (b) a Python language certificate (see #3) provides arcpy fluency alongside the core&rsquo;s platform-agnostic foundation. <strong>This is narrower than the original GUI gap and likely resolvable at the domain-course level.</strong></p>
+</li>
+<li>
+<p><strong>Heaps.</strong> CC 315 covers heaps explicitly; the new core does not name them. Confirm whether heaps should be embedded in CS-110 (as a priority-queue variant on trees) or CS-112 (as a data structure with Big-O implications) for this use case. This affects whether CC 315 maps cleanly or leaves a content gap.</p>
+</li>
+<li>
+<p><strong>Python specifically.</strong> The CC sequence uses Python throughout; the new core is language-agnostic. GIS students need Python fluency (arcpy, geopandas, shapely, rasterio). A Python language certificate (per the certificate model adopted for C/C++ in the K-State CS replacement analysis) would address this without locking the core to a single language.</p>
+</li>
+<li>
+<p><strong>Web fundamentals specifics.</strong> The &ldquo;web fundamentals course&rdquo; in the GIST program was not identified by name. Confirm whether it is a general web technologies course (maps cleanly to CS-106) or a GIS-specific web-mapping course (Leaflet, OpenLayers, Mapbox GL). If the latter, CS-106 provides the foundation and the web-mapping course becomes the partner-department domain application — a clean instance of the Topical Unit service model.</p>
+</li>
+<li>
+<p><strong>Statistics.</strong> The GIST program likely requires spatial statistics in its GIS-specific coursework. Confirm whether the Geography department wants the STAT-101–104 sequence embedded in the computing foundation, or prefers their own statistics requirement. If the former, this is a strong argument for GIST students taking the full new core rather than the minimum slice.</p>
+</li>
+<li>
+<p><strong>Credit count for CC 110.</strong> The CC 110 syllabus on file does not state credit hours. Confirm with the Geography department before completing the credit reconciliation.</p>
+</li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+          </section>
+        </div>
+      </main>
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Nathan H. Bean
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/hugo-starter/commit/cc1b429c518ddcc2b957ca99ab4401b2d80a096e">Jun 21, 2026</a>
+</p>
+
+</div>
+    </div>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1782159576" defer></script>
+  </body>
+</html>

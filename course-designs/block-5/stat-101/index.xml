@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STAT-101 Descriptive Statistics &amp; Data Summarization :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/stat-101/index.html</link>
+    <description>STAT-101 — Descriptive Statistics &amp; Data Summarization 1 credit (co-designed external)&#xA;Working description (External/co-designed, stats dept. Describe data the student is now structuring; feeds the data-visualization throughline. First of the statistics-for-ML sequence.)&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/stat-101/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

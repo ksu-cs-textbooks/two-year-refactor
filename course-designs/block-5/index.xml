@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block 5 — Store :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/index.html</link>
+    <description>Course designs for Block 5 (Store).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS-201 SQL Fundamentals</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/cs-201/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/cs-201/index.html</guid>
+      <description>CS-201 — SQL Fundamentals 1 credit&#xA;Working description Opens with the persistence motivator (why files are not enough — durability, concurrent access, querying, integrity), then SELECT/INSERT/UPDATE/DELETE/JOIN. Query-optimization seed (indexes, query plans). SQL named explicitly as DECLARATIVE querying (state what data; the planner finds how) — the same declarative idea as HTML, now for data (Computational Models pass). First half of the Relational Databases service unit.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    </item>
+    <item>
+      <title>CS-202 Database Design</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/cs-202/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/cs-202/index.html</guid>
+      <description>CS-202 — Database Design 1 credit&#xA;Working description Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the service unit. Graph spiral: a brief touch of a graph database (Neo4j/Cypher) as another persistent store alongside relational — NEW embedded content, foreshadowing B7 document stores.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    </item>
+    <item>
+      <title>STAT-101 Descriptive Statistics &amp; Data Summarization</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/stat-101/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/stat-101/index.html</guid>
+      <description>STAT-101 — Descriptive Statistics &amp; Data Summarization 1 credit (co-designed external)&#xA;Working description (External/co-designed, stats dept. Describe data the student is now structuring; feeds the data-visualization throughline. First of the statistics-for-ML sequence.)&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS-105 Code Reading &amp; Repair :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-2/cs-105/index.html</link>
+    <description>CS-105 — Code Reading &amp; Repair 1 credit&#xA;Working description Code Archaeology signature assessment; debugging reframed as modifying data flow. Git commit/revert and regression tests introduced together as two safety nets for changing code. AI-as-explainer, verified empirically.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-2/cs-105/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

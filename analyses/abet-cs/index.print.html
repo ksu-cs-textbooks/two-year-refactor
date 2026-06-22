@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="description" content="Working draft for faculty review. Checks the redesigned B.S. in Computer Science against ABET’s computer-science program criteria. The binding question: does the required path (common core &#43; capstone &#43; whatever stays required) independently satisfy ABET, with former-required 500-levels as elective depth? Core course codes are placeholders; CIS numbers are actual K-State courses.
+Why this is the binding analysis The project’s scope escalated from “replace sub-500 CIS” to “restructure the entire required CS core,” with courses like CIS 560 and 575 migrating to elective status. ABET is the constraint that makes this safe or not: the required path must satisfy every CS criterion on its own, with electives providing genuine depth rather than load-bearing coverage. This analysis maps the criteria against the core and identifies exactly which gaps force a course to remain required.">
+    <meta name="author" content="Russell Feldhausen">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta name="twitter:title" content="ABET CS Criteria Analysis :: CS Two Year Refactor">
+    <meta name="twitter:description" content="Working draft for faculty review. Checks the redesigned B.S. in Computer Science against ABET’s computer-science program criteria. The binding question: does the required path (common core &#43; capstone &#43; whatever stays required) independently satisfy ABET, with former-required 500-levels as elective depth? Core course codes are placeholders; CIS numbers are actual K-State courses.
+Why this is the binding analysis The project’s scope escalated from “replace sub-500 CIS” to “restructure the entire required CS core,” with courses like CIS 560 and 575 migrating to elective status. ABET is the constraint that makes this safe or not: the required path must satisfy every CS criterion on its own, with electives providing genuine depth rather than load-bearing coverage. This analysis maps the criteria against the core and identifies exactly which gaps force a course to remain required.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/analyses/abet-cs/index.html">
+    <meta property="og:site_name" content="CS Two Year Refactor">
+    <meta property="og:title" content="ABET CS Criteria Analysis :: CS Two Year Refactor">
+    <meta property="og:description" content="Working draft for faculty review. Checks the redesigned B.S. in Computer Science against ABET’s computer-science program criteria. The binding question: does the required path (common core &#43; capstone &#43; whatever stays required) independently satisfy ABET, with former-required 500-levels as elective depth? Core course codes are placeholders; CIS numbers are actual K-State courses.
+Why this is the binding analysis The project’s scope escalated from “replace sub-500 CIS” to “restructure the entire required CS core,” with courses like CIS 560 and 575 migrating to elective status. ABET is the constraint that makes this safe or not: the required path must satisfy every CS criterion on its own, with electives providing genuine depth rather than load-bearing coverage. This analysis maps the criteria against the core and identifies exactly which gaps force a course to remain required.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Analyses">
+    <meta property="article:modified_time" content="2026-06-22T15:18:16-05:00">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta itemprop="name" content="ABET CS Criteria Analysis :: CS Two Year Refactor">
+    <meta itemprop="description" content="Working draft for faculty review. Checks the redesigned B.S. in Computer Science against ABET’s computer-science program criteria. The binding question: does the required path (common core &#43; capstone &#43; whatever stays required) independently satisfy ABET, with former-required 500-levels as elective depth? Core course codes are placeholders; CIS numbers are actual K-State courses.
+Why this is the binding analysis The project’s scope escalated from “replace sub-500 CIS” to “restructure the entire required CS core,” with courses like CIS 560 and 575 migrating to elective status. ABET is the constraint that makes this safe or not: the required path must satisfy every CS criterion on its own, with electives providing genuine depth rather than load-bearing coverage. This analysis maps the criteria against the core and identifies exactly which gaps force a course to remain required.">
+    <meta itemprop="dateModified" content="2026-06-22T15:18:16-05:00">
+    <meta itemprop="wordCount" content="1273">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <title>ABET CS Criteria Analysis :: CS Two Year Refactor</title>
+    <link href="https://textbooks.cs.ksu.edu/two-year-refactor/analyses/abet-cs/index.html" rel="canonical" type="text/html" title="ABET CS Criteria Analysis :: CS Two Year Refactor">
+    <link href="/two-year-refactor/analyses/abet-cs/index.xml" rel="alternate" type="application/rss+xml" title="ABET CS Criteria Analysis :: CS Two Year Refactor">
+    <link href="/two-year-refactor/analyses/abet-cs/tele.html" rel="alternate" type="text/html" title="ABET CS Criteria Analysis :: CS Two Year Refactor">
+    <link href="/two-year-refactor/analyses/abet-cs/embed.html" rel="alternate" type="text/html" title="ABET CS Criteria Analysis :: CS Two Year Refactor">
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782159576" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1782159576" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782159576";
+    </script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782159576" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782159576" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782159576" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782159576" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1782159576" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-print.min.css?1782159576" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/analyses\/abet-cs\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/two-year-refactor';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/two-year-refactor/css/custom.css?1782159576" rel="stylesheet">
+  </head>
+  <body class="mobile-support print" data-url="/two-year-refactor/analyses/abet-cs/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#why-this-is-the-binding-analysis">Why this is the binding analysis</a></li>
+    <li><a href="#computer-science-40-sch">Computer science (≥40 SCH)</a>
+      <ul>
+        <li><a href="#substantial-coverage-requirements">Substantial-coverage requirements</a></li>
+        <li><a href="#exposure-requirements-lower-bar">Exposure requirements (lower bar)</a></li>
+        <li><a href="#other-cs-requirements">Other CS requirements</a></li>
+      </ul>
+    </li>
+    <li><a href="#mathematics--statistics-15-sch-rigor--introductory-calculus">Mathematics &amp; statistics (≥15 SCH, rigor ≥ introductory calculus)</a></li>
+    <li><a href="#science">Science</a></li>
+    <li><a href="#the-three-real-gaps--and-how-they-decide-required-vs-elective">The three real gaps — and how they decide required vs. elective</a></li>
+    <li><a href="#recommended-required-vs-elective-shape-subject-to-faculty-judgment">Recommended required-vs-elective shape (subject to faculty judgment)</a></li>
+    <li><a href="#open-questions">Open questions</a></li>
+    <li><a href="#bottom-line">Bottom line</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/two-year-refactor/index.html"><span itemprop="name">Two-Year CS Redesign</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/two-year-refactor/analyses/index.html"><span itemprop="name">Analyses</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">ABET CS Criteria Analysis</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/hugo-starter/edit/main/content/analyses/abet-cs.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/analyses/abet-cs/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/analyses/index.html" title="Analyses (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/analyses/kstate-replacement/index.html" title="K-State Sub-500 CIS Replacement (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/analyses/abet-cs/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/analyses/abet-cs/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable analyses" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="abet-cs-criteria-analysis">ABET CS Criteria Analysis</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. Checks the redesigned B.S. in Computer Science against ABET&rsquo;s computer-science program criteria. The binding question: does the <strong>required</strong> path (common core + capstone + whatever stays required) independently satisfy ABET, with former-required 500-levels as elective depth? Core course codes are placeholders; CIS numbers are actual K-State courses.</em></p></blockquote>
+<h2 id="why-this-is-the-binding-analysis">Why this is the binding analysis</h2>
+<p>The project&rsquo;s scope escalated from &ldquo;replace sub-500 CIS&rdquo; to &ldquo;restructure the entire required CS core,&rdquo; with courses like CIS 560 and 575 migrating to elective status. ABET is the constraint that makes this safe or not: the <strong>required</strong> path must satisfy every CS criterion on its own, with electives providing genuine depth rather than load-bearing coverage. This analysis maps the criteria against the core and identifies exactly which gaps force a course to remain required.</p>
+<h2 id="computer-science-40-sch">Computer science (≥40 SCH)</h2>
+<h3 id="substantial-coverage-requirements">Substantial-coverage requirements</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Requirement</th>
+          <th>Coverage</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Algorithms &amp; complexity</td>
+          <td>Algorithmic Thinking thread (B4 complexity, B7 graph algorithms, B8 real bottleneck) + Data Structures</td>
+          <td><strong>Likely substantial</strong> for the floor; CIS 575 becomes elective depth. Faculty judgment on &ldquo;substantial&rdquo; advised</td>
+      </tr>
+      <tr>
+          <td><strong>Computer science theory</strong></td>
+          <td>Core has complexity (Big-O), computational models (paradigms), logic/verification — but <strong>not</strong> automata, computability, or formal languages</td>
+          <td><strong>GAP</strong> — the core is deliberately applied and light on classical CS theory. The most significant finding</td>
+      </tr>
+      <tr>
+          <td>Concepts of programming languages</td>
+          <td>Computational Models thread (imperative, functional, declarative, concurrent, dataflow, logic)</td>
+          <td><strong>Covered strongly</strong> — the flagship thread <em>is</em> programming-language concepts; arguably better than a traditional course</td>
+      </tr>
+      <tr>
+          <td>Software development</td>
+          <td>Code Comprehension, Correctness &amp; Verification, Professional Practices, Sociotechnical Structure, B6 team project, B8 deployment</td>
+          <td><strong>Covered strongly</strong></td>
+      </tr>
+      <tr>
+          <td><strong>Substantial coverage of ≥1 general-purpose language</strong></td>
+          <td>Core is deliberately language-<em>agnostic</em>; deep single-language work lives in <strong>certificates outside the 120-credit degree</strong></td>
+          <td><strong>GAP / philosophy collision</strong> — out-of-degree certificates likely do not count for ABET</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="exposure-requirements-lower-bar">Exposure requirements (lower bar)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Requirement</th>
+          <th>Coverage</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Computer architecture &amp; organization</td>
+          <td>Programming-centric architecture absorbed into the core (stack/heap at B1, cache/memory-hierarchy at B8)</td>
+          <td>Exposure likely met; verify whether ABET wants ISA/organization depth we lack</td>
+      </tr>
+      <tr>
+          <td>Information management</td>
+          <td>Core B5 (databases, SQL, schema design)</td>
+          <td>Covered — arguably substantial, not just exposure</td>
+      </tr>
+      <tr>
+          <td>Networking &amp; communication</td>
+          <td>APIs &amp; Networked Systems thread + the (deferred) OSI Networking unit</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>Operating systems</td>
+          <td>Core now includes programmer-facing OS grounding: the process/execution model (seeded B1), and processes vs threads, preemptive vs cooperative scheduling, kernel/user space, plus virtual memory and paging/thrashing (B8)</td>
+          <td><strong>Covered</strong> at the exposure level ABET asks for — surfaced to ground the concurrent computational models and the memory-hierarchy-trumps-Big-O lesson; not a full classical-OS course, but genuine exposure to the core OS concepts</td>
+      </tr>
+      <tr>
+          <td>Parallel &amp; distributed computing</td>
+          <td>Computational Models (concurrent, actor model at B8) + B8 fault tolerance</td>
+          <td>Covered</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="other-cs-requirements">Other CS requirements</h3>
+<ul>
+<li><strong>Computing-based systems at varying levels of abstraction:</strong> the core is <em>built</em> on this — the representation spiral (primitive \u2192 graph), the Boundaries &amp; Contracts meta-thread, the abstraction progression. <strong>Covered strongly</strong> — a core philosophy, not just a checkbox.</li>
+<li><strong>Major project:</strong> the capstone, plus the B6 Team Software Project and B8 System Integration Project. Covered.</li>
+</ul>
+<h2 id="mathematics--statistics-15-sch-rigor--introductory-calculus">Mathematics &amp; statistics (≥15 SCH, rigor ≥ introductory calculus)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Requirement</th>
+          <th>Coverage</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Discrete mathematics</td>
+          <td>Core MATH-101–104 (4 cr)</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>Probability</td>
+          <td>STAT-102 (core, conceptual) + year-3 calculus-based</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>Statistics</td>
+          <td>Core STAT-101–104 (4 cr)</td>
+          <td>Covered</td>
+      </tr>
+      <tr>
+          <td>Rigor ≥ introductory calculus</td>
+          <td>Year-3 calculus + linear algebra sit within the 15-SCH block</td>
+          <td><strong>Met at the block level</strong> — see tension below</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>The rigor tension.</strong> The foundation statistics is deliberately <em>non-calculus</em> (calculus was moved to year 3). ABET wants the math/stats block to carry calculus-level rigor. The resolution: the 15-SCH block <em>includes</em> year-3 calculus and linear algebra, so the <strong>block</strong> clears the rigor bar even though the foundation stats within it is conceptual. Two consequences to confirm: (1) year-3 calculus must be counted within the 15 SCH, and (2) the 15-SCH math/stats requirement therefore formally spans into year 3 — acceptable for a four-year degree, but it should be explicit.</p>
+<h2 id="science">Science</h2>
+<p>Coursework applying the scientific method in a non-computing area — a science/gen-ed requirement K-State already satisfies, outside CS coursework and unaffected by this redesign. Noted only for completeness.</p>
+<h2 id="the-three-real-gaps--and-how-they-decide-required-vs-elective">The three real gaps — and how they decide required vs. elective</h2>
+<p>The value of this analysis: the ABET gaps <strong>determine which 500-level courses must stay required</strong>. Courses whose <em>foundations</em> the core already covers can become electives; courses that fill a core gap must stay required.</p>
+<ol>
+<li><strong>Computer science theory</strong> (automata, computability, formal languages). The core does not cover it. <strong>Implication:</strong> a formal-theory course (e.g. CIS 570/770) likely <strong>stays required</strong>, or the core is strengthened to add theory. This is the clearest &ldquo;must stay required&rdquo; consequence.</li>
+<li><strong>General-purpose language, substantial coverage.</strong> The language-agnostic core plus out-of-degree certificates likely does not satisfy ABET. <strong>Implication — one of:</strong> (a) a language course stays required in the degree; (b) one core course takes a language deep (in tension with the multi-paradigm design); or (c) the certificate model is restructured so a certificate counts toward degree credit for ABET. This is a genuine collision between the design philosophy and the criterion, and it must be resolved deliberately.</li>
+<li><strong>Operating systems exposure — now addressed.</strong> Programmer-facing OS grounding (process/execution model at B1; processes/threads/scheduling and virtual memory/paging/thrashing at B8) is woven into the Computational Models and Algorithmic Thinking threads, where it grounds the concurrent-model distinctions and the systems-reality-trumps-Big-O lesson. This provides genuine OS <em>exposure</em> without a dedicated OS course.</li>
+</ol>
+<p>By contrast, the courses the restructure <em>wanted</em> to make elective are safe to: <strong>CIS 560 (databases)</strong> and <strong>CIS 575 (algorithm analysis)</strong> — the core covers their foundations (B5 databases; B4/B7 algorithms), so they become legitimate elective depth rather than required coverage.</p>
+<h2 id="recommended-required-vs-elective-shape-subject-to-faculty-judgment">Recommended required-vs-elective shape (subject to faculty judgment)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Likely status</th>
+          <th>Reason</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Two-year core (30 cr)</td>
+          <td><strong>Required</strong></td>
+          <td>Covers most ABET CS criteria</td>
+      </tr>
+      <tr>
+          <td>CIS 570/770 Formal Languages / Theory</td>
+          <td><strong>Likely required</strong></td>
+          <td>Fills the CS-theory gap</td>
+      </tr>
+      <tr>
+          <td>A general-purpose language course <em>or</em> restructured certificate</td>
+          <td><strong>Likely required</strong> (form TBD)</td>
+          <td>Fills the language-coverage gap</td>
+      </tr>
+      <tr>
+          <td>An OS course</td>
+          <td><strong>Not required on ABET grounds</strong></td>
+          <td>OS exposure now covered by the woven programmer-facing grounding (B1 + B8)</td>
+      </tr>
+      <tr>
+          <td>CIS 560 Databases</td>
+          <td><strong>Elective</strong></td>
+          <td>Core covers the foundation</td>
+      </tr>
+      <tr>
+          <td>CIS 575 Algorithm Analysis</td>
+          <td><strong>Elective</strong></td>
+          <td>Core covers the foundation</td>
+      </tr>
+      <tr>
+          <td>CIS 501 Software Architecture, CIS 505 Programming Languages</td>
+          <td><strong>Likely elective</strong></td>
+          <td>Core threads (Boundaries/Sociotechnical/HCI; Computational Models) cover the foundations — confirm</td>
+      </tr>
+      <tr>
+          <td>Capstone</td>
+          <td><strong>Required</strong></td>
+          <td>ABET major-project requirement</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="open-questions">Open questions</h2>
+<ol>
+<li><strong>CS theory.</strong> Add a required theory course, or strengthen the core to cover automata/computability? (The core&rsquo;s applied orientation was deliberate; adding theory is a real change.)</li>
+<li><strong>Language coverage.</strong> Which resolution — required language course, a language-deep core course, or certificates restructured to count? This decides the fate of the language-agnostic philosophy <em>within the accredited degree</em>.</li>
+<li><strong>Operating systems — resolved.</strong> The woven programmer-facing OS grounding (process model, threads/scheduling, virtual memory/paging/thrashing) provides the exposure ABET asks for; confirm faculty agree it clears the bar.</li>
+<li><strong>&ldquo;Substantial&rdquo; thresholds.</strong> Faculty judgment on whether core algorithms and architecture coverage clears &ldquo;substantial&rdquo;/&ldquo;exposure&rdquo; without the former depth courses.</li>
+<li><strong>Math rigor accounting.</strong> Confirm year-3 calculus counts within the 15-SCH math/stats block, making the non-calculus foundation stats acceptable.</li>
+</ol>
+<h2 id="bottom-line">Bottom line</h2>
+<p>The redesigned core satisfies the <strong>majority</strong> of ABET CS criteria, several of them strongly (programming-language concepts, software development, abstraction, information management). The accreditation work is now concentrated in <strong>two gaps</strong> — CS theory and substantial single-language coverage (operating-systems exposure having been closed by weaving programmer-facing OS grounding into the Computational Models and Algorithmic threads) — and those gaps are <em>productive</em>, because they convert the open &ldquo;which 500-levels stay required&rdquo; question into a principled answer: the courses that fill the core&rsquo;s ABET gaps stay required; the courses whose foundations the core already covers (560, 575, likely 501 and 505) become elective depth. The one genuine philosophical decision forced by ABET is the <strong>general-purpose-language requirement</strong>, which collides with the language-agnostic core and the out-of-degree certificate model and must be resolved explicitly.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Nathan Bean
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/hugo-starter/commit/27833f4f4c613e5d180e36b8d60af1c1da13a73a">Jun 22, 2026</a>
+</p>
+
+</div>
+    </div>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782159576" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1782159576" defer></script>
+  </body>
+</html>

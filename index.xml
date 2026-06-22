@@ -1,39 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CS Two-Year Refactor :: CS Two Year Refactor</title>
+    <title>Two-Year CS Redesign :: CS Two Year Refactor</title>
     <link>https://textbooks.cs.ksu.edu/two-year-refactor/index.html</link>
-    <description></description>
+    <description>A competency-based, spiral two-year Computer Science foundational core: its structure, the competency assessment that wraps it, the pedagogy that animates it, the individual course designs, the specializations it feeds, and the accreditation analyses that support it.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introduction</title>
-      <link>https://textbooks.cs.ksu.edu/two-year-refactor/01-introduction/index.html</link>
+      <title>Core Design</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/01-introduction/index.html</guid>
-      <description>Lorem Ipsum.</description>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/index.html</guid>
+      <description>What the curriculum IS: the eight-block spine, the thirteen threads (nine spirals, three lenses, one bounded practice), and the program overview.</description>
     </item>
     <item>
-      <title>Competencies</title>
-      <link>https://textbooks.cs.ksu.edu/two-year-refactor/02-competencies/index.html</link>
+      <title>Competency-Based Assessment</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/assessment/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/02-competencies/index.html</guid>
-      <description>The identifed competency domains and associated competencies.</description>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/assessment/index.html</guid>
+      <description>How the program assesses against the structure. Competencies belong to the program, not to individual courses; courses are evidence-generating contexts. Grades and competency status run as parallel tracks.&#xA;This chapter is a stub — the principles below are established in the design log but not yet written up as full pages.&#xA;To document: the program-vs-course competency model; the parallel grade/competency tracks; signature assessments (Code Archaeology, Data Investigation, Design Review, the Team Software Project, the System Integration Project); how evidence accumulates across blocks; how lens/thread competencies are assessed without dedicated courses; the role of reflection and retrospectives.</description>
     </item>
     <item>
-      <title>Curriculum Structure</title>
-      <link>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/index.html</link>
+      <title>Pedagogical Approach</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/03-curriculum/index.html</guid>
-      <description>Working draft for faculty review. This is the front door to a set of 22 companion files: 8 block files, 9 thread files, 3 lens files, and 1 bounded-practice file. Course codes throughout are placeholders.&#xA;What this is A competency-based, systems-thinking foundation for a B.S. in Computer Science, shared by students who will go on to specialize (Cybersecurity, Data Science, AI Systems, Software Architecture). It is built as a spiral curriculum: ideas recur across the two years, each return deepening or generalizing the last, rather than being taught once and left behind.</description>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/index.html</guid>
+      <description>How the program teaches. The spiral method (ideas recur, each return deepening), practice-before-formal, the recurring developmental experiences, and the disciplined use of AI.&#xA;This chapter is a stub — the principles below are established in the design log but not yet written up as full pages.&#xA;To document: the spiral pedagogy; practice-before-formal sequencing; the recurring developmental experiences (Read → Repair → … → Reflect); the AI-Assisted Development discipline (explain/critique, never write-for-me); concrete-before-general (e.g. browser-as-mini-OS → OS); depth-of-engagement as a load-control lever.</description>
     </item>
     <item>
-      <title>Course Containers</title>
-      <link>https://textbooks.cs.ksu.edu/two-year-refactor/04-course-containers/index.html</link>
+      <title>Course Designs</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/04-course-containers/index.html</guid>
-      <description>The mappings of the curriculum structure and competencies into course containers.&#xA;flowchart TD subgraph Block1 CIS101[ Imperative Programming ] CIS102[ Functional Programming ] CIS103[ Computational Representation ] MATH101[ Logic and Sets ] end subgraph Block2 CIS104[ Object-Oriented Programming ] CIS105[ Code Reading &amp; Debugging I ] CIS106[ Web Foundations ] end subgraph Block3 CIS107[ Object-Oriented Programming II ] CIS108[ Linear Data Structures ] CIS109[ Algorithmic Complexity ] end subgraph Block4 CIS107[ Trees, Hashing &amp; Hiearchies ] CIS108[ APIs &amp; Data Validation ] CIS109[ Data Persistence I ] end subgraph Block5 end CIS101 --&gt; CIS104 flowchart LR</description>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/index.html</guid>
+      <description>The individual courses that instantiate the structure — 22 one-credit CS courses and 8 co-designed external courses, grouped by block. Each page starts from the course’s current working description; full course designs (outcomes, week map, assessments, thread touches) are to be developed.</description>
+    </item>
+    <item>
+      <title>Specializations</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/specializations/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/specializations/index.html</guid>
+      <description>The upper-division degrees built on the identical common core. Every degree = the two-year core + a degree-specific upper division. Each specialization is on-ramped by particular core threads.</description>
+    </item>
+    <item>
+      <title>Analyses</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/index.html</guid>
+      <description>How the design satisfies external requirements: ABET accreditation mappings, the K-State degree replacement, and service-department mappings.</description>
     </item>
   </channel>
 </rss>

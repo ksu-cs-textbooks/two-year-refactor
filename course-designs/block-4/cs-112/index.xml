@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS-112 Algorithmic Complexity :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-4/cs-112/index.html</link>
+    <description>CS-112 — Algorithmic Complexity 1 credit&#xA;Working description Big-O, sorting/searching — the COST of structural choices; how to choose among implementations satisfying the same contract (handoff from B3). Optimization-reasoning seed. Loosely pairs with MATH-102 (B3).&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-4/cs-112/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

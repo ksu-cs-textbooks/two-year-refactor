@@ -1,291 +1,723 @@
 var relearn_lti_index = [
   {
     "breadcrumb": "",
-    "description": "Lorem Ipsum.",
-    "modified": "2026-06-16T14:18:25-05:00",
+    "description": "A competency-based, spiral two-year Computer Science foundational core: its structure, the competency assessment that wraps it, the pedagogy that animates it, the individual course designs, the specializations it feeds, and the accreditation analyses that support it.",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "Introduction",
-    "uri": "/two-year-refactor/01-introduction/index.html"
+    "title": "Two-Year CS Redesign",
+    "uri": "/two-year-refactor/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure",
-    "description": "",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Analyses",
+    "description": "Working draft for faculty review. Checks the redesigned B.S. in Computer Science against ABET’s computer-science program criteria. The binding question: does the required path (common core + capstone + whatever stays required) independently satisfy ABET, with former-required 500-levels as elective depth? Core course codes are placeholders; CIS numbers are actual K-State courses.\nWhy this is the binding analysis The project’s scope escalated from “replace sub-500 CIS” to “restructure the entire required CS core,” with courses like CIS 560 and 575 migrating to elective status. ABET is the constraint that makes this safe or not: the required path must satisfy every CS criterion on its own, with electives providing genuine depth rather than load-bearing coverage. This analysis maps the criteria against the core and identifies exactly which gaps force a course to remain required.",
+    "modified": "2026-06-22T15:18:16-05:00",
     "tags": [],
-    "title": "Lenses",
-    "uri": "/two-year-refactor/03-curriculum/lenses/index.html"
+    "title": "ABET CS Criteria Analysis",
+    "uri": "/two-year-refactor/analyses/abet-cs/index.html"
   },
   {
-    "breadcrumb": "",
-    "description": "The identifed competency domains and associated competencies.",
-    "modified": "2026-06-17T11:53:59-05:00",
+    "breadcrumb": "Course Designs",
+    "description": "Course designs for Block 1 (Read).",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "Competencies",
-    "uri": "/two-year-refactor/02-competencies/index.html"
+    "title": "Block 1 — Read",
+    "uri": "/two-year-refactor/course-designs/block-1/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure",
-    "description": "",
-    "modified": "2026-06-18T12:33:44-05:00",
-    "tags": [],
-    "title": "Spiral Threads",
-    "uri": "/two-year-refactor/03-curriculum/threads/index.html"
-  },
-  {
-    "breadcrumb": "Curriculum Structure",
-    "description": "",
-    "modified": "2026-06-18T12:33:44-05:00",
-    "tags": [],
-    "title": "Blocks",
-    "uri": "/two-year-refactor/03-curriculum/blocks/index.html"
-  },
-  {
-    "breadcrumb": "",
-    "description": "Working draft for faculty review. This is the front door to a set of 22 companion files: 8 block files, 9 thread files, 3 lens files, and 1 bounded-practice file. Course codes throughout are placeholders.\nWhat this is A competency-based, systems-thinking foundation for a B.S. in Computer Science, shared by students who will go on to specialize (Cybersecurity, Data Science, AI Systems, Software Architecture). It is built as a spiral curriculum: ideas recur across the two years, each return deepening or generalizing the last, rather than being taught once and left behind.",
-    "modified": "2026-06-18T12:33:44-05:00",
-    "tags": [],
-    "title": "Curriculum Structure",
-    "uri": "/two-year-refactor/03-curriculum/index.html"
-  },
-  {
-    "breadcrumb": "Curriculum Structure",
-    "description": "",
-    "modified": "2026-06-18T12:33:44-05:00",
-    "tags": [],
-    "title": "Bounded Practices",
-    "uri": "/two-year-refactor/03-curriculum/bounded-practices/index.html"
-  },
-  {
-    "breadcrumb": "",
-    "description": "The mappings of the curriculum structure and competencies into course containers.\nflowchart TD subgraph Block1 CIS101[ Imperative Programming ] CIS102[ Functional Programming ] CIS103[ Computational Representation ] MATH101[ Logic and Sets ] end subgraph Block2 CIS104[ Object-Oriented Programming ] CIS105[ Code Reading \u0026 Debugging I ] CIS106[ Web Foundations ] end subgraph Block3 CIS107[ Object-Oriented Programming II ] CIS108[ Linear Data Structures ] CIS109[ Algorithmic Complexity ] end subgraph Block4 CIS107[ Trees, Hashing \u0026 Hiearchies ] CIS108[ APIs \u0026 Data Validation ] CIS109[ Data Persistence I ] end subgraph Block5 end CIS101 --\u003e CIS104 flowchart LR",
-    "modified": "2026-06-18T12:33:44-05:00",
-    "tags": [],
-    "title": "Course Containers",
-    "uri": "/two-year-refactor/04-course-containers/index.html"
-  },
-  {
-    "breadcrumb": "Curriculum Structure \u003e Bounded Practices",
-    "description": "Working draft for faculty review. A bounded practice deepens only in student judgment while its scope deliberately stays flat — the single thread of this type, distinct from the nine spirals and three lenses.\nIn one line: Depth increases only in the student’s critical judgment; the SCOPE of permitted AI use stays narrow and constant — explain, discuss, quiz, critique — never “write this for me and I’ll submit it.”",
-    "modified": "2026-06-18T12:33:44-05:00",
-    "tags": [],
-    "title": "AI-Assisted Development",
-    "uri": "/two-year-refactor/03-curriculum/bounded-practices/ai-assisted/index.html"
-  },
-  {
-    "breadcrumb": "Competencies",
-    "description": "Computational Reasoning Software Development Data and Informatoin Systems and Infrastructure Human-Centered Practice Professional Practice",
-    "modified": "2026-06-17T11:53:59-05:00",
-    "tags": [],
-    "title": "Competency Domains",
-    "uri": "/two-year-refactor/02-competencies/domains/index.html"
-  },
-  {
-    "breadcrumb": "Curriculum Structure \u003e Spiral Threads",
-    "description": "Thread: Computational Models \u0026 Error Handling Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the flagship spiral; one of nine spirals (alongside three lenses and one bounded practice).\nIn one line: From naming that there’s more than one model, to comparing production fault-tolerance philosophies — with ‘how does this model handle failure’ as the connective idea.\nCharacter FLAGSHIP. Merges two directives (computational models seeded throughout; errors as normative, compared across models) because how a model handles failure is one of its most important properties. Genuinely uncommon undergraduate content — most programs teach try/catch as the only model.",
-    "modified": "2026-06-18T12:33:44-05:00",
-    "tags": [],
-    "title": "Computational Models \u0026 Error Handling",
-    "uri": "/two-year-refactor/03-curriculum/threads/computational-models/index.html"
-  },
-  {
-    "breadcrumb": "Curriculum Structure \u003e Blocks",
+    "breadcrumb": "Core Design \u003e Blocks",
     "description": "Year 1, Fall · Weeks 1–8 · 8-week block · 4 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: ➤ Read (B1) → Modify (B2) → Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)\nPurpose Cognitive frame: READ computation. The first encounter with code is reading it, across two paradigms, before producing much.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "modified": "2026-06-22T15:18:16-05:00",
     "tags": [],
-    "title": "READ",
-    "uri": "/two-year-refactor/03-curriculum/blocks/block-1/index.html"
+    "title": "Block 1 — READ",
+    "uri": "/two-year-refactor/core-design/blocks/block-1-read/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Lenses",
-    "description": "Working draft for faculty review. A lens is a cross-cutting concern that runs across blocks, not a topic taught in one place. It is one of three lenses (Security/Privacy/Ethics, Documentation, Optimization), distinct from the nine spiraling threads and the one bounded practice.\nIn one line: A standing question — who could be harmed, what should we even collect, what are we trusting — asked wherever relevant content appears, formalized once.",
-    "modified": "2026-06-18T12:33:44-05:00",
-    "tags": [],
-    "title": "Security, Privacy \u0026 Ethical Reasoning",
-    "uri": "/two-year-refactor/03-curriculum/lenses/security-privacy-ethics/index.html"
-  },
-  {
-    "breadcrumb": "Introduction",
-    "description": "Lorem Ipsum.",
-    "modified": "2026-06-16T14:18:25-05:00",
-    "tags": [],
-    "title": "Welcome",
-    "uri": "/two-year-refactor/01-introduction/01-welcome/index.html"
-  },
-  {
-    "breadcrumb": "Competencies",
+    "breadcrumb": "Competency-Based Assessment \u003e Competencies",
     "description": "Analyze Computational Systems I can explain the behavior of computational systems by investigating their components, interactions, and execution.\nI analyze software and computing systems to determine how they operate, identify sources of behavior, and predict outcomes under varying conditions.\nDevelop Abstractions I can create and apply abstractions that reduce complexity while preserving essential characteristics of a problem or system.\nI organize information, processes, and system components into meaningful models that support understanding, communication, and solution development.",
-    "modified": "2026-06-17T11:53:59-05:00",
+    "modified": "2026-06-22T11:47:21-05:00",
     "tags": [],
-    "title": "Computational Reasoning Domain",
-    "uri": "/two-year-refactor/02-competencies/computational-reasoning/index.html"
+    "title": "Computational Reasoning",
+    "uri": "/two-year-refactor/assessment/competencies/computational-reasoning/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Spiral Threads",
-    "description": "Thread: Data Structures \u0026 Representation Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).\nIn one line: From the most primitive representation to the most general, each pass a genuine generalization of the last.\nCharacter The strongest spiral in the design. Each pass is a real generalization, not a harder repeat. After B3 it is taught contract-first (ADT interface before implementation), which is what lets B4 ask ‘how do we choose among implementations of the same contract?’",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "",
+    "description": "What the curriculum IS: the eight-block spine, the thirteen threads (nine spirals, three lenses, one bounded practice), and the program overview.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Core Design",
+    "uri": "/two-year-refactor/core-design/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 1 — Read",
+    "description": "CS-101 — Imperative Programming 1 credit\nWorking description HTML and CSS as the initial reading substrate — read and trace a web document before writing Python or JavaScript; the browser’s rendering pipeline as a first concrete computational model (declarative markup → DOM tree → rendered page). State, mutation, control structures — the sequence-of-steps-that-change-things paradigm, introduced in the context of JavaScript/Python acting on the DOM. Lists at shallow depth. (Codes are placeholders.)",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "CS-101 Imperative Programming",
+    "uri": "/two-year-refactor/course-designs/block-1/cs-101/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 2 — Modify",
+    "description": "CS-104 — Data Transformation \u0026 Manipulation 1 credit\nWorking description Parsing, filtering, reshaping, aggregating data; applies B1 imperative-mutation and functional-transformation skills. CSV/JSON as sources and sinks (file formats used, not taught). Embedded data-minimization: what data, transformed how.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-104 Data Transformation \u0026 Manipulation",
+    "uri": "/two-year-refactor/course-designs/block-2/cs-104/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 3 — Model",
+    "description": "CS-107 — Object-Oriented Programming I 1 credit\nWorking description Encapsulation, inheritance, abstraction, classes — modeling a domain and drawing boundaries. Moved from B2. Encapsulation as boundary-drawing (Boundaries \u0026 Contracts thread).\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-107 Object-Oriented Programming I",
+    "uri": "/two-year-refactor/course-designs/block-3/cs-107/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 4 — Structure",
+    "description": "CS-110 — Trees, Hashing \u0026 Hierarchies 1 credit\nWorking description Hierarchical and associative structure (Data Structures spiral). Taught as structure; ADT contracts from B3 continue (a tree/map has a contract too). Graph spiral: representing and building graphs (adjacency list/matrix — the adjacency matrix is also a natural seed for basic linear algebra), basic traversal. Spatial indexing as applied trees/hashing: quadtrees and R-trees (trees), geohashing (spatial hashing) — a real-world application that makes the structures concrete.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-110 Trees, Hashing \u0026 Hierarchies",
+    "uri": "/two-year-refactor/course-designs/block-4/cs-110/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 5 — Store",
+    "description": "CS-201 — SQL Fundamentals 1 credit\nWorking description Opens with the persistence motivator (why files are not enough — durability, concurrent access, querying, integrity), then SELECT/INSERT/UPDATE/DELETE/JOIN. Query-optimization seed (indexes, query plans). SQL named explicitly as DECLARATIVE querying (state what data; the planner finds how) — the same declarative idea as HTML, now for data (Computational Models pass). First half of the Relational Databases service unit.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-201 SQL Fundamentals",
+    "uri": "/two-year-refactor/course-designs/block-5/cs-201/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 6 — Build Responsibly",
+    "description": "CS-203 — Software Testing \u0026 Validation 1 credit\nWorking description Automated tests, unit and integration testing.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-203 Software Testing \u0026 Validation",
+    "uri": "/two-year-refactor/course-designs/block-6/cs-203/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 7 — Judge",
+    "description": "CS-206 — Graphs \u0026 Network Algorithms 1 credit\nWorking description Graph traversal, shortest path, minimum spanning trees — named explicitly as optimization (best path/structure under a metric). Graphs as the most general representation (terminal Data Structures pass). Geospatial algorithms: routing/shortest-path on road networks (weighted graphs; Dijkstra, A* as geospatially-motivated heuristic search); spatial joins and range/nearest-neighbor queries using B4 spatial indexes. Signature assessment: Design Review begins here. Computational Models pass: a brief see-and-explore example of a LOGIC/CONSTRAINT model (a few Prolog-style facts/rules + a query, or a small constraint problem a solver resolves) — connects to MATH-101 predicate logic, SQL’s logical character, and the Optimization lens.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-206 Graphs \u0026 Network Algorithms",
+    "uri": "/two-year-refactor/course-designs/block-7/cs-206/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 8 — Operate",
+    "description": "CS-208 — Deployment \u0026 Operations 1 credit\nWorking description Deploy, monitor, and operate a live system. Performance analysis on a REAL bottleneck (Algorithmic final pass), including the full memory hierarchy — cache misses and locality, and (the dramatic case) virtual memory, paging, and THRASHING, where systems reality can TRUMP Big-O: a theoretically-worse algorithm with good locality can beat a theoretically-better one that thrashes. Asymptotic analysis is necessary but not sufficient. Grounded in the B1 stack/heap/process model and requiring virtual-memory grounding. Operating-system grounding (programmer-facing): processes vs threads (isolated vs shared memory), preemptive (OS threads) vs cooperative (green threads) scheduling, kernel vs user space, and MESSAGE QUEUES / inter-process communication — generalizing the browser event loop from B2 (the browser was a mini-OS all along). Actor mailboxes ARE message queues, which ties the actor model to its substrate. Just enough to make the concurrent-model choice meaningful. Production fault-tolerance compared across models — try/catch vs the ACTOR MODEL (Erlang/OTP: isolated processes, message passing, supervision trees) vs circuit-breakers. The actor model is named explicitly as a concurrent/distributed computational model, not only a fault-tolerance mechanism (Computational Models flagship final pass; conceptual). Concurrency at scale; containers as deployment structure; harden-before-live (Security final pass); operational runbooks (Documentation); API versioning as a compatibility contract (Boundaries final pass, closes the B1 semver loop).",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-208 Deployment \u0026 Operations",
+    "uri": "/two-year-refactor/course-designs/block-8/cs-208/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: From the most primitive representation to the most general, each pass a genuine generalization — with graphs spiraling as a strand within.\nCharacter The strongest spiral in the design. Each pass is a real generalization, not a harder repeat. After B3 it is taught contract-first (ADT interface before implementation), which lets B4 ask ‘how do we choose among implementations of the same contract?’ Graphs are a deliberate sub-spiral inside this thread (B3 model → B4 represent+theory → B5 persist → B7 algorithms) rather than a single terminal pass. Geospatial data rides the thread as an applied representation sub-theme (B3 vector/raster representation → B4 spatial indexing via trees/hashing), which also deepens the GIS service relationship.",
+    "modified": "2026-06-22T15:18:16-05:00",
     "tags": [],
     "title": "Data Structures \u0026 Representation",
-    "uri": "/two-year-refactor/03-curriculum/threads/data-structures/index.html"
+    "uri": "/two-year-refactor/core-design/threads/thread-data-structures/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Blocks",
+    "breadcrumb": "Core Design",
+    "description": "Working draft for faculty review. This is the front door to a set of 22 companion files: 8 block files, 9 thread files, 3 lens files, and 1 bounded-practice file. Course codes throughout are placeholders.\nWhat this is A competency-based, systems-thinking foundation for a B.S. in Computer Science, shared by students who will go on to specialize (Cybersecurity, Data Science, AI Systems, Software Architecture). It is built as a spiral curriculum: ideas recur across the two years, each return deepening or generalizing the last, rather than being taught once and left behind.",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "Program Overview",
+    "uri": "/two-year-refactor/core-design/overview/index.html"
+  },
+  {
+    "breadcrumb": "Competency-Based Assessment",
+    "description": "",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "The Competency Model",
+    "uri": "/two-year-refactor/assessment/competency-model/index.html"
+  },
+  {
+    "breadcrumb": "Specializations",
+    "description": "Working draft for faculty review. How the common two-year core relates to the specialization degrees (Cybersecurity, Data Science, AI Systems, Software Architecture), using K-State’s Fall 2026 B.S. in Cybersecurity as the concrete case. Course codes for the new core are placeholders.\nThe structural reveal K-State’s Cybersecurity degree confirms the project’s founding premise rather than merely fitting it. Its first ~23 credits are identical to the Computer Science degree’s sub-500 CIS block \\u2014 the same CIS 115, 116, 200, 300, 301, 308, 400, 415, 450. Today, both degrees write out the same foundation separately. The two-year core is therefore not a CS-only replacement; it is the common foundation both degrees already share, made explicit and taught once.",
+    "modified": "2026-06-21T23:47:51-05:00",
+    "tags": [],
+    "title": "The Specialization Model",
+    "uri": "/two-year-refactor/specializations/specialization-model/index.html"
+  },
+  {
+    "breadcrumb": "Pedagogical Approach",
+    "description": "",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "The Spiral Method",
+    "uri": "/two-year-refactor/pedagogy/spiral-method/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Lenses",
+    "description": "Working draft for faculty review. A lens is a standing question or practice applied across blocks, scope growing with capability — not a topic taught in one place. One of three lenses (with nine spirals and one bounded practice — 13 threads total).\nIn one line: Can people trust this system, and the people who built it? — security, privacy, and ethical reasoning asked wherever content raises it, formalized once.",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "Trustworthy Computing",
+    "uri": "/two-year-refactor/core-design/lenses/lens-trustworthy-computing/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Blocks",
     "description": "Year 1, Fall · Weeks 9–16 · 8-week block · 3 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → ➤ Modify (B2) → Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)\nPurpose Cognitive frame: MODIFY data \u0026 state. Computation understood as the act of changing data.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "modified": "2026-06-22T15:18:16-05:00",
     "tags": [],
-    "title": "MODIFY",
-    "uri": "/two-year-refactor/03-curriculum/blocks/block-2/index.html"
+    "title": "Block 2 — Modify",
+    "uri": "/two-year-refactor/core-design/blocks/block-2-modify/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Lenses",
-    "description": "Lens: Optimization Reasoning Working draft for faculty review. A lens is a cross-cutting concern that runs across blocks, not a topic taught in one place. It is one of three lenses (Security/Privacy/Ethics, Documentation, Optimization), distinct from the nine spiraling threads and the one bounded practice.\nIn one line: The recurring pattern “find the best option under constraints,” named explicitly wherever it already arises, so students reach the AI specialization already thinking in optimization terms.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Course Designs",
+    "description": "Course designs for Block 2 (Modify).",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "Optimizaton Reasoning",
-    "uri": "/two-year-refactor/03-curriculum/lenses/optimization-reasoning/index.html"
+    "title": "Block 2 — Modify",
+    "uri": "/two-year-refactor/course-designs/block-2/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Spiral Threads",
-    "description": "Thread: Algorithmic Thinking \u0026 Complexity Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).\nIn one line: From Big-O as theory, to graph optimization, to a real bottleneck under load.\nCharacter Moved its first pass from B3 to B4 so it can answer the question B3’s contract-first ADTs raise: how do you choose among implementations of the same contract? Closely shadowed by the Optimization lens.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Core Design",
+    "description": "The eight 8-week blocks: Read → Modify → Model → Structure → Store → Build Responsibly → Judge → Operate.",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "Algorithmic Thinking \u0026 Complexity",
-    "uri": "/two-year-refactor/03-curriculum/threads/algorithmic-thinking/index.html"
+    "title": "Blocks",
+    "uri": "/two-year-refactor/core-design/blocks/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Lenses",
-    "description": "Lens: Documentation Practice Working draft for faculty review. A lens is a cross-cutting concern that runs across blocks, not a topic taught in one place. It is one of three lenses (Security/Privacy/Ethics, Documentation, Optimization), distinct from the nine spiraling threads and the one bounded practice.\nIn one line: A standing expectation that whenever students read, modify, or write code, they document it — with the register changing as the audience and purpose change.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: Understanding programs — your own and others’ — from ‘make it work’ to ‘defend it under scrutiny.’\nCharacter The lens shifts each pass rather than just raising difficulty: produce → understand others’ → organize → verify → defend. (Renamed from the slash-name ‘Program Correctness / Code Comprehension’; the through-line is comprehension of programs.)",
+    "modified": "2026-06-22T11:47:21-05:00",
     "tags": [],
-    "title": "Documentaiton Practice",
-    "uri": "/two-year-refactor/03-curriculum/lenses/documentation/index.html"
+    "title": "Code Comprehension",
+    "uri": "/two-year-refactor/core-design/threads/thread-code-comprehension/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Blocks",
-    "description": "Year 1, Spring · Weeks 1–8 · 8-week block · 4 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → ➤ Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)\nPurpose Cognitive frame: MODEL \u0026 ABSTRACT. Modeling a domain and drawing boundaries around its parts.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Competency-Based Assessment",
+    "description": "The competency domains are:\nComputational Reasoning Software Development Data and Informatoin Systems and Infrastructure Human-Centered Practice Professional Practice",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "MODEL",
-    "uri": "/two-year-refactor/03-curriculum/blocks/block-3/index.html"
+    "title": "Competencies",
+    "uri": "/two-year-refactor/assessment/competencies/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Spiral Threads",
-    "description": "Thread: Program Correctness / Code Comprehension Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).\nIn one line: From ‘make it work’ to ‘defend it under scrutiny’ — the lens changes each pass.\nCharacter Each pass shifts the lens rather than just raising difficulty: produce → understand others’ → organize for correctness → verify → defend.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "",
+    "description": "How the program assesses against the structure. Competencies belong to the program, not to individual courses; courses are evidence-generating contexts. Grades and competency status run as parallel tracks.\nThis chapter is a stub — the principles below are established in the design log but not yet written up as full pages.\nTo document: the program-vs-course competency model; the parallel grade/competency tracks; signature assessments (Code Archaeology, Data Investigation, Design Review, the Team Software Project, the System Integration Project); how evidence accumulates across blocks; how lens/thread competencies are assessed without dedicated courses; the role of reflection and retrospectives.",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "Program Correctness / Code Comprehension",
-    "uri": "/two-year-refactor/03-curriculum/threads/program-correctness/index.html"
+    "title": "Competency-Based Assessment",
+    "uri": "/two-year-refactor/assessment/index.html"
   },
   {
-    "breadcrumb": "Competencies",
-    "description": "Software Development Design Software Systems I can design software systems that satisfy identified requirements and constraints.\nI create and communicate system designs that consider functionality, maintainability, security, usability, and performance.\nImplement Software Solutions I can construct software solutions that fulfill identified requirements using appropriate technologies and development practices.\nI develop software systems by applying suitable tools, languages, frameworks, and implementation strategies.\nVerify Software Quality I can evaluate software systems using testing, analysis, and verification techniques to determine whether requirements have been met.",
-    "modified": "2026-06-17T11:53:59-05:00",
+    "breadcrumb": "Course Designs \u003e Block 1 — Read",
+    "description": "CS-102 — Functional Programming 1 credit\nWorking description Functions as values, composition, immutability, basic recursion — the describe-the-result-as-composed-transformations paradigm. Paired solve-it-both-ways exercise with CS-101 names the idea of more than one computational model.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-102 Functional Programming",
+    "uri": "/two-year-refactor/course-designs/block-1/cs-102/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 2 — Modify",
+    "description": "CS-105 — Code Reading \u0026 Repair 1 credit\nWorking description Code Archaeology signature assessment; debugging reframed as modifying data flow. Git commit/revert and regression tests introduced together as two safety nets for changing code. AI-as-explainer, verified empirically.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-105 Code Reading \u0026 Repair",
+    "uri": "/two-year-refactor/course-designs/block-2/cs-105/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 3 — Model",
+    "description": "CS-108 — Object-Oriented Programming II 1 credit\nWorking description Collections, iterators, OOP design principles — abstraction over data access/traversal; modeling discipline.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-108 Object-Oriented Programming II",
+    "uri": "/two-year-refactor/course-designs/block-3/cs-108/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 4 — Structure",
+    "description": "CS-111 — Systems \u0026 APIs 1 credit\nWorking description Client-server decomposition; the API as system structure across a network boundary (APIs spiral + Boundaries network-boundary pass). Conway Law seed links system structure to human/org structure (Sociotechnical thread). Dataflow model named (Computational Models): a web-server request flows through a pipeline of stages (parse to auth to route to handle to serialize to respond). Data visualization embedded here (Human-Centered Computing throughline), not a separate course; D3 data-join and method-chaining as the client-side dataflow counterpart. Component-based GUI architecture (web components — custom elements, shadow DOM, slots): the B4 “structure” pass applied to user interfaces. A web component is a reusable boundary unit: custom element name is its public contract, shadow DOM is its encapsulated internals, slots are its interface — unifying the block’s structure/boundaries/contracts themes on the frontend. Event-driven programming formalized as a structural pattern (register listener → dispatch event → handle in queue), deepening the event-loop first named in CS-106 (B2).",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "CS-111 Systems \u0026 APIs",
+    "uri": "/two-year-refactor/course-designs/block-4/cs-111/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 5 — Store",
+    "description": "CS-202 — Database Design 1 credit\nWorking description Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the service unit. Graph spiral: a brief touch of a graph database (Neo4j/Cypher) as another persistent store alongside relational — NEW embedded content, foreshadowing B7 document stores.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-202 Database Design",
+    "uri": "/two-year-refactor/course-designs/block-5/cs-202/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 6 — Build Responsibly",
+    "description": "CS-204 — Security Fundamentals 1 credit\nWorking description Threat identification, authentication, authorization. Modular arithmetic from Block 5 grounds an applied cryptography unit. Principle of least privilege extended explicitly to principle of least data collection.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-204 Security Fundamentals",
+    "uri": "/two-year-refactor/course-designs/block-6/cs-204/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 7 — Judge",
+    "description": "CS-207 — Document Databases \u0026 Data Integration 1 credit\nWorking description NoSQL data models (data that resists clean relational structure); combining disparate sources. Re-identification risk from combined datasets (Security pass). Multi-objective tradeoff reasoning — integrating for speed vs completeness vs privacy — defended in Design Review.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-207 Document Databases \u0026 Data Integration",
+    "uri": "/two-year-refactor/course-designs/block-7/cs-207/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 8 — Operate",
+    "description": "CS-209 — Human-Centered Design \u0026 Validation 1 credit\nWorking description Formal requirements gathering, UX, and VALIDATION-WITH-USERS — the Human-Centered Computing final pass, escalating from B2’s accessibility-checklist compliance to requirements-driven design and fitness-for-purpose. Acceptance testing (does it meet the user’s criteria?) and A/B testing (experiment to learn user preference) live here — distinct from code-correctness testing (Correctness \u0026 Verification thread). Light design-under-ambiguity. The System Integration Project carries a blameless postmortem (Sociotechnical final pass).",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-209 Human-Centered Design \u0026 Validation",
+    "uri": "/two-year-refactor/course-designs/block-8/cs-209/index.html"
+  },
+  {
+    "breadcrumb": "Specializations",
+    "description": "Working draft for faculty review. Unlike the A.I. and Data Science recommendations, a Cybersecurity degree already exists at K-State \\u2014 this document re-expresses it on the shared two-year core and checks it against ABET’s cybersecurity criteria. It is the worked example that first revealed the specialization model. Core course codes are placeholders; CIS numbers are actual K-State courses.\nPremise K-State’s existing Cybersecurity degree already has the structure the specialization model predicts: its first ~23 credits are identical to the CS sub-500 CIS block (the common core), followed by a security-specific upper division. This document re-expresses that degree on the redesigned core and verifies ABET alignment. Of the four specializations, Cybersecurity is the strongest fit \\u2014 both because the core’s security emphasis was always its strongest on-ramp, and because ABET’s cyber criteria reward the systems-thinking the core is built on.",
+    "modified": "2026-06-21T23:47:51-05:00",
+    "tags": [],
+    "title": "Cybersecurity",
+    "uri": "/two-year-refactor/specializations/cybersecurity/index.html"
+  },
+  {
+    "breadcrumb": "Analyses",
+    "description": "Working draft for faculty review. Maps the proposed replacement of all sub-500 CIS courses in the K-State B.S. in Computer Science (Fall 2026 requirements) with the redesigned two-year core. Surfaces gaps, overlaps, and the decisions needed. Course codes for the new core are placeholders.\nWhat is being replaced The current degree’s CS Requirements block is 41 credits. Of that, the sub-500 CIS courses total 23 credits:\nCourse Cr Nature CIS 115 Introduction to Computing Science 2 Intro CIS 116 Introduction to Programming 1 Intro programming CIS 200 Programming Fundamentals 4 Programming CIS 300 Data and Program Structures 3 Data structures CIS 301 Logical Foundations of Programming 3 Formal logic CIS 308 C/C++ Programming Laboratory 1 Language-specific CIS 400 Object-Oriented Design, Implementation and Testing 3 OOP CIS 415 Ethics and Conduct for Computing Professionals 3 Ethics (standalone) CIS 450 Computer Architecture and Operations 3 Architecture The bolded four are the crux: they are not intro programming, and the two-year core was scoped around programming, data structures, and OOP. They need explicit decisions.",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "K-State Sub-500 CIS Replacement",
+    "uri": "/two-year-refactor/analyses/kstate-replacement/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Lenses",
+    "description": "Working draft for faculty review. A lens is a standing question or practice applied across blocks, scope growing with capability — not a topic taught in one place. One of three lenses (with nine spirals and one bounded practice — 13 threads total).\nIn one line: “Best under constraints,” named wherever it already arises, so students reach the AI specialization already thinking in optimization terms.\nWhy this is a lens, not a spiral A lightweight lens, not a new spiral, because ‘find the best X under constraints’ already occurs organically at several points — it needs naming, not new content. Mathematical optimization proper (gradient descent, convex methods) is deferred to the specialization; the foundation seeds the reasoning pattern.",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "Optimization Reasoning",
+    "uri": "/two-year-refactor/core-design/lenses/lens-optimization/index.html"
+  },
+  {
+    "breadcrumb": "Pedagogical Approach",
+    "description": "",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Recurring Developmental Experiences",
+    "uri": "/two-year-refactor/pedagogy/developmental-experiences/index.html"
+  },
+  {
+    "breadcrumb": "Competency-Based Assessment",
+    "description": "",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Signature Assessments",
+    "uri": "/two-year-refactor/assessment/signature-assessments/index.html"
+  },
+  {
+    "breadcrumb": "Competency-Based Assessment \u003e Competencies",
+    "description": "Design Software Systems I can design software systems that satisfy identified requirements and constraints.\nI create and communicate system designs that consider functionality, maintainability, security, usability, and performance.\nImplement Software Solutions I can construct software solutions that fulfill identified requirements using appropriate technologies and development practices.\nI develop software systems by applying suitable tools, languages, frameworks, and implementation strategies.\nVerify Software Quality I can evaluate software systems using testing, analysis, and verification techniques to determine whether requirements have been met.",
+    "modified": "2026-06-22T11:47:21-05:00",
     "tags": [],
     "title": "Software Development",
-    "uri": "/two-year-refactor/02-competencies/software-development/index.html"
+    "uri": "/two-year-refactor/assessment/competencies/software-development/index.html"
   },
   {
-    "breadcrumb": "Competencies",
-    "description": "Data and Information Represent Information I can select and apply appropriate representations for information within computational systems.\nI organize and model information in ways that support effective storage, communication, analysis, and processing.\nManage Data Resources I can acquire, store, transform, and integrate data from multiple sources to support computational goals.\nI work with structured and unstructured data using appropriate technologies, formats, and workflows.\nInvestigate Questions with Data I can use computational and statistical methods to investigate questions and evaluate evidence.",
-    "modified": "2026-06-17T11:53:59-05:00",
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: Consume → build → integrate multiple → operate in production.\nCharacter A clean four-pass escalation in what the student does with a networked boundary.\nPasses across the two years Block Host context What’s new at this pass B2 (Y1 Fall) CS-106 Web Foundations Consume a basic, read-only API. B4 (Y1 Spring) CS-111 Systems \u0026 APIs Build and consume your own API; system structure across a network boundary. B7 (Y2 Spring) CS-207 Data Integration Integrate multiple sources — combine, not just call. B8 (Y2 Spring) CS-208 Deployment \u0026 Operations Operate a live service in production. Connections The network boundary is the B4 pass of Boundaries \u0026 Contracts. If OSI Networking Fundamentals is adopted, it becomes the theory this practical thread applies. Open questions for faculty review OSI Networking Fundamentals placement and credits remain deferred to cross-block optimization. For how this lands in a specific block, see that block’s review file.",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "APIs \u0026 Networked Systems",
+    "uri": "/two-year-refactor/core-design/threads/thread-apis-networked/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Blocks",
+    "description": "Year 1, Spring · Weeks 1–8 · 8-week block · 4 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → ➤ Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)\nPurpose Cognitive frame: MODEL \u0026 ABSTRACT. Modeling a domain and drawing boundaries around its parts.",
+    "modified": "2026-06-21T23:47:51-05:00",
+    "tags": [],
+    "title": "Block 3 — Model",
+    "uri": "/two-year-refactor/core-design/blocks/block-3-model/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs",
+    "description": "Course designs for Block 3 (Model).",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Block 3 — Model",
+    "uri": "/two-year-refactor/course-designs/block-3/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 1 — Read",
+    "description": "CS-103 — Computational Representation 1 credit\nWorking description Boolean logic, number systems, bitwise operations — applied counterpart to Discrete Math Logic \u0026 Sets. Light home for the representation/hiding security question. Programming-centric memory model named: the stack and the heap (stack frames for calls/recursion; heap for dynamic allocation) — absorbing the programmer-facing part of computer architecture. Execution-model seed: a running program is a PROCESS the operating system schedules (single-threaded for now) — the grounding the concurrent models will need later. HDL/FPGA intentionally not produced.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-103 Computational Representation",
+    "uri": "/two-year-refactor/course-designs/block-1/cs-103/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 2 — Modify",
+    "description": "CS-106 — Web Foundations \u0026 Data-Driven Rendering 1 credit\nWorking description Semantic HTML/CSS + accessibility substrate; emphasis on fetch-and-render (modify the page as data arrives). HTML/CSS named explicitly as a DECLARATIVE model (state what, not how; the engine resolves layout) — Computational Models pass. Human-Centered Computing pass 1 (accessibility) + proto-visualization (visual hierarchy). Async/event-loop introduced via fetch — the event loop processes a QUEUE of callbacks/events (first encounter with message-queue/event-processing mechanics). Framing: the browser is a MINI-OS (it schedules your code via the event loop, isolates origins as a security boundary, runs concurrent work via web workers, and passes messages via postMessage = IPC) — a concrete, familiar on-ramp to the OS concepts formalized at B8. Data-minimization in form fields.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-106 Web Foundations \u0026 Data-Driven Rendering",
+    "uri": "/two-year-refactor/course-designs/block-2/cs-106/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 3 — Model",
+    "description": "CS-109 — Abstract Data Types 1 credit\nWorking description Lists, linked lists, stacks, queues taught CONTRACT-FIRST: the ADT interface and its guarantees before implementation. Same-contract-multiple-implementations sets up B4 cost-based choice. Function pre/post-conditions name B1 informal verification reasoning. Graph spiral begins: graphs introduced as a MODEL for relationship-structured data (people/friendships, pages/links, task dependencies) — conceptual, no algorithms yet. Geospatial representation seed: points, lines, polygons (vector) and rasters (grids) as representation choices for spatial data.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-109 Abstract Data Types",
+    "uri": "/two-year-refactor/course-designs/block-3/cs-109/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 4 — Structure",
+    "description": "CS-112 — Algorithmic Complexity 1 credit\nWorking description Big-O, sorting/searching — the COST of structural choices; how to choose among implementations satisfying the same contract (handoff from B3). Optimization-reasoning seed. Loosely pairs with MATH-102 (B3).\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-112 Algorithmic Complexity",
+    "uri": "/two-year-refactor/course-designs/block-4/cs-112/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 6 — Build Responsibly",
+    "description": "CS-205 — Collaborative Development 1 credit\nWorking description Collaborative Git (branches, PRs, code review, conflict resolution); team practices. Conway’s Law enacted — the team is now an organization, and how it divides work shapes what it builds. Signature assessment: Team Software Project begins, carrying a responsibility retrospective (correctness, safety, teamwork).\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-205 Collaborative Development",
+    "uri": "/two-year-refactor/course-designs/block-6/cs-205/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 8 — Operate",
+    "description": "CS-210 — Data Analysis \u0026 Responsible AI 1 credit\nWorking description Notebook-based data analysis as the CULMINATION of the STAT-101 statistics foundation and the data-visualization throughline (B2/B4/B5/B7) — integrative, not new-from-scratch. Honest visualization and data ethics. The genuinely new skill: high-stakes verification and critique of AI-generated code for correctness and security (AI bounded-practice final pass; prerequisite for the Year 3–4 Agentic AI specialization, which this course precedes but does not duplicate).",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "CS-210 Data Analysis \u0026 Responsible AI",
+    "uri": "/two-year-refactor/course-designs/block-8/cs-210/index.html"
+  },
+  {
+    "breadcrumb": "Competency-Based Assessment \u003e Competencies",
+    "description": "Represent Information I can select and apply appropriate representations for information within computational systems.\nI organize and model information in ways that support effective storage, communication, analysis, and processing.\nManage Data Resources I can acquire, store, transform, and integrate data from multiple sources to support computational goals.\nI work with structured and unstructured data using appropriate technologies, formats, and workflows.\nInvestigate Questions with Data I can use computational and statistical methods to investigate questions and evaluate evidence.",
+    "modified": "2026-06-22T11:47:21-05:00",
     "tags": [],
     "title": "Data and Information",
-    "uri": "/two-year-refactor/02-competencies/data-and-information/index.html"
+    "uri": "/two-year-refactor/assessment/competencies/data-and-information/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Blocks",
+    "breadcrumb": "Specializations",
+    "description": "Working draft for faculty review. A proposal for a CS-housed Data Science specialization built on the shared two-year core, using real K-State courses. Note up front: the Statistics department already offers a B.S. in Data Science, so this proposal is framed as a CS-flavored, partnership-oriented specialization rather than a duplicate. Core course codes are placeholders; CIS/STAT/MATH numbers are actual K-State courses.\nPremise and positioning Under the specialization model, every degree is the identical two-year core plus a degree-specific upper division. For Data Science there is an important wrinkle: Statistics already has a B.S. in Data Science, built on a calculus-first, mathematical-statistics spine (Calc I–III → linear algebra → STAT 610/611). A CS-side Data Science specialization should therefore be deliberately CS-flavored — heavier on programming, data engineering, databases, and systems — and should partner with Statistics for statistical depth rather than rebuild it. The differentiator: CS contributes the computing and engineering; Statistics contributes the inferential theory.",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "Data Science",
+    "uri": "/two-year-refactor/specializations/data-science/index.html"
+  },
+  {
+    "breadcrumb": "Pedagogical Approach",
+    "description": "",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Disciplined Use of AI",
+    "uri": "/two-year-refactor/pedagogy/ai-discipline/index.html"
+  },
+  {
+    "breadcrumb": "",
+    "description": "How the program teaches. The spiral method (ideas recur, each return deepening), practice-before-formal, the recurring developmental experiences, and the disciplined use of AI.\nThis chapter is a stub — the principles below are established in the design log but not yet written up as full pages.\nTo document: the spiral pedagogy; practice-before-formal sequencing; the recurring developmental experiences (Read → Repair → … → Reflect); the AI-Assisted Development discipline (explain/critique, never write-for-me); concrete-before-general (e.g. browser-as-mini-OS → OS); depth-of-engagement as a load-control lever.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Pedagogical Approach",
+    "uri": "/two-year-refactor/pedagogy/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Lenses",
+    "description": "Working draft for faculty review. A lens is a standing question or practice applied across blocks, scope growing with capability — not a topic taught in one place. One of three lenses (with nine spirals and one bounded practice — 13 threads total).\nIn one line: The individual craft of being a professional: documentation, version control, code style, code review, communication, self-reflection, estimation, and continued learning — each maturing as it recurs.",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "Professional Practices",
+    "uri": "/two-year-refactor/core-design/lenses/lens-professional-practices/index.html"
+  },
+  {
+    "breadcrumb": "Analyses",
+    "description": "Service Mapping: Computer Engineering Working draft for faculty review. How Computer Engineering’s current 12-credit dependency on our CS courses maps onto the redesigned modular curriculum. Course codes are placeholders.\nContext Computer Engineering currently consumes 12 credits from us, as four traditional 3-credit, 16-week courses:\nTraditional course Typical content CS0 Gentle introduction to programming CS1 First real programming: variables, control flow, functions, basic data Data Structures Lists, stacks, queues, trees, hashing; light graph introduction; complexity OOP Encapsulation, inheritance, polymorphism, classes Our redesign deliberately dissolved these monolithic courses into spiraled 1-credit, 8-week pieces, reorganized by concept and paradigm rather than the traditional sequence. This is the hardest service case we have, because Computer Engineering wants the recognizable traditional packaging that the redesign specifically took apart. The good news: the content is nearly all present, the pieces happen to co-locate by semester, and the original three-layer design (transcript courses / developmental experiences / competencies) anticipated exactly this kind of administrative repackaging.",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "Service: Computer Engineering",
+    "uri": "/two-year-refactor/analyses/service-computer-engineering/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 5 — Store",
+    "description": "STAT-101 — Descriptive Statistics \u0026 Data Summarization 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Describe data the student is now structuring; feeds the data-visualization throughline. First of the statistics-for-ML sequence.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "STAT-101 Descriptive Statistics \u0026 Data Summarization",
+    "uri": "/two-year-refactor/course-designs/block-5/stat-101/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 7 — Judge",
+    "description": "STAT-103 — Random Variables, Distributions \u0026 Sampling 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Distributions, sampling, central limit theorem.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "STAT-103 Random Variables, Distributions \u0026 Sampling",
+    "uri": "/two-year-refactor/course-designs/block-7/stat-103/index.html"
+  },
+  {
+    "breadcrumb": "Core Design",
+    "description": "Nine spiraling threads and one bounded practice (AI-Assisted Development).",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Threads",
+    "uri": "/two-year-refactor/core-design/threads/index.html"
+  },
+  {
+    "breadcrumb": "Specializations",
+    "description": "Working draft for faculty review. A proposal for an A.I. Systems specialization built on the shared two-year core, using real K-State courses. The catalog reveals a genuine undergraduate 500-level A.I. suite — the earlier worry that A.I. depth was graduate-only was mistaken. Core course codes are placeholders; CIS/STAT/MATH numbers are actual K-State courses.\nPremise Under the specialization model, every degree is the identical two-year core plus a degree-specific upper division. A.I. is the most mathematics-dependent specialization; the core pre-positions students through several on-ramp threads, and K-State has real undergraduate A.I. courses to build the upper division.",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "A.I. Systems",
+    "uri": "/two-year-refactor/specializations/ai-systems/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Blocks",
     "description": "Year 1, Spring · Weeks 9–16 · 8-week block · 3 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → Model (B3) → ➤ Structure (B4) → Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)\nPurpose Cognitive frame: STRUCTURE across scales. The same idea — parts and relationships — in data, systems, networks, and the humans who build them.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "modified": "2026-06-22T15:18:16-05:00",
     "tags": [],
-    "title": "STRUCTURE",
-    "uri": "/two-year-refactor/03-curriculum/blocks/block-4/index.html"
+    "title": "Block 4 — Structure",
+    "uri": "/two-year-refactor/core-design/blocks/block-4-structure/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Spiral Threads",
-    "description": "Thread: HCI / Accessible \u0026 Human-Centered Design Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).\nIn one line: From accessibility-checklist compliance to requirements-driven design — carrying TWO embedded throughlines (accessibility + data visualization).\nCharacter Carries two throughlines that belong together (both are about communicating to a human effectively and honestly). The key transition is B2’s checklist compliance → B8’s designing from others’ needs outward.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Course Designs",
+    "description": "Course designs for Block 4 (Structure).",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "HCI / Accessible \u0026 Human-Centered Design",
-    "uri": "/two-year-refactor/03-curriculum/threads/human-computer-interaction/index.html"
+    "title": "Block 4 — Structure",
+    "uri": "/two-year-refactor/course-designs/block-4/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Blocks",
+    "breadcrumb": "",
+    "description": "The individual courses that instantiate the structure — 22 one-credit CS courses and 8 co-designed external courses, grouped by block. Each page starts from the course’s current working description; full course designs (outcomes, week map, assessments, thread touches) are to be developed.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Course Designs",
+    "uri": "/two-year-refactor/course-designs/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: Computing in service of human needs: design FOR, communicate TO, and validate WITH people — perceive → represent → comprehend → defend → fitness-for-purpose.\nCharacter Renamed and rescoped from the old HCI thread. Carries two embedded throughlines (accessibility + data visualization) and now owns validation-with-users (acceptance testing, A/B testing), which is the ‘is it what they needed’ question — distinct from the ‘is it correct’ question that Correctness \u0026 Verification keeps.",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "Human-Centered Computing",
+    "uri": "/two-year-refactor/core-design/threads/thread-human-centered/index.html"
+  },
+  {
+    "breadcrumb": "Core Design",
+    "description": "Three lenses applied across blocks: Trustworthy Computing, Optimization Reasoning, Professional Practices.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Lenses",
+    "uri": "/two-year-refactor/core-design/lenses/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 1 — Read",
+    "description": "MATH-101 — Discrete Math: Logic and Sets 1 credit (co-designed external)\nWorking description (External/co-designed. Pairs with Boolean logic/representation in CS-103.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "MATH-101 Discrete Math: Logic and Sets",
+    "uri": "/two-year-refactor/course-designs/block-1/math-101/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 2 — Modify",
+    "description": "MATH-102 — Discrete Math: Counting Finite Configurations 1 credit (co-designed external)\nWorking description (External/co-designed. Counting precedes Algorithmic Complexity in B4.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "MATH-102 Discrete Math: Counting Finite Configurations",
+    "uri": "/two-year-refactor/course-designs/block-2/math-102/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 3 — Model",
+    "description": "MATH-103 — Discrete Math: Recursive and Modular Computation 1 credit (co-designed external)\nWorking description (External/co-designed. Recursion arrives as ADTs/trees need it; modular arithmetic seeds B6 cryptography.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "MATH-103 Discrete Math: Recursive and Modular Computation",
+    "uri": "/two-year-refactor/course-designs/block-3/math-103/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 4 — Structure",
+    "description": "MATH-104 — Discrete Math: Graphs, Trees, and Networks 1 credit (co-designed external)\nWorking description (External/co-designed. Concurrent with CS-110’s first graph pass — provides formal graph theory (graphs, trees, networks) as students begin representing and traversing graphs in B4.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "MATH-104 Discrete Math: Graphs, Trees, and Networks",
+    "uri": "/two-year-refactor/course-designs/block-4/math-104/index.html"
+  },
+  {
+    "breadcrumb": "Analyses",
+    "description": "Working draft for faculty review. Maps the B.S. in Geographic Information Systems \u0026 Technology Computational Core requirement onto the redesigned modular curriculum. Based on syllabi for CC 110, 210, 310, 315, 410, and 520 on file in resources/syllabai/. Course codes for the new core are placeholders.\nContext The B.S. in Geographic Information Systems \u0026 Technology (GIST) requires a Computational Core (CC) as its computing foundation — seven courses from K-State’s Computational Core sequence, plus a web fundamentals course:",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "Service: Geographic Information Systems \u0026 Technology",
+    "uri": "/two-year-refactor/analyses/service-gist/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 6 — Build Responsibly",
+    "description": "STAT-102 — Probability 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Follows Counting (B2/B3); foundational for ML. Probability ownership vs. discrete math to be settled in cross-department co-design.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-22T15:18:16-05:00",
+    "tags": [],
+    "title": "STAT-102 Probability",
+    "uri": "/two-year-refactor/course-designs/block-6/stat-102/index.html"
+  },
+  {
+    "breadcrumb": "Course Designs \u003e Block 8 — Operate",
+    "description": "STAT-104 — Correlation \u0026 Regression 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Linear regression as the direct on-ramp to machine learning; capstone of the statistics sequence.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "STAT-104 Correlation \u0026 Regression",
+    "uri": "/two-year-refactor/course-designs/block-8/stat-104/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: From Big-O as theory, to graph optimization, to a real bottleneck under load.\nCharacter Its first pass moved from B3 to B4 so it can answer the question B3’s contract-first ADTs raise: how do you choose among implementations of the same contract? Closely shadowed by the Optimization Reasoning lens. Geospatial algorithms ride the graph pass at B7 (road-network routing is graph shortest-path). The B8 pass surfaces a key limit: systems reality (memory hierarchy, paging/thrashing) can invert asymptotic predictions — Big-O is necessary but not sufficient.",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "Algorithmic Thinking \u0026 Complexity",
+    "uri": "/two-year-refactor/core-design/threads/thread-algorithmic/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Blocks",
     "description": "Year 2, Fall · Weeks 1–8 · 8-week block · 3 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → Model (B3) → Structure (B4) → ➤ Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)\nPurpose Cognitive frame: INFORMATION AT REST: shared, persistent, queryable structure — the Year-2 escalation from Year 1’s data-in-motion.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "modified": "2026-06-22T15:18:16-05:00",
     "tags": [],
-    "title": "STORE",
-    "uri": "/two-year-refactor/03-curriculum/blocks/block-5/index.html"
+    "title": "Block 5 — Store",
+    "uri": "/two-year-refactor/core-design/blocks/block-5-store/index.html"
   },
   {
-    "breadcrumb": "Competencies",
+    "breadcrumb": "Course Designs",
+    "description": "Course designs for Block 5 (Store).",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Block 5 — Store",
+    "uri": "/two-year-refactor/course-designs/block-5/index.html"
+  },
+  {
+    "breadcrumb": "Specializations",
+    "description": "Stub — the Software Architecture specialization is not yet drafted. On-ramp threads: Boundaries \u0026 Contracts (primary), Sociotechnical Structure, APIs \u0026 Networked Systems, Correctness \u0026 Verification, Human-Centered Computing. Likely feeds on CIS 501/505 as elective depth (per the ABET CS analysis).",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Software Architecture",
+    "uri": "/two-year-refactor/specializations/software-architecture/index.html"
+  },
+  {
+    "breadcrumb": "",
+    "description": "The upper-division degrees built on the identical common core. Every degree = the two-year core + a degree-specific upper division. Each specialization is on-ramped by particular core threads.",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Specializations",
+    "uri": "/two-year-refactor/specializations/index.html"
+  },
+  {
+    "breadcrumb": "Competency-Based Assessment \u003e Competencies",
     "description": "Systems and Infrastructure Analyze System Behavior I can investigate the behavior of computing systems by examining interactions among software, hardware, networks, and data.\nI explain system performance, reliability, and resource utilization using evidence gathered from observation and measurement.\nManage Computing Environments I can configure and operate computing environments that support software development, deployment, and maintenance.\nI establish and manage the tools, services, dependencies, and resources needed for effective system operation.",
-    "modified": "2026-06-17T11:53:59-05:00",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
     "title": "Systems and Infrasctruture",
-    "uri": "/two-year-refactor/02-competencies/systems-and-infrastructure/index.html"
+    "uri": "/two-year-refactor/assessment/competencies/systems-and-infrastructure/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Spiral Threads",
-    "description": "Thread: Boundaries \u0026 Contracts Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral (meta-thread); one of nine spirals (alongside three lenses and one bounded practice).\nIn one line: A promise about behavior at a boundary, independent of what’s hidden behind it — escalating by the KIND of boundary the contract spans.\nCharacter Both a spiral and a META-thread: it names the common structure beneath APIs, schemas, trust boundaries, versioning, and verification. Arguably the strongest expression of the program’s systems-thinking ethos. Each pass introduces a new kind of boundary.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "",
+    "description": "How the design satisfies external requirements: ABET accreditation mappings, the K-State degree replacement, and service-department mappings.",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "Boundaries \u0026 Contracts",
-    "uri": "/two-year-refactor/03-curriculum/threads/boundaries-and-contracts/index.html"
+    "title": "Analyses",
+    "uri": "/two-year-refactor/analyses/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Blocks",
+    "breadcrumb": "Core Design \u003e Blocks",
     "description": "Year 2, Fall · Weeks 9–16 · 8-week block · 3 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → Model (B3) → Structure (B4) → Store (B5) → ➤ Build responsibly (B6) → Judge (B7) → Operate (B8)\nPurpose Cognitive frame: RESPONSIBLE DEVELOPMENT. Building software you can stand behind: correct, safe, collaborative — three facets of one professional stance.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "modified": "2026-06-22T15:18:16-05:00",
     "tags": [],
-    "title": "BUILD",
-    "uri": "/two-year-refactor/03-curriculum/blocks/block-6/index.html"
+    "title": "Block 6 — Build Responsibly",
+    "uri": "/two-year-refactor/core-design/blocks/block-6-build-responsibly/index.html"
   },
   {
-    "breadcrumb": "Competencies",
+    "breadcrumb": "Course Designs",
+    "description": "Course designs for Block 6 (Build Responsibly).",
+    "modified": "2026-06-21T19:29:55-05:00",
+    "tags": [],
+    "title": "Block 6 — Build Responsibly",
+    "uri": "/two-year-refactor/course-designs/block-6/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the flagship spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: The landscape of ways to express computation — imperative, functional, declarative, concurrent — with ‘how does each model handle failure’ woven through.\nCharacter FLAGSHIP. Reframed so the spine is the TAXONOMY of models rather than control flow (which it had drifted into). Error-handling is now a cross-cutting PROPERTY of each model, not the spine. Genuinely uncommon undergraduate content — most programs teach imperative + try/catch as the only model and never surface declarative, dataflow, logic/constraint, or actor models. The model taxonomy: imperative, functional, declarative (markup/query/logic-constraint), concurrent/reactive, and dataflow (data flowing through transformation stages). A message-queue/event-loop through-line unifies the concurrent/reactive/actor family — met concretely in the browser (B2), generalized to OS message passing and actor mailboxes (B8).",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "Computational Models",
+    "uri": "/two-year-refactor/core-design/threads/thread-computational-models/index.html"
+  },
+  {
+    "breadcrumb": "Competency-Based Assessment \u003e Competencies",
     "description": "Professional Practice Collaborate on Software Teams I can contribute effectively to collaborative software development using professional workflows and team practices.\nI coordinate work, review contributions, integrate changes, and support shared project goals in team environments.\nUtilize AI Responsibly I can use artificial intelligence tools to support problem solving, learning, and software development while maintaining responsibility for outcomes.\nI evaluate AI-generated outputs, verify correctness, address risks, and exercise professional judgment when incorporating AI into my work.",
-    "modified": "2026-06-17T11:53:59-05:00",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
     "title": "Professional Practice",
-    "uri": "/two-year-refactor/02-competencies/professional-practice/index.html"
+    "uri": "/two-year-refactor/assessment/competencies/professional-practice/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Spiral Threads",
-    "description": "Thread: APIs \u0026 Networked Systems Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).\nIn one line: Consume → build → integrate multiple → operate in production.\nCharacter A clean four-pass escalation in what the student does with a networked boundary.\nPasses across the two years Block Host context What’s new at this pass B2 (Y1 Fall) CS-106 Web Foundations Consume a basic, read-only API. B4 (Y1 Spring) CS-111 Systems \u0026 APIs Build and consume your own API; system structure across a network boundary. B7 (Y2 Spring) CS-207 Data Integration Integrate multiple sources — combine, not just call. B8 (Y2 Spring) CS-208 Deployment \u0026 Operations Operate a live service in production. Connections The network boundary is the B4 pass of Boundaries \u0026 Contracts. If OSI Networking Fundamentals is adopted, it becomes the theoretical underpinning this practical thread applies. Open questions for faculty review OSI Networking Fundamentals placement (and its credits) remain deferred to cross-block optimization; it would enrich this thread’s early passes. For how this lands in a specific block, see that block’s review file.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Core Design \u003e Blocks",
+    "description": "Year 2, Spring · Weeks 1–8 · 8-week block · 3 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → ➤ Judge (B7) → Operate (B8)\nPurpose Cognitive frame: INTEGRATION \u0026 JUDGMENT — design under uncertainty. The first block where problems lack a single right answer.",
+    "modified": "2026-06-22T15:18:16-05:00",
     "tags": [],
-    "title": "APIs \u0026 Networks",
-    "uri": "/two-year-refactor/03-curriculum/threads/apis-networks/index.html"
+    "title": "Block 7 — Exercise Judgement",
+    "uri": "/two-year-refactor/core-design/blocks/block-7-judge/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Blocks",
-    "description": "Block 7 — INTEGRATION \u0026 JUDGMENT — design under uncertainty Year 2, Spring · Weeks 1–8 · 8-week block · 3 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → ➤ Judge (B7) → Operate (B8)",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Course Designs",
+    "description": "Course designs for Block 7 (Judge).",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "JUDGE",
-    "uri": "/two-year-refactor/03-curriculum/blocks/block-7/index.html"
+    "title": "Block 7 — Judge",
+    "uri": "/two-year-refactor/course-designs/block-7/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Spiral Threads",
-    "description": "Thread: Git \u0026 Version Control Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).\nIn one line: Read history → commit/revert safety net → solo branching → collaborative workflow.\nCharacter Redesigned from a single late pass into four. Version control as ’tracking how things change over time’ is introduced as a READING tool first, before it is a workflow tool.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: Does the code do what it’s specified to do? — informal reasoning → regression → testing and verification, named and contrasted.\nCharacter Sharpened to CODE-CORRECTNESS only. Acceptance/fitness testing moved to Human-Centered Computing; this thread answers ‘is it correct,’ that one answers ‘is it what they needed.’ Testing and verification are dual-tracked (testing checks specific cases; verification reasons about all cases). Practice precedes formal naming.",
+    "modified": "2026-06-22T11:47:21-05:00",
     "tags": [],
-    "title": "Git \u0026 Version Control",
-    "uri": "/two-year-refactor/03-curriculum/threads/git/index.html"
+    "title": "Correctness \u0026 Verification",
+    "uri": "/two-year-refactor/core-design/threads/thread-correctness-verification/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Blocks",
+    "breadcrumb": "Core Design \u003e Blocks",
     "description": "Year 2, Spring · Weeks 9–16 · 8-week block · 3 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → Judge (B7) → ➤ Operate (B8)\nPurpose Cognitive frame: IN PRODUCTION: delivery, operation \u0026 accountability — the system meets the real world. Closes the two-year arc and bridges to the capstone.",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "modified": "2026-06-22T11:47:21-05:00",
     "tags": [],
-    "title": "OPERATE",
-    "uri": "/two-year-refactor/03-curriculum/blocks/block-8/index.html"
+    "title": "Block 8 — Operate",
+    "uri": "/two-year-refactor/core-design/blocks/block-8-operate/index.html"
   },
   {
-    "breadcrumb": "Curriculum Structure \u003e Spiral Threads",
-    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (alongside three lenses and one bounded practice).\nIn one line: Systems and the humans who build them are one structural fabric — from observing the parallel, to living it, to reflecting on it.\nCharacter Models the BUILDERS structurally, not just the users — extending the notional machine’s top layer. Seeded conceptually, then lived through the team project, then reflected on. Complements the Git collaboration thread (Git is the tool; this is the social reality the tool serves).",
-    "modified": "2026-06-18T12:33:44-05:00",
+    "breadcrumb": "Course Designs",
+    "description": "Course designs for Block 8 (Operate).",
+    "modified": "2026-06-21T19:29:55-05:00",
     "tags": [],
-    "title": "Sociotechncial Structure",
-    "uri": "/two-year-refactor/03-curriculum/threads/socio-technical/index.html"
+    "title": "Block 8 — Operate",
+    "uri": "/two-year-refactor/course-designs/block-8/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral (meta-thread); one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: A promise about behavior at a boundary, independent of what’s hidden behind it — escalating by the KIND of boundary the contract spans.\nCharacter Both a spiral and a META-thread: it names the common structure beneath ADTs, APIs, schemas, trust boundaries, versioning, and verification. Arguably the strongest expression of the program’s systems-thinking ethos.",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "Boundaries \u0026 Contracts",
+    "uri": "/two-year-refactor/core-design/threads/thread-boundaries-contracts/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: Systems and the humans who build them are one structural fabric (Conway’s Law) — observe → live → defend → reflect; the collective/team counterpart to Professional Practices.\nCharacter Models the BUILDERS structurally, not just the users. Owns the COLLECTIVE dimension: teamwork, code review as team coordination, team reflection (retrospectives, blameless postmortem), and Conway’s Law. (Individual craft — documentation, version-control mechanics, self-reflection — lives in the Professional Practices lens; there is a deliberate seam at B6 between the two.)",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "Sociotechnical Structure",
+    "uri": "/two-year-refactor/core-design/threads/thread-sociotechnical/index.html"
+  },
+  {
+    "breadcrumb": "Core Design \u003e Threads",
+    "description": "Working draft for faculty review. A bounded practice deepens only in student judgment while its scope deliberately stays flat — the single thread of this type, distinct from the nine spirals and three lenses.\nIn one line: Depth increases only in the student’s critical judgment; the SCOPE of permitted AI use stays narrow and constant — explain, discuss, quiz, critique — never “write this for me and I’ll submit it.”",
+    "modified": "2026-06-22T11:47:21-05:00",
+    "tags": [],
+    "title": "AI-Assisted Development (bounded practice)",
+    "uri": "/two-year-refactor/core-design/threads/practice-ai-assisted/index.html"
   },
   {
     "breadcrumb": "",
@@ -294,14 +726,6 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Categories",
     "uri": "/two-year-refactor/categories/index.html"
-  },
-  {
-    "breadcrumb": "",
-    "description": "",
-    "modified": "2026-06-17T11:53:59-05:00",
-    "tags": [],
-    "title": "CS Two-Year Refactor",
-    "uri": "/two-year-refactor/index.html"
   },
   {
     "breadcrumb": "",

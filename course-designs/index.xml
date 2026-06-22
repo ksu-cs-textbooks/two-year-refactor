@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course Designs :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/index.html</link>
+    <description>The individual courses that instantiate the structure — 22 one-credit CS courses and 8 co-designed external courses, grouped by block. Each page starts from the course’s current working description; full course designs (outcomes, week map, assessments, thread touches) are to be developed.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Block 1 — Read</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-1/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-1/index.html</guid>
+      <description>Course designs for Block 1 (Read).</description>
+    </item>
+    <item>
+      <title>Block 2 — Modify</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-2/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-2/index.html</guid>
+      <description>Course designs for Block 2 (Modify).</description>
+    </item>
+    <item>
+      <title>Block 3 — Model</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-3/index.html</guid>
+      <description>Course designs for Block 3 (Model).</description>
+    </item>
+    <item>
+      <title>Block 4 — Structure</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-4/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-4/index.html</guid>
+      <description>Course designs for Block 4 (Structure).</description>
+    </item>
+    <item>
+      <title>Block 5 — Store</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/index.html</guid>
+      <description>Course designs for Block 5 (Store).</description>
+    </item>
+    <item>
+      <title>Block 6 — Build Responsibly</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/index.html</guid>
+      <description>Course designs for Block 6 (Build Responsibly).</description>
+    </item>
+    <item>
+      <title>Block 7 — Judge</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-7/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-7/index.html</guid>
+      <description>Course designs for Block 7 (Judge).</description>
+    </item>
+    <item>
+      <title>Block 8 — Operate</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-8/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-8/index.html</guid>
+      <description>Course designs for Block 8 (Operate).</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analyses :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/index.html</link>
+    <description>How the design satisfies external requirements: ABET accreditation mappings, the K-State degree replacement, and service-department mappings.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/analyses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABET CS Criteria Analysis</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/abet-cs/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/abet-cs/index.html</guid>
+      <description>Working draft for faculty review. Checks the redesigned B.S. in Computer Science against ABET’s computer-science program criteria. The binding question: does the required path (common core + capstone + whatever stays required) independently satisfy ABET, with former-required 500-levels as elective depth? Core course codes are placeholders; CIS numbers are actual K-State courses.&#xA;Why this is the binding analysis The project’s scope escalated from “replace sub-500 CIS” to “restructure the entire required CS core,” with courses like CIS 560 and 575 migrating to elective status. ABET is the constraint that makes this safe or not: the required path must satisfy every CS criterion on its own, with electives providing genuine depth rather than load-bearing coverage. This analysis maps the criteria against the core and identifies exactly which gaps force a course to remain required.</description>
+    </item>
+    <item>
+      <title>K-State Sub-500 CIS Replacement</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/kstate-replacement/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/kstate-replacement/index.html</guid>
+      <description>Working draft for faculty review. Maps the proposed replacement of all sub-500 CIS courses in the K-State B.S. in Computer Science (Fall 2026 requirements) with the redesigned two-year core. Surfaces gaps, overlaps, and the decisions needed. Course codes for the new core are placeholders.&#xA;What is being replaced The current degree’s CS Requirements block is 41 credits. Of that, the sub-500 CIS courses total 23 credits:&#xA;Course Cr Nature CIS 115 Introduction to Computing Science 2 Intro CIS 116 Introduction to Programming 1 Intro programming CIS 200 Programming Fundamentals 4 Programming CIS 300 Data and Program Structures 3 Data structures CIS 301 Logical Foundations of Programming 3 Formal logic CIS 308 C/C++ Programming Laboratory 1 Language-specific CIS 400 Object-Oriented Design, Implementation and Testing 3 OOP CIS 415 Ethics and Conduct for Computing Professionals 3 Ethics (standalone) CIS 450 Computer Architecture and Operations 3 Architecture The bolded four are the crux: they are not intro programming, and the two-year core was scoped around programming, data structures, and OOP. They need explicit decisions.</description>
+    </item>
+    <item>
+      <title>Service: Computer Engineering</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/service-computer-engineering/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/service-computer-engineering/index.html</guid>
+      <description>Service Mapping: Computer Engineering Working draft for faculty review. How Computer Engineering’s current 12-credit dependency on our CS courses maps onto the redesigned modular curriculum. Course codes are placeholders.&#xA;Context Computer Engineering currently consumes 12 credits from us, as four traditional 3-credit, 16-week courses:&#xA;Traditional course Typical content CS0 Gentle introduction to programming CS1 First real programming: variables, control flow, functions, basic data Data Structures Lists, stacks, queues, trees, hashing; light graph introduction; complexity OOP Encapsulation, inheritance, polymorphism, classes Our redesign deliberately dissolved these monolithic courses into spiraled 1-credit, 8-week pieces, reorganized by concept and paradigm rather than the traditional sequence. This is the hardest service case we have, because Computer Engineering wants the recognizable traditional packaging that the redesign specifically took apart. The good news: the content is nearly all present, the pieces happen to co-locate by semester, and the original three-layer design (transcript courses / developmental experiences / competencies) anticipated exactly this kind of administrative repackaging.</description>
+    </item>
+    <item>
+      <title>Service: Geographic Information Systems &amp; Technology</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/service-gist/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/service-gist/index.html</guid>
+      <description>Working draft for faculty review. Maps the B.S. in Geographic Information Systems &amp; Technology Computational Core requirement onto the redesigned modular curriculum. Based on syllabi for CC 110, 210, 310, 315, 410, and 520 on file in resources/syllabai/. Course codes for the new core are placeholders.&#xA;Context The B.S. in Geographic Information Systems &amp; Technology (GIST) requires a Computational Core (CC) as its computing foundation — seven courses from K-State’s Computational Core sequence, plus a web fundamentals course:</description>
+    </item>
+  </channel>
+</rss>

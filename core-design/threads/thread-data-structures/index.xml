@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structures &amp; Representation :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/threads/thread-data-structures/index.html</link>
+    <description>Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).&#xA;In one line: From the most primitive representation to the most general, each pass a genuine generalization — with graphs spiraling as a strand within.&#xA;Character The strongest spiral in the design. Each pass is a real generalization, not a harder repeat. After B3 it is taught contract-first (ADT interface before implementation), which lets B4 ask ‘how do we choose among implementations of the same contract?’ Graphs are a deliberate sub-spiral inside this thread (B3 model → B4 represent+theory → B5 persist → B7 algorithms) rather than a single terminal pass. Geospatial data rides the thread as an applied representation sub-theme (B3 vector/raster representation → B4 spatial indexing via trees/hashing), which also deepens the GIS service relationship.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/core-design/threads/thread-data-structures/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

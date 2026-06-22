@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pedagogical Approach :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/index.html</link>
+    <description>How the program teaches. The spiral method (ideas recur, each return deepening), practice-before-formal, the recurring developmental experiences, and the disciplined use of AI.&#xA;This chapter is a stub — the principles below are established in the design log but not yet written up as full pages.&#xA;To document: the spiral pedagogy; practice-before-formal sequencing; the recurring developmental experiences (Read → Repair → … → Reflect); the AI-Assisted Development discipline (explain/critique, never write-for-me); concrete-before-general (e.g. browser-as-mini-OS → OS); depth-of-engagement as a load-control lever.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Spiral Method</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/spiral-method/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/spiral-method/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recurring Developmental Experiences</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/developmental-experiences/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/developmental-experiences/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Disciplined Use of AI</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/ai-discipline/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/pedagogy/ai-discipline/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

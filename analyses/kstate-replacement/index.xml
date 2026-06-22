@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K-State Sub-500 CIS Replacement :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/kstate-replacement/index.html</link>
+    <description>Working draft for faculty review. Maps the proposed replacement of all sub-500 CIS courses in the K-State B.S. in Computer Science (Fall 2026 requirements) with the redesigned two-year core. Surfaces gaps, overlaps, and the decisions needed. Course codes for the new core are placeholders.&#xA;What is being replaced The current degree’s CS Requirements block is 41 credits. Of that, the sub-500 CIS courses total 23 credits:&#xA;Course Cr Nature CIS 115 Introduction to Computing Science 2 Intro CIS 116 Introduction to Programming 1 Intro programming CIS 200 Programming Fundamentals 4 Programming CIS 300 Data and Program Structures 3 Data structures CIS 301 Logical Foundations of Programming 3 Formal logic CIS 308 C/C++ Programming Laboratory 1 Language-specific CIS 400 Object-Oriented Design, Implementation and Testing 3 OOP CIS 415 Ethics and Conduct for Computing Professionals 3 Ethics (standalone) CIS 450 Computer Architecture and Operations 3 Architecture The bolded four are the crux: they are not intro programming, and the two-year core was scoped around programming, data structures, and OOP. They need explicit decisions.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/analyses/kstate-replacement/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
