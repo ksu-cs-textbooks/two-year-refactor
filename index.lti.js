@@ -10,7 +10,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Analyses",
     "description": "Working draft for faculty review. Checks the redesigned B.S. in Computer Science against ABET’s computer-science program criteria. The binding question: does the required path (common core + capstone + whatever stays required) independently satisfy ABET, with former-required 500-levels as elective depth? Core course codes are placeholders; CIS numbers are actual K-State courses.\nWhy this is the binding analysis The project’s scope escalated from “replace sub-500 CIS” to “restructure the entire required CS core,” with courses like CIS 560 and 575 migrating to elective status. ABET is the constraint that makes this safe or not: the required path must satisfy every CS criterion on its own, with electives providing genuine depth rather than load-bearing coverage. This analysis maps the criteria against the core and identifies exactly which gaps force a course to remain required.",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "modified": "2026-06-23T14:52:38-05:00",
     "tags": [],
     "title": "ABET CS Criteria Analysis",
     "uri": "/two-year-refactor/analyses/abet-cs/index.html"
@@ -137,8 +137,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Specializations",
-    "description": "Working draft for faculty review. How the common two-year core relates to the specialization degrees (Cybersecurity, Data Science, AI Systems, Software Architecture), using K-State’s Fall 2026 B.S. in Cybersecurity as the concrete case. Course codes for the new core are placeholders.\nThe structural reveal K-State’s Cybersecurity degree confirms the project’s founding premise rather than merely fitting it. Its first ~23 credits are identical to the Computer Science degree’s sub-500 CIS block \\u2014 the same CIS 115, 116, 200, 300, 301, 308, 400, 415, 450. Today, both degrees write out the same foundation separately. The two-year core is therefore not a CS-only replacement; it is the common foundation both degrees already share, made explicit and taught once.",
-    "modified": "2026-06-21T23:47:51-05:00",
+    "description": "Working draft for faculty review. How the common two-year core relates to the specialization degrees (Cybersecurity, Data Science, AI Systems, Software Architecture), using K-State’s Fall 2026 B.S. in Cybersecurity as the concrete case. Course codes for the new core are placeholders.\nThe structural reveal K-State’s Cybersecurity degree confirms the project’s founding premise rather than merely fitting it. Its first ~23 credits are identical to the Computer Science degree’s sub-500 CIS block — the same CIS 115, 116, 200, 300, 301, 308, 400, 415, 450. Today, both degrees write out the same foundation separately. The two-year core is therefore not a CS-only replacement; it is the common foundation both degrees already share, made explicit and taught once.",
+    "modified": "2026-06-23T14:52:38-05:00",
     "tags": [],
     "title": "The Specialization Model",
     "uri": "/two-year-refactor/specializations/specialization-model/index.html"
@@ -273,8 +273,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Specializations",
-    "description": "Working draft for faculty review. Unlike the A.I. and Data Science recommendations, a Cybersecurity degree already exists at K-State \\u2014 this document re-expresses it on the shared two-year core and checks it against ABET’s cybersecurity criteria. It is the worked example that first revealed the specialization model. Core course codes are placeholders; CIS numbers are actual K-State courses.\nPremise K-State’s existing Cybersecurity degree already has the structure the specialization model predicts: its first ~23 credits are identical to the CS sub-500 CIS block (the common core), followed by a security-specific upper division. This document re-expresses that degree on the redesigned core and verifies ABET alignment. Of the four specializations, Cybersecurity is the strongest fit \\u2014 both because the core’s security emphasis was always its strongest on-ramp, and because ABET’s cyber criteria reward the systems-thinking the core is built on.",
-    "modified": "2026-06-21T23:47:51-05:00",
+    "description": "Working draft for faculty review. Unlike the A.I. and Data Science recommendations, a Cybersecurity degree already exists at K-State — this document re-expresses it on the shared two-year core and checks it against ABET’s cybersecurity criteria. It is the worked example that first revealed the specialization model. Core course codes are placeholders; CIS numbers are actual K-State courses.\nPremise K-State’s existing Cybersecurity degree already has the structure the specialization model predicts: its first ~23 credits are identical to the CS sub-500 CIS block (the common core), followed by a security-specific upper division. This document re-expresses that degree on the redesigned core and verifies ABET alignment. Of the four specializations, Cybersecurity is the strongest fit — both because the core’s security emphasis was always its strongest on-ramp, and because ABET’s cyber criteria reward the systems-thinking the core is built on.",
+    "modified": "2026-06-23T14:52:38-05:00",
     "tags": [],
     "title": "Cybersecurity",
     "uri": "/two-year-refactor/specializations/cybersecurity/index.html"
@@ -282,7 +282,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Analyses",
     "description": "Working draft for faculty review. Maps the proposed replacement of all sub-500 CIS courses in the K-State B.S. in Computer Science (Fall 2026 requirements) with the redesigned two-year core. Surfaces gaps, overlaps, and the decisions needed. Course codes for the new core are placeholders.\nWhat is being replaced The current degree’s CS Requirements block is 41 credits. Of that, the sub-500 CIS courses total 23 credits:\nCourse Cr Nature CIS 115 Introduction to Computing Science 2 Intro CIS 116 Introduction to Programming 1 Intro programming CIS 200 Programming Fundamentals 4 Programming CIS 300 Data and Program Structures 3 Data structures CIS 301 Logical Foundations of Programming 3 Formal logic CIS 308 C/C++ Programming Laboratory 1 Language-specific CIS 400 Object-Oriented Design, Implementation and Testing 3 OOP CIS 415 Ethics and Conduct for Computing Professionals 3 Ethics (standalone) CIS 450 Computer Architecture and Operations 3 Architecture The bolded four are the crux: they are not intro programming, and the two-year core was scoped around programming, data structures, and OOP. They need explicit decisions.",
-    "modified": "2026-06-22T22:15:30-05:00",
+    "modified": "2026-06-23T14:52:38-05:00",
     "tags": [],
     "title": "K-State Sub-500 CIS Replacement",
     "uri": "/two-year-refactor/analyses/kstate-replacement/index.html"
