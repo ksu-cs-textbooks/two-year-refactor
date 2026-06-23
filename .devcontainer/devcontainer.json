@@ -6,9 +6,14 @@
 	"customizations": {
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
-			// "settings": {
-			// 	"terminal.integrated.shell.linux": "/bin/zsh"
-			// },
+			"settings": {
+			 	"terminal.integrated.shell.linux": {
+					"CLAUDE_CODE_GIT_BASH_PATH": "/bin/bash"
+				},
+				"claudeCode.environmentVariables": {
+					"CLAUDE_CODE_GIT_BASH_PATH": "/bin/bash"
+				}
+			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"bungcip.better-toml",
