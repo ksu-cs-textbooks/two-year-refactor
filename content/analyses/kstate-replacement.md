@@ -67,7 +67,7 @@ Two reconciliation problems sit in these numbers:
 | CIS 300 Data and Program Structures (3) | CS-109 + CS-110 + CS-112 | Covered |
 | CIS 301 Logical Foundations of Programming (3) | MATH-101 + Correctness & Verification thread + Boundaries & Contracts | **Partial \u2014 distributed, not a dedicated course** |
 | CIS 308 C/C++ Lab (1) | \u2014 | **Gap \u2014 core is language-agnostic** |
-| CIS 400 OOD, Implementation & Testing (3) | CS-107 + CS-108 (+ Correctness & Verification) | Covered |
+| CIS 400 OOD, Implementation & Testing (3) | CS-107 Software Modeling and Design + CS-108 Computational Abstractions (+ Correctness & Verification) | Covered |
 | CIS 415 Ethics & Conduct (3) | Trustworthy Computing lens + B6 Responsible Development | **Covered differently \u2014 embedded, not standalone** |
 | CIS 450 Computer Architecture & Operations (3) | CS-103 (partial) | **Gap \u2014 architecture largely absent** |
 

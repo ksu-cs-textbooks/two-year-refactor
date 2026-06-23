@@ -22,7 +22,7 @@ Chrysalis is written in Elixir — a functional, concurrent language built on th
 
 **Technical fit.** Real-time messaging at educational scale (hundreds of concurrent users, low-latency message delivery) is precisely the problem OTP's actor model was designed for. Phoenix Channels provide a production-grade WebSocket abstraction with built-in presence tracking, message broadcasting, and reconnection semantics. The technical choice is not arbitrary.
 
-**Pedagogical contrast.** The core teaches OOP in B3 (CS-107/108). Chrysalis is a large, functioning production system in a paradigm students are simultaneously studying from the other direction — functional composition, immutable data, pattern matching, and process supervision instead of inheritance and mutation. Students who read Chrysalis code in B1 are encountering functional programming before they have the vocabulary for it; by B3 they can articulate why the Elixir module system differs from a class hierarchy.
+**Pedagogical contrast.** The core teaches software modeling and encapsulation in B3 (CS-107 Software Modeling and Design). Chrysalis is a large, functioning production system in a paradigm students are simultaneously studying from the other direction — functional composition, immutable data, pattern matching, and process supervision instead of inheritance and mutation. Students who read Chrysalis code in B1 are encountering functional programming before they have the vocabulary for it; by B3 they can articulate why the Elixir module system is a different expression of encapsulation than a class hierarchy — exactly the contrast CS-107 draws explicitly.
 
 **Durability.** OTP-based systems are known for uptime. The Chrysalis application must be available during every class session, assessment, and code review for two years per cohort, across many cohorts. Erlang/OTP's "let it crash" fault-tolerance philosophy — supervised processes restart automatically on failure — is the right operational model for this use case.
 
@@ -62,9 +62,9 @@ This data is sensitive: it contains individual student performance records. Chry
 
 ### B3 — Model (paradigm contrast)
 
-**What students do:** While building OOP class hierarchies in CS-107/108, students examine Chrysalis as a contrasting case study. Elixir has no classes — it has modules (collections of functions) and protocols (ad-hoc polymorphism via dispatch). Compare: a Phoenix context module (a collection of functions that operate on a data schema) vs. a Python/Java class (state + methods bundled together). Pattern matching in Elixir vs. method dispatch in OOP. Immutability in Elixir vs. mutation in imperative code (studied in B1/B2).
+**What students do:** While studying encapsulation and modeling in CS-107 (Software Modeling and Design), students examine Chrysalis as a contrasting case study. Elixir has no classes — it has modules (collections of functions) and protocols (ad-hoc polymorphism via dispatch). Compare: a Phoenix context module (a collection of functions that operate on a data schema) vs. a Python class (state + methods bundled together). Function signature pattern matching in Elixir vs. method dispatch in OOP. Immutability in Elixir vs. mutation in imperative code (studied in B1/B2).
 
-This is not an Elixir programming assignment — students are not writing Elixir. It is a reading and reasoning exercise: given what you are building in CS-107/108, what would this look like if the language were different, and why?
+This is not an Elixir programming assignment — students are not writing Elixir. It is a reading and reasoning exercise: given what you are building in CS-107, what would this look like if the language were different, and why?
 
 **Why this block:** B3's cognitive frame is "Model and abstract." The Computational Models thread's "more than one model" idea (seeded in B1) deepens here: OOP and functional programming are two models of how to organize computation around data. Chrysalis is the living proof that one of them is in production.
 

@@ -20,7 +20,7 @@ The lens shifts each pass rather than just raising difficulty: produce → under
 |---|---|---|
 | B1 (Y1 Fall) | CS-101/102 | Write small correct programs across two paradigms; "make it work." |
 | B2 (Y1 Fall) | CS-105 Code Reading & Repair | Read others' code, explain unfamiliar behavior (Code Archaeology); "understand before judging." |
-| B3 (Y1 Spring) | CS-107/108 OOP | Encapsulation/abstraction as comprehension tools; organize so intent is legible. |
+| B3 (Y1 Spring) | CS-107 Software Modeling and Design / CS-108 Computational Abstractions | Encapsulation/abstraction as comprehension tools; organize so intent is legible. |
 | B6 (Y2 Fall) | CS-203 Correctness work | Reason systematically about whether code does what it should. |
 | B7 (Y2 Spring) | CS-206/207 Design Review | Defend your understanding and choices under scrutiny. |
 

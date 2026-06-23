@@ -28,7 +28,7 @@ Our redesign deliberately **dissolved** these monolithic courses into spiraled 1
 | **CS0** (gentle intro) | CS-101 Imperative Programming (gentle on-ramp / early portion); optionally CS-103 Computational Representation for digital foundations | Good — CS0 as a gentle programming intro overlaps CS-101 directly; the earlier "CS0 gap" was only a gap if CS0 meant pseudocode-only pre-programming, which it does not |
 | **CS1** (first real programming) | CS-101 Imperative Programming + CS-104 Data Transformation & Manipulation (CS-102 Functional optional) | Good — with a caveat on the CS0/CS1 boundary (below) |
 | **Data Structures** | CS-109 Abstract Data Types + CS-110 Trees, Hashing & Hierarchies + CS-112 Algorithmic Complexity | Strong — these three are essentially a distributed data-structures course, and all fall in one semester (Year 1 Spring). Graph content is introduction-only in their DS, which our B3 graph-as-model and B4 represent passes cover without reaching into B7 |
-| **OOP** | CS-107 OOP I + CS-108 OOP II | Strong — we kept OOP I/II as a recognizable pair, both in Year 1 Spring |
+| **OOP** | CS-107 Software Modeling and Design + CS-108 Computational Abstractions | Strong — encapsulation/modeling and higher-order abstractions as a recognizable pair, both in Year 1 Spring |
 
 **Semester coherence (an unplanned benefit):** related pieces cluster in the same term. CS1 material is Year 1 Fall; Data Structures and OOP material are Year 1 Spring. So the traditional one-semester course shape is reconstructable from the timing, not just the content — a CompE "Data Structures" drawing from B3+B4 is genuinely one semester.
 

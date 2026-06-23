@@ -52,9 +52,9 @@ The CC sequence is Python-based, online, and modular. It runs from a broad compu
 
 **Content:** Values/types/variables, conditionals/loops, functions, file I/O (stdin/stdout/text files), collections, programmer-defined objects, Model-View-Controller pattern. Python 3, 4-credit course.
 
-**Maps to:** B1 — CS-101 Imperative Programming (variables, control flow, functions), CS-102 Functional Programming (a view CC 210 does not take), CS-104 Data Transformation & Manipulation (collections, file I/O, data pipelines). B3 — CS-107/108 OOP I & II (programmer-defined objects, MVC).
+**Maps to:** B1 — CS-101 Imperative Programming (variables, control flow, functions), CS-102 Functional Programming (a view CC 210 does not take), CS-104 Data Transformation & Manipulation (collections, file I/O, data pipelines). B3 — CS-107 Software Modeling and Design + CS-108 Computational Abstractions (programmer-defined objects, MVC).
 
-**Fit:** Strong. The new core covers all CC 210 content and adds functional programming (CS-102), which CC 210 omits entirely. MVC appears in our OOP I/II but in B3, after two full blocks of programming foundation; CC 210 introduces it within a single four-credit course. This is a sequencing difference, not a content gap — the concept arrives at approximately the same developmental stage.
+**Fit:** Strong. The new core covers all CC 210 content and adds functional programming (CS-102), which CC 210 omits entirely. MVC appears in CS-107 (Software Modeling and Design) in B3, after two full blocks of programming foundation; CC 210 introduces it within a single four-credit course. This is a sequencing difference, not a content gap — the concept arrives at approximately the same developmental stage.
 
 **Credit note:** CC 210 is 4 credits; the equivalent new-core slice spans CS-101 + CS-102 + CS-104 (B1) + CS-107 + CS-108 (B3) = 5 credits of 1-credit courses. The new core is therefore denser on this material, not thinner.
 
@@ -86,7 +86,7 @@ The CC sequence is Python-based, online, and modular. It runs from a broad compu
 
 **Content:** Software engineering methodologies, design patterns and architectures, computer security, advanced OOP (inheritance, polymorphism), **GUI programming**, **event-driven programming**, professional communication and collaboration, iterative milestone project that serves as a capstone for the CC program. 3-credit course. Prerequisite: CC 315.
 
-**Maps to:** B3 — CS-107/108 OOP I & II (advanced OOP, design patterns). B6 — CS-203 Software Testing & Validation (automated tests, unit and integration testing), CS-204 Security Fundamentals (threat identification, authentication, authorization), CS-205 Collaborative Development (collaborative Git, team project, professional communication). The iterative milestone project maps to the Team Software Project in CS-205.
+**Maps to:** B3 — CS-107 Software Modeling and Design + CS-108 Computational Abstractions (advanced OOP, design patterns, higher-order abstractions). B6 — CS-203 Software Testing & Validation (automated tests, unit and integration testing), CS-204 Security Fundamentals (threat identification, authentication, authorization), CS-205 Collaborative Development (collaborative Git, team project, professional communication). The iterative milestone project maps to the Team Software Project in CS-205.
 
 **Fit:** Strong, including the GUI and event-driven content. What CC 410 calls "GUI programming" and "event-driven programming" is addressed in the new core through a progressive web GUI trajectory rather than a single course:
 
@@ -127,10 +127,10 @@ The iterative milestone project structure in CC 410 (building a non-trivial soft
 | GIS Computational Core requirement | New core equivalent | Fit |
 |---|---|---|
 | CC 110 Introduction to Computing | CS-101 + CS-103 (B1) | Adequate — breadth survey distributed across threads |
-| CC 210 Programming Fundamentals | CS-101 + CS-102 + CS-104 (B1) + CS-107 + CS-108 (B3) | Strong — adds functional programming |
+| CC 210 Programming Fundamentals | CS-101 + CS-102 + CS-104 (B1) + CS-107 Software Modeling and Design + CS-108 Computational Abstractions (B3) | Strong — adds functional programming |
 | CC 310 Data Structures I | CS-109 (B3) + CS-110 + CS-112 (B4) | Excellent — same semester, Year 1 Spring |
 | CC 315 Data Structures II | CS-110 (B4) + CS-206 + CS-207 (B7) | Good — heaps gap; Year 2 timing |
-| CC 410 Advanced Programming | CS-107 + CS-108 (B3) + CS-203 + CS-204 + CS-205 (B6) + web GUI trajectory B1→B2→B4 | Strong — web platform covers GUI/event-driven; desktop add-in tools may need supplement |
+| CC 410 Advanced Programming | CS-107 Software Modeling and Design + CS-108 Computational Abstractions (B3) + CS-203 + CS-204 + CS-205 (B6) + web GUI trajectory B1→B2→B4 | Strong — web platform covers GUI/event-driven; desktop add-in tools may need supplement |
 | CC 520 Database Essentials | CS-201 + CS-202 (B5) + CS-207 (B7) | Strong — DBMS internals gap |
 | Web fundamentals course | CS-106 (B2) | Direct (if general web; see note above) |
 

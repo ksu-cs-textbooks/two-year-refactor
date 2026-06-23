@@ -37,7 +37,7 @@ Year 1 (B1–B4) moves from reading computation to structuring it, and ends at a
 |---|---|---|
 | B1 | CS-101 Imperative Programming; CS-102 Functional Programming; CS-103 Computational Representation | MATH-101 Discrete Math: Logic and Sets |
 | B2 | CS-104 Data Transformation & Manipulation; CS-105 Code Reading & Repair; CS-106 Web Foundations & Data-Driven Rendering | MATH-102 Discrete Math: Counting Finite Configurations |
-| B3 | CS-107 Object-Oriented Programming I; CS-108 Object-Oriented Programming II; CS-109 Abstract Data Types | MATH-103 Discrete Math: Recursive and Modular Computation |
+| B3 | CS-107 Software Modeling and Design; CS-108 Computational Abstractions; CS-109 Abstract Data Types | MATH-103 Discrete Math: Recursive and Modular Computation |
 | B4 | CS-110 Trees, Hashing & Hierarchies; CS-111 Systems & APIs; CS-112 Algorithmic Complexity | MATH-104 Discrete Math: Graphs, Trees, and Networks |
 | B5 | CS-201 SQL Fundamentals; CS-202 Database Design | STAT-101 Descriptive Statistics & Data Summarization |
 | B6 | CS-203 Software Testing & Validation; CS-204 Security Fundamentals; CS-205 Collaborative Development | STAT-102 Probability |

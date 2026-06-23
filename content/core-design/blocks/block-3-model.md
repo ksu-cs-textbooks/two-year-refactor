@@ -26,8 +26,8 @@ Computer science courses (3):
 
 | Code | Course | Cr | Focus |
 |---|---|---|---|
-| CS-107 | **Object-Oriented Programming I** | 1 | Encapsulation, inheritance, abstraction, classes — modeling a domain and drawing boundaries. Moved from B2. Encapsulation as boundary-drawing (Boundaries & Contracts thread). |
-| CS-108 | **Object-Oriented Programming II** | 1 | Collections, iterators, OOP design principles — abstraction over data access/traversal; modeling discipline. |
+| CS-107 | **Software Modeling and Design** | 1 | Encapsulation as boundary-drawing in Python and JavaScript; type annotations as interface specification; inheritance as one reuse mechanism (with tradeoffs); Elixir modules as a contrasting expression of encapsulation (shallow Chrysalis reading exercise). |
+| CS-108 | **Computational Abstractions** | 1 | Formalizes map/filter/reduce and list comprehensions introduced informally in B1; functions as values; iterator protocol as abstraction over collection structure. |
 | CS-109 | **Abstract Data Types** | 1 | Lists, linked lists, stacks, queues taught CONTRACT-FIRST: the ADT interface and its guarantees before implementation. Same-contract-multiple-implementations sets up B4 cost-based choice. Function pre/post-conditions name B1 informal verification reasoning. Graph spiral begins: graphs introduced as a MODEL for relationship-structured data (people/friendships, pages/links, task dependencies) — conceptual, no algorithms yet. Geospatial representation seed: points, lines, polygons (vector) and rasters (grids) as representation choices for spatial data. |
 
 Co-designed external courses (1):
@@ -49,7 +49,7 @@ Competencies are program-level and developed across many blocks; this block is o
 
 ## Open questions for faculty review
 
-1. Block 3 absorbed OOP I from the Block 2 reframe. To stay at a sane load (3 CS + 1 math), Algorithmic Complexity moved out to Block 4. That move is pedagogically motivated, not just load-shedding: B3 establishes "same contract, multiple implementations," and B4's complexity analysis answers "how do we choose among them?"
+1. Block 3 absorbed CS-107 (Software Modeling and Design, formerly OOP I) from the Block 2 reframe. To stay at a sane load (3 CS + 1 math), Algorithmic Complexity moved out to Block 4. That move is pedagogically motivated, not just load-shedding: B3 establishes "same contract, multiple implementations," and B4's complexity analysis answers "how do we choose among them?"
 2. Recursion is used informally in B3/B4 (trees, ADTs) before MATH-103 formalizes it in B5. This is "informal before formal" (acceptable, consistent with the spiral approach) but the one-to-two-block gap is worth confirming as deliberate.
 3. Boundaries & Contracts being promoted to a full spiraling thread adds tracking overhead — it is the 9th spiral. It is also a meta-thread (it unifies several others). See the cross-block legibility question in the program-level notes.
 
