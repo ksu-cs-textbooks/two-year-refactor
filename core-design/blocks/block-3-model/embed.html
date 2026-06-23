@@ -28,41 +28,41 @@ Purpose Cognitive frame: MODEL &amp; ABSTRACT. Modeling a domain and drawing bou
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Core Design">
-    <meta property="article:modified_time" content="2026-06-21T23:47:51-05:00">
+    <meta property="article:modified_time" content="2026-06-22T22:15:30-05:00">
     <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
     <meta itemprop="name" content="Block 3 — Model :: CS Two Year Refactor">
     <meta itemprop="description" content="Year 1, Spring · Weeks 1–8 · 8-week block · 4 credits
 Working draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.
 Two-year arc: Read (B1) → Modify (B2) → ➤ Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)
 Purpose Cognitive frame: MODEL &amp; ABSTRACT. Modeling a domain and drawing boundaries around its parts.">
-    <meta itemprop="dateModified" content="2026-06-21T23:47:51-05:00">
-    <meta itemprop="wordCount" content="583">
+    <meta itemprop="dateModified" content="2026-06-22T22:15:30-05:00">
+    <meta itemprop="wordCount" content="606">
     <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
     <title>Block 3 — Model :: CS Two Year Refactor</title>
     <link href="https://textbooks.cs.ksu.edu/two-year-refactor/core-design/blocks/block-3-model/index.html" rel="canonical" type="text/html" title="Block 3 — Model :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/blocks/block-3-model/index.xml" rel="alternate" type="application/rss+xml" title="Block 3 — Model :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/blocks/block-3-model/index.print.html" rel="alternate" type="text/html" title="Block 3 — Model :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/blocks/block-3-model/tele.html" rel="alternate" type="text/html" title="Block 3 — Model :: CS Two Year Refactor">
-    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782164672" rel="stylesheet">
-    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782164672" defer></script>
-    <script src="/two-year-refactor/js/search-lunr.min.js?1782164672" defer></script>
-    <script src="/two-year-refactor/js/search.min.js?1782164672" defer></script>
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782184586" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782184586" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1782184586" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1782184586" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782164672";
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782184586";
     </script>
-    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782164672" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782164672" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782164672" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782164672" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782184586" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782184586" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782184586" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782184586" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782164672" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782164672" rel="stylesheet"></noscript>
-    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782164672" rel="stylesheet">
-    <link href="/two-year-refactor/css/theme.min.css?1782164672" rel="stylesheet">
-    <link href="/two-year-refactor/css/format-html.min.css?1782164672" rel="stylesheet" id="R-format-style">
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782184586" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782184586" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782184586" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1782184586" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-html.min.css?1782184586" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -121,7 +121,7 @@ Purpose Cognitive frame: MODEL &amp; ABSTRACT. Modeling a domain and drawing bou
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/two-year-refactor/css/custom.css?1782164672" rel="stylesheet">
+    <link href="/two-year-refactor/css/custom.css?1782184586" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/two-year-refactor/core-design/blocks/block-3-model/index.html">
     <div id="R-body" class="default-animation">
@@ -161,15 +161,15 @@ Purpose Cognitive frame: MODEL &amp; ABSTRACT. Modeling a domain and drawing bou
   <tbody>
       <tr>
           <td>CS-107</td>
-          <td><strong>Object-Oriented Programming I</strong></td>
+          <td><strong>Software Modeling and Design</strong></td>
           <td>1</td>
-          <td>Encapsulation, inheritance, abstraction, classes — modeling a domain and drawing boundaries. Moved from B2. Encapsulation as boundary-drawing (Boundaries &amp; Contracts thread).</td>
+          <td>Encapsulation as boundary-drawing in Python and JavaScript; type annotations as interface specification; inheritance as one reuse mechanism (with tradeoffs); Elixir modules as a contrasting expression of encapsulation (shallow Chrysalis reading exercise).</td>
       </tr>
       <tr>
           <td>CS-108</td>
-          <td><strong>Object-Oriented Programming II</strong></td>
+          <td><strong>Computational Abstractions</strong></td>
           <td>1</td>
-          <td>Collections, iterators, OOP design principles — abstraction over data access/traversal; modeling discipline.</td>
+          <td>Formalizes map/filter/reduce and list comprehensions introduced informally in B1; functions as values; iterator protocol as abstraction over collection structure.</td>
       </tr>
       <tr>
           <td>CS-109</td>
@@ -209,7 +209,7 @@ Purpose Cognitive frame: MODEL &amp; ABSTRACT. Modeling a domain and drawing bou
 </ul>
 <h2 id="open-questions-for-faculty-review">Open questions for faculty review</h2>
 <ol>
-<li>Block 3 absorbed OOP I from the Block 2 reframe. To stay at a sane load (3 CS + 1 math), Algorithmic Complexity moved out to Block 4. That move is pedagogically motivated, not just load-shedding: B3 establishes &ldquo;same contract, multiple implementations,&rdquo; and B4&rsquo;s complexity analysis answers &ldquo;how do we choose among them?&rdquo;</li>
+<li>Block 3 absorbed CS-107 (Software Modeling and Design, formerly OOP I) from the Block 2 reframe. To stay at a sane load (3 CS + 1 math), Algorithmic Complexity moved out to Block 4. That move is pedagogically motivated, not just load-shedding: B3 establishes &ldquo;same contract, multiple implementations,&rdquo; and B4&rsquo;s complexity analysis answers &ldquo;how do we choose among them?&rdquo;</li>
 <li>Recursion is used informally in B3/B4 (trees, ADTs) before MATH-103 formalizes it in B5. This is &ldquo;informal before formal&rdquo; (acceptable, consistent with the spiral approach) but the one-to-two-block gap is worth confirming as deliberate.</li>
 <li>Boundaries &amp; Contracts being promoted to a full spiraling thread adds tracking overhead — it is the 9th spiral. It is also a meta-thread (it unifies several others). See the cross-block legibility question in the program-level notes.</li>
 </ol>
@@ -225,9 +225,9 @@ Purpose Cognitive frame: MODEL &amp; ABSTRACT. Modeling a domain and drawing bou
       
       
     </div>
-    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782164672" defer></script>
-    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782164672" defer></script>
-    <script src="/two-year-refactor/js/theme.min.js?1782164672" defer></script>
-  <script src="/two-year-refactor/js/embed-iframe.min.js?1782164672" defer></script>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782184586" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782184586" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1782184586" defer></script>
+  <script src="/two-year-refactor/js/embed-iframe.min.js?1782184586" defer></script>
   </body>
 </html>

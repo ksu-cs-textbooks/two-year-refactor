@@ -65,10 +65,10 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Course Designs \u003e Block 3 — Model",
-    "description": "CS-107 — Object-Oriented Programming I 1 credit\nWorking description Encapsulation, inheritance, abstraction, classes — modeling a domain and drawing boundaries. Moved from B2. Encapsulation as boundary-drawing (Boundaries \u0026 Contracts thread).\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "CS-107 — Software Modeling and Design 1 credit\nWorking description Encapsulation as boundary-drawing: what a component hides versus exposes, and why. OOP grounded in Python and JavaScript — languages students already know — so that encapsulation is understood as a design idea rather than a feature of any one language family. Type annotations as a form of interface specification: Python type hints and TypeScript gradual typing introduced as ways to make a component’s contract explicit. Inheritance treated as one reuse mechanism with known tradeoffs, not the central concept. Elixir modules introduced as a contrasting expression of encapsulation: a shallow reading exercise against the Chrysalis codebase — function signature pattern matching as the Elixir analog to method dispatch, modules-as-namespaces vs. classes-as-bundles. Exceptions introduced as the mechanism for signaling a contract violation at a boundary: try/catch named and grounded in the encapsulation frame (a raised exception is what happens when a boundary is crossed improperly). Boundaries \u0026 Contracts thread (INTRODUCED): encapsulation as an intra-program boundary. Computational Models thread: OOP as a named model, set alongside the functional/module organization visible in Chrysalis.",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
-    "title": "CS-107 Object-Oriented Programming I",
+    "title": "CS-107 Software Modeling and Design",
     "uri": "/two-year-refactor/course-designs/block-3/cs-107/index.html"
   },
   {
@@ -122,7 +122,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Core Design",
     "description": "Working draft for faculty review. This is the front door to a set of 22 companion files: 8 block files, 9 thread files, 3 lens files, and 1 bounded-practice file. Course codes throughout are placeholders.\nWhat this is A competency-based, systems-thinking foundation for a B.S. in Computer Science, shared by students who will go on to specialize (Cybersecurity, Data Science, AI Systems, Software Architecture). It is built as a spiral curriculum: ideas recur across the two years, each return deepening or generalizing the last, rather than being taught once and left behind.",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
     "title": "Program Overview",
     "uri": "/two-year-refactor/core-design/overview/index.html"
@@ -186,7 +186,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Core Design \u003e Threads",
     "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: Understanding programs — your own and others’ — from ‘make it work’ to ‘defend it under scrutiny.’\nCharacter The lens shifts each pass rather than just raising difficulty: produce → understand others’ → organize → verify → defend. (Renamed from the slash-name ‘Program Correctness / Code Comprehension’; the through-line is comprehension of programs.)",
-    "modified": "2026-06-22T11:47:21-05:00",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
     "title": "Code Comprehension",
     "uri": "/two-year-refactor/core-design/threads/thread-code-comprehension/index.html"
@@ -225,10 +225,10 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Course Designs \u003e Block 3 — Model",
-    "description": "CS-108 — Object-Oriented Programming II 1 credit\nWorking description Collections, iterators, OOP design principles — abstraction over data access/traversal; modeling discipline.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "CS-108 — Computational Abstractions 1 credit\nWorking description Formalizes higher-order patterns students have used informally since B1. Map, filter, and reduce named and reasoned about explicitly — students have encountered these; here they understand why they work and what they abstract over. List comprehensions as declarative iteration syntax: the bridge between the imperative for-loop and functional-style transformation. Functions as values: passing functions as arguments, returning them as results. Iterator protocol as abstraction over collection structure, decoupling traversal algorithms from the representation being traversed. Connects Computational Models thread (functional patterns named and formalized as a B3 pass, deepening the B1 seed) and Data Structures thread (iteration as abstraction over representation).",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
-    "title": "CS-108 Object-Oriented Programming II",
+    "title": "CS-108 Computational Abstractions",
     "uri": "/two-year-refactor/course-designs/block-3/cs-108/index.html"
   },
   {
@@ -282,7 +282,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Analyses",
     "description": "Working draft for faculty review. Maps the proposed replacement of all sub-500 CIS courses in the K-State B.S. in Computer Science (Fall 2026 requirements) with the redesigned two-year core. Surfaces gaps, overlaps, and the decisions needed. Course codes for the new core are placeholders.\nWhat is being replaced The current degree’s CS Requirements block is 41 credits. Of that, the sub-500 CIS courses total 23 credits:\nCourse Cr Nature CIS 115 Introduction to Computing Science 2 Intro CIS 116 Introduction to Programming 1 Intro programming CIS 200 Programming Fundamentals 4 Programming CIS 300 Data and Program Structures 3 Data structures CIS 301 Logical Foundations of Programming 3 Formal logic CIS 308 C/C++ Programming Laboratory 1 Language-specific CIS 400 Object-Oriented Design, Implementation and Testing 3 OOP CIS 415 Ethics and Conduct for Computing Professionals 3 Ethics (standalone) CIS 450 Computer Architecture and Operations 3 Architecture The bolded four are the crux: they are not intro programming, and the two-year core was scoped around programming, data structures, and OOP. They need explicit decisions.",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
     "title": "K-State Sub-500 CIS Replacement",
     "uri": "/two-year-refactor/analyses/kstate-replacement/index.html"
@@ -330,7 +330,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Core Design \u003e Blocks",
     "description": "Year 1, Spring · Weeks 1–8 · 8-week block · 4 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: Read (B1) → Modify (B2) → ➤ Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)\nPurpose Cognitive frame: MODEL \u0026 ABSTRACT. Modeling a domain and drawing boundaries around its parts.",
-    "modified": "2026-06-21T23:47:51-05:00",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
     "title": "Block 3 — Model",
     "uri": "/two-year-refactor/core-design/blocks/block-3-model/index.html"
@@ -434,7 +434,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Analyses",
     "description": "Service Mapping: Computer Engineering Working draft for faculty review. How Computer Engineering’s current 12-credit dependency on our CS courses maps onto the redesigned modular curriculum. Course codes are placeholders.\nContext Computer Engineering currently consumes 12 credits from us, as four traditional 3-credit, 16-week courses:\nTraditional course Typical content CS0 Gentle introduction to programming CS1 First real programming: variables, control flow, functions, basic data Data Structures Lists, stacks, queues, trees, hashing; light graph introduction; complexity OOP Encapsulation, inheritance, polymorphism, classes Our redesign deliberately dissolved these monolithic courses into spiraled 1-credit, 8-week pieces, reorganized by concept and paradigm rather than the traditional sequence. This is the hardest service case we have, because Computer Engineering wants the recognizable traditional packaging that the redesign specifically took apart. The good news: the content is nearly all present, the pieces happen to co-locate by semester, and the original three-layer design (transcript courses / developmental experiences / competencies) anticipated exactly this kind of administrative repackaging.",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
     "title": "Service: Computer Engineering",
     "uri": "/two-year-refactor/analyses/service-computer-engineering/index.html"
@@ -546,7 +546,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Analyses",
     "description": "Working draft for faculty review. Maps the B.S. in Geographic Information Systems \u0026 Technology Computational Core requirement onto the redesigned modular curriculum. Based on syllabi for CC 110, 210, 310, 315, 410, and 520 on file in resources/syllabai/. Course codes for the new core are placeholders.\nContext The B.S. in Geographic Information Systems \u0026 Technology (GIST) requires a Computational Core (CC) as its computing foundation — seven courses from K-State’s Computational Core sequence, plus a web fundamentals course:",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
     "title": "Service: Geographic Information Systems \u0026 Technology",
     "uri": "/two-year-refactor/analyses/service-gist/index.html"
@@ -658,7 +658,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Core Design \u003e Threads",
     "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the flagship spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: The landscape of ways to express computation — imperative, functional, declarative, concurrent — with ‘how does each model handle failure’ woven through.\nCharacter FLAGSHIP. Reframed so the spine is the TAXONOMY of models rather than control flow (which it had drifted into). Error-handling is now a cross-cutting PROPERTY of each model, not the spine. Genuinely uncommon undergraduate content — most programs teach imperative + try/catch as the only model and never surface declarative, dataflow, logic/constraint, or actor models. The model taxonomy: imperative, functional, declarative (markup/query/logic-constraint), concurrent/reactive, and dataflow (data flowing through transformation stages). A message-queue/event-loop through-line unifies the concurrent/reactive/actor family — met concretely in the browser (B2), generalized to OS message passing and actor mailboxes (B8).",
-    "modified": "2026-06-22T11:47:21-05:00",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
     "title": "Computational Models",
     "uri": "/two-year-refactor/core-design/threads/thread-computational-models/index.html"
@@ -698,7 +698,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Pedagogical Approach \u003e Signature Applications",
     "description": "Working draft for faculty review. Chrysalis is one of three signature applications — large production codebases students study, contribute to, and extend across the two-year spiral. See Signature Applications for the pedagogical framing.\nWhat it is Chrysalis is the program’s real-time communication and competency assessment platform. It serves two purposes simultaneously:\nStudent tool: Real-time messaging between students and between students and instructors, organized by cohort, block, and course. Students use Chrysalis from the first week of Block 1 as their primary in-program communication channel.",
-    "modified": "2026-06-22T16:44:13-05:00",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
     "title": "Chrysalis",
     "uri": "/two-year-refactor/pedagogy/signature-applications/chrysalis/index.html"
@@ -730,7 +730,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Core Design \u003e Threads",
     "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral (meta-thread); one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: A promise about behavior at a boundary, independent of what’s hidden behind it — escalating by the KIND of boundary the contract spans.\nCharacter Both a spiral and a META-thread: it names the common structure beneath ADTs, APIs, schemas, trust boundaries, versioning, and verification. Arguably the strongest expression of the program’s systems-thinking ethos.",
-    "modified": "2026-06-22T11:47:21-05:00",
+    "modified": "2026-06-22T22:15:30-05:00",
     "tags": [],
     "title": "Boundaries \u0026 Contracts",
     "uri": "/two-year-refactor/core-design/threads/thread-boundaries-contracts/index.html"
