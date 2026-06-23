@@ -34,7 +34,7 @@ The project's scope escalated from "replace sub-500 CIS" to "restructure the ent
 
 ### Other CS requirements
 
-- **Computing-based systems at varying levels of abstraction:** the core is *built* on this — the representation spiral (primitive \u2192 graph), the Boundaries & Contracts meta-thread, the abstraction progression. **Covered strongly** — a core philosophy, not just a checkbox.
+- **Computing-based systems at varying levels of abstraction:** the core is *built* on this — the representation spiral (primitive → graph), the Boundaries & Contracts meta-thread, the abstraction progression. **Covered strongly** — a core philosophy, not just a checkbox.
 - **Major project:** the capstone, plus the B6 Team Software Project and B8 System Integration Project. Covered.
 
 ## Mathematics & statistics (≥15 SCH, rigor ≥ introductory calculus)
