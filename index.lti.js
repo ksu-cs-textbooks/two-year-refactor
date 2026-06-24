@@ -33,8 +33,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Competency-Based Assessment \u003e Competencies",
-    "description": "Analyze Computational Systems I can explain the behavior of computational systems by investigating their components, interactions, and execution.\nI analyze software and computing systems to determine how they operate, identify sources of behavior, and predict outcomes under varying conditions.\nDevelop Abstractions I can create and apply abstractions that reduce complexity while preserving essential characteristics of a problem or system.\nI organize information, processes, and system components into meaningful models that support understanding, communication, and solution development.",
-    "modified": "2026-06-22T11:47:21-05:00",
+    "description": "Analyze Computational Systems I can explain the behavior of computational systems by investigating their components, interactions, and execution.\nI analyze software and computing systems to determine how they operate, identify sources of behavior, and predict outcomes under varying conditions.\nPrimary evidence contexts:\nBlock Course Work B1 CS-103 Memory model, process model, boolean/number representation — first named encounter with how a running system works B2 CS-105 Code Archaeology (signature) — structured investigation of unfamiliar code to explain behavior B2 CS-106 Browser as mini-OS (event loop, origin isolation, web workers, postMessage) — analyzing a concrete computational system B3 CS-107 Analyzing component interactions through the encapsulation/contract lens B4 CS-111 Client-server dataflow; API as system structure B8 CS-208 Performance analysis on a real deployed bottleneck; OS/concurrency model analysis Assessment types by level:",
+    "modified": "2026-06-24T15:34:08-05:00",
     "tags": [],
     "title": "Computational Reasoning",
     "uri": "/two-year-refactor/assessment/competencies/computational-reasoning/index.html"
@@ -137,8 +137,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Competency-Based Assessment",
-    "description": "",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "Competency assessment in this program operates at the program level, not the course level. Competencies belong to the degree, not to individual courses; courses are evidence-generating contexts. A student’s competency record is maintained across their entire time in the program through the Crystalis assessment platform.\nHow Evidence Accumulates Assessment is continuous and based on a preponderance of evidence — no single event determines a competency level. Evidence accumulates from multiple courses and multiple evidence types, and Crystalis aggregates it into a frequently-updated assessment score with a confidence interval visible to both faculty and the individual student, along with a reviewable record of contributing evidence, claims, assessments, and collected artifacts (such as the code that was assessed).",
+    "modified": "2026-06-24T15:34:08-05:00",
     "tags": [],
     "title": "The Competency Model",
     "uri": "/two-year-refactor/assessment/competency-model/index.html"
@@ -201,8 +201,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Competency-Based Assessment",
-    "description": "The competency domains are:\nComputational Reasoning Software Development Data and Informatoin Systems and Infrastructure Human-Centered Practice Professional Practice",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "The competency domains are:\nComputational Reasoning Software Development Data and Information Systems and Infrastructure Human-Centered Practice Professional Practice",
+    "modified": "2026-06-24T15:34:08-05:00",
     "tags": [],
     "title": "Competencies",
     "uri": "/two-year-refactor/assessment/competencies/index.html"
@@ -313,16 +313,16 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Competency-Based Assessment",
-    "description": "",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "Signature assessments are the five formal, high-stakes assessment events distributed across the program. Each is a culminating instance of a recurring assessment type — it represents that type at its most consequential, typically involving real artifacts, peer or faculty audience, and no scaffolding.\nCode Archaeology Milestone Block 2 — CS-105 Code Reading \u0026 Repair\nStudents investigate an unfamiliar, moderately complex codebase — written in languages they know — to explain its behavior, identify sources of unexpected behavior, and propose a repair. This is the first unscaffolded instance of the Code Archaeology recurring type.",
+    "modified": "2026-06-24T15:34:08-05:00",
     "tags": [],
     "title": "Signature Assessments",
     "uri": "/two-year-refactor/assessment/signature-assessments/index.html"
   },
   {
     "breadcrumb": "Competency-Based Assessment \u003e Competencies",
-    "description": "Design Software Systems I can design software systems that satisfy identified requirements and constraints.\nI create and communicate system designs that consider functionality, maintainability, security, usability, and performance.\nImplement Software Solutions I can construct software solutions that fulfill identified requirements using appropriate technologies and development practices.\nI develop software systems by applying suitable tools, languages, frameworks, and implementation strategies.\nVerify Software Quality I can evaluate software systems using testing, analysis, and verification techniques to determine whether requirements have been met.",
-    "modified": "2026-06-22T11:47:21-05:00",
+    "description": "Design Software Systems I can design software systems that satisfy identified requirements and constraints.\nI create and communicate system designs that consider functionality, maintainability, security, usability, and performance.\nPrimary evidence contexts:\nBlock Course Work B3 CS-107 Module boundary design — what a component hides vs. exposes; type-annotated interfaces B3 CS-109 ADT contract-first design — specifying behavior before implementation B4 CS-111 Client-server decomposition; API design across a network boundary; web component architecture B5 CS-202 Schema design — modeling a real-world domain with formal relational structure B6 CS-203 Designing for testability — testability as a first-class design quality B6 CS-204 Security as a design concern — threat modeling, least-privilege, data minimization embedded in design B7 CS-206/207 Design Review — defend system design choices including algorithm selection, data model, and tradeoffs B8 CS-208 Deployment architecture, fault-tolerance design, API versioning as a compatibility contract B8 CS-209 Requirements-driven design — designing from stakeholder needs outward Assessment types by level:",
+    "modified": "2026-06-24T15:34:08-05:00",
     "tags": [],
     "title": "Software Development",
     "uri": "/two-year-refactor/assessment/competencies/software-development/index.html"
@@ -401,8 +401,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Competency-Based Assessment \u003e Competencies",
-    "description": "Represent Information I can select and apply appropriate representations for information within computational systems.\nI organize and model information in ways that support effective storage, communication, analysis, and processing.\nManage Data Resources I can acquire, store, transform, and integrate data from multiple sources to support computational goals.\nI work with structured and unstructured data using appropriate technologies, formats, and workflows.\nInvestigate Questions with Data I can use computational and statistical methods to investigate questions and evaluate evidence.",
-    "modified": "2026-06-22T11:47:21-05:00",
+    "description": "Represent Information I can select and apply appropriate representations for information within computational systems.\nI organize and model information in ways that support effective storage, communication, analysis, and processing.\nPrimary evidence contexts:\nBlock Course Work B1 CS-103 Primary home for first pass — bits, booleans, number systems, bitwise operations; stack/heap memory model; the most primitive representation layer B2 CS-104 CSV/JSON as format choices — file formats as representation decisions B3 CS-109 Linear structures, stacks, queues, trees as representation choices; ADT contract abstracts over representation B4 CS-110 Trees, hashing, hierarchies; spatial indexing (quadtrees, R-trees, geohashing) — representation for spatial data B5 CS-201/202 Relational model as formal queryable representation; schema design as domain-to-model translation B7 CS-206/207 Graphs as the most general relationship representation; choosing between relational, document, and graph Assessment types by level:",
+    "modified": "2026-06-24T15:34:08-05:00",
     "tags": [],
     "title": "Data and Information",
     "uri": "/two-year-refactor/assessment/competencies/data-and-information/index.html"
@@ -438,6 +438,14 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Professional Practices",
     "uri": "/two-year-refactor/core-design/lenses/lens-professional-practices/index.html"
+  },
+  {
+    "breadcrumb": "Competency-Based Assessment",
+    "description": "Recurring assessment types are direct assessment tasks that appear multiple times across the program, deepening in scale, scaffolding, and stakes with each pass. Unlike signature assessments, which are single formal events, recurring types generate a continuous longitudinal evidence trail — the same kind of task, executed with increasing sophistication.\nEach recurring type is associated with a primary sub-competency but typically generates evidence for multiple sub-competencies simultaneously.\nSummary # Assessment Type Primary Sub-competency Block Span 1 Code Archaeology Analyze Computational Systems B2 → B8 2 Design Brief Develop Abstractions B3 → B8 3 Formal Analysis Apply Formal Reasoning B1 → B8 4 Algorithm Evaluation Task Evaluate Algorithmic Solutions B3 → B8 5 Implementation Task Implement Software Solutions B1 → B8 6 Verification Task Verify Software Quality B2 → B8 7 Debugging Challenge Debug Software Systems B2 → B8 8 Maintenance Task Maintain Software Systems B2 → B8 9 Data Pipeline Task Manage Data Resources B2 → B8 10 Data Investigation Investigate Questions with Data B5 → B8 11 Data Communication Task Communicate Data Insights B2 → B8 12 System Analysis Task Analyze System Behavior B1 → B8 13 Environment Configuration Task Manage Computing Environments B2 → B8 14 Deployment Task Deploy Operational Systems B6 → B8 15 Requirements Analysis Task Gather and Analyze Requirements B2 → B8 16 Usability Evaluation Design Human-Centered Solutions B2 → B8 17 Ethical Evaluation Evaluate Ethical Implications B2 → B8 18 Technical Explanation Task Communicate Technical Information B3 → B8 19 Collaboration Task Collaborate on Software Teams B1 → B8 20 AI-Assisted Practice Task Utilize AI Responsibly B1 → B8 21 Reflection Assessment Reflect on Professional Growth B2 → B8 Cross-domain types Three types generate substantial evidence for multiple sub-competencies and appear in rubrics for each:",
+    "modified": "2026-06-24T15:34:08-05:00",
+    "tags": [],
+    "title": "Recurring Assessment Types",
+    "uri": "/two-year-refactor/assessment/recurring-assessments/index.html"
   },
   {
     "breadcrumb": "Analyses",
@@ -584,6 +592,14 @@ var relearn_lti_index = [
     "uri": "/two-year-refactor/course-designs/block-8/stat-104/index.html"
   },
   {
+    "breadcrumb": "Competency-Based Assessment \u003e Competencies",
+    "description": "Analyze System Behavior I can investigate the behavior of computing systems by examining interactions among software, hardware, networks, and data.\nI explain system performance, reliability, and resource utilization using evidence gathered from observation and measurement.\nPrimary evidence contexts:\nBlock Course Work B1 CS-103 Foundation — stack/heap memory model; “a running program is a PROCESS the OS schedules”; first named encounter with system execution mechanics B2 CS-106 Browser as mini-OS — tracing async requests through the event loop; origin isolation; web workers as concurrent processes; postMessage as IPC B4 CS-111 Client-server dataflow — tracing a request through parse → auth → route → handle → serialize → respond; event-driven architecture formalized B4 CS-112 Big-O as a tool for analyzing performance characteristics theoretically B8 CS-208 Primary home — full memory hierarchy (cache, locality, virtual memory, thrashing); OS internals (processes vs. threads, preemptive vs. cooperative scheduling, kernel vs. user space); concurrency model behavior; performance analysis on a real deployed bottleneck Assessment types by level:",
+    "modified": "2026-06-24T15:34:08-05:00",
+    "tags": [],
+    "title": "Systems and Infrastructure",
+    "uri": "/two-year-refactor/assessment/competencies/systems-and-infrastructure/index.html"
+  },
+  {
     "breadcrumb": "Core Design \u003e Threads",
     "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: From Big-O as theory, to graph optimization, to a real bottleneck under load.\nCharacter Its first pass moved from B3 to B4 so it can answer the question B3’s contract-first ADTs raise: how do you choose among implementations of the same contract? Closely shadowed by the Optimization Reasoning lens. Geospatial algorithms ride the graph pass at B7 (road-network routing is graph shortest-path). The B8 pass surfaces a key limit: systems reality (memory hierarchy, paging/thrashing) can invert asymptotic predictions — Big-O is necessary but not sufficient.",
     "modified": "2026-06-22T11:47:21-05:00",
@@ -608,6 +624,14 @@ var relearn_lti_index = [
     "uri": "/two-year-refactor/course-designs/block-5/index.html"
   },
   {
+    "breadcrumb": "Competency-Based Assessment \u003e Competencies",
+    "description": "Gather and Analyze Requirements I can identify stakeholder needs and translate them into actionable system requirements.\nI use appropriate methods to understand problems, clarify expectations, and define criteria for successful solutions.\nPrimary evidence contexts:\nBlock Course Work B2 CS-106 Accessibility and data-minimization as non-functional requirements — first encounter with requirements imposed by human needs rather than technical constraints B5 STAT-101 Survey design as a data collection methodology — constructing valid survey instruments, question bias, Likert scales, sampling considerations B6 CS-205 Team Software Project scoping — assessed requirements artifact: conduct a stakeholder interview and produce a functional/non-functional requirements brief before implementation begins B7 CS-206/207 Design Review — defending choices against stated requirements; requirements surface through critique B8 CS-209 Primary home — formal requirements gathering methods; stakeholder interviews; qualitative and quantitative investigation; translating ambiguous needs into acceptance criteria Note: the STAT-101 survey design addition requires coordination with the statistics department — survey design is within scope for a statistics course (sampling, instrument validity, response bias) but the extension needs their buy-in.",
+    "modified": "2026-06-24T15:34:08-05:00",
+    "tags": [],
+    "title": "Human-Centered Practice",
+    "uri": "/two-year-refactor/assessment/competencies/human-centered-practice/index.html"
+  },
+  {
     "breadcrumb": "Specializations",
     "description": "Stub — the Software Architecture specialization is not yet drafted. On-ramp threads: Boundaries \u0026 Contracts (primary), Sociotechnical Structure, APIs \u0026 Networked Systems, Correctness \u0026 Verification, Human-Centered Computing. Likely feeds on CIS 501/505 as elective depth (per the ABET CS analysis).",
     "modified": "2026-06-21T19:29:55-05:00",
@@ -622,14 +646,6 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Specializations",
     "uri": "/two-year-refactor/specializations/index.html"
-  },
-  {
-    "breadcrumb": "Competency-Based Assessment \u003e Competencies",
-    "description": "Systems and Infrastructure Analyze System Behavior I can investigate the behavior of computing systems by examining interactions among software, hardware, networks, and data.\nI explain system performance, reliability, and resource utilization using evidence gathered from observation and measurement.\nManage Computing Environments I can configure and operate computing environments that support software development, deployment, and maintenance.\nI establish and manage the tools, services, dependencies, and resources needed for effective system operation.",
-    "modified": "2026-06-21T19:29:55-05:00",
-    "tags": [],
-    "title": "Systems and Infrasctruture",
-    "uri": "/two-year-refactor/assessment/competencies/systems-and-infrastructure/index.html"
   },
   {
     "breadcrumb": "Pedagogical Approach \u003e Signature Applications",
@@ -673,8 +689,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Competency-Based Assessment \u003e Competencies",
-    "description": "Professional Practice Collaborate on Software Teams I can contribute effectively to collaborative software development using professional workflows and team practices.\nI coordinate work, review contributions, integrate changes, and support shared project goals in team environments.\nUtilize AI Responsibly I can use artificial intelligence tools to support problem solving, learning, and software development while maintaining responsibility for outcomes.\nI evaluate AI-generated outputs, verify correctness, address risks, and exercise professional judgment when incorporating AI into my work.",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "Collaborate on Software Teams I can contribute effectively to collaborative software development using professional workflows and team practices.\nI coordinate work, review contributions, integrate changes, and support shared project goals in team environments.\nPrimary evidence contexts:\nBlock Course Work B1 CS-103 Git as history/archaeology tool — reading how others have collaborated; semantic versioning as collaborative communication B2 CS-105 Git commit/revert as a personal safety net — solo version control before it becomes a team skill B5 CS-202 Solo feature branching — managing your own branches before coordinating with teammates B6 CS-205 Primary home — collaborative Git (branches, PRs, code review, conflict resolution); Conway’s Law enacted; Team Software Project begins B7 CS-206/207 Team Software Project continues — sustained collaboration across a real multi-block product B8 CS-208/209 Team Software Project through System Integration Project; blameless postmortem as team accountability practice Assessment types by level:",
+    "modified": "2026-06-24T15:34:08-05:00",
     "tags": [],
     "title": "Professional Practice",
     "uri": "/two-year-refactor/assessment/competencies/professional-practice/index.html"

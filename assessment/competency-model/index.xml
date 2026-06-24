@@ -3,7 +3,7 @@
   <channel>
     <title>The Competency Model :: CS Two Year Refactor</title>
     <link>https://textbooks.cs.ksu.edu/two-year-refactor/assessment/competency-model/index.html</link>
-    <description></description>
+    <description>Competency assessment in this program operates at the program level, not the course level. Competencies belong to the degree, not to individual courses; courses are evidence-generating contexts. A student’s competency record is maintained across their entire time in the program through the Crystalis assessment platform.&#xA;How Evidence Accumulates Assessment is continuous and based on a preponderance of evidence — no single event determines a competency level. Evidence accumulates from multiple courses and multiple evidence types, and Crystalis aggregates it into a frequently-updated assessment score with a confidence interval visible to both faculty and the individual student, along with a reviewable record of contributing evidence, claims, assessments, and collected artifacts (such as the code that was assessed).</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/assessment/competency-model/index.xml" rel="self" type="application/rss+xml" />
