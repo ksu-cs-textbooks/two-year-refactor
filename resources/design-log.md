@@ -2780,3 +2780,34 @@ Actually: the BLOCKS chapter (in Core Design) summarizes blocks; COURSE DESIGNS 
 
 ### Generate
 Rebuild skeleton with 6 chapters, new ordering, course-design stubs generated from content.js (grouped by block), specializations promoted (+ SW-Arch stub), assessment + pedagogy as landing-page + stub chapters.
+
+## Assessment Design Session — 2026-06-24
+
+### Key decisions
+
+**1. Competency assessment is program-level and continuous (Crystalis)**
+Assessment operates through the Crystalis platform at the program level. Evidence accumulates through a preponderance across multiple courses. Two tiers: automated telemetry (ceiling: Application) and direct observable assessments via LTI 3.0 rubrics (ceiling: Adaptation through course contexts; Leadership through TA/LA/club roles). Grades and competency levels are parallel tracks — grades live in course containers; competencies live in the Crystalis record. Students graduate with a traditional transcript and a final competency report; the employer-facing version is curated by the student from Crystalis evidence. Target: Adaptation or above, but decoupled from graduation requirements by institutional constraint.
+
+**2. Code Archaeology is a recurring assessment type, not a one-time B2 event**
+Code Archaeology deepens across the full program: single-module familiar code (B2) → unfamiliar paradigm/Elixir (B3) → schema archaeology (B5) → git history archaeology (B6) → multi-component system (B7) → production bottleneck diagnosis (B8). The B2 Code Archaeology milestone in the signature-assessments page is the first formal instance; Crystalis tracks the full arc.
+
+**3. 21 recurring assessment types identified and named**
+Each type has a longitudinal arc with explicit touchpoints from first appearance to B8. Types are documented in content/assessment/recurring-assessments.md. Three types cross domain boundaries: Design Brief (Develop Abstractions / Design Software Systems / Design Human-Centered Solutions), Algorithm Evaluation Task (Evaluate Algorithmic Solutions / Represent Information), Code Archaeology (Analyze Computational Systems / Maintain Software Systems). Two sub-competencies (Represent Information; Design Software Systems) are fully served by types from other sub-competencies without a dedicated type.
+
+**4. Formal verification additions to CS-107, CS-109, CS-203**
+Three formal verification techniques added to existing courses (pending curriculum PR):
+- CS-107 (B3): Type annotations explicitly reframed as mechanical verification — the type checker is a theorem prover for a restricted logic
+- CS-109 (B3): Pre/post-conditions deepened to include class/loop invariants as proof obligations
+- CS-203 (B6): Property-based testing added alongside unit/integration testing
+
+**5. Survey design added to STAT-101 (pending statistics department coordination)**
+Requirements Analysis Task needs an early qualitative/quantitative investigation foundation. Survey design (instrument validity, question bias, Likert scales, sampling considerations) is legitimate statistics content and fits in STAT-101. Requires buy-in from the statistics department in co-design. This seeds the B8 CS-209 formal methods toolkit.
+
+**6. Requirements gathering gets explicit B6 touchpoint**
+CS-205 Team Software Project scoping becomes an assessed requirements artifact: students conduct a stakeholder interview and produce a documented functional/non-functional requirements brief before implementation begins. This gives the Requirements Analysis Task a meaningful mid-program touchpoint before the B8 formal treatment.
+
+**7. AI-Assisted Practice Task: telemetry gap**
+Crystalis captures AI chat prompt/response logs (AI use → Application via automated evidence). But responsible use — verification, judgment, risk awareness — requires direct assessment at every level above Application. This is the one sub-competency with a structurally significant gap between what telemetry proves and what the competency requires.
+
+**8. Reflection Assessment linked to Crystalis evidence record**
+At B6 and B8, students can be asked to review their own Crystalis competency trajectory as the evidence base for reflection. The employer-facing competency report (capstone of B8 System Integration Project) is the program's capstone reflection artifact.

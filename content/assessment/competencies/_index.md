@@ -11,7 +11,7 @@ The competency domains are:
 
 1. Computational Reasoning
 2. Software Development
-3. Data and Informatoin
+3. Data and Information
 4. Systems and Infrastructure
 5. Human-Centered Practice
 6. Professional Practice
