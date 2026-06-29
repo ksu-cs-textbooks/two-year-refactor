@@ -30,7 +30,7 @@ The five units:
 |---|---|---|---|---|
 | 1.1 Social Engineering | Phishing, spear-phishing, whaling; vishing; smishing; pretexting; urgency and intimidation tactics | Threat identification in CS-205 is the likeliest home; social engineering as a named category and its specific channel variants are not required. | B6 / CS-205 | **Partial** |
 | 1.2 Authentication | Password attacks (brute force, credential stuffing, password spraying); strengthening with length and uniqueness; MFA (know/have/are factors) | CS-205 explicitly covers authentication and authorization. Attack specifics (brute force, credential stuffing, spraying) and MFA factors are not explicitly required. | B6 / CS-205 | **Partial** |
-| 1.3 Public Networks | Public Wi-Fi interception risks; evil twin and rogue access points; VPNs as encrypted tunnels on untrusted networks | Not covered. The deferred OSI Networking unit is a prerequisite foundation for this content; the core does not yet place it. | Deferred (OSI Networking) | **Gap** |
+| 1.3 Public Networks | Public Wi-Fi interception risks; evil twin and rogue access points; VPNs as encrypted tunnels on untrusted networks | CS-209 (B7) covers TLS at the Session/Presentation layer, connecting to CS-205 applied cryptography — together grounding the VPN-as-encrypted-tunnel concept. Evil twin and rogue access points are Data Link / wireless-specific; CS-209 covers that layer conceptually (signals, framing, MAC addresses) but not wireless attack specifics. | B7 / CS-209; B6 / CS-205 | **Partial** |
 | 1.4 AI-Powered Threats | AI-generated phishing (scaled, multilingual); deepfakes and voice cloning for impersonation; LLM prompt injection; training-data poisoning; AI-assisted malware and reconnaissance | Not covered. The bounded AI-Assisted Development practice addresses AI as a code-writing collaborator, not as an attack vector. | — | **Gap** |
 | 1.5 AI in Defense | AI-powered threat detection and automated incident response | CS-212 (B8) covers high-stakes verification of AI-generated code for security, but AI as a defensive tool in cyber operations is not covered. | B8 / CS-212 (adjacent) | **Gap** |
 
@@ -53,13 +53,13 @@ Unit 2 is the largest single gap between the two curricula. The K-State core has
 
 | AP topic | AP content | Core coverage | Block / course | Status |
 |---|---|---|---|---|
-| 3.1 Network Attacks | ARP spoofing and ARP poisoning; MAC flooding; DNS poisoning; DoS and DDoS; on-path (man-in-the-middle) attacks; packet sniffing | Not covered. CS-111 (B4) establishes the concept of a network boundary at the API/client-server level; network-layer attack specifics require the deferred OSI Networking unit. | Deferred (OSI Networking) | **Gap** |
-| 3.2 Wireless Controls | Managerial and administrative controls; WPA2/3 and wireless authentication; SSID management; war driving awareness | Not covered. | — | **Gap** |
-| 3.3 Network Segmentation | Network segmentation strategy; VLANs and VLAN tagging; DMZ architecture for public-facing services | Not covered. | — | **Gap** |
-| 3.4 Firewalls | Stateless packet filtering; stateful inspection; next-generation firewalls (NGFW, deep packet inspection, application-layer filtering); writing and reading firewall rules | CS-210 (B8) covers security hardening before deployment; firewall configuration may arise there in practice, but firewall architecture (stateless vs. stateful vs. NGFW) is not explicitly required. | B8 / CS-210 (adjacent) | **Gap** |
+| 3.1 Network Attacks | ARP spoofing and ARP poisoning; MAC flooding; DNS poisoning; DoS and DDoS; on-path (man-in-the-middle) attacks; packet sniffing | CS-209 (B7) covers ARP and MAC addressing (Data Link), IP addressing and routing (Network), TCP/UDP (Transport), and DNS (Application) — the protocol-layer foundation that makes ARP spoofing, MAC flooding, DNS poisoning, DoS, MitM, and packet sniffing comprehensible. The specific attack procedures, tools, and defenses are not required. | B7 / CS-209 | **Partial** |
+| 3.2 Wireless Controls | Managerial and administrative controls; WPA2/3 and wireless authentication; SSID management; war driving awareness | CS-209 (B7) introduces the Data Link layer conceptually (signals, framing, MAC addresses). CS-205 (B6) applied cryptography grounds the WPA2/3 encryption model. Operational wireless security — SSID management, war driving, wireless access control policies — is not required. | B7 / CS-209; B6 / CS-205 (foundation) | **Partial** |
+| 3.3 Network Segmentation | Network segmentation strategy; VLANs and VLAN tagging; DMZ architecture for public-facing services | CS-209 (B7) covers IP addressing, CIDR subnets, and routing — the Network-layer foundation for understanding why segmentation works and how subnets isolate traffic. VLANs (Data Link-level tagging) and DMZ as a named architectural pattern are not required. | B7 / CS-209 | **Partial** |
+| 3.4 Firewalls | Stateless packet filtering; stateful inspection; next-generation firewalls (NGFW, deep packet inspection, application-layer filtering); writing and reading firewall rules | CS-209 (B7) covers IP and TCP/UDP with ports — exactly the layer on which stateless and stateful packet filtering operates. CS-210 (B8) covers security hardening before deployment. Firewall architecture (stateless vs. stateful vs. NGFW) and rule syntax are not explicitly required. | B7 / CS-209; B8 / CS-210 | **Partial** |
 | 3.5 Monitoring | IDS vs. IPS (detect-and-alert vs. detect-and-block); SIEM (centralized log aggregation and correlation); network traffic analysis | CS-210 covers operational monitoring of a live system (deploy, monitor, operate). IDS/IPS and SIEM as specific security-monitoring architectures are not named. | B8 / CS-210 (partial) | **Partial** |
 
-Unit 3 is almost entirely blocked by the deferred OSI Networking unit. Until that unit is placed (currently agreed in principle, credits and block TBD), the core provides no foundation for network-layer security content.
+CS-209 OSI Networking Fundamentals (B7) resolves the foundational dependency that blocked this entire unit in earlier drafts. Students now arrive at the Cybersecurity specialization with the protocol theory — ARP, IP/CIDR, TCP/UDP, DNS, TLS — that makes Unit 3 concepts comprehensible. What the core still does not provide is the security-operations layer: specific attack procedures, wireless access management, VLAN administration, and firewall rule authoring. These belong in the first specialization course and can now be introduced against a foundation students actually have.
 
 ---
 
@@ -115,6 +115,7 @@ Unit 3 is almost entirely blocked by the deferred OSI Networking unit. Until tha
 | Operational monitoring of live systems | CS-210 (B8) |
 | Re-identification risk from combined datasets | CS-208 (B7) |
 | Collaborative incident retrospective culture (blameless postmortem) | CS-211 (B8) |
+| OSI protocol stack theory (ARP, IP/CIDR, TCP/UDP, DNS, TLS as layers) | CS-209 (B7) |
 
 ### Partially covered (concept is in the core, AP depth not fully matched)
 
@@ -130,6 +131,11 @@ Unit 3 is almost entirely blocked by the deferred OSI Networking unit. Until tha
 | Security monitoring | CS-210 operational monitoring | IDS/IPS, SIEM not named |
 | Incident detection | CS-210 monitoring + CS-211 postmortem | IoC concept not named |
 | MFA factors | CS-205 authentication | Know/have/are factor model not required |
+| Network-layer attacks (ARP, MAC, DNS, DoS, MitM, packet sniffing) | CS-209 (B7) covers the protocols under each attack | Attack procedures, tools, and defenses not required |
+| VPN as encrypted tunnel; public Wi-Fi risk | CS-209 (B7) TLS at Session/Presentation + CS-205 applied crypto | Evil twin / rogue AP wireless attack specifics not required |
+| Network segmentation | CS-209 (B7) IP/CIDR subnet theory | VLANs (Data Link tagging) and DMZ as named architecture not required |
+| Firewalls | CS-209 (B7) Network/Transport layer (IP, ports) + CS-210 (B8) security hardening | Stateless/stateful/NGFW architecture and rule writing not required |
+| Wireless authentication (WPA2/3) | CS-209 (B7) Data Link conceptual + CS-205 applied crypto | Wireless-specific controls and administrative practice not required |
 
 ### Gaps — not in the core
 
@@ -141,10 +147,6 @@ Unit 3 is almost entirely blocked by the deferred OSI Networking unit. Until tha
 | Threat actor taxonomy | 2.1 | Out of scope — the core is a programming and systems foundation, not a security-operations curriculum |
 | Cyberattack lifecycle / kill chain | 2.1 | Same — security-operations framing not in the core's scope |
 | Physical security (Units 2.2–2.4, ~10 weeks) | 2.2–2.4 | Entirely out of scope for a programming core |
-| Network-layer attacks (ARP, MAC, DNS, DoS, MitM) | 3.1 | Blocked pending deferred OSI Networking unit |
-| Wireless security (evil twin, rogue AP, WPA2) | 3.2 | Blocked pending OSI Networking unit |
-| Network segmentation and VLANs | 3.3 | Blocked pending OSI Networking unit |
-| Firewall architecture and rule writing | 3.4 | Blocked pending OSI Networking unit |
 | IDS/IPS and SIEM | 3.5 | Security-operations tooling, not covered in the core |
 | Input sanitization / secure-by-design coding | 5.5 | Not explicitly required, though CS-205 threat mitigation could host it |
 | AI as an attack vector (deepfakes, voice cloning, LLM manipulation) | 1.4 | The AI-Assisted Development bounded practice covers AI as a collaborator, not as a threat |
@@ -157,7 +159,7 @@ The AP Cybersecurity mapping reveals two distinct gaps that the specialization m
 
 **1. Security-operations vocabulary and frameworks.** The core develops a *design* security posture (least privilege, data minimization, threat modeling, hardening, trust boundaries) but not the *operational* vocabulary the AP course teaches: CIA triad, risk matrix, attack lifecycle, threat actor taxonomy, IDS/IPS, SIEM, IoC. A first-course in the Cybersecurity specialization should introduce these frameworks explicitly, positioning them as the professional language that organizes what the student already understands from the core.
 
-**2. The OSI Networking dependency.** Units 3.1–3.4 of the AP course (network attacks, wireless security, segmentation, firewalls) are entirely blocked by the absence of the deferred OSI Networking unit in the core. Until that unit is placed, the Cybersecurity specialization must either carry its own networking prerequisite or absorb network-layer concepts itself. Placing the OSI Networking unit — already agreed in principle — becomes load-bearing for the specialization, not merely a general-interest addition.
+**2. The OSI Networking foundation (CS-209, B7).** CS-209 OSI Networking Fundamentals is now placed in Block 7 (Y2 Spring), resolving the major prerequisite gap identified in earlier drafts. Units 3.1–3.4 of the AP course — previously entirely outside the core's scope — are now partially grounded: students arrive at the Cybersecurity specialization with the protocol theory (ARP, IP/CIDR, TCP/UDP, DNS, TLS) that makes network attacks, segmentation, and firewalls comprehensible. The residual gap is security-operations specifics: attack procedures, wireless access management, VLAN administration, and firewall rule authoring. These belong naturally in the first Cybersecurity specialization course, which can now teach them against a theoretical foundation students actually have. All Cybersecurity specialization courses that require network-layer knowledge should list CS-209 (B7) as a prerequisite.
 
 **What the core does deliver.** A student completing the two-year core arrives at the Cybersecurity specialization with:
 
@@ -174,6 +176,6 @@ These are *better* foundations for advanced cybersecurity coursework than the AP
 ## Open questions for faculty review
 
 1. **CS-205 scope.** The analysis repeatedly shows CS-205 as the "likeliest home" for AP concepts (social engineering, malware taxonomy, MFA, SQL injection/XSS, input sanitization). Before using this mapping as an advising or placement tool, confirm what CS-205 actually requires: a full syllabus review would resolve most of the "Partial" rows.
-2. **OSI Networking placement.** Network security (≈one-third of the AP course) is entirely deferred pending this unit. The Cybersecurity specialization decision should treat OSI Networking placement as a prerequisite question, not an optional addition.
+2. **OSI Networking prerequisite sequencing.** CS-209 (B7, Y2 Spring) resolves the placement question. The remaining question for the Cybersecurity specialization is sequencing: specialization courses that build on network-layer theory should list CS-209 as a prerequisite, which means they cannot be taken earlier than Y2 Spring. A student who enters the specialization immediately after completing the core is well positioned; a student seeking earlier entry would need a bridging arrangement.
 3. **Placement credit.** Should AP Cybersecurity satisfy any core requirement or grant placement into the specialization? This mapping suggests it is *not* a core substitute (the AP course does not cover the programming, systems-thinking, and software-security-design content the core provides), but it may warrant placement into an accelerated track within the specialization.
 4. **AP alignment for incoming students.** Students who took AP Cybersecurity will have strong operational vocabulary (CIA triad, attack lifecycle, threat actor taxonomy, network attack names) that the core does not develop. Acknowledging this in specialization advising — treating AP Cybersecurity as complementary rather than overlapping — would help those students understand the value of the core rather than feeling they've already "done security."
