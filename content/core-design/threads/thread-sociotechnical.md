@@ -19,9 +19,9 @@ Models the BUILDERS structurally, not just the users. Owns the COLLECTIVE dimens
 | Block | Host context | What's new at this pass |
 |---|---|---|
 | B4 (Y1 Spring) | CS-111 Systems & APIs | SEEDED: Conway's Law — systems mirror the organizations that build them (conceptual; links system structure to human structure). |
-| B6 (Y2 Fall) | CS-205 Collaborative Development | ENACTED: the team IS an organization. Communication overhead, Brooks's Law; code review as team coordination; how dividing work shapes what gets built. |
-| B7 (Y2 Spring) | CS-206/207 Design Review | DEFEND/RETROSPECT: defend not just technical structure but how the team organized to produce it. |
-| B8 (Y2 Spring) | CS-209 / System Integration Project | REFLECT: blameless postmortem — the org-culture expression of "errors are normative." |
+| B6 (Y2 Fall) | CS-206 Collaborative Development | ENACTED: the team IS an organization. Communication overhead, Brooks's Law; code review as team coordination; how dividing work shapes what gets built. |
+| B7 (Y2 Spring) | CS-207/207 Design Review | DEFEND/RETROSPECT: defend not just technical structure but how the team organized to produce it. |
+| B8 (Y2 Spring) | CS-211 / System Integration Project | REFLECT: blameless postmortem — the org-culture expression of "errors are normative." |
 
 ## Connections
 

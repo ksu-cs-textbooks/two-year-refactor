@@ -26,9 +26,9 @@ Computer science courses (3):
 
 | Code | Course | Cr | Focus |
 |---|---|---|---|
-| CS-203 | **Software Testing & Validation** | 1 | Automated tests, unit and integration testing. |
-| CS-204 | **Security Fundamentals** | 1 | Threat identification, authentication, authorization. Modular arithmetic from Block 5 grounds an applied cryptography unit. Principle of least privilege extended explicitly to principle of least data collection. |
-| CS-205 | **Collaborative Development** | 1 | Collaborative Git (branches, PRs, code review, conflict resolution); team practices. Conway's Law enacted — the team is now an organization, and how it divides work shapes what it builds. Signature assessment: Team Software Project begins, carrying a responsibility retrospective (correctness, safety, teamwork). |
+| CS-204 | **Software Testing & Validation** | 1 | Automated tests, unit and integration testing. |
+| CS-205 | **Security Fundamentals** | 1 | Threat identification, authentication, authorization. Modular arithmetic from Block 5 grounds an applied cryptography unit. Principle of least privilege extended explicitly to principle of least data collection. |
+| CS-206 | **Collaborative Development** | 1 | Collaborative Git (branches, PRs, code review, conflict resolution); team practices. Conway's Law enacted — the team is now an organization, and how it divides work shapes what it builds. Signature assessment: Team Software Project begins, carrying a responsibility retrospective (correctness, safety, teamwork). |
 
 Co-designed external courses (1):
 

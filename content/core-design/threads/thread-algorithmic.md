@@ -6,7 +6,7 @@ ordinal = "1.2.5"
 
 > *Working draft for faculty review. A **spiral** deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).*
 
-**In one line:** From Big-O as theory, to graph optimization, to a real bottleneck under load.
+**In one line:** From Big-O as a diagnosis tool, to structural cost, to design patterns, to graph optimization, to a real bottleneck under load.
 
 ---
 
@@ -18,9 +18,12 @@ Its first pass moved from B3 to B4 so it can answer the question B3's contract-f
 
 | Block | Host context | What's new at this pass |
 |---|---|---|
-| B4 (Y1 Spring) | CS-112 Algorithmic Complexity | Big-O, sorting/searching as the cost of structural choices; choosing among contract-satisfying implementations. Pairs loosely with MATH-102 counting (B2). |
-| B7 (Y2 Spring) | CS-206 Graphs & Network Algorithms | Applied to harder structures; shortest path/MST as explicit optimization. Geospatial algorithms: road-network routing (Dijkstra, A*), spatial joins and nearest-neighbor/range queries using B4 spatial indexes. |
-| B8 (Y2 Spring) | CS-208 Deployment & Operations | Complexity reasoning meets a real deployed bottleneck. The memory hierarchy (cache misses, and — the dramatic case — virtual memory, paging, THRASHING) can TRUMP Big-O: good locality can beat better asymptotics. Asymptotic analysis is necessary but not sufficient. Requires the virtual-memory grounding. |
+| B2 (Y1 Fall) | CS-105 Code Reading & Repair | Big-O introduced **conceptually** as a diagnosis tool: "how does cost grow with input size?" — recognized while reading and repairing slow code (nested loops, repeated scans). Memory architecture introduced conceptually: stack vs heap, structural choices carry memory cost. No formal notation at this pass. |
+| B4 (Y1 Spring) | CS-110 Trees, Hashing & Hierarchies | Big-O **formalized** as the cost of structural choices: O(log n) tree operations vs O(n) unsorted scan; O(1) amortized hash table access — choosing among ADT contract-satisfying implementations (handoff from B3). Sorting/searching as canonical examples. Memory layout: tree nodes vs contiguous arrays at conceptual level; full cache mechanics deferred to B8. |
+| B4 (Y1 Spring) | CS-112 Algorithmic Design Patterns | **Design** strategies, not just measurement. Divide and conquer (mergesort, binary search; recurrence relations as analysis tool — builds on MATH-103 B3 recursion). Greedy algorithms (when local optima compose — Dijkstra previewed). Introduction to dynamic programming (memoization as the insight). Vocabulary CS-207 assumes. |
+| B5 (Y2 Fall) | CS-201 SQL Fundamentals | Applied to query optimization — indexes, query plans, the cost of a full-table scan vs an indexed lookup. The query planner does the complexity reasoning; students read it. |
+| B7 (Y2 Spring) | CS-207 Graphs & Network Algorithms | Design patterns applied to harder structures; shortest path/MST as explicit optimization. Geospatial algorithms: road-network routing (Dijkstra, A*), spatial joins and nearest-neighbor/range queries using B4 spatial indexes. |
+| B8 (Y2 Spring) | CS-210 Deployment & Operations | Complexity reasoning meets a real deployed bottleneck. The memory hierarchy (cache misses, and — the dramatic case — virtual memory, paging, THRASHING) can TRUMP Big-O: good locality can beat better asymptotics. Asymptotic analysis is necessary but not sufficient. Requires the virtual-memory grounding. |
 
 ## Connections
 

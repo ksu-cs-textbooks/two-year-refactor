@@ -20,8 +20,8 @@ Structurally different from spirals and lenses by deliberate constraint. The Yea
 |---|---|---|
 | B1 (Y1 Fall) | CS-101/102 / CS-105 | AI as explainer for unfamiliar code; student verifies the explanation against actual behavior using the same block's asserts/logs. |
 | B5 (Y2 Fall) | CS-202 Database Design | AI as a design-alternatives / tradeoff discussion partner; the final choice and justification are the student's own. |
-| B6 (Y2 Fall) | CS-205 Collaborative Development | AI-assisted code review as ONE input among several — not a replacement for human review. |
-| B8 (Y2 Spring) | CS-210 Data Analysis & Responsible AI | High-stakes: given AI-GENERATED code, critique it for correctness and security. Prerequisite skill for the Year 3–4 specialization, which this precedes but does not duplicate. |
+| B6 (Y2 Fall) | CS-206 Collaborative Development | AI-assisted code review as ONE input among several — not a replacement for human review. |
+| B8 (Y2 Spring) | CS-212 Data Analysis & Responsible AI | High-stakes: given AI-GENERATED code, critique it for correctness and security. Prerequisite skill for the Year 3–4 specialization, which this precedes but does not duplicate. |
 
 ## Connections
 

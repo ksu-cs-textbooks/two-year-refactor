@@ -22,7 +22,7 @@ The strongest spiral in the design. Each pass is a real generalization, not a ha
 | B3 (Y1 Spring) | CS-109 Abstract Data Types | Linear structures (lists, stacks, queues) as ADTs — contract first, implementation hidden. Graph sub-spiral begins: graphs as a MODEL for relationship-structured data. Geospatial representation seed: points/lines/polygons (vector) and rasters (grids). |
 | B4 (Y1 Spring) | CS-110 Trees, Hashing & Hierarchies + MATH-104 | Hierarchical/associative structure; contracts continue. Graph sub-spiral: representing and building graphs (adjacency list/matrix — the matrix also seeds basic linear algebra), basic traversal. MATH-104 concurrent: formal graph theory (graphs, trees, networks) as students begin the graph sub-spiral. Spatial indexing as applied trees/hashing: quadtrees, R-trees, geohashing. |
 | B5 (Y2 Fall) | CS-201/202 + graph DB | Relational data as a formal, queryable model. Graph sub-spiral: a brief touch of a graph database (Neo4j/Cypher) as another persistent store alongside relational. |
-| B7 (Y2 Spring) | CS-206/207 | Graph sub-spiral capstone: graph algorithms, landing on several blocks of prior graph use. Document/NoSQL: representation when the relational model doesn't fit — closes the loop. |
+| B7 (Y2 Spring) | CS-207/207 | Graph sub-spiral capstone: graph algorithms, landing on several blocks of prior graph use. Document/NoSQL: representation when the relational model doesn't fit — closes the loop. |
 
 ## Connections
 

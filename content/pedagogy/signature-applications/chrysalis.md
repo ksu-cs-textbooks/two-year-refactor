@@ -104,7 +104,7 @@ This is not an Elixir programming assignment — students are not writing Elixir
 
 ### B7 — Judge (graph and integrate)
 
-**What students do:** Model the competency dependency graph — which competencies must be demonstrated before others are accessible (e.g., the B3 Data Structures pass must precede the B5 relational data pass). Use graph algorithms (CS-206) to answer: which competencies are on the critical path to graduation? Which thread gaps at B4 propagate into the most downstream competencies? 
+**What students do:** Model the competency dependency graph — which competencies must be demonstrated before others are accessible (e.g., the B3 Data Structures pass must precede the B5 relational data pass). Use graph algorithms (CS-207) to answer: which competencies are on the critical path to graduation? Which thread gaps at B4 propagate into the most downstream competencies? 
 
 **Data Integration:** Design and defend a Chrysalis integration with an external assessment tool — e.g., Codio grade exports, a GitHub commit analysis, or a peer-review scoring rubric. Defend the data model (how does an external score become a competency evidence record?), the privacy model (what data from the external tool does Chrysalis actually store?), and the tradeoffs (automated vs. instructor-verified evidence).
 

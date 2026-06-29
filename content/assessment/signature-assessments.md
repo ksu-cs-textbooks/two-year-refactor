@@ -28,7 +28,7 @@ Evidence generated: Investigate Questions with Data; Manage Data Resources; Repr
 
 ## Design Review
 
-**Block 7 — CS-206 Graphs & Network Algorithms**
+**Block 7 — CS-207 Graphs & Network Algorithms**
 
 Students present a system design — algorithm selection, data model choice, and architectural tradeoffs — to a panel of peers and faculty and defend their choices under critique. The defense must address correctness, performance, human-centered concerns, and ethical implications.
 
@@ -38,7 +38,7 @@ Evidence generated: Design Software Systems; Develop Abstractions; Evaluate Algo
 
 ## Team Software Project
 
-**Block 6 (CS-205) through Block 8 (CS-209)**
+**Block 6 (CS-206) through Block 8 (CS-211)**
 
 Students collaborate on a shared software product across three blocks, taking it from requirements through implementation, testing, deployment, and a blameless postmortem. The project carries a responsibility retrospective at Block 6 and a final postmortem at Block 8.
 
@@ -48,7 +48,7 @@ Evidence generated: Collaborate on Software Teams; Implement Software Solutions;
 
 ## System Integration Project
 
-**Block 8 — CS-209 Human-Centered Design & Validation**
+**Block 8 — CS-211 Human-Centered Design & Validation**
 
 Students design, build, deploy, and validate a multi-component system for real users. The project includes formal requirements gathering, acceptance testing with actual users, and a blameless postmortem. Students prepare an employer-facing competency report drawing on their full Crystalis evidence record.
 

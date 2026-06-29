@@ -18,11 +18,11 @@ I create and communicate system designs that consider functionality, maintainabi
 | B3 | CS-109 | ADT contract-first design — specifying behavior before implementation |
 | B4 | CS-111 | Client-server decomposition; API design across a network boundary; web component architecture |
 | B5 | CS-202 | Schema design — modeling a real-world domain with formal relational structure |
-| B6 | CS-203 | Designing for testability — testability as a first-class design quality |
-| B6 | CS-204 | Security as a design concern — threat modeling, least-privilege, data minimization embedded in design |
-| B7 | CS-206/207 | Design Review — defend system design choices including algorithm selection, data model, and tradeoffs |
-| B8 | CS-208 | Deployment architecture, fault-tolerance design, API versioning as a compatibility contract |
-| B8 | CS-209 | Requirements-driven design — designing from stakeholder needs outward |
+| B6 | CS-204 | Designing for testability — testability as a first-class design quality |
+| B6 | CS-205 | Security as a design concern — threat modeling, least-privilege, data minimization embedded in design |
+| B7 | CS-207/207 | Design Review — defend system design choices including algorithm selection, data model, and tradeoffs |
+| B8 | CS-210 | Deployment architecture, fault-tolerance design, API versioning as a compatibility contract |
+| B8 | CS-211 | Requirements-driven design — designing from stakeholder needs outward |
 
 **Assessment types by level:**
 
@@ -51,9 +51,9 @@ I develop software systems by applying suitable tools, languages, frameworks, an
 | B2 | CS-104/106 | Data transformation pipelines; fetch-and-render with async/event handling |
 | B3 | CS-107/109 | OOP with type-annotated contracts; implementing ADTs to a pre-defined contract |
 | B4 | CS-111 | Building a full API — server-side and client-side; web components |
-| B6 | CS-205 | Collaborative implementation — team workflows, PR-based development |
-| B7 | CS-206 | Graph algorithm implementation in a non-trivial problem context |
-| B8 | CS-208/209/210 | Production-grade implementation; human-centered system; data analysis notebook |
+| B6 | CS-206 | Collaborative implementation — team workflows, PR-based development |
+| B7 | CS-207 | Graph algorithm implementation in a non-trivial problem context |
+| B8 | CS-210/209/210 | Production-grade implementation; human-centered system; data analysis notebook |
 
 Note: automated evidence (IDE telemetry, git commits, H5P exercises) is richer here than anywhere else in the program — this sub-competency is most thoroughly covered by the telemetry tier up to Application. The gap is at Independence and above, which requires direct assessment.
 
@@ -83,13 +83,13 @@ I apply appropriate methods to establish confidence in the correctness, reliabil
 | B2 | CS-105 | Regression tests introduced as a safety net for code repair — first informal encounter with verification |
 | B3 | CS-107 | Type checker as mechanical verifier — type annotations as static verification; linter as formal adequacy check |
 | B3 | CS-109 | Pre/post-conditions and class invariants as formal specification; proof obligations for recursive functions |
-| B6 | CS-203 | Primary home — automated unit and integration testing; property-based testing; test suite as formal specification |
-| B6 | CS-205 | Code review as peer verification — correctness check before merge |
-| B7 | CS-206 | Design Review — defending correctness of structural choices, not just "does it work" |
-| B8 | CS-208 | Performance validation on a live system — empirical verification against performance requirements |
-| B8 | CS-209 | Acceptance testing (fitness-for-purpose with real users) and A/B testing |
+| B6 | CS-204 | Primary home — automated unit and integration testing; property-based testing; test suite as formal specification |
+| B6 | CS-206 | Code review as peer verification — correctness check before merge |
+| B7 | CS-207 | Design Review — defending correctness of structural choices, not just "does it work" |
+| B8 | CS-210 | Performance validation on a live system — empirical verification against performance requirements |
+| B8 | CS-211 | Acceptance testing (fitness-for-purpose with real users) and A/B testing |
 
-Note: three formal verification techniques are explicitly present: type checking as mechanical verification (CS-107), property-based testing (CS-203), and class/loop invariants (CS-109). These complement the empirical testing emphasis.
+Note: three formal verification techniques are explicitly present: type checking as mechanical verification (CS-107), property-based testing (CS-204), and class/loop invariants (CS-109). These complement the empirical testing emphasis.
 
 **Assessment types by level:**
 
@@ -116,10 +116,10 @@ I identify the causes of unexpected behavior and implement effective solutions w
 |-------|--------|------|
 | B2 | CS-105 | Primary home — debugging reframed as systematic data flow investigation; git revert and regression tests as diagnostic safety nets; AI-as-explainer verified empirically |
 | B3 | CS-107 | Debugging across encapsulation boundaries — exceptions as signals that a contract was violated; try/catch as a diagnostic tool |
-| B6 | CS-203 | Test-isolated debugging — failing tests as precise diagnostic instruments |
-| B6 | CS-205 | Code review as pre-production defect detection |
-| B8 | CS-208 | Production debugging — diagnosing live system failures from monitoring data and logs |
-| B8 | CS-209 | Blameless postmortem — diagnosing what went wrong at the system/team level |
+| B6 | CS-204 | Test-isolated debugging — failing tests as precise diagnostic instruments |
+| B6 | CS-206 | Code review as pre-production defect detection |
+| B8 | CS-210 | Production debugging — diagnosing live system failures from monitoring data and logs |
+| B8 | CS-211 | Blameless postmortem — diagnosing what went wrong at the system/team level |
 
 **Assessment types by level:**
 
@@ -148,9 +148,9 @@ I analyze existing codebases, implement changes, and manage software evolution w
 | B2 | CS-105 | Primary home — Code Reading & Repair; git commit/revert and regression tests introduced explicitly as safety nets for modifying code |
 | B3 | CS-107 | Type annotations as maintenance affordance — explicit contracts protect future maintainers |
 | B5 | CS-202 | Schema migration — evolving a database schema without breaking existing data |
-| B6 | CS-203 | Regression tests as the foundation for safe modification |
-| B6 | CS-205 | Branch/PR/code review workflow — professional mechanism for modifying a shared codebase |
-| B8 | CS-208 | Operational maintenance — runbooks, monitoring, API versioning as backward-compatibility contract |
+| B6 | CS-204 | Regression tests as the foundation for safe modification |
+| B6 | CS-206 | Branch/PR/code review workflow — professional mechanism for modifying a shared codebase |
+| B8 | CS-210 | Operational maintenance — runbooks, monitoring, API versioning as backward-compatibility contract |
 
 **Assessment types by level:**
 

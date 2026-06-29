@@ -23,9 +23,9 @@ Each touch is woven into the host course — not separately credit-bearing. Touc
 | B1 (Y1 Fall) | CS-103 Computational Representation | Light: how does a representation choice affect what can be hidden or obscured? |
 | B2 (Y1 Fall) | CS-104 / CS-106 | Privacy-by-design in data collection: why are we asking for this field? Data minimization. |
 | B5 (Y2 Fall) | CS-202 Database Design | Data minimization as a schema decision; access control as a property of the schema (who sees what). |
-| B6 (Y2 Fall) | CS-204 Security Fundamentals — FORMALIZED | Authentication, authorization, threat modeling, applied cryptography (MATH-103 modular arithmetic). Least privilege extended to least data collection. The whole B6 'Responsible Development' frame makes this the strongest home; likely the primary ABET ethics anchor. |
-| B7 (Y2 Spring) | CS-207 Data Integration | Re-identification risk from combined datasets — a specific, real privacy question, defended in Design Review. |
-| B8 (Y2 Spring) | CS-208 Deployment & Operations | Harden a system before it goes live — a real, assessed task. Poorly-handled errors as attack surface. |
+| B6 (Y2 Fall) | CS-205 Security Fundamentals — FORMALIZED | Authentication, authorization, threat modeling, applied cryptography (MATH-103 modular arithmetic). Least privilege extended to least data collection. The whole B6 'Responsible Development' frame makes this the strongest home; likely the primary ABET ethics anchor. |
+| B7 (Y2 Spring) | CS-208 Data Integration | Re-identification risk from combined datasets — a specific, real privacy question, defended in Design Review. |
+| B8 (Y2 Spring) | CS-210 Deployment & Operations | Harden a system before it goes live — a real, assessed task. Poorly-handled errors as attack surface. |
 
 ## Convergences with other threads
 

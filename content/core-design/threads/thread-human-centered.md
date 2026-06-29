@@ -21,8 +21,8 @@ Renamed and rescoped from the old HCI thread. Carries two embedded throughlines 
 | B2 (Y1 Fall) | CS-106 Web Foundations | Accessibility basics + visual hierarchy as human comprehension (PERCEIVE). |
 | B4 (Y1 Spring) | CS-111 (embedded) | Honest data visualization — represent data for humans (REPRESENT). |
 | B5 (Y2 Fall) | CS-202 (embedded) | Visualization as investigation — comprehend data (COMPREHEND). |
-| B7 (Y2 Spring) | CS-206/207 Design Review | Defend human-facing choices; introduce ACCEPTANCE CRITERIA (what makes this acceptable to the user?). |
-| B8 (Y2 Spring) | CS-209 Human-Centered Design & Validation | Formal requirements gathering + UX + ACCEPTANCE TESTING + A/B TESTING — design from others' needs and prove you met them (FITNESS). |
+| B7 (Y2 Spring) | CS-207/207 Design Review | Defend human-facing choices; introduce ACCEPTANCE CRITERIA (what makes this acceptable to the user?). |
+| B8 (Y2 Spring) | CS-211 Human-Centered Design & Validation | Formal requirements gathering + UX + ACCEPTANCE TESTING + A/B TESTING — design from others' needs and prove you met them (FITNESS). |
 
 ## Connections
 

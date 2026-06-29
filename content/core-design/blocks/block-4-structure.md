@@ -28,7 +28,7 @@ Computer science courses (3):
 |---|---|---|---|
 | CS-110 | **Trees, Hashing & Hierarchies** | 1 | Hierarchical and associative structure (Data Structures spiral). Taught as structure; ADT contracts from B3 continue (a tree/map has a contract too). Graph spiral: representing and building graphs (adjacency list/matrix — the adjacency matrix is also a natural seed for basic linear algebra), basic traversal. Spatial indexing as applied trees/hashing: quadtrees and R-trees (trees), geohashing (spatial hashing) — a real-world application that makes the structures concrete. |
 | CS-111 | **Systems & APIs** | 1 | Client-server decomposition; the API as system structure across a network boundary (APIs spiral + Boundaries network-boundary pass). Conway Law seed links system structure to human/org structure (Sociotechnical thread). Dataflow model named (Computational Models): a web-server request flows through a pipeline of stages (parse to auth to route to handle to serialize to respond). Data visualization embedded here (Human-Centered Computing throughline), not a separate course; D3 data-join and method-chaining as the client-side dataflow counterpart. **Component-based GUI architecture (web components):** custom elements, shadow DOM, and slots as the "structure" applied to user interfaces — a reusable boundary unit whose name is its contract, shadow DOM is its encapsulated internals, and slots are its interface. Event-driven programming formalized as a structural pattern (register → dispatch → handle in queue), deepening the event-loop first named in B2. |
-| CS-112 | **Algorithmic Complexity** | 1 | Big-O, sorting/searching — the COST of structural choices; how to choose among implementations satisfying the same contract (handoff from B3). Optimization-reasoning seed. Loosely pairs with MATH-102 (B3). |
+| CS-112 | **Algorithmic Design Patterns** | 1 | Students arrive with Big-O already formalized (CS-110); this course teaches how to design fast algorithms. Three canonical strategies: divide and conquer (mergesort, binary search; recurrence relations as the analysis tool — builds on MATH-103 B3 recursion); greedy algorithms (when local optima compose to global optimum; Dijkstra previewed as motivation for B7); introduction to dynamic programming (overlapping subproblems, memoization as the insight). Optimization lens: algorithmic design as optimization — making a hard problem tractable by exploiting its structure. |
 
 Co-designed external courses (1):
 
@@ -47,7 +47,7 @@ Competencies are program-level and developed across many blocks; this block is o
 - **Data Structures & Representation** — Trees, hashing, hierarchies — hierarchical/associative structure (pass 3).
 - **APIs & Networked Systems** — Build + consume an API; system structure across a network boundary (pass 2).
 - **Boundaries & Contracts** — The boundary becomes a process/network boundary; an API is a contract (pass 2).
-- **Algorithmic Thinking & Complexity** — Arrives here as the COST of structural choices; choose among contract-satisfying implementations (pass 1, moved from B3).
+- **Algorithmic Thinking & Complexity** — Two passes here: CS-110 formalizes Big-O as the cost of structural choices (students arrive with the concept from CS-105 B2); CS-112 extends to algorithmic design (divide and conquer, greedy, intro DP) — the vocabulary CS-207 assumes (passes 2 and 3).
 - **Sociotechnical Structure** — SEEDED here via Conway's Law — systems mirror the organizations that build them; links system structure to human structure (pass 1). Spirals to B6 (team forms), B7 (defend), B8 (postmortem).
 - **Human-Centered Computing** — SVG data visualization — honest visual representation of data; the data-viz throughline (pass 2). Embedded, not a separate course.
 - **Computational Models** — Server-side concurrency, conceptual (pass 3).
@@ -56,8 +56,7 @@ Competencies are program-level and developed across many blocks; this block is o
 
 1. Data visualization is now an embedded HCI throughline, not a standalone course — it appears woven into Trees or Systems & APIs. Confirm faculty can see/assess it without a dedicated course slot.
 2. Persistence-proper moved to Block 5; only file formats (as representation) remain in Year 1. An exiting student at the Year-1 checkpoint has files/CSV/JSON from B2 transformation work but no databases — acceptable, since databases were always Year 2.
-3. Block 4 is the conceptual host for "network structure" (where OSI Networking Fundamentals would connect), but OSI placement and its 2 credits remain deferred to cross-block optimization.
-4. Containers (deployment structure) are foreshadowed here via the Boundaries thread but belong properly to Block 8.
+3. Containers (deployment structure) are foreshadowed here via the Boundaries thread but belong properly to Block 8.
 
 ---
 

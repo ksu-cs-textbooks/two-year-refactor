@@ -103,7 +103,7 @@ Also: analyze the complexity (CS-112) of the GeoJSON spatial query algorithm —
 
 ### B7 — Judge (integrate and defend)
 
-**What students do:** Work with the Neo4j graph of community and county relationships. Use graph algorithms (graph search, shortest path, minimum spanning tree via CS-206) to answer questions such as: which communities share the most documented historical events, which county is most central in the railroad network at a given decade, which path through county adjacency has the highest concentration of documented schoolhouses.
+**What students do:** Work with the Neo4j graph of community and county relationships. Use graph algorithms (graph search, shortest path, minimum spanning tree via CS-207) to answer questions such as: which communities share the most documented historical events, which county is most central in the railroad network at a given decade, which path through county adjacency has the highest concentration of documented schoolhouses.
 
 Design Review: Design and defend a new data integration for Tallgrass — e.g., linking to a specific external data source (U.S. Census Bureau historical records, Kansas State Historical Society digital collections). Defend the schema design, the API contract, the de-duplication strategy, and the tradeoffs (completeness vs. accuracy, coverage vs. effort).
 

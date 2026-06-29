@@ -18,16 +18,17 @@ ordinal = "1.1.7"
 
 **Essential question:** *When problems stop having a single right answer, how do you decide — and defend it?*
 
-Integration & Judgment — design under uncertainty. Graphs (arbitrary connection), NoSQL and multi-source integration (data that resists clean models): the first block where problems lack single right answers. The Design Review signature assessment is where students defend structures, contracts, team organization, usability, and tradeoffs under scrutiny — tradeoff reasoning (competing objectives, e.g. speed vs completeness vs privacy) named explicitly. Lighter load than B6 by design.
+Integration & Judgment — design under uncertainty. Graphs (arbitrary connection), multi-source data integration, and the application-database interface (ORMs, migrations, seeds): the first block where problems lack single right answers. The Design Review signature assessment is where students defend structures, contracts, team organization, usability, and tradeoffs under scrutiny — tradeoff reasoning (competing objectives, e.g. speed vs completeness vs privacy) named explicitly. Lighter load than B6 by design.
 
 ## Structure
 
-Computer science courses (2):
+Computer science courses (3):
 
 | Code | Course | Cr | Focus |
 |---|---|---|---|
-| CS-206 | **Graphs & Network Algorithms** | 1 | Graph traversal, shortest path, minimum spanning trees — named explicitly as optimization (best path/structure under a metric). Graphs as the most general representation (terminal Data Structures pass). Geospatial algorithms: routing/shortest-path on road networks (weighted graphs; Dijkstra, A* as geospatially-motivated heuristic search); spatial joins and range/nearest-neighbor queries using B4 spatial indexes. Signature assessment: Design Review begins here. Computational Models pass: a brief see-and-explore example of a LOGIC/CONSTRAINT model (a few Prolog-style facts/rules + a query, or a small constraint problem a solver resolves) — connects to MATH-101 predicate logic, SQL's logical character, and the Optimization lens. |
-| CS-207 | **Document Databases & Data Integration** | 1 | NoSQL data models (data that resists clean relational structure); combining disparate sources. Re-identification risk from combined datasets (Security pass). Multi-objective tradeoff reasoning — integrating for speed vs completeness vs privacy — defended in Design Review. |
+| CS-207 | **Graphs & Network Algorithms** | 1 | Graph traversal, shortest path, minimum spanning trees — named explicitly as optimization (best path/structure under a metric). Graphs as the most general representation (terminal Data Structures pass). Geospatial algorithms: routing/shortest-path on road networks (weighted graphs; Dijkstra, A* as geospatially-motivated heuristic search); spatial joins and range/nearest-neighbor queries using B4 spatial indexes. Signature assessment: Design Review begins here. Computational Models pass: a brief see-and-explore example of a LOGIC/CONSTRAINT model (a few Prolog-style facts/rules + a query, or a small constraint problem a solver resolves) — connects to MATH-101 predicate logic, SQL's logical character, and the Optimization lens. |
+| CS-208 | **Data Integration & Application-Database Interfaces** | 1 | Combining data across the storage models and APIs students already know (B5 relational and non-relational, B4 APIs) — the challenge is integration, not model introduction. ORM libraries: mapping between application objects and database schemas; the object-relational impedance mismatch; active record vs. data mapper patterns; the N+1 query problem as a canonical judgment case for when raw SQL beats an ORM. Database migrations: versioned schema evolution; forward and rollback; data migrations vs. schema migrations; a migration is a contract change with downstream effects (Boundaries pass). Seeds: initial data population and test fixtures; environment-specific seeding strategies. Re-identification risk from combined datasets (Trustworthy Computing lens pass). Multi-objective tradeoff reasoning — integrating for speed vs. completeness vs. privacy — defended in Design Review. |
+| CS-209 | **OSI Networking Fundamentals** | 1 | The OSI 7-layer model as a shared theoretical trunk. Physical and Data Link layers introduced conceptually only (signals, framing, MAC addresses, ARP) — depth deferred to CompE. Network layer: IP addressing, CIDR subnets, routing — routing IS the shortest-path problem on a graph, making CS-207's Dijkstra/A* concrete at the network layer (deliberate same-block convergence). Transport layer: TCP (three-way handshake, reliability, flow control) vs UDP (best-effort, latency trade-off); ports; the socket abstraction as the programmer's interface to the stack — the same interface students have been using in API work (B4/CS-111) without the theory. Session/Presentation: brief — TLS sits here, connecting to CS-205 applied cryptography. Application layer: HTTP/HTTPS and DNS examined as protocols rather than magic — what students have been consuming since B2. APIs & Networked Systems thread: theoretical grounding for the whole spiral. Boundaries & Contracts: each OSI layer is a contract with its neighbors; encapsulation as a design principle at every scale. |
 
 Co-designed external courses (1):
 
@@ -35,7 +36,7 @@ Co-designed external courses (1):
 |---|---|---|---|
 | STAT-103 | **Random Variables, Distributions & Sampling** | 1 | (External/co-designed, stats dept. Distributions, sampling, central limit theorem.) |
 
-**Block load:** 3 concurrent courses (2 CS + 1 external), 3 credits.
+**Block load:** 4 concurrent courses (3 CS + 1 external), 4 credits.
 
 ## Threads passing through this block
 
@@ -43,7 +44,8 @@ Competencies are program-level and developed across many blocks; this block is o
 
 - **Data Structures & Representation** — Graphs as the most general representation (arbitrary relationship); the terminal data-structures pass.
 - **Algorithmic Thinking & Complexity / Optimization** — Shortest path and minimum spanning trees named explicitly as optimization — the strongest organic optimization touchpoint (pass 2).
-- **Boundaries & Contracts** — Defend the boundaries and contracts you designed (pass 5).
+- **APIs & Networked Systems** — OSI Networking Fundamentals provides the theoretical grounding for the whole spiral; the socket, TCP, and HTTP that students have been using since B2 are named and located in the stack (pass 3).
+- **Boundaries & Contracts** — Defend the boundaries and contracts you designed; migrations as versioned contract evolution — changing a schema is changing a contract with downstream effects; ORM as an object-relational contract (pass 5).
 - **Sociotechnical Structure** — Defend/retrospect how the team organized to produce the work (pass 3).
 - **Human-Centered Computing** — Defend usability and accessibility choices in Design Review (pass 3).
 - **Trustworthy Computing (lens)** — Re-identification risk from combined datasets — a specific, real privacy question (not a generic touch).

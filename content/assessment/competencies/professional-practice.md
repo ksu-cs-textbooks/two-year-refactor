@@ -17,9 +17,9 @@ I coordinate work, review contributions, integrate changes, and support shared p
 | B1 | CS-103 | Git as history/archaeology tool — reading how others have collaborated; semantic versioning as collaborative communication |
 | B2 | CS-105 | Git commit/revert as a personal safety net — solo version control before it becomes a team skill |
 | B5 | CS-202 | Solo feature branching — managing your own branches before coordinating with teammates |
-| B6 | CS-205 | Primary home — collaborative Git (branches, PRs, code review, conflict resolution); Conway's Law enacted; Team Software Project begins |
-| B7 | CS-206/207 | Team Software Project continues — sustained collaboration across a real multi-block product |
-| B8 | CS-208/209 | Team Software Project through System Integration Project; blameless postmortem as team accountability practice |
+| B6 | CS-206 | Primary home — collaborative Git (branches, PRs, code review, conflict resolution); Conway's Law enacted; Team Software Project begins |
+| B7 | CS-207/207 | Team Software Project continues — sustained collaboration across a real multi-block product |
+| B8 | CS-210/209 | Team Software Project through System Integration Project; blameless postmortem as team accountability practice |
 
 **Assessment types by level:**
 
@@ -46,8 +46,8 @@ I evaluate AI-generated outputs, verify correctness, address risks, and exercise
 |-------|--------|------|
 | B1/B2 | CS-105 | First named pass — AI-as-explainer for unfamiliar code; explanation verified empirically against actual code behavior |
 | B4/B5 | CS-111/202 | AI as design partner — brainstorm design alternatives with AI; human selects and justifies; document what AI got right and wrong |
-| B6 | CS-203 | AI-generated tests — use AI to generate test cases; evaluate coverage, identify gaps, verify correctness of generated tests |
-| B8 | CS-210 | Culminating pass — high-stakes verification and critique of AI-generated code for correctness, security vulnerabilities, and bias |
+| B6 | CS-204 | AI-generated tests — use AI to generate test cases; evaluate coverage, identify gaps, verify correctness of generated tests |
+| B8 | CS-212 | Culminating pass — high-stakes verification and critique of AI-generated code for correctness, security vulnerabilities, and bias |
 
 Note: Crystalis captures AI chat prompt and response logs directly — automated evidence can demonstrate that a student *used* AI (Application level). Demonstrating *responsible* use — verification, judgment, risk awareness — requires direct assessment at every level above Application. This is the one sub-competency where the gap between telemetry evidence and competency evidence is structurally significant.
 
@@ -57,7 +57,7 @@ Note: Crystalis captures AI chat prompt and response logs directly — automated
 |-------|----------------|
 | Application | Structured AI use task — use an AI tool for a specified purpose, document what it produced, and show how you verified the output |
 | Independence | Open-ended AI-assisted task — use AI tools to support a real development task; independently evaluate and verify outputs before incorporating them |
-| Adaptation | CS-210 critique — evaluate AI-generated code for correctness, security, and bias in a novel high-stakes context with real consequences |
+| Adaptation | CS-212 critique — evaluate AI-generated code for correctness, security, and bias in a novel high-stakes context with real consequences |
 | Leadership | TA/LA modeling responsible AI use for students; leading peer discussions on AI limitations and failure modes; mentoring on verification practices |
 
 **Recurring type:** AI-Assisted Practice Task — deepens from low-stakes code explanation with empirical verification (B1/B2) through high-stakes AI code critique for correctness, security, and bias (B8). Stakes escalate: misunderstanding code (B2) → deploying code with security vulnerabilities (B8).
@@ -76,8 +76,8 @@ I use evidence from my experiences to strengthen my knowledge, skills, habits, a
 |-------|--------|------|
 | B2 | CS-105 | Post-Code Archaeology metacognitive debrief — what strategies worked, what failed, what would you do differently on the next unfamiliar codebase? |
 | B4/B5 | CS-112/202 | Mid-program backward reflection — given new analytical tools (Big-O, schema design), revisit an earlier decision and articulate what you'd change and why |
-| B6 | CS-205 | Responsibility retrospective — structured team reflection on ethical and professional practice during the Team Software Project |
-| B8 | CS-208/209 | Blameless postmortem — systemic reflection on a real operational failure; employer-facing competency report — curate Crystalis evidence, articulate growth trajectory, present to a professional audience |
+| B6 | CS-206 | Responsibility retrospective — structured team reflection on ethical and professional practice during the Team Software Project |
+| B8 | CS-210/209 | Blameless postmortem — systemic reflection on a real operational failure; employer-facing competency report — curate Crystalis evidence, articulate growth trajectory, present to a professional audience |
 
 Note: the living Crystalis evidence record is itself a reflection scaffold. At B6 and B8, students can be asked to review their own competency evidence trajectory — what has grown, where gaps remain, what they want to prioritize — making the assessment infrastructure directly legible to the student as a tool for self-directed growth.
 

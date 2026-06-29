@@ -65,9 +65,9 @@ Students investigate an existing codebase — without prior familiarity — to e
 | B2 | CS-105 | Familiar languages (JS/Python), single module — trace control flow and explain behavior | Function/module |
 | B3 | CS-107 | Unfamiliar paradigm (Elixir/Chrysalis) — explain encapsulation across a language boundary | Module boundary |
 | B5 | CS-202 | Schema archaeology — read an existing schema and explain the design decisions embedded in it | Data model |
-| B6 | CS-205 | Git history archaeology — read a PR or commit history, explain what changed and why | System evolution |
-| B7 | CS-206/207 | Integrated system archaeology — trace behavior across multiple components and data stores | Multi-component |
-| B8 | CS-208 | Production system archaeology — diagnose a live bottleneck, explain interaction under load | Full system under stress |
+| B6 | CS-206 | Git history archaeology — read a PR or commit history, explain what changed and why | System evolution |
+| B7 | CS-207/207 | Integrated system archaeology — trace behavior across multiple components and data stores | Multi-component |
+| B8 | CS-210 | Production system archaeology — diagnose a live bottleneck, explain interaction under load | Full system under stress |
 
 *Also generates evidence for: Maintain Software Systems*
 
@@ -83,8 +83,8 @@ Students design an abstraction, interface, or system component to a problem or s
 | B3 | CS-109 | Design an ADT contract before any implementation — pre/post-conditions, guarantees | Single component, less scaffolding |
 | B4 | CS-111 | Design an API across a network boundary — endpoints, request/response shapes, error contracts | Component-to-component |
 | B5 | CS-202 | Design a database schema — abstract a messy real-world domain into a formal relational model | Domain model, open-ended |
-| B7 | CS-206/207 | Choose and defend the right abstraction tier for the problem (graph vs. relational vs. document) | Multi-option, tradeoff-driven |
-| B8 | CS-208/209 | System-level design — compose abstractions across multiple layers for a novel integration problem | Full system, novel context |
+| B7 | CS-207/207 | Choose and defend the right abstraction tier for the problem (graph vs. relational vs. document) | Multi-option, tradeoff-driven |
+| B8 | CS-210/209 | System-level design — compose abstractions across multiple layers for a novel integration problem | Full system, novel context |
 
 *Also generates evidence for: Design Software Systems; Design Human-Centered Solutions*
 
@@ -99,9 +99,9 @@ Students construct a formal argument — a proof, specification, complexity boun
 | B1 | MATH-101 / CS-103 | Truth tables, predicate logic exercises, set proofs | Single proposition/expression, template provided |
 | B3 | CS-109 / MATH-103 | Pre/post-condition specification; recursive correctness argument | Single function, less scaffolding |
 | B4 | CS-112 / MATH-104 | Big-O analysis of sorting/searching algorithms; formal graph properties | Algorithm-scale, student constructs the bound |
-| B6 | CS-203 | Test suite as formal specification — what does this test formally guarantee, and what does it leave unverified? | System behavior, open-ended adequacy argument |
-| B7 | CS-206 | Correctness argument for a graph algorithm; evaluate a peer's formal argument in Design Review | Multi-step, peer-facing |
-| B8 | CS-208 | Formal + empirical reconciliation — construct the argument for why Big-O prediction diverges from observed behavior | Real system, formal model boundary case |
+| B6 | CS-204 | Test suite as formal specification — what does this test formally guarantee, and what does it leave unverified? | System behavior, open-ended adequacy argument |
+| B7 | CS-207 | Correctness argument for a graph algorithm; evaluate a peer's formal argument in Design Review | Multi-step, peer-facing |
+| B8 | CS-210 | Formal + empirical reconciliation — construct the argument for why Big-O prediction diverges from observed behavior | Real system, formal model boundary case |
 
 ---
 
@@ -114,8 +114,8 @@ Students compare alternative algorithms, data structures, or data models and jus
 | B3 | CS-109 | Compare two implementations of the same ADT contract — same interface, different performance | Single structure, implementations provided |
 | B4 | CS-112 | Compare sorting/searching algorithms by complexity for a specified scenario; adjacency list vs. matrix | Algorithm-scale, student constructs the analysis |
 | B5 | CS-201/202 | Justify index strategy or schema design choice; compare relational vs. graph model for a given domain | Data model scale, open-ended |
-| B7 | CS-206/207 | Multi-objective tradeoff — Dijkstra vs. A\*, data store selection with competing constraints | Multi-algorithm, defended in Design Review |
-| B8 | CS-208 | Production system — evaluate choices where formal and empirical evidence must both be brought to bear | Real system, novel context |
+| B7 | CS-207/207 | Multi-objective tradeoff — Dijkstra vs. A\*, data store selection with competing constraints | Multi-algorithm, defended in Design Review |
+| B8 | CS-210 | Production system — evaluate choices where formal and empirical evidence must both be brought to bear | Real system, novel context |
 
 *Also generates evidence for: Represent Information*
 
@@ -132,8 +132,8 @@ Students implement a software solution to a specification, with scaffolding remo
 | B1/B2 | CS-101/102/104 | Single function or module — requirements fully specified, familiar languages, no design decisions | Function/module |
 | B3 | CS-107/109 | Multi-function component implementing a pre-defined ADT contract | Component |
 | B4 | CS-111 | Full API — student selects tools and approach within a requirements document | System boundary |
-| B6/B7 | CS-205/206 | Feature implementation in a collaborative codebase — professional workflows, team-defined specs | Shared system |
-| B8 | CS-208/209 | Production-quality implementation — novel domain, real constraints, no scaffolding | Full production system |
+| B6/B7 | CS-206/206 | Feature implementation in a collaborative codebase — professional workflows, team-defined specs | Shared system |
+| B8 | CS-210/209 | Production-quality implementation — novel domain, real constraints, no scaffolding | Full production system |
 
 ---
 
@@ -145,8 +145,8 @@ Students design and implement a verification strategy for a software system, wit
 |-------|--------|------|-------------------|
 | B2 | CS-105 | Write a regression test for a specific code repair — verification as a safety net | Single function, guided |
 | B3 | CS-109 | Write pre/post-conditions and test cases that exercise them; type annotations as static verification | Single function, formal spec |
-| B6 | CS-203 | Design and implement a test suite including property-based tests — argue adequacy of coverage | System, open-ended strategy |
-| B8 | CS-208 | Acceptance testing plan and performance validation for a production system | Novel multi-component, real users |
+| B6 | CS-204 | Design and implement a test suite including property-based tests — argue adequacy of coverage | System, open-ended strategy |
+| B8 | CS-210 | Acceptance testing plan and performance validation for a production system | Novel multi-component, real users |
 
 ---
 
@@ -158,9 +158,9 @@ Students diagnose and fix defects in given code, with scaffolding removed and sy
 |-------|--------|------|-------------------|
 | B2 | CS-105 | Single-function bug in familiar language, guided hints | Function, guided |
 | B3 | CS-107 | Bug at an encapsulation boundary — trace exception across module boundary | Component boundary |
-| B6 | CS-203 | Write a failing test that exposes the bug, then fix it — test-first diagnosis | System, no hints |
-| B6 | CS-205 | Code review — find latent bugs in a peer's code before they manifest | Peer codebase |
-| B8 | CS-208 | Diagnose from logs and monitoring data; no direct code access | Production system |
+| B6 | CS-204 | Write a failing test that exposes the bug, then fix it — test-first diagnosis | System, no hints |
+| B6 | CS-206 | Code review — find latent bugs in a peer's code before they manifest | Peer codebase |
+| B8 | CS-210 | Diagnose from logs and monitoring data; no direct code access | Production system |
 
 ---
 
@@ -173,8 +173,8 @@ Students modify an existing codebase to meet a changed requirement, without brea
 | B2 | CS-105 | Repair a bug using commit/revert safely — small, guided modification | Single function, scaffolded |
 | B3 | CS-107 | Add a method to an existing class while preserving encapsulation | Component boundary |
 | B5 | CS-202 | Schema migration — evolve a data model without breaking existing records | Data layer, high stakes |
-| B6 | CS-205 | Feature branch PR — implement a change in a shared codebase, pass code review | Shared codebase |
-| B8 | CS-208 | API versioning — evolve a public interface while maintaining backward compatibility | Production system |
+| B6 | CS-206 | Feature branch PR — implement a change in a shared codebase, pass code review | Shared codebase |
+| B8 | CS-210 | API versioning — evolve a public interface while maintaining backward compatibility | Production system |
 
 ---
 
@@ -188,8 +188,8 @@ Students acquire, transform, and prepare data for a stated purpose, with source 
 |-------|--------|------|-------------------|
 | B2 | CS-104 | Parse and reshape a single CSV/JSON source to a specified output format | Single source, specified transformation |
 | B4/B5 | CS-111/201 | API-backed and SQL query pipeline — multi-step transformation chain | Multi-step, student designs the chain |
-| B7 | CS-207 | Integrate multiple heterogeneous sources; identify and mitigate re-identification risk | Multi-source, ethical constraint |
-| B8 | CS-210 | Notebook pipeline with data provenance and ethical documentation | Full lifecycle, novel domain |
+| B7 | CS-208 | Integrate multiple heterogeneous sources; identify and mitigate re-identification risk | Multi-source, ethical constraint |
+| B8 | CS-212 | Notebook pipeline with data provenance and ethical documentation | Full lifecycle, novel domain |
 
 ---
 
@@ -203,7 +203,7 @@ Students investigate a question using data and statistical methods, with the que
 | B5 | CS-202 | Data Investigation (signature) — investigate a student-driven question with a novel dataset | Open-ended, no template |
 | B6 | STAT-102 | Probability-based investigation — compute likelihoods, reason formally about uncertainty | Inference under uncertainty |
 | B7 | STAT-103 | Sampling investigation — design a sampling strategy, evaluate whether evidence supports a conclusion | Methodology design |
-| B8 | CS-210 | Full notebook investigation with visualization, ethical framing, and honest uncertainty reporting | Novel domain, public-facing conclusions |
+| B8 | CS-212 | Full notebook investigation with visualization, ethical framing, and honest uncertainty reporting | Novel domain, public-facing conclusions |
 
 ---
 
@@ -216,7 +216,7 @@ Students create visualizations or explanations that communicate data-driven find
 | B2 | CS-106 | Visual hierarchy and accessibility — is this information legible and accessible to all readers? | Any reader; accessibility compliance |
 | B4 | CS-111 | D3 data-join — implement an interactive/dynamic chart that updates as data changes | Technical context; implementation fidelity |
 | B5 | STAT-101 | Statistical chart selection — choose and create the right chart type for the data's distributional properties | Analytical audience; appropriateness of form |
-| B8 | CS-210 | Honest visualization with ethical documentation — what does this chart claim, is the claim justified? | Public/mixed audience; ethical accountability |
+| B8 | CS-212 | Honest visualization with ethical documentation — what does this chart claim, is the claim justified? | Public/mixed audience; ethical accountability |
 
 ---
 
@@ -231,7 +231,7 @@ Students trace behavior through a computing system using observation and measure
 | B1 | CS-103 | Trace stack/heap state through a function call sequence | Memory model, guided |
 | B2 | CS-106 | Trace an async fetch through the event loop — explain callback ordering | Concurrency model, guided |
 | B4 | CS-111 | Trace a request through the full server pipeline — explain behavior at each stage | Multi-stage system |
-| B8 | CS-208 | Diagnose a production bottleneck using monitoring data — explain why empirical behavior diverges from Big-O prediction | Real system under load |
+| B8 | CS-210 | Diagnose a production bottleneck using monitoring data — explain why empirical behavior diverges from Big-O prediction | Real system under load |
 
 *Complementary to Code Archaeology: Code Archaeology traces behavior through code; System Analysis Task traces behavior through operational signals and system interactions.*
 
@@ -245,9 +245,9 @@ Students configure a computing environment to support a specified development or
 |-------|--------|------|-------------------|
 | B2 | CS-105 | Configure git — username, email, .gitignore, initial repository setup | Single tool, personal toolchain |
 | B3 | CS-107 | Configure type checker and linter — tsconfig.json or mypy + eslint/pylint integrated into the workflow | Static analysis toolchain |
-| B6 | CS-203 | Configure a test pipeline — test runner, coverage thresholds, CI trigger on push | Integrated automation |
-| B6 | CS-205 | Configure a shared team environment — branch protection, PR templates, shared linting config | Collaborative toolchain |
-| B8 | CS-208 | Configure a production environment — containers, environment variables, secrets, monitoring, hardening | Production-grade, real constraints |
+| B6 | CS-204 | Configure a test pipeline — test runner, coverage thresholds, CI trigger on push | Integrated automation |
+| B6 | CS-206 | Configure a shared team environment — branch protection, PR templates, shared linting config | Collaborative toolchain |
+| B8 | CS-210 | Configure a production environment — containers, environment variables, secrets, monitoring, hardening | Production-grade, real constraints |
 
 ---
 
@@ -257,9 +257,9 @@ Students deploy, validate, and monitor a software system in an operational envir
 
 | Block | Course | Pass | Scale & Challenge |
 |-------|--------|------|-------------------|
-| B6 | CS-203/205 | Tag a release — ensure tests pass, cut a semantic version tag, document what changed | Single service, staging environment |
-| B8 | CS-208 | Deploy a containerized service — configure, deploy, monitor, and respond to an operational issue | Production environment, real constraints |
-| B8 | CS-209 | System Integration Project deployment — multi-component system for real user acceptance; postmortem on what broke | Novel multi-component, live users |
+| B6 | CS-204/205 | Tag a release — ensure tests pass, cut a semantic version tag, document what changed | Single service, staging environment |
+| B8 | CS-210 | Deploy a containerized service — configure, deploy, monitor, and respond to an operational issue | Production environment, real constraints |
+| B8 | CS-211 | System Integration Project deployment — multi-component system for real user acceptance; postmortem on what broke | Novel multi-component, live users |
 
 ---
 
@@ -273,8 +273,8 @@ Students identify stakeholder needs and translate them into system requirements,
 |-------|--------|------|-------------------|
 | B2 | CS-106 | Identify user needs informally — who is this for, what accessibility requirements follow from their context? | Single user type, guided |
 | B5 | STAT-101 | Survey design — design a valid instrument for a specified research question; critique a given survey for bias | Research design, data collection |
-| B6 | CS-205 | Stakeholder interview + requirements brief — conduct an interview, produce a documented requirements artifact with acceptance criteria | Real human, formal output |
-| B8 | CS-209 | Full multi-method investigation — interviews, surveys, and observation with conflicting stakeholders | Novel context, real users, ambiguous needs |
+| B6 | CS-206 | Stakeholder interview + requirements brief — conduct an interview, produce a documented requirements artifact with acceptance criteria | Real human, formal output |
+| B8 | CS-211 | Full multi-method investigation — interviews, surveys, and observation with conflicting stakeholders | Novel context, real users, ambiguous needs |
 
 ---
 
@@ -286,8 +286,8 @@ Students evaluate an existing design or interface against human-centered criteri
 |-------|--------|------|-------------------|
 | B2 | CS-106 | Accessibility audit — evaluate an existing page against accessibility criteria (contrast, keyboard navigation, screen reader) | Checklist-guided, single page |
 | B4 | CS-111 | Component usability evaluation — does this web component's interface make sense from the user's perspective? | Interface design, less scaffolding |
-| B7 | CS-206 | Design Review — peers evaluate each other's system designs for human-centeredness and usability fit | Peer-facing, multi-dimension critique |
-| B8 | CS-209 | Full usability evaluation — heuristic evaluation, user testing sessions, A/B analysis against acceptance criteria | Real users, novel system |
+| B7 | CS-207 | Design Review — peers evaluate each other's system designs for human-centeredness and usability fit | Peer-facing, multi-dimension critique |
+| B8 | CS-211 | Full usability evaluation — heuristic evaluation, user testing sessions, A/B analysis against acceptance criteria | Real users, novel system |
 
 ---
 
@@ -299,9 +299,9 @@ Students identify and reason about the ethical implications of a computational d
 |-------|--------|------|-------------------|
 | B2 | CS-104/106 | Data minimization analysis — given a pipeline or form, identify what data is collected and argue for what should be removed | Single decision, guided framework |
 | B5 | CS-202 | Schema ethics documentation — justify access control and data minimization decisions in a schema design | Design-level, formal documentation |
-| B6 | CS-204/205 | Security threat analysis + responsibility retrospective — identify system threats and team ethical responsibilities | System-level, collaborative accountability |
-| B7 | CS-207 | Re-identification risk analysis — identify risks from dataset combination and propose mitigations | Integration-level, emergent harm |
-| B8 | CS-210 | AI-assisted analysis critique — evaluate an AI-generated artifact for correctness, bias, security risk, and responsible use | Novel context, high stakes |
+| B6 | CS-205/205 | Security threat analysis + responsibility retrospective — identify system threats and team ethical responsibilities | System-level, collaborative accountability |
+| B7 | CS-208 | Re-identification risk analysis — identify risks from dataset combination and propose mitigations | Integration-level, emergent harm |
+| B8 | CS-212 | AI-assisted analysis critique — evaluate an AI-generated artifact for correctness, bias, security risk, and responsible use | Novel context, high stakes |
 
 ---
 
@@ -313,9 +313,9 @@ Students communicate technical information to a specified audience, with audienc
 |-------|--------|------|-------------------|
 | B3 | CS-107 | Type-annotated interface documentation — document a component's contract for a peer developer | Peer developer; asynchronous, low stakes |
 | B5 | CS-202 | Schema-decision documentation — explain design choices to a future maintainer without your context | Future maintainer; asynchronous, medium stakes |
-| B6 | CS-205 | PR description and code review — communicate what changed, why, and what to look for | Team; professional, collaborative |
-| B7 | CS-206 | Design Review presentation — defend technical decisions to critical peers and faculty | Critical audience; synchronous, high stakes |
-| B8 | CS-209 | Stakeholder translation — communicate technical constraints and tradeoffs to non-technical decision-makers | Non-technical; consequential, novel context |
+| B6 | CS-206 | PR description and code review — communicate what changed, why, and what to look for | Team; professional, collaborative |
+| B7 | CS-207 | Design Review presentation — defend technical decisions to critical peers and faculty | Critical audience; synchronous, high stakes |
+| B8 | CS-211 | Stakeholder translation — communicate technical constraints and tradeoffs to non-technical decision-makers | Non-technical; consequential, novel context |
 
 ---
 
@@ -330,8 +330,8 @@ Students coordinate work in a shared version-controlled codebase, with the colla
 | B1 | CS-103 | Git history exploration — read a repo's log, diff, and blame to reconstruct what a collaborator changed and why | Read-only, solo |
 | B2 | CS-105 | Commit/revert safety net — use git to checkpoint and recover during a repair task | Write, solo |
 | B5 | CS-202 | Solo feature branch — implement a schema change on a branch, merge cleanly | Branch/merge, solo |
-| B6 | CS-205 | Full collaborative PR cycle — branch, implement, open PR, respond to review, merge | Team, professional workflow |
-| B8 | CS-208/209 | Sustained team collaboration across a multi-block project with postmortem accountability | Multi-block, real product, team |
+| B6 | CS-206 | Full collaborative PR cycle — branch, implement, open PR, respond to review, merge | Team, professional workflow |
+| B8 | CS-210/209 | Sustained team collaboration across a multi-block project with postmortem accountability | Multi-block, real product, team |
 
 ---
 
@@ -343,8 +343,8 @@ Students use AI tools for a specified purpose and are assessed on their evaluati
 |-------|--------|------|----------------------------------|
 | B1/B2 | CS-105 | AI-as-explainer — use AI to explain unfamiliar code; verify the explanation against actual runtime behavior | Low stakes; verification by empirical observation |
 | B4/B5 | CS-111/202 | AI design brainstorm — generate alternatives with AI, select and justify one, document where AI reasoning was flawed | Medium stakes; verification by design argument |
-| B6 | CS-203 | AI-generated tests — evaluate coverage, find gaps, verify test correctness and adequacy | Medium stakes; verification by coverage analysis |
-| B8 | CS-210 | AI code critique — evaluate AI-generated code for correctness, security vulnerabilities, and bias | High stakes; verification by security and correctness analysis |
+| B6 | CS-204 | AI-generated tests — evaluate coverage, find gaps, verify test correctness and adequacy | Medium stakes; verification by coverage analysis |
+| B8 | CS-212 | AI code critique — evaluate AI-generated code for correctness, security vulnerabilities, and bias | High stakes; verification by security and correctness analysis |
 
 ---
 
@@ -356,5 +356,5 @@ Students reflect on their own practice, identify growth areas, and plan improvem
 |-------|--------|------|-------------------|
 | B2 | CS-105 | Post-Code Archaeology debrief — what strategies worked and what would you do differently? | Individual, prompted, low stakes |
 | B4/B5 | CS-112/202 | Backward reflection with new tools — revisit an earlier decision and argue what you'd change now | Individual, cross-temporal, no prompts |
-| B6 | CS-205 | Responsibility retrospective — team reflection on ethical and professional practice | Team, structured, accountability dimension |
-| B8 | CS-208/209 | Blameless postmortem + employer-facing competency report — systemic failure analysis and curated growth narrative | Real consequences; public-facing artifact |
+| B6 | CS-206 | Responsibility retrospective — team reflection on ethical and professional practice | Team, structured, accountability dimension |
+| B8 | CS-210/209 | Blameless postmortem + employer-facing competency report — systemic failure analysis and curated growth narrative | Real consequences; public-facing artifact |

@@ -50,6 +50,7 @@ Competencies are program-level and developed across many blocks; this block is o
 - **APIs & Networked Systems** — Consume a basic, read-only API (pass 1).
 - **Professional Practices — documentation (lens)** — Docstrings/API docs as you build; document a bug fix (what was broken, why, what changed).
 - **Trustworthy Computing (lens)** — Data minimization in form fields: why are we asking for this?
+- **Algorithmic Thinking & Complexity** — Big-O and memory constraints seeded conceptually in CS-105: cost recognized while reading slow code, before formal notation (pass 1).
 - **AI-Assisted Development (bounded)** — AI as explainer continues, supporting Code Archaeology.
 
 ## Open questions for faculty review

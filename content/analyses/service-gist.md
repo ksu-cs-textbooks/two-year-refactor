@@ -74,11 +74,11 @@ The CC sequence is Python-based, online, and modular. It runs from a broad compu
 
 **Content:** Advanced trees, graphs (deep pass), heaps; graph searching, shortest path, Minimal Spanning Tree; requirements analysis; application to domain areas. Python, 3-credit course. Prerequisite: CC 310.
 
-**Maps to:** B4 — CS-110 (advanced tree structures, continued from B3). B7 — CS-206 Graphs & Network Algorithms (Dijkstra, A*, MST — named explicitly as optimization), CS-207 Document Databases & Data Integration (requirements analysis framing, domain application, multi-source integration).
+**Maps to:** B4 — CS-110 (advanced tree structures, continued from B3). B7 — CS-207 Graphs & Network Algorithms (Dijkstra, A*, MST — named explicitly as optimization), CS-208 Document Databases & Data Integration (requirements analysis framing, domain application, multi-source integration).
 
 **Fit:** Good for graph algorithms; strong for domain application framing. **One content gap: heaps.** Heaps are named explicitly in CC 315 but have no dedicated home in the new core. They may be appropriately embedded in CS-110 (as a tree variant) or CS-112 (as a data structure with Big-O implications) — but this is not explicit in current course designs and should be confirmed.
 
-**Timing difference:** CC 310 and CC 315 are taken sequentially in consecutive semesters. The new-core equivalent spans B3 (CS-109) through B7 (CS-206/207) — material distributed across both years of the two-year core rather than two back-to-back semesters. This is pedagogically intentional (spiral deepening, with graph content returning at increasing depth), but is a structural change the GIS department needs to understand and accept.
+**Timing difference:** CC 310 and CC 315 are taken sequentially in consecutive semesters. The new-core equivalent spans B3 (CS-109) through B7 (CS-207/207) — material distributed across both years of the two-year core rather than two back-to-back semesters. This is pedagogically intentional (spiral deepening, with graph content returning at increasing depth), but is a structural change the GIS department needs to understand and accept.
 
 ---
 
@@ -86,7 +86,7 @@ The CC sequence is Python-based, online, and modular. It runs from a broad compu
 
 **Content:** Software engineering methodologies, design patterns and architectures, computer security, advanced OOP (inheritance, polymorphism), **GUI programming**, **event-driven programming**, professional communication and collaboration, iterative milestone project that serves as a capstone for the CC program. 3-credit course. Prerequisite: CC 315.
 
-**Maps to:** B3 — CS-107 Software Modeling and Design + CS-108 Computational Abstractions (advanced OOP, design patterns, higher-order abstractions). B6 — CS-203 Software Testing & Validation (automated tests, unit and integration testing), CS-204 Security Fundamentals (threat identification, authentication, authorization), CS-205 Collaborative Development (collaborative Git, team project, professional communication). The iterative milestone project maps to the Team Software Project in CS-205.
+**Maps to:** B3 — CS-107 Software Modeling and Design + CS-108 Computational Abstractions (advanced OOP, design patterns, higher-order abstractions). B6 — CS-204 Software Testing & Validation (automated tests, unit and integration testing), CS-205 Security Fundamentals (threat identification, authentication, authorization), CS-206 Collaborative Development (collaborative Git, team project, professional communication). The iterative milestone project maps to the Team Software Project in CS-206.
 
 **Fit:** Strong, including the GUI and event-driven content. What CC 410 calls "GUI programming" and "event-driven programming" is addressed in the new core through a progressive web GUI trajectory rather than a single course:
 
@@ -106,7 +106,7 @@ The iterative milestone project structure in CC 410 (building a non-trivial soft
 
 **Content:** SQL language, NoSQL and its relation to SQL, DBMS design, programming with databases, database system architecture, database efficiency, practical applications. Uses MS SQL Server. Prerequisites: CC 315, CC 410 (concurrent or prior).
 
-**Maps to:** B5 — CS-201 SQL Fundamentals (SELECT/INSERT/UPDATE/DELETE/JOIN, query optimization seed, declarative model), CS-202 Database Design (schema design, normalization, integrity, security, transactions). B7 — CS-207 Document Databases & Data Integration (NoSQL data models, combining disparate sources).
+**Maps to:** B5 — CS-201 SQL Fundamentals (SELECT/INSERT/UPDATE/DELETE/JOIN, query optimization seed, declarative model), CS-202 Database Design (schema design, normalization, integrity, security, transactions). B7 — CS-208 Document Databases & Data Integration (NoSQL data models, combining disparate sources).
 
 **Fit:** Strong for SQL and NoSQL. The new core deliberately sequences SQL fundamentals before database design, which matches CC 520's internal progression. **One gap: DBMS internals and system architecture.** CC 520 explicitly covers database system architecture and efficiency; the new core's B5 teaches schema design and query optimization conceptually (index awareness, query plans) but does not reach storage engines, buffer management, or DBMS architecture at the same depth. Given the foundational posture of the new core, this gap is appropriate — a GIS spatial databases elective (PostGIS, spatial SQL) would be the natural next step.
 
@@ -129,9 +129,9 @@ The iterative milestone project structure in CC 410 (building a non-trivial soft
 | CC 110 Introduction to Computing | CS-101 + CS-103 (B1) | Adequate — breadth survey distributed across threads |
 | CC 210 Programming Fundamentals | CS-101 + CS-102 + CS-104 (B1) + CS-107 Software Modeling and Design + CS-108 Computational Abstractions (B3) | Strong — adds functional programming |
 | CC 310 Data Structures I | CS-109 (B3) + CS-110 + CS-112 (B4) | Excellent — same semester, Year 1 Spring |
-| CC 315 Data Structures II | CS-110 (B4) + CS-206 + CS-207 (B7) | Good — heaps gap; Year 2 timing |
-| CC 410 Advanced Programming | CS-107 Software Modeling and Design + CS-108 Computational Abstractions (B3) + CS-203 + CS-204 + CS-205 (B6) + web GUI trajectory B1→B2→B4 | Strong — web platform covers GUI/event-driven; desktop add-in tools may need supplement |
-| CC 520 Database Essentials | CS-201 + CS-202 (B5) + CS-207 (B7) | Strong — DBMS internals gap |
+| CC 315 Data Structures II | CS-110 (B4) + CS-207 + CS-208 (B7) | Good — heaps gap; Year 2 timing |
+| CC 410 Advanced Programming | CS-107 Software Modeling and Design + CS-108 Computational Abstractions (B3) + CS-204 + CS-205 + CS-206 (B6) + web GUI trajectory B1→B2→B4 | Strong — web platform covers GUI/event-driven; desktop add-in tools may need supplement |
+| CC 520 Database Essentials | CS-201 + CS-202 (B5) + CS-208 (B7) | Strong — DBMS internals gap |
 | Web fundamentals course | CS-106 (B2) | Direct (if general web; see note above) |
 
 ## What the new core adds beyond the CC
@@ -139,12 +139,12 @@ The iterative milestone project structure in CC 410 (building a non-trivial soft
 Several new-core additions are particularly well-suited to GIS students:
 
 - **Spatial data structures** — CS-110 explicitly names quadtrees, R-trees, and geohashing as applied trees/hashing, directly relevant to spatial indexing. This content is absent from the CC sequence.
-- **Geospatial graph algorithms** — CS-206 uses road-network routing (Dijkstra, A\* as geospatially-motivated heuristic search) and spatial joins/nearest-neighbor queries as primary motivators. GIS students will recognize these as core GIS operations.
+- **Geospatial graph algorithms** — CS-207 uses road-network routing (Dijkstra, A\* as geospatially-motivated heuristic search) and spatial joins/nearest-neighbor queries as primary motivators. GIS students will recognize these as core GIS operations.
 - **Web GUI trajectory** — HTML+CSS (B1) → event-loop/data-driven rendering (B2/CS-106) → component-based GUI architecture via web components (B4/CS-111) forms a complete GUI and event-driven programming pathway. The CC sequence addresses GUI with a single desktop-model course (CC 410); the new core distributes it across the web platform, which is increasingly where GIS tools live.
 - **Data visualization as a throughline** — SVG data visualization is embedded in CS-111 and carried through the Human-Centered Computing thread, directly supporting cartographic and geovisualization work. The CC sequence has no equivalent throughline.
 - **Statistics sequence (STAT-101–104)** — The embedded statistics sequence (descriptive statistics, probability, distributions, regression) provides the quantitative foundation GIS students need for spatial statistics; the CC sequence has no math/statistics component.
-- **Data analysis** — CS-210 (Data Analysis & Responsible AI) covers notebook-based data analysis and honest visualization, directly serving GIS's quantitative workflows.
-- **Security and data ethics** — GIS increasingly handles sensitive location data (tracking, surveillance, sensitive facility locations). CS-204 and the Trustworthy Computing thread address data minimization and privacy in a way the CC sequence does not.
+- **Data analysis** — CS-212 (Data Analysis & Responsible AI) covers notebook-based data analysis and honest visualization, directly serving GIS's quantitative workflows.
+- **Security and data ethics** — GIS increasingly handles sensitive location data (tracking, surveillance, sensitive facility locations). CS-205 and the Trustworthy Computing thread address data minimization and privacy in a way the CC sequence does not.
 - **Functional programming (CS-102)** — Not in the CC sequence; useful for GIS scripting where data pipelines and transformation chains are common.
 
 ## Credit comparison
@@ -156,7 +156,7 @@ Several new-core additions are particularly well-suited to GIS students:
 
 The GIS program would not take all 30 credits. A curated path covering the CC equivalent draws from:
 
-**Minimum slice:** B1 (CS-101–104) + CS-106 (B2) + B3 (CS-107–109) + CS-110 + CS-112 (B4) + CS-201 + CS-202 (B5) + CS-203 + CS-205 (B6) + CS-206 + CS-207 (B7) = **15 CS credits** plus relevant external courses.
+**Minimum slice:** B1 (CS-101–104) + CS-106 (B2) + B3 (CS-107–109) + CS-110 + CS-112 (B4) + CS-201 + CS-202 (B5) + CS-204 + CS-206 (B6) + CS-207 + CS-208 (B7) = **15 CS credits** plus relevant external courses.
 
 Whether the GIS program selects this slice, a fuller cut that includes B4 external (MATH-104 graph theory, which directly supports GIS graph work), or adds the statistics sequence, is a decision for the Geography department.
 

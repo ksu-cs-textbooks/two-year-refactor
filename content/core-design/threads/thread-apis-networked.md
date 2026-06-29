@@ -20,8 +20,8 @@ A clean four-pass escalation in what the student does with a networked boundary.
 |---|---|---|
 | B2 (Y1 Fall) | CS-106 Web Foundations | Consume a basic, read-only API. |
 | B4 (Y1 Spring) | CS-111 Systems & APIs | Build and consume your own API; system structure across a network boundary. |
-| B7 (Y2 Spring) | CS-207 Data Integration | Integrate multiple sources — combine, not just call. |
-| B8 (Y2 Spring) | CS-208 Deployment & Operations | Operate a live service in production. |
+| B7 (Y2 Spring) | CS-208 Data Integration | Integrate multiple sources — combine, not just call. |
+| B8 (Y2 Spring) | CS-210 Deployment & Operations | Operate a live service in production. |
 
 ## Connections
 

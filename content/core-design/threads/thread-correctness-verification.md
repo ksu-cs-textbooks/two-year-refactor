@@ -21,8 +21,8 @@ Sharpened to CODE-CORRECTNESS only. Acceptance/fitness testing moved to Human-Ce
 | B1 (Y1 Fall) | CS-101/102 (embedded) | Asserts/logs to explore code; informal pre/post-condition reasoning. |
 | B2 (Y1 Fall) | CS-105 Code Reading & Repair | Tests for regression — verify a change didn't break prior function. |
 | B3 (Y1 Spring) | CS-109 Abstract Data Types | Recursion correctness (termination, base cases); contracts as pre/post-conditions made into design. |
-| B6 (Y2 Fall) | CS-203 (correctness work) | Testing AND verification named and contrasted: "testing shows the presence of bugs; verification can show their absence." |
-| B8 (Y2 Spring) | CS-208 (harder cases) | Both applied to deployed systems (still code-correctness; fitness lives in Human-Centered Computing). |
+| B6 (Y2 Fall) | CS-204 (correctness work) | Testing AND verification named and contrasted: "testing shows the presence of bugs; verification can show their absence." |
+| B8 (Y2 Spring) | CS-210 (harder cases) | Both applied to deployed systems (still code-correctness; fitness lives in Human-Centered Computing). |
 
 ## Connections
 

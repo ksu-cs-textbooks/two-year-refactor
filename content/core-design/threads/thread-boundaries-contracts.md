@@ -21,9 +21,9 @@ Both a spiral and a META-thread: it names the common structure beneath ADTs, API
 | B3 (Y1 Spring) | CS-107 Software Modeling and Design / CS-109 Abstract Data Types (INTRODUCED) | Boundary = an interface within one program: ADT contracts, class encapsulation, function pre/post-conditions (names B1's informal verification reasoning). |
 | B4 (Y1 Spring) | CS-111 Systems & APIs | Boundary becomes a process/network boundary: an API contract (request → response), the other side unseen. |
 | B5 (Y2 Fall) | CS-202 Database Design | Boundary becomes a data/persistence boundary: schema as contract; transaction as all-or-nothing contract. |
-| B6 (Y2 Fall) | CS-203/204 | Contracts meet verification and trust: testing checks a contract is honored; a trust boundary is a contract about what each side may assume. |
-| B7 (Y2 Spring) | CS-206/207 Design Review | Defend the boundaries and contracts you designed. |
-| B8 (Y2 Spring) | CS-208 Deployment & Operations | Contracts over TIME: API/semantic versioning as a compatibility contract — closes the loop opened by semver in B1. |
+| B6 (Y2 Fall) | CS-204/204 | Contracts meet verification and trust: testing checks a contract is honored; a trust boundary is a contract about what each side may assume. |
+| B7 (Y2 Spring) | CS-207/207 Design Review | Defend the boundaries and contracts you designed. |
+| B8 (Y2 Spring) | CS-210 Deployment & Operations | Contracts over TIME: API/semantic versioning as a compatibility contract — closes the loop opened by semver in B1. |
 
 ## Connections
 

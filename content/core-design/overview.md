@@ -38,13 +38,13 @@ Year 1 (B1–B4) moves from reading computation to structuring it, and ends at a
 | B1 | CS-101 Imperative Programming; CS-102 Functional Programming; CS-103 Computational Representation | MATH-101 Discrete Math: Logic and Sets |
 | B2 | CS-104 Data Transformation & Manipulation; CS-105 Code Reading & Repair; CS-106 Web Foundations & Data-Driven Rendering | MATH-102 Discrete Math: Counting Finite Configurations |
 | B3 | CS-107 Software Modeling and Design; CS-108 Computational Abstractions; CS-109 Abstract Data Types | MATH-103 Discrete Math: Recursive and Modular Computation |
-| B4 | CS-110 Trees, Hashing & Hierarchies; CS-111 Systems & APIs; CS-112 Algorithmic Complexity | MATH-104 Discrete Math: Graphs, Trees, and Networks |
-| B5 | CS-201 SQL Fundamentals; CS-202 Database Design | STAT-101 Descriptive Statistics & Data Summarization |
-| B6 | CS-203 Software Testing & Validation; CS-204 Security Fundamentals; CS-205 Collaborative Development | STAT-102 Probability |
-| B7 | CS-206 Graphs & Network Algorithms; CS-207 Document Databases & Data Integration | STAT-103 Random Variables, Distributions & Sampling |
-| B8 | CS-208 Deployment & Operations; CS-209 Human-Centered Design & Validation; CS-210 Data Analysis & Responsible AI | STAT-104 Correlation & Regression |
+| B4 | CS-110 Trees, Hashing & Hierarchies; CS-111 Systems & APIs; CS-112 Algorithmic Design Patterns | MATH-104 Discrete Math: Graphs, Trees, and Networks |
+| B5 | CS-201 SQL Fundamentals; CS-202 Database Design; CS-203 Non-Relational Databases | STAT-101 Descriptive Statistics & Data Summarization |
+| B6 | CS-204 Software Testing & Validation; CS-205 Security Fundamentals; CS-206 Collaborative Development | STAT-102 Probability |
+| B7 | CS-207 Graphs & Network Algorithms; CS-208 Data Integration & Application-Database Interfaces; CS-209 OSI Networking Fundamentals | STAT-103 Random Variables, Distributions & Sampling |
+| B8 | CS-210 Deployment & Operations; CS-211 Human-Centered Design & Validation; CS-212 Data Analysis & Responsible AI | STAT-104 Correlation & Regression |
 
-**Totals:** 22 CS credits + 8 external (co-designed) credits = **30 credits currently allocated.** The original target was 26 (22 CS + 4 discrete math). The external sequence has since grown to eight — four discrete math plus a four-course statistics sequence for ML readiness — paced one per block (math B1–B4, statistics B5–B8). A ninth external (linear algebra) and a 2-credit OSI networking unit are agreed-in-principle but unplaced. **The credit budget is deliberately left soft** pending the cross-block optimization pass — see open questions.
+**Totals:** 24 CS credits + 8 external (co-designed) credits = **32 credits currently allocated.** The original target was 26 (22 CS + 4 discrete math). The external sequence has since grown to eight — four discrete math plus a four-course statistics sequence for ML readiness — paced one per block (math B1–B4, statistics B5–B8). A ninth external (linear algebra) remains agreed-in-principle but unplaced. **The credit budget is deliberately left soft** pending the cross-block optimization pass — see open questions.
 
 ## The thirteen threads
 
@@ -85,7 +85,7 @@ Threads are designed to meet at certain blocks, which is the sign they're integr
 Some courses are offered to other departments. The pattern: **we own a domain-neutral foundational unit; the partner department owns the domain-application course; together they form the visiting student's one-semester progression.**
 
 - **Relational Databases** (SQL Fundamentals + Database Design, B5) — a 2-credit foundation, followed by e.g. a business data-applications course.
-- **OSI Networking Fundamentals** (a 2-block theoretical unit, placement TBD) — followed by network administration (business), low-level implementation (computer engineering), etc.
+- **OSI Networking Fundamentals** (CS-209, B7, 1 credit) — followed by network administration (business), low-level implementation (computer engineering), etc. Physical and Data Link layers are conceptual-only; depth deferred to CompE. This bounds what we own: the shared theoretical trunk (layers 3–7 with full depth, layers 1–2 as orientation).
 
 This bounds our development cost (no domain-specific variants) and defines a good service-course candidate: domain-neutral, foundational, recognizable, prerequisite-light.
 
@@ -101,15 +101,14 @@ The two views cross-reference each other: a block file names the threads passing
 
 These are the decisions that don't belong to any single block or thread:
 
-1. **Credit budget.** Allocation now stands at 30 credits vs. an original 26 target, and agreed-in-principle additions (rest of the stats sequence, linear algebra, OSI networking) will push it higher. A cross-block optimization pass is needed to reconcile — grow the total, displace content, or move items outside the required core.
+1. **Credit budget.** Allocation now stands at 32 credits vs. an original 26 target. Linear algebra remains agreed-in-principle but unplaced; a cross-block optimization pass is needed to reconcile the total — grow it, displace content, or move items outside the required core.
 2. **Thread legibility.** Thirteen threads is a lot for a faculty member teaching one 1-credit course to hold. The threads interconnect (the convergence points above are evidence they're integrated, not fragmented), but the program needs a deliberate answer to "how does a course owner see which threads run through their course, and what each expects, without a decoder ring?" The block files are a first attempt; a per-course thread-tag scheme may be needed.
-3. **OSI Networking placement and credits** — conceptual host is B4 (network structure), but placement and its 2 credits are deferred.
-4. **Statistics sequence & ML prerequisites.** All four statistics courses are now placed (Descriptive @ B5, Probability @ B6, Distributions/Sampling @ B7, Regression @ B8). The AI degree also needs statistical inference, linear algebra, probability, data visualization, and optimization — data visualization lives in the Human-Centered Computing thread, optimization in the Optimization lens, probability ownership is below, and linear algebra is the unplaced ninth external (see #6).
-5. **Probability ownership** — the discrete-math draft already covers finite/counting-based probability; the stats sequence wants continuous probability. Likely split (discrete owns finite, stats owns continuous), but this is for the cross-department co-design meeting.
-6. **Linear algebra** — confirmed missing from the math sequence; placed as a 5th math course (placeholder) but flagged as likely needing a different approach (it is not discrete, and one 1-credit/8-week course is tight).
-7. **Assessment visibility for lenses** — Security, Documentation, and Optimization have no dedicated courses by design; confirm faculty can see/assess that each was actually exercised in its host courses.
-8. **Week-by-week load checks** — B1, B6, and CS-210 (B8) are the density risks; their frames are coherent but a mechanical schedule check is still owed.
-9. **Document reconciliation** — the earlier full architecture document and spiral map predate the block reframes and are now stale; they should be regenerated from the current source before external review.
+3. **Statistics sequence & ML prerequisites.** All four statistics courses are now placed (Descriptive @ B5, Probability @ B6, Distributions/Sampling @ B7, Regression @ B8). The AI degree also needs statistical inference, linear algebra, probability, data visualization, and optimization — data visualization lives in the Human-Centered Computing thread, optimization in the Optimization lens, probability ownership is below, and linear algebra is the unplaced ninth external (see #5).
+4. **Probability ownership** — the discrete-math draft already covers finite/counting-based probability; the stats sequence wants continuous probability. Likely split (discrete owns finite, stats owns continuous), but this is for the cross-department co-design meeting.
+5. **Linear algebra** — confirmed missing from the math sequence; placed as a 5th math course (placeholder) but flagged as likely needing a different approach (it is not discrete, and one 1-credit/8-week course is tight).
+6. **Assessment visibility for lenses** — Security, Documentation, and Optimization have no dedicated courses by design; confirm faculty can see/assess that each was actually exercised in its host courses.
+7. **Week-by-week load checks** — B1, B6, and CS-212 (B8) are the density risks; their frames are coherent but a mechanical schedule check is still owed.
+8. **Document reconciliation** — the earlier full architecture document and spiral map predate the block reframes and are now stale; they should be regenerated from the current source before external review.
 
 ## Status
 

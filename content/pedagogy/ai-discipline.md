@@ -67,7 +67,7 @@ By Block 8, AI use at the permitted scope involves asking AI to generate code an
 | B3 | Boundary analysis, contract reasoning | "I can articulate the ADT contract and check whether the AI's design satisfies it" |
 | B4 | Component API specification, behavioral tests | "I wrote a spec for the component interface and verified the AI's design satisfies it" |
 | B5 | SQL query testing, normalization reasoning | "I wrote queries that would expose the AI's schema design flaw, and found one" |
-| B6 | Security threat modeling, code review checklists | "I applied the threat model from CS-204 and identified a trust boundary violation the AI missed" |
+| B6 | Security threat modeling, code review checklists | "I applied the threat model from CS-205 and identified a trust boundary violation the AI missed" |
 | B7 | Multi-source data provenance reasoning | "I traced the data flow and found the AI's integration design would silently drop records with conflicting timestamps" |
 | B8 | Formal verification, fuzzing, penetration testing, static analysis | "I ran the static analyzer and found a use-after-free the AI's code introduced; I ran the fuzzer and found the edge case the AI's explanation didn't mention" |
 
@@ -88,7 +88,7 @@ The AI role is named explicitly at each block, tied to the block's cognitive fra
 | **B7 — Judge** | AI as architectural critic | Critique an integration design; student evaluates the critique by tracing the data flow and checking whether the AI's concern materializes in the actual design |
 | **B8 — Operate** | AI as code generator (terminal: high-stakes verification) | AI generates a code artifact; student verifies it independently for correctness and security using the full toolkit — tests, static analysis, formal reasoning, threat modeling |
 
-Block 8's CS-210 (Data Analysis & Responsible AI) is the terminal pass: verifying and critiquing AI-generated code for correctness and security is the course's central skill, and is named as a prerequisite for the Year 3–4 Agentic AI specialization.
+Block 8's CS-212 (Data Analysis & Responsible AI) is the terminal pass: verifying and critiquing AI-generated code for correctness and security is the course's central skill, and is named as a prerequisite for the Year 3–4 Agentic AI specialization.
 
 ## How discipline is maintained
 

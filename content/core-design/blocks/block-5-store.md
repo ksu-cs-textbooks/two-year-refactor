@@ -27,7 +27,8 @@ Computer science courses (2):
 | Code | Course | Cr | Focus |
 |---|---|---|---|
 | CS-201 | **SQL Fundamentals** | 1 | Opens with the persistence motivator (why files are not enough — durability, concurrent access, querying, integrity), then SELECT/INSERT/UPDATE/DELETE/JOIN. Query-optimization seed (indexes, query plans). SQL named explicitly as DECLARATIVE querying (state what data; the planner finds how) — the same declarative idea as HTML, now for data (Computational Models pass). First half of the Relational Databases service unit. |
-| CS-202 | **Database Design** | 1 | Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the service unit. Graph spiral: a brief touch of a graph database (Neo4j/Cypher) as another persistent store alongside relational — NEW embedded content, foreshadowing B7 document stores. |
+| CS-202 | **Database Design** | 1 | Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the Relational Databases service unit. |
+| CS-203 | **Non-Relational Databases** | 1 | The three major non-relational storage models as a complete landscape alongside the relational model from CS-201/202: document databases (JSON-document model, schema flexibility, MongoDB-style querying), key-value stores (conceptual; O(1) lookup, cache layers), and graph databases (Neo4j/Cypher; pattern-matching queries). Storage-model choice as a design decision — what does the data's natural shape suggest? Graph spiral: graph databases as the persist pass (model B3 → represent B4 → persist here → algorithms B7). Completes the full storage landscape for B7 integration work. |
 
 Co-designed external courses (1):
 
@@ -35,13 +36,13 @@ Co-designed external courses (1):
 |---|---|---|---|
 | STAT-101 | **Descriptive Statistics & Data Summarization** | 1 | (External/co-designed, stats dept. Describe data the student is now storing; feeds the data-visualization throughline. First of the statistics-for-ML sequence.) |
 
-**Block load:** 3 concurrent courses (2 CS + 1 external), 3 credits.
+**Block load:** 4 concurrent courses (3 CS + 1 external), 3 credits.
 
 ## Threads passing through this block
 
 Competencies are program-level and developed across many blocks; this block is one context in which they are demonstrated. The threads with a pass here:
 
-- **Data Structures & Representation** — Relational data as a formal, queryable model (pass 4).
+- **Data Structures & Representation** — Relational data as a formal, queryable model; non-relational models (document, key-value, graph) as the design-space alternatives — the full storage landscape (pass 4).
 - **Boundaries & Contracts** — Schema as a contract about data shape; transaction as an all-or-nothing contract (pass 3).
 - **Computational Models** — Concurrent data access, transactions, rollback — a third error-handling model (pass 4).
 - **Trustworthy Computing (lens)** — Data minimization in schema design; access control as a schema dimension (who can see what).

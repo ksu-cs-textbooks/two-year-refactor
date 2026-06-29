@@ -45,22 +45,22 @@ flowchart TB
   end
   subgraph B6["Block 6 - Build Responsibly"]
     direction LR
-    CS203["CS-203<br/>Software Testing<br/><b>blocks 2</b>"]
-    CS204["CS-204<br/>Security Fund."]
-    CS205["CS-205<br/>Collaborative Dev<br/><b>blocks 1</b>"]
+    CS203["CS-204<br/>Software Testing<br/><b>blocks 2</b>"]
+    CS204["CS-205<br/>Security Fund."]
+    CS205["CS-206<br/>Collaborative Dev<br/><b>blocks 1</b>"]
     STAT103["STAT-103<br/>Distributions/Sampling<br/><b>blocks 1</b>"]
   end
   subgraph B7["Block 7 - Judge"]
     direction LR
-    CS206["CS-206<br/>Graphs and Net Algorithms"]
-    CS207["CS-207<br/>Document DBs/Integration"]
+    CS206["CS-207<br/>Graphs and Net Algorithms"]
+    CS207["CS-208<br/>Document DBs/Integration"]
     MATH104["MATH-104<br/>Graphs/Trees/Networks"]
   end
   subgraph B8["Block 8 - Operate"]
     direction LR
-    CS208["CS-208<br/>Deployment and Ops"]
-    CS209["CS-209<br/>Human-Centered Design"]
-    CS210["CS-210<br/>Data Analysis/Resp AI"]
+    CS208["CS-210<br/>Deployment and Ops"]
+    CS209["CS-211<br/>Human-Centered Design"]
+    CS210["CS-212<br/>Data Analysis/Resp AI"]
     STAT104["STAT-104<br/>Correlation/Regression"]
   end
   CS101 ==> CS102
@@ -141,9 +141,9 @@ The decisive measure is **blast radius**: if a course is failed or skipped, how 
 | CS-107 OOP I | 11 |
 | CS-109 Abstract Data Types | 7 |
 
-These six are the **load-bearing walls**. Failing CS-101 in week 8 of the first block can, in principle, block two-thirds of the entire CS spine. By contrast, the **terminal courses carry zero downstream risk** — CS-105, CS-204, CS-206, CS-207, CS-208, CS-209, CS-210, MATH-104, and STAT-104 hard-block nothing, so they can be repeated or deferred without cascade.
+These six are the **load-bearing walls**. Failing CS-101 in week 8 of the first block can, in principle, block two-thirds of the entire CS spine. By contrast, the **terminal courses carry zero downstream risk** — CS-105, CS-205, CS-207, CS-208, CS-210, CS-211, CS-212, MATH-104, and STAT-104 hard-block nothing, so they can be repeated or deferred without cascade.
 
-The **mathematics and statistics chains are linear and self-contained**: each course blocks only its own successors plus, at the seams, the two CS courses with external-chain dependencies — CS-204 (needs MATH-103 for applied cryptography) and CS-210 (needs STAT-101 for data analysis). A broken math/stats chain delays those two CS courses but does not touch the rest of the CS spine.
+The **mathematics and statistics chains are linear and self-contained**: each course blocks only its own successors plus, at the seams, the two CS courses with external-chain dependencies — CS-205 (needs MATH-103 for applied cryptography) and CS-212 (needs STAT-101 for data analysis). A broken math/stats chain delays those two CS courses but does not touch the rest of the CS spine.
 
 
 ## The messy scenarios

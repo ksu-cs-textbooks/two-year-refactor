@@ -22,8 +22,8 @@ Each touch is woven into the host course — not separately credit-bearing. Touc
 |---|---|---|
 | B4 (Y1 Spring) | CS-112 Algorithmic Complexity | Seed: choosing among implementations of the same contract is optimization — optimize for which operation (lookup vs insertion vs memory)? |
 | B5 (Y2 Fall) | CS-201 SQL Fundamentals | Query optimization — indexes, query plans. Light. |
-| B7 (Y2 Spring) | CS-206/207 | Strongest organic point: shortest path and MST ARE optimization. Plus multi-objective tradeoff reasoning (integrate for speed vs completeness vs privacy). |
-| B8 (Y2 Spring) | CS-208 Deployment & Operations | Applied: performance optimization of a real deployed system against a real bottleneck. |
+| B7 (Y2 Spring) | CS-207/207 | Strongest organic point: shortest path and MST ARE optimization. Plus multi-objective tradeoff reasoning (integrate for speed vs completeness vs privacy). |
+| B8 (Y2 Spring) | CS-210 Deployment & Operations | Applied: performance optimization of a real deployed system against a real bottleneck. |
 
 ## Convergences with other threads
 

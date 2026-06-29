@@ -15,7 +15,7 @@ K-State's existing Cybersecurity degree already has the structure the specializa
 Cyber-bound students arrive having spiraled through:
 
 - **Trustworthy Computing** (lens, primary) — security, privacy, and ethics asked throughout, formalized in Block 6.
-- **Block 6 "Responsible Development"** — a dedicated security course (CS-204): authentication, authorization, threat modeling, applied cryptography (grounded in MATH-103 modular arithmetic), least privilege, least data collection.
+- **Block 6 "Responsible Development"** — a dedicated security course (CS-205): authentication, authorization, threat modeling, applied cryptography (grounded in MATH-103 modular arithmetic), least privilege, least data collection.
 - **Correctness & Verification** — secure, correct code.
 - **Boundaries & Contracts** — trust boundaries as contracts about what each side may assume.
 - **Computational Models** — errors as attack surface.

@@ -110,7 +110,7 @@ Also: examine the Rhizome data collection service architecture — how does the 
 
 ### B7 — Judge (integrate and defend)
 
-**What students do:** Graph algorithms (CS-206) applied to the Rhizome sensor network topology. Model the sensor network as a weighted graph where edges are communication paths between sensor nodes; apply shortest-path algorithms to determine optimal data routing when a node fails. Multi-objective tradeoff reasoning (CS-207): defend a sensor sampling strategy that balances data resolution (sample every second) against bandwidth cost, battery life, and storage volume — the first block where there is no single right answer.
+**What students do:** Graph algorithms (CS-207) applied to the Rhizome sensor network topology. Model the sensor network as a weighted graph where edges are communication paths between sensor nodes; apply shortest-path algorithms to determine optimal data routing when a node fails. Multi-objective tradeoff reasoning (CS-208): defend a sensor sampling strategy that balances data resolution (sample every second) against bandwidth cost, battery life, and storage volume — the first block where there is no single right answer.
 
 **Design Review:** Design and defend a new Rhizome data integration — e.g., incorporating publicly available satellite NDVI imagery from USGS or NASA to compare with classroom NDVI sensor readings. Defend the data provenance, the schema design, the update cadence, and the tradeoffs in coverage vs. resolution.
 
@@ -122,7 +122,7 @@ Also: examine the Rhizome data collection service architecture — how does the 
 
 **What students do:** Deploy the Rhizome data collection service and monitor it in production. Set up alerting for sensor gaps (a sensor that stops reporting) and data quality anomalies (NDVI readings outside physiologically plausible range). 
 
-**Beocat HPC assignment (CS-210 / Data Analysis & Responsible AI context):** Download several years of Kansas Mesonet data and run a large-scale statistical analysis that cannot complete in reasonable time on a single machine — e.g., correlating multi-year soil moisture trends across all Mesonet stations with crop yield data from USDA. Submit a SLURM job, monitor its queue position, interpret the output, and compare the result to the classroom sensor data. This is the program's primary encounter with high-performance computing — students who have spent two years with sensor APIs and SQL now encounter data at a scale where different tools are required.
+**Beocat HPC assignment (CS-212 / Data Analysis & Responsible AI context):** Download several years of Kansas Mesonet data and run a large-scale statistical analysis that cannot complete in reasonable time on a single machine — e.g., correlating multi-year soil moisture trends across all Mesonet stations with crop yield data from USDA. Submit a SLURM job, monitor its queue position, interpret the output, and compare the result to the classroom sensor data. This is the program's primary encounter with high-performance computing — students who have spent two years with sensor APIs and SQL now encounter data at a scale where different tools are required.
 
 **Why this block:** B8's cognitive frame is "Operate." Rhizome is always-on infrastructure — sensors do not stop generating data during finals week. Monitoring, fault tolerance, and recovery are not theoretical.
 

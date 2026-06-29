@@ -76,7 +76,7 @@ ABET requires **≥45 SCH of data science coursework** covering lifecycle topics
 | Data acquisition & representativeness | CIS 531 (acquisition/integration); core; sampling in the core stats | Partial — name *representativeness/sampling bias* explicitly |
 | Data management | CIS 560; core B5 | Covered |
 | Data preparation & integration | CIS 531, CIS 533 (wrangling/feature engineering) | Covered |
-| Data analysis | CIS 533; STAT 705/766; core CS-210 | Covered |
+| Data analysis | CIS 533; STAT 705/766; core CS-212 | Covered |
 | Model development & deployment | STAT 766 / CIS 532 (models); deployment via core B8 | Covered |
 | Visualization & communication | **STAT 745** + core Human-Centered visualization throughline | Covered |
 

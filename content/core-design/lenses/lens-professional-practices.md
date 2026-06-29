@@ -24,9 +24,9 @@ Each touch is woven into the host course — not separately credit-bearing. Touc
 | B2 (Y1 Fall) | CS-104/105 | Documentation: docstrings/API conventions; bug-fix docs. Version control: commit/revert as a safety net. Code review groundwork: reading others' code. |
 | B3 (Y1 Spring) | CS-109 | Documentation-as-justification: why this structure not that one (a new register). |
 | B5 (Y2 Fall) | CS-202 | Documentation: schema-decision docs (ties to data minimization). Version control: solo feature branching. |
-| B6 (Y2 Fall) | CS-205 Collaborative Development | Version control: collaborative git mechanics (PRs, conflicts) — the seam with Sociotechnical (team coordination). Documentation: team-facing register. Code style: shared conventions/linting as a team contract. Code review as interpersonal skill (give/receive feedback). Self-reflection: the responsibility retrospective (self portion). Estimation/scoping seeded with the Team Software Project. |
-| B7 (Y2 Spring) | CS-206/207 Design Review | Professional communication: present and defend to an audience. |
-| B8 (Y2 Spring) | CS-208/CS-209/Integration Project | Documentation: operational runbooks (a new register — for a future on-call person). Estimation practiced in the Integration Project. Continued learning named explicitly: "you now know how to learn the next thing" (transition to specialization). |
+| B6 (Y2 Fall) | CS-206 Collaborative Development | Version control: collaborative git mechanics (PRs, conflicts) — the seam with Sociotechnical (team coordination). Documentation: team-facing register. Code style: shared conventions/linting as a team contract. Code review as interpersonal skill (give/receive feedback). Self-reflection: the responsibility retrospective (self portion). Estimation/scoping seeded with the Team Software Project. |
+| B7 (Y2 Spring) | CS-207/207 Design Review | Professional communication: present and defend to an audience. |
+| B8 (Y2 Spring) | CS-210/CS-211/Integration Project | Documentation: operational runbooks (a new register — for a future on-call person). Estimation practiced in the Integration Project. Continued learning named explicitly: "you now know how to learn the next thing" (transition to specialization). |
 
 ## Convergences with other threads
 
