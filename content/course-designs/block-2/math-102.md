@@ -12,6 +12,10 @@ ordinal = "4.2.4"
 
 (External/co-designed. Counting precedes Algorithmic Complexity in B4.)
 
+## Competency Assessments
+
+MATH-102 contributes evidence for Apply Formal Reasoning (combinatorial reasoning — formal counting as precursor to algorithmic analysis) through LTI integration. This course falls between the B1 and B3 Formal Analysis passes in the recurring assessment documentation; evidence enters the Crystalis record as Tier 1 automated evidence via the LTI connection to the mathematics department.
+
 ### To develop
 
 - Learning outcomes / competencies evidenced

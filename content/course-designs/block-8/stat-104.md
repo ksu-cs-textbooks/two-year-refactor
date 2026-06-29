@@ -12,6 +12,14 @@ ordinal = "4.8.4"
 
 (External/co-designed, stats dept. Linear regression as the direct on-ramp to machine learning; capstone of the statistics sequence.)
 
+## Competency Assessments
+
+Evidence from STAT-104 enters the Crystalis record via LTI integration.
+
+| Assessment type | This pass | Competencies evidenced |
+|---|---|---|
+| Data Investigation | Correlation and regression — investigate relationships between variables; causal vs. correlational reasoning | Investigate Questions with Data |
+
 ### To develop
 
 - Learning outcomes / competencies evidenced

@@ -12,6 +12,14 @@ ordinal = "4.3.4"
 
 (External/co-designed. Recursion arrives as ADTs/trees need it; modular arithmetic seeds B6 cryptography.)
 
+## Competency Assessments
+
+Evidence from MATH-103 enters the Crystalis record via LTI integration.
+
+| Assessment type | This pass | Competencies evidenced |
+|---|---|---|
+| Formal Analysis | Pre/post-condition specification; recursive correctness argument (paired with CS-109) | Apply Formal Reasoning |
+
 ### To develop
 
 - Learning outcomes / competencies evidenced

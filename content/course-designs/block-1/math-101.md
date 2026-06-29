@@ -12,6 +12,14 @@ ordinal = "4.1.4"
 
 (External/co-designed. Pairs with Boolean logic/representation in CS-103.)
 
+## Competency Assessments
+
+Evidence from MATH-101 enters the Crystalis record via LTI integration.
+
+| Assessment type | This pass | Competencies evidenced |
+|---|---|---|
+| Formal Analysis | Truth tables, predicate logic exercises, set proofs (paired with CS-103) | Apply Formal Reasoning |
+
 ### To develop
 
 - Learning outcomes / competencies evidenced

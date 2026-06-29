@@ -12,6 +12,14 @@ ordinal = "4.4.4"
 
 (External/co-designed. Concurrent with CS-110's first graph pass — provides formal graph theory (graphs, trees, networks) as students begin representing and traversing graphs in B4.)
 
+## Competency Assessments
+
+Evidence from MATH-104 enters the Crystalis record via LTI integration.
+
+| Assessment type | This pass | Competencies evidenced |
+|---|---|---|
+| Formal Analysis | Big-O analysis of sorting/searching algorithms; formal graph properties (paired with CS-112) | Apply Formal Reasoning |
+
 ### To develop
 
 - Learning outcomes / competencies evidenced
