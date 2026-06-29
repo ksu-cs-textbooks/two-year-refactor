@@ -25,13 +25,13 @@ Character The strongest spiral in the design. Each pass is a real generalization
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Core Design">
-    <meta property="article:modified_time" content="2026-06-22T15:18:16-05:00">
+    <meta property="article:modified_time" content="2026-06-29T13:35:56-05:00">
     <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
     <meta itemprop="name" content="Data Structures & Representation :: CS Two Year Refactor">
     <meta itemprop="description" content="Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).
 In one line: From the most primitive representation to the most general, each pass a genuine generalization — with graphs spiraling as a strand within.
 Character The strongest spiral in the design. Each pass is a real generalization, not a harder repeat. After B3 it is taught contract-first (ADT interface before implementation), which lets B4 ask ‘how do we choose among implementations of the same contract?’ Graphs are a deliberate sub-spiral inside this thread (B3 model → B4 represent&#43;theory → B5 persist → B7 algorithms) rather than a single terminal pass. Geospatial data rides the thread as an applied representation sub-theme (B3 vector/raster representation → B4 spatial indexing via trees/hashing), which also deepens the GIS service relationship.">
-    <meta itemprop="dateModified" content="2026-06-22T15:18:16-05:00">
+    <meta itemprop="dateModified" content="2026-06-29T13:35:56-05:00">
     <meta itemprop="wordCount" content="417">
     <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
     <title>Data Structures &amp; Representation :: CS Two Year Refactor</title>
@@ -39,26 +39,26 @@ Character The strongest spiral in the design. Each pass is a real generalization
     <link href="/two-year-refactor/core-design/threads/thread-data-structures/index.xml" rel="alternate" type="application/rss+xml" title="Data Structures &amp; Representation :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/threads/thread-data-structures/index.print.html" rel="alternate" type="text/html" title="Data Structures &amp; Representation :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/threads/thread-data-structures/tele.html" rel="alternate" type="text/html" title="Data Structures &amp; Representation :: CS Two Year Refactor">
-    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782333268" rel="stylesheet">
-    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/search-lunr.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/search.min.js?1782333268" defer></script>
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782758196" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1782758196" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782333268";
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782758196";
     </script>
-    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782333268" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782758196" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782333268" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782333268" rel="stylesheet"></noscript>
-    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782333268" rel="stylesheet">
-    <link href="/two-year-refactor/css/theme.min.css?1782333268" rel="stylesheet">
-    <link href="/two-year-refactor/css/format-html.min.css?1782333268" rel="stylesheet" id="R-format-style">
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782758196" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782758196" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782758196" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1782758196" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-html.min.css?1782758196" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -117,7 +117,7 @@ Character The strongest spiral in the design. Each pass is a real generalization
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/two-year-refactor/css/custom.css?1782333268" rel="stylesheet">
+    <link href="/two-year-refactor/css/custom.css?1782758196" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/two-year-refactor/core-design/threads/thread-data-structures/index.html">
     <div id="R-body" class="default-animation">
@@ -172,7 +172,7 @@ Character The strongest spiral in the design. Each pass is a real generalization
       </tr>
       <tr>
           <td>B7 (Y2 Spring)</td>
-          <td>CS-206/207</td>
+          <td>CS-207/207</td>
           <td>Graph sub-spiral capstone: graph algorithms, landing on several blocks of prior graph use. Document/NoSQL: representation when the relational model doesn&rsquo;t fit — closes the loop.</td>
       </tr>
   </tbody>
@@ -198,9 +198,9 @@ Character The strongest spiral in the design. Each pass is a real generalization
       
       
     </div>
-    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/theme.min.js?1782333268" defer></script>
-  <script src="/two-year-refactor/js/embed-iframe.min.js?1782333268" defer></script>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1782758196" defer></script>
+  <script src="/two-year-refactor/js/embed-iframe.min.js?1782758196" defer></script>
   </body>
 </html>

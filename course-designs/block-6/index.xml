@@ -8,25 +8,25 @@
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CS-203 Software Testing &amp; Validation</title>
-      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/cs-203/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/cs-203/index.html</guid>
-      <description>CS-203 — Software Testing &amp; Validation 1 credit&#xA;Working description Automated tests, unit and integration testing.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
-    </item>
-    <item>
-      <title>CS-204 Security Fundamentals</title>
+      <title>CS-204 Software Testing &amp; Validation</title>
       <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/cs-204/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/cs-204/index.html</guid>
-      <description>CS-204 — Security Fundamentals 1 credit&#xA;Working description Threat identification, authentication, authorization. Modular arithmetic from Block 5 grounds an applied cryptography unit. Principle of least privilege extended explicitly to principle of least data collection.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+      <description>CS-204 — Software Testing &amp; Validation 1 credit&#xA;Working description Automated tests, unit and integration testing.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
     </item>
     <item>
-      <title>CS-205 Collaborative Development</title>
+      <title>CS-205 Security Fundamentals</title>
       <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/cs-205/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/cs-205/index.html</guid>
-      <description>CS-205 — Collaborative Development 1 credit&#xA;Working description Collaborative Git (branches, PRs, code review, conflict resolution); team practices. Conway’s Law enacted — the team is now an organization, and how it divides work shapes what it builds. Signature assessment: Team Software Project begins, carrying a responsibility retrospective (correctness, safety, teamwork).&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+      <description>CS-205 — Security Fundamentals 1 credit&#xA;Working description Threat identification, authentication, authorization. Modular arithmetic from Block 5 grounds an applied cryptography unit. Principle of least privilege extended explicitly to principle of least data collection.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    </item>
+    <item>
+      <title>CS-206 Collaborative Development</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/cs-206/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-6/cs-206/index.html</guid>
+      <description>CS-206 — Collaborative Development 1 credit&#xA;Working description Collaborative Git (branches, PRs, code review, conflict resolution); team practices. Conway’s Law enacted — the team is now an organization, and how it divides work shapes what it builds. Signature assessment: Team Software Project begins, carrying a responsibility retrospective (correctness, safety, teamwork).&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
     </item>
     <item>
       <title>STAT-102 Probability</title>

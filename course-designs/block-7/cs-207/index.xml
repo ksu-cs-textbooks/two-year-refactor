@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CS-207 Document Databases &amp; Data Integration :: CS Two Year Refactor</title>
+    <title>CS-207 Graphs &amp; Network Algorithms :: CS Two Year Refactor</title>
     <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-7/cs-207/index.html</link>
-    <description>CS-207 — Document Databases &amp; Data Integration 1 credit&#xA;Working description NoSQL data models (data that resists clean relational structure); combining disparate sources. Re-identification risk from combined datasets (Security pass). Multi-objective tradeoff reasoning — integrating for speed vs completeness vs privacy — defended in Design Review.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    <description>CS-207 — Graphs &amp; Network Algorithms 1 credit&#xA;Working description Graph traversal, shortest path, minimum spanning trees — named explicitly as optimization (best path/structure under a metric). Graphs as the most general representation (terminal Data Structures pass). Geospatial algorithms: routing/shortest-path on road networks (weighted graphs; Dijkstra, A* as geospatially-motivated heuristic search); spatial joins and range/nearest-neighbor queries using B4 spatial indexes. Signature assessment: Design Review begins here. Computational Models pass: a brief see-and-explore example of a LOGIC/CONSTRAINT model (a few Prolog-style facts/rules + a query, or a small constraint problem a solver resolves) — connects to MATH-101 predicate logic, SQL’s logical character, and the Optimization lens.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-7/cs-207/index.xml" rel="self" type="application/rss+xml" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AP Cybersecurity Alignment Analysis :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/ap-cybersecurity/index.html</link>
+    <description>Working draft for faculty review. Maps the College Board AP Cybersecurity curriculum (Course and Exam Description, 2026–27) against the two-year core to answer two questions: (1) where does a student who earned AP Cybersecurity credit already have foundation, and (2) where does the core not deliver what the AP course develops? The binding use case is the Cybersecurity specialization: this analysis identifies the pre-college foundation the specialization can build on and the gaps it must address.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/analyses/ap-cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

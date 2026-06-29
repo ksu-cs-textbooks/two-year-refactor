@@ -28,41 +28,41 @@ Purpose Cognitive frame: INFORMATION AT REST: shared, persistent, queryable stru
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Core Design">
-    <meta property="article:modified_time" content="2026-06-22T15:18:16-05:00">
+    <meta property="article:modified_time" content="2026-06-29T13:35:56-05:00">
     <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
     <meta itemprop="name" content="Block 5 — Store :: CS Two Year Refactor">
     <meta itemprop="description" content="Year 2, Fall · Weeks 1–8 · 8-week block · 3 credits
 Working draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.
 Two-year arc: Read (B1) → Modify (B2) → Model (B3) → Structure (B4) → ➤ Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)
 Purpose Cognitive frame: INFORMATION AT REST: shared, persistent, queryable structure — the Year-2 escalation from Year 1’s data-in-motion.">
-    <meta itemprop="dateModified" content="2026-06-22T15:18:16-05:00">
-    <meta itemprop="wordCount" content="693">
+    <meta itemprop="dateModified" content="2026-06-29T13:35:56-05:00">
+    <meta itemprop="wordCount" content="768">
     <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
     <title>Block 5 — Store :: CS Two Year Refactor</title>
     <link href="https://textbooks.cs.ksu.edu/two-year-refactor/core-design/blocks/block-5-store/index.html" rel="canonical" type="text/html" title="Block 5 — Store :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/blocks/block-5-store/index.xml" rel="alternate" type="application/rss+xml" title="Block 5 — Store :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/blocks/block-5-store/index.print.html" rel="alternate" type="text/html" title="Block 5 — Store :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/blocks/block-5-store/embed.html" rel="alternate" type="text/html" title="Block 5 — Store :: CS Two Year Refactor">
-    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782333268" rel="stylesheet">
-    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/search-lunr.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/search.min.js?1782333268" defer></script>
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782758196" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1782758196" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782333268";
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782758196";
     </script>
-    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782333268" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782758196" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782333268" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782333268" rel="stylesheet"></noscript>
-    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782333268" rel="stylesheet">
-    <link href="/two-year-refactor/css/theme.min.css?1782333268" rel="stylesheet">
-    <link href="/two-year-refactor/css/format-html.min.css?1782333268" rel="stylesheet" id="R-format-style">
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782758196" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782758196" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782758196" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1782758196" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-html.min.css?1782758196" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -121,7 +121,7 @@ Purpose Cognitive frame: INFORMATION AT REST: shared, persistent, queryable stru
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/two-year-refactor/css/custom.css?1782333268" rel="stylesheet">
+    <link href="/two-year-refactor/css/custom.css?1782758196" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/two-year-refactor/core-design/blocks/block-5-store/index.html">
     
@@ -172,7 +172,13 @@ Purpose Cognitive frame: INFORMATION AT REST: shared, persistent, queryable stru
           <td>CS-202</td>
           <td><strong>Database Design</strong></td>
           <td>1</td>
-          <td>Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the service unit. Graph spiral: a brief touch of a graph database (Neo4j/Cypher) as another persistent store alongside relational — NEW embedded content, foreshadowing B7 document stores.</td>
+          <td>Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the Relational Databases service unit.</td>
+      </tr>
+      <tr>
+          <td>CS-203</td>
+          <td><strong>Non-Relational Databases</strong></td>
+          <td>1</td>
+          <td>The three major non-relational storage models as a complete landscape alongside the relational model from CS-201/202: document databases (JSON-document model, schema flexibility, MongoDB-style querying), key-value stores (conceptual; O(1) lookup, cache layers), and graph databases (Neo4j/Cypher; pattern-matching queries). Storage-model choice as a design decision — what does the data&rsquo;s natural shape suggest? Graph spiral: graph databases as the persist pass (model B3 → represent B4 → persist here → algorithms B7). Completes the full storage landscape for B7 integration work.</td>
       </tr>
   </tbody>
 </table>
@@ -195,11 +201,11 @@ Purpose Cognitive frame: INFORMATION AT REST: shared, persistent, queryable stru
       </tr>
   </tbody>
 </table>
-<p><strong>Block load:</strong> 3 concurrent courses (2 CS + 1 external), 3 credits.</p>
+<p><strong>Block load:</strong> 4 concurrent courses (3 CS + 1 external), 3 credits.</p>
 <h2 id="threads-passing-through-this-block">Threads passing through this block</h2>
 <p>Competencies are program-level and developed across many blocks; this block is one context in which they are demonstrated. The threads with a pass here:</p>
 <ul>
-<li><strong>Data Structures &amp; Representation</strong> — Relational data as a formal, queryable model (pass 4).</li>
+<li><strong>Data Structures &amp; Representation</strong> — Relational data as a formal, queryable model; non-relational models (document, key-value, graph) as the design-space alternatives — the full storage landscape (pass 4).</li>
 <li><strong>Boundaries &amp; Contracts</strong> — Schema as a contract about data shape; transaction as an all-or-nothing contract (pass 3).</li>
 <li><strong>Computational Models</strong> — Concurrent data access, transactions, rollback — a third error-handling model (pass 4).</li>
 <li><strong>Trustworthy Computing (lens)</strong> — Data minimization in schema design; access control as a schema dimension (who can see what).</li>
@@ -228,13 +234,13 @@ Purpose Cognitive frame: INFORMATION AT REST: shared, persistent, queryable stru
       
       
     </div>
-    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/theme.min.js?1782333268" defer></script>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1782758196" defer></script>
       
       
       
     </div> 
-  <script src="/two-year-refactor/js/tele-scroll.min.js?1782333268" defer></script>
+  <script src="/two-year-refactor/js/tele-scroll.min.js?1782758196" defer></script>
   </body>
 </html>

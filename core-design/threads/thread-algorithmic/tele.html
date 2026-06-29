@@ -7,58 +7,58 @@
     <meta name="generator" content="Hugo 0.148.1">
     <meta name="generator" content="Relearn 8.0.0">
     <meta name="description" content="Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).
-In one line: From Big-O as theory, to graph optimization, to a real bottleneck under load.
+In one line: From Big-O as a diagnosis tool, to structural cost, to design patterns, to graph optimization, to a real bottleneck under load.
 Character Its first pass moved from B3 to B4 so it can answer the question B3’s contract-first ADTs raise: how do you choose among implementations of the same contract? Closely shadowed by the Optimization Reasoning lens. Geospatial algorithms ride the graph pass at B7 (road-network routing is graph shortest-path). The B8 pass surfaces a key limit: systems reality (memory hierarchy, paging/thrashing) can invert asymptotic predictions — Big-O is necessary but not sufficient.">
     <meta name="author" content="Russell Feldhausen">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
     <meta name="twitter:title" content="Algorithmic Thinking & Complexity :: CS Two Year Refactor">
     <meta name="twitter:description" content="Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).
-In one line: From Big-O as theory, to graph optimization, to a real bottleneck under load.
+In one line: From Big-O as a diagnosis tool, to structural cost, to design patterns, to graph optimization, to a real bottleneck under load.
 Character Its first pass moved from B3 to B4 so it can answer the question B3’s contract-first ADTs raise: how do you choose among implementations of the same contract? Closely shadowed by the Optimization Reasoning lens. Geospatial algorithms ride the graph pass at B7 (road-network routing is graph shortest-path). The B8 pass surfaces a key limit: systems reality (memory hierarchy, paging/thrashing) can invert asymptotic predictions — Big-O is necessary but not sufficient.">
     <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/core-design/threads/thread-algorithmic/index.html">
     <meta property="og:site_name" content="CS Two Year Refactor">
     <meta property="og:title" content="Algorithmic Thinking & Complexity :: CS Two Year Refactor">
     <meta property="og:description" content="Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).
-In one line: From Big-O as theory, to graph optimization, to a real bottleneck under load.
+In one line: From Big-O as a diagnosis tool, to structural cost, to design patterns, to graph optimization, to a real bottleneck under load.
 Character Its first pass moved from B3 to B4 so it can answer the question B3’s contract-first ADTs raise: how do you choose among implementations of the same contract? Closely shadowed by the Optimization Reasoning lens. Geospatial algorithms ride the graph pass at B7 (road-network routing is graph shortest-path). The B8 pass surfaces a key limit: systems reality (memory hierarchy, paging/thrashing) can invert asymptotic predictions — Big-O is necessary but not sufficient.">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Core Design">
-    <meta property="article:modified_time" content="2026-06-22T11:47:21-05:00">
+    <meta property="article:modified_time" content="2026-06-29T13:35:56-05:00">
     <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
     <meta itemprop="name" content="Algorithmic Thinking & Complexity :: CS Two Year Refactor">
     <meta itemprop="description" content="Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).
-In one line: From Big-O as theory, to graph optimization, to a real bottleneck under load.
+In one line: From Big-O as a diagnosis tool, to structural cost, to design patterns, to graph optimization, to a real bottleneck under load.
 Character Its first pass moved from B3 to B4 so it can answer the question B3’s contract-first ADTs raise: how do you choose among implementations of the same contract? Closely shadowed by the Optimization Reasoning lens. Geospatial algorithms ride the graph pass at B7 (road-network routing is graph shortest-path). The B8 pass surfaces a key limit: systems reality (memory hierarchy, paging/thrashing) can invert asymptotic predictions — Big-O is necessary but not sufficient.">
-    <meta itemprop="dateModified" content="2026-06-22T11:47:21-05:00">
-    <meta itemprop="wordCount" content="298">
+    <meta itemprop="dateModified" content="2026-06-29T13:35:56-05:00">
+    <meta itemprop="wordCount" content="477">
     <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
     <title>Algorithmic Thinking &amp; Complexity :: CS Two Year Refactor</title>
     <link href="https://textbooks.cs.ksu.edu/two-year-refactor/core-design/threads/thread-algorithmic/index.html" rel="canonical" type="text/html" title="Algorithmic Thinking &amp; Complexity :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/threads/thread-algorithmic/index.xml" rel="alternate" type="application/rss+xml" title="Algorithmic Thinking &amp; Complexity :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/threads/thread-algorithmic/index.print.html" rel="alternate" type="text/html" title="Algorithmic Thinking &amp; Complexity :: CS Two Year Refactor">
     <link href="/two-year-refactor/core-design/threads/thread-algorithmic/embed.html" rel="alternate" type="text/html" title="Algorithmic Thinking &amp; Complexity :: CS Two Year Refactor">
-    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782333268" rel="stylesheet">
-    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/search-lunr.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/search.min.js?1782333268" defer></script>
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1782758196" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1782758196" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782333268";
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1782758196";
     </script>
-    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782333268" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1782758196" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782333268" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782333268" rel="stylesheet"></noscript>
-    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782333268" rel="stylesheet">
-    <link href="/two-year-refactor/css/theme.min.css?1782333268" rel="stylesheet">
-    <link href="/two-year-refactor/css/format-html.min.css?1782333268" rel="stylesheet" id="R-format-style">
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782758196" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1782758196" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1782758196" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1782758196" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-html.min.css?1782758196" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -117,7 +117,7 @@ Character Its first pass moved from B3 to B4 so it can answer the question B3’
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/two-year-refactor/css/custom.css?1782333268" rel="stylesheet">
+    <link href="/two-year-refactor/css/custom.css?1782758196" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/two-year-refactor/core-design/threads/thread-algorithmic/index.html">
     
@@ -139,7 +139,7 @@ Character Its first pass moved from B3 to B4 so it can answer the question B3’
 
 <blockquote>
 <p><em>Working draft for faculty review. A <strong>spiral</strong> deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).</em></p></blockquote>
-<p><strong>In one line:</strong> From Big-O as theory, to graph optimization, to a real bottleneck under load.</p>
+<p><strong>In one line:</strong> From Big-O as a diagnosis tool, to structural cost, to design patterns, to graph optimization, to a real bottleneck under load.</p>
 <hr>
 <h2 id="character">Character</h2>
 <p>Its first pass moved from B3 to B4 so it can answer the question B3&rsquo;s contract-first ADTs raise: how do you choose among implementations of the same contract? Closely shadowed by the Optimization Reasoning lens. Geospatial algorithms ride the graph pass at B7 (road-network routing is graph shortest-path). The B8 pass surfaces a key limit: systems reality (memory hierarchy, paging/thrashing) can invert asymptotic predictions — Big-O is necessary but not sufficient.</p>
@@ -154,18 +154,33 @@ Character Its first pass moved from B3 to B4 so it can answer the question B3’
   </thead>
   <tbody>
       <tr>
+          <td>B2 (Y1 Fall)</td>
+          <td>CS-105 Code Reading &amp; Repair</td>
+          <td>Big-O introduced <strong>conceptually</strong> as a diagnosis tool: &ldquo;how does cost grow with input size?&rdquo; — recognized while reading and repairing slow code (nested loops, repeated scans). Memory architecture introduced conceptually: stack vs heap, structural choices carry memory cost. No formal notation at this pass.</td>
+      </tr>
+      <tr>
           <td>B4 (Y1 Spring)</td>
-          <td>CS-112 Algorithmic Complexity</td>
-          <td>Big-O, sorting/searching as the cost of structural choices; choosing among contract-satisfying implementations. Pairs loosely with MATH-102 counting (B2).</td>
+          <td>CS-110 Trees, Hashing &amp; Hierarchies</td>
+          <td>Big-O <strong>formalized</strong> as the cost of structural choices: O(log n) tree operations vs O(n) unsorted scan; O(1) amortized hash table access — choosing among ADT contract-satisfying implementations (handoff from B3). Sorting/searching as canonical examples. Memory layout: tree nodes vs contiguous arrays at conceptual level; full cache mechanics deferred to B8.</td>
+      </tr>
+      <tr>
+          <td>B4 (Y1 Spring)</td>
+          <td>CS-112 Algorithmic Design Patterns</td>
+          <td><strong>Design</strong> strategies, not just measurement. Divide and conquer (mergesort, binary search; recurrence relations as analysis tool — builds on MATH-103 B3 recursion). Greedy algorithms (when local optima compose — Dijkstra previewed). Introduction to dynamic programming (memoization as the insight). Vocabulary CS-207 assumes.</td>
+      </tr>
+      <tr>
+          <td>B5 (Y2 Fall)</td>
+          <td>CS-201 SQL Fundamentals</td>
+          <td>Applied to query optimization — indexes, query plans, the cost of a full-table scan vs an indexed lookup. The query planner does the complexity reasoning; students read it.</td>
       </tr>
       <tr>
           <td>B7 (Y2 Spring)</td>
-          <td>CS-206 Graphs &amp; Network Algorithms</td>
-          <td>Applied to harder structures; shortest path/MST as explicit optimization. Geospatial algorithms: road-network routing (Dijkstra, A*), spatial joins and nearest-neighbor/range queries using B4 spatial indexes.</td>
+          <td>CS-207 Graphs &amp; Network Algorithms</td>
+          <td>Design patterns applied to harder structures; shortest path/MST as explicit optimization. Geospatial algorithms: road-network routing (Dijkstra, A*), spatial joins and nearest-neighbor/range queries using B4 spatial indexes.</td>
       </tr>
       <tr>
           <td>B8 (Y2 Spring)</td>
-          <td>CS-208 Deployment &amp; Operations</td>
+          <td>CS-210 Deployment &amp; Operations</td>
           <td>Complexity reasoning meets a real deployed bottleneck. The memory hierarchy (cache misses, and — the dramatic case — virtual memory, paging, THRASHING) can TRUMP Big-O: good locality can beat better asymptotics. Asymptotic analysis is necessary but not sufficient. Requires the virtual-memory grounding.</td>
       </tr>
   </tbody>
@@ -190,13 +205,13 @@ Character Its first pass moved from B3 to B4 so it can answer the question B3’
       
       
     </div>
-    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782333268" defer></script>
-    <script src="/two-year-refactor/js/theme.min.js?1782333268" defer></script>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1782758196" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1782758196" defer></script>
       
       
       
     </div> 
-  <script src="/two-year-refactor/js/tele-scroll.min.js?1782333268" defer></script>
+  <script src="/two-year-refactor/js/tele-scroll.min.js?1782758196" defer></script>
   </body>
 </html>

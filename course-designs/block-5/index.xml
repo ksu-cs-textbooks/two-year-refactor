@@ -19,7 +19,14 @@
       <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/cs-202/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/cs-202/index.html</guid>
-      <description>CS-202 — Database Design 1 credit&#xA;Working description Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the service unit. Graph spiral: a brief touch of a graph database (Neo4j/Cypher) as another persistent store alongside relational — NEW embedded content, foreshadowing B7 document stores.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+      <description>CS-202 — Database Design 1 credit&#xA;Working description Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the Relational Databases service unit.&#xA;To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)</description>
+    </item>
+    <item>
+      <title>CS-203 Non-Relational Databases</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/cs-203/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/course-designs/block-5/cs-203/index.html</guid>
+      <description>CS-203 — Non-Relational Databases 1 credit&#xA;Working description The three major non-relational storage models as a complete landscape alongside the relational model from CS-201/202: document databases (JSON-document model, schema flexibility, MongoDB-style querying), key-value stores (conceptual; O(1) lookup, cache layers), and graph databases (Neo4j/Cypher; pattern-matching queries). Storage-model choice as a design decision — what does the data’s natural shape suggest? Graph spiral: graph databases as the persist pass (model B3 → represent B4 → persist here → algorithms B7). Completes the full storage landscape for B7 integration work.</description>
     </item>
     <item>
       <title>STAT-101 Descriptive Statistics &amp; Data Summarization</title>
