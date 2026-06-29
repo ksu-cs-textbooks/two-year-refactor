@@ -50,15 +50,15 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 1 — Read",
     "description": "CS-101 — Imperative Programming 1 credit\nWorking description HTML and CSS as the initial reading substrate — read and trace a web document before writing Python or JavaScript; the browser’s rendering pipeline as a first concrete computational model (declarative markup → DOM tree → rendered page). State, mutation, control structures — the sequence-of-steps-that-change-things paradigm, introduced in the context of JavaScript/Python acting on the DOM. Lists at shallow depth. (Codes are placeholders.)",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-101 Imperative Programming",
     "uri": "/two-year-refactor/course-designs/block-1/cs-101/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 2 — Modify",
-    "description": "CS-104 — Data Transformation \u0026 Manipulation 1 credit\nWorking description Parsing, filtering, reshaping, aggregating data; applies B1 imperative-mutation and functional-transformation skills. CSV/JSON as sources and sinks (file formats used, not taught). Embedded data-minimization: what data, transformed how.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "CS-104 — Data Transformation \u0026 Manipulation 1 credit\nWorking description Parsing, filtering, reshaping, aggregating data; applies B1 imperative-mutation and functional-transformation skills. CSV/JSON as sources and sinks (file formats used, not taught). Embedded data-minimization: what data, transformed how.\nCompetency Assessments Assessment type This pass Competencies evidenced Implementation Task Single function or module — requirements fully specified, familiar languages, no design decisions Implement Software Solutions Data Pipeline Task Parse and reshape a single CSV/JSON source to a specified output format Manage Data Resources Ethical Evaluation Data minimization analysis — given a pipeline or form, identify what data is collected and argue for what should be removed Evaluate Ethical Implications To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-104 Data Transformation \u0026 Manipulation",
     "uri": "/two-year-refactor/course-designs/block-2/cs-104/index.html"
@@ -66,7 +66,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 3 — Model",
     "description": "CS-107 — Software Modeling and Design 1 credit\nWorking description Encapsulation as boundary-drawing: what a component hides versus exposes, and why. OOP grounded in Python and JavaScript — languages students already know — so that encapsulation is understood as a design idea rather than a feature of any one language family. Type annotations as a form of interface specification: Python type hints and TypeScript gradual typing introduced as ways to make a component’s contract explicit. Inheritance treated as one reuse mechanism with known tradeoffs, not the central concept. Elixir modules introduced as a contrasting expression of encapsulation: a shallow reading exercise against the Chrysalis codebase — function signature pattern matching as the Elixir analog to method dispatch, modules-as-namespaces vs. classes-as-bundles. Exceptions introduced as the mechanism for signaling a contract violation at a boundary: try/catch named and grounded in the encapsulation frame (a raised exception is what happens when a boundary is crossed improperly). Boundaries \u0026 Contracts thread (INTRODUCED): encapsulation as an intra-program boundary. Computational Models thread: OOP as a named model, set alongside the functional/module organization visible in Chrysalis.",
-    "modified": "2026-06-22T22:15:30-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-107 Software Modeling and Design",
     "uri": "/two-year-refactor/course-designs/block-3/cs-107/index.html"
@@ -74,23 +74,23 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 4 — Structure",
     "description": "CS-110 — Trees, Hashing \u0026 Hierarchies 1 credit\nWorking description Hierarchical and associative structure (Data Structures spiral). Taught as structure; ADT contracts from B3 continue (a tree/map has a contract too). Graph spiral: representing and building graphs (adjacency list/matrix — the adjacency matrix is also a natural seed for basic linear algebra), basic traversal. Spatial indexing as applied trees/hashing: quadtrees and R-trees (trees), geohashing (spatial hashing) — a real-world application that makes the structures concrete. Big-O formalized as the cost of structural choices: O(log n) tree operations vs O(n) unsorted scan; O(1) amortized hash table access — choosing among implementations satisfying the same ADT contract (handoff from B3). Sorting and searching as canonical examples. Memory layout: tree nodes vs contiguous arrays at a conceptual level; full cache mechanics deferred to B8. Algorithmic Thinking \u0026 Complexity thread pass 2 (formalization — students arrive with conceptual vocabulary from CS-105).",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-110 Trees, Hashing \u0026 Hierarchies",
     "uri": "/two-year-refactor/course-designs/block-4/cs-110/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 5 — Store",
-    "description": "CS-201 — SQL Fundamentals 1 credit\nWorking description Opens with the persistence motivator (why files are not enough — durability, concurrent access, querying, integrity), then SELECT/INSERT/UPDATE/DELETE/JOIN. Query-optimization seed (indexes, query plans). SQL named explicitly as DECLARATIVE querying (state what data; the planner finds how) — the same declarative idea as HTML, now for data (Computational Models pass). First half of the Relational Databases service unit.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "CS-201 — SQL Fundamentals 1 credit\nWorking description Opens with the persistence motivator (why files are not enough — durability, concurrent access, querying, integrity), then SELECT/INSERT/UPDATE/DELETE/JOIN. Query-optimization seed (indexes, query plans). SQL named explicitly as DECLARATIVE querying (state what data; the planner finds how) — the same declarative idea as HTML, now for data (Computational Models pass). First half of the Relational Databases service unit.\nCompetency Assessments Assessment type This pass Competencies evidenced Data Pipeline Task SQL query pipeline — multi-step transformation chain using SELECT, JOIN, and aggregation Manage Data Resources Algorithm Evaluation Task Justify index strategy or schema design choice; compare relational vs. graph model for a given domain Evaluate Algorithmic Solutions; Represent Information To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-201 SQL Fundamentals",
     "uri": "/two-year-refactor/course-designs/block-5/cs-201/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 6 — Build Responsibly",
-    "description": "CS-204 — Software Testing \u0026 Validation 1 credit\nWorking description Automated tests, unit and integration testing.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "description": "CS-204 — Software Testing \u0026 Validation 1 credit\nWorking description Automated tests, unit and integration testing.\nCompetency Assessments Assessment type This pass Competencies evidenced Formal Analysis Test suite as formal specification — what does this test formally guarantee, and what does it leave unverified? Apply Formal Reasoning Verification Task Design and implement a test suite including property-based tests — argue adequacy of coverage Verify Software Quality Debugging Challenge Write a failing test that exposes the bug, then fix it — test-first diagnosis Debug Software Systems Environment Configuration Task Configure a test pipeline — test runner, coverage thresholds, CI trigger on push Manage Computing Environments Deployment Task Tag a release — ensure tests pass, cut a semantic version tag, document what changed Deploy Operational Systems AI-Assisted Practice Task AI-generated tests — evaluate coverage, find gaps, verify test correctness and adequacy Utilize AI Responsibly To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-204 Software Testing \u0026 Validation",
     "uri": "/two-year-refactor/course-designs/block-6/cs-204/index.html"
@@ -98,7 +98,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 7 — Judge",
     "description": "CS-207 — Graphs \u0026 Network Algorithms 1 credit\nWorking description Graph traversal, shortest path, minimum spanning trees — named explicitly as optimization (best path/structure under a metric). Graphs as the most general representation (terminal Data Structures pass). Geospatial algorithms: routing/shortest-path on road networks (weighted graphs; Dijkstra, A* as geospatially-motivated heuristic search); spatial joins and range/nearest-neighbor queries using B4 spatial indexes. Signature assessment: Design Review begins here. Computational Models pass: a brief see-and-explore example of a LOGIC/CONSTRAINT model (a few Prolog-style facts/rules + a query, or a small constraint problem a solver resolves) — connects to MATH-101 predicate logic, SQL’s logical character, and the Optimization lens.",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-207 Graphs \u0026 Network Algorithms",
     "uri": "/two-year-refactor/course-designs/block-7/cs-207/index.html"
@@ -106,7 +106,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 8 — Operate",
     "description": "CS-210 — Deployment \u0026 Operations 1 credit\nWorking description Deploy, monitor, and operate a live system. Performance analysis on a REAL bottleneck (Algorithmic final pass), including the full memory hierarchy — cache misses and locality, and (the dramatic case) virtual memory, paging, and THRASHING, where systems reality can TRUMP Big-O: a theoretically-worse algorithm with good locality can beat a theoretically-better one that thrashes. Asymptotic analysis is necessary but not sufficient. Grounded in the B1 stack/heap/process model and requiring virtual-memory grounding. Operating-system grounding (programmer-facing): processes vs threads (isolated vs shared memory), preemptive (OS threads) vs cooperative (green threads) scheduling, kernel vs user space, and MESSAGE QUEUES / inter-process communication — generalizing the browser event loop from B2 (the browser was a mini-OS all along). Actor mailboxes ARE message queues, which ties the actor model to its substrate. Just enough to make the concurrent-model choice meaningful. Production fault-tolerance compared across models — try/catch vs the ACTOR MODEL (Erlang/OTP: isolated processes, message passing, supervision trees) vs circuit-breakers. The actor model is named explicitly as a concurrent/distributed computational model, not only a fault-tolerance mechanism (Computational Models flagship final pass; conceptual). Concurrency at scale; containers as deployment structure; harden-before-live (Security final pass); operational runbooks (Documentation); API versioning as a compatibility contract (Boundaries final pass, closes the B1 semver loop).",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-210 Deployment \u0026 Operations",
     "uri": "/two-year-refactor/course-designs/block-8/cs-210/index.html"
@@ -217,8 +217,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Course Designs \u003e Block 1 — Read",
-    "description": "CS-102 — Functional Programming 1 credit\nWorking description Functions as values, composition, immutability, basic recursion — the describe-the-result-as-composed-transformations paradigm. Paired solve-it-both-ways exercise with CS-101 names the idea of more than one computational model.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "CS-102 — Functional Programming 1 credit\nWorking description Functions as values, composition, immutability, basic recursion — the describe-the-result-as-composed-transformations paradigm. Paired solve-it-both-ways exercise with CS-101 names the idea of more than one computational model.\nCompetency Assessments Assessment type This pass Competencies evidenced Implementation Task Single function or module — requirements fully specified, familiar languages, no design decisions Implement Software Solutions CS-102 also generates automated Tier 1 evidence for Develop Abstractions (HOF and composition exercises in H5P and IDE telemetry). The Design Brief recurring type begins at B3.",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-102 Functional Programming",
     "uri": "/two-year-refactor/course-designs/block-1/cs-102/index.html"
@@ -226,7 +226,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 2 — Modify",
     "description": "CS-105 — Code Reading \u0026 Repair 1 credit\nWorking description Code Archaeology signature assessment; debugging reframed as modifying data flow. Git commit/revert and regression tests introduced together as two safety nets for changing code. AI-as-explainer, verified empirically. Big-O introduced conceptually as a diagnosis tool: “how does cost grow with input size?” — recognized while reading and repairing slow code (nested loops over large inputs, repeated scans). Memory architecture introduced conceptually: stack vs heap allocation, the idea that structural choices carry memory cost, recognizing memory-expensive patterns in code under review. No formal notation at this pass. Algorithmic Thinking \u0026 Complexity thread pass 1 (conceptual seed).",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-105 Code Reading \u0026 Repair",
     "uri": "/two-year-refactor/course-designs/block-2/cs-105/index.html"
@@ -234,7 +234,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 3 — Model",
     "description": "CS-108 — Computational Abstractions 1 credit\nWorking description Formalizes higher-order patterns students have used informally since B1. Map, filter, and reduce named and reasoned about explicitly — students have encountered these; here they understand why they work and what they abstract over. List comprehensions as declarative iteration syntax: the bridge between the imperative for-loop and functional-style transformation. Functions as values: passing functions as arguments, returning them as results. Iterator protocol as abstraction over collection structure, decoupling traversal algorithms from the representation being traversed. Connects Computational Models thread (functional patterns named and formalized as a B3 pass, deepening the B1 seed) and Data Structures thread (iteration as abstraction over representation).",
-    "modified": "2026-06-22T22:15:30-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-108 Computational Abstractions",
     "uri": "/two-year-refactor/course-designs/block-3/cs-108/index.html"
@@ -242,23 +242,23 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 4 — Structure",
     "description": "CS-111 — Systems \u0026 APIs 1 credit\nWorking description Client-server decomposition; the API as system structure across a network boundary (APIs spiral + Boundaries network-boundary pass). Conway Law seed links system structure to human/org structure (Sociotechnical thread). Dataflow model named (Computational Models): a web-server request flows through a pipeline of stages (parse to auth to route to handle to serialize to respond). Data visualization embedded here (Human-Centered Computing throughline), not a separate course; D3 data-join and method-chaining as the client-side dataflow counterpart. Component-based GUI architecture (web components — custom elements, shadow DOM, slots): the B4 “structure” pass applied to user interfaces. A web component is a reusable boundary unit: custom element name is its public contract, shadow DOM is its encapsulated internals, slots are its interface — unifying the block’s structure/boundaries/contracts themes on the frontend. Event-driven programming formalized as a structural pattern (register listener → dispatch event → handle in queue), deepening the event-loop first named in CS-106 (B2).",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-111 Systems \u0026 APIs",
     "uri": "/two-year-refactor/course-designs/block-4/cs-111/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 5 — Store",
-    "description": "CS-202 — Database Design 1 credit\nWorking description Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the Relational Databases service unit.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "description": "CS-202 — Database Design 1 credit\nWorking description Schema design, normalization, relational modeling. Schema-as-contract (Boundaries); data minimization + access control (Security); transactions/concurrency (Computational Models); schema-decision documentation. Anchors the Data Investigation signature assessment. Solo Git branching + AI design-discussion embedded. Second half of the Relational Databases service unit.\nCompetency Assessments Signature assessment anchored here: Data Investigation — investigate a student-driven question with a novel dataset; complete schema design, query strategy, statistical summarization, and interpretation (evidence generated: Investigate Questions with Data; Manage Data Resources; Represent Information).",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-202 Database Design",
     "uri": "/two-year-refactor/course-designs/block-5/cs-202/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 6 — Build Responsibly",
-    "description": "CS-205 — Security Fundamentals 1 credit\nWorking description Threat identification, authentication, authorization. Modular arithmetic from Block 5 grounds an applied cryptography unit. Principle of least privilege extended explicitly to principle of least data collection.\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "description": "CS-205 — Security Fundamentals 1 credit\nWorking description Threat identification, authentication, authorization. Modular arithmetic from Block 5 grounds an applied cryptography unit. Principle of least privilege extended explicitly to principle of least data collection.\nCompetency Assessments Assessment type This pass Competencies evidenced Ethical Evaluation Security threat analysis — identify system threats and team ethical responsibilities Evaluate Ethical Implications Deployment Task Tag a release — ensure tests pass, cut a semantic version tag, document what changed Deploy Operational Systems To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-205 Security Fundamentals",
     "uri": "/two-year-refactor/course-designs/block-6/cs-205/index.html"
@@ -266,7 +266,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 7 — Judge",
     "description": "CS-208 — Document Databases \u0026 Data Integration 1 credit\nWorking description Combining data across the storage models and APIs students already know (B5 relational and non-relational, B4 APIs). ORM libraries: mapping between application objects and database schemas; active record vs. data mapper patterns; the N+1 query problem as a canonical judgment case for when raw SQL beats an ORM. Database migrations: versioned schema evolution; forward and rollback; a migration is a contract change with downstream effects (Boundaries pass). Seeds: initial data population and test fixtures. Re-identification risk from combined datasets (Security pass). Multi-objective tradeoff reasoning — integrating for speed vs. completeness vs. privacy — defended in Design Review.",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-208 Data Integration \u0026 Application-Database Interfaces",
     "uri": "/two-year-refactor/course-designs/block-7/cs-208/index.html"
@@ -274,7 +274,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 8 — Operate",
     "description": "CS-211 — Human-Centered Design \u0026 Validation 1 credit\nWorking description Formal requirements gathering, UX, and VALIDATION-WITH-USERS — the Human-Centered Computing final pass, escalating from B2’s accessibility-checklist compliance to requirements-driven design and fitness-for-purpose. Acceptance testing (does it meet the user’s criteria?) and A/B testing (experiment to learn user preference) live here — distinct from code-correctness testing (Correctness \u0026 Verification thread). Light design-under-ambiguity. The System Integration Project carries a blameless postmortem (Sociotechnical final pass).",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-211 Human-Centered Design \u0026 Validation",
     "uri": "/two-year-refactor/course-designs/block-8/cs-211/index.html"
@@ -354,7 +354,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 1 — Read",
     "description": "CS-103 — Computational Representation 1 credit\nWorking description Boolean logic, number systems, bitwise operations — applied counterpart to Discrete Math Logic \u0026 Sets. Light home for the representation/hiding security question. Programming-centric memory model named: the stack and the heap (stack frames for calls/recursion; heap for dynamic allocation) — absorbing the programmer-facing part of computer architecture. Execution-model seed: a running program is a PROCESS the operating system schedules (single-threaded for now) — the grounding the concurrent models will need later. HDL/FPGA intentionally not produced.",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-103 Computational Representation",
     "uri": "/two-year-refactor/course-designs/block-1/cs-103/index.html"
@@ -362,7 +362,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 2 — Modify",
     "description": "CS-106 — Web Foundations \u0026 Data-Driven Rendering 1 credit\nWorking description Semantic HTML/CSS + accessibility substrate; emphasis on fetch-and-render (modify the page as data arrives). HTML/CSS named explicitly as a DECLARATIVE model (state what, not how; the engine resolves layout) — Computational Models pass. Human-Centered Computing pass 1 (accessibility) + proto-visualization (visual hierarchy). Async/event-loop introduced via fetch — the event loop processes a QUEUE of callbacks/events (first encounter with message-queue/event-processing mechanics). Framing: the browser is a MINI-OS (it schedules your code via the event loop, isolates origins as a security boundary, runs concurrent work via web workers, and passes messages via postMessage = IPC) — a concrete, familiar on-ramp to the OS concepts formalized at B8. Data-minimization in form fields.",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-106 Web Foundations \u0026 Data-Driven Rendering",
     "uri": "/two-year-refactor/course-designs/block-2/cs-106/index.html"
@@ -370,7 +370,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 3 — Model",
     "description": "CS-109 — Abstract Data Types 1 credit\nWorking description Lists, linked lists, stacks, queues taught CONTRACT-FIRST: the ADT interface and its guarantees before implementation. Same-contract-multiple-implementations sets up B4 cost-based choice. Function pre/post-conditions name B1 informal verification reasoning. Graph spiral begins: graphs introduced as a MODEL for relationship-structured data (people/friendships, pages/links, task dependencies) — conceptual, no algorithms yet. Geospatial representation seed: points, lines, polygons (vector) and rasters (grids) as representation choices for spatial data.",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-109 Abstract Data Types",
     "uri": "/two-year-refactor/course-designs/block-3/cs-109/index.html"
@@ -378,7 +378,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 4 — Structure",
     "description": "CS-112 — Algorithmic Design Patterns 1 credit\nWorking description Students arrive knowing how to measure algorithmic cost (Big-O formalized in CS-110); this course teaches how to design fast algorithms. Three canonical design strategies as a mental toolkit: divide and conquer (break the problem, solve recursively, combine — mergesort and binary search as exemplars; recurrence relations as the analysis tool, building on MATH-103 B3 recursion); greedy algorithms (locally optimal choices compose to global optimum — when this works and when it doesn’t; Dijkstra previewed here as motivation for B7); introduction to dynamic programming (overlapping subproblems, memoization as the insight — one worked example to establish the pattern). The design patterns serve as the vocabulary CS-207 (B7) assumes when students build graph algorithms. Optimization lens: algorithmic design as optimization — making a hard problem tractable by exploiting its structure.",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-112 Algorithmic Design Patterns",
     "uri": "/two-year-refactor/course-designs/block-4/cs-112/index.html"
@@ -386,15 +386,15 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 5 — Store",
     "description": "CS-203 — Non-Relational Databases 1 credit\nWorking description The three major non-relational storage models as a complete landscape alongside the relational model from CS-201/202: document databases (JSON-document model, schema flexibility, MongoDB-style querying), key-value stores (conceptual; O(1) lookup, cache layers), and graph databases (Neo4j/Cypher; pattern-matching queries). Storage-model choice as a design decision — what does the data’s natural shape suggest? Graph spiral: graph databases as the persist pass (model B3 → represent B4 → persist here → algorithms B7). Completes the full storage landscape for B7 integration work.",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-203 Non-Relational Databases",
     "uri": "/two-year-refactor/course-designs/block-5/cs-203/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 6 — Build Responsibly",
-    "description": "CS-206 — Collaborative Development 1 credit\nWorking description Collaborative Git (branches, PRs, code review, conflict resolution); team practices. Conway’s Law enacted — the team is now an organization, and how it divides work shapes what it builds. Signature assessment: Team Software Project begins, carrying a responsibility retrospective (correctness, safety, teamwork).\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "description": "CS-206 — Collaborative Development 1 credit\nWorking description Collaborative Git (branches, PRs, code review, conflict resolution); team practices. Conway’s Law enacted — the team is now an organization, and how it divides work shapes what it builds. Signature assessment: Team Software Project begins, carrying a responsibility retrospective (correctness, safety, teamwork).\nCompetency Assessments Signature assessment begins here: Team Software Project — carries through Block 8 (CS-211). The Block 6 pass anchors the responsibility retrospective (evidence generated: Collaborate on Software Teams; Implement Software Solutions; Verify Software Quality; Maintain Software Systems; Evaluate Ethical Implications; Reflect on Professional Growth).",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-206 Collaborative Development",
     "uri": "/two-year-refactor/course-designs/block-6/cs-206/index.html"
@@ -402,7 +402,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 7 — Judge",
     "description": "CS-209 — OSI Networking Fundamentals 1 credit\nWorking description The OSI 7-layer model as a shared theoretical trunk. Physical and Data Link layers introduced conceptually only (signals, framing, MAC addresses, ARP) — depth deferred to CompE; business and general CS students do not need more. Network layer: IP addressing, CIDR subnets, routing — routing IS the shortest-path problem on a graph, making CS-207’s Dijkstra/A* concrete at the network layer (deliberate same-block convergence). Transport layer: TCP (three-way handshake, reliability, flow control) vs UDP (best-effort, latency tradeoff); ports; the socket abstraction as the programmer’s interface to the stack — the same interface students have been using in API work since B4/CS-111 without the theory. Session/Presentation: brief — TLS sits here, connecting to CS-205 applied cryptography. Application layer: HTTP/HTTPS and DNS examined as actual protocols rather than magic — what students have been consuming since B2. APIs \u0026 Networked Systems thread: theoretical grounding for the whole spiral. Boundaries \u0026 Contracts: each OSI layer is a contract with its neighbors; encapsulation as a design principle at every scale.",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-209 OSI Networking Fundamentals",
     "uri": "/two-year-refactor/course-designs/block-7/cs-209/index.html"
@@ -410,7 +410,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Course Designs \u003e Block 8 — Operate",
     "description": "CS-212 — Data Analysis \u0026 Responsible AI 1 credit\nWorking description Notebook-based data analysis as the CULMINATION of the STAT-101 statistics foundation and the data-visualization throughline (B2/B4/B5/B7) — integrative, not new-from-scratch. Honest visualization and data ethics. The genuinely new skill: high-stakes verification and critique of AI-generated code for correctness and security (AI bounded-practice final pass; prerequisite for the Year 3–4 Agentic AI specialization, which this course precedes but does not duplicate).",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "CS-212 Data Analysis \u0026 Responsible AI",
     "uri": "/two-year-refactor/course-designs/block-8/cs-212/index.html"
@@ -473,16 +473,16 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Course Designs \u003e Block 5 — Store",
-    "description": "STAT-101 — Descriptive Statistics \u0026 Data Summarization 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Describe data the student is now structuring; feeds the data-visualization throughline. First of the statistics-for-ML sequence.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "description": "STAT-101 — Descriptive Statistics \u0026 Data Summarization 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Describe data the student is now structuring; feeds the data-visualization throughline. First of the statistics-for-ML sequence.)\nCompetency Assessments Evidence from STAT-101 enters the Crystalis record via LTI integration.\nAssessment type This pass Competencies evidenced Data Investigation Describe a dataset — compute and interpret summary statistics, identify distribution shape Investigate Questions with Data Data Communication Task Statistical chart selection — choose and create the right chart type for the data’s distributional properties Communicate Data Insights Requirements Analysis Task Survey design — design a valid instrument for a specified research question; critique a given survey for bias Gather and Analyze Requirements To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "STAT-101 Descriptive Statistics \u0026 Data Summarization",
     "uri": "/two-year-refactor/course-designs/block-5/stat-101/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 7 — Judge",
-    "description": "STAT-103 — Random Variables, Distributions \u0026 Sampling 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Distributions, sampling, central limit theorem.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "description": "STAT-103 — Random Variables, Distributions \u0026 Sampling 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Distributions, sampling, central limit theorem.)\nCompetency Assessments Evidence from STAT-103 enters the Crystalis record via LTI integration.\nAssessment type This pass Competencies evidenced Data Investigation Sampling investigation — design a sampling strategy, evaluate whether evidence supports a conclusion Investigate Questions with Data To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "STAT-103 Random Variables, Distributions \u0026 Sampling",
     "uri": "/two-year-refactor/course-designs/block-7/stat-103/index.html"
@@ -553,32 +553,32 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Course Designs \u003e Block 1 — Read",
-    "description": "MATH-101 — Discrete Math: Logic and Sets 1 credit (co-designed external)\nWorking description (External/co-designed. Pairs with Boolean logic/representation in CS-103.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "MATH-101 — Discrete Math: Logic and Sets 1 credit (co-designed external)\nWorking description (External/co-designed. Pairs with Boolean logic/representation in CS-103.)\nCompetency Assessments Evidence from MATH-101 enters the Crystalis record via LTI integration.\nAssessment type This pass Competencies evidenced Formal Analysis Truth tables, predicate logic exercises, set proofs (paired with CS-103) Apply Formal Reasoning To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "MATH-101 Discrete Math: Logic and Sets",
     "uri": "/two-year-refactor/course-designs/block-1/math-101/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 2 — Modify",
-    "description": "MATH-102 — Discrete Math: Counting Finite Configurations 1 credit (co-designed external)\nWorking description (External/co-designed. Counting precedes Algorithmic Complexity in B4.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "MATH-102 — Discrete Math: Counting Finite Configurations 1 credit (co-designed external)\nWorking description (External/co-designed. Counting precedes Algorithmic Complexity in B4.)\nCompetency Assessments MATH-102 contributes evidence for Apply Formal Reasoning (combinatorial reasoning — formal counting as precursor to algorithmic analysis) through LTI integration. This course falls between the B1 and B3 Formal Analysis passes in the recurring assessment documentation; evidence enters the Crystalis record as Tier 1 automated evidence via the LTI connection to the mathematics department.",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "MATH-102 Discrete Math: Counting Finite Configurations",
     "uri": "/two-year-refactor/course-designs/block-2/math-102/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 3 — Model",
-    "description": "MATH-103 — Discrete Math: Recursive and Modular Computation 1 credit (co-designed external)\nWorking description (External/co-designed. Recursion arrives as ADTs/trees need it; modular arithmetic seeds B6 cryptography.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "MATH-103 — Discrete Math: Recursive and Modular Computation 1 credit (co-designed external)\nWorking description (External/co-designed. Recursion arrives as ADTs/trees need it; modular arithmetic seeds B6 cryptography.)\nCompetency Assessments Evidence from MATH-103 enters the Crystalis record via LTI integration.\nAssessment type This pass Competencies evidenced Formal Analysis Pre/post-condition specification; recursive correctness argument (paired with CS-109) Apply Formal Reasoning To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "MATH-103 Discrete Math: Recursive and Modular Computation",
     "uri": "/two-year-refactor/course-designs/block-3/math-103/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 4 — Structure",
-    "description": "MATH-104 — Discrete Math: Graphs, Trees, and Networks 1 credit (co-designed external)\nWorking description (External/co-designed. Concurrent with CS-110’s first graph pass — provides formal graph theory (graphs, trees, networks) as students begin representing and traversing graphs in B4.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "description": "MATH-104 — Discrete Math: Graphs, Trees, and Networks 1 credit (co-designed external)\nWorking description (External/co-designed. Concurrent with CS-110’s first graph pass — provides formal graph theory (graphs, trees, networks) as students begin representing and traversing graphs in B4.)\nCompetency Assessments Evidence from MATH-104 enters the Crystalis record via LTI integration.\nAssessment type This pass Competencies evidenced Formal Analysis Big-O analysis of sorting/searching algorithms; formal graph properties (paired with CS-112) Apply Formal Reasoning To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "MATH-104 Discrete Math: Graphs, Trees, and Networks",
     "uri": "/two-year-refactor/course-designs/block-4/math-104/index.html"
@@ -601,16 +601,16 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Course Designs \u003e Block 6 — Build Responsibly",
-    "description": "STAT-102 — Probability 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Follows Counting (B2/B3); foundational for ML. Probability ownership vs. discrete math to be settled in cross-department co-design.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "description": "STAT-102 — Probability 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Follows Counting (B2/B3); foundational for ML. Probability ownership vs. discrete math to be settled in cross-department co-design.)\nCompetency Assessments Evidence from STAT-102 enters the Crystalis record via LTI integration.\nAssessment type This pass Competencies evidenced Data Investigation Probability-based investigation — compute likelihoods, reason formally about uncertainty Investigate Questions with Data To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "STAT-102 Probability",
     "uri": "/two-year-refactor/course-designs/block-6/stat-102/index.html"
   },
   {
     "breadcrumb": "Course Designs \u003e Block 8 — Operate",
-    "description": "STAT-104 — Correlation \u0026 Regression 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Linear regression as the direct on-ramp to machine learning; capstone of the statistics sequence.)\nTo develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
-    "modified": "2026-06-21T19:29:55-05:00",
+    "description": "STAT-104 — Correlation \u0026 Regression 1 credit (co-designed external)\nWorking description (External/co-designed, stats dept. Linear regression as the direct on-ramp to machine learning; capstone of the statistics sequence.)\nCompetency Assessments Evidence from STAT-104 enters the Crystalis record via LTI integration.\nAssessment type This pass Competencies evidenced Data Investigation Correlation and regression — investigate relationships between variables; causal vs. correlational reasoning Investigate Questions with Data To develop Learning outcomes / competencies evidenced Week-by-week map (8 weeks) Signature/embedded assessments Threads passing through (with pass depth) Prerequisites and standalone-extractability (for service use)",
+    "modified": "2026-06-29T16:55:36-05:00",
     "tags": [],
     "title": "STAT-104 Correlation \u0026 Regression",
     "uri": "/two-year-refactor/course-designs/block-8/stat-104/index.html"
