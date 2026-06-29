@@ -528,6 +528,14 @@ var relearn_lti_index = [
     "uri": "/two-year-refactor/course-designs/index.html"
   },
   {
+    "breadcrumb": "Analyses",
+    "description": "Working draft for faculty review. Maps the old sub-500 CIS courses and ECE 241 to new core equivalents so that students on the old B.S. in Computer Science curriculum can be supported for five years without running parallel old-course sections. Course codes for the new core are placeholders.\nThe problem When the two-year core is adopted, students who enrolled under the old curriculum must still be able to complete their degree. The old curriculum requires courses that the department will no longer run. The solution is course substitution: identify which old courses are fully covered by new core courses and establish official equivalencies, so that old-track students take new courses that satisfy their old requirements.",
+    "modified": "2026-06-29T14:43:29-05:00",
+    "tags": [],
+    "title": "Five-Year Transition: Old Curriculum Support",
+    "uri": "/two-year-refactor/analyses/curriculum-transition/index.html"
+  },
+  {
     "breadcrumb": "Core Design \u003e Threads",
     "description": "Working draft for faculty review. A spiral deepens through escalating passes across blocks. This is the spiral; one of nine spirals (with three lenses and one bounded practice — 13 threads total).\nIn one line: Computing in service of human needs: design FOR, communicate TO, and validate WITH people — perceive → represent → comprehend → defend → fitness-for-purpose.\nCharacter Renamed and rescoped from the old HCI thread. Carries two embedded throughlines (accessibility + data visualization) and now owns validation-with-users (acceptance testing, A/B testing), which is the ‘is it what they needed’ question — distinct from the ‘is it correct’ question that Correctness \u0026 Verification keeps.",
     "modified": "2026-06-29T13:35:56-05:00",
@@ -626,7 +634,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Analyses",
     "description": "Working draft for faculty review. Maps the College Board AP Cybersecurity curriculum (Course and Exam Description, 2026–27) against the two-year core to answer two questions: (1) where does a student who earned AP Cybersecurity credit already have foundation, and (2) where does the core not deliver what the AP course develops? The binding use case is the Cybersecurity specialization: this analysis identifies the pre-college foundation the specialization can build on and the gaps it must address.",
-    "modified": "2026-06-29T13:35:56-05:00",
+    "modified": "2026-06-29T13:45:43-05:00",
     "tags": [],
     "title": "AP Cybersecurity Alignment Analysis",
     "uri": "/two-year-refactor/analyses/ap-cybersecurity/index.html"

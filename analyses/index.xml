@@ -36,6 +36,13 @@
       <description>Service Mapping: Computer Engineering Working draft for faculty review. How Computer Engineering’s current 12-credit dependency on our CS courses maps onto the redesigned modular curriculum. Course codes are placeholders.&#xA;Context Computer Engineering currently consumes 12 credits from us, as four traditional 3-credit, 16-week courses:&#xA;Traditional course Typical content CS0 Gentle introduction to programming CS1 First real programming: variables, control flow, functions, basic data Data Structures Lists, stacks, queues, trees, hashing; light graph introduction; complexity OOP Encapsulation, inheritance, polymorphism, classes Our redesign deliberately dissolved these monolithic courses into spiraled 1-credit, 8-week pieces, reorganized by concept and paradigm rather than the traditional sequence. This is the hardest service case we have, because Computer Engineering wants the recognizable traditional packaging that the redesign specifically took apart. The good news: the content is nearly all present, the pieces happen to co-locate by semester, and the original three-layer design (transcript courses / developmental experiences / competencies) anticipated exactly this kind of administrative repackaging.</description>
     </item>
     <item>
+      <title>Five-Year Transition: Old Curriculum Support</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/curriculum-transition/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/curriculum-transition/index.html</guid>
+      <description>Working draft for faculty review. Maps the old sub-500 CIS courses and ECE 241 to new core equivalents so that students on the old B.S. in Computer Science curriculum can be supported for five years without running parallel old-course sections. Course codes for the new core are placeholders.&#xA;The problem When the two-year core is adopted, students who enrolled under the old curriculum must still be able to complete their degree. The old curriculum requires courses that the department will no longer run. The solution is course substitution: identify which old courses are fully covered by new core courses and establish official equivalencies, so that old-track students take new courses that satisfy their old requirements.</description>
+    </item>
+    <item>
       <title>Service: Geographic Information Systems &amp; Technology</title>
       <link>https://textbooks.cs.ksu.edu/two-year-refactor/analyses/service-gist/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
