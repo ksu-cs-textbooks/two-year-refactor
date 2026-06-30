@@ -26,7 +26,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Core Design \u003e Blocks",
     "description": "Year 1, Fall · Weeks 1–8 · 8-week block · 4 credits\nWorking draft for faculty review. Course codes are placeholders. This block is one of eight; it is best read alongside the two-year arc below.\nTwo-year arc: ➤ Read (B1) → Modify (B2) → Model (B3) → Structure (B4) → Store (B5) → Build responsibly (B6) → Judge (B7) → Operate (B8)\nPurpose Cognitive frame: READ computation. The first encounter with code is reading it, across two paradigms, before producing much.",
-    "modified": "2026-06-22T15:18:16-05:00",
+    "modified": "2026-06-29T20:33:02-05:00",
     "tags": [],
     "title": "Block 1 — READ",
     "uri": "/two-year-refactor/core-design/blocks/block-1-read/index.html"
