@@ -16,14 +16,98 @@ What's novel here isn't the courses — course-based structure is the familiar u
 
 The core spans four 16-week semesters (Years 1–2) and is **identical across every degree** — specialization happens entirely in the upper division. It combines CIS/MATH/STAT courses with K-State Core general-education requirements:
 
-| Semester | CS/MATH/STAT courses | K-State Core / other |
-|---|---|---|
-| **Y1, Fall** | CIS 115 Introduction to Computing Science; CIS 116 Introduction to Programming; CIS 120 Web Foundations; MATH — Logic and Sets; MATH — Counting Finite Configurations; DEN 161 Engineering Problem Solving | ENGL 100 Expository Writing I; Communication Requirement (KSC 020) |
-| **Y1, Spring** | CIS 200 Programming Fundamentals; CIS 220 Platform Programming; CIS 260 Foundations of Relational Databases; MATH — Recursive and Modular Computation; MATH — Graphs, Trees, and Maps; ECE 241 Intro to Electrical and Computer Engineering; Calculus I/II/III (KSC 030) | ENGL 200 Expository Writing II |
-| **Y2, Fall** | CIS 300 Data and Program Structures; CIS 301 Logical Foundations of Programming; CIS 320 User Experience Development; CIS 225 Foundations of Computer Networks; CIS 251 Foundations of Cybersecurity; Linear Algebra (choice of MATH 350/515/551) | Natural & Physical Sciences w/ Lab (KSC 040) |
-| **Y2, Spring** | CIS 141 AI/Data Science; CIS 308 C Language Laboratory; CIS 400 Object-Oriented Design, Implementation, and Testing; STAT 410 Statistics for Computing | Arts & Humanities (KSC 060); Social & Behavioral Sciences (KSC 050) |
+{{< degree-map >}}
+<script type="module">
+  const plan = {
+    name: "Computer Science Two-Year Core",
+    version: "Draft",
+    theme: {
+      color: "#512888",
+      typeColors: { elective: "#6b6b6b" },
+    },
+    years: [
+      {
+        name: "Year 1",
+        semesters: [
+          {
+            name: "Fall",
+            courses: [
+              { subject: "CIS", number: 115, name: "Introduction to Computing Science", hours: 2 },
+              { subject: "CIS", number: 116, name: "Introduction to Programming", hours: 1 },
+              { subject: "DEN", number: 161, name: "Engineering Problem Solving", hours: 1 },
+              { subject: "CIS", number: 120, name: "Web Foundations", hours: 1 },
+              { subject: "MATH", number: "XXX", name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
+              {
+                subject: "MATH",
+                number: "XXX",
+                name: "Counting Finite Configurations",
+                hours: 1,
+                dur: 0.5,
+                place: "end",
+              },
+              { subject: "ENGL", number: 100, name: "Expository Writing I", hours: 3 },
+              { type: "elective", name: "Core Communication Requirement", hours: 3 },
+              { type: "elective", name: "Social & Behavioral Sciences Requirement", hours: 3 },
+            ],
+          },
+          {
+            name: "Spring",
+            courses: [
+              { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
+              { subject: "CIS", number: 200, name: "Programming Fundamentals", hours: 4 },
+              { type: "elective", name: "Calculus (choose I, II, or III)", hours: 4 },
+              {
+                subject: "MATH",
+                number: "XXX",
+                name: "Recursive and Modular Computation",
+                hours: 1,
+                dur: 0.5,
+                place: "start",
+              },
+              { subject: "MATH", number: "XXX", name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
+              { subject: "ENGL", number: 200, name: "Expository Writing II", hours: 3 },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Year 2",
+        semesters: [
+          {
+            name: "Fall",
+            courses: [
+              { subject: "CIS", number: 300, name: "Data and Program Structures", hours: 3 },
+              { subject: "CIS", number: 301, name: "Logical Foundations of Programming", hours: 3 },
+              { type: "elective", name: "Linear Algebra (MATH 350, 515, or 551)", hours: 3 },
+              { subject: "CIS", number: 225, name: "Foundations of Computer Networks", hours: 1, dur: 0.5, place: "start" },
+              { subject: "CIS", number: 251, name: "Foundations of Cybersecurity", hours: 1, dur: 0.5, place: "end" },
+              { type: "elective", name: "Natural & Physical Sciences Requirement (with Lab)", hours: 4 },
+            ],
+          },
+          {
+            name: "Spring",
+            courses: [
+              { subject: "CIS", number: 140, name: "Foundations of Artificial Intelligence", hours: 1 },
+              { subject: "CIS", number: 308, name: "C Language Laboratory", hours: 1 },
+              {
+                subject: "CIS",
+                number: 401,
+                name: "Software Design, Implementation, and Testing",
+                hours: 3,
+              },
+              { subject: "ECE", number: 241, name: "Introduction to Electrical and Computer Engineering", hours: 3 },
+              { subject: "STAT", number: "XXX", name: "Computational Statistics", hours: 4 },
+              { type: "elective", name: "Required Communicaitons Elective", hours: 3 }
+            ],
+          },
+        ],
+      },
+    ],
+  };
+  document.querySelector("degree-map").plan = plan;
+</script>
 
-61 credits across the two years (14/17/15/15), against a 121-credit degree total. Year 1 moves from reading and writing programs to structuring and querying data; Year 2 moves through networks, security, formal reasoning, and applied statistics, and ends at **CIS 400** — a team-based, ambiguous-requirements capstone-of-the-core built around a real historical-archive project, which validates everything the core taught before a student specializes. See `content/course-designs/` for the per-course detail (outcomes, week maps, assessments) as it's built out.
+60 credits across the two years (16/14/15/15), against a 120-credit degree total. Year 1 moves from reading and writing programs to structuring and querying data; Year 2 moves through networks, security, formal reasoning, and applied statistics, and ends at **CIS 401** — a team-based, ambiguous-requirements capstone-of-the-core built around a real historical-archive project, which validates everything the core taught before a student specializes. See `content/course-designs/` for the per-course detail (outcomes, week maps, assessments) as it's built out.
 
 ## Cross-cutting norms
 

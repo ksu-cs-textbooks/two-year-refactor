@@ -1,8 +1,8 @@
 +++
-title = "STAT [410/XXX] - Computational Statistics"
+title = "STAT XXX - Computational Statistics"
 +++
 
-> This document describes a proposed computational statistics course to serve the common computing foundation being developed by the department of computing science. This course is intended to be housed in the Department of Statistics and will be co-designed with computer science faculty. Exact numbering is not yet determined - the STAT 410 number (a previous service course for CS) is used as a placeholder and potential choice.
+> This document describes a proposed computational statistics course to serve the common computing foundation being developed by the department of computing science. This course is intended to be housed in the Department of Statistics and will be co-designed with computer science faculty. Exact numbering is not yet determined.
 
 > Also important to note is that between this course, the discrete mathematics sequence, and calculus, the following ABET accreditation requirements must be met: _At least 9 semester credit hours (or equivalent) must include **statistical inference and modeling, linear algebra, probability, data visualization, and optimization topics.**_
 
@@ -41,6 +41,7 @@ Upon completing this course, students should be able to:
 7. Formulate a model-fitting problem as an optimization problem and apply gradient descent to minimize a loss function.
 8. Evaluate a fitted model's performance using a train/test split, identifying overfitting and underfitting.
 9. Communicate statistical findings — numerically, visually, and in writing — to technical and non-technical audiences.
+10. Understand the limitations of statistical methods, i.e. statistical significance does not imply "truth", the false positive paradox, and the no free lunch theorem.
 
 ## Course Requisites
 

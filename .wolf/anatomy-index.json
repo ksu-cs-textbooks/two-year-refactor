@@ -1,0 +1,4335 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-09-09T17:40:06.283Z",
+    "fileCount": 370,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "063752bb7d60b5fc698d69e8a691066d6e3707b609de063fbc8ffae8bffc4f83",
+    "storeUpdatedAt": "2026-09-09T17:40:06.286Z",
+    "rootHash": "f6b95458221916a5"
+  },
+  "files": {
+    ".devcontainer/devcontainer-lock.json": {
+      "description": "",
+      "tokens": 104,
+      "hash": "a416dc29a8066629",
+      "size": 361,
+      "mtimeMs": 1788895673133.122,
+      "updatedAt": "2026-09-09T17:40:05.165Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    ".devcontainer/devcontainer.json": {
+      "description": "For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:",
+      "tokens": 340,
+      "hash": "81cf9d7a1f158b2f",
+      "size": 1187,
+      "mtimeMs": 1788895707780.2607,
+      "updatedAt": "2026-09-09T17:40:05.166Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    ".github/dependabot.yml": {
+      "description": "",
+      "tokens": 47,
+      "hash": "10a8186c11db8237",
+      "size": 162,
+      "mtimeMs": 1782246886326.577,
+      "updatedAt": "2026-09-09T17:40:05.167Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    ".github/workflows/gh-pages.yml": {
+      "description": "CI: GitHub Pages",
+      "tokens": 632,
+      "hash": "eb8a43bb978c497d",
+      "size": 2209,
+      "mtimeMs": 1782246886326.577,
+      "updatedAt": "2026-09-09T17:40:05.168Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    ".gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 28,
+      "hash": "49c07b94b08d9bac",
+      "size": 103,
+      "mtimeMs": 1782246886326.577,
+      "updatedAt": "2026-09-09T17:40:05.168Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "CLAUDE.md": {
+      "description": "OpenWolf",
+      "tokens": 1989,
+      "hash": "3ae87faf3ac17a12",
+      "size": 8015,
+      "mtimeMs": 1788975605106.1636,
+      "updatedAt": "2026-09-09T17:40:05.169Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/_index.md": {
+      "description": "",
+      "tokens": 171,
+      "hash": "6deb3a0c56eccb0c",
+      "size": 682,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.169Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/_index.md": {
+      "description": "",
+      "tokens": 63,
+      "hash": "6969259536a1e75b",
+      "size": 252,
+      "mtimeMs": 1782755147046.2046,
+      "updatedAt": "2026-09-09T17:40:05.170Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/abet-cs.md": {
+      "description": "Why this is the binding analysis",
+      "tokens": 4984,
+      "hash": "ba84bf48b2eaae53",
+      "size": 20088,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.170Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/ap-cybersecurity.md": {
+      "description": "About the AP Cybersecurity course",
+      "tokens": 5633,
+      "hash": "a42bf5f295a2cd16",
+      "size": 22648,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.171Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/container-bundling.md": {
+      "description": "The problem containers solve",
+      "tokens": 4792,
+      "hash": "f8f9d7efb3812211",
+      "size": 19289,
+      "mtimeMs": 1787330238785.1792,
+      "updatedAt": "2026-09-09T17:40:05.171Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/curriculum-transition.md": {
+      "description": "The problem",
+      "tokens": 1807,
+      "hash": "10cd16a546948089",
+      "size": 7266,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.172Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/internal-prerequisites.md": {
+      "description": "The central tension",
+      "tokens": 3013,
+      "hash": "4d7d4ecc2af8123c",
+      "size": 12163,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.172Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/kstate-replacement.md": {
+      "description": "What is being replaced",
+      "tokens": 3941,
+      "hash": "240155ff722e3329",
+      "size": 15845,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.173Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/service-computer-engineering.md": {
+      "description": "Service Mapping: Computer Engineering",
+      "tokens": 2315,
+      "hash": "aa4d3cdf53582e2b",
+      "size": 9308,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.173Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/service-digin.md": {
+      "description": "Context",
+      "tokens": 4338,
+      "hash": "f273b59e38599932",
+      "size": 17465,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.173Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/service-gist.md": {
+      "description": "Context",
+      "tokens": 4204,
+      "hash": "970a8d477c2091f1",
+      "size": 16938,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.174Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/analyses/staffing-requirements.md": {
+      "description": "Policy baseline",
+      "tokens": 2124,
+      "hash": "f5c4bcf196e9b838",
+      "size": 8623,
+      "mtimeMs": 1787330238785.1792,
+      "updatedAt": "2026-09-09T17:40:05.174Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/_index.md": {
+      "description": "",
+      "tokens": 210,
+      "hash": "7229a54fdda628a3",
+      "size": 842,
+      "mtimeMs": 1782755147074.2046,
+      "updatedAt": "2026-09-09T17:40:05.175Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/competencies/_index.md": {
+      "description": "",
+      "tokens": 76,
+      "hash": "b82f19c2b22a9373",
+      "size": 303,
+      "mtimeMs": 1782755147102.2046,
+      "updatedAt": "2026-09-09T17:40:05.175Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/competencies/computational-reasoning.md": {
+      "description": "Declares vs",
+      "tokens": 2768,
+      "hash": "ee99323020331ea2",
+      "size": 11174,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.176Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/competencies/data-and-information.md": {
+      "description": "Declares needed",
+      "tokens": 2833,
+      "hash": "3a763f10d27b5a8e",
+      "size": 11433,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.176Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/competencies/human-centered-practice.md": {
+      "description": "Declares or",
+      "tokens": 3439,
+      "hash": "8e0110138f511d35",
+      "size": 13902,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.177Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/competencies/professional-practice.md": {
+      "description": "Declares in",
+      "tokens": 2240,
+      "hash": "83bd400525924f78",
+      "size": 9065,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.177Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/competencies/software-development.md": {
+      "description": "Declares design",
+      "tokens": 3345,
+      "hash": "fb4250608c0f9a74",
+      "size": 13516,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.178Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/competencies/systems-and-infrastructure.md": {
+      "description": "",
+      "tokens": 2052,
+      "hash": "247fb1ca10780f69",
+      "size": 8292,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.178Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/competency-model.md": {
+      "description": "How Evidence Accumulates",
+      "tokens": 997,
+      "hash": "c1548021bc7d180b",
+      "size": 4000,
+      "mtimeMs": 1782755147074.2046,
+      "updatedAt": "2026-09-09T17:40:05.178Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/recurring-assessments.md": {
+      "description": "Summary",
+      "tokens": 10248,
+      "hash": "0825e429086f9c0a",
+      "size": 41334,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.180Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/assessment/signature-assessments.md": {
+      "description": "Code Archaeology Milestone",
+      "tokens": 1577,
+      "hash": "cde00505e9a6cc5e",
+      "size": 6349,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.180Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/_index.md": {
+      "description": "",
+      "tokens": 75,
+      "hash": "c326153fcce974e7",
+      "size": 299,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.181Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/lenses/_index.md": {
+      "description": "",
+      "tokens": 58,
+      "hash": "065d82e33027b856",
+      "size": 229,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.181Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/lenses/lens-optimization.md": {
+      "description": "Why this is a lens, not a spiral",
+      "tokens": 1072,
+      "hash": "c1ba87dc29555881",
+      "size": 4327,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.181Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/lenses/lens-professional-practices.md": {
+      "description": "Why this is a lens, not a spiral",
+      "tokens": 1491,
+      "hash": "c9c4567f56ab3497",
+      "size": 6022,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.181Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/lenses/lens-trustworthy-computing.md": {
+      "description": "Why this is a lens, not a spiral",
+      "tokens": 1333,
+      "hash": "468b728bcfaeb0df",
+      "size": 5379,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.182Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/overview.md": {
+      "description": "What this is",
+      "tokens": 3077,
+      "hash": "f5af523c05c95392",
+      "size": 12395,
+      "mtimeMs": 1788900262771.1904,
+      "updatedAt": "2026-09-09T17:40:05.182Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/_index.md": {
+      "description": "",
+      "tokens": 90,
+      "hash": "787a9015ede7817a",
+      "size": 359,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.182Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/practice-ai-assisted.md": {
+      "description": "Character",
+      "tokens": 685,
+      "hash": "8b76bda400546b05",
+      "size": 2765,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.182Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/thread-algorithmic.md": {
+      "description": "Character",
+      "tokens": 1605,
+      "hash": "bb7c21470028290c",
+      "size": 6473,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.183Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/thread-boundaries-contracts.md": {
+      "description": "Character",
+      "tokens": 1099,
+      "hash": "0ba05d07a6cc585f",
+      "size": 4428,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.183Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/thread-code-comprehension.md": {
+      "description": "Character",
+      "tokens": 781,
+      "hash": "28c08d6cc862cbe5",
+      "size": 3156,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.183Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/thread-computational-models.md": {
+      "description": "Character",
+      "tokens": 1727,
+      "hash": "e705c6faf9a80d07",
+      "size": 6965,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.183Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/thread-correctness-verification.md": {
+      "description": "Character",
+      "tokens": 893,
+      "hash": "d7d4547689ac4988",
+      "size": 3606,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.183Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/thread-data-structures.md": {
+      "description": "Character",
+      "tokens": 1750,
+      "hash": "db56fcd1a1fd0e33",
+      "size": 7059,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.184Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/thread-human-centered.md": {
+      "description": "Character",
+      "tokens": 980,
+      "hash": "03b26bb430cda3a0",
+      "size": 3965,
+      "mtimeMs": 1787330271351.94,
+      "updatedAt": "2026-09-09T17:40:05.184Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/core-design/threads/thread-sociotechnical.md": {
+      "description": "Character",
+      "tokens": 915,
+      "hash": "d9c42615cbcccbcd",
+      "size": 3703,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.184Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/_index.md": {
+      "description": "",
+      "tokens": 43,
+      "hash": "59f3e6b87246e07d",
+      "size": 171,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.184Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-115.md": {
+      "description": "Course Description",
+      "tokens": 761,
+      "hash": "50e8fb64dade1067",
+      "size": 3047,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.184Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-116.md": {
+      "description": "Course Description",
+      "tokens": 791,
+      "hash": "649539e8481adf40",
+      "size": 3164,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.185Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-120.md": {
+      "description": "Course Description",
+      "tokens": 534,
+      "hash": "f4b8d1bfa6a8a28e",
+      "size": 2140,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.185Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-140.md": {
+      "description": "Course Description",
+      "tokens": 394,
+      "hash": "e7dbef2ad41f09db",
+      "size": 1581,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.185Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-141.md": {
+      "description": "Course Description",
+      "tokens": 320,
+      "hash": "68347b460fe451b7",
+      "size": 1293,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.185Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-142.md": {
+      "description": "Course Description",
+      "tokens": 196,
+      "hash": "824f2157df09350a",
+      "size": 787,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.185Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-200.md": {
+      "description": "Course Description",
+      "tokens": 527,
+      "hash": "f50966bf289d8823",
+      "size": 2128,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.185Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-220.md": {
+      "description": "Course Description",
+      "tokens": 861,
+      "hash": "b0441433c7ba0645",
+      "size": 3455,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.186Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-225.md": {
+      "description": "Course Description",
+      "tokens": 397,
+      "hash": "9b96aa2dd147b830",
+      "size": 1586,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.186Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-251.md": {
+      "description": "Course Description",
+      "tokens": 832,
+      "hash": "69ae4317ea03b4d3",
+      "size": 3329,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.186Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-260.md": {
+      "description": "Course Description",
+      "tokens": 1308,
+      "hash": "476f7af3dafbb951",
+      "size": 5243,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.186Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-300.md": {
+      "description": "Course Description",
+      "tokens": 1941,
+      "hash": "c7d132d9a0916686",
+      "size": 7771,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.186Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-301.md": {
+      "description": "Course Description",
+      "tokens": 996,
+      "hash": "d551f0025c77e930",
+      "size": 3983,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.187Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-308.md": {
+      "description": "Course Description",
+      "tokens": 148,
+      "hash": "58943c3d8bfea7d2",
+      "size": 596,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.187Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-320.md": {
+      "description": "Course Description",
+      "tokens": 815,
+      "hash": "dfe93c69e521c0e0",
+      "size": 3273,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.187Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-400.md": {
+      "description": "Course Description",
+      "tokens": 1320,
+      "hash": "c38cff2089f16e89",
+      "size": 5295,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.187Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-415.md": {
+      "description": "Course Description",
+      "tokens": 319,
+      "hash": "d26ea67727378499",
+      "size": 1284,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.187Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-450.md": {
+      "description": "Course Description",
+      "tokens": 290,
+      "hash": "bd2a074bb4b6806a",
+      "size": 1165,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.187Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-501.md": {
+      "description": "Course Description",
+      "tokens": 269,
+      "hash": "93b666c6fbe81906",
+      "size": 1080,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.188Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-505.md": {
+      "description": "Course Description",
+      "tokens": 282,
+      "hash": "dc6f8946a7d88c59",
+      "size": 1134,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.188Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-520.md": {
+      "description": "Course Description",
+      "tokens": 233,
+      "hash": "d90485eb76246eea",
+      "size": 935,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.188Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-525.md": {
+      "description": "Course Description",
+      "tokens": 234,
+      "hash": "df8bbc39ca572b0e",
+      "size": 937,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.188Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-560.md": {
+      "description": "Course Description",
+      "tokens": 299,
+      "hash": "d3cb4c175ecfd173",
+      "size": 1201,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.188Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-575.md": {
+      "description": "Course Description",
+      "tokens": 247,
+      "hash": "953090150a6841c3",
+      "size": 990,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.188Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-598.md": {
+      "description": "Course Description",
+      "tokens": 255,
+      "hash": "8aca08b7d18c28f8",
+      "size": 1023,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.189Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-625.md": {
+      "description": "Course Description",
+      "tokens": 260,
+      "hash": "a44f2c49d1efed4f",
+      "size": 1046,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.189Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/cis-643.md": {
+      "description": "Course Description",
+      "tokens": 247,
+      "hash": "cf59195f9fc0aa7d",
+      "size": 996,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.189Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/course-designs/stat-XXX.md": {
+      "description": "Course Description",
+      "tokens": 2490,
+      "hash": "6b88e14f0c4d97a9",
+      "size": 9973,
+      "mtimeMs": 1787674490301.905,
+      "updatedAt": "2026-09-09T17:40:05.189Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/pedagogy/_index.md": {
+      "description": "",
+      "tokens": 224,
+      "hash": "323fee594c1a8aea",
+      "size": 903,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.189Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/pedagogy/ai-discipline.md": {
+      "description": "The tension this page addresses",
+      "tokens": 3111,
+      "hash": "4a198bc2aa60c4e6",
+      "size": 12511,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.190Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/pedagogy/developmental-experiences.md": {
+      "description": "The premise: systems-level thinking before programming skill",
+      "tokens": 2698,
+      "hash": "f52c45edb55f1649",
+      "size": 10850,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.190Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/pedagogy/signature-applications/_index.md": {
+      "description": "The concept",
+      "tokens": 1002,
+      "hash": "41e6f04a6d39069e",
+      "size": 4034,
+      "mtimeMs": 1787330271355.9365,
+      "updatedAt": "2026-09-09T17:40:05.190Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/pedagogy/signature-applications/data-visualization.md": {
+      "description": "What it is",
+      "tokens": 714,
+      "hash": "7ecb3d80f2e5d10e",
+      "size": 2876,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.191Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/pedagogy/signature-applications/historical-archive.md": {
+      "description": "What it is",
+      "tokens": 878,
+      "hash": "f2be2c58e014e77c",
+      "size": 3525,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.191Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/pedagogy/signature-applications/kansas-mesonet.md": {
+      "description": "What it is",
+      "tokens": 715,
+      "hash": "01df1b1f4fa83306",
+      "size": 2873,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.191Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/pedagogy/signature-applications/plant-sensor-api.md": {
+      "description": "What it is",
+      "tokens": 681,
+      "hash": "0a26ffd0a95c6004",
+      "size": 2736,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.191Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/pedagogy/spiral-method.md": {
+      "description": "What a spiral curriculum is — and isn't",
+      "tokens": 2713,
+      "hash": "2305835e239309ae",
+      "size": 10918,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.191Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/specializations/_index.md": {
+      "description": "",
+      "tokens": 78,
+      "hash": "535942b226ddd505",
+      "size": 310,
+      "mtimeMs": 1782755147058.2046,
+      "updatedAt": "2026-09-09T17:40:05.192Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/specializations/ai-systems.md": {
+      "description": "Premise",
+      "tokens": 4233,
+      "hash": "a94b6666870f49f5",
+      "size": 16965,
+      "mtimeMs": 1788900003007.5574,
+      "updatedAt": "2026-09-09T17:40:05.192Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/specializations/cybersecurity.md": {
+      "description": "Premise",
+      "tokens": 4416,
+      "hash": "f614e98e592e2b0e",
+      "size": 17716,
+      "mtimeMs": 1788900384286.339,
+      "updatedAt": "2026-09-09T17:40:05.192Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/specializations/data-science.md": {
+      "description": "Premise and positioning",
+      "tokens": 2624,
+      "hash": "e839c1707655b719",
+      "size": 10582,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.193Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/specializations/software-architecture.md": {
+      "description": "",
+      "tokens": 287,
+      "hash": "35906da7948f4919",
+      "size": 1153,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.193Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content/specializations/specialization-model.md": {
+      "description": "The structural reveal",
+      "tokens": 3088,
+      "hash": "e71d3f3e84f5bd6d",
+      "size": 12428,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.193Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/core-design/blocks/_index.md": {
+      "description": "",
+      "tokens": 55,
+      "hash": "9c04b3c5d03d76e2",
+      "size": 231,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.194Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/core-design/blocks/block-1-read.md": {
+      "description": "Purpose",
+      "tokens": 1852,
+      "hash": "f9b7bd7983cd34f1",
+      "size": 7481,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.195Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/core-design/blocks/block-2-modify.md": {
+      "description": "Purpose",
+      "tokens": 1244,
+      "hash": "e84d0b783c4070a9",
+      "size": 5032,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.195Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/core-design/blocks/block-3-model.md": {
+      "description": "Purpose",
+      "tokens": 1150,
+      "hash": "338272ead8324887",
+      "size": 4643,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.196Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/core-design/blocks/block-4-structure.md": {
+      "description": "Purpose",
+      "tokens": 1532,
+      "hash": "9731a247d686d8ff",
+      "size": 6206,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.197Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/core-design/blocks/block-5-store.md": {
+      "description": "Purpose",
+      "tokens": 1471,
+      "hash": "f7c253bc1603d90b",
+      "size": 5958,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.197Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/core-design/blocks/block-6-build-responsibly.md": {
+      "description": "Purpose",
+      "tokens": 1111,
+      "hash": "371637aad7037ccb",
+      "size": 4504,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.197Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/core-design/blocks/block-7-judge.md": {
+      "description": "Purpose",
+      "tokens": 1649,
+      "hash": "7a6c01a89def9929",
+      "size": 6677,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.198Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/core-design/blocks/block-8-operate.md": {
+      "description": "Purpose",
+      "tokens": 1650,
+      "hash": "751cf09c025b1c23",
+      "size": 6692,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.198Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/_index.md": {
+      "description": "",
+      "tokens": 102,
+      "hash": "c6efd872191dd2a5",
+      "size": 410,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.199Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-1/_index.md": {
+      "description": "",
+      "tokens": 39,
+      "hash": "1b177f5871d67a02",
+      "size": 156,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.199Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-1/cs-101.md": {
+      "description": "CS-101 — Imperative Programming",
+      "tokens": 8741,
+      "hash": "ec40fe1e3f7b1c06",
+      "size": 35202,
+      "mtimeMs": 1787330271339.9504,
+      "updatedAt": "2026-09-09T17:40:05.202Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-1/cs-102.md": {
+      "description": "CS-102 — Functional Programming",
+      "tokens": 4946,
+      "hash": "ecd1c497977cec3a",
+      "size": 19910,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.203Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-1/cs-103.md": {
+      "description": "CS-103 — Computational Representation",
+      "tokens": 5851,
+      "hash": "c2e587010d9dac86",
+      "size": 23581,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.203Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-1/math-101.md": {
+      "description": "MATH-101 — Discrete Math: Logic and Sets",
+      "tokens": 199,
+      "hash": "b39c48b7b3b37958",
+      "size": 796,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.204Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-2/_index.md": {
+      "description": "",
+      "tokens": 40,
+      "hash": "5436bb71db22c028",
+      "size": 160,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.204Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-2/cs-104.md": {
+      "description": "CS-104 — Data Transformation & Manipulation",
+      "tokens": 301,
+      "hash": "de26089b1499526e",
+      "size": 1209,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.205Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-2/cs-105.md": {
+      "description": "CS-105 — Code Reading & Repair",
+      "tokens": 632,
+      "hash": "4e694e0367c71c1d",
+      "size": 2545,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.205Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-2/cs-106.md": {
+      "description": "CS-106 — Web Foundations & Data-Driven Rendering",
+      "tokens": 533,
+      "hash": "c73532f9941ff364",
+      "size": 2147,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.205Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-2/math-102.md": {
+      "description": "MATH-102 — Discrete Math: Counting Finite Configurations",
+      "tokens": 237,
+      "hash": "fbc9230d8f813297",
+      "size": 952,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.206Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-3/_index.md": {
+      "description": "",
+      "tokens": 39,
+      "hash": "a06f0f0708fec80f",
+      "size": 158,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.206Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-3/cs-107.md": {
+      "description": "CS-107 — Software Modeling and Design",
+      "tokens": 685,
+      "hash": "4a78b80225f99219",
+      "size": 2755,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.207Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-3/cs-108.md": {
+      "description": "CS-108 — Computational Abstractions",
+      "tokens": 446,
+      "hash": "d5a80ba3539db0b5",
+      "size": 1786,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.207Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-3/cs-109.md": {
+      "description": "CS-109 — Abstract Data Types",
+      "tokens": 438,
+      "hash": "fe898c048edcc71d",
+      "size": 1759,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.207Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-3/math-103.md": {
+      "description": "MATH-103 — Discrete Math: Recursive and Modular Computation",
+      "tokens": 220,
+      "hash": "eac423170fbb1624",
+      "size": 879,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.208Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-4/_index.md": {
+      "description": "",
+      "tokens": 41,
+      "hash": "a406142a1470c45b",
+      "size": 166,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.209Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-4/cs-110.md": {
+      "description": "CS-110 — Trees, Hashing & Hierarchies",
+      "tokens": 428,
+      "hash": "6175a708dc3d6f63",
+      "size": 1720,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.209Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-4/cs-111.md": {
+      "description": "CS-111 — Systems & APIs",
+      "tokens": 656,
+      "hash": "a3358c02741f326e",
+      "size": 2646,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.209Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-4/cs-112.md": {
+      "description": "CS-112 — Algorithmic Thinking & Graphs",
+      "tokens": 732,
+      "hash": "917a9c90f32284cb",
+      "size": 2940,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.210Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-4/math-104.md": {
+      "description": "MATH-104 — Discrete Math: Graphs, Trees, and Networks",
+      "tokens": 237,
+      "hash": "d1d62b33358369d5",
+      "size": 952,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.210Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-5/_index.md": {
+      "description": "",
+      "tokens": 39,
+      "hash": "75d6c8d68cd0f80c",
+      "size": 158,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.211Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-5/cs-201.md": {
+      "description": "CS-201 — SQL Fundamentals",
+      "tokens": 306,
+      "hash": "2b519a4bb54186a4",
+      "size": 1232,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.211Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-5/cs-202.md": {
+      "description": "CS-202 — Database Design",
+      "tokens": 719,
+      "hash": "74586ebbfd11cea5",
+      "size": 2896,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.212Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-5/cs-203.md": {
+      "description": "CS-203 — Non-Relational Databases",
+      "tokens": 397,
+      "hash": "6b8c051f843a0266",
+      "size": 1597,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.212Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-5/stat-101.md": {
+      "description": "STAT-101 — Descriptive Statistics & Data Summarization",
+      "tokens": 322,
+      "hash": "95257e1ed04f4527",
+      "size": 1295,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.213Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-6/_index.md": {
+      "description": "",
+      "tokens": 45,
+      "hash": "8a21efc1bd78deb9",
+      "size": 182,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.213Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-6/cs-204.md": {
+      "description": "CS-204 — Software Testing & Validation",
+      "tokens": 353,
+      "hash": "d015d9c710a83cee",
+      "size": 1423,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.214Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-6/cs-205.md": {
+      "description": "CS-205 — Security Fundamentals",
+      "tokens": 244,
+      "hash": "5c3bb6d889a70c65",
+      "size": 979,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.214Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-6/cs-206.md": {
+      "description": "CS-206 — Collaborative Development",
+      "tokens": 669,
+      "hash": "11ca1f6b350e265c",
+      "size": 2700,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.215Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-6/stat-102.md": {
+      "description": "STAT-102 — Probability",
+      "tokens": 220,
+      "hash": "1fc84b5c5a82fc78",
+      "size": 883,
+      "mtimeMs": 1787330271343.9468,
+      "updatedAt": "2026-09-09T17:40:05.215Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-7/_index.md": {
+      "description": "",
+      "tokens": 39,
+      "hash": "d6659f8d3b3cd553",
+      "size": 158,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.215Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-7/cs-207.md": {
+      "description": "CS-207 — Advanced Graph Algorithms & Networks",
+      "tokens": 924,
+      "hash": "16a783fc258fc6cc",
+      "size": 3724,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.216Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-7/cs-208.md": {
+      "description": "CS-208 — Document Databases & Data Integration",
+      "tokens": 420,
+      "hash": "1641a38515f92db9",
+      "size": 1690,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.216Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-7/cs-209.md": {
+      "description": "CS-209 — OSI Networking Fundamentals",
+      "tokens": 656,
+      "hash": "2a5b90ecbcf52d1b",
+      "size": 2638,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.217Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-7/stat-103.md": {
+      "description": "STAT-103 — Random Variables, Distributions & Sampling",
+      "tokens": 218,
+      "hash": "7c54f1868f50f95d",
+      "size": 873,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.217Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-8/_index.md": {
+      "description": "",
+      "tokens": 40,
+      "hash": "3cbaf21c4ccaccfa",
+      "size": 162,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.217Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-8/cs-210.md": {
+      "description": "CS-210 — Deployment & Operations",
+      "tokens": 1025,
+      "hash": "7042d8f051eb8782",
+      "size": 4126,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.218Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-8/cs-211.md": {
+      "description": "CS-211 — Human-Centered Design & Validation",
+      "tokens": 480,
+      "hash": "562fa89a81f6a026",
+      "size": 1934,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.218Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-8/cs-212.md": {
+      "description": "CS-212 — Data Analysis & Responsible AI",
+      "tokens": 435,
+      "hash": "8f471d8353928274",
+      "size": 1749,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.222Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "content-archive/v1/course-designs/block-8/stat-104.md": {
+      "description": "STAT-104 — Correlation & Regression",
+      "tokens": 223,
+      "hash": "eb8a933ceea52a10",
+      "size": 895,
+      "mtimeMs": 1787330271347.9434,
+      "updatedAt": "2026-09-09T17:40:05.222Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "go.mod": {
+      "description": "Go module definition",
+      "tokens": 36,
+      "hash": "72a08d002a039d4f",
+      "size": 134,
+      "mtimeMs": 1782246886342.048,
+      "updatedAt": "2026-09-09T17:40:05.233Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "go.sum": {
+      "description": "Go dependency checksums",
+      "tokens": 285,
+      "hash": "2365964c3d320419",
+      "size": 1068,
+      "mtimeMs": 1782246886342.048,
+      "updatedAt": "2026-09-09T17:40:05.233Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "hugo.toml": {
+      "description": "Base URL where the site will be hosted",
+      "tokens": 9787,
+      "hash": "8bb784104e314dad",
+      "size": 34253,
+      "mtimeMs": 1787337746485.011,
+      "updatedAt": "2026-09-09T17:40:05.234Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "layouts/partials/logo.html": {
+      "description": "",
+      "tokens": 76,
+      "hash": "0127502d64e7c3fe",
+      "size": 282,
+      "mtimeMs": 1782246886342.048,
+      "updatedAt": "2026-09-09T17:40:05.234Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "layouts/partials/menu-footer.html": {
+      "description": "",
+      "tokens": 175,
+      "hash": "f95fdec919e89a7b",
+      "size": 655,
+      "mtimeMs": 1782246886342.048,
+      "updatedAt": "2026-09-09T17:40:05.235Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "layouts/shortcodes/degree-map.html": {
+      "description": "",
+      "tokens": 28,
+      "hash": "267d43746b8823b2",
+      "size": 105,
+      "mtimeMs": 1788899722811.3599,
+      "updatedAt": "2026-09-09T17:40:05.235Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "README.md": {
+      "description": "Project documentation",
+      "tokens": 23,
+      "hash": "d3214990d09204ea",
+      "size": 91,
+      "mtimeMs": 1782246886326.577,
+      "updatedAt": "2026-09-09T17:40:05.235Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/archive/2026-07-block-inventory-v1.md": {
+      "description": "Block Inventory",
+      "tokens": 2008,
+      "hash": "46aa3107cbd61fbe",
+      "size": 8072,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.236Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/block-inventory.md": {
+      "description": "",
+      "tokens": 16,
+      "hash": "ef93bb791b799edc",
+      "size": 61,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.236Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/cs-101-seed-sequence.md": {
+      "description": "CS-101 Seed Sequence",
+      "tokens": 2831,
+      "hash": "3ceb6fb3246dfae9",
+      "size": 11376,
+      "mtimeMs": 1787330271359.9329,
+      "updatedAt": "2026-09-09T17:40:05.237Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/design-log.md": {
+      "description": "Spiral Curriculum Planning",
+      "tokens": 144543,
+      "hash": "dfb722bc9c17d681",
+      "size": 579851,
+      "mtimeMs": 1787336937811.558,
+      "updatedAt": "2026-09-09T17:40:05.243Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/existing-cs-courses.json": {
+      "description": "",
+      "tokens": 60343,
+      "hash": "d35f700f49409c6e",
+      "size": 211236,
+      "mtimeMs": 1782246886342.048,
+      "updatedAt": "2026-09-09T17:40:05.247Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/abet/ai.md": {
+      "description": "Criteria for Accrediting Computing Programs, 2025 – 2026",
+      "tokens": 2517,
+      "hash": "cc34bb357a64a9a8",
+      "size": 10088,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.248Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/abet/cs.md": {
+      "description": "Criteria for Accrediting Computing Programs, 2025 – 2026",
+      "tokens": 2531,
+      "hash": "9feea9bf0648bbd1",
+      "size": 10143,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.248Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/abet/ds.md": {
+      "description": "Criteria for Accrediting Computing Programs, 2025 – 2026",
+      "tokens": 2528,
+      "hash": "9147fee692a9ba40",
+      "size": 10133,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.249Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/abet/security.md": {
+      "description": "Criteria for Accrediting Computing Programs, 2025 – 2026",
+      "tokens": 2661,
+      "hash": "c171f7adb8602b52",
+      "size": 10667,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.249Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/competency-framework/competencies.md": {
+      "description": "Competency Framework",
+      "tokens": 2039,
+      "hash": "da21683411768eee",
+      "size": 8155,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.250Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/curriculum-design-references.md": {
+      "description": "Reference Corpus for CS Curriculum Design Agent",
+      "tokens": 6306,
+      "hash": "00a75a4e61127a76",
+      "size": 25421,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.251Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/degree-maps/ai.md": {
+      "description": "Artificial Intelligence",
+      "tokens": 2161,
+      "hash": "d2bd4f85b11c0469",
+      "size": 8710,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.252Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/degree-maps/computational-data-science.md": {
+      "description": "Computational Data Science",
+      "tokens": 2274,
+      "hash": "b18666bdfcfdfd30",
+      "size": 9150,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.252Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/degree-maps/cs-new.md": {
+      "description": "",
+      "tokens": 913,
+      "hash": "faadb5938352c0d8",
+      "size": 3670,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.258Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/degree-maps/cs.md": {
+      "description": "Computer Science",
+      "tokens": 8506,
+      "hash": "46f6a2e484279161",
+      "size": 34202,
+      "mtimeMs": 1787330271363.9294,
+      "updatedAt": "2026-09-09T17:40:05.260Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/degree-maps/cybersecurity.md": {
+      "description": "Cybersecurity",
+      "tokens": 3411,
+      "hash": "8699f58eabea9ea3",
+      "size": 13769,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.260Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/degree-maps/digin.md": {
+      "description": "B.S. in Digital Innovation in Media (DIGIN) — Course List",
+      "tokens": 685,
+      "hash": "0af54da47f9edfd4",
+      "size": 2745,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.261Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/degree-maps/stats-ds-double-major.md": {
+      "description": "CS + Statistics/Data Science Double Major — Overlap Analysis",
+      "tokens": 1630,
+      "hash": "6dd274fbc25605fd",
+      "size": 6584,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.261Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/degree-maps/stats-ds.md": {
+      "description": "B.S. in Statistics and Data Science — Required Course List",
+      "tokens": 1289,
+      "hash": "3956b85714eb1dce",
+      "size": 5246,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.262Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kbor-transfer/CSC1010.md": {
+      "description": "CSC1010 - Computer Concepts and Applications",
+      "tokens": 238,
+      "hash": "4aae251cc0c7f30e",
+      "size": 950,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.262Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kbor-transfer/CSC1020.md": {
+      "description": "CSC1020 – Programming Fundamentals",
+      "tokens": 308,
+      "hash": "8fa6ee18752a50a0",
+      "size": 1232,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.263Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kbor-transfer/CSC1030.md": {
+      "description": "CSC1030 – Object-Oriented Programming",
+      "tokens": 263,
+      "hash": "3816b7dd169d613b",
+      "size": 1051,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.263Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kbor-transfer/CSC1040.md": {
+      "description": "CSC 1040 Data Structures",
+      "tokens": 418,
+      "hash": "2068f41ad677599c",
+      "size": 1673,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.263Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kbor-transfer/CSC1050.md": {
+      "description": "CSC1050 Intro to Digital Logic Design",
+      "tokens": 287,
+      "hash": "b7490bd39d7bd615",
+      "size": 1148,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.264Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kbor-transfer/MAT2040.md": {
+      "description": "MAT 2040 - Discrete Structures",
+      "tokens": 412,
+      "hash": "c8c6da705e5f73b6",
+      "size": 1648,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.264Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/ks-mesonet-roadmap.md": {
+      "description": "Kansas Mesonet — Curriculum Capability Roadmap",
+      "tokens": 589,
+      "hash": "2faae21c795a13cd",
+      "size": 2363,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.264Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/ks-population-trends-roadmap.md": {
+      "description": "KS Population Trends — Curriculum Capability Roadmap",
+      "tokens": 728,
+      "hash": "dd9fc097b0bd28ad",
+      "size": 2933,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.265Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-110.md": {
+      "description": "CC 110 — Introduction to Computing",
+      "tokens": 959,
+      "hash": "1ae1ad6bfd4248ea",
+      "size": 3836,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.265Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-111.md": {
+      "description": "CC 111 — Elements of Computer Programming",
+      "tokens": 61,
+      "hash": "411406e5cbf0442b",
+      "size": 243,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.266Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-120.md": {
+      "description": "CC 120 — Web Page Development",
+      "tokens": 2092,
+      "hash": "afb078d402d77acc",
+      "size": 8382,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.266Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-140.md": {
+      "description": "CC 140 — Elements of Artificial Intelligence",
+      "tokens": 118,
+      "hash": "98c36e10b9b555c5",
+      "size": 473,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.267Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-141.md": {
+      "description": "CC 141 — Privacy and Artificial Intelligence",
+      "tokens": 98,
+      "hash": "b3a51ea2724b0bf7",
+      "size": 393,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.267Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-142.md": {
+      "description": "CC 142 — Artificial Intelligence and Cybersecurity",
+      "tokens": 179,
+      "hash": "e0d87d0d80b5922a",
+      "size": 719,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.267Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-210.md": {
+      "description": "CC 210 — Fundamental Computer Programming Concepts",
+      "tokens": 92,
+      "hash": "e57f4a2bf2faf02a",
+      "size": 368,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.268Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-290.md": {
+      "description": "CC 290 — Foundational Topics in Applied Computer Science",
+      "tokens": 67,
+      "hash": "4f4f98bc82c5036b",
+      "size": 270,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.268Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-310.md": {
+      "description": "CC 310 — Data Structures and Algorithms I",
+      "tokens": 64,
+      "hash": "74eda9fd9207d5ec",
+      "size": 258,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.268Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-315.md": {
+      "description": "CC 315 — Data Structures and Algorithms II",
+      "tokens": 85,
+      "hash": "4598419c5b75c8b7",
+      "size": 340,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.269Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-410.md": {
+      "description": "CC 410 — Advanced Programming",
+      "tokens": 102,
+      "hash": "5fc4a265815900ec",
+      "size": 408,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.269Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-510.md": {
+      "description": "CC 510 — Computer Systems Administration",
+      "tokens": 102,
+      "hash": "cc31feb0abb7c355",
+      "size": 409,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.269Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-515.md": {
+      "description": "CC 515 — Full Stack Web Development",
+      "tokens": 120,
+      "hash": "7115ce34208f6254",
+      "size": 482,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.270Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-520.md": {
+      "description": "CC 520 — Database Essentials",
+      "tokens": 84,
+      "hash": "54f8c6de9d013e89",
+      "size": 337,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.270Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-535.md": {
+      "description": "CC 535 — Applied Data Science",
+      "tokens": 113,
+      "hash": "ef94320c4963eb87",
+      "size": 454,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.270Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-590.md": {
+      "description": "CC 590 — Special Topics in Applied Computer Science",
+      "tokens": 41,
+      "hash": "9c1dab40be4af2fc",
+      "size": 164,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.271Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-710.md": {
+      "description": "CC 710 — Introduction to Computing for Educators",
+      "tokens": 146,
+      "hash": "cd6cca9147a7788d",
+      "size": 584,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.271Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-711.md": {
+      "description": "CC 711 — Computer Education Programming Fundamentals",
+      "tokens": 142,
+      "hash": "57dcd1d6d302b62d",
+      "size": 567,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.272Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-730.md": {
+      "description": "CC 730 — Computer Programming for Educators",
+      "tokens": 132,
+      "hash": "f01f6da683045edb",
+      "size": 529,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.272Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-750.md": {
+      "description": "CC 750 — Data Structures and Algorithms for Educators I",
+      "tokens": 141,
+      "hash": "ebd7a239c5fe14e5",
+      "size": 566,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.272Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-755.md": {
+      "description": "CC 755 — Data Structures and Algorithms for Educators II",
+      "tokens": 155,
+      "hash": "e195b3210bc1689d",
+      "size": 622,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.273Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-760.md": {
+      "description": "CC 760 — Advanced Computing for Educators",
+      "tokens": 137,
+      "hash": "df6dfe5c7a51c202",
+      "size": 550,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.273Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cc-798.md": {
+      "description": "CC 798 — Topics in Computing for Educators",
+      "tokens": 66,
+      "hash": "9a0e25c722a7e756",
+      "size": 264,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.273Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-015.md": {
+      "description": "CIS 015 — Undergraduate Seminar",
+      "tokens": 86,
+      "hash": "0e7aea620cd1a025",
+      "size": 343,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.274Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-115.md": {
+      "description": "CIS 115 — Introduction to Computing Science",
+      "tokens": 147,
+      "hash": "dc093788469becdf",
+      "size": 590,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.274Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-116.md": {
+      "description": "CIS 116 — Introduction to Programming",
+      "tokens": 697,
+      "hash": "1503d7e93662c456",
+      "size": 2800,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.274Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-118.md": {
+      "description": "CIS 118 — International Professional Development Experience",
+      "tokens": 51,
+      "hash": "28a1ba53e0618612",
+      "size": 204,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.275Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-190.md": {
+      "description": "CIS 190 — Undergraduate Seminar in Computing and Information Science",
+      "tokens": 46,
+      "hash": "0677b2a71dc3ba26",
+      "size": 186,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.275Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-200.md": {
+      "description": "CIS 200 — Programming Fundamentals",
+      "tokens": 797,
+      "hash": "561a8fe041bffc5b",
+      "size": 3244,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.276Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-208.md": {
+      "description": "CIS 208 — C Programming for Engineers",
+      "tokens": 113,
+      "hash": "cd8fbc620dcf224b",
+      "size": 453,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.276Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-209.md": {
+      "description": "CIS 209 — Python Programming for Engineers",
+      "tokens": 111,
+      "hash": "be74e55e2b8fd092",
+      "size": 444,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.276Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-260.md": {
+      "description": "CIS 260 – Foundations of Relational Databases - Syllabus",
+      "tokens": 885,
+      "hash": "9e51f772483800ea",
+      "size": 3550,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.277Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-290.md": {
+      "description": "CIS 290 — Foundational Topics in Computer Science",
+      "tokens": 64,
+      "hash": "9f9c9cd1a2e35049",
+      "size": 257,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.277Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-300.md": {
+      "description": "CIS 300 — Data and Program Structures",
+      "tokens": 1845,
+      "hash": "3bcd5413c146572e",
+      "size": 7382,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.277Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-301.md": {
+      "description": "CIS 301 — Logical Foundations of Programming",
+      "tokens": 446,
+      "hash": "7406297adecacb0b",
+      "size": 1785,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.278Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-308.md": {
+      "description": "CIS 308 — C Language Laboratory",
+      "tokens": 40,
+      "hash": "d4d857e7bb8f3ccc",
+      "size": 159,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.278Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-351.md": {
+      "description": "CIS 351 — Cyber Defense Basics",
+      "tokens": 132,
+      "hash": "e9a77f9abe801cc2",
+      "size": 530,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.279Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-397.md": {
+      "description": "CIS 397 — Honors Seminar in Computer Science",
+      "tokens": 33,
+      "hash": "a69ff44c0917425c",
+      "size": 132,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.279Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-400.md": {
+      "description": "CIS 400 — Object-Oriented Design, Implementation, and Testing",
+      "tokens": 109,
+      "hash": "4a0135f6ec4c4be4",
+      "size": 437,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.279Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-415.md": {
+      "description": "CIS 415 — Ethics and Conduct for Computing Professionals",
+      "tokens": 153,
+      "hash": "61e8a19e3d829451",
+      "size": 614,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.280Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-450.md": {
+      "description": "CIS 450 — Computer Architecture and Operations",
+      "tokens": 129,
+      "hash": "46f2308cab239dd5",
+      "size": 517,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.280Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-490.md": {
+      "description": "CIS 490 — Special Topics in Computer Science",
+      "tokens": 33,
+      "hash": "87d6171d57b31017",
+      "size": 133,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.280Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-497.md": {
+      "description": "CIS 497 — Undergraduate Research Experience",
+      "tokens": 40,
+      "hash": "abb75de2eb24340f",
+      "size": 162,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.281Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-499.md": {
+      "description": "CIS 499 — Honors Research/Thesis",
+      "tokens": 93,
+      "hash": "472b5f98a7a1799e",
+      "size": 374,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.281Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-501.md": {
+      "description": "CIS 501 — Software Architecture and Design",
+      "tokens": 59,
+      "hash": "93c830c3774c33af",
+      "size": 236,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.281Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-505.md": {
+      "description": "CIS 505 — Introduction to Programming Languages",
+      "tokens": 149,
+      "hash": "ed1efabf7611e776",
+      "size": 598,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.281Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-520.md": {
+      "description": "CIS 520 — Operating Systems I",
+      "tokens": 97,
+      "hash": "9816fcde4439b378",
+      "size": 389,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.282Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-522.md": {
+      "description": "CIS 522 — Introduction to Data Structures",
+      "tokens": 120,
+      "hash": "0a53863107309b54",
+      "size": 482,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.282Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-523.md": {
+      "description": "CIS 523 — Introduction to Concurrent Programming",
+      "tokens": 97,
+      "hash": "796db6b71e2ec23f",
+      "size": 389,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.282Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-525.md": {
+      "description": "CIS 525 — Introduction to Network Programming",
+      "tokens": 105,
+      "hash": "36c38f6ccaab2815",
+      "size": 421,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.283Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-526.md": {
+      "description": "CIS 526 — Web Application Development",
+      "tokens": 96,
+      "hash": "f69888c84889492c",
+      "size": 385,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.283Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-527.md": {
+      "description": "CIS 527 — Enterprise Systems Administration",
+      "tokens": 95,
+      "hash": "0126ae192b29d9f0",
+      "size": 379,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.283Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-530.md": {
+      "description": "CIS 530 — Introduction to Artificial Intelligence",
+      "tokens": 200,
+      "hash": "b36dfa89a95a4797",
+      "size": 802,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.284Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-531.md": {
+      "description": "CIS 531 — Introduction to Programming Techniques for Data Science and Analytics",
+      "tokens": 108,
+      "hash": "d9d0f097f6adf643",
+      "size": 431,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.284Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-532.md": {
+      "description": "CIS 532 — Introduction to Deep Learning",
+      "tokens": 120,
+      "hash": "a06941a7b722b839",
+      "size": 481,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.285Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-533.md": {
+      "description": "CIS 533 — Introduction to Data Science Foundations",
+      "tokens": 100,
+      "hash": "889fcd850f5794bc",
+      "size": 399,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.285Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-536.md": {
+      "description": "CIS 536 — Introduction to Computer Graphics",
+      "tokens": 175,
+      "hash": "7f0a6a7eba2dd609",
+      "size": 701,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.285Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-537.md": {
+      "description": "CIS 537 — Computer Vision",
+      "tokens": 133,
+      "hash": "8a279d3caf747a52",
+      "size": 531,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.286Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-544.md": {
+      "description": "CIS 544 — Advanced Software Design and Developement",
+      "tokens": 106,
+      "hash": "654ffb269a43e91d",
+      "size": 426,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.286Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-551.md": {
+      "description": "CIS 551 — Fundamentals of Computer and Information Security",
+      "tokens": 150,
+      "hash": "d9125d3f2965b354",
+      "size": 600,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.286Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-553.md": {
+      "description": "CIS 553 — Fundamentals of Cryptography",
+      "tokens": 114,
+      "hash": "b22a882697490695",
+      "size": 458,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.287Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-560.md": {
+      "description": "CIS 560 — Database System Concepts",
+      "tokens": 93,
+      "hash": "bc08385f036814ef",
+      "size": 374,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.287Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-561.md": {
+      "description": "CIS 561 — Introduction to Data Science in Practice",
+      "tokens": 122,
+      "hash": "d01f52bf96750ad9",
+      "size": 490,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.287Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-570.md": {
+      "description": "CIS 570 — Introduction to Formal Language Theory",
+      "tokens": 86,
+      "hash": "0b1f40b4d9c4535a",
+      "size": 345,
+      "mtimeMs": 1787330271367.926,
+      "updatedAt": "2026-09-09T17:40:05.288Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-575.md": {
+      "description": "CIS 575 — Introduction to Algorithm Analysis",
+      "tokens": 109,
+      "hash": "4fa9e397bf56d7ba",
+      "size": 435,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.288Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-580.md": {
+      "description": "CIS 580 — Fundamentals of Game Programming",
+      "tokens": 104,
+      "hash": "ecf2b9d9694acda2",
+      "size": 415,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.288Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-585.md": {
+      "description": "CIS 585 — Game Engine Design",
+      "tokens": 100,
+      "hash": "956cd68e1e533080",
+      "size": 400,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.288Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-590.md": {
+      "description": "CIS 590 — Special Topics in Computer Science",
+      "tokens": 47,
+      "hash": "b6523a8159a19094",
+      "size": 187,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.289Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-591.md": {
+      "description": "CIS 591 — Computer Science Applications",
+      "tokens": 22,
+      "hash": "7ddf22b66dd901dc",
+      "size": 88,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.289Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-596.md": {
+      "description": "CIS 596 — Entrepreneurial Computer Science Project",
+      "tokens": 99,
+      "hash": "c0c1c7c2b750b6f2",
+      "size": 396,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.289Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-598.md": {
+      "description": "CIS 598 — Computer Science Project",
+      "tokens": 101,
+      "hash": "1d78d8f7d648b2fb",
+      "size": 405,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.290Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-599.md": {
+      "description": "CIS 599 — Cybersecurity Project",
+      "tokens": 96,
+      "hash": "796dea4e53fdc015",
+      "size": 386,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.290Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-604.md": {
+      "description": "CIS 604 — Set Theory and Logic for Computer Science",
+      "tokens": 47,
+      "hash": "a89c0e3e471255a9",
+      "size": 190,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.290Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-621.md": {
+      "description": "CIS 621 — Real-Time Programming Fundamentals",
+      "tokens": 133,
+      "hash": "75f8945c52c47c34",
+      "size": 533,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.291Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-622.md": {
+      "description": "CIS 622 — Real-Time Operating Systems",
+      "tokens": 114,
+      "hash": "66d5ece2351cc7f4",
+      "size": 458,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.291Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-625.md": {
+      "description": "CIS 625 — Concurrent Software Systems",
+      "tokens": 83,
+      "hash": "36a10bace9f4922f",
+      "size": 333,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.291Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-635.md": {
+      "description": "CIS 635 — Introduction to Computer-Based Knowledge Systems",
+      "tokens": 102,
+      "hash": "db5106dc63795328",
+      "size": 407,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.291Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-636.md": {
+      "description": "CIS 636 — Interactive Computer Graphics",
+      "tokens": 58,
+      "hash": "929b87901a040863",
+      "size": 231,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.292Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-640.md": {
+      "description": "CIS 640 — Software Testing Techniques",
+      "tokens": 57,
+      "hash": "fe46d2ed269fbc3d",
+      "size": 229,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.292Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-641.md": {
+      "description": "CIS 641 — Software Engineering Design Project",
+      "tokens": 83,
+      "hash": "57e9c1e35d88d342",
+      "size": 333,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.292Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-642.md": {
+      "description": "CIS 642 — Software Engineering Project I",
+      "tokens": 95,
+      "hash": "4ba9cdf7322e77fe",
+      "size": 381,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.292Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-643.md": {
+      "description": "CIS 643 — Software Engineering Project II",
+      "tokens": 69,
+      "hash": "8d4243ace1c4fc90",
+      "size": 275,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.293Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-644.md": {
+      "description": "CIS 644 — Object Oriented Design and Development",
+      "tokens": 24,
+      "hash": "9a348bd4457276da",
+      "size": 97,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.293Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-645.md": {
+      "description": "CIS 645 — Software Development Environments",
+      "tokens": 52,
+      "hash": "cebaf226c4b427a6",
+      "size": 209,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.293Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-655.md": {
+      "description": "CIS 655 — Security and Reliability of Computing Systems",
+      "tokens": 117,
+      "hash": "cb50a3c7c473fb5b",
+      "size": 468,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.294Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-690.md": {
+      "description": "CIS 690 — Implementation Projects",
+      "tokens": 81,
+      "hash": "9e85dde1b1990de0",
+      "size": 324,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.294Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-705.md": {
+      "description": "CIS 705 — Programming Languages",
+      "tokens": 129,
+      "hash": "8d1387f6071cfa71",
+      "size": 515,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.294Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-706.md": {
+      "description": "CIS 706 — Translator Design I",
+      "tokens": 70,
+      "hash": "d630c5cac08094fe",
+      "size": 279,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.294Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-720.md": {
+      "description": "CIS 720 — Advanced Operating Systems",
+      "tokens": 67,
+      "hash": "53c03f6ec57a3bd2",
+      "size": 269,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.295Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-721.md": {
+      "description": "CIS 721 — Real-Time Systems",
+      "tokens": 61,
+      "hash": "6854b94f60dfcc68",
+      "size": 246,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.295Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-722.md": {
+      "description": "CIS 722 — Operating System Practices",
+      "tokens": 88,
+      "hash": "0cbeafce28eae13f",
+      "size": 354,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.295Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-725.md": {
+      "description": "CIS 725 — Advanced Cmputer Networks",
+      "tokens": 78,
+      "hash": "bc79ed36d3b319a4",
+      "size": 312,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.295Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-726.md": {
+      "description": "CIS 726 — Advanced World Wide Web Technologies",
+      "tokens": 79,
+      "hash": "21c24bbb2a472d48",
+      "size": 318,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.296Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-730.md": {
+      "description": "CIS 730 — Principles of Artificial Intelligence",
+      "tokens": 90,
+      "hash": "3283956a68d1b879",
+      "size": 359,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.296Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-731.md": {
+      "description": "CIS 731 — Programming Techniques for Data Science and Analytics",
+      "tokens": 106,
+      "hash": "210e627bd4eaf42a",
+      "size": 426,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.296Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-732.md": {
+      "description": "CIS 732 — Machine Learning and Pattern Recognition",
+      "tokens": 104,
+      "hash": "019fcbb19ea1c57f",
+      "size": 416,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.297Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-733.md": {
+      "description": "CIS 733 — Data Science Foundations",
+      "tokens": 134,
+      "hash": "f3a8c0a96c81f709",
+      "size": 537,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.297Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-734.md": {
+      "description": "CIS 734 — Introduction to Genomics and Bioinformatics",
+      "tokens": 98,
+      "hash": "5fdbca04364dab79",
+      "size": 391,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.297Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-736.md": {
+      "description": "CIS 736 — Computer Graphics",
+      "tokens": 40,
+      "hash": "98b7ac8877153f63",
+      "size": 159,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.297Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-737.md": {
+      "description": "CIS 737 — Advanced Computer Vision",
+      "tokens": 135,
+      "hash": "e21a5c5db3457dc4",
+      "size": 540,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.298Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-738.md": {
+      "description": "CIS 738 — Responsible Use of Artificial Intelligence and Machine Learning",
+      "tokens": 110,
+      "hash": "9eb282081962361c",
+      "size": 442,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.298Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-739.md": {
+      "description": "CIS 739 — Natural Language Processing",
+      "tokens": 116,
+      "hash": "c238276ab0c57656",
+      "size": 466,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.298Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-740.md": {
+      "description": "CIS 740 — Software Engineering",
+      "tokens": 45,
+      "hash": "aa95d13ecec97212",
+      "size": 179,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.298Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-744.md": {
+      "description": "CIS 744 — Advance Software Analysis and Design",
+      "tokens": 105,
+      "hash": "af525016ac8ff25a",
+      "size": 421,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.299Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-746.md": {
+      "description": "CIS 746 — Software Measurement",
+      "tokens": 70,
+      "hash": "37e06a8c57112feb",
+      "size": 282,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.299Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-748.md": {
+      "description": "CIS 748 — Advanced Software Management",
+      "tokens": 71,
+      "hash": "bee01186e3ceee30",
+      "size": 286,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.299Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-750.md": {
+      "description": "CIS 750 — Advanced Computer Architecture",
+      "tokens": 104,
+      "hash": "a73852eebeebb292",
+      "size": 417,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.300Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-751.md": {
+      "description": "CIS 751 — Computer And Information Security",
+      "tokens": 165,
+      "hash": "b3ca39ac65bea297",
+      "size": 660,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.300Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-753.md": {
+      "description": "CIS 753 — Applied Cryptography",
+      "tokens": 77,
+      "hash": "64cb32de49c1fdbf",
+      "size": 309,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.300Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-755.md": {
+      "description": "CIS 755 — Systems Security",
+      "tokens": 93,
+      "hash": "91bf48ec71aa9f17",
+      "size": 374,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.301Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-761.md": {
+      "description": "CIS 761 — Data Base Management Systems",
+      "tokens": 66,
+      "hash": "6f60bb26e5260a70",
+      "size": 263,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.301Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-762.md": {
+      "description": "CIS 762 — Office Automation",
+      "tokens": 81,
+      "hash": "f7d4f82fe607652b",
+      "size": 324,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.301Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-764.md": {
+      "description": "CIS 764 — Database Design",
+      "tokens": 45,
+      "hash": "def8d8db2fd01bd6",
+      "size": 181,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.301Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-770.md": {
+      "description": "CIS 770 — Formal Language Theory",
+      "tokens": 85,
+      "hash": "7a249aa4974c7e2c",
+      "size": 341,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.302Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-771.md": {
+      "description": "CIS 771 — Software Specification",
+      "tokens": 75,
+      "hash": "94ac56cc4a13e790",
+      "size": 301,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.302Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-775.md": {
+      "description": "CIS 775 — Analysis of Algorithms",
+      "tokens": 65,
+      "hash": "317dd1eb30523dd4",
+      "size": 261,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.303Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-798.md": {
+      "description": "CIS 798 — Topics in Computer Science",
+      "tokens": 29,
+      "hash": "5e5f0d1c9e46b208",
+      "size": 117,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.303Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-801.md": {
+      "description": "CIS 801 — Translator Design II",
+      "tokens": 47,
+      "hash": "1c6af24c5f85a14b",
+      "size": 190,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.303Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-806.md": {
+      "description": "CIS 806 — Semantics of Programming Languages",
+      "tokens": 84,
+      "hash": "fac9fba12509f94d",
+      "size": 335,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.304Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-810.md": {
+      "description": "CIS 810 — Logic Programming",
+      "tokens": 84,
+      "hash": "aff4573602272d81",
+      "size": 337,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.304Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-820.md": {
+      "description": "CIS 820 — Topics in Theory of Asychronous Systems",
+      "tokens": 99,
+      "hash": "5c95515f74a0b725",
+      "size": 398,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.304Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-825.md": {
+      "description": "CIS 825 — Topics in Distributed Systems",
+      "tokens": 87,
+      "hash": "a89f07c9f846774e",
+      "size": 347,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.305Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-826.md": {
+      "description": "CIS 826 — Protocol Engineering",
+      "tokens": 73,
+      "hash": "16f8d4296daa7349",
+      "size": 294,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.305Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-830.md": {
+      "description": "CIS 830 — Current Topics in Artificial Intelligence",
+      "tokens": 60,
+      "hash": "13534c50a510e75b",
+      "size": 241,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.305Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-831.md": {
+      "description": "CIS 831 — Deep Learning",
+      "tokens": 98,
+      "hash": "cffb8223bb7c6a5b",
+      "size": 392,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.305Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-832.md": {
+      "description": "CIS 832 — Knowledge Representation for the Semantic Web",
+      "tokens": 95,
+      "hash": "25e559866e981a27",
+      "size": 382,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.306Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-833.md": {
+      "description": "CIS 833 — Information Retrieval and Text Mining",
+      "tokens": 95,
+      "hash": "815c50e20743cae8",
+      "size": 381,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.306Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-834.md": {
+      "description": "CIS 834 — Machine Learning for Bioinformatics",
+      "tokens": 80,
+      "hash": "fb9fa4a8ea78bb24",
+      "size": 322,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.306Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-835.md": {
+      "description": "CIS 835 — Neuro-Symbolic Artificial Intelligence: Deep Learning and Knowledge Representation",
+      "tokens": 82,
+      "hash": "050d3c3923988a25",
+      "size": 327,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.306Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-836.md": {
+      "description": "CIS 836 — Knowledge Graphs",
+      "tokens": 61,
+      "hash": "988aa0429dcaeec3",
+      "size": 244,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.307Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-841.md": {
+      "description": "CIS 841 — Verification and Validation",
+      "tokens": 58,
+      "hash": "d6c5b7e8b32b58f1",
+      "size": 234,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.307Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-842.md": {
+      "description": "CIS 842 — Specification & Verification of Reactive Systems",
+      "tokens": 108,
+      "hash": "06b17fc07be2b6bb",
+      "size": 432,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.307Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-844.md": {
+      "description": "CIS 844 — Agent-Oriented Software Engineering",
+      "tokens": 75,
+      "hash": "211d07deec0557c9",
+      "size": 300,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.307Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-855.md": {
+      "description": "CIS 855 — High Assurance Systems",
+      "tokens": 105,
+      "hash": "756a6521590fc314",
+      "size": 419,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.308Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-860.md": {
+      "description": "CIS 860 — Advanced Database Systems",
+      "tokens": 66,
+      "hash": "dc89ec60a167d120",
+      "size": 265,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.308Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-861.md": {
+      "description": "CIS 861 — Data Science in Practice",
+      "tokens": 59,
+      "hash": "3337fef9dbd36736",
+      "size": 236,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.308Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-864.md": {
+      "description": "CIS 864 — Data Engineering",
+      "tokens": 59,
+      "hash": "e7cca8e075a29eb2",
+      "size": 237,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.308Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-870.md": {
+      "description": "CIS 870 — Automata and Computability I",
+      "tokens": 78,
+      "hash": "ce21dbe0c1e1e1e1",
+      "size": 312,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.309Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-890.md": {
+      "description": "CIS 890 — Special Topics in Computer Science",
+      "tokens": 43,
+      "hash": "3c3088bfe899241e",
+      "size": 172,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.309Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-895.md": {
+      "description": "CIS 895 — Mse Project",
+      "tokens": 74,
+      "hash": "c2eca3efa363524d",
+      "size": 297,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.309Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-897.md": {
+      "description": "CIS 897 — Seminar in Computer Science",
+      "tokens": 74,
+      "hash": "ae406926f4b00b49",
+      "size": 298,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.309Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-898.md": {
+      "description": "CIS 898 — Master's Report in Computer Science",
+      "tokens": 34,
+      "hash": "d6d39e8ceca752e4",
+      "size": 136,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.310Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-899.md": {
+      "description": "CIS 899 — Research in Computer Science",
+      "tokens": 30,
+      "hash": "223fbff9c86897b9",
+      "size": 120,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.310Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-905.md": {
+      "description": "CIS 905 — Theory of Programming Languages",
+      "tokens": 59,
+      "hash": "cc88b1b718267a42",
+      "size": 237,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.310Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-920.md": {
+      "description": "CIS 920 — Research Topics in Distributed Systems",
+      "tokens": 52,
+      "hash": "729c247fdb3b8a3c",
+      "size": 209,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.311Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-940.md": {
+      "description": "CIS 940 — Theory of Software Engineering",
+      "tokens": 33,
+      "hash": "927da1fc3724df61",
+      "size": 133,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.311Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-960.md": {
+      "description": "CIS 960 — Theory of Data Base Systems",
+      "tokens": 63,
+      "hash": "bf219ad265a1d7c6",
+      "size": 252,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.311Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-990.md": {
+      "description": "CIS 990 — Research Topics",
+      "tokens": 41,
+      "hash": "cb3775896ad8b293",
+      "size": 165,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.312Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/kstate-catalog/cis-999.md": {
+      "description": "CIS 999 — Research in Computer Science",
+      "tokens": 30,
+      "hash": "77d38a947208db3e",
+      "size": 121,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.312Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/plant-sensor-api-roadmap.md": {
+      "description": "Plant Sensor API — Curriculum Capability Roadmap",
+      "tokens": 446,
+      "hash": "43f8627f05540406",
+      "size": 1801,
+      "mtimeMs": 1787330271371.9226,
+      "updatedAt": "2026-09-09T17:40:05.312Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/raw/courses-report.2026-07-09.csv": {
+      "description": "",
+      "tokens": 64113,
+      "hash": "493d9855cc17503b",
+      "size": 240534,
+      "mtimeMs": 1787330271375.919,
+      "updatedAt": "2026-09-09T17:40:05.315Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/real-world-assets-index.md": {
+      "description": "Real-World Assets Index",
+      "tokens": 767,
+      "hash": "2999007e179f124b",
+      "size": 3074,
+      "mtimeMs": 1787330271375.919,
+      "updatedAt": "2026-09-09T17:40:05.316Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "resources/reference/spiral-threads.md": {
+      "description": "Spiral Threads",
+      "tokens": 7210,
+      "hash": "a535398180cf1dc6",
+      "size": 29072,
+      "mtimeMs": 1787330271375.919,
+      "updatedAt": "2026-09-09T17:40:05.325Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/color.d.ts": {
+      "description": "Resolves a box's outline/band color: per-box override, then per-type",
+      "tokens": 122,
+      "hash": "58a70050534d7f33",
+      "size": 424,
+      "mtimeMs": 1788895214590.6414,
+      "updatedAt": "2026-09-09T17:40:05.325Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/color.js": {
+      "description": "Resolves a box's outline/band color: per-box override, then per-type",
+      "tokens": 175,
+      "hash": "ebe26d6c7b0dc839",
+      "size": 611,
+      "mtimeMs": 1788895214634.8738,
+      "updatedAt": "2026-09-09T17:40:05.326Z",
+      "source": "scan",
+      "importance": 0.3385
+    },
+    "static/js/degree-maps/dist.zip/color.d.ts": {
+      "description": "Resolves a box's outline/band color: per-box override, then per-type",
+      "tokens": 122,
+      "hash": "58a70050534d7f33",
+      "size": 424,
+      "mtimeMs": 1788895215491.4082,
+      "updatedAt": "2026-09-09T17:40:05.326Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/dist.zip/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/color.js": {
+      "description": "Resolves a box's outline/band color: per-box override, then per-type",
+      "tokens": 175,
+      "hash": "ebe26d6c7b0dc839",
+      "size": 611,
+      "mtimeMs": 1788895215499.451,
+      "updatedAt": "2026-09-09T17:40:05.326Z",
+      "source": "scan",
+      "importance": 0.3385
+    },
+    "static/js/degree-maps/dist.zip/elements/base-element.d.ts": {
+      "description": "Declares DegreeElement",
+      "tokens": 51,
+      "hash": "3734556dab44cbe1",
+      "size": 176,
+      "mtimeMs": 1788895215632.1575,
+      "updatedAt": "2026-09-09T17:40:05.327Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/elements/base-element.js": {
+      "description": "Exports DegreeElement",
+      "tokens": 66,
+      "hash": "fa9fd46acbc5f4a1",
+      "size": 228,
+      "mtimeMs": 1788895215620.0933,
+      "updatedAt": "2026-09-09T17:40:05.328Z",
+      "source": "scan",
+      "importance": 0.7105
+    },
+    "static/js/degree-maps/dist.zip/elements/degree-course.d.ts": {
+      "description": "A single course/elective box: a colored band on top showing the",
+      "tokens": 120,
+      "hash": "6c55643cefe7365a",
+      "size": 419,
+      "mtimeMs": 1788895215640.2004,
+      "updatedAt": "2026-09-09T17:40:05.328Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/dist.zip/elements/base-element.js",
+        "static/js/degree-maps/dist.zip/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/elements/degree-course.js": {
+      "description": "A single course/elective box: a colored band on top showing the",
+      "tokens": 720,
+      "hash": "1666f4fc4fe8254c",
+      "size": 2520,
+      "mtimeMs": 1788895215624.1147,
+      "updatedAt": "2026-09-09T17:40:05.329Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DegreeCourseElement",
+          "kind": "class",
+          "startLine": 8,
+          "endLine": 90,
+          "tokens": 630
+        },
+        {
+          "name": "DegreeCourseElement.entry",
+          "kind": "method",
+          "startLine": 11,
+          "endLine": 14,
+          "tokens": 24
+        },
+        {
+          "name": "DegreeCourseElement.entry",
+          "kind": "method",
+          "startLine": 15,
+          "endLine": 17,
+          "tokens": 15
+        },
+        {
+          "name": "DegreeCourseElement.color",
+          "kind": "method",
+          "startLine": 18,
+          "endLine": 21,
+          "tokens": 24
+        },
+        {
+          "name": "DegreeCourseElement.color",
+          "kind": "method",
+          "startLine": 22,
+          "endLine": 24,
+          "tokens": 15
+        },
+        {
+          "name": "DegreeCourseElement.#update",
+          "kind": "method",
+          "startLine": 25,
+          "endLine": 89,
+          "tokens": 527
+        }
+      ],
+      "symbolSource": "ts",
+      "imports": [
+        "static/js/degree-maps/dist.zip/elements/base-element.js",
+        "static/js/degree-maps/dist.zip/hours.js",
+        "static/js/degree-maps/dist.zip/util.js"
+      ],
+      "importance": 0.2397
+    },
+    "static/js/degree-maps/dist.zip/elements/degree-map.d.ts": {
+      "description": "Root element: header band (name + total hours) and the years grid.",
+      "tokens": 91,
+      "hash": "0abb51499c6facd3",
+      "size": 318,
+      "mtimeMs": 1788895215624.1147,
+      "updatedAt": "2026-09-09T17:40:05.329Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/dist.zip/elements/base-element.js",
+        "static/js/degree-maps/dist.zip/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/elements/degree-map.js": {
+      "description": "Root element: header band (name + total hours) and the years grid.",
+      "tokens": 1474,
+      "hash": "9ebe0f42f8eb9767",
+      "size": 5158,
+      "mtimeMs": 1788895215624.1147,
+      "updatedAt": "2026-09-09T17:40:05.330Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DegreeMapElement",
+          "kind": "class",
+          "startLine": 6,
+          "endLine": 177,
+          "tokens": 1380
+        },
+        {
+          "name": "DegreeMapElement.plan",
+          "kind": "method",
+          "startLine": 8,
+          "endLine": 11,
+          "tokens": 23
+        },
+        {
+          "name": "DegreeMapElement.plan",
+          "kind": "method",
+          "startLine": 12,
+          "endLine": 14,
+          "tokens": 14
+        },
+        {
+          "name": "DegreeMapElement.#update",
+          "kind": "method",
+          "startLine": 15,
+          "endLine": 176,
+          "tokens": 1322
+        }
+      ],
+      "symbolSource": "ts",
+      "imports": [
+        "static/js/degree-maps/dist.zip/elements/base-element.js",
+        "static/js/degree-maps/dist.zip/hours.js",
+        "static/js/degree-maps/dist.zip/color.js",
+        "static/js/degree-maps/dist.zip/util.js"
+      ],
+      "importance": 0.2397
+    },
+    "static/js/degree-maps/dist.zip/elements/degree-semester.d.ts": {
+      "description": "A semester column: name and stacked course boxes. On wide screens the",
+      "tokens": 217,
+      "hash": "4be05d5bcf1311ef",
+      "size": 758,
+      "mtimeMs": 1788895215640.2004,
+      "updatedAt": "2026-09-09T17:40:05.330Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/dist.zip/elements/base-element.js",
+        "static/js/degree-maps/dist.zip/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/elements/degree-semester.js": {
+      "description": "A semester column: name and stacked course boxes. On wide screens the",
+      "tokens": 1039,
+      "hash": "9622ae6a0e879da3",
+      "size": 3635,
+      "mtimeMs": 1788895215636.179,
+      "updatedAt": "2026-09-09T17:40:05.330Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DegreeSemesterElement",
+          "kind": "class",
+          "startLine": 14,
+          "endLine": 122,
+          "tokens": 824
+        },
+        {
+          "name": "DegreeSemesterElement.semester",
+          "kind": "method",
+          "startLine": 17,
+          "endLine": 20,
+          "tokens": 25
+        },
+        {
+          "name": "DegreeSemesterElement.semester",
+          "kind": "method",
+          "startLine": 21,
+          "endLine": 23,
+          "tokens": 17
+        },
+        {
+          "name": "DegreeSemesterElement.plan",
+          "kind": "method",
+          "startLine": 24,
+          "endLine": 27,
+          "tokens": 23
+        },
+        {
+          "name": "DegreeSemesterElement.plan",
+          "kind": "method",
+          "startLine": 28,
+          "endLine": 30,
+          "tokens": 14
+        },
+        {
+          "name": "DegreeSemesterElement.#update",
+          "kind": "method",
+          "startLine": 31,
+          "endLine": 121,
+          "tokens": 716
+        }
+      ],
+      "symbolSource": "ts",
+      "imports": [
+        "static/js/degree-maps/dist.zip/elements/base-element.js",
+        "static/js/degree-maps/dist.zip/hours.js",
+        "static/js/degree-maps/dist.zip/color.js",
+        "static/js/degree-maps/dist.zip/layout.js",
+        "static/js/degree-maps/dist.zip/util.js"
+      ],
+      "importance": 0.2397
+    },
+    "static/js/degree-maps/dist.zip/elements/degree-year.d.ts": {
+      "description": "A year grouping: year name centered above its row of semester columns.",
+      "tokens": 110,
+      "hash": "666908142512f44a",
+      "size": 385,
+      "mtimeMs": 1788895215636.179,
+      "updatedAt": "2026-09-09T17:40:05.330Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/dist.zip/elements/base-element.js",
+        "static/js/degree-maps/dist.zip/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/elements/degree-year.js": {
+      "description": "A year grouping: year name centered above its row of semester columns.",
+      "tokens": 642,
+      "hash": "9c1c9c513c2a5ed5",
+      "size": 2244,
+      "mtimeMs": 1788895215640.2004,
+      "updatedAt": "2026-09-09T17:40:05.331Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DegreeYearElement",
+          "kind": "class",
+          "startLine": 5,
+          "endLine": 85,
+          "tokens": 562
+        },
+        {
+          "name": "DegreeYearElement.year",
+          "kind": "method",
+          "startLine": 8,
+          "endLine": 11,
+          "tokens": 23
+        },
+        {
+          "name": "DegreeYearElement.year",
+          "kind": "method",
+          "startLine": 12,
+          "endLine": 14,
+          "tokens": 14
+        },
+        {
+          "name": "DegreeYearElement.plan",
+          "kind": "method",
+          "startLine": 15,
+          "endLine": 18,
+          "tokens": 23
+        },
+        {
+          "name": "DegreeYearElement.plan",
+          "kind": "method",
+          "startLine": 19,
+          "endLine": 21,
+          "tokens": 14
+        },
+        {
+          "name": "DegreeYearElement.#update",
+          "kind": "method",
+          "startLine": 22,
+          "endLine": 84,
+          "tokens": 462
+        }
+      ],
+      "symbolSource": "ts",
+      "imports": [
+        "static/js/degree-maps/dist.zip/elements/base-element.js",
+        "static/js/degree-maps/dist.zip/color.js",
+        "static/js/degree-maps/dist.zip/util.js"
+      ],
+      "importance": 0.2397
+    },
+    "static/js/degree-maps/dist.zip/hours.d.ts": {
+      "description": "e.g. \"3\" or \"1-2\"",
+      "tokens": 130,
+      "hash": "60b6395c2c35e85a",
+      "size": 453,
+      "mtimeMs": 1788895215503.4724,
+      "updatedAt": "2026-09-09T17:40:05.331Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/dist.zip/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/hours.js": {
+      "description": "e.g. \"3\" or \"1-2\"",
+      "tokens": 205,
+      "hash": "de28229d5fff302b",
+      "size": 715,
+      "mtimeMs": 1788895215503.4724,
+      "updatedAt": "2026-09-09T17:40:05.331Z",
+      "source": "scan",
+      "importance": 0.3385
+    },
+    "static/js/degree-maps/dist.zip/index.d.ts": {
+      "description": "",
+      "tokens": 126,
+      "hash": "ac909f3fff10fd2b",
+      "size": 439,
+      "mtimeMs": 1788895215507.494,
+      "updatedAt": "2026-09-09T17:40:05.331Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/dist.zip/types.js",
+        "static/js/degree-maps/dist.zip/elements/degree-course.js",
+        "static/js/degree-maps/dist.zip/elements/degree-semester.js",
+        "static/js/degree-maps/dist.zip/elements/degree-year.js",
+        "static/js/degree-maps/dist.zip/elements/degree-map.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/index.js": {
+      "description": "",
+      "tokens": 126,
+      "hash": "ac909f3fff10fd2b",
+      "size": 439,
+      "mtimeMs": 1788895215511.5154,
+      "updatedAt": "2026-09-09T17:40:05.331Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/dist.zip/types.js",
+        "static/js/degree-maps/dist.zip/elements/degree-course.js",
+        "static/js/degree-maps/dist.zip/elements/degree-semester.js",
+        "static/js/degree-maps/dist.zip/elements/degree-year.js",
+        "static/js/degree-maps/dist.zip/elements/degree-map.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/layout.d.ts": {
+      "description": "Groups a semester's entries into display rows. A `dur < 1` entry marked",
+      "tokens": 100,
+      "hash": "4730380628f4a699",
+      "size": 349,
+      "mtimeMs": 1788895215515.5366,
+      "updatedAt": "2026-09-09T17:40:05.331Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/dist.zip/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/layout.js": {
+      "description": "Groups a semester's entries into display rows. A `dur < 1` entry marked",
+      "tokens": 228,
+      "hash": "0db458cfa4cb9aef",
+      "size": 795,
+      "mtimeMs": 1788895215519.558,
+      "updatedAt": "2026-09-09T17:40:05.332Z",
+      "source": "scan",
+      "importance": 0.2196
+    },
+    "static/js/degree-maps/dist.zip/types.d.ts": {
+      "description": "Data model for a degree plan, per CLAUDE.md's schema.",
+      "tokens": 653,
+      "hash": "773e8bbb9ad0f928",
+      "size": 2287,
+      "mtimeMs": 1788895215527.6008,
+      "updatedAt": "2026-09-09T17:40:05.332Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "HoursRange",
+          "kind": "section",
+          "startLine": 15,
+          "endLine": 18,
+          "tokens": 19
+        },
+        {
+          "name": "Hours",
+          "kind": "section",
+          "startLine": 19,
+          "endLine": 19,
+          "tokens": 12
+        },
+        {
+          "name": "ThemeSpec",
+          "kind": "section",
+          "startLine": 20,
+          "endLine": 25,
+          "tokens": 64
+        },
+        {
+          "name": "Prerequisite",
+          "kind": "section",
+          "startLine": 26,
+          "endLine": 31,
+          "tokens": 68
+        },
+        {
+          "name": "EntryBase",
+          "kind": "section",
+          "startLine": 32,
+          "endLine": 42,
+          "tokens": 112
+        },
+        {
+          "name": "CourseEntry",
+          "kind": "section",
+          "startLine": 43,
+          "endLine": 47,
+          "tokens": 35
+        },
+        {
+          "name": "ElectiveEntry",
+          "kind": "section",
+          "startLine": 48,
+          "endLine": 52,
+          "tokens": 53
+        },
+        {
+          "name": "SlotEntry",
+          "kind": "section",
+          "startLine": 53,
+          "endLine": 53,
+          "tokens": 15
+        },
+        {
+          "name": "Semester",
+          "kind": "section",
+          "startLine": 54,
+          "endLine": 57,
+          "tokens": 21
+        },
+        {
+          "name": "Year",
+          "kind": "section",
+          "startLine": 58,
+          "endLine": 61,
+          "tokens": 20
+        },
+        {
+          "name": "DegreePlan",
+          "kind": "section",
+          "startLine": 62,
+          "endLine": 67,
+          "tokens": 32
+        }
+      ],
+      "symbolSource": "ts",
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/types.js": {
+      "description": "Data model for a degree plan, per CLAUDE.md's schema.",
+      "tokens": 202,
+      "hash": "bfc49b8d24bf62c7",
+      "size": 707,
+      "mtimeMs": 1788895215531.6223,
+      "updatedAt": "2026-09-09T17:40:05.333Z",
+      "source": "scan",
+      "importance": 1
+    },
+    "static/js/degree-maps/dist.zip/util.d.ts": {
+      "description": "Declares escapeHtml",
+      "tokens": 17,
+      "hash": "f1e4f40b696c9abf",
+      "size": 59,
+      "mtimeMs": 1788895215539.665,
+      "updatedAt": "2026-09-09T17:40:05.333Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/dist.zip/util.js": {
+      "description": "Exports escapeHtml",
+      "tokens": 62,
+      "hash": "cdeba1a3d1ef9a98",
+      "size": 215,
+      "mtimeMs": 1788895215543.6865,
+      "updatedAt": "2026-09-09T17:40:05.333Z",
+      "source": "scan",
+      "importance": 0.4064
+    },
+    "static/js/degree-maps/elements/base-element.d.ts": {
+      "description": "Declares DegreeElement",
+      "tokens": 51,
+      "hash": "3734556dab44cbe1",
+      "size": 176,
+      "mtimeMs": 1788895215704.543,
+      "updatedAt": "2026-09-09T17:40:05.334Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/elements/base-element.js": {
+      "description": "Exports DegreeElement",
+      "tokens": 66,
+      "hash": "fa9fd46acbc5f4a1",
+      "size": 228,
+      "mtimeMs": 1788895215708.5645,
+      "updatedAt": "2026-09-09T17:40:05.334Z",
+      "source": "scan",
+      "importance": 0.7105
+    },
+    "static/js/degree-maps/elements/degree-course.d.ts": {
+      "description": "A single course/elective box: a colored band on top showing the",
+      "tokens": 120,
+      "hash": "6c55643cefe7365a",
+      "size": 419,
+      "mtimeMs": 1788895215712.5857,
+      "updatedAt": "2026-09-09T17:40:05.334Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/elements/base-element.js",
+        "static/js/degree-maps/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/elements/degree-course.js": {
+      "description": "A single course/elective box: a colored band on top showing the",
+      "tokens": 720,
+      "hash": "1666f4fc4fe8254c",
+      "size": 2520,
+      "mtimeMs": 1788895215712.5857,
+      "updatedAt": "2026-09-09T17:40:05.336Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DegreeCourseElement",
+          "kind": "class",
+          "startLine": 8,
+          "endLine": 90,
+          "tokens": 630
+        },
+        {
+          "name": "DegreeCourseElement.entry",
+          "kind": "method",
+          "startLine": 11,
+          "endLine": 14,
+          "tokens": 24
+        },
+        {
+          "name": "DegreeCourseElement.entry",
+          "kind": "method",
+          "startLine": 15,
+          "endLine": 17,
+          "tokens": 15
+        },
+        {
+          "name": "DegreeCourseElement.color",
+          "kind": "method",
+          "startLine": 18,
+          "endLine": 21,
+          "tokens": 24
+        },
+        {
+          "name": "DegreeCourseElement.color",
+          "kind": "method",
+          "startLine": 22,
+          "endLine": 24,
+          "tokens": 15
+        },
+        {
+          "name": "DegreeCourseElement.#update",
+          "kind": "method",
+          "startLine": 25,
+          "endLine": 89,
+          "tokens": 527
+        }
+      ],
+      "symbolSource": "ts",
+      "imports": [
+        "static/js/degree-maps/elements/base-element.js",
+        "static/js/degree-maps/hours.js",
+        "static/js/degree-maps/util.js"
+      ],
+      "importance": 0.2397
+    },
+    "static/js/degree-maps/elements/degree-map.d.ts": {
+      "description": "Root element: header band (name + total hours) and the years grid.",
+      "tokens": 91,
+      "hash": "0abb51499c6facd3",
+      "size": 318,
+      "mtimeMs": 1788895215716.6072,
+      "updatedAt": "2026-09-09T17:40:05.336Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/elements/base-element.js",
+        "static/js/degree-maps/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/elements/degree-map.js": {
+      "description": "Root element: header band (name + total hours) and the years grid.",
+      "tokens": 1474,
+      "hash": "9ebe0f42f8eb9767",
+      "size": 5158,
+      "mtimeMs": 1788895215716.6072,
+      "updatedAt": "2026-09-09T17:40:05.336Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DegreeMapElement",
+          "kind": "class",
+          "startLine": 6,
+          "endLine": 177,
+          "tokens": 1380
+        },
+        {
+          "name": "DegreeMapElement.plan",
+          "kind": "method",
+          "startLine": 8,
+          "endLine": 11,
+          "tokens": 23
+        },
+        {
+          "name": "DegreeMapElement.plan",
+          "kind": "method",
+          "startLine": 12,
+          "endLine": 14,
+          "tokens": 14
+        },
+        {
+          "name": "DegreeMapElement.#update",
+          "kind": "method",
+          "startLine": 15,
+          "endLine": 176,
+          "tokens": 1322
+        }
+      ],
+      "symbolSource": "ts",
+      "imports": [
+        "static/js/degree-maps/elements/base-element.js",
+        "static/js/degree-maps/hours.js",
+        "static/js/degree-maps/color.js",
+        "static/js/degree-maps/util.js"
+      ],
+      "importance": 0.2397
+    },
+    "static/js/degree-maps/elements/degree-semester.d.ts": {
+      "description": "A semester column: name and stacked course boxes. On wide screens the",
+      "tokens": 217,
+      "hash": "4be05d5bcf1311ef",
+      "size": 758,
+      "mtimeMs": 1788895215716.6072,
+      "updatedAt": "2026-09-09T17:40:05.336Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/elements/base-element.js",
+        "static/js/degree-maps/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/elements/degree-semester.js": {
+      "description": "A semester column: name and stacked course boxes. On wide screens the",
+      "tokens": 1039,
+      "hash": "9622ae6a0e879da3",
+      "size": 3635,
+      "mtimeMs": 1788895215720.6287,
+      "updatedAt": "2026-09-09T17:40:05.337Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DegreeSemesterElement",
+          "kind": "class",
+          "startLine": 14,
+          "endLine": 122,
+          "tokens": 824
+        },
+        {
+          "name": "DegreeSemesterElement.semester",
+          "kind": "method",
+          "startLine": 17,
+          "endLine": 20,
+          "tokens": 25
+        },
+        {
+          "name": "DegreeSemesterElement.semester",
+          "kind": "method",
+          "startLine": 21,
+          "endLine": 23,
+          "tokens": 17
+        },
+        {
+          "name": "DegreeSemesterElement.plan",
+          "kind": "method",
+          "startLine": 24,
+          "endLine": 27,
+          "tokens": 23
+        },
+        {
+          "name": "DegreeSemesterElement.plan",
+          "kind": "method",
+          "startLine": 28,
+          "endLine": 30,
+          "tokens": 14
+        },
+        {
+          "name": "DegreeSemesterElement.#update",
+          "kind": "method",
+          "startLine": 31,
+          "endLine": 121,
+          "tokens": 716
+        }
+      ],
+      "symbolSource": "ts",
+      "imports": [
+        "static/js/degree-maps/elements/base-element.js",
+        "static/js/degree-maps/hours.js",
+        "static/js/degree-maps/color.js",
+        "static/js/degree-maps/layout.js",
+        "static/js/degree-maps/util.js"
+      ],
+      "importance": 0.2397
+    },
+    "static/js/degree-maps/elements/degree-year.d.ts": {
+      "description": "A year grouping: year name centered above its row of semester columns.",
+      "tokens": 110,
+      "hash": "666908142512f44a",
+      "size": 385,
+      "mtimeMs": 1788895215720.6287,
+      "updatedAt": "2026-09-09T17:40:05.337Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/elements/base-element.js",
+        "static/js/degree-maps/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/elements/degree-year.js": {
+      "description": "A year grouping: year name centered above its row of semester columns.",
+      "tokens": 642,
+      "hash": "9c1c9c513c2a5ed5",
+      "size": 2244,
+      "mtimeMs": 1788895215728.6714,
+      "updatedAt": "2026-09-09T17:40:05.337Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "DegreeYearElement",
+          "kind": "class",
+          "startLine": 5,
+          "endLine": 85,
+          "tokens": 562
+        },
+        {
+          "name": "DegreeYearElement.year",
+          "kind": "method",
+          "startLine": 8,
+          "endLine": 11,
+          "tokens": 23
+        },
+        {
+          "name": "DegreeYearElement.year",
+          "kind": "method",
+          "startLine": 12,
+          "endLine": 14,
+          "tokens": 14
+        },
+        {
+          "name": "DegreeYearElement.plan",
+          "kind": "method",
+          "startLine": 15,
+          "endLine": 18,
+          "tokens": 23
+        },
+        {
+          "name": "DegreeYearElement.plan",
+          "kind": "method",
+          "startLine": 19,
+          "endLine": 21,
+          "tokens": 14
+        },
+        {
+          "name": "DegreeYearElement.#update",
+          "kind": "method",
+          "startLine": 22,
+          "endLine": 84,
+          "tokens": 462
+        }
+      ],
+      "symbolSource": "ts",
+      "imports": [
+        "static/js/degree-maps/elements/base-element.js",
+        "static/js/degree-maps/color.js",
+        "static/js/degree-maps/util.js"
+      ],
+      "importance": 0.2397
+    },
+    "static/js/degree-maps/hours.d.ts": {
+      "description": "e.g. \"3\" or \"1-2\"",
+      "tokens": 130,
+      "hash": "60b6395c2c35e85a",
+      "size": 453,
+      "mtimeMs": 1788895214695.1907,
+      "updatedAt": "2026-09-09T17:40:05.337Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/hours.js": {
+      "description": "e.g. \"3\" or \"1-2\"",
+      "tokens": 205,
+      "hash": "de28229d5fff302b",
+      "size": 715,
+      "mtimeMs": 1788895214779.6343,
+      "updatedAt": "2026-09-09T17:40:05.338Z",
+      "source": "scan",
+      "importance": 0.3385
+    },
+    "static/js/degree-maps/index.d.ts": {
+      "description": "",
+      "tokens": 126,
+      "hash": "ac909f3fff10fd2b",
+      "size": 439,
+      "mtimeMs": 1788895214847.9934,
+      "updatedAt": "2026-09-09T17:40:05.338Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/types.js",
+        "static/js/degree-maps/elements/degree-course.js",
+        "static/js/degree-maps/elements/degree-semester.js",
+        "static/js/degree-maps/elements/degree-year.js",
+        "static/js/degree-maps/elements/degree-map.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/index.js": {
+      "description": "",
+      "tokens": 126,
+      "hash": "ac909f3fff10fd2b",
+      "size": 439,
+      "mtimeMs": 1788895214892.2258,
+      "updatedAt": "2026-09-09T17:40:05.350Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/types.js",
+        "static/js/degree-maps/elements/degree-course.js",
+        "static/js/degree-maps/elements/degree-semester.js",
+        "static/js/degree-maps/elements/degree-year.js",
+        "static/js/degree-maps/elements/degree-map.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/layout.d.ts": {
+      "description": "Groups a semester's entries into display rows. A `dur < 1` entry marked",
+      "tokens": 100,
+      "hash": "4730380628f4a699",
+      "size": 349,
+      "mtimeMs": 1788895215036.989,
+      "updatedAt": "2026-09-09T17:40:05.350Z",
+      "source": "scan",
+      "imports": [
+        "static/js/degree-maps/types.js"
+      ],
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/layout.js": {
+      "description": "Groups a semester's entries into display rows. A `dur < 1` entry marked",
+      "tokens": 228,
+      "hash": "0db458cfa4cb9aef",
+      "size": 795,
+      "mtimeMs": 1788895215077.2031,
+      "updatedAt": "2026-09-09T17:40:05.370Z",
+      "source": "scan",
+      "importance": 0.2196
+    },
+    "static/js/degree-maps/types.d.ts": {
+      "description": "Data model for a degree plan, per CLAUDE.md's schema.",
+      "tokens": 653,
+      "hash": "773e8bbb9ad0f928",
+      "size": 2287,
+      "mtimeMs": 1788895215121.4385,
+      "updatedAt": "2026-09-09T17:40:05.371Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "HoursRange",
+          "kind": "section",
+          "startLine": 15,
+          "endLine": 18,
+          "tokens": 19
+        },
+        {
+          "name": "Hours",
+          "kind": "section",
+          "startLine": 19,
+          "endLine": 19,
+          "tokens": 12
+        },
+        {
+          "name": "ThemeSpec",
+          "kind": "section",
+          "startLine": 20,
+          "endLine": 25,
+          "tokens": 64
+        },
+        {
+          "name": "Prerequisite",
+          "kind": "section",
+          "startLine": 26,
+          "endLine": 31,
+          "tokens": 68
+        },
+        {
+          "name": "EntryBase",
+          "kind": "section",
+          "startLine": 32,
+          "endLine": 42,
+          "tokens": 112
+        },
+        {
+          "name": "CourseEntry",
+          "kind": "section",
+          "startLine": 43,
+          "endLine": 47,
+          "tokens": 35
+        },
+        {
+          "name": "ElectiveEntry",
+          "kind": "section",
+          "startLine": 48,
+          "endLine": 52,
+          "tokens": 53
+        },
+        {
+          "name": "SlotEntry",
+          "kind": "section",
+          "startLine": 53,
+          "endLine": 53,
+          "tokens": 15
+        },
+        {
+          "name": "Semester",
+          "kind": "section",
+          "startLine": 54,
+          "endLine": 57,
+          "tokens": 21
+        },
+        {
+          "name": "Year",
+          "kind": "section",
+          "startLine": 58,
+          "endLine": 61,
+          "tokens": 20
+        },
+        {
+          "name": "DegreePlan",
+          "kind": "section",
+          "startLine": 62,
+          "endLine": 67,
+          "tokens": 32
+        }
+      ],
+      "symbolSource": "ts",
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/types.js": {
+      "description": "Data model for a degree plan, per CLAUDE.md's schema.",
+      "tokens": 202,
+      "hash": "bfc49b8d24bf62c7",
+      "size": 707,
+      "mtimeMs": 1788895215209.9097,
+      "updatedAt": "2026-09-09T17:40:05.371Z",
+      "source": "scan",
+      "importance": 1
+    },
+    "static/js/degree-maps/util.d.ts": {
+      "description": "Declares escapeHtml",
+      "tokens": 17,
+      "hash": "f1e4f40b696c9abf",
+      "size": 59,
+      "mtimeMs": 1788895215286.3164,
+      "updatedAt": "2026-09-09T17:40:05.371Z",
+      "source": "scan",
+      "importance": 0.1789
+    },
+    "static/js/degree-maps/util.js": {
+      "description": "Exports escapeHtml",
+      "tokens": 62,
+      "hash": "cdeba1a3d1ef9a98",
+      "size": 215,
+      "mtimeMs": 1788895215435.1084,
+      "updatedAt": "2026-09-09T17:40:05.371Z",
+      "source": "scan",
+      "importance": 0.4064
+    }
+  },
+  "preamble": [
+    "> Project structure index. Auto-maintained by OpenWolf hooks and daemon.",
+    "> Run `openwolf scan` to generate, or wait for the first Claude Code session.",
+    "> Status: Pending initial scan"
+  ]
+}
