@@ -18,17 +18,16 @@ Carries two embedded throughlines (accessibility + data visualization) and owns 
 
 | Course | What's new at this pass |
 |---|---|
-| **CIS 120** (Y1 Fall) — Web Foundations | Accessibility basics + visual hierarchy as human comprehension (PERCEIVE). |
-| **CIS 140** (semester not yet confirmed in `cs.md`) — Foundations of Artificial Intelligence | SLO 4 explicitly requires "introductory data analysis tools to explore and visualize datasets" — a real, confirmed visualization touchpoint, pending this course's formal addition to the degree map (see open questions). |
-| **CIS 320** (Y2 Fall) — User Experience Development | Honest data visualization — represent data for humans (REPRESENT), on the client side of the CIS 300/320 pairing. **Proposed addition, not yet in CIS 320's drafted content** — see the "Proposed Changes" section of `cis-320.md`. |
-| **CIS 260** (Y1 Spring) — Foundations of Relational Databases | SQL as an investigation tool — writing queries to find, filter, and summarize real-world data to answer questions (COMPREHEND). Not a visualization touchpoint; the course's actual content is query-writing only. |
-| **CIS 320** (Y2 Fall), continued | Formal, bounded exposure to acceptance-criteria and A/B-testing process work (FITNESS) — every student gets this once. `cs.md` is explicit that a *full* acceptance-testing deep dive is deliberately deferred to a Software Architecture specialization elective instead, not duplicated here. |
-| **CIS 400** (Y2 Spring) — capstone of the core | Defend human-facing choices under scrutiny — applying, not introducing, the acceptance-criteria concept CIS 320 already gave every student. |
+| **CIS 120** (Y1 S1) — Web Foundations | Accessibility basics + visual hierarchy as human comprehension. |
+| **CIS 260** (Y1 S2) — Foundations of Relational Databases | SQL as an investigation tool — writing queries to find, filter, and summarize real-world data to answer questions. |
+| **CIS 320** (Y2 S1) — User Experience Development | Honest data visualization — represent data for humans, on the client side of the CIS 300/320 pairing. Formal, bounded exposure to acceptance-criteria and A/B-testing process work — every student gets this once. |
+| **CIS 400** (Y2 S2) — capstone of the core | Defend human-facing choices under scrutiny — applying, not introducing, the acceptance-criteria concept CIS 320 already gave every student. |
 
 ## Connections
 
 - Data-viz throughline converges with the Trustworthy Computing lens (honest charts). CIS 400's defend pass sits beside Correctness & Verification — two kinds of "does it work" (fitness vs correctness) converge but answer different questions.
 
+<!-- 
 ## Open questions for faculty review
 
 1. Data visualization is embedded, never a course slot — confirm faculty can see/assess it.
@@ -39,3 +38,4 @@ Carries two embedded throughlines (accessibility + data visualization) and owns 
 ---
 
 *For how this lands in a specific course, see that course's design page under `content/course-designs/`.*
+-->

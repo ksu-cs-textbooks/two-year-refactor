@@ -8,6 +8,18 @@ ordinal = "6.3"
 
 > *Working draft for faculty review. Regenerated 2026-07-14 against the new course-container structure (`resources/reference/degree-maps/cs.md`) — the prior version of this analysis was written against the retired 8-week-block structure and is no longer current. Course codes for the new core are the working CIS numbers in `cs.md`; several are still placeholders (CIS XXX) pending official assignment.*
 
+
+## CIS Courses Currently Taken by Computer Engineers
+
+CIS 116 (1)
+CIS 200 (4)
+CIS 300 (3)
+CIS 308 (1)
+CIS 400 (3)
+CIS 520 (3)
+
+**15 Total Credits**
+
 ## Context — this is a deeper relationship than a typical service case
 
 The relationship with Computer Engineering is not a simple "CompE takes N credits of service courses from us" arrangement, and the redesign has made that more true, not less. Two things established directly, 2026-07-14:

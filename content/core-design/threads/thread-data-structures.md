@@ -18,20 +18,20 @@ The strongest spiral in the design. Each pass is a real generalization, not a ha
 
 | Course | What's new at this pass |
 |---|---|
-| **CIS 115** (Y1 Fall) — Introduction to Computing Science | Bits, booleans, numbers — the most primitive representation. Carries the former Computational Representation content (binary, Boolean logic, a simplified float format, register-level state). |
-| **CIS 120** (Y1 Fall) — Web Foundations | First informal encounter with a tree-shaped structure: the Document Object Model, navigated and manipulated with no formal "tree" vocabulary yet — just the intuition that a page's content has hierarchical shape. |
-| **CIS 200** (Y1 Spring) — Programming Fundamentals | Collections and iterators used informally, ahead of CIS 300's formal ADT treatment — arrays/lists as containers, iteration over them, functional-style data transformation (map/filter/reduce-style operations) applied to collections. Carries content originally scoped as separate data-transformation and computational-abstractions courses. |
-| **CIS 220** (Y1 Spring) — Platform Programming | Deepens the CIS 120 DOM touch: programmatically manipulating a platform's structured content/state model, still ahead of CIS 300's formal tree ADTs. |
-| **MATH — Graphs, Trees, and Maps** (Y1 Spring) | Formal graph theory (graphs, trees, networks), positioned the semester before CIS 300's hands-on graph work — a deliberate theory-then-practice sequence, not concurrent as originally planned. |
-| **CIS 260** (Y1 Spring) — Foundations of Relational Databases | Relational data as a formal, queryable model. |
-| **CIS 300** (Y2 Fall) — Data and Program Structures | Linear structures (lists, stacks, queues) as ADTs — contract first, implementation hidden. Hierarchical/associative structure (trees, hashing). Graph sub-spiral begins: graphs as a model for relationship-structured data, then representing and building them (adjacency list/matrix — the matrix also seeds basic linear algebra), basic traversal. Spatial indexing as applied trees/hashing (quadtrees, R-trees, geohashing) is a **proposed addition, not yet in the confirmed course schedule** — see the "Proposed Changes" section of `cis-300.md`. This is a dense pass — see the density note below. |
-| **CIS 300** (Y2 Fall), continued | Graph sub-spiral capstone: graph algorithms (shortest path, MST), landing on the representation and traversal work earlier in the same course. |
+| **CIS 115** (Y1 S1) — Introduction to Computing Science | Bits, booleans, numbers — the most primitive representation. Carries the former Computational Representation content (binary, Boolean logic, a simplified float format, register-level state). |
+| **CIS 116** (Y1 S1) - Introduction ot Programming | First encounter with strings, lists, and dictionaries. List comprehensions? |
+| **CIS 120** (Y1 S1) — Web Foundations | First informal encounter with a tree-shaped structure: the Document Object Model, navigated and manipulated with no formal "tree" vocabulary yet — just the intuition that a page's content has hierarchical shape. |
+| **CIS 200** (Y1 S2) — Programming Fundamentals | Collections and iterators used informally, ahead of CIS 300's formal ADT treatment — arrays/lists as containers, iteration over them, functional-style data transformation (map/filter/reduce-style operations) applied to collections. Carries content originally scoped as separate data-transformation and computational-abstractions courses. |
+| **CIS 220** (Y1 S2) — Platform Programming | Deepens the CIS 120 DOM touch: programmatically manipulating a platform's structured content/state model, still ahead of CIS 300's formal tree ADTs. |
+| **MATH — Graphs, Trees, and Maps** (Y1 S2) | Formal graph theory (graphs, trees, networks), positioned the semester before CIS 300's hands-on graph work — a deliberate theory-then-practice sequence, not concurrent as originally planned. |
+| **CIS 260** (Y1 S2) — Foundations of Relational Databases | Relational data as a formal, queryable model. |
+| **CIS 300** (Y2 S1) — Data and Program Structures | Linear structures (lists, stacks, queues) as ADTs — contract first, implementation hidden. Hierarchical/associative structure (trees, hashing). Graph sub-spiral begins: graphs as a model for relationship-structured data, then representing and building them (adjacency list/matrix — the matrix also seeds basic linear algebra), basic traversal. Graph sub-spiral capstone: graph algorithms (shortest path, MST), landing on the representation and traversal work earlier in the same course. Spatial indexing as applied trees/hashing (quadtrees, R-trees, geohashing) is a proposed addition, not yet in the confirmed course schedule. |
 
 ## Connections
 
 - **CIS 301** revisits arrays through a correctness-verification lens (loop invariants, global invariants over array state) — the same structure this thread builds, now reasoned about formally instead of built. See the Correctness & Verification thread.
-- **CIS 141** revisits the CIS 300 matrix/graph representation from a different angle: matrices as the core data structure for AI/ML (tensors), reinforcing the linear-algebra seed planted when adjacency matrices were introduced.
 
+<!--
 ## Open questions for faculty review
 
 1. **CIS 300 density, confirmed acceptable (2026-07-15).** This thread's ADT, hierarchical-structure, and full graph sub-spiral (model → represent → algorithms) all land in one 3-credit course, alongside algorithmic design patterns (see the Algorithmic Thinking & Complexity thread). User's explicit call: controlled through scaffolding and coverage depth, not by displacing content elsewhere — flagged for the later credit-optimization pass, same treatment as CIS 115/260's existing density flags.
@@ -44,3 +44,4 @@ The strongest spiral in the design. Each pass is a real generalization, not a ha
 ---
 
 *For how this lands in a specific course, see that course's design page under `content/course-designs/`.*
+-->

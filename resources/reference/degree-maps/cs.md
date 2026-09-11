@@ -248,7 +248,7 @@ Coverage of the OSI 7-layer model, with exploration of HTTP/HTTPS and web socket
 			
 ### Semester 2			
 
-#### CIS 141 - AI/Data Science
+#### CIS 140 - Foundations of Artificial Intelligence
 
 *1 credit.  New course to be developed as part of the 2-year core.*
 
@@ -278,15 +278,11 @@ This makes CIS 400 a **capstone of the core** — validating everything through 
 
 **This also resolved the Communication Elective cut's one open precondition** — that cut has since been executed (2026-07-14), see Y2S2 below.
 
-#### Arts & Humanities Requirement
-
-*3 credits, part of K-State core, KSC 060.*
-
 #### STAT 410 - Statistics for Computing
 
 *4 credits. New stats course developed to support the two-year core. Numbered 2026-07-15 — no conflict with any existing K-State STAT course.*
 
-#### Social & Behavioral Sciences Requirement
+#### Communications Elective
 
 *3 credits. Part of the K-State Core required of all students, KSC 050. Relocated here from Y1S1, 2026-07-14, credit-balancing pass — backfills the Communication Elective cut below. See design-log.md.*
 
@@ -334,9 +330,9 @@ Deeper coverage of relational databases, relational agebra, no-sql databases.
 
 *3 credits. May reduce to 1 as ethics is integrated into the core.*
 
-#### Unrestricted Elective
+#### Arts & Humanities Requirement
 
-*3 credits. Any course.*
+*3 credits, part of K-State core, KSC 060.*
 
 #### Free Elective
 
@@ -372,21 +368,11 @@ Any CIS course at the 500-level or above OR any of the following:
 - MATH 726 The Mathematics of Data and Networks II
 - MIS 670 Social Media Analytics and Web Mining
 
-#### Required Technical Elective
+#### CIS XXX - Agentic Software Development
 
 *3 credits.*
 
-Any CIS course at the 500-level or above OR any of the following:
-- DEN 590 Interdisciplinary Engineering Capstone Design Experience I
-- ECE 542 Computer Networking
-- GEOG 602 Computer Mapping and Geographic Visualization
-- MATH 615 Digital Image Processing
-- MATH 620 Convex Optimization for Data Science
-- MATH 655 Elementary Numerical Analysis I
-- MATH 656 Elementary Numerical Analysis II
-- MATH 725 The Mathematics of Data and Networks I
-- MATH 726 The Mathematics of Data and Networks II
-- MIS 670 Social Media Analytics and Web Mining
+New course being developed.
 
 #### Arts & Humanities Requirement
 

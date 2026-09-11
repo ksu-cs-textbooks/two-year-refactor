@@ -1,3 +1,7 @@
 {
   "explorer.sortOrder": "mixed"
+  "cSpell.enabledFileTypes": {
+    "*": true,
+    "markdown": true
+  }
 }
