@@ -16,7 +16,7 @@ What's novel here isn't the courses — course-based structure is the familiar u
 
 The core spans four 16-week semesters (Years 1–2) and is **identical across every degree** — specialization happens entirely in the upper division. It combines CIS/MATH/STAT courses with K-State Core general-education requirements:
 
-{{< degree-map >}}
+{{< degree-map style="min-width: 1200px">}}
 <script type="module">
   const plan = {
     name: "Computer Science Two-Year Core",

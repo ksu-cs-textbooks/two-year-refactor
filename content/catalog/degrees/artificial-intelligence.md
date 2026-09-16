@@ -4,8 +4,11 @@ weight = 20
 ordinal = "2.2"
 +++
 
+Proposed for Fall 2027, the Artificial Intelligence degree builds upon the department's expertise and existing courses in AI, machine learning, and knowledge representation to present a cohesive synthesis of modern AI techniques and architectures. As a specialization degree, students earning a Bachelors in AI will also earn a [Bachelors of Computer Science](./computer-science) with no additional coursework required.
 
-{{< degree-map >}}
+The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditation in our next cycle.
+
+{{< degree-map style="width: 2300px" >}}
 <script type="module">
   const plan = {
     name: "Bachelor of Science in Artificial Intelligence",

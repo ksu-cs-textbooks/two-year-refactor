@@ -4,8 +4,11 @@ weight = 30
 ordinal = "2.3"
 +++
 
+The Cybersecurity degree leverages the department's expertise in cybersecurity and designation as a Center for Academic Excellence in Cybersecurity Research, providing hands-on training including systems-level thinking and secure coding practices. As a specialization degree, students earning a Bachelors in AI will also earn a [Bachelors of Computer Science](./computer-science) with no additional coursework required.
 
-{{< degree-map >}}
+The Bachelor of Cybersecurity is accredited by ABET.
+
+{{< degree-map style="width: 2300px" >}}
 <script type="module">
   const plan = {
   name: "Bachelor of Science in Cybersecurity",

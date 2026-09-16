@@ -1,19 +1,18 @@
 +++
-title = "Computer Science"
+title = "Computer Science Core"
 weight = 10
-ordinal = "2.1"
+ordinal = "2.0"
 +++
 
-The department's flagship degree, the Bachelor in Computer Science retains its flexibility as a degree option providing students with many electives. This flexibility allows students to customize the degree to the career they have chosen for themselves, mixing computing know-how from technical electives with other-discipline domain knowledge from unrestricted electives.
+The Computer Science core presents a cohesive 2-year (4-semester) experience grounding students in the foundations of computer science. It adopts a spiral curriculum integrating hands-on code reading, debugging, and development exercises, including working with four cornerstone software projects throughout and culminating in a two-year capstone experience. The core is shared across the department's bachelors degrees: [Computer Science]
 
-Our specialization degrees -- [Artificial Intelligence](./artificial-intelligence) and [Cybersecurity](./cybersecurity) -- are essentially the computer science degree with specific electives chosen.  Thus, every major graduating with a specialization degree also earns a Bachelor of Computer Science with no additional coursework required.
 
-The Bachelor in Computer Science is accredited by ABET.
+The core spans four 16-week semesters (Years 1–2) and is **identical across every degree** — specialization happens entirely in the upper division. It combines CIS/MATH/STAT courses with K-State Core general-education requirements:
 
-{{< degree-map style="width: 2300px">}}
+{{< degree-map style="min-width: 1200px">}}
 <script type="module">
   const plan = {
-    name: "Bachelor of Science in Artificial Intelligence",
+    name: "Computer Science Two-Year Core",
     version: "Draft",
     theme: {
       color: "#512888",
@@ -91,58 +90,7 @@ The Bachelor in Computer Science is accredited by ABET.
               },
               { subject: "ECE", number: 241, name: "Introduction to Electrical and Computer Engineering", hours: 3 },
               { subject: "STAT", number: "XXX", name: "Computational Statistics", hours: 4 },
-              { type: "elective", name: "Required Communications Elective", hours: 3 }
-            ],
-          },
-        ],
-      },
-      {
-        name: "Year 3",
-        semesters: [
-          {
-            name: "Fall",
-            courses: [
-              { subject: "CIS", number: 450, name: "Computer Architecture and Operations", hours: 3 },
-              { subject: "CIS", number: 501, name: "Software Architecture and Design", hours: 3 },
-              { subject: "CIS", number: 505, name: "Introduction to Programming Languages", hours: 3 },
-              { type: "elective", name: "Technical Writing (ENGL 415 or 516)", hours: 3 },
-              { type: "elective", name: "Social and Behavioral Sciences Requirement", hours: 3 },
-            ],
-          },
-          {
-            name: "Spring",
-            courses: [
-              { subject: "CIS", number: 560, name: "Database System Concepts", hours: 3 },
-              { subject: "CIS", number: 575, name: "Introduction to Algorithm Analysis", hours: 3 },
-              { subject: "CIS", number: 415, name: "Ethics and Conduct for Computing Professionals", hours: 3 },
-              { type: "elective", name: "Arts & Humanities Requirement", hours: 3 },
-              { type: "elective", name: "Free Elective", hours: 3 },
-            ],
-          },
-        ],
-      },
-      {
-        name: "Year 4",
-        semesters: [
-          {
-            name: "Fall",
-            courses: [
-              { type: "elective", name: "Systems Elective (CIS 520, 525, or 625)", hours: 3 },
-              { type: "elective", name: "Technical Elective", hours: 3 },
-              { subject: "CIS", number: "XXX", name: "Agentic Software Development", hours: 3 },
-              { type: "elective", name: "Arts & Humanities Requirement", hours: 3 },
-              { type: "elective", name: "Free Elective", hours: 3 },
-            ],
-          },
-          {
-            name: "Spring",
-            courses: [
-              { subject: "CIS", number: 598, name: "CS Capstone", hours: 3 },
-              { type: "elective", name: "Technical Elective", hours: 3 },
-              { subject: "CIS", number: 536, name: "Knowledge Graphs", hours: 3 },
-              { type: "elective", name: "Upper Division Elective", hours: 3 },
-              { type: "elective", name: "Upper Division Elective", hours: 3 },
-              { type: "elective", name: "Upper Division Elective", hours: 3 },
+              { type: "elective", name: "Required Communicaitons Elective", hours: 3 }
             ],
           },
         ],
