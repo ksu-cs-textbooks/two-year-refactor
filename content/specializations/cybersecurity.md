@@ -2,6 +2,7 @@
 title = "Cybersecurity"
 weight = 20
 ordinal = "5.2"
+draft = true
 +++
 
 > *Working draft for faculty review.*

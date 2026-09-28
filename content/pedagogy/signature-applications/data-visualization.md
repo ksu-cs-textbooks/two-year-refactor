@@ -2,6 +2,7 @@
 title = "Data-Visualization Tool (\"Where Did They Go?\")"
 weight = 70
 ordinal = "3.7"
+draft = true
 +++
 
 > *Working draft for faculty review. This page describes a real institutional asset, not a hypothetical example — see [Signature Applications](..) for why the program prefers real assets over invented ones.*

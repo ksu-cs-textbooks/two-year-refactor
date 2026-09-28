@@ -2,6 +2,7 @@
 title = "Kansas Mesonet"
 weight = 60
 ordinal = "3.6"
+draft = true
 +++
 
 > *Working draft for faculty review. This page describes a real institutional asset, not a hypothetical example — see [Signature Applications](..) for why the program prefers real assets over invented ones.*

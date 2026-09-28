@@ -2,9 +2,10 @@
 title = "Disciplined Use of AI"
 weight = 30
 ordinal = "3.3"
+draft = true
 +++
 
-> *Working draft for faculty review. This page describes the AI-Assisted Development bounded practice — the one thread whose scope is deliberately held flat while student judgment deepens. For the course-by-course expression, see `content/core-design/threads/practice-ai-assisted.md` in Chapter 1.*
+> *Working draft for faculty review. This page describes the AI-Assisted Development bounded practice — the one thread whose scope is deliberately held flat while student judgment deepens. For the course-by-course expression, see `content/4-curriculum-design/threads/practice-ai-assisted.md` in Chapter 1.*
 
 ## The tension this page addresses
 
@@ -41,7 +42,7 @@ The scope is flat by design, not by oversight. The rationale has two parts.
 
 ## How students change across the two years: two-axis escalation
 
-The permitted actions stay flat. What escalates along two independent axes, across the same four-stage progression confirmed for this bounded practice (see `content/core-design/threads/practice-ai-assisted.md`): **CIS 116 / CIS 200 → CIS 260 → CIS 400 → CIS 141.**
+The permitted actions stay flat. What escalates along two independent axes, across the same four-stage progression confirmed for this bounded practice (see `content/4-curriculum-design/threads/practice-ai-assisted.md`): **CIS 116 / CIS 200 → CIS 260 → CIS 400 → CIS 141.**
 
 ### Axis 1: The domain and stakes of AI use
 

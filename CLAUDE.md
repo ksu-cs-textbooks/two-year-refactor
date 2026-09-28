@@ -1,17 +1,27 @@
-# OpenWolf
+# CLAUDE.md — Two-Year CS Redesign (Hugo textbook)
+
+This file onboards Claude Code to this repository. Read it fully at the start of every session.
+
+## OpenWolf
 
 This project uses OpenWolf for context management. The always-on rules live in `.claude/rules/openwolf.md`; the hooks handle bookkeeping (anatomy index, memory log, read tracking) automatically.
 
 For the full operating protocol (session handoff, memory discipline, bug logging), load the `openwolf` skill, or read `.wolf/OPENWOLF.md`. Regenerate the session handoff with `/handoff`.
 
 
-# CLAUDE.md — Two-Year CS Redesign (Hugo textbook)
-
-This file onboards Claude Code to this repository. Read it fully at the start of every session.
-
 ## What this repo is
 
 A Hugo documentation site (theme: **hugo-relearn**) publishing the design of a competency-based, spiral two-year Computer Science foundational core and its specialization/service analyses, for K-State CS faculty review. Content is authored as markdown and rendered by Hugo/Relearn. This is **published course material** — correctness, consistency, and review discipline matter more than speed.
+
+# DOCUMENT CREATION GUIDELINES (Inspired by Karpathy)
+
+You are a precise, data-grounded technical writer. Follow these behavior rules:
+
+1. OUTLINE FIRST: Before writing long-form text, output an assumptions checklist and a brief summary of what you intend to cover. Wait for user confirmation if the prompt contains any ambiguity.
+2. MINIMALISM FIRST: Eliminate conversational filler ("Here is the document...", "Certainly, I can help"). Prioritize short sentences, active voice, bullet points, and data tables. If a section can be brief, keep it brief.
+3. SURGICAL EDITS: When updating an existing document, touch only the targeted paragraphs. Do not rewrite surrounding paragraphs to "improve the flow" unless requested.
+4. STRICT GROUNDING: Every claim, specification, or metric must be tied to a provided source. If a detail cannot be verified from the context, mark it explicitly as [UNVERIFIED] or [ASSUMPTION].
+
 
 ## Workflow rules (non-negotiable)
 
@@ -53,45 +63,50 @@ The site is organized into six top-level chapters, in a deliberate narrative ord
 content/
   _index.md                              (site landing)
 
-  core-design/        (1) WHAT IT IS
+  1-approach/             (1) THE DRIVING PHILOSOPHIES AND THE UNDERLYING RESEARCH BASIS
     _index.md
-    overview.md                          ← 00-program-overview.md
-    blocks/_index.md + block-1..8 .md     ← blocks/*.md
+    spiral-curriculum.md
+    universal-design-for-learning.md
+    notional-machines.md
+    project-based-learning.md
+    predict-read-modify-make.md
+
+  2-catalog/            (2) THE DEGREES AND COURSES
+    _index.md
+    computing-foundations.md (The two-year core and specialization model)
+    degrees/
+      _index.md 
+      computer-science.md
+      degrees/cybersecurity.md 
+      degrees/artificial-intelligent-systems.md
+    courses/index.md + per-course pages (cs-101.md, math-101.md, …)
+      
+  3-cornerstone-projects/ (3) SOFTWARE PROJECTS USED THROUGHOUT THE CURRICULUM AS EXEMPLARS AND LIVING LABS
+    _index.md
+    classroom-plant-sensor-network.md
+    kansas-mesonet.md
+    konza-code.md
+    learning-path-platform.md
+
+  4-curriculum-design/ (4) THE CURRICULUM DESIGN - SPIRAL THREADS, LENSES, AND PRACTICES
+    _index.md
     threads/_index.md + thread-*.md       ← threads/*.md (9 spirals + practice-ai-assisted)
     lenses/_index.md + lens-*.md          ← lenses/*.md (3 lenses)
 
-  assessment/         (2) HOW IT'S JUDGED   [STUB — needs authoring]
+  5-assessment/         (5) HOW IT'S JUDGED   [STUB — needs authoring]
     _index.md
     competency-model.md                  (TBD: program-level competencies; courses as evidence; parallel grade/competency tracks)
     signature-assessments.md             (TBD: Code Archaeology, Data Investigation, Design Review, Team/System projects)
 
-  pedagogy/           (3) HOW IT'S TAUGHT   [STUB — needs authoring]
-    _index.md
-    spiral-method.md                     (TBD)
-    developmental-experiences.md         (TBD)
-    ai-discipline.md                     (TBD)
+  6-analyses/           (6) EXTERNAL REQUIREMENTS
+    _index.md 
 
-  course-designs/     (4) THE COURSES        [stubs pre-filled from content.js]
-    _index.md
-    block-1/.._index.md + per-course pages (cs-101.md, math-101.md, …)
-    … block-2 … block-8 …                (30 courses total: 22 CS + 8 external)
-
-  specializations/    (5) WHERE IT LEADS
-    _index.md
-    specialization-model.md              ← specialization-model.md
-    cybersecurity.md                     ← specialization-cybersecurity-recommendation.md
-    data-science.md                      ← specialization-data-science-recommendation.md
-    ai-systems.md                        ← specialization-ai-recommendation.md
-    software-architecture.md             [STUB — not yet drafted]
-
-  analyses/           (6) EXTERNAL REQUIREMENTS
-    _index.md
-    abet-cs.md                           ← analysis-abet-cs.md
-    kstate-replacement.md                ← analysis-kstate-replacement.md
-    service-computer-engineering.md      ← service-computer-engineering.md
+  7-references.md       (7) References in IEEE Format
 ```
 
 Chapter weights are 10/20/30/40/50/60; within a chapter, page weights leave gaps of 10. The `←` arrows show which source markdown migrates into each page.
+
+Each reference should hyperlink to the references page using a hashtag, where a full IEEE-style reference is listed in alphabetical order.
 
 **Three kinds of work, kept as separate PRs:**
 1. **Structure** — commit the skeleton (section `_index.md` pages + stubs). Pure navigation; review the rendered left-nav in isolation.
@@ -100,18 +115,12 @@ Chapter weights are 10/20/30/40/50/60; within a chapter, page weights leave gaps
 
 When migrating: preserve the existing Relearn front matter (title, weight, ordinal, and pre/chapter on section indexes) and drop the source body in place of the `<!-- migrate from … -->` comment. Do not renumber weights/ordinals. Mermaid/MathJax: confirm the theme build has them enabled before relying on them.
 
-## Design decision log (read this for the *why*)
-
-The rationale behind every curricular choice — block frames, the 13-thread taxonomy, external-course pacing, OS grounding, ABET mappings, the specialization model — lives in the design log committed to this repo (`/resources/design-log.md`). **Consult it before changing curricular substance**, and append a short dated note when a substantive design decision is made here, so cross-session continuity holds. Claude Code has no memory of the chat sessions where this design was developed; the log is the source of truth for intent.
-
 ## Existing courses
 
 The current CS department course offerings are found in `resources/existing-cs-courses.json`. Use this to inform analysis and program creation. If you need a course that does not seem to exist, ask for it.
 
 ## Domain guardrails
 
-- Course codes in the core (CS-101 etc.) are **placeholders**; CIS/STAT/MATH numbers are **real K-State courses**. Don't conflate them.
-- The core is **identical across all degrees**; only the upper division differs. Don't introduce per-degree core variation.
 - Credit counts, ABET coverage claims, and "what the core covers" are faculty-reviewed facts. Change them only with explicit instruction, and flag downstream effects (e.g. a credit change ripples into the ABET accounting).
 
 ## Build / preview

@@ -1,4 +1,17 @@
 {
   "version": 1,
-  "bugs": []
+  "bugs": [
+    {
+      "error_message": "computing-foundations.md degree map and prose showed 'Bachelor of Artificial Intelligent Systems' (inconsistent degree name) and 'Required Communicaitons Elective' (typo)",
+      "root_cause": "Content authoring errors in the embedded degree-map JS plan and page prose; not a templating/rendering engine bug. The plan's JS object shape was identical to the working pattern already used on computer-science.md/cybersecurity.md/artificial-intelligence.md, ruling out a shortcode or web-component issue.",
+      "fix": "Corrected degree name to 'Bachelor of Artificial Intelligence' (the interim name to use per the user; 'Bachelor of Artificial Intelligent Systems' is the likely eventual final name) and fixed the 'Communicaitons' typo. NOTE: CIS 401 was initially misdiagnosed as a bug and 'fixed' to CIS 400 -- reverted. CIS 401 is intentional: a fork of CIS 400 specifically for CS students in the new program; students under the old plan and Computer Engineering students take CIS 400 instead. See cerebrum.md.",
+      "tags": ["content-accuracy", "degree-map", "2-catalog"]
+    },
+    {
+      "error_message": "Same class of content bug recurred across most of content/2-catalog/degrees/: 'Communicaitons' typo (artificial-intelligence.md, degrees/_index.md), CIS 415 listed as 'Ethics and Conduct for Computing' missing 'Professionals' (artificial-intelligence.md), computer-science.md's embedded degree-map banner reading 'Bachelor of Science in Artificial Intelligence' instead of Computer Science, and degrees/_index.md's intro sentence truncated mid-link ('...bachelors degrees: [Computer Science]' with no url and no continuation).",
+      "root_cause": "Copy-paste-and-edit authoring across near-identical degree-map pages (shared Year 1/2 core block duplicated in 4 files) without updating every copy; the truncated sentence looks like an incomplete edit, not a rendering engine issue.",
+      "fix": "Fixed the typo in both remaining files, corrected the CIS 415 title to match content/2-catalog/courses/cis-415.md, corrected the plan banner name, and completed the truncated sentence with links to all three real degree pages. Two further suspected issues were confirmed with the user rather than assumed (per the CIS 401 lesson): CIS 536 Knowledge Graphs in computer-science.md's Year 4 was a copy-paste leftover from artificial-intelligence.md, confirmed and replaced with a generic 'Technical Elective' slot; and cis-XXX.md's own title ('Agentic Software Engineering') was stale against all three degree maps ('Agentic Software Development', the confirmed current name) -- updated cis-XXX.md's front-matter title only, left the course description body's use of 'software engineering' terminology untouched since it's substantive content, not a naming label.",
+      "tags": ["content-accuracy", "degree-map", "2-catalog"]
+    }
+  ]
 }

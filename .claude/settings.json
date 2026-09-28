@@ -136,5 +136,9 @@
         ]
       }
     ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "node \"/workspaces/two-year-refactor/.wolf/hooks/visibility-statusline.js\""
   }
 }

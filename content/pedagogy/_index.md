@@ -5,6 +5,7 @@ title = "Pedagogical Approach"
 pre = "<b>3. </b>"
 weight = 30
 ordinal = "3"
+draft = true
 +++
 
 How the program teaches. The spiral method (ideas recur, each return deepening), practice-before-formal sequencing, the recurring developmental experiences (Read → Repair → … → Reflect), the disciplined use of AI, and the real institutional systems (signature applications) students learn against.

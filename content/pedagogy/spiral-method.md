@@ -2,6 +2,7 @@
 title = "The Spiral Method"
 weight = 10
 ordinal = "3.1"
+draft = true
 +++
 
 > *Working draft for faculty review. This page describes the pedagogical principles behind the curriculum's spiral structure. For the course-by-course expression of those principles, see the thread files in Chapter 1 (Core Design) and the course pages in Chapter 4 (Course Designs).*

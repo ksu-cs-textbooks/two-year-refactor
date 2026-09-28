@@ -2,6 +2,7 @@
 title = "Historical Archive"
 weight = 80
 ordinal = "3.8"
+draft = true
 +++
 
 > *Working draft for faculty review. This page describes a real institutional asset, not a hypothetical example — see [Signature Applications](..) for why the program prefers real assets over invented ones.*

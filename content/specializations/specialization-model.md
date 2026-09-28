@@ -2,6 +2,7 @@
 title = "The Specialization Model"
 weight = 10
 ordinal = "5.1"
+draft = true
 +++
 
 > *Working draft for faculty review. How the common two-year core relates to the specialization degrees (Cybersecurity, Data Science, AI Systems, Software Architecture), using K-State's Fall 2026 B.S. in Cybersecurity as the concrete case.*
@@ -42,7 +43,7 @@ One correction worth noting: **CIS 308 (C Language Laboratory) is real core cour
 
 ## The key principle: threads are specialization on-ramps
 
-The core's twelve threads (eight spirals, three lenses, one bounded practice — see `content/core-design/threads/_index.md` and `content/core-design/lenses/_index.md`) are not only pedagogy — each is a deliberate **on-ramp** to one or more specializations. A student gravitates toward a specialization by which threads resonated. This is now an explicit design principle.
+The core's twelve threads (eight spirals, three lenses, one bounded practice — see `content/4-curriculum-design/threads/_index.md` and `content/4-curriculum-design/lenses/_index.md`) are not only pedagogy — each is a deliberate **on-ramp** to one or more specializations. A student gravitates toward a specialization by which threads resonated. This is now an explicit design principle.
 
 | Specialization | Core threads that pre-position the student |
 |---|---|

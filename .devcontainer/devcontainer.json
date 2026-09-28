@@ -4,17 +4,21 @@
 	"name": "Hugo",
 	"image": "hugomods/hugo:go-git-0.148.1",
 	"features": {
-    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
-  },
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": false,
+			"configureZshAsDefaultShell": false
+		},
+        "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
+	},
 	"customizations": {
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
 			 	"terminal.integrated.shell.linux": {
-					"CLAUDE_CODE_GIT_BASH_PATH": "/bin/bash"
+					"CLAUDE_CODE_GIT_BASH_PATH": "/bin/zsh"
 				},
 				"claudeCode.environmentVariables": {
-					"CLAUDE_CODE_GIT_BASH_PATH": "/bin/bash"
+					"CLAUDE_CODE_GIT_BASH_PATH": "/bin/zsh"
 				}
 			},
 			// Add the IDs of extensions you want installed when the container is created.

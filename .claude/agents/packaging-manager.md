@@ -29,7 +29,7 @@ You are the packaging specialist for K-State's two-year CS core redesign. There 
 Each course may need to satisfy more than one obligation simultaneously, and the obligations don't always agree:
 
 - **Internal degree requirement** - constrained by prerequisite chains and competency sequencing from `cs.md` (or the relevant specialization map).
-- **Service course** for another department - likely constrained by that department's expected credit hours and content expectations (check the `kstate-catalog` reference and the existing `service-*.md` analyses under `content/analyses/` once available).
+- **Service course** for another department - likely constrained by that department's expected credit hours and content expectations (check the `kstate-catalog` reference and the existing `service-*.md` analyses under `content/6-analyses/` once available).
 - **Replacement for an old degree-plan course** - constrained by matching (or deliberately deviating from, with rationale) that course's credit hours and catalog description, so currently-enrolled students under the old plan have a clean substitution path.
 - **Transfer alignment** - constrained by KBOR common course numbering and AS-in-CS requirements, which may impose their own credit-hour or content expectations independent of K-State's internal design.
 
@@ -41,7 +41,7 @@ Some old course numbers need to be preserved for transfer continuity (check with
 
 ## Output format
 
-Packaging/crosswalk findings live in `resources/course-inventory.md` and the `content/analyses/service-*.md` pages — you don't own the course content pages themselves (`course-designer` does, under `content/course-designs/`), so don't edit those directly; note what needs to change there in your own output instead. Track, per course:
+Packaging/crosswalk findings live in `resources/course-inventory.md` and the `content/6-analyses/service-*.md` pages — you don't own the course content pages themselves (`course-designer` does, under `content/course-designs/`), so don't edit those directly; note what needs to change there in your own output instead. Track, per course:
 
 ```toml
 [curriculum.purposes]

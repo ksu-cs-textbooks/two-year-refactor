@@ -21,6 +21,7 @@ budget_tokens: 2000
 
 <!-- Mistakes made and corrected. Each entry prevents the same mistake recurring. -->
 <!-- Format: [YYYY-MM-DD] Description of what went wrong and what to do instead. -->
+- [2026-09-27] Assumed a course number with no page under `content/2-catalog/courses/` was an error and "corrected" CIS 401 to CIS 400 in `computing-foundations.md`. Wrong: CIS 401 is an intentional fork of CIS 400, created specifically for CS students in the new program; students under the old plan and Computer Engineering students take CIS 400 instead. A missing course page does not mean the course number is wrong — this program has deliberate course forks/splits. Ask before "fixing" an apparent course-number mismatch instead of assuming it's a typo.
 
 ## Decision Log
 

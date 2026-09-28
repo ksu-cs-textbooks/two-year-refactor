@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-09-09T17:40:06.283Z
-> Files: 370 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-09-28T03:04:36.345Z
+> Files: 406 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -15,6 +15,11 @@
 - `go.sum` — Go dependency checksums (~285 tok)
 - `hugo.toml` — Base URL where the site will be hosted (~9787 tok)
 - `README.md` — Project documentation (~23 tok)
+
+## .claude/agents/
+
+- `course-designer.md` — The single most important rule: no "block" framing in the published report (~5185 tok)
+- `packaging-manager.md` — Required reading before any packaging work (~1768 tok)
 
 ## .devcontainer/
 
@@ -112,6 +117,67 @@
 ## content/
 
 - `_index.md` (~171 tok)
+- `7-references.md` — Akkerman & Bakker, 2011 {#akkerman-bakker-2011} (~1360 tok)
+
+## content/1-approach/
+
+- `_index.md` (~290 tok)
+- `boundary-crossing.md` — What boundary crossing is (~1754 tok)
+- `evidence-centered-design.md` — What evidence-centered design is (~1526 tok)
+- `legitimate-peripheral-participation.md` — What legitimate peripheral participation is (~1666 tok)
+- `spiral-curriculum.md` — What a spiral curriculum is (~2735 tok)
+- `timeline.md` — Methodology: why each course gets five phases, not one (~1278 tok)
+- `universal-design-for-learning.md` — What Universal Design for Learning is (~1327 tok)
+
+## content/1-approach/theoretical-grounding/
+
+- `_index.md` (~111 tok)
+- `evidence-centered-design.md` — What evidence-centered design is (~1529 tok)
+
+## content/2-catalog/
+
+- `_index.md` (~234 tok)
+- `computing-foundations.md` — Declares plan (~1318 tok)
+
+## content/2-catalog/courses/
+
+- `cis-116.md` — Course Description (~794 tok)
+- `cis-120.md` — Course Description (~557 tok)
+- `cis-141.md` — Course Description (~322 tok)
+- `cis-200.md` — Course Description (~506 tok)
+- `cis-300.md` — Course Description (~1931 tok)
+- `cis-401.md` — Course Description (~1040 tok)
+- `cis-415.md` — Course Description (~321 tok)
+- `cis-501.md` — Course Description (~271 tok)
+- `cis-560.md` — Course Description (~301 tok)
+- `cis-XXX.md` — Course Description (~1110 tok)
+
+## content/2-catalog/degrees/
+
+- `_index.md` (~265 tok)
+- `artificial-intelligence.md` — Declares plan (~1709 tok)
+- `computer-science.md` — Declares plan (~1762 tok)
+
+## content/3-cornerstone-projects/
+
+- `_index.md` (~482 tok)
+- `classroom-plant-sensor-network.md` — What it is (~1139 tok)
+- `kansas-historical-data.md` — What it is (~2054 tok)
+- `kansas-mesonet.md` — What it is (~1206 tok)
+
+## content/4-curriculum-design/
+
+- `_index.md` (~75 tok)
+
+## content/5-assessment/
+
+- `_index.md` (~210 tok)
+- `recurring-assessments.md` — Summary (~10252 tok)
+
+## content/5-assessment/competencies/
+
+- `computational-reasoning.md` — Declares vs (~2769 tok)
+- `professional-practice.md` — Declares in (~2242 tok)
 
 ## content/analyses/
 
@@ -203,27 +269,27 @@
 
 ## content/pedagogy/
 
-- `_index.md` (~224 tok)
-- `ai-discipline.md` — The tension this page addresses (~3111 tok)
-- `developmental-experiences.md` — The premise: systems-level thinking before programming skill (~2698 tok)
-- `spiral-method.md` — What a spiral curriculum is — and isn't (~2713 tok)
+- `_index.md` (~227 tok)
+- `ai-discipline.md` — The tension this page addresses (~3118 tok)
+- `developmental-experiences.md` — The premise: systems-level thinking before programming skill (~2701 tok)
+- `spiral-method.md` — What a spiral curriculum is — and isn't (~2716 tok)
 
 ## content/pedagogy/signature-applications/
 
-- `_index.md` — The concept (~1002 tok)
-- `data-visualization.md` — What it is (~714 tok)
-- `historical-archive.md` — What it is (~878 tok)
-- `kansas-mesonet.md` — What it is (~715 tok)
-- `plant-sensor-api.md` — What it is (~681 tok)
+- `_index.md` — The concept (~1006 tok)
+- `data-visualization.md` — What it is (~717 tok)
+- `historical-archive.md` — What it is (~881 tok)
+- `kansas-mesonet.md` — What it is (~718 tok)
+- `plant-sensor-api.md` — What it is (~685 tok)
 
 ## content/specializations/
 
-- `_index.md` (~78 tok)
-- `ai-systems.md` — Premise (~4233 tok)
-- `cybersecurity.md` — Premise (~4416 tok)
-- `data-science.md` — Premise and positioning (~2624 tok)
-- `software-architecture.md` (~287 tok)
-- `specialization-model.md` — The structural reveal (~3088 tok)
+- `_index.md` (~81 tok)
+- `ai-systems.md` — Premise (~4236 tok)
+- `cybersecurity.md` — Premise (~4419 tok)
+- `data-science.md` — Premise and positioning (~2628 tok)
+- `software-architecture.md` (~294 tok)
+- `specialization-model.md` — The structural reveal (~3095 tok)
 
 ## layouts/partials/
 
@@ -252,7 +318,7 @@
 - `ks-population-trends-roadmap.md` — KS Population Trends — Curriculum Capability Roadmap (~728 tok)
 - `plant-sensor-api-roadmap.md` — Plant Sensor API — Curriculum Capability Roadmap (~446 tok)
 - `real-world-assets-index.md` — Real-World Assets Index (~767 tok)
-- `spiral-threads.md` — Spiral Threads (~7210 tok)
+- `spiral-threads.md` — Spiral Threads (~7220 tok)
 
 ## resources/reference/abet/
 
@@ -270,7 +336,7 @@
 - `ai.md` — Artificial Intelligence (~2161 tok)
 - `computational-data-science.md` — Computational Data Science (~2274 tok)
 - `cs-new.md` (~913 tok)
-- `cs.md` — Computer Science (~8506 tok)
+- `cs.md` — Computer Science (~8508 tok)
 - `cybersecurity.md` — Cybersecurity (~3411 tok)
 - `digin.md` — B.S. in Digital Innovation in Media (DIGIN) — Course List (~685 tok)
 - `stats-ds-double-major.md` — CS + Statistics/Data Science Double Major — Overlap Analysis (~1630 tok)

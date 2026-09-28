@@ -2,6 +2,7 @@
 title = "Signature Applications"
 weight = 40
 ordinal = "3.4"
+draft = true
 +++
 
 > *Working draft for faculty review. The signature-application concept — teaching against real, institutionally-grounded systems rather than invented examples — is a pedagogical design decision, not yet fully ratified. This page describes the concept; the companion pages describe each real asset.*

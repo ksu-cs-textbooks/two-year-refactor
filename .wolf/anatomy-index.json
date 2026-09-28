@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-09-09T17:40:06.283Z",
-    "fileCount": 370,
+    "lastScanned": "2026-09-28T03:04:36.345Z",
+    "fileCount": 406,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "063752bb7d60b5fc698d69e8a691066d6e3707b609de063fbc8ffae8bffc4f83",
-    "storeUpdatedAt": "2026-09-09T17:40:06.286Z",
-    "rootHash": "f6b95458221916a5"
+    "renderedHash": "880d5cb0fcdc17b397863920495bbe9fc808e5ede5105dac8babb4f013a0c14d",
+    "storeUpdatedAt": "2026-09-28T03:04:36.358Z",
+    "rootHash": "7cd6a670d6ffd7e8"
   },
   "files": {
     ".devcontainer/devcontainer-lock.json": {
@@ -752,153 +752,138 @@
     },
     "content/pedagogy/_index.md": {
       "description": "",
-      "tokens": 224,
-      "hash": "323fee594c1a8aea",
-      "size": 903,
-      "mtimeMs": 1787330271355.9365,
-      "updatedAt": "2026-09-09T17:40:05.189Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 227,
+      "hash": "71ee450c3307eb8b",
+      "size": 916,
+      "mtimeMs": 1790477759258.1406,
+      "updatedAt": "2026-09-27T02:55:59.296Z",
+      "source": "hook"
     },
     "content/pedagogy/ai-discipline.md": {
       "description": "The tension this page addresses",
-      "tokens": 3111,
-      "hash": "4a198bc2aa60c4e6",
-      "size": 12511,
-      "mtimeMs": 1787330271355.9365,
-      "updatedAt": "2026-09-09T17:40:05.190Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 3118,
+      "hash": "401635a6c9f755e3",
+      "size": 12540,
+      "mtimeMs": 1790479156009.5933,
+      "updatedAt": "2026-09-27T03:19:16.047Z",
+      "source": "hook"
     },
     "content/pedagogy/developmental-experiences.md": {
       "description": "The premise: systems-level thinking before programming skill",
-      "tokens": 2698,
-      "hash": "f52c45edb55f1649",
-      "size": 10850,
-      "mtimeMs": 1787330271355.9365,
-      "updatedAt": "2026-09-09T17:40:05.190Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 2701,
+      "hash": "f0d9e886417e9c59",
+      "size": 10863,
+      "mtimeMs": 1790477761543.296,
+      "updatedAt": "2026-09-27T02:56:01.578Z",
+      "source": "hook"
     },
     "content/pedagogy/signature-applications/_index.md": {
       "description": "The concept",
-      "tokens": 1002,
-      "hash": "41e6f04a6d39069e",
-      "size": 4034,
-      "mtimeMs": 1787330271355.9365,
-      "updatedAt": "2026-09-09T17:40:05.190Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 1006,
+      "hash": "7c1b26e7526159bb",
+      "size": 4047,
+      "mtimeMs": 1790477763822.1648,
+      "updatedAt": "2026-09-27T02:56:03.862Z",
+      "source": "hook"
     },
     "content/pedagogy/signature-applications/data-visualization.md": {
       "description": "What it is",
-      "tokens": 714,
-      "hash": "7ecb3d80f2e5d10e",
-      "size": 2876,
-      "mtimeMs": 1787330271359.9329,
-      "updatedAt": "2026-09-09T17:40:05.191Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 717,
+      "hash": "d7cc132dfa16e479",
+      "size": 2889,
+      "mtimeMs": 1790477767350.8162,
+      "updatedAt": "2026-09-27T02:56:07.387Z",
+      "source": "hook"
     },
     "content/pedagogy/signature-applications/historical-archive.md": {
       "description": "What it is",
-      "tokens": 878,
-      "hash": "f2be2c58e014e77c",
-      "size": 3525,
-      "mtimeMs": 1787330271359.9329,
-      "updatedAt": "2026-09-09T17:40:05.191Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 881,
+      "hash": "c847d49fd7a85f62",
+      "size": 3538,
+      "mtimeMs": 1790477768575.1665,
+      "updatedAt": "2026-09-27T02:56:08.611Z",
+      "source": "hook"
     },
     "content/pedagogy/signature-applications/kansas-mesonet.md": {
       "description": "What it is",
-      "tokens": 715,
-      "hash": "01df1b1f4fa83306",
-      "size": 2873,
-      "mtimeMs": 1787330271359.9329,
-      "updatedAt": "2026-09-09T17:40:05.191Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 718,
+      "hash": "b85397eb17b28c94",
+      "size": 2886,
+      "mtimeMs": 1790477766287.387,
+      "updatedAt": "2026-09-27T02:56:06.326Z",
+      "source": "hook"
     },
     "content/pedagogy/signature-applications/plant-sensor-api.md": {
       "description": "What it is",
-      "tokens": 681,
-      "hash": "0a26ffd0a95c6004",
-      "size": 2736,
-      "mtimeMs": 1787330271359.9329,
-      "updatedAt": "2026-09-09T17:40:05.191Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 685,
+      "hash": "160f44a49c0dfb8e",
+      "size": 2749,
+      "mtimeMs": 1790477765056.2065,
+      "updatedAt": "2026-09-27T02:56:05.093Z",
+      "source": "hook"
     },
     "content/pedagogy/spiral-method.md": {
       "description": "What a spiral curriculum is — and isn't",
-      "tokens": 2713,
-      "hash": "2305835e239309ae",
-      "size": 10918,
-      "mtimeMs": 1787330271359.9329,
-      "updatedAt": "2026-09-09T17:40:05.191Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 2716,
+      "hash": "fb6f616d51d6386c",
+      "size": 10931,
+      "mtimeMs": 1790477760405.7454,
+      "updatedAt": "2026-09-27T02:56:00.442Z",
+      "source": "hook"
     },
     "content/specializations/_index.md": {
       "description": "",
-      "tokens": 78,
-      "hash": "535942b226ddd505",
-      "size": 310,
-      "mtimeMs": 1782755147058.2046,
-      "updatedAt": "2026-09-09T17:40:05.192Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 81,
+      "hash": "253851045a2e54c8",
+      "size": 323,
+      "mtimeMs": 1790477772602.1262,
+      "updatedAt": "2026-09-27T02:56:12.640Z",
+      "source": "hook"
     },
     "content/specializations/ai-systems.md": {
       "description": "Premise",
-      "tokens": 4233,
-      "hash": "a94b6666870f49f5",
-      "size": 16965,
-      "mtimeMs": 1788900003007.5574,
-      "updatedAt": "2026-09-09T17:40:05.192Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 4236,
+      "hash": "dc82af9962cb9cfd",
+      "size": 16978,
+      "mtimeMs": 1790477777010.888,
+      "updatedAt": "2026-09-27T02:56:17.046Z",
+      "source": "hook"
     },
     "content/specializations/cybersecurity.md": {
       "description": "Premise",
-      "tokens": 4416,
-      "hash": "f614e98e592e2b0e",
-      "size": 17716,
-      "mtimeMs": 1788900384286.339,
-      "updatedAt": "2026-09-09T17:40:05.192Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 4419,
+      "hash": "d5f3466e4869b13a",
+      "size": 17729,
+      "mtimeMs": 1790477774883.3123,
+      "updatedAt": "2026-09-27T02:56:14.939Z",
+      "source": "hook"
     },
     "content/specializations/data-science.md": {
       "description": "Premise and positioning",
-      "tokens": 2624,
-      "hash": "e839c1707655b719",
-      "size": 10582,
-      "mtimeMs": 1787330271359.9329,
-      "updatedAt": "2026-09-09T17:40:05.193Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 2628,
+      "hash": "91c4e9bac06253f8",
+      "size": 10595,
+      "mtimeMs": 1790477775936.6938,
+      "updatedAt": "2026-09-27T02:56:15.988Z",
+      "source": "hook"
     },
     "content/specializations/software-architecture.md": {
       "description": "",
-      "tokens": 287,
-      "hash": "35906da7948f4919",
-      "size": 1153,
-      "mtimeMs": 1787330271359.9329,
-      "updatedAt": "2026-09-09T17:40:05.193Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 294,
+      "hash": "3474510c77e15f50",
+      "size": 1182,
+      "mtimeMs": 1790479157336.8655,
+      "updatedAt": "2026-09-27T03:19:17.372Z",
+      "source": "hook"
     },
     "content/specializations/specialization-model.md": {
       "description": "The structural reveal",
-      "tokens": 3088,
-      "hash": "e71d3f3e84f5bd6d",
-      "size": 12428,
-      "mtimeMs": 1787330271359.9329,
-      "updatedAt": "2026-09-09T17:40:05.193Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 3095,
+      "hash": "12665d02c0b1048e",
+      "size": 12457,
+      "mtimeMs": 1790479158503.922,
+      "updatedAt": "2026-09-27T03:19:18.558Z",
+      "source": "hook"
     },
     "content-archive/v1/core-design/blocks/_index.md": {
       "description": "",
@@ -1612,13 +1597,12 @@
     },
     "resources/reference/degree-maps/cs.md": {
       "description": "Computer Science",
-      "tokens": 8506,
-      "hash": "46f6a2e484279161",
-      "size": 34202,
-      "mtimeMs": 1787330271363.9294,
-      "updatedAt": "2026-09-09T17:40:05.260Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 8508,
+      "hash": "d499f5c469e15beb",
+      "size": 34210,
+      "mtimeMs": 1790479165914.4211,
+      "updatedAt": "2026-09-27T03:19:26.079Z",
+      "source": "hook"
     },
     "resources/reference/degree-maps/cybersecurity.md": {
       "description": "Cybersecurity",
@@ -3262,13 +3246,12 @@
     },
     "resources/reference/spiral-threads.md": {
       "description": "Spiral Threads",
-      "tokens": 7210,
-      "hash": "a535398180cf1dc6",
-      "size": 29072,
-      "mtimeMs": 1787330271375.919,
-      "updatedAt": "2026-09-09T17:40:05.325Z",
-      "source": "scan",
-      "importance": 0.1789
+      "tokens": 7220,
+      "hash": "587abe4745a947d2",
+      "size": 29114,
+      "mtimeMs": 1790479168358.2866,
+      "updatedAt": "2026-09-27T03:19:28.504Z",
+      "source": "hook"
     },
     "static/js/degree-maps/color.d.ts": {
       "description": "Resolves a box's outline/band color: per-box override, then per-type",
@@ -4325,6 +4308,330 @@
       "updatedAt": "2026-09-09T17:40:05.371Z",
       "source": "scan",
       "importance": 0.4064
+    },
+    "content/4-curriculum-design/_index.md": {
+      "description": "",
+      "tokens": 75,
+      "hash": "34fac81ed1903116",
+      "size": 299,
+      "mtimeMs": 1790477713740.3318,
+      "updatedAt": "2026-09-27T02:55:13.778Z",
+      "source": "hook"
+    },
+    "content/5-assessment/_index.md": {
+      "description": "",
+      "tokens": 210,
+      "hash": "6fa35d0bf8df2603",
+      "size": 842,
+      "mtimeMs": 1790477714940.518,
+      "updatedAt": "2026-09-27T02:55:14.994Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-141.md": {
+      "description": "Course Description",
+      "tokens": 322,
+      "hash": "3ec84e1755328275",
+      "size": 1301,
+      "mtimeMs": 1790479149088.932,
+      "updatedAt": "2026-09-27T03:19:09.134Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-415.md": {
+      "description": "Course Description",
+      "tokens": 321,
+      "hash": "9f9b3c80560135bf",
+      "size": 1292,
+      "mtimeMs": 1790479150001.7014,
+      "updatedAt": "2026-09-27T03:19:10.041Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-501.md": {
+      "description": "Course Description",
+      "tokens": 271,
+      "hash": "eccfb0e8390b9263",
+      "size": 1088,
+      "mtimeMs": 1790479151856.7107,
+      "updatedAt": "2026-09-27T03:19:11.888Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-560.md": {
+      "description": "Course Description",
+      "tokens": 301,
+      "hash": "93de2ca4ab807c2b",
+      "size": 1209,
+      "mtimeMs": 1790479152237.5037,
+      "updatedAt": "2026-09-27T03:19:12.271Z",
+      "source": "hook"
+    },
+    "content/5-assessment/competencies/computational-reasoning.md": {
+      "description": "Declares vs",
+      "tokens": 2769,
+      "hash": "31322caa10ae0e21",
+      "size": 11176,
+      "mtimeMs": 1790479152836.8267,
+      "updatedAt": "2026-09-27T03:19:12.873Z",
+      "source": "hook"
+    },
+    "content/5-assessment/competencies/professional-practice.md": {
+      "description": "Declares in",
+      "tokens": 2242,
+      "hash": "0edf73765aba0478",
+      "size": 9073,
+      "mtimeMs": 1790479153803.8806,
+      "updatedAt": "2026-09-27T03:19:13.857Z",
+      "source": "hook"
+    },
+    "content/5-assessment/recurring-assessments.md": {
+      "description": "Summary",
+      "tokens": 10252,
+      "hash": "ddcfa3cafa8496f2",
+      "size": 41350,
+      "mtimeMs": 1790479154897.5234,
+      "updatedAt": "2026-09-27T03:19:14.935Z",
+      "source": "hook"
+    },
+    ".claude/agents/course-designer.md": {
+      "description": "The single most important rule: no \"block\" framing in the published report",
+      "tokens": 5185,
+      "hash": "a0650a8c2a05eade",
+      "size": 20890,
+      "mtimeMs": 1790479162413.2812,
+      "updatedAt": "2026-09-27T03:19:22.468Z",
+      "source": "hook"
+    },
+    ".claude/agents/packaging-manager.md": {
+      "description": "Required reading before any packaging work",
+      "tokens": 1768,
+      "hash": "f7806936c0a019b8",
+      "size": 7075,
+      "mtimeMs": 1790479165132.537,
+      "updatedAt": "2026-09-27T03:19:25.492Z",
+      "source": "hook"
+    },
+    "content/7-references.md": {
+      "description": "Akkerman & Bakker, 2011 {#akkerman-bakker-2011}",
+      "tokens": 1360,
+      "hash": "24f76b54900c1b48",
+      "size": 5460,
+      "mtimeMs": 1790520858056.1885,
+      "updatedAt": "2026-09-27T14:54:18.092Z",
+      "source": "hook"
+    },
+    "content/1-approach/spiral-curriculum.md": {
+      "description": "What a spiral curriculum is",
+      "tokens": 2735,
+      "hash": "d47578e9cb143a9c",
+      "size": 11002,
+      "mtimeMs": 1790514697384.4363,
+      "updatedAt": "2026-09-27T13:11:37.439Z",
+      "source": "hook"
+    },
+    "content/1-approach/legitimate-peripheral-participation.md": {
+      "description": "What legitimate peripheral participation is",
+      "tokens": 1666,
+      "hash": "eb9f1cbdb0c0a765",
+      "size": 6697,
+      "mtimeMs": 1790517541670.5098,
+      "updatedAt": "2026-09-27T13:59:01.723Z",
+      "source": "hook"
+    },
+    "content/1-approach/evidence-centered-design.md": {
+      "description": "What evidence-centered design is",
+      "tokens": 1526,
+      "hash": "e4c5012d729104a2",
+      "size": 6128,
+      "mtimeMs": 1790517757018.6423,
+      "updatedAt": "2026-09-27T14:02:37.077Z",
+      "source": "hook"
+    },
+    "content/1-approach/boundary-crossing.md": {
+      "description": "What boundary crossing is",
+      "tokens": 1754,
+      "hash": "2574928753613128",
+      "size": 7048,
+      "mtimeMs": 1790520597117.3115,
+      "updatedAt": "2026-09-27T14:49:57.160Z",
+      "source": "hook"
+    },
+    "content/1-approach/universal-design-for-learning.md": {
+      "description": "What Universal Design for Learning is",
+      "tokens": 1327,
+      "hash": "056409d436a4a8f8",
+      "size": 5329,
+      "mtimeMs": 1790520879762.3838,
+      "updatedAt": "2026-09-27T14:54:39.803Z",
+      "source": "hook"
+    },
+    "content/2-catalog/computing-foundations.md": {
+      "description": "Declares plan",
+      "tokens": 1318,
+      "hash": "31f49f14822e625b",
+      "size": 5272,
+      "mtimeMs": 1790528731833.4219,
+      "updatedAt": "2026-09-27T17:05:31.872Z",
+      "source": "hook"
+    },
+    "content/2-catalog/degrees/artificial-intelligence.md": {
+      "description": "Declares plan",
+      "tokens": 1709,
+      "hash": "cb94b530c5756c3c",
+      "size": 6833,
+      "mtimeMs": 1790529001084.0747,
+      "updatedAt": "2026-09-27T17:10:01.147Z",
+      "source": "hook"
+    },
+    "content/2-catalog/degrees/computer-science.md": {
+      "description": "Declares plan",
+      "tokens": 1762,
+      "hash": "46304222138e2489",
+      "size": 7045,
+      "mtimeMs": 1790531565444.7654,
+      "updatedAt": "2026-09-27T17:52:45.489Z",
+      "source": "hook"
+    },
+    "content/2-catalog/degrees/_index.md": {
+      "description": "",
+      "tokens": 265,
+      "hash": "d0f5843e039cc47c",
+      "size": 1063,
+      "mtimeMs": 1790562916061.1118,
+      "updatedAt": "2026-09-28T02:35:16.100Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-XXX.md": {
+      "description": "Course Description",
+      "tokens": 1110,
+      "hash": "9287442b7e4e1fd7",
+      "size": 4437,
+      "mtimeMs": 1790531583413.2944,
+      "updatedAt": "2026-09-27T17:53:03.451Z",
+      "source": "hook"
+    },
+    "content/3-cornerstone-projects/_index.md": {
+      "description": "",
+      "tokens": 482,
+      "hash": "ad85d75e76a752d9",
+      "size": 1939,
+      "mtimeMs": 1790562528915.3662,
+      "updatedAt": "2026-09-28T02:28:48.966Z",
+      "source": "hook"
+    },
+    "content/3-cornerstone-projects/classroom-plant-sensor-network.md": {
+      "description": "What it is",
+      "tokens": 1139,
+      "hash": "9ba09fdd47b2fe66",
+      "size": 4579,
+      "mtimeMs": 1790561509401.2207,
+      "updatedAt": "2026-09-28T02:11:49.466Z",
+      "source": "hook"
+    },
+    "content/3-cornerstone-projects/kansas-mesonet.md": {
+      "description": "What it is",
+      "tokens": 1206,
+      "hash": "3b32642965ece4af",
+      "size": 4848,
+      "mtimeMs": 1790562152305.6636,
+      "updatedAt": "2026-09-28T02:22:32.355Z",
+      "source": "hook"
+    },
+    "content/1-approach/timeline.md": {
+      "description": "Methodology: why each course gets five phases, not one",
+      "tokens": 1278,
+      "hash": "a68bae4ce2c3eb32",
+      "size": 5124,
+      "mtimeMs": 1790537954577.9216,
+      "updatedAt": "2026-09-27T19:39:14.614Z",
+      "source": "hook"
+    },
+    "content/1-approach/theoretical-grounding/_index.md": {
+      "description": "",
+      "tokens": 111,
+      "hash": "3ea3310a5618c332",
+      "size": 447,
+      "mtimeMs": 1790534500813.1086,
+      "updatedAt": "2026-09-27T18:41:40.855Z",
+      "source": "hook"
+    },
+    "content/1-approach/theoretical-grounding/evidence-centered-design.md": {
+      "description": "What evidence-centered design is",
+      "tokens": 1529,
+      "hash": "def60f2ac41de09b",
+      "size": 6140,
+      "mtimeMs": 1790534513934.041,
+      "updatedAt": "2026-09-27T18:41:53.978Z",
+      "source": "hook"
+    },
+    "content/3-cornerstone-projects/kansas-historical-data.md": {
+      "description": "What it is",
+      "tokens": 2054,
+      "hash": "ce103f0d3363d65f",
+      "size": 8216,
+      "mtimeMs": 1790560888954.8367,
+      "updatedAt": "2026-09-28T02:01:29.008Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-116.md": {
+      "description": "Course Description",
+      "tokens": 794,
+      "hash": "469872889cbfa3c0",
+      "size": 3177,
+      "mtimeMs": 1790563773975.201,
+      "updatedAt": "2026-09-28T02:49:34.019Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-120.md": {
+      "description": "Course Description",
+      "tokens": 557,
+      "hash": "7ce5acd757c11e87",
+      "size": 2231,
+      "mtimeMs": 1790563779971.268,
+      "updatedAt": "2026-09-28T02:49:40.070Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-200.md": {
+      "description": "Course Description",
+      "tokens": 506,
+      "hash": "0412352cb0669d7e",
+      "size": 2039,
+      "mtimeMs": 1790563785031.5256,
+      "updatedAt": "2026-09-28T02:49:45.073Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-300.md": {
+      "description": "Course Description",
+      "tokens": 1931,
+      "hash": "cb379946af22cf83",
+      "size": 7733,
+      "mtimeMs": 1790563793020.897,
+      "updatedAt": "2026-09-28T02:49:53.146Z",
+      "source": "hook"
+    },
+    "content/2-catalog/courses/cis-401.md": {
+      "description": "Course Description",
+      "tokens": 1040,
+      "hash": "8d433a64cf5683af",
+      "size": 4161,
+      "mtimeMs": 1790564090375.4363,
+      "updatedAt": "2026-09-28T02:54:50.432Z",
+      "source": "hook"
+    },
+    "content/1-approach/_index.md": {
+      "description": "",
+      "tokens": 290,
+      "hash": "9e46ef1c191a4bd6",
+      "size": 1164,
+      "mtimeMs": 1790564437584.1538,
+      "updatedAt": "2026-09-28T03:00:37.628Z",
+      "source": "hook"
+    },
+    "content/2-catalog/_index.md": {
+      "description": "",
+      "tokens": 234,
+      "hash": "9c9a3f6ecb0a3d31",
+      "size": 940,
+      "mtimeMs": 1790564676300.4092,
+      "updatedAt": "2026-09-28T03:04:36.343Z",
+      "source": "hook"
     }
   },
   "preamble": [

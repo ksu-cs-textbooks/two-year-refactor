@@ -2,6 +2,7 @@
 title = "A.I. Systems"
 weight = 40
 ordinal = "5.4"
+draft = true
 +++
 
 > *Working draft for faculty review.*
