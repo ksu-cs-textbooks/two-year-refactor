@@ -2,6 +2,7 @@
 title = "Classroom Plant-Sensor API"
 weight = 50
 ordinal = "3.5"
+draft = true
 +++
 
 > *Working draft for faculty review. This page describes a real institutional asset, not a hypothetical example — see [Signature Applications](..) for why the program prefers real assets over invented ones.*

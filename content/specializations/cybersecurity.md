@@ -2,6 +2,7 @@
 title = "Cybersecurity"
 weight = 20
 ordinal = "5.2"
+draft = true
 +++
 
 > *Working draft for faculty review.*
@@ -16,66 +17,146 @@ The degree includes two capstone experiences with distinct purposes: **CIS 400**
 
 ## Degree Map
 
-| Course | Title | Credits |
-|---|---|---|
-| **Year 1, Semester 1** | | **14** |
-| CIS 115 | Introduction to Computing Science | 2 |
-| CIS 116 | Introduction to Programming | 2 |
-| DEN 161 | Engineering Problem Solving | 1 |
-| CIS 120 | Web Foundations | 1 |
-| MATH XXX | Discrete Math: Logic and Sets | 1 |
-| MATH XXX | Discrete Math: Counting Finite Configurations | 1 |
-| ENGL 100 | Expository Writing I (KSC-1) | 3 |
-| — | Core Communication Requirement (KSC-2) | 3 |
-| **Year 1, Semester 2** | | **17** |
-| CIS 260 | Foundations of Relational Databases | 1 |
-| CIS 220 | Platform Programming (Web section) | 1 |
-| CIS 200 | Programming Fundamentals | 3 |
-| ECE 241 | Introduction to Electrical and Computer Engineering | 3 |
-| MATH 220 | Analytic Geometry and Calculus I (KSC-3) | 4 |
-| MATH XXX | Discrete Math: Recursive and Modular Computation | 1 |
-| MATH XXX | Discrete Math: Graphs, Trees, and Maps | 1 |
-| ENGL 200 | Expository Writing II | 3 |
-| **Year 2, Semester 1** | | **15** |
-| CIS 300 | Data and Program Structures | 3 |
-| CIS 320 | User Experience Development (Web section) | 1 |
-| CIS 301 | Logical Foundations of Programming | 2 |
-| MATH 515 or 551 | Linear Algebra or Applied Matrix Theory | 3 |
-| CIS 225 | Foundations of Computer Networks | 1 |
-| CIS 251 | Foundations of Cybersecurity | 1 |
-| — | Natural & Physical Sciences, with Lab (KSC-4) | 4 |
-| **Year 2, Semester 2** | | **15** |
-| CIS 141 | AI/Data Science | 1 |
-| CIS 308 | C Language Laboratory | 1 |
-| CIS 400 | Software Systems Capstone | 3 |
-| — | Arts & Humanities (KSC-6) | 3 |
-| STAT 410 | Statistics for Computing | 4 |
-| SOCIO 211 | Introduction to Sociology (KSC-5) | 3 |
-| **Year 3, Semester 1** | | **15** |
-| CIS 450 | Computer Architecture and Operations | 3 |
-| CIS 501 | Software Architecture and Design | 3 |
-| CIS 505 | Introduction to Programming Languages | 3 |
-| ENGL 415 or 516 | Technical Writing | 3 |
-| — | Social & Behavioral Sciences (KSC-5) | 3 |
-| **Year 3, Semester 2** | | **15** |
-| CIS 560 | Database System Concepts | 3 |
-| CIS 575 | Introduction to Algorithm Analysis | 3 |
-| CIS 415 | Ethics and Conduct for Computing Professionals | 3 |
-| CIS 655 or 755 | Cybersecurity Elective | 3 |
-| — | Free Elective (KSC-7) | 3 |
-| **Year 4, Semester 1** | | **15** |
-| CIS 525 | Introduction to Network Programming | 3 |
-| CIS 551 | Fundamentals of Computer and Information Security | 3 |
-| CIS 553 | Fundamentals of Cryptography | 3 |
-| — | Arts & Humanities (KSC-6) | 3 |
-| CRIM 550 | Cybercrime, Security, and Society | 3 |
-| **Year 4, Semester 2** | | **15** |
-| — | Required Technical Elective | 3 |
-| CIS 599 | Cybersecurity Project (Capstone) | 3 |
-| — | Upper Division Elective | 3 |
-| — | Upper Division Elective | 3 |
-| — | Upper Division Elective | 3 |
-| **Total** | | **121** |
+{{< degree-map >}}
+<script type="module">
+  const plan = {
+  name: "Bachelor of Science in Cybersecurity",
+  version: "Draft",
+  theme: {
+    color: "#512888",
+    typeColors: { elective: "#6b6b6b" },
+  },
+  years: [
+    {
+      name: "Year 1",
+      semesters: [
+        {
+          name: "Fall",
+          courses: [
+            { subject: "CIS", number: 115, name: "Introduction to Computing Science", hours: 2 },
+            { subject: "CIS", number: 116, name: "Introduction to Programming", hours: 1 },
+            { subject: "DEN", number: 161, name: "Engineering Problem Solving", hours: 1 },
+            { subject: "CIS", number: 120, name: "Web Foundations", hours: 1 },
+            { subject: "MATH", number: "XXX", name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
+            {
+              subject: "MATH",
+              number: "XXX",
+              name: "Counting Finite Configurations",
+              hours: 1,
+              dur: 0.5,
+              place: "end",
+            },
+            { subject: "ENGL", number: 100, name: "Expository Writing I", hours: 3 },
+            { type: "elective", name: "Core Communication Requirement", hours: 3 },
+            { type: "elective", name: "Social & Behavioral Sciences Requirement", hours: 3 },
+          ],
+        },
+        {
+          name: "Spring",
+          courses: [
+            { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
+            { subject: "CIS", number: 200, name: "Programming Fundamentals", hours: 4 },
+            { type: "elective", name: "Calculus (choose I, II, or III)", hours: 4 },
+            {
+              subject: "MATH",
+              number: "XXX",
+              name: "Recursive and Modular Computation",
+              hours: 1,
+              dur: 0.5,
+              place: "start",
+            },
+            { subject: "MATH", number: "XXX", name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
+            { subject: "ENGL", number: 200, name: "Expository Writing II", hours: 3 },
+          ],
+        },
+      ],
+    },
+    {
+      name: "Year 2",
+      semesters: [
+        {
+          name: "Fall",
+          courses: [
+            { subject: "CIS", number: 300, name: "Data and Program Structures", hours: 3 },
+            { subject: "CIS", number: 301, name: "Logical Foundations of Programming", hours: 3 },
+            { type: "elective", name: "Linear Algebra (MATH 350, 515, or 551)", hours: 3 },
+            { subject: "CIS", number: 225, name: "Foundations of Computer Networks", hours: 1, dur: 0.5, place: "start" },
+            { subject: "CIS", number: 251, name: "Foundations of Cybersecurity", hours: 1, dur: 0.5, place: "end" },
+            { type: "elective", name: "Natural & Physical Sciences Requirement (with Lab)", hours: 4 },
+          ],
+        },
+        {
+          name: "Spring",
+          courses: [
+            { subject: "CIS", number: 140, name: "Foundations of Artificial Intelligence", hours: 1 },
+            { subject: "CIS", number: 308, name: "C Language Laboratory", hours: 1 },
+            {
+              subject: "CIS",
+              number: 401,
+              name: "Software Design, Implementation, and Testing",
+              hours: 3,
+            },
+            { subject: "ECE", number: 241, name: "Introduction to Electrical and Computer Engineering", hours: 3 },            
+            { subject: "STAT", number: "XXX", name: "Computational Statistics", hours: 4 },
+            { subject: "SOCIO", number: 211, name: "Introduction to Sociology", hours: 3 }
+          ],
+        },
+      ],
+    },
+    {
+      name: "Year 3",
+      semesters: [
+        {
+          name: "Fall",
+          courses: [
+            { subject: "CIS", number: 450, name: "Computer Architecture and Operations", hours: 3 },
+            { subject: "CIS", number: 501, name: "Software Architecture and Design", hours: 3 },
+            { subject: "CIS", number: 505, name: "Introduction to Programming Languages", hours: 3 },
+            { type: "elective", name: "Technical Writing (ENGL 415 or 516)", hours: 3 },
+            { type: "elective", name: "Arts & Humanities Requirement", hours: 3 },
+          ],
+        },
+        {
+          name: "Spring",
+          courses: [
+            { subject: "CIS", number: 560, name: "Database System Concepts", hours: 3 },
+            { subject: "CIS", number: 553, name: "Fundamentals of Cryptography", hours: 3 },
+            { subject: "CIS", number: 575, name: "Introduction to Algorithm Analysis", hours: 3 },
+            { subject: "CIS", number: 415, name: "Ethics and Conduct for Computing Professionals", hours: 3 },
+            { subject: "CRIM", number: 550, name: "Cybercrime, Security, and Society", hours: 3 }
+          ],
+        },
+      ],
+    },
+    {
+      name: "Year 4",
+      semesters: [
+        {
+          name: "Fall",
+          courses: [
+            { subject: "CIS", number: 551, name: "Fundamentals of Computer and Information Security", hours: 3 },
+            { subject: "CIS", number: 525, name: "Introduction to Network Programming", hours: 3 },
+            { subject: "CIS", number: "XXX", name: "Agentic Software Development", hours: 3 },
+            { type: "elective", name: "Arts & Humanities Requirement", hours: 3 },
+            { type: "elective", name: "Free Elective", hours: 3 },
+          ],
+        },
+        {
+          name: "Spring",
+          courses: [
+            { subject: "CIS", number: 599, name: "Cybersecurity Project", hours: 3 },
+            { type: "elective", name: "Cybersecurity Elective", hours: 3 },
+            { type: "elective", name: "Free Elective", hours: 3 },
+            { type: "elective", name: "Required Communication Elective", hours: 3 },
+            { type: "elective", name: "Unrestricted Elective", hours: 3 },
+          ],
+        },
+      ],
+    },
+  ],
+};
+document.querySelector("degree-map").plan = plan;
+</script>
 
 **Math elective note**: choosing MATH 515 or 551 for the Year 2 math slot satisfies both the shared core's linear-algebra requirement and Cybersecurity's own math-elective requirement with a single course.
 

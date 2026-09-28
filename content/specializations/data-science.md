@@ -2,6 +2,7 @@
 title = "Data Science"
 weight = 30
 ordinal = "5.3"
+draft = true
 +++
 
 > *Working draft for faculty review. A proposal for a CS-housed Data Science specialization built on the shared two-year core, using real K-State courses. Note up front: the **Statistics department already offers a B.S. in Data Science**, so this proposal is framed as a CS-flavored, partnership-oriented specialization rather than a duplicate. CIS/STAT/MATH numbers are actual K-State courses.*

@@ -1,0 +1,36 @@
+/* Wrapper around <degree-map> that scales its fixed-width layout down to
+   fit the content column, and lets it be expanded to fill the screen on
+   click, the same way the theme's images behave. */
+
+.degree-map-frame {
+  position: relative;
+  margin: 1.5em 0;
+}
+
+.degree-map-frame__scale {
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+.degree-map-frame__scale > * {
+  display: block;
+  transform-origin: top left;
+}
+
+.degree-map-frame.is-fullscreen .degree-map-frame__scale {
+  cursor: zoom-out;
+}
+
+.degree-map-frame:fullscreen,
+.degree-map-frame:-webkit-full-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+@media print {
+  .degree-map-frame__scale {
+    cursor: default;
+  }
+}

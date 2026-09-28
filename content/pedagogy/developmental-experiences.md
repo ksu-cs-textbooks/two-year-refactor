@@ -2,6 +2,7 @@
 title = "Recurring Developmental Experiences"
 weight = 20
 ordinal = "3.2"
+draft = true
 +++
 
 > *Working draft for faculty review. This page describes the experiential cycle that grows across the two years. For the real systems that serve as its substrate, see [Signature Applications](./signature-applications) in this chapter.*

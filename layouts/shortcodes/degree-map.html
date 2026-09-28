@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="{{ "css/degree-maps/frame.css" | relURL }}">
+<div class="degree-map-frame">
+  <div class="degree-map-frame__scale">
+    <degree-map style="{{ .Get "style" }}"></degree-map>
+  </div>
+</div>
+<script type="module" src="{{ "js/degree-maps/index.js" | relURL }}"></script>
+<script type="module" src="{{ "js/degree-maps/frame.js" | relURL }}"></script>
