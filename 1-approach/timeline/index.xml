@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Implementation Timeline :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/timeline/index.html</link>
+    <description>Implementation timeline for the two-year core redesign, from learning-objective identification through a full development-to-evaluation cycle for every course in the core.&#xA;Methodology: why each course gets five phases, not one “Course creation” is not the end of the work — a course that is designed, taught once, and never checked against evidence is exactly the gap this program’s own Spiral Curriculum page flags in the wider field (“this curriculum’s own competency-based assessment design is positioned to generate exactly this kind of curriculum-level evidence over time, which the field currently lacks”). This timeline is that evidence pipeline, applied on a schedule. Each course cohort goes through five phases:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/timeline/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

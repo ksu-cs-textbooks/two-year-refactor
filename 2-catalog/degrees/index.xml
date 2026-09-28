@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Degree Programs :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/index.html</link>
+    <description>Three degree programs — Computer Science, Cybersecurity, and Artificial Intelligence — share the same two-year computational foundation before specializing entirely in the upper division. See Computing Foundations for that shared core, its design rationale, and the full course-by-course breakdown.&#xA;Cybersecurity and Artificial Intelligence are not separate degrees built from scratch — each is the Computer Science degree with a curated choice of upper-division electives. A student completing either specialization earns both that specialization’s degree and a Bachelor of Computer Science, with no additional coursework or cost beyond what the Computer Science degree already requires. A student can instead forgo a named specialization and use that same elective flexibility to chart their own path toward the career they envision.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Science</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/computer-science/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/computer-science/index.html</guid>
+      <description>The department’s flagship degree, the Bachelor in Computer Science retains its flexibility as a degree option providing students with many electives. This flexibility allows students to customize the degree to the career they have chosen for themselves, mixing computing know-how from technical electives with other-discipline domain knowledge from unrestricted electives.&#xA;Our specialization degrees – Artificial Intelligence and Cybersecurity – are essentially the computer science degree with specific electives chosen. Thus, every major graduating with a specialization degree also earns a Bachelor of Computer Science with no additional coursework required.</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.html</guid>
+      <description>Proposed for Fall 2027, the Artificial Intelligence degree builds upon the department’s expertise and existing courses in AI, machine learning, and knowledge representation to present a cohesive synthesis of modern AI techniques and architectures. As a specialization degree, students earning a Bachelors in AI will also earn a Bachelors of Computer Science with no additional coursework required.&#xA;The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditation in our next cycle.</description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/cybersecurity/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/cybersecurity/index.html</guid>
+      <description>The Cybersecurity degree leverages the department’s expertise in cybersecurity and designation as a Center for Academic Excellence in Cybersecurity Research, providing hands-on training including systems-level thinking and secure coding practices. As a specialization degree, students earning a Bachelors in AI will also earn a Bachelors of Computer Science with no additional coursework required.&#xA;The Bachelor of Cybersecurity is accredited by ABET.</description>
+    </item>
+  </channel>
+</rss>

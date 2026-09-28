@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Approach :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/index.html</link>
+    <description>This chapter lays out the research basis for the redesign, the plan for building it, and how we’ll know whether it worked.&#xA;Theoretical Grounding surveys the learning-science and assessment-design literature behind the curriculum’s key structural choices — spiral revisiting, communities of practice, evidence-centered assessment design, boundary crossing, and universal design for learning — each page closing with an honest assessment of what the evidence actually supports. The Implementation Timeline lays out the multi-year schedule for building, teaching, and evaluating every course in the two-year core, from initial learning-objective identification through course-by-course creation and post-launch review. The Evaluation Strategy specifies the validated instruments and administration schedule for measuring whether the redesign actually improves learning outcomes, comparing legacy and redesigned cohorts at the same program milestones rather than assuming the change works.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theoretical Grounding</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/index.html</guid>
+      <description>The research literature underlying this curriculum’s key design decisions — spiral curriculum, communities of practice, evidence-centered assessment design, boundary crossing, and universal design for learning — each presented on its own page, closing with an honest assessment of what the evidence actually supports.</description>
+    </item>
+    <item>
+      <title>Implementation Timeline</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/timeline/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/timeline/index.html</guid>
+      <description>Implementation timeline for the two-year core redesign, from learning-objective identification through a full development-to-evaluation cycle for every course in the core.&#xA;Methodology: why each course gets five phases, not one “Course creation” is not the end of the work — a course that is designed, taught once, and never checked against evidence is exactly the gap this program’s own Spiral Curriculum page flags in the wider field (“this curriculum’s own competency-based assessment design is positioned to generate exactly this kind of curriculum-level evidence over time, which the field currently lacks”). This timeline is that evidence pipeline, applied on a schedule. Each course cohort goes through five phases:</description>
+    </item>
+    <item>
+      <title>Evaluation Strategy</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/evaluation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/evaluation/index.html</guid>
+      <description>These instruments will compare student learning under the legacy B.S. in CS with learning under the redesigned curriculum, at the cohort level. They will not be used to certify individual students. That is the use most concept inventories were built for, so the rigorously validated ones can be adopted as they are.&#xA;Recommended battery.&#xA;Knowledge: SCS1 (CS1), BDSI (data structures), CAOS or BLIS (statistics), DLCI (digital logic, if it is in the core), and CCI (entry to the Cybersecurity track). Affective panel: the Steinhorst programming self-efficacy scale, the Computing Attitudes Survey, the Mahadeo–Hazari–Potvin computing identity items, and the 2026 SIGCSE belonging survey. Most urgent: collect legacy baseline data now. Every legacy cohort that goes untested is data that cannot be recovered. Request access to the secure instruments this fall. That means the SCS1 Google Group and the BDSI, DLCI and CCI authors. Test current first- and second-year students in spring 2027. Build local instruments for the gap areas (discrete math, OOP) and pilot them on legacy students before the old curriculum ends. Two or three legacy cohorts support an interrupted time series. That design is much stronger than a single before/after comparison. Evaluation design The strongest feasible design is an interrupted time series. It compares several legacy cohorts with several new-curriculum cohorts on the same instruments, at the same program milestones, under the same conditions.</description>
+    </item>
+  </channel>
+</rss>

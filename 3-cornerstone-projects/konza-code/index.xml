@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konza Code :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/konza-code/index.html</link>
+    <description>Living document. This page will change as development continues. Last updated: September 27, 2026.&#xA;What it is Konza Code is a block-based programming environment for K-12 students. It is a new project in the K-State Computer Science department, forked from MIT’s Scratch. We renamed it to avoid Scratch trademark issues. The name also reflects the feature that sets it apart: a switchable text panel. Students can view and edit the same program as blocks or as text.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/konza-code/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evaluation Strategy :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/evaluation/index.html</link>
+    <description>These instruments will compare student learning under the legacy B.S. in CS with learning under the redesigned curriculum, at the cohort level. They will not be used to certify individual students. That is the use most concept inventories were built for, so the rigorously validated ones can be adopted as they are.&#xA;Recommended battery.&#xA;Knowledge: SCS1 (CS1), BDSI (data structures), CAOS or BLIS (statistics), DLCI (digital logic, if it is in the core), and CCI (entry to the Cybersecurity track). Affective panel: the Steinhorst programming self-efficacy scale, the Computing Attitudes Survey, the Mahadeo–Hazari–Potvin computing identity items, and the 2026 SIGCSE belonging survey. Most urgent: collect legacy baseline data now. Every legacy cohort that goes untested is data that cannot be recovered. Request access to the secure instruments this fall. That means the SCS1 Google Group and the BDSI, DLCI and CCI authors. Test current first- and second-year students in spring 2027. Build local instruments for the gap areas (discrete math, OOP) and pilot them on legacy students before the old curriculum ends. Two or three legacy cohorts support an interrupted time series. That design is much stronger than a single before/after comparison. Evaluation design The strongest feasible design is an interrupted time series. It compares several legacy cohorts with several new-curriculum cohorts on the same instruments, at the same program milestones, under the same conditions.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/evaluation/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

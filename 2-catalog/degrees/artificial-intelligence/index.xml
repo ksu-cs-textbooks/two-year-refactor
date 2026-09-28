@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artificial Intelligence :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.html</link>
+    <description>Proposed for Fall 2027, the Artificial Intelligence degree builds upon the department’s expertise and existing courses in AI, machine learning, and knowledge representation to present a cohesive synthesis of modern AI techniques and architectures. As a specialization degree, students earning a Bachelors in AI will also earn a Bachelors of Computer Science with no additional coursework required.&#xA;The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditation in our next cycle.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

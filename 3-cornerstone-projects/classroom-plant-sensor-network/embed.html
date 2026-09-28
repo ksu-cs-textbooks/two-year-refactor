@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="description" content="Living document. This page will change as development continues. Last updated: September 28, 2026.
+What it is Raspberry Pi sensors installed in classrooms where this program’s courses are taught, publishing live readings through a JSON API. It is under active development — curriculum needs can inform its design, not just consume whatever already exists. Right now that means a single unauthenticated GET endpoint returning the room’s temperature; additional sensor readings (humidity, light, soil moisture), authenticated write access, historical/time-series data, and real-time streaming are all planned but not yet built. Computer vision is a likely further direction down the road.">
+    <meta name="author" content="Department of Computer Science">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta name="twitter:title" content="Classroom Plant-Sensor Network :: CS Two Year Refactor">
+    <meta name="twitter:description" content="Living document. This page will change as development continues. Last updated: September 28, 2026.
+What it is Raspberry Pi sensors installed in classrooms where this program’s courses are taught, publishing live readings through a JSON API. It is under active development — curriculum needs can inform its design, not just consume whatever already exists. Right now that means a single unauthenticated GET endpoint returning the room’s temperature; additional sensor readings (humidity, light, soil moisture), authenticated write access, historical/time-series data, and real-time streaming are all planned but not yet built. Computer vision is a likely further direction down the road.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html">
+    <meta property="og:site_name" content="CS Two Year Refactor">
+    <meta property="og:title" content="Classroom Plant-Sensor Network :: CS Two Year Refactor">
+    <meta property="og:description" content="Living document. This page will change as development continues. Last updated: September 28, 2026.
+What it is Raspberry Pi sensors installed in classrooms where this program’s courses are taught, publishing live readings through a JSON API. It is under active development — curriculum needs can inform its design, not just consume whatever already exists. Right now that means a single unauthenticated GET endpoint returning the room’s temperature; additional sensor readings (humidity, light, soil moisture), authenticated write access, historical/time-series data, and real-time streaming are all planned but not yet built. Computer vision is a likely further direction down the road.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Cornerstone Projects">
+    <meta property="article:modified_time" content="2026-09-28T03:08:36+00:00">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta itemprop="name" content="Classroom Plant-Sensor Network :: CS Two Year Refactor">
+    <meta itemprop="description" content="Living document. This page will change as development continues. Last updated: September 28, 2026.
+What it is Raspberry Pi sensors installed in classrooms where this program’s courses are taught, publishing live readings through a JSON API. It is under active development — curriculum needs can inform its design, not just consume whatever already exists. Right now that means a single unauthenticated GET endpoint returning the room’s temperature; additional sensor readings (humidity, light, soil moisture), authenticated write access, historical/time-series data, and real-time streaming are all planned but not yet built. Computer vision is a likely further direction down the road.">
+    <meta itemprop="dateModified" content="2026-09-28T03:08:36+00:00">
+    <meta itemprop="wordCount" content="594">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <title>Classroom Plant-Sensor Network :: CS Two Year Refactor</title>
+    <link href="https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html" rel="canonical" type="text/html" title="Classroom Plant-Sensor Network :: CS Two Year Refactor">
+    <link href="/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.xml" rel="alternate" type="application/rss+xml" title="Classroom Plant-Sensor Network :: CS Two Year Refactor">
+    <link href="/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.print.html" rel="alternate" type="text/html" title="Classroom Plant-Sensor Network :: CS Two Year Refactor">
+    <link href="/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/tele.html" rel="alternate" type="text/html" title="Classroom Plant-Sensor Network :: CS Two Year Refactor">
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1790565267" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1790565267";
+    </script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-html.min.css?1790565267" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/3-cornerstone-projects\/classroom-plant-sensor-network\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/two-year-refactor';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/two-year-refactor/css/custom.css?1790565267" rel="stylesheet">
+  </head>
+  <body class="mobile-support embed html" data-url="/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      
+      
+      
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 3-cornerstone-projects" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="classroom-plant-sensor-network">Classroom Plant-Sensor Network</h1>
+
+<blockquote>
+<p><strong>Living document.</strong> This page will change as development continues. <em>Last updated: September 28, 2026.</em></p></blockquote>
+<h2 id="what-it-is">What it is</h2>
+<p>Raspberry Pi sensors installed in classrooms where this program&rsquo;s courses are taught, publishing live readings through a JSON API. It is under active development — curriculum needs can inform its design, not just consume whatever already exists. Right now that means a single unauthenticated GET endpoint returning the room&rsquo;s temperature; additional sensor readings (humidity, light, soil moisture), authenticated write access, historical/time-series data, and real-time streaming are all planned but not yet built. Computer vision is a likely further direction down the road.</p>
+<h2 id="why-were-building-it">Why we&rsquo;re building it</h2>
+<p>This asset is reflexive in a way the others aren&rsquo;t: its subject is the room the students are sitting in. That makes it a low-stakes, immediate way to introduce a live network boundary and a JSON response — a real GET request against a real, physically-present system — without the setup cost of an external API or a fictional example. Its minimal, unauthenticated design is deliberate and temporary: a single open read endpoint is a natural, concrete setup for a later question — &ldquo;why would you not leave a write endpoint open the way this read endpoint is&rdquo; — once the core reaches its security/auth content.</p>
+<h2 id="role-in-the-undergraduate-curriculum">Role in the undergraduate curriculum</h2>
+<p>This is a <strong>cornerstone project</strong> in the redesigned B.S. in Computer Science, but student involvement deepens in stages rather than starting at full ownership — the same trajectory this program&rsquo;s <a href="/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html">Legitimate Peripheral Participation</a> page describes, and a live instance of the <a href="/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html">Spiral Curriculum</a>&rsquo;s design logic: the same system revisited at increasing depth, not a repeat of the first pass.</p>
+<p>It offers direct experience with:</p>
+<ul>
+<li><strong>Consuming a live API (early courses).</strong> Students read from it as a data source — the networking norm&rsquo;s early convergence point, and a flagged future pairing point for the core&rsquo;s security/auth content once that lands (CIS 251).</li>
+<li><strong>Embedded systems (ECE 241).</strong> Students build and deploy their own example sensor units, hands-on.</li>
+<li><strong>Systems ownership (higher-level courses).</strong> Students extend the Go consolidation pipeline, the Python/FastAPI access layer, and implement new sensor types themselves, taking on real ownership of a production system&rsquo;s evolution.</li>
+<li><strong>Polyglot systems, contrasted with this chapter&rsquo;s other two projects.</strong> C or Rust on the sensors, Go for the consolidation pipeline, Python/FastAPI for the access layer — a third distinct architectural voice alongside Konza Code&rsquo;s Elixir/Phoenix actor model and the Kansas Historical Data project&rsquo;s C#/ASP.NET Core layered enterprise architecture. Each project takes a different approach to the same class of networking/API problems, by design, not by accident.</li>
+<li><strong>Security and trust.</strong> The deliberately temporary no-auth design is a concrete setup for the core&rsquo;s security/auth content — this work suits the Cybersecurity track.</li>
+</ul>
+<p><em>Beyond ECE 241, which courses touch the project, and at what depth, will be filled in as the course sequence is finalized.</em></p>
+<h2 id="tech-stack">Tech stack</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Technology</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Sensor firmware (Pi)</td>
+          <td>C or Rust — deliberately varied across deployments</td>
+      </tr>
+      <tr>
+          <td>Data consolidation/ingestion pipeline</td>
+          <td>Go</td>
+      </tr>
+      <tr>
+          <td>API access layer</td>
+          <td>Python (FastAPI)</td>
+      </tr>
+      <tr>
+          <td>Hosting</td>
+          <td>To be decided</td>
+      </tr>
+      <tr>
+          <td>License</td>
+          <td>To be decided</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="status">Status</h2>
+<p>Early development, led by Ruth. One capability (<code>GET room temperature</code>) is requested; none is yet marked <code>confirmed</code>.</p>
+<h2 id="open-items">Open items</h2>
+<ul>
+<li>Hosting and license are still undecided.</li>
+<li>Selection and scheduling of the deferred capabilities (additional sensors, auth, historical data, streaming, eventual computer vision) and which course/sequence point each would pair with.</li>
+<li>The specific ECE 241 assignment design (what students build, how it&rsquo;s assessed) isn&rsquo;t drafted yet.</li>
+<li>Ownership/governance of pipeline and API code once higher-level courses start extending it — how contributions from a rotating set of student cohorts get reviewed and maintained long-term.</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+      
+      
+      
+    </div>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1790565267" defer></script>
+  <script src="/two-year-refactor/js/embed-iframe.min.js?1790565267" defer></script>
+  </body>
+</html>

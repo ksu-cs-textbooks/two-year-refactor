@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 401 - Software Design, Implementation, and Testing :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-401/index.html</link>
+    <description>Course Description A study of concepts and techniques used to produce quality software programs. Software design concepts, models, execution environments, design and testing techniques. Extensive application of these concepts and techniques to the development of non-trivial software programs. The course culminates with a capstone project to demonstrate core understanding.&#xA;Credit Hours 3 credits&#xA;Course Overview This course is focused on helping you to learn the concepts and skills needed to develop high-quality software. Along the way you will have ample opportunities to practice these skills developing non-trivial software projects. These are not the “baby programs” of early CS coursework, but rather applications that could be used in a production environment.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-401/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human-Centered Practice :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/5-assessment/competencies/human-centered-practice/index.html</link>
+    <description>Re-checked against real course-design pages, 2026-08-04 — see resources/design-log.md. This resolves two rows Round 1 flagged (Requirements Analysis Task, Usability Evaluation): their previously-assumed endpoint didn’t map cleanly onto a real course, and cs.md’s own CIS 320 entry is explicit that CIS 320 carries only a bounded, every-student-gets-this-once exposure to acceptance-criteria/requirements work — “not a full requirements-gathering methodology” — with full depth deliberately deferred to a Software Architecture specialization elective, not the Year 3–4 general capstone this pass had guessed in Round 1.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/5-assessment/competencies/human-centered-practice/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

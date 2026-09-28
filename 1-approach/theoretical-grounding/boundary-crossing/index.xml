@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boundary Crossing :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.html</link>
+    <description>Working draft for faculty review. This page describes the general research basis for learning that happens when a student moves between different practices, not just deeper within one. See Legitimate Peripheral Participation &amp; Communities of Practice for the companion theory about deepening within a single community.&#xA;What boundary crossing is Legitimate peripheral participation describes how a newcomer moves toward the center of a single community of practice. Boundary crossing addresses the different, harder problem of what happens when a person has to move between practices that don’t share the same norms, tools, vocabulary, or notion of what counts as good work — a student moving from a CS classroom into a domain-expert’s lab, or from the shared two-year core into a specialization with its own conventions (Akkerman &amp; Bakker, 2011). Akkerman and Bakker’s synthesis treats this as a real cognitive and social achievement, not friction to be minimized: something is actually learned in the act of crossing, precisely because the two sides don’t automatically understand each other.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

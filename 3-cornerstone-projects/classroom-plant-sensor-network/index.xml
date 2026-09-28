@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classroom Plant-Sensor Network :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html</link>
+    <description>Living document. This page will change as development continues. Last updated: September 28, 2026.&#xA;What it is Raspberry Pi sensors installed in classrooms where this program’s courses are taught, publishing live readings through a JSON API. It is under active development — curriculum needs can inform its design, not just consume whatever already exists. Right now that means a single unauthenticated GET endpoint returning the room’s temperature; additional sensor readings (humidity, light, soil moisture), authenticated write access, historical/time-series data, and real-time streaming are all planned but not yet built. Computer vision is a likely further direction down the road.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

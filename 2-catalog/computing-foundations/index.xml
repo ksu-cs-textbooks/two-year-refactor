@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computing Foundations :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/computing-foundations/index.html</link>
+    <description>All degrees offered by the Department of Computer Science (the Bachelor of Computer Science, the Bachelor of Cybersecurity, and the Bachelor of Artificial Intelligence) share a rigorous 2-year (4-semester) experience grounding students in the foundations of computer science. This sequence of courses draws upon research-backed practices in its design (see chapter 1), where students explore and extend real-world, complex production software systems (see chapter 3) leading to a capstone software development experience at the end of the second year.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/computing-foundations/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elective Lists :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/index.html</link>
+    <description>The curated lists from which electives courses can be drawn.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Application Area Elective</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/ai-application-area/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/ai-application-area/index.html</guid>
+      <description>This elective covers the use of AI within a specific application domain, i.e. the use of artificial intelligence in agriculture, biology, geography, or other discipline. These courses are drawn from the broader university pool, with the list of acceptable courses curated by the Curriculum Committee of the Department of Computer Science. Faculty or students wishing to propose the addition of courses to this list should contact Josh Weese, Undergrauduate Curriculum Director for the department with the request.</description>
+    </item>
+    <item>
+      <title>Communications Elective</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/communication-elective/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/communication-elective/index.html</guid>
+      <description>The ability to confidently and effectively communicate technical ideas to audiences of widely varying backgrounds is a critical skill for every computer scientist. The communication elective provides a safe and encouraging environment for developing these skills. Students must choose one of the following:&#xA;COMM 323 - Nonverbal Communication (3 hours) COMM 326 - Group Communication (3 hours) MANGT 220 - Principles of Management (3 hours) THTRE 171 - Fundamentals of Acting (3 hours) Note: Taking THTRE 171 also satisfies KSC 060 (core communication requirement) THTRE 265 – Fundamentals of Improvisation (3 hours)</description>
+    </item>
+    <item>
+      <title>Cybersecurity Elective</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/cybersecurity-elective/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/cybersecurity-elective/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear Algebra Elective</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/linear-algebra-elective/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/linear-algebra-elective/index.html</guid>
+      <description>Linear algebra provides the mathematical foundations for large-scale data processing, large-language models, neural networks, computer graphics, computational statistics, and many other computational techniques. Thus, every computer science student should have a solid grounding in linear algebra and is required to take one of the following courses:&#xA;MATH 515 - Introduction to Linear Algebra This course has a prerequisite of Calculus II MATH 551 - Applied Matrix Theory This course has a prerequisite of Calculus II MATH 350 - Mathematical Scholars Calculus III This course is part of the Mathematical Scholars program in Mathematics and only open to students in the program.</description>
+    </item>
+  </channel>
+</rss>

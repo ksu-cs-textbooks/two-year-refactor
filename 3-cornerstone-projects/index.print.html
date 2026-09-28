@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="description" content="Real, ongoing software systems and institutional assets used throughout the curriculum as exemplars and living labs, in place of invented examples and disposable one-off assignments.
+Some of these are systems the department builds and operates, with students as their developers — a long-lived, production codebase with real users, extended and maintained across cohorts rather than discarded at the end of a semester. Others are established, external infrastructure — real institutions with their own priorities and constraints — that students learn to integrate with rather than build themselves. Both kinds are deliberate: a curriculum that only ever gives students systems built for their own benefit never teaches them what it’s like to depend on, or be depended on by, something outside their control.">
+    <meta name="author" content="Department of Computer Science">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta name="twitter:title" content="Cornerstone Projects :: CS Two Year Refactor">
+    <meta name="twitter:description" content="Real, ongoing software systems and institutional assets used throughout the curriculum as exemplars and living labs, in place of invented examples and disposable one-off assignments.
+Some of these are systems the department builds and operates, with students as their developers — a long-lived, production codebase with real users, extended and maintained across cohorts rather than discarded at the end of a semester. Others are established, external infrastructure — real institutions with their own priorities and constraints — that students learn to integrate with rather than build themselves. Both kinds are deliberate: a curriculum that only ever gives students systems built for their own benefit never teaches them what it’s like to depend on, or be depended on by, something outside their control.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/index.html">
+    <meta property="og:site_name" content="CS Two Year Refactor">
+    <meta property="og:title" content="Cornerstone Projects :: CS Two Year Refactor">
+    <meta property="og:description" content="Real, ongoing software systems and institutional assets used throughout the curriculum as exemplars and living labs, in place of invented examples and disposable one-off assignments.
+Some of these are systems the department builds and operates, with students as their developers — a long-lived, production codebase with real users, extended and maintained across cohorts rather than discarded at the end of a semester. Others are established, external infrastructure — real institutions with their own priorities and constraints — that students learn to integrate with rather than build themselves. Both kinds are deliberate: a curriculum that only ever gives students systems built for their own benefit never teaches them what it’s like to depend on, or be depended on by, something outside their control.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta itemprop="name" content="Cornerstone Projects :: CS Two Year Refactor">
+    <meta itemprop="description" content="Real, ongoing software systems and institutional assets used throughout the curriculum as exemplars and living labs, in place of invented examples and disposable one-off assignments.
+Some of these are systems the department builds and operates, with students as their developers — a long-lived, production codebase with real users, extended and maintained across cohorts rather than discarded at the end of a semester. Others are established, external infrastructure — real institutions with their own priorities and constraints — that students learn to integrate with rather than build themselves. Both kinds are deliberate: a curriculum that only ever gives students systems built for their own benefit never teaches them what it’s like to depend on, or be depended on by, something outside their control.">
+    <meta itemprop="dateModified" content="2026-09-28T03:08:36+00:00">
+    <meta itemprop="wordCount" content="245">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <title>Cornerstone Projects :: CS Two Year Refactor</title>
+    <link href="https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/index.html" rel="canonical" type="text/html" title="Cornerstone Projects :: CS Two Year Refactor">
+    <link href="/two-year-refactor/3-cornerstone-projects/index.xml" rel="alternate" type="application/rss+xml" title="Cornerstone Projects :: CS Two Year Refactor">
+    <link href="/two-year-refactor/3-cornerstone-projects/tele.html" rel="alternate" type="text/html" title="Cornerstone Projects :: CS Two Year Refactor">
+    <link href="/two-year-refactor/3-cornerstone-projects/embed.html" rel="alternate" type="text/html" title="Cornerstone Projects :: CS Two Year Refactor">
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1790565267" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1790565267";
+    </script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-print.min.css?1790565267" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/3-cornerstone-projects\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/two-year-refactor';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/two-year-refactor/css/custom.css?1790565267" rel="stylesheet">
+  </head>
+  <body class="mobile-support embed print" data-url="/two-year-refactor/3-cornerstone-projects/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      
+      
+      
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 3-cornerstone-projects" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="cornerstone-projects">Cornerstone Projects</h1>
+
+<p>Real, ongoing software systems and institutional assets used throughout the curriculum as exemplars and living labs, in place of invented examples and disposable one-off assignments.</p>
+<p>Some of these are systems the department builds and operates, with students as their developers — a long-lived, production codebase with real users, extended and maintained across cohorts rather than discarded at the end of a semester. Others are established, external infrastructure — real institutions with their own priorities and constraints — that students learn to integrate with rather than build themselves. Both kinds are deliberate: a curriculum that only ever gives students systems built for their own benefit never teaches them what it&rsquo;s like to depend on, or be depended on by, something outside their control.</p>
+<p>Student involvement in a built system deepens as students advance through the program — genuinely peripheral, low-stakes work early on, moving toward real ownership of a system&rsquo;s evolution — the same trajectory described in <a href="/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html">Legitimate Peripheral Participation</a>, and a live instance of the <a href="/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html">Spiral Curriculum</a>&rsquo;s design logic: the same system revisited at increasing depth, not a repeat of the first pass. Where a project means working with an external stakeholder&rsquo;s real constraints, it&rsquo;s also a live instance of <a href="/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.html">Boundary Crossing</a>.</p>
+<p>The projects are also deliberately architecturally diverse. Each takes a different real approach to the same classes of problems — networking, APIs, data at scale — so students see multiple legitimate answers by design, not one canonical toolchain presented as the only way.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+          <section>
+            <h1 class="a11y-only">Subsections of Cornerstone Projects</h1>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="kansas-historical-data">Kansas Historical Data</h1>
+
+<blockquote>
+<p><strong>Living document.</strong> This page will change as development continues. <em>Last updated: September 27, 2026.</em></p>
+<p><em>Working title. The codebase and the hosted platform may end up with different names.</em></p></blockquote>
+<h2 id="what-it-is">What it is</h2>
+<p>The Kansas Historical Data Project has three parts:</p>
+<ol>
+<li><strong>An open-source platform</strong> for collecting, curating, and publishing crowdsourced historical data.</li>
+<li><strong>A digital archive</strong> of oral histories, scanned documents, and photographs. Contributors can upload these materials, and anyone can search and retrieve them.</li>
+<li><strong>An interactive data visualization tool</strong> for exploring the data through maps, timelines, and charts.</li>
+</ol>
+<p>Everything on the platform, including data and archive items, can be searched and organized by <strong>place</strong> and <strong>time</strong>.</p>
+<p>The software is open source and designed to be hosted by anyone, including other states. The department&rsquo;s hosted instance covers <strong>Kansas only</strong>.</p>
+<h2 id="why-were-building-it">Why we&rsquo;re building it</h2>
+<p>Kansas history is scattered across many places: county museums, local historical societies, archives, government records, and community memory. That makes it hard to find, compare, or visualize. This project gives these contributors a shared place to submit historical data. The data is then validated and curated, and anyone can explore the results.</p>
+<p>A central story the data can tell is <strong>rural change</strong>. One explanation for rural outmigration is that advances in agricultural technology reduced the need for farm labor. Transportation and institutions also shaped which towns grew and which declined. These include where the railroads ran, where the interstates went, and which schools consolidated. The project brings these data sources together so users can explore how these forces relate over time and across places.</p>
+<h2 id="core-data-sources">Core data sources</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Source</th>
+          <th>What it adds</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>USDA Census of Agriculture</td>
+          <td>Farm numbers, farm size, and agricultural production over time</td>
+      </tr>
+      <tr>
+          <td>U.S. Census</td>
+          <td>Population change at the county and town level</td>
+      </tr>
+      <tr>
+          <td>Railroads</td>
+          <td>Rail lines and their construction and abandonment over time</td>
+      </tr>
+      <tr>
+          <td>Interstate highways</td>
+          <td>Highway routes and when they opened</td>
+      </tr>
+      <tr>
+          <td>School consolidations</td>
+          <td>Closures and mergers of school districts over time</td>
+      </tr>
+  </tbody>
+</table>
+<p>Crowdsourced contributions add local detail on top of these core sources.</p>
+<h2 id="the-archive">The archive</h2>
+<p>The archive preserves the human side of this history alongside the data:</p>
+<ul>
+<li><strong>Oral histories</strong>, recorded as audio, video, or both</li>
+<li><strong>Scanned documents</strong>, such as records, letters, newspapers, and maps</li>
+<li><strong>Photographs</strong></li>
+</ul>
+<p>Each item is tied to places and dates. That lets people browse it on a map or a timeline and find it alongside the data. For example, a user could see an oral history about a school closing next to the consolidation record and the population trend for the same town.</p>
+<p>The project also supplies data to other department efforts. For example, it feeds the curated data APIs in <a href="/two-year-refactor/3-cornerstone-projects/konza-code/index.html">Konza Code</a>, which let K-12 students program with real Kansas history.</p>
+<h2 id="contributors-and-audience">Contributors and audience</h2>
+<p>The project is built for people who both <strong>produce</strong> and <strong>consume</strong> history:</p>
+<ul>
+<li><strong>Professional historians</strong></li>
+<li><strong>Amateur and hobby historians</strong></li>
+<li><strong>County and town history museums, historical societies, and archives</strong></li>
+<li><strong>County and city officials</strong></li>
+<li><strong>K-12 teachers and students</strong>, who both use and contribute data and archive materials</li>
+<li><strong>K-State students.</strong> K-State already engages undergraduates in this kind of work through history courses and the Chapman Center for Rural Studies.</li>
+<li><strong>Researchers and the public</strong></li>
+</ul>
+<h2 id="partners">Partners</h2>
+<ul>
+<li>Chapman Center for Rural Studies, K-State</li>
+<li>Rural Education Center, K-State</li>
+</ul>
+<h2 id="role-in-the-undergraduate-curriculum">Role in the undergraduate curriculum</h2>
+<p>This is a <strong>cornerstone project</strong> in the redesigned B.S. in Computer Science. Undergraduates build, extend, maintain, and operate it. They work on a long-lived codebase with real users instead of disposable course projects. Its curated datasets can also serve as <strong>real-world data sources</strong> for coursework.</p>
+<p>It offers direct experience with:</p>
+<ul>
+<li><strong>Enterprise application development.</strong> The back end uses ASP.NET Core, Entity Framework Core, and PostgreSQL. Many of our graduates&rsquo; employers use this stack.</li>
+<li><strong>Contrast with Konza Code.</strong> The Konza Code site uses Elixir/Phoenix, where state and failure are handled by actors and supervision. This project uses conventional object-oriented, layered enterprise architecture. Students see two different answers to the same kinds of problems.</li>
+<li><strong>Polyglot systems.</strong> The project combines C#, Python, SQL, and JavaScript/Vue. Each language is used where it fits, and the parts are joined by clear data contracts.</li>
+<li><strong>Data engineering.</strong> Students build ingestion, validation, and a Python transformation pipeline that turns raw submissions into published datasets.</li>
+<li><strong>Data quality and provenance.</strong> Crowdsourced data from contributors with very different levels of expertise needs sourcing, review, and ways to resolve conflicting records. This is core material for the Data Science track.</li>
+<li><strong>Geospatial and temporal data.</strong> Students work with spatial databases, GeoJSON, historical boundaries that shift over time, and uncertain or approximate dates.</li>
+<li><strong>Media and digital archives.</strong> Students handle large uploads, storage of audio, video, and images, streaming and retrieval, metadata, and long-term preservation.</li>
+<li><strong>Search.</strong> Students build search that combines text, place, and time.</li>
+<li><strong>Visualization.</strong> Students design clear, honest interactive visuals with D3.js.</li>
+<li><strong>Web architecture tradeoffs.</strong> A static-file front end sits beside a dynamic curation back end. Students study when static publishing is the better design.</li>
+<li><strong>Security and trust.</strong> Open contributions require roles and permissions, moderation, and protection against vandalism and data poisoning. The archive adds concerns about uploaded files and personal content in oral histories. The project also involves K-12 contributors. This work suits the Cybersecurity track.</li>
+<li><strong>Interdisciplinary work.</strong> Students work with historians, the Chapman Center, K-12 educators, and Statistics.</li>
+<li><strong>Open source.</strong> Students maintain a public codebase meant for other states to adopt.</li>
+</ul>
+<p><em>Which courses touch the project, and at what depth, will be filled in as the course sequence is finalized.</em></p>
+<h2 id="architecture">Architecture</h2>
+<p>The system has three stages:</p>
+<ol>
+<li><strong>Raw data repository.</strong> Stores original submissions, source material, and archive media unchanged.</li>
+<li><strong>Curation and validation workflow.</strong> Contributors and reviewers check, correct, describe, and approve data and archive items.</li>
+<li><strong>Transformation pipeline.</strong> Regenerates the static JSON/GeoJSON files that the visualization tool reads.</li>
+</ol>
+<p>The visualization tool runs entirely in the browser and reads only static files. This keeps it fast and cheap to host, and it is decoupled from the back end. The archive&rsquo;s upload, search, and retrieval features are served by the ASP.NET Core application.</p>
+<h2 id="tech-stack">Tech stack</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Technology</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Visualization tool (client)</td>
+          <td>Vue + D3.js, reading static JSON/GeoJSON (already built)</td>
+      </tr>
+      <tr>
+          <td>Web app, curation, and archive back end</td>
+          <td>C# / ASP.NET Core</td>
+      </tr>
+      <tr>
+          <td>Data access</td>
+          <td>Entity Framework Core</td>
+      </tr>
+      <tr>
+          <td>Database</td>
+          <td>PostgreSQL with PostGIS</td>
+      </tr>
+      <tr>
+          <td>Media storage</td>
+          <td>To be decided</td>
+      </tr>
+      <tr>
+          <td>Transformation pipeline</td>
+          <td>Python and its geospatial libraries</td>
+      </tr>
+      <tr>
+          <td>Hosting</td>
+          <td>To be decided</td>
+      </tr>
+      <tr>
+          <td>License</td>
+          <td>Permissive, either Apache 2.0 or MIT, so other states have wide latitude in how they host and adapt it</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="status">Status</h2>
+<p>The client-side visualization tool exists. The repository, curation workflow, archive, and pipeline are actively being built.</p>
+<h2 id="open-items">Open items</h2>
+<ul>
+<li>Names for the codebase and the hosted platform</li>
+<li>Final license choice between Apache 2.0 and MIT</li>
+<li>Hosting and media storage</li>
+<li>Contribution and review model, including roles for each contributor group and safeguards for K-12 participants</li>
+<li>Oral history consent, release forms, and rights for uploaded materials</li>
+<li>Accessibility of archive media, such as transcripts and captions</li>
+<li>Metadata standards for archive items</li>
+<li>Specific datasets and archival sources for each core data source</li>
+<li>Course mapping: which courses, which competencies, and at what depth</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="classroom-plant-sensor-network">Classroom Plant-Sensor Network</h1>
+
+<blockquote>
+<p><strong>Living document.</strong> This page will change as development continues. <em>Last updated: September 28, 2026.</em></p></blockquote>
+<h2 id="what-it-is">What it is</h2>
+<p>Raspberry Pi sensors installed in classrooms where this program&rsquo;s courses are taught, publishing live readings through a JSON API. It is under active development — curriculum needs can inform its design, not just consume whatever already exists. Right now that means a single unauthenticated GET endpoint returning the room&rsquo;s temperature; additional sensor readings (humidity, light, soil moisture), authenticated write access, historical/time-series data, and real-time streaming are all planned but not yet built. Computer vision is a likely further direction down the road.</p>
+<h2 id="why-were-building-it">Why we&rsquo;re building it</h2>
+<p>This asset is reflexive in a way the others aren&rsquo;t: its subject is the room the students are sitting in. That makes it a low-stakes, immediate way to introduce a live network boundary and a JSON response — a real GET request against a real, physically-present system — without the setup cost of an external API or a fictional example. Its minimal, unauthenticated design is deliberate and temporary: a single open read endpoint is a natural, concrete setup for a later question — &ldquo;why would you not leave a write endpoint open the way this read endpoint is&rdquo; — once the core reaches its security/auth content.</p>
+<h2 id="role-in-the-undergraduate-curriculum">Role in the undergraduate curriculum</h2>
+<p>This is a <strong>cornerstone project</strong> in the redesigned B.S. in Computer Science, but student involvement deepens in stages rather than starting at full ownership — the same trajectory this program&rsquo;s <a href="/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html">Legitimate Peripheral Participation</a> page describes, and a live instance of the <a href="/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html">Spiral Curriculum</a>&rsquo;s design logic: the same system revisited at increasing depth, not a repeat of the first pass.</p>
+<p>It offers direct experience with:</p>
+<ul>
+<li><strong>Consuming a live API (early courses).</strong> Students read from it as a data source — the networking norm&rsquo;s early convergence point, and a flagged future pairing point for the core&rsquo;s security/auth content once that lands (CIS 251).</li>
+<li><strong>Embedded systems (ECE 241).</strong> Students build and deploy their own example sensor units, hands-on.</li>
+<li><strong>Systems ownership (higher-level courses).</strong> Students extend the Go consolidation pipeline, the Python/FastAPI access layer, and implement new sensor types themselves, taking on real ownership of a production system&rsquo;s evolution.</li>
+<li><strong>Polyglot systems, contrasted with this chapter&rsquo;s other two projects.</strong> C or Rust on the sensors, Go for the consolidation pipeline, Python/FastAPI for the access layer — a third distinct architectural voice alongside Konza Code&rsquo;s Elixir/Phoenix actor model and the Kansas Historical Data project&rsquo;s C#/ASP.NET Core layered enterprise architecture. Each project takes a different approach to the same class of networking/API problems, by design, not by accident.</li>
+<li><strong>Security and trust.</strong> The deliberately temporary no-auth design is a concrete setup for the core&rsquo;s security/auth content — this work suits the Cybersecurity track.</li>
+</ul>
+<p><em>Beyond ECE 241, which courses touch the project, and at what depth, will be filled in as the course sequence is finalized.</em></p>
+<h2 id="tech-stack">Tech stack</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Technology</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Sensor firmware (Pi)</td>
+          <td>C or Rust — deliberately varied across deployments</td>
+      </tr>
+      <tr>
+          <td>Data consolidation/ingestion pipeline</td>
+          <td>Go</td>
+      </tr>
+      <tr>
+          <td>API access layer</td>
+          <td>Python (FastAPI)</td>
+      </tr>
+      <tr>
+          <td>Hosting</td>
+          <td>To be decided</td>
+      </tr>
+      <tr>
+          <td>License</td>
+          <td>To be decided</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="status">Status</h2>
+<p>Early development, led by Ruth. One capability (<code>GET room temperature</code>) is requested; none is yet marked <code>confirmed</code>.</p>
+<h2 id="open-items">Open items</h2>
+<ul>
+<li>Hosting and license are still undecided.</li>
+<li>Selection and scheduling of the deferred capabilities (additional sensors, auth, historical data, streaming, eventual computer vision) and which course/sequence point each would pair with.</li>
+<li>The specific ECE 241 assignment design (what students build, how it&rsquo;s assessed) isn&rsquo;t drafted yet.</li>
+<li>Ownership/governance of pipeline and API code once higher-level courses start extending it — how contributions from a rotating set of student cohorts get reviewed and maintained long-term.</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="kansas-mesonet">Kansas Mesonet</h1>
+
+<blockquote>
+<p><strong>Living document.</strong> This page will change as development continues. <em>Last updated: September 28, 2026.</em></p></blockquote>
+<h2 id="what-it-is">What it is</h2>
+<p>The <a href="https://mesonet.k-state.edu" rel="external" target="_blank">Kansas Mesonet</a> is a statewide network of automated weather and soil-monitoring stations, operated by K-State&rsquo;s Weather Data Library, reporting precipitation, air and soil temperature, humidity, wind, solar radiation, and soil moisture in near-real time.</p>
+<h2 id="why-were-using-it">Why we&rsquo;re using it</h2>
+<p>Unlike Konza Code, the Kansas Historical Data project, and the classroom plant-sensor network, this isn&rsquo;t something the department is building — it&rsquo;s established, live, external infrastructure with its own operational priorities, independent of this program&rsquo;s schedule. K-State is pursuing a collaboration with the Mesonet team to expand its API for classroom use, rather than building a new system from scratch.</p>
+<h2 id="who-uses-it-and-for-what">Who uses it, and for what</h2>
+<p>Mesonet&rsquo;s actual user base is agricultural producers, K-State Research and Extension agents, and emergency management personnel across Kansas, alongside K-State&rsquo;s own agronomy and agricultural-research programs. In practice, its data drives decisions like when to irrigate (using evapotranspiration data to schedule watering efficiently), when a frost or freeze warning changes a planting or harvest decision, and how drought conditions are tracked across the state. It is also a public-facing resource — Kansans and media outlets check it directly for local conditions.</p>
+<h2 id="role-in-the-undergraduate-curriculum">Role in the undergraduate curriculum</h2>
+<p>This is a <strong>cornerstone project</strong> in the redesigned B.S. in Computer Science, but unlike this chapter&rsquo;s built systems, students integrate with Mesonet rather than developing or operating it themselves.</p>
+<p>It offers direct experience with:</p>
+<ul>
+<li><strong>A genuine external stakeholder with real constraints.</strong> Mesonet&rsquo;s usage policy explicitly prohibits automated data-ingestion without written consent — precisely the situation a full class of students making repeated automated calls creates. Working within that constraint, rather than around it, is a real instance of what this program&rsquo;s <a href="/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.html">Boundary Crossing</a> page describes: a real limit imposed by a practice outside the classroom, not a contrived one.</li>
+<li><strong>A land-grant mission connection.</strong> K-State&rsquo;s land-grant mission — serving Kansas through education, research, and outreach — is structural to this asset choice, not incidental. Mesonet is Kansas agricultural and emergency-management infrastructure; using it connects student work to a real public service rather than an arbitrary dataset.</li>
+<li><strong>A deliberate data-format contrast.</strong> Mesonet&rsquo;s public API returns CSV, not JSON — unlike the classroom plant-sensor network and the &ldquo;Where Did They Go?&rdquo; visualization tool, both JSON-based. That&rsquo;s a genuine, unforced opportunity to teach that &ldquo;the network boundary&rdquo; doesn&rsquo;t imply one data format, rather than smoothing every asset into the same shape before students see it.</li>
+</ul>
+<p><em>No course is confirmed to use Mesonet yet — see open items below.</em></p>
+<h2 id="interface">Interface</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Capability</th>
+          <th>Status</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Station list (name, county, lat/lon)</td>
+          <td>confirmed (public documentation)</td>
+          <td><code>http://mesonet.k-state.edu/rest/stationnames/</code></td>
+      </tr>
+      <tr>
+          <td>Station data by date range/variables</td>
+          <td>confirmed (public documentation); <strong>classroom use pending authorization</strong></td>
+          <td>Returns CSV, not JSON — up to 3,000 records per request</td>
+      </tr>
+      <tr>
+          <td>JSON response option</td>
+          <td>requested</td>
+          <td>No committed course/sequence point yet</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="status">Status</h2>
+<p>Established, live, external platform — not owned or built by this department.</p>
+<h2 id="open-items">Open items</h2>
+<ul>
+<li><strong>No course is confirmed to use Mesonet yet.</strong> Given its statewide-data and applied-statistics character, CIS 141 (AI/Data Science) and STAT 410 (Statistics for Computing) are plausible hosts, but that&rsquo;s an inference, not a decision — <code>course-designer</code>&rsquo;s call.</li>
+<li><strong>Anticipated tech stack for consuming the API — not yet defined, flagging rather than guessing.</strong> No course/assignment design exists yet that specifies what students would use to call Mesonet&rsquo;s API (language, HTTP client, CSV-parsing approach). An earlier draft of this page speculated well beyond what was actually real or requested here (see <code>resources/design-log.md</code>&rsquo;s note on the retired &ldquo;Rhizome&rdquo; framing) and was rewritten specifically to stop doing that — so this page doesn&rsquo;t guess at one now.</li>
+<li><strong>Classroom-use written authorization from the Mesonet director</strong> — pending, expected favorable given an existing working relationship, but anything scheduled to actually reach students needs this double-checked close to delivery.</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="konza-code">Konza Code</h1>
+
+<blockquote>
+<p><strong>Living document.</strong> This page will change as development continues. <em>Last updated: September 27, 2026.</em></p></blockquote>
+<h2 id="what-it-is">What it is</h2>
+<p>Konza Code is a block-based programming environment for K-12 students. It is a new project in the K-State Computer Science department, forked from MIT&rsquo;s Scratch. We renamed it to avoid Scratch trademark issues. The name also reflects the feature that sets it apart: a <strong>switchable text panel</strong>. Students can view and edit the same program as blocks or as text.</p>
+<p>The text form uses <strong>Scratch&rsquo;s own syntax</strong>, so it reads like the blocks themselves. Current Scratch users will find it familiar right away. Students can move to text-based programming without learning a new language at the same moment. That keeps the cognitive load of the transition low.</p>
+<h2 id="why-were-building-it">Why we&rsquo;re building it</h2>
+<p>Scratch is excellent for novices, but it falls short of what we need:</p>
+<ul>
+<li><strong>School use.</strong> Konza Code runs on its own server, not the public Scratch community. It will better support classroom management and parent controls.</li>
+<li><strong>Data.</strong> It will offer stronger support for working with datasets and a set of <strong>curated web APIs</strong>. These will include links to the department&rsquo;s Kansas history archive and precision agriculture data.</li>
+<li><strong>Bridging to text.</strong> The text panel shows students that the blocks were always code.</li>
+</ul>
+<p>Its primary users are K-12 students and teachers. Many of them are in the rural Kansas schools served by the department&rsquo;s statewide outreach program.</p>
+<h2 id="role-in-the-undergraduate-curriculum">Role in the undergraduate curriculum</h2>
+<p>Konza Code is a <strong>cornerstone project</strong> in the redesigned B.S. in Computer Science. K-State undergraduates are its <strong>developers</strong>, not its learners. They will build, extend, maintain, and operate it.</p>
+<p>Cornerstone projects give students a long-lived, production codebase with real users. Students return to that codebase at increasing depth as they move through the program. It replaces disposable course projects. Konza Code gives students hands-on experience with several threads that run through the curriculum:</p>
+<ul>
+<li><strong>Language implementation and notional machines.</strong> Keeping blocks and text synchronized requires parsing, pretty-printing, and a shared program representation. The Scratch VM is an easy-to-read example of an execution model.</li>
+<li><strong>Concurrency.</strong> Scratch programs run many sprite scripts at once. The VM schedules them cooperatively. The Phoenix server provides a separate, contrasting model based on actors and message passing.</li>
+<li><strong>The actor model in production.</strong> Elixir is part of the two-year core. Here students use it in a system that must stay up for real users.</li>
+<li><strong>Operations.</strong> Students run a service used by schools. That includes deployment, monitoring, and reliability.</li>
+<li><strong>Security and privacy.</strong> Protecting accounts and data for a service used by minors, and building parent controls, provides grounded material for the Cybersecurity track.</li>
+<li><strong>Data.</strong> Students curate datasets and APIs and connect them to other department projects, which supports the Data Science track.</li>
+<li><strong>Open source.</strong> Students maintain an AGPL fork of a major open-source project.</li>
+</ul>
+<p><em>Which courses touch Konza Code, and at what depth, will be filled in as the course sequence is finalized.</em></p>
+<h2 id="tech-stack">Tech stack</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Technology</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Editor (client)</td>
+          <td>Fork of Scratch 3.0: JavaScript/React (<code>scratch-gui</code>, <code>scratch-vm</code>, <code>scratch-blocks</code>, <code>scratch-render</code>) plus a new text panel</td>
+      </tr>
+      <tr>
+          <td>Hosting app (server)</td>
+          <td>Elixir / Phoenix, chosen for its scalable reliability and for exposure to the actor model</td>
+      </tr>
+      <tr>
+          <td>Hosting</td>
+          <td>Cloud or departmental servers (to be decided)</td>
+      </tr>
+      <tr>
+          <td>License</td>
+          <td>Editor: AGPL-3.0. Website: likely AGPL-3.0</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="status">Status</h2>
+<p>New project in early development. This section will track milestones.</p>
+<h2 id="open-items">Open items</h2>
+<ul>
+<li>Course mapping: which courses, which competencies, and what depth</li>
+<li>Hosting decision</li>
+<li>Website license</li>
+<li>Selection of the curated APIs and datasets</li>
+<li>Parsing approach and file format for the text panel</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+          </section>
+        </div>
+      </main>
+      
+      
+      
+    </div>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1790565267" defer></script>
+  <script src="/two-year-refactor/js/embed-iframe.min.js?1790565267" defer></script>
+  </body>
+</html>

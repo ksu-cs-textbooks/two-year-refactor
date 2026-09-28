@@ -1,0 +1,2990 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="description" content="How the program assesses against the structure. Competencies belong to the program, not to individual courses; courses are evidence-generating contexts. Grades and competency status run as parallel tracks.
+This chapter is a stub — the principles below are established in the design log but not yet written up as full pages.
+To document: the program-vs-course competency model; the parallel grade/competency tracks; signature assessments (Code Archaeology, Data Investigation, Design Review, the Team Software Project, the System Integration Project); how evidence accumulates across blocks; how lens/thread competencies are assessed without dedicated courses; the role of reflection and retrospectives.">
+    <meta name="author" content="Department of Computer Science">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta name="twitter:title" content="Competency-Based Assessment :: CS Two Year Refactor">
+    <meta name="twitter:description" content="How the program assesses against the structure. Competencies belong to the program, not to individual courses; courses are evidence-generating contexts. Grades and competency status run as parallel tracks.
+This chapter is a stub — the principles below are established in the design log but not yet written up as full pages.
+To document: the program-vs-course competency model; the parallel grade/competency tracks; signature assessments (Code Archaeology, Data Investigation, Design Review, the Team Software Project, the System Integration Project); how evidence accumulates across blocks; how lens/thread competencies are assessed without dedicated courses; the role of reflection and retrospectives.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/5-assessment/index.html">
+    <meta property="og:site_name" content="CS Two Year Refactor">
+    <meta property="og:title" content="Competency-Based Assessment :: CS Two Year Refactor">
+    <meta property="og:description" content="How the program assesses against the structure. Competencies belong to the program, not to individual courses; courses are evidence-generating contexts. Grades and competency status run as parallel tracks.
+This chapter is a stub — the principles below are established in the design log but not yet written up as full pages.
+To document: the program-vs-course competency model; the parallel grade/competency tracks; signature assessments (Code Archaeology, Data Investigation, Design Review, the Team Software Project, the System Integration Project); how evidence accumulates across blocks; how lens/thread competencies are assessed without dedicated courses; the role of reflection and retrospectives.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta itemprop="name" content="Competency-Based Assessment :: CS Two Year Refactor">
+    <meta itemprop="description" content="How the program assesses against the structure. Competencies belong to the program, not to individual courses; courses are evidence-generating contexts. Grades and competency status run as parallel tracks.
+This chapter is a stub — the principles below are established in the design log but not yet written up as full pages.
+To document: the program-vs-course competency model; the parallel grade/competency tracks; signature assessments (Code Archaeology, Data Investigation, Design Review, the Team Software Project, the System Integration Project); how evidence accumulates across blocks; how lens/thread competencies are assessed without dedicated courses; the role of reflection and retrospectives.">
+    <meta itemprop="dateModified" content="2026-09-28T03:08:36+00:00">
+    <meta itemprop="wordCount" content="96">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <title>Competency-Based Assessment :: CS Two Year Refactor</title>
+    <link href="https://textbooks.cs.ksu.edu/two-year-refactor/5-assessment/index.html" rel="canonical" type="text/html" title="Competency-Based Assessment :: CS Two Year Refactor">
+    <link href="/two-year-refactor/5-assessment/index.xml" rel="alternate" type="application/rss+xml" title="Competency-Based Assessment :: CS Two Year Refactor">
+    <link href="/two-year-refactor/5-assessment/tele.html" rel="alternate" type="text/html" title="Competency-Based Assessment :: CS Two Year Refactor">
+    <link href="/two-year-refactor/5-assessment/embed.html" rel="alternate" type="text/html" title="Competency-Based Assessment :: CS Two Year Refactor">
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1790565267" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1790565267";
+    </script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-print.min.css?1790565267" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/5-assessment\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/two-year-refactor';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/two-year-refactor/css/custom.css?1790565267" rel="stylesheet">
+  </head>
+  <body class="mobile-support embed print" data-url="/two-year-refactor/5-assessment/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      
+      
+      
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 5-assessment" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="competency-based-assessment">Competency-Based Assessment</h1>
+
+<p>How the program assesses against the structure. Competencies belong to the program, not to individual courses; courses are evidence-generating contexts. Grades and competency status run as parallel tracks.</p>
+<p><em>This chapter is a stub — the principles below are established in the design log but not yet written up as full pages.</em></p>
+<p><strong>To document:</strong> the program-vs-course competency model; the parallel grade/competency tracks; signature assessments (Code Archaeology, Data Investigation, Design Review, the Team Software Project, the System Integration Project); how evidence accumulates across blocks; how lens/thread competencies are assessed without dedicated courses; the role of reflection and retrospectives.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+          <section>
+            <h1 class="a11y-only">Subsections of Competency-Based Assessment</h1>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="the-competency-model">The Competency Model</h1>
+
+<p>Competency assessment in this program operates at the <strong>program level</strong>, not the course level. Competencies belong to the degree, not to individual courses; courses are evidence-generating contexts. A student&rsquo;s competency record is maintained across their entire time in the program through the <strong>Crystalis</strong> assessment platform.</p>
+<h2 id="how-evidence-accumulates">How Evidence Accumulates</h2>
+<p>Assessment is continuous and based on a <strong>preponderance of evidence</strong> — no single event determines a competency level. Evidence accumulates from multiple courses and multiple evidence types, and Crystalis aggregates it into a frequently-updated assessment score with a confidence interval visible to both faculty and the individual student, along with a reviewable record of contributing evidence, claims, assessments, and collected artifacts (such as the code that was assessed).</p>
+<h3 id="evidence-tiers">Evidence Tiers</h3>
+<p>Two evidence tiers feed the competency record:</p>
+<p><strong>Tier 1 — Automated Evidence</strong></p>
+<p>Crystalis collects telemetry automatically from instrumented learning environments:</p>
+<ul>
+<li>E-textbook and video engagement</li>
+<li>Embedded H5P exercises (scaffolded code workouts and interactive worksheets)</li>
+<li>Git logs and commit history</li>
+<li>Time logs</li>
+<li>AI chat prompt and response logs</li>
+<li>Near real-time keystroke and event logging from instrumented IDEs</li>
+</ul>
+<p>Automatically collected evidence is aggregated into <strong>claims</strong> that faculty review and approve. Automated evidence can contribute up to the <strong>Application</strong> level.</p>
+<p><strong>Tier 2 — Direct Observable Assessments</strong></p>
+<p>Faculty evaluate directly observable student work through LTI 3.0-integrated rubrics. These assessments are designed to expose student thinking and comprehension in contexts that automated evidence cannot capture:</p>
+<ul>
+<li>Code readings and code reviews</li>
+<li>Debugging challenges</li>
+<li>Design briefs and evaluation reports</li>
+<li>Performance assessments and reflection assessments</li>
+<li>Integrative projects</li>
+</ul>
+<p>Direct assessments can reach <strong>Independence</strong>, <strong>Adaptation</strong>, and <strong>Leadership</strong>.</p>
+<h2 id="the-competency-level-scale">The Competency Level Scale</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Exposure</strong></td>
+          <td>Recognizes concepts and vocabulary</td>
+      </tr>
+      <tr>
+          <td><strong>Application</strong></td>
+          <td>Uses the skill in structured tasks</td>
+      </tr>
+      <tr>
+          <td><strong>Independence</strong></td>
+          <td>Uses the skill without scaffolding</td>
+      </tr>
+      <tr>
+          <td><strong>Adaptation</strong></td>
+          <td>Applies the skill in novel contexts</td>
+      </tr>
+      <tr>
+          <td><strong>Leadership</strong></td>
+          <td>Teaches, critiques, and improves practice</td>
+      </tr>
+  </tbody>
+</table>
+<p>Leadership is not limited to course contexts. Students can demonstrate Leadership through undergraduate TA/LA roles, club leadership, peer mentoring, conference presentations, and other professional engagement outside the classroom.</p>
+<h2 id="parallel-tracks-grades-and-competencies">Parallel Tracks: Grades and Competencies</h2>
+<p>Grades live in administrative course containers and reflect a student&rsquo;s learning engagement within that course — they are not solely a measure of proficiency. Competency levels live in the program-level Crystalis record and reflect demonstrated capability across multiple contexts.</p>
+<p>These are parallel tracks, not redundant ones. A student may pass a course without yet demonstrating independence on a competency; a student may demonstrate a competency through non-course evidence before the relevant course has formally been completed.</p>
+<h2 id="graduation-artifacts">Graduation Artifacts</h2>
+<p>Students graduate with two records:</p>
+<ol>
+<li><strong>Traditional transcript</strong> — course-by-course grade record</li>
+<li><strong>Final competency report</strong> — program-level competency assessment with evidence citations and a reviewable evidence trail</li>
+</ol>
+<p>Students may prepare an <strong>employer-facing version</strong> of their competency report through Crystalis: a curated presentation of their competency levels with selected supporting evidence artifacts (code samples, assessments, project work) chosen by the student.</p>
+<h2 id="target-level">Target Level</h2>
+<p>The program&rsquo;s aspiration is that every student exits at the <strong>Adaptation</strong> level or above across all competencies. Due to institutional constraints, competency levels are maintained as a parallel record independent of graduation requirements.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="competencies">Competencies</h1>
+
+<p>The competency domains are:</p>
+<ol>
+<li>Computational Reasoning</li>
+<li>Software Development</li>
+<li>Data and Information</li>
+<li>Systems and Infrastructure</li>
+<li>Human-Centered Practice</li>
+<li>Professional Practice</li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+          <section>
+            <h1 class="a11y-only">Subsections of Competencies</h1>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="computational-reasoning">Computational Reasoning</h1>
+
+<p><em>Re-checked against real course-design pages, 2026-08-04 — see <code>resources/design-log.md</code>. Headline finding for this domain: <strong>CIS 301 (Logical Foundations of Programming)</strong> is a genuinely new/restructured course with no single direct predecessor, and is a strong, directly-confirmed home for formal pre/post-condition and correctness-proof evidence — see &ldquo;Apply Formal Reasoning&rdquo; below. This matches <code>content/5-assessment/recurring-assessments.md</code>&rsquo;s parallel finding for the same domain.</em></p>
+<h3 id="analyze-computational-systems">Analyze Computational Systems</h3>
+<p><strong>I can explain the behavior of computational systems by investigating their components, interactions, and execution.</strong></p>
+<p>I analyze software and computing systems to determine how they operate, identify sources of behavior, and predict outcomes under varying conditions.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 115 (Y1 Fall)</td>
+          <td>Boolean/number representation, a simplified float format, register-level state — first named encounter with how a running system works. <strong>Note:</strong> the memory-model and process-model content once assumed for this course was never actually incorporated — <code>resources/reference/degree-maps/cs.md</code>&rsquo;s CIS 115 entry explicitly lists it as still unplaced.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Code Archaeology (signature) — structured investigation of unfamiliar code to explain behavior. Encapsulation/contract-boundary analysis (per course-designer&rsquo;s CIS 200 placement).</td>
+      </tr>
+      <tr>
+          <td>CIS 220 (Y1 Spring)</td>
+          <td>Browser as mini-OS (event loop, origin isolation, web workers, <code>postMessage</code>) — analyzing a concrete computational system.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Client-server dataflow; API as system structure (the &ldquo;build&rdquo; side of the CIS 300/CIS 320 pairing).</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Performance analysis on a real deployed bottleneck; OS/concurrency model analysis. Confirmed against <code>cis-400.md</code>&rsquo;s Confirmed Design Intent section.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Code reading — trace execution and explain behavior with guided prompts</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Code Archaeology — unscaffolded, unfamiliar codebase, student explains without hints</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Performance investigation (CIS 400) — analyze real system behavior where empirical results diverge from theory</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA-led code reading sessions; mentoring peers through code archaeology in LA role</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Code Archaeology — deepens from single-module familiar code (CIS 200) through production system diagnosis (CIS 400). Also: System Analysis Task for behavior traced through operational signals rather than code.</p>
+<hr>
+<h3 id="develop-abstractions">Develop Abstractions</h3>
+<p><strong>I can create and apply abstractions that reduce complexity while preserving essential characteristics of a problem or system.</strong></p>
+<p>I organize information, processes, and system components into meaningful models that support understanding, communication, and solution development.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 116 (Y1 Fall)</td>
+          <td>Functions as values and composition — first encounter with abstraction as a mechanism.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Encapsulation as boundary-drawing — first time students design an interface vs. internals. Higher-order functions, iterator protocol — formalizing abstraction over behavior and traversal.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>ADT contract-first design — the abstraction IS the contract, designed before any implementation. Confirmed against the real schedule (applications precede implementations at every pass). API as system-level abstraction across a network boundary (build side).</td>
+      </tr>
+      <tr>
+          <td>CIS 220 / CIS 320 (Y1 Spring / Y2 Fall)</td>
+          <td>Web components as encapsulated UI units — the integrate side of the same API-abstraction pairing.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema design — abstracting a messy real-world domain into a formal relational model.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Choosing the right abstraction for the shape of the problem (graph vs. relational vs. document) — Design Review content, re-homed here to CIS 400 (see <code>signature-assessments.md</code>). Actor-model/containers as deployment abstractions; API versioning as a compatibility abstraction (matches the confirmed &ldquo;Software Versioning&rdquo; topic).</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Design Brief (constrained) — design a module/ADT that hides X and exposes Y, given a contract template</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Design Brief (open-ended) — given a problem description, design an appropriate abstraction without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 400&rsquo;s team-project system-level abstraction composition — novel multi-component problem requiring the student to invent and compose abstractions. (The &ldquo;System Integration Project&rdquo; ceiling for this level lives at the Year 3–4 program capstone, outside the two-year core — see <code>signature-assessments.md</code> — so CIS 400 is the core&rsquo;s own Adaptation-level ceiling for this competency, not a stand-in for that later event.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>Design Review (CIS 400) — defending abstraction choices under peer and faculty scrutiny; TA mentoring in design sessions</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Design Brief — deepens from single-component interface design (CIS 200) through system-level abstraction composition (CIS 400). Also generates evidence for Design Software Systems and Design Human-Centered Solutions.</p>
+<hr>
+<h3 id="apply-formal-reasoning">Apply Formal Reasoning</h3>
+<p><strong>I can use logical, mathematical, and formal methods to analyze computational problems and justify conclusions.</strong></p>
+<p>I construct and evaluate arguments, proofs, and formal representations to reason about the correctness and behavior of computational systems.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>MATH Logic and Sets (Y1 Fall)</td>
+          <td>Propositional/predicate logic, formal proof, set operations.</td>
+      </tr>
+      <tr>
+          <td>CIS 115 (Y1 Fall)</td>
+          <td>Boolean logic as applied counterpart — truth tables, bitwise operations applied to computation.</td>
+      </tr>
+      <tr>
+          <td>MATH Counting Finite Configurations (Y1 Fall)</td>
+          <td>Combinatorial reasoning — formal counting as precursor to algorithmic analysis.</td>
+      </tr>
+      <tr>
+          <td>MATH Recursive and Modular Computation (Y2 Fall)</td>
+          <td>Recursive structures, modular arithmetic — formal reasoning about computation&rsquo;s mathematical substrate.</td>
+      </tr>
+      <tr>
+          <td><strong>CIS 301</strong> (Y2 Fall) — Logical Foundations of Programming</td>
+          <td>Pre/post-conditions and loop invariants; recursive correctness argument by induction. <strong>Re-homed here to CIS 301</strong> — directly confirmed against its real schedule (pre/post-conditions, loop invariants, function specifications, proof by induction/contradiction), a stronger match than CIS 300 ever was for this specific claim.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Big-O analysis — constructing and comparing asymptotic bounds as formal argument.</td>
+      </tr>
+      <tr>
+          <td>MATH Graphs, Trees, and Maps (Y1 Spring)</td>
+          <td>Graph theory — formal proofs about graph properties.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout CIS 116/200/300)</td>
+          <td>Testing as formal verification; property-based testing; test suite as formal specification.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Algorithm correctness arguments for graph algorithms. <strong>The old &ldquo;constraint/logic model (Prolog-style)&rdquo; claim is confirmed absent</strong> from CIS 301&rsquo;s real drafted content (pure formal-logic/proof/verification, no Prolog or constraint-solver material) — already flagged as an open question in <code>thread-computational-models.md</code>, restated here rather than re-invented.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Formal + empirical reconciliation — construct the argument for why Big-O prediction diverges from observed behavior. Confirmed against the Confirmed Design Intent section.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: MATH and STAT courses feed Crystalis evidence directly via LTI — formal reasoning demonstrated in the mathematics sequence counts as competency evidence.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured formal analysis — construct a truth table, analyze complexity of a given algorithm, write pre/post-conditions from a template</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Unscaffolded formal analysis — specify pre/post-conditions for a novel function (CIS 301), analyze an unseen algorithm&rsquo;s correctness and complexity without hints</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Formal + empirical reconciliation (CIS 400) — apply formal reasoning where the textbook model breaks down; construct the argument for why it breaks down</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA leading algorithm analysis or proof sessions; formal critique in Design Review (CIS 400) — evaluating whether a peer&rsquo;s formal argument actually holds</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Formal Analysis — deepens from structured logic exercises (Y1 Fall) through formal + empirical reconciliation on a production system (CIS 400).</p>
+<hr>
+<h3 id="evaluate-algorithmic-solutions">Evaluate Algorithmic Solutions</h3>
+<p><strong>I can evaluate alternative algorithms and representations by analyzing their correctness, performance, and tradeoffs.</strong></p>
+<p>I select and justify computational approaches using theoretical and empirical evidence appropriate to the problem context.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Same contract, multiple implementations — seeds the idea that valid alternatives exist with different tradeoff profiles. Adjacency list vs. matrix — choosing the right graph representation for a problem. Big-O comparison of sorting/searching; selecting among implementations satisfying the same ADT contract.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Index choice and query optimization (still a proposed, undrafted addition — see <code>cis-260.md</code>&rsquo;s &ldquo;Proposed Changes&rdquo;); schema design tradeoffs; relational vs. graph model selection.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Dijkstra vs. A*, BFS vs. DFS, Kruskal vs. Prim — multiple algorithms for the same problem with different applicability conditions.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — defend algorithm and data model choices to peers and faculty. Re-homed here to CIS 400, per <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Production bottleneck — evaluate algorithm choices where formal analysis and empirical behavior diverge; concurrency model selection.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured comparison — given two algorithms/representations, analyze complexity and identify which is better for a specified scenario</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended justification — given a problem, select and defend an algorithm/data model choice without a comparison template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Design Review (CIS 400) — defend choices to peers and faculty in a novel system context; production bottleneck evaluation (CIS 400) where formal analysis alone is insufficient</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>Leading Design Review critique sessions as TA/LA — evaluating whether a peer&rsquo;s justification argument is complete and sound</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Algorithm Evaluation Task — deepens from single-structure comparison (CIS 300) through production system evaluation with formal + empirical evidence (CIS 400). Also generates evidence for Represent Information.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="software-development">Software Development</h1>
+
+<p><em>Re-checked against real course-design pages, 2026-08-04 — see <code>resources/design-log.md</code>. Two things propagate through this whole domain: the Design Review defense converges on CIS 400 (established in the Computational Reasoning round), and several rows depended on content that&rsquo;s since moved to the Year 3–4 program capstone (Round 1: System Integration Project, full acceptance testing, blameless postmortem).</em></p>
+<h3 id="design-software-systems">Design Software Systems</h3>
+<p><strong>I can design software systems that satisfy identified requirements and constraints.</strong></p>
+<p>I create and communicate system designs that consider functionality, maintainability, security, usability, and performance.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Module boundary design — what a component hides vs. exposes; type-annotated interfaces.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>ADT contract-first design — specifying behavior before implementation. Confirmed against the real schedule.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall) / CIS 220 &amp; CIS 320 (Y1 Spring / Y2 Fall)</td>
+          <td>Client-server decomposition; API design across a network boundary (CIS 300, build side); web component architecture (CIS 220/CIS 320, integrate side).</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema design — modeling a real-world domain with formal relational structure.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Designing for testability — testability as a first-class design quality.</td>
+      </tr>
+      <tr>
+          <td>CIS 251 (Y2 Fall)</td>
+          <td>Security as a design concern — threat modeling, least-privilege, data minimization embedded in design. Confirmed directly against CIS 251&rsquo;s real SLOs.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — defend system design choices including algorithm selection, data model, and tradeoffs. Re-homed here to CIS 400, per <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Deployment architecture, fault-tolerance design, API versioning as a compatibility contract.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Requirements-driven design — designing from stakeholder needs outward, at CIS 320&rsquo;s bounded acceptance-criteria scope. <strong>The full multi-stakeholder, System-Integration-Project-scale version of this pass has moved to the Year 3–4 capstone</strong> (Round 1) — this row is the core&rsquo;s own, smaller-scoped version, not a stand-in for the relocated event.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Design Brief (constrained) — design a component or API to a given specification</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Design Brief (open-ended) — given requirements, produce a complete system design without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 400&rsquo;s team-project design work — novel multi-stakeholder system requiring synthesis of all design concerns, within the core&rsquo;s own scope (the old &ldquo;System Integration Project&rdquo; ceiling for this level is now at the Year 3–4 capstone, a later and larger event, not this one)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>Design Review critique (TA/LA role) — evaluating whether a peer&rsquo;s design satisfies stated requirements and constraints</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Design Brief (shared with Develop Abstractions and Design Human-Centered Solutions) — the rubric criteria here focus on functionality, maintainability, security, usability, and performance tradeoffs rather than abstraction structure.</p>
+<hr>
+<h3 id="implement-software-solutions">Implement Software Solutions</h3>
+<p><strong>I can construct software solutions that fulfill identified requirements using appropriate technologies and development practices.</strong></p>
+<p>I develop software systems by applying suitable tools, languages, frameworks, and implementation strategies.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 116 (Y1 Fall)</td>
+          <td>First programs — imperative paradigm; heavily scaffolded.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Data transformation pipelines; collection classes and iterators.</td>
+      </tr>
+      <tr>
+          <td>CIS 220 (Y1 Spring)</td>
+          <td>Fetch-and-render with async/event handling.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring) / CIS 300 (Y2 Fall)</td>
+          <td>OOP with type-annotated contracts (CIS 200); implementing ADTs to a pre-defined contract (CIS 300).</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall) / CIS 220 &amp; CIS 320 (Y1 Spring / Y2 Fall)</td>
+          <td>Building a full API — server-side (CIS 300); client-side and web components (CIS 220/CIS 320).</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Collaborative implementation — team workflows, PR-based development.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Graph algorithm implementation in a non-trivial problem context.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring) / CIS 320 (Y2 Fall)</td>
+          <td>Production-grade implementation (CIS 400); human-centered system work (CIS 320). Data-analysis-notebook content is unconfirmed, pending a course-designer/faculty decision on where it lands.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: automated evidence (IDE telemetry, git commits, H5P exercises) is richer here than anywhere else in the program — this sub-competency is most thoroughly covered by the telemetry tier up to Application. The gap is at Independence and above, which requires direct assessment.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured implementation task — requirements and step-by-step specification provided</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended implementation task — requirements given, no scaffolding; student selects tools and approach</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 400&rsquo;s Team Software Project — novel, multi-stakeholder, collaborative implementation under real constraints, within the core&rsquo;s own scope. (The old &ldquo;System Integration Project&rdquo; co-anchor for this level has moved to the Year 3–4 capstone — see <code>signature-assessments.md</code>.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA supporting peers&rsquo; implementation; leading code review sessions</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Implementation Task — deepens from fully-specified single function (CIS 116) through production-quality novel-domain implementation (CIS 400).</p>
+<hr>
+<h3 id="verify-software-quality">Verify Software Quality</h3>
+<p><strong>I can evaluate software systems using testing, analysis, and verification techniques to determine whether requirements have been met.</strong></p>
+<p>I apply appropriate methods to establish confidence in the correctness, reliability, and quality of software systems.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Regression tests introduced as a safety net for code repair — first informal encounter with verification. Type checker as mechanical verifier — type annotations as static verification.</td>
+      </tr>
+      <tr>
+          <td><strong>CIS 301</strong> (Y2 Fall)</td>
+          <td>Pre/post-conditions and invariants as formal specification; proof obligations for recursive functions. <strong>Re-homed here to CIS 301</strong>, per the Computational Reasoning round&rsquo;s headline finding — this is CIS 301&rsquo;s real, confirmed content.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Primary home — automated unit and integration testing; property-based testing; test suite as formal specification.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Code review as peer verification — correctness check before merge.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — defending correctness of structural choices, not just &ldquo;does it work.&rdquo; Re-homed here per <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Performance validation on a live system — empirical verification against performance requirements.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Acceptance testing (fitness-for-purpose) and A/B testing, at CIS 320&rsquo;s bounded, every-student-gets-this-once scope — <strong>not</strong> the full real-users acceptance-testing event, which has moved to the Year 3–4 capstone (Round 1).</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: three formal verification techniques are explicitly present: type checking as mechanical verification (CIS 200), property-based testing (CIS 400), and pre/post-condition invariants (CIS 301, re-homed). These complement the empirical testing emphasis.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Implement a test suite for a given specification — write unit and integration tests to a provided requirements document</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Design and implement a complete verification strategy — given a system, determine independently what to test, at what level, and argue adequacy</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Performance validation for CIS 400&rsquo;s team project, within the core&rsquo;s own scope. (Full acceptance testing with real users for a novel multi-component system — the old ceiling here — now sits at the Year 3–4 capstone.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA reviewing test suites and teaching testing practice; leading code review sessions with a correctness lens</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Verification Task — deepens from regression test as safety net (CIS 200) through performance validation on the core&rsquo;s own capstone (CIS 400); full acceptance-testing-with-real-users deepens further at the Year 3–4 capstone.</p>
+<hr>
+<h3 id="debug-software-systems">Debug Software Systems</h3>
+<p><strong>I can diagnose and correct defects in software systems using systematic investigation and evidence.</strong></p>
+<p>I identify the causes of unexpected behavior and implement effective solutions while validating the results of my changes.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Primary home — debugging reframed as systematic data flow investigation; git revert and regression tests as diagnostic safety nets; AI-as-explainer verified empirically.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Debugging across encapsulation boundaries — exceptions as signals that a contract was violated; try/catch as a diagnostic tool.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Test-isolated debugging — failing tests as precise diagnostic instruments.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Code review as pre-production defect detection.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Production debugging — diagnosing live system failures from monitoring data and logs.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Blameless postmortem — diagnosing what went wrong at the system/team level — has moved to the Year 3–4 program capstone</strong>, confirmed independently in <code>thread-sociotechnical.md</code> (same finding as <code>signature-assessments.md</code>&rsquo;s System Integration Project move, Round 1). CIS 400&rsquo;s own ceiling is an individually-written responsibility retrospective, a lighter, individual-facing counterpart, not a full team-level blameless postmortem.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Guided debugging challenge — bug symptom given, scaffolded hints about where to look</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Unscaffolded debugging challenge — unfamiliar codebase, no hints, systematic investigation required</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Production debugging (CIS 400) — diagnose a live system failure from operational signals (logs, monitoring), no direct test harness</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA mentoring debugging sessions. (Leading blameless postmortems is now a Year 3–4-capstone-level activity, not available within the core.)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Debugging Challenge — deepens from single-function guided diagnosis (CIS 200) through production system diagnosis from logs (CIS 400). Code Archaeology and Debugging Challenge naturally pair — reading the code to understand it is the prerequisite for diagnosing it.</p>
+<hr>
+<h3 id="maintain-software-systems">Maintain Software Systems</h3>
+<p><strong>I can modify and evolve existing software systems while preserving functionality, reliability, and data integrity.</strong></p>
+<p>I analyze existing codebases, implement changes, and manage software evolution without introducing unintended consequences.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Git as history/archaeology tool; semantic versioning seeds the idea of software as something that evolves over time. <strong>Unconfirmed</strong> — depended on a git-history capstone assessment that <code>cs.md</code>&rsquo;s CIS 115 entry explicitly lists as not incorporated there.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Primary home — Code Archaeology; git commit/revert and regression tests introduced explicitly as safety nets for modifying code.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Type annotations as maintenance affordance — explicit contracts protect future maintainers.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema migration — evolving a database schema without breaking existing data. <strong>Unconfirmed</strong> — not in CIS 260&rsquo;s drafted SLOs/schedule.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Regression tests as the foundation for safe modification.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Branch/PR/code review workflow — professional mechanism for modifying a shared codebase.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Operational maintenance — runbooks, monitoring, API versioning as a backward-compatibility contract. Confirmed (the &ldquo;Software Versioning&rdquo; topic).</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Guided maintenance task — modify an existing codebase to a specified change, with tests and documentation provided</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended maintenance task — given a codebase and a change requirement, determine what needs to change without guidance</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 400&rsquo;s Team Software Project — maintaining a shared evolving codebase with real coordination overhead; schema migration on a live database (CIS 260, proposed)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA managing code review for a team; leading retrospectives on a system&rsquo;s evolution</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Maintenance Task — deepens from guided bug repair with commit/revert (CIS 200) through API versioning on CIS 400&rsquo;s team project. Code Archaeology, Debugging Challenge, and Maintenance Task naturally appear in sequence: read → diagnose → repair safely.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="data-and-information">Data and Information</h1>
+
+<p><em>Re-checked against real course-design pages, 2026-08-04 — see <code>resources/design-log.md</code>. This is the domain most affected by unplaced/unconfirmed content: a data-integration scenario and a responsible-AI/data-analysis capstone from earlier design drafts both anchor several rows below, and neither has a confirmed new-course home except the AI-code-critique slice (→ CIS 141). One genuine resolution: the honest-visualization pass under Communicate Data Insights turns out not to depend on that unplaced content after all — it&rsquo;s confirmed CIS 320 content instead. STAT 410 (replacing the old four-course statistics sequence) has no drafted content yet, so its rows are flagged rather than verified.</em></p>
+<h3 id="represent-information">Represent Information</h3>
+<p><strong>I can select and apply appropriate representations for information within computational systems.</strong></p>
+<p>I organize and model information in ways that support effective storage, communication, analysis, and processing.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 115 (Y1 Fall)</td>
+          <td>Primary home for first pass — bits, booleans, number systems, bitwise operations; the most primitive representation layer. <strong>The stack/heap memory-model half of this pass is unconfirmed</strong> — <code>cs.md</code>&rsquo;s CIS 115 entry explicitly lists it as not moved there, same finding as elsewhere in this pass.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>CSV/JSON as format choices — file formats as representation decisions.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Linear structures, stacks, queues, trees as representation choices; ADT contract abstracts over representation. Confirmed.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Trees, hashing, hierarchies. <strong>Spatial indexing (quadtrees, R-trees, geohashing) is proposed, not built</strong> — see <code>cis-300.md</code>&rsquo;s &ldquo;Proposed Changes,&rdquo; already flagged in the lens pass.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Relational model as formal queryable representation; schema design as domain-to-model translation.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall) / CIS 400 (Y2 Spring)</td>
+          <td>Graphs as a general relationship representation (CIS 300); choosing between representations, defended (CIS 400, Design Review re-homing). <strong>&ldquo;Document&rdquo; as a representation option is not actually in the core</strong> — non-relational/NoSQL coverage was confirmed dropped from the core entirely (only in the CIS 560 elective), so a relational-vs-document comparison isn&rsquo;t available within the two-year core the way this row implies; relational-vs-graph is.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Algorithm Evaluation Task (constrained) — compare two provided representations for a given problem and justify the choice</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Design Brief (open-ended) — given a domain, select and design an appropriate representation without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 400&rsquo;s team-project representation work — represent a complex multi-faceted domain where no single representation suffices, within the core&rsquo;s own scope. (The old &ldquo;System Integration Project&rdquo; ceiling is now at the Year 3–4 capstone.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>Design Review (CIS 400) — defend representation choices to peers; TA/LA mentoring representation decisions</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring types:</strong> Algorithm Evaluation Task (comparing representation options) and Design Brief (designing a data model or schema) cover this sub-competency — no dedicated type needed.</p>
+<hr>
+<h3 id="manage-data-resources">Manage Data Resources</h3>
+<p><strong>I can acquire, store, transform, and integrate data from multiple sources to support computational goals.</strong></p>
+<p>I work with structured and unstructured data using appropriate technologies, formats, and workflows.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>First pass — parsing, filtering, reshaping, aggregating; CSV/JSON as sources and sinks. <strong>&ldquo;Data minimization as embedded practice&rdquo; here is thin</strong> — the confirmed privacy-by-design content sits at CIS 120 instead (see <code>lens-trustworthy-computing.md</code>&rsquo;s narrowed row), not CIS 200.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 / CIS 300 (Y1 Spring / Y2 Fall)</td>
+          <td>APIs as data sources — consuming (the &ldquo;consume&rdquo; verb).</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>SQL — querying and transforming relational data. Query optimization specifically is still a proposed, undrafted addition.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema design with integrity constraints; Data Investigation signature assessment anchored here (confirmed). Transactions and concurrent access are still a proposed, undrafted addition (<code>cis-260.md</code>&rsquo;s &ldquo;Proposed Changes&rdquo;).</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Integration pass — combining disparate heterogeneous sources; NoSQL for data that resists relational structure (also unavailable in the core, see Represent Information above); re-identification risk from dataset combination. Same orphaned data-integration content flagged throughout this pass.</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Notebook-based pipeline — integrative culmination of acquisition, transformation, and preparation across the full data lifecycle. Depends on unconfirmed data-analysis/responsible-AI content with no current course home.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured data pipeline task — given sources and a specified target output, implement the acquisition and transformation</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended data management — given an investigative question, acquire, clean, and prepare the data needed to answer it</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Data Investigation (CIS 260) — integrate sources with data quality, privacy, and integrity constraints, within the core&rsquo;s own scope. (The old &ldquo;System Integration Project&rdquo; co-anchor is now at the Year 3–4 capstone.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA mentoring data pipeline design; leading data integration retrospectives</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Data Pipeline Task — deepens from single-source CSV/JSON transformation (CIS 200) through CIS 260&rsquo;s Data Investigation signature assessment; full-lifecycle notebook pipeline work is unplaced pending a course-designer/faculty decision on where it lands.</p>
+<hr>
+<h3 id="investigate-questions-with-data">Investigate Questions with Data</h3>
+<p><strong>I can use computational and statistical methods to investigate questions and evaluate evidence.</strong></p>
+<p>I collect, prepare, analyze, and interpret data to support conclusions and decision-making.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>First formal pass — descriptive statistics and data summarization; computing and interpreting summary measures and distributions. <strong>STAT 410 has no drafted content yet</strong> — confirmed as the successor to the old four-course non-calculus statistics sequence, now compressed into one 4-credit course, but this and the other STAT 410 rows below can&rsquo;t be checked against real content the way this pass has checked the CIS-numbered rows.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Data Investigation signature assessment — investigate a question using a novel dataset. Confirmed, matches <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Probability as the foundation for inference — reasoning about uncertainty in evidence. Same STAT 410 caveat.</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Random variables, distributions, and sampling — designing sampling strategies, evaluating distributional evidence. Same STAT 410 caveat.</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Culminating pass — full notebook-based investigation integrating statistics, visualization, and ethical framing. Depends on the same unconfirmed data-analysis/responsible-AI content flagged above.</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Correlation and regression — investigating relationships between variables; causal vs. correlational reasoning. Same STAT 410 caveat.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: STAT courses feed Crystalis evidence via LTI — statistical investigation demonstrated in the statistics sequence counts as competency evidence.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured investigation — given a dataset and a question, apply specified statistical methods and interpret results</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended investigation — given a domain question, independently design and execute the full investigation</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Data Investigation (CIS 260 signature) — novel dataset, student-driven question. (A previously-assumed co-anchor — integrative analysis with ethical accountability — remains unconfirmed, not resolved to a specific course.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>Peer review of analytical methods; TA/LA mentoring investigation design; presenting findings to non-technical audiences</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Data Investigation — deepens from guided descriptive statistics (STAT 410, undrafted) through CIS 260&rsquo;s signature event; the full notebook-investigation ceiling once envisioned for this domain is unplaced pending a course-designer/faculty decision.</p>
+<hr>
+<h3 id="communicate-data-insights">Communicate Data Insights</h3>
+<p><strong>I can create visualizations and explanations that communicate data-driven findings to intended audiences.</strong></p>
+<p>I present results in forms that support understanding, interpretation, and action.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>First pass — HTML/CSS visual hierarchy and accessibility; semantic markup as information design; legibility and access as baseline communication goals. Confirmed (CIS 120&rsquo;s real &ldquo;Web Accessibility&rdquo; topic).</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Binding data to visual marks programmatically; dynamic/interactive rendering, consuming data from the CIS 300 service layer. <strong>Unconfirmed</strong> — proposed, not yet drafted; see <code>cis-320.md</code>&rsquo;s &ldquo;Proposed Changes.&rdquo;</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Statistical visualization — histograms, box plots, scatter plots as communication of distributional properties. STAT 410 has no drafted content yet.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — communicating data-driven design decisions to critical peers and faculty under scrutiny. Re-homed here per <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Culminating pass — honest visualization and data ethics; accountability for what a visualization claims and implies. <strong>Resolved, not unplaced</strong>: this is CIS 320&rsquo;s confirmed REPRESENT pass (<code>thread-human-centered.md</code>), not the unconfirmed data-analysis content this domain&rsquo;s other rows depend on — the one row here with a confirmed home. Still proposed/undrafted at the course level, but with a confirmed home.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured visualization task — given data and an audience, create a specified chart or visual explanation</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended data communication — given data and a communication goal, design and implement an appropriate visualization without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 320&rsquo;s honest-visualization work — novel domain with ethical documentation, mixed/public audience, within the core&rsquo;s own scope</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA reviewing visualization choices and teaching visual communication; leading critique sessions on chart design and honest representation</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Data Communication Task — deepens from accessibility/legibility focus (CIS 120) through ethical accountability for public-facing visual claims (CIS 320). Audience escalates: any reader (CIS 120) → technical (CIS 320 implementation) → analytical (STAT 410) → public with ethical accountability (CIS 320 culminating pass).</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="systems-and-infrastructure">Systems and Infrastructure</h1>
+
+<p><em>Re-checked against real course-design pages, 2026-08-04 — see <code>resources/design-log.md</code>. One structural flag applies throughout, already on record in <code>resources/reference/spiral-threads.md</code> since 2026-07-15: <strong>deep OS/concurrency formalization</strong> (processes vs. threads, scheduling, kernel/user space, the actor model, comparative fault-tolerance patterns) has <strong>no confirmed new-course home</strong>. CIS 220 carries the required ABET OS-<em>exposure</em> anchor at a lighter level; whether the deeper theoretical material survives in the core or only at the Systems Elective (CIS 520/525/625) was never decided. Rows depending on it are marked accordingly.</em></p>
+<h3 id="analyze-system-behavior">Analyze System Behavior</h3>
+<p><strong>I can investigate the behavior of computing systems by examining interactions among software, hardware, networks, and data.</strong></p>
+<p>I explain system performance, reliability, and resource utilization using evidence gathered from observation and measurement.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Stack/heap memory model; &ldquo;a running program is a process the OS schedules.&rdquo; Depends on content <code>cs.md</code>&rsquo;s CIS 115 entry explicitly lists as not incorporated there.</td>
+      </tr>
+      <tr>
+          <td>CIS 220 (Y1 Spring)</td>
+          <td>Browser as mini-OS — tracing async requests through the event loop; origin isolation; web workers as concurrent processes; <code>postMessage</code> as IPC. Confirmed.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Client-server dataflow — tracing a request through parse → auth → route → handle → serialize → respond (the &ldquo;build&rdquo; side of the CIS 300/CIS 320 pairing).</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Big-O as a tool for analyzing performance characteristics theoretically. Confirmed (SLO 6).</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Performance analysis on a real deployed bottleneck. Confirmed against the Confirmed Design Intent section. <strong>The deep-OS-internals half of this old pass (memory hierarchy/cache/virtual-memory/thrashing, processes-vs-threads, preemptive-vs-cooperative scheduling, kernel-vs-user-space) is the same unconfirmed content flagged at the top of this file</strong> — not asserted as CIS 400 content here.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Trace execution through a model — given a system description, trace interactions and explain observed behavior</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Unscaffolded system investigation — given a system and a symptom, investigate and explain without guided prompts</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Production system analysis (CIS 400) — explain a live performance bottleneck using monitoring data; reconcile theoretical and empirical behavior</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA leading system analysis sessions. (Leading blameless postmortems is now a Year 3–4-capstone-level activity — see <code>signature-assessments.md</code>.)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> System Analysis Task — deepens from CIS 220&rsquo;s event-loop trace through CIS 400&rsquo;s production bottleneck diagnosis; a stack/heap starting point remains unplaced. Complementary to Code Archaeology: Code Archaeology traces behavior through code; System Analysis Task traces behavior through system interactions and operational signals.</p>
+<hr>
+<h3 id="manage-computing-environments">Manage Computing Environments</h3>
+<p><strong>I can configure and operate computing environments that support software development, deployment, and maintenance.</strong></p>
+<p>I establish and manage the tools, services, dependencies, and resources needed for effective system operation.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Git setup and configuration — first explicit tool configuration in the program.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Type checker and linter configuration — static analysis tools as part of the development environment.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Test runner configuration — setting up automated test environments, not just writing tests.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Collaborative toolchain — shared Git workflow configuration, branch protection, code review tooling.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Primary home — containers as environment abstraction; dependency management; production configuration; monitoring and logging tooling; hardening before live. Confirmed — matches the &ldquo;harden the system before it goes live&rdquo; Confirmed Design Intent item added during the lens pass.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: automated evidence (IDE telemetry, git logs) captures environment <em>use</em> but not environment <em>configuration and management</em> — this sub-competency requires direct assessment to demonstrate beyond Application level.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Guided environment configuration — set up a development or test environment to a provided specification</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended environment configuration — given a system and its requirements, determine and configure an appropriate environment</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Container-based deployment (CIS 400) — configure a production environment with real security, dependency, and operational constraints</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA supporting peers with environment setup and toolchain issues; writing and maintaining team tooling documentation</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Environment Configuration Task — deepens from single personal tool configuration (CIS 200) through CIS 400&rsquo;s production-grade container and secrets management.</p>
+<hr>
+<h3 id="deploy-operational-systems">Deploy Operational Systems</h3>
+<p><strong>I can deploy, monitor, and maintain software systems in operational environments.</strong></p>
+<p>I prepare systems for use, manage releases, and support ongoing operation while addressing reliability, security, and performance concerns.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 300 / CIS 320 (Y2 Fall)</td>
+          <td>Conceptual seed — client-server decomposition makes &ldquo;where does each component run?&rdquo; a named question.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Test suite as pre-deployment validation gate.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Git PR workflow as release mechanism — merge to main as a deployment trigger; semantic versioning as release communication.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Primary home within the core — containerized deployment; monitoring and logging; operational runbooks; harden-before-live; API versioning as backward-compatibility contract; performance analysis under real load. <strong>Fault-tolerance comparison (actor model, circuit breakers) is the same unconfirmed deep-OS/concurrency content flagged at the top of this file</strong> — plausibly Systems Elective territory, not confirmed core content.</td>
+      </tr>
+      <tr>
+          <td>Year 3–4 capstone</td>
+          <td>System Integration Project — deploy for real user acceptance testing; blameless postmortem as operational retrospective. <strong>Moved out of the two-year core</strong>, per <code>signature-assessments.md</code>&rsquo;s Round 1 finding.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: this sub-competency is concentrated at CIS 400 within the core. The earlier touchpoints are seeds — this is appropriate, deployment requires security, testing, and environment-management foundations that aren&rsquo;t complete until CIS 251/CIS 400. Full acceptance-tested, real-user deployment with a postmortem is a Year 3–4-capstone-level event, not a core one.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Guided deployment — deploy a pre-built application to a specified environment following provided steps</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended deployment — given a system, determine and execute an appropriate deployment strategy without step-by-step guidance</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 400&rsquo;s deployment work — deploy with real reliability, security, and performance constraints, within the core&rsquo;s own scope. (The old &ldquo;System Integration Project&rdquo; ceiling — a novel multi-component system with live-issue response — is now at the Year 3–4 capstone.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA leading deployment workshops; writing operational runbooks for team use. (Leading incident response and blameless postmortems is now a Year 3–4-capstone-level activity.)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Deployment Task — starts with CIS 400&rsquo;s release-tagging content and deepens through its production deployment work; full multi-component deployment with a real-user postmortem now sits at the Year 3–4 capstone.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="human-centered-practice">Human-Centered Practice</h1>
+
+<p><em>Re-checked against real course-design pages, 2026-08-04 — see <code>resources/design-log.md</code>. This resolves two rows Round 1 flagged (Requirements Analysis Task, Usability Evaluation): their previously-assumed endpoint didn&rsquo;t map cleanly onto a real course, and <code>cs.md</code>&rsquo;s own CIS 320 entry is explicit that CIS 320 carries only a bounded, every-student-gets-this-once exposure to acceptance-criteria/requirements work — &ldquo;not a full requirements-gathering methodology&rdquo; — with full depth deliberately deferred to a <strong>Software Architecture specialization elective</strong>, not the Year 3–4 general capstone this pass had guessed in Round 1.</em></p>
+<h3 id="gather-and-analyze-requirements">Gather and Analyze Requirements</h3>
+<p><strong>I can identify stakeholder needs and translate them into actionable system requirements.</strong></p>
+<p>I use appropriate methods to understand problems, clarify expectations, and define criteria for successful solutions.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>Accessibility and data-minimization as non-functional requirements — first encounter with requirements imposed by human needs rather than technical constraints. Confirmed (per the lens pass&rsquo;s narrowed CIS 120 row).</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Survey design as a data collection methodology — constructing valid survey instruments, question bias, Likert scales, sampling considerations. STAT 410 has no drafted content yet.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Team project scoping — assessed requirements artifact: conduct a stakeholder interview and produce a functional/non-functional requirements brief before implementation begins. Plausible fit with CIS 400&rsquo;s confirmed estimation/scoping content, not drafted at this specific granularity.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — defending choices against stated requirements; requirements surface through critique. Re-homed to CIS 400 per <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Bounded exposure — every student translates ambiguous needs into acceptance criteria once. <strong>Formal requirements-gathering methods, stakeholder interviews, and qualitative/quantitative investigation at full depth are not core content</strong> — confirmed deferred to a Software Architecture specialization elective.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: the STAT 410 survey-design content requires coordination with the statistics department — survey design is within scope for a statistics course (sampling, instrument validity, response bias) but the extension needs their buy-in. Unrelated to this pass&rsquo;s STAT 410 drafting caveat, but still open.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured requirements analysis — given a stakeholder description, identify and categorize functional and non-functional requirements</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Requirements brief — conduct a requirements analysis for a specified system; define acceptance criteria without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 320&rsquo;s bounded acceptance-criteria work, within the core&rsquo;s own scope. (The old &ldquo;System Integration Project&rdquo; ceiling — gathering requirements from real stakeholders with ambiguous or conflicting needs — is not a core event; it&rsquo;s Software Architecture specialization-elective depth.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA facilitating requirements workshops; leading stakeholder interviews for a team project</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Requirements Analysis Task — deepens from informal user-needs identification (CIS 120) through CIS 320&rsquo;s bounded acceptance-criteria exposure; full multi-method investigation with real stakeholders is specialization-elective depth, not a core ceiling.</p>
+<hr>
+<h3 id="design-human-centered-solutions">Design Human-Centered Solutions</h3>
+<p><strong>I can design computational solutions that account for human needs, accessibility, usability, and context.</strong></p>
+<p>I evaluate design decisions based on their impact on the people and communities who interact with the system.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>First pass — semantic HTML, accessibility substrate, data-minimization in forms; designing for all users as a baseline constraint.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Interactive/data-driven visualization and web component architecture — designing data-driven and component-based interfaces. Unconfirmed — proposed, not yet drafted.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — defending human-centered design choices under peer scrutiny; usability as a named dimension of the critique. Re-homed to CIS 400 per <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Bounded exposure — requirements-driven design and UX validation at CIS 320&rsquo;s every-student-gets-this-once scope. <strong>UX research methods and real-user validation at full depth are Software Architecture specialization-elective content</strong>, not core.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Design Brief (human-centered lens) — design an accessible interface or experience for a specified user and scenario</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended Design Brief — given a problem and a user population, design a human-centered solution without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 320&rsquo;s bounded design-for-real-users work, within the core&rsquo;s own scope. (The old &ldquo;System Integration Project&rdquo; ceiling — designing for real users with ambiguous needs and iterating on validation results — is specialization-elective depth, not a core event.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>Design Review critique (TA/LA role) — evaluating whether a peer&rsquo;s design genuinely serves human needs; leading UX evaluation sessions</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring types:</strong> Design Brief (creating a human-centered solution) and Usability Evaluation (assessing an existing design against human-centered criteria) — see below.</p>
+<p><strong>Second recurring type — Usability Evaluation:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>Accessibility audit — evaluate an existing page against accessibility criteria (contrast, keyboard navigation, screen reader). Confirmed.</td>
+          <td>Checklist-guided, single page</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Component usability evaluation — does this component&rsquo;s interface make sense from the user&rsquo;s perspective? Unconfirmed, proposed.</td>
+          <td>Interface design, less scaffolding</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — peers evaluate each other&rsquo;s system designs for human-centeredness and usability fit.</td>
+          <td>Peer-facing, multi-dimension</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Heuristic evaluation, A/B analysis against acceptance criteria. Confirmed — CIS 320&rsquo;s real, bounded FITNESS content. <strong>Full user-testing-sessions-with-real-users depth is Software Architecture specialization-elective content</strong>, not core.</td>
+          <td>Real users, novel system <em>(elective, not core)</em></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="evaluate-ethical-implications">Evaluate Ethical Implications</h3>
+<p><strong>I can evaluate the ethical, social, and professional implications of computational decisions and actions.</strong></p>
+<p>I apply ethical reasoning to identify risks, responsibilities, and consequences when designing and using computational systems.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>First pass — data minimization as an embedded constraint: what data should this pipeline collect, and why? Accessibility as ethical obligation. The CIS 200 half of this old claim is thin — the confirmed carrier is CIS 120.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 / CIS 320 (Y2 Fall)</td>
+          <td>Conway&rsquo;s Law seed — organizational structure shapes what gets built and who it serves. <strong>Unconfirmed</strong> — same client/server-vehicle documentation gap already logged in <code>thread-sociotechnical.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema ethics — access control and data minimization decisions documented and justified; least-privilege at the data layer. Confirmed design intent, undrafted — see <code>cis-260.md</code>&rsquo;s &ldquo;Proposed Changes.&rdquo;</td>
+      </tr>
+      <tr>
+          <td>CIS 251 (Y2 Fall)</td>
+          <td>Threat identification, authentication, authorization; least data collection as a security and ethical principle. Confirmed against CIS 251&rsquo;s real SLOs.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Responsibility retrospective — the team project includes an assessed, individually-written ethical accountability reflection. Confirmed.</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Re-identification risk — combining individually innocuous datasets creates privacy harms neither dataset posed alone. Same orphaned data-integration content flagged throughout this pass.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Harden-before-live as ethical practice. Confirmed. <strong>Blameless postmortem as systemic accountability has moved to the Year 3–4 capstone</strong> — see <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 141 (Y2 Spring) / <em>unplaced</em></td>
+          <td>AI-generated code critique for correctness, security, and responsible use — confirmed, CIS 141 is the terminal pass for the AI-Assisted Development bounded practice. Broader data-ethics/honest-visualization framing beyond the AI-critique slice is unconfirmed (honest visualization itself is resolved elsewhere — see <code>competencies/data-and-information.md</code> — but the combined &ldquo;data ethics + AI critique&rdquo; framing this row implies isn&rsquo;t a single confirmed course pass).</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: ethical reasoning in this program is grounded in concrete technical decisions — data minimization, access control, re-identification risk, honest visualization — rather than abstract philosophical frameworks. The escalation is from single-decision ethics (CIS 120) through AI-assisted development ethics (CIS 141), with the team-level accountability ceiling now split between CIS 400 (responsibility retrospective, core) and the Year 3–4 capstone (blameless postmortem).</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured ethical analysis — given a system and context, identify ethical risks and responsibilities using a provided framework</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended ethical evaluation — given a design decision, independently construct an ethical argument without a framework</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Responsibility retrospective (CIS 400) — evaluate ethical responsibilities in a real collaborative project, within the core&rsquo;s own scope. (Blameless postmortem, the old co-anchor, is now Year 3–4-capstone-level.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>Leading responsibility retrospectives; TA/LA facilitating ethical discussion in Design Review (CIS 400). (Leading blameless postmortems is now Year 3–4-capstone-level.)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Ethical Evaluation — deepens from data minimization analysis (CIS 120) through AI-assisted analysis critique (CIS 141). Escalates from single-decision ethics → design ethics → system ethics → AI ethics; full integration-scale ethics (re-identification, blameless postmortem) is unplaced or relocated, not a confirmed core ceiling.</p>
+<hr>
+<h3 id="communicate-technical-information">Communicate Technical Information</h3>
+<p><strong>I can communicate technical concepts, decisions, and results to technical and non-technical audiences.</strong></p>
+<p>I create documentation, presentations, visualizations, and explanations that support understanding and informed decision-making.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Type annotations and interface specifications — the type signature communicates a contract to peer developers; first explicit technical documentation.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema-decision documentation — documenting design choices and their rationale for future maintainers. Confirmed design intent, undrafted.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Test naming and documentation — what does this test guarantee, and for whom?</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>PR descriptions, commit messages, code review comments — professional asynchronous technical communication.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — present and defend technical decisions to a critical peer and faculty audience; highest-stakes synchronous technical communication within the core. Re-homed to CIS 400 per <code>signature-assessments.md</code>. CIS 501&rsquo;s confirmed &ldquo;present and defend a design&rdquo; pass is an even higher-stakes later instance of the same skill.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Operational runbooks and API documentation — technical communication that outlives the author and must be read under pressure.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Stakeholder communication — translate technical constraints and design decisions for non-technical decision-makers, at CIS 320&rsquo;s bounded scope. <strong>Full depth is the same Software Architecture specialization elective</strong> flagged throughout this domain.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: automated evidence (git telemetry) captures the presence of commit messages and PR descriptions but not their quality — this sub-competency requires rubric-based direct assessment at every touchpoint.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Technical documentation task — write API documentation, a PR description, or a test name for a specified audience and purpose</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Audience-appropriate explanation — given a technical concept or decision, produce documentation appropriate for a specified audience without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Design Review (CIS 400) — defend technical decisions under live critique; CIS 320&rsquo;s bounded stakeholder translation. (Full stakeholder-translation depth with real, consequential decision-making is specialization-elective content.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA creating learning materials for students; writing runbooks adopted by a team; leading documentation sprints</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Technical Explanation Task — deepens from type-annotated interface docs for a peer developer (CIS 200) through CIS 400&rsquo;s Design Review and CIS 320&rsquo;s bounded stakeholder translation. Audience escalates: peer developer → future maintainer → team → critical panel → non-technical stakeholders (specialization-elective depth for the last step).</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="professional-practice">Professional Practice</h1>
+
+<p><em>Re-checked against real course-design pages, 2026-08-04 — see <code>resources/design-log.md</code>. The last of the six domains in this pass. Utilize AI Responsibly maps cleanly onto the four-stage progression <code>content/4-curriculum-design/threads/practice-ai-assisted.md</code> already confirmed (CIS 116/200 → CIS 260 → CIS 400 → CIS 141) — settled independently before this round started, so no new judgment calls were needed there. Collaborate on Software Teams and Reflect on Professional Growth both carry the by-now-familiar unplaced-git-history and relocated-postmortem findings from earlier rounds.</em></p>
+<h3 id="collaborate-on-software-teams">Collaborate on Software Teams</h3>
+<p><strong>I can contribute effectively to collaborative software development using professional workflows and team practices.</strong></p>
+<p>I coordinate work, review contributions, integrate changes, and support shared project goals in team environments.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Git as history/archaeology tool — reading how others have collaborated; semantic versioning as collaborative communication. Depends on a git-history capstone assessment that <code>cs.md</code>&rsquo;s CIS 115 entry explicitly lists as not incorporated there.</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Git commit/revert as a personal safety net — solo version control before it becomes a team skill.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Solo feature branching — managing your own branches before coordinating with teammates. Confirmed design intent, undrafted.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Primary home — collaborative Git (branches, PRs, code review, conflict resolution); Conway&rsquo;s Law enacted; the Team Software Project begins. Confirmed.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Team Software Project continues and concludes — consolidated into this single course, not spread across three old blocks (per <code>signature-assessments.md</code>&rsquo;s Round 1 finding).</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring) / Year 3–4 capstone</td>
+          <td>The Team Software Project&rsquo;s individual accountability ceiling (responsibility retrospective) stays at CIS 400. <strong>Blameless postmortem as team accountability practice has moved to the Year 3–4 capstone</strong>, along with the relocated System Integration Project.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured collaboration task — contribute to a shared codebase using specified workflows (branch, PR, review cycle)</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended team contribution — own a feature in a shared project; manage integration with teammates&rsquo; work without step-by-step guidance</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 400&rsquo;s Team Software Project — sustain collaboration on a novel system with real timeline pressure and coordination overhead, within the core&rsquo;s own scope. (The old &ldquo;System Integration Project&rdquo; co-anchor is now at the Year 3–4 capstone.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA managing team workflows; leading code review; mentoring teammates. (Running full team retrospectives/blameless postmortems is now Year 3–4-capstone-level; CIS 400&rsquo;s own ceiling is the individual responsibility retrospective.)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Collaboration Task — deepens from CIS 200&rsquo;s solo git safety net through CIS 400&rsquo;s sustained team collaboration; a read-only git-history starting point remains unplaced, and full postmortem accountability sits at the Year 3–4 capstone.</p>
+<hr>
+<h3 id="utilize-ai-responsibly">Utilize AI Responsibly</h3>
+<p><strong>I can use artificial intelligence tools to support problem solving, learning, and software development while maintaining responsibility for outcomes.</strong></p>
+<p>I evaluate AI-generated outputs, verify correctness, address risks, and exercise professional judgment when incorporating AI into my work.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 116 / CIS 200 (Y1 Fall / Y1 Spring)</td>
+          <td>First named pass — AI-as-explainer for unfamiliar code; explanation verified empirically against actual code behavior. Confirmed, stage 1 of the four-stage progression.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>AI as design partner — brainstorm design alternatives with AI; human selects and justifies; document what AI got right and wrong. Confirmed, stage 2.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>AI-generated tests — use AI to generate test cases; evaluate coverage, identify gaps, verify correctness of generated tests. Confirmed, stage 3.</td>
+      </tr>
+      <tr>
+          <td>CIS 141 (Y2 Spring)</td>
+          <td>Culminating pass — high-stakes verification and critique of AI-generated code for correctness, security vulnerabilities, and bias. Confirmed, stage 4 — the terminal pass, also the prerequisite skill for the Year 3–4 Agentic AI specialization.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: Crystalis captures AI chat prompt and response logs directly — automated evidence can demonstrate that a student <em>used</em> AI (Application level). Demonstrating <em>responsible</em> use — verification, judgment, risk awareness — requires direct assessment at every level above Application. This is the one sub-competency where the gap between telemetry evidence and competency evidence is structurally significant.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured AI use task — use an AI tool for a specified purpose, document what it produced, and show how you verified the output</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended AI-assisted task — use AI tools to support a real development task; independently evaluate and verify outputs before incorporating them</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 141 critique — evaluate AI-generated code for correctness, security, and bias in a novel high-stakes context with real consequences</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA modeling responsible AI use for students; leading peer discussions on AI limitations and failure modes; mentoring on verification practices</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> AI-Assisted Practice Task — deepens from low-stakes code explanation with empirical verification (CIS 116/200) through high-stakes AI code critique for correctness, security, and bias (CIS 141). Stakes escalate: misunderstanding code (CIS 200) → deploying code with security vulnerabilities (CIS 141). This is the cleanest recurring type in the whole assessment-chapter pass — every stage confirmed against real course content, no unplaced rows.</p>
+<hr>
+<h3 id="reflect-on-professional-growth">Reflect on Professional Growth</h3>
+<p><strong>I can evaluate my performance, identify opportunities for improvement, and plan for continued learning.</strong></p>
+<p>I use evidence from my experiences to strengthen my knowledge, skills, habits, and professional practice over time.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Post-Code Archaeology metacognitive debrief — what strategies worked, what failed, what would you do differently on the next unfamiliar codebase?</td>
+      </tr>
+      <tr>
+          <td>CIS 300 / CIS 260 (Y2 Fall / Y1 Spring)</td>
+          <td>Mid-program backward reflection — given new analytical tools (Big-O, schema design), revisit an earlier decision and articulate what you&rsquo;d change and why.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Responsibility retrospective — structured, individually-written reflection on ethical and professional practice during the Team Software Project. Confirmed.</td>
+      </tr>
+      <tr>
+          <td>Year 3–4 capstone</td>
+          <td>Blameless postmortem — systemic reflection on a real operational failure; employer-facing competency report — curate Crystalis evidence, articulate growth trajectory, present to a professional audience. <strong>Moved out of the two-year core</strong> — see <code>signature-assessments.md</code>&rsquo;s Round 1 finding. CIS 400&rsquo;s own reflection ceiling is the responsibility retrospective above.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: the living Crystalis evidence record is itself a reflection scaffold. At CIS 400 and at the Year 3–4 capstone, students can be asked to review their own competency evidence trajectory — what has grown, where gaps remain, what they want to prioritize — making the assessment infrastructure directly legible to the student as a tool for self-directed growth.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured reflection — given prompts, reflect on a learning experience and identify strengths and growth areas</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended professional reflection — without prompts, evaluate your own performance and articulate a concrete learning plan</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 400&rsquo;s responsibility retrospective — reflect on real team-project experience with genuine consequences, within the core&rsquo;s own scope. (The old &ldquo;blameless postmortem&rdquo; ceiling — systemic rather than individual causes, real operational failure — is now Year 3–4-capstone-level.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA facilitating reflection sessions and retrospectives; mentoring peers in professional development planning</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Reflection Assessment — deepens from post-Code Archaeology metacognitive debrief (CIS 200) through CIS 400&rsquo;s individually-written responsibility retrospective. The employer-facing competency report and blameless postmortem — the capstone reflection artifacts — are Year 3–4-capstone-level, not a core ceiling.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+          </section>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="signature-assessments">Signature Assessments</h1>
+
+<p>Signature assessments are the formal, high-stakes assessment events distributed across the program. Each is a culminating instance of a <a href="/two-year-refactor/5-assessment/recurring-assessments/index.html">recurring assessment type</a> — it represents that type at its most consequential, typically involving real artifacts, peer or faculty audience, and no scaffolding.</p>
+<p>Five formal, high-stakes signature events are distributed across the program, though not evenly: two converge on the same course (CIS 400), and one no longer fits inside the two-year core at all.</p>
+<h2 id="code-archaeology-milestone">Code Archaeology Milestone</h2>
+<p><strong>CIS 200 — Programming Fundamentals (Y1 Spring)</strong></p>
+<p>Students investigate an unfamiliar, moderately complex codebase — written in languages they know — to explain its behavior, identify sources of unexpected behavior, and propose a repair. This is the first unscaffolded instance of the Code Archaeology recurring type, building on the informal code-reading groundwork CIS 116 already seeds (SLO 4: &ldquo;read, interpret, and modify existing computer programs&rdquo;).</p>
+<p>Code Archaeology does not end at CIS 200. It recurs and deepens throughout the program (see Recurring Assessment Types), but this milestone is the first formal, evaluated instance.</p>
+<p>Evidence generated: Analyze Computational Systems; Maintain Software Systems</p>
+<h2 id="data-investigation">Data Investigation</h2>
+<p><strong>CIS 260 — Foundations of Relational Databases (Y1 Spring)</strong></p>
+<p>Students identify a question they want to investigate, acquire or are given a novel dataset, and conduct a complete investigation: schema design, query strategy, statistical summarization, and interpretation. The investigation is documented and presented.</p>
+<p>This is the formal instance of the Data Investigation recurring type and anchors CIS 260&rsquo;s evidence for the Data and Information domain. (This single 1-credit course carries content dense enough to flag — see the course&rsquo;s existing density note in <code>resources/reference/degree-maps/cs.md</code>.)</p>
+<p>Evidence generated: Investigate Questions with Data; Manage Data Resources; Represent Information</p>
+<h2 id="design-review">Design Review</h2>
+<p><strong>CIS 400 — Object-Oriented Design, Implementation, and Testing (Y2 Spring)</strong></p>
+<p>Students present a system design — algorithm selection, data model choice, and architectural tradeoffs — to a panel of peers and faculty and defend their choices under critique. The defense must address correctness, performance, human-centered concerns, and ethical implications.</p>
+<p><strong>Homed at CIS 400.</strong> The algorithmic content this event needs (graph algorithms, shortest-path/MST tradeoffs) lives in CIS 300&rsquo;s graph unit — but the <em>defense format</em> this assessment actually needs (present to a panel, defend under critique) has no such event in CIS 300&rsquo;s drafted content. CIS 400 is the confirmed host instead: its &ldquo;Confirmed Design Intent&rdquo; section already commits to &ldquo;a live walkthrough and architecture defense&rdquo; as the course&rsquo;s actual verification mechanism, not spec-compliance checklists. This is the same convergence already flagged in <code>resources/design-log.md</code>&rsquo;s 2026-07-15 pedagogy-chapter entry.</p>
+<p>Design Review is the highest-stakes instance of both the Design Brief and the Technical Explanation Task recurring types.</p>
+<p>Evidence generated: Design Software Systems; Develop Abstractions; Evaluate Algorithmic Solutions; Communicate Technical Information; Evaluate Ethical Implications</p>
+<h2 id="team-software-project">Team Software Project</h2>
+<p><strong>CIS 400 — Object-Oriented Design, Implementation, and Testing (Y2 Spring)</strong></p>
+<p>Students collaborate on a shared software product — building toward the historical-archive real-world asset, in small teams with rotating scope — taking it from requirements through implementation, testing, and deployment, with an individually-written responsibility retrospective as part of the assessed work.</p>
+<p><strong>Worth naming plainly:</strong> the course sequence consolidates the entire team project into a single course, CIS 400, which now hosts <em>both</em> this and Design Review above — two signature events converging on one course rather than staying spread across the program. This is confirmed intent, not a gap: see <code>cis-400.md</code>&rsquo;s &ldquo;Confirmed Design Intent&rdquo; section and <code>resources/design-log.md</code>&rsquo;s 2026-07-13/07-15 entries.</p>
+<p>This is the primary evidence context for the Professional Practice domain and generates sustained evidence for collaborative, implementation, maintenance, and verification competencies.</p>
+<p>Evidence generated: Collaborate on Software Teams; Implement Software Solutions; Verify Software Quality; Maintain Software Systems; Evaluate Ethical Implications; Reflect on Professional Growth</p>
+<h2 id="system-integration-project">System Integration Project</h2>
+<p><strong>Year 3–4 program capstone (CIS 598 / CIS 643 / DEN 591) — not inside the two-year core</strong></p>
+<p>Students design, build, deploy, and validate a multi-component system for real users. The project includes formal requirements gathering, acceptance testing with actual users, and a blameless postmortem. Students prepare an employer-facing competency report drawing on their full Crystalis evidence record.</p>
+<p><strong>This event sits outside the two-year core.</strong> <code>resources/reference/spiral-threads.md</code>&rsquo;s Sociotechnical re-homing table places the full team-level &ldquo;blameless postmortem&rdquo; REFLECT pass at the <strong>Year 3–4 program capstone</strong>, explicitly <em>not</em> inside the two-year core — and this assessment&rsquo;s other defining features (acceptance testing with real users, an employer-facing competency report) fit that same later, whole-degree-culminating point better than a two-year-core event. CIS 400 is the core&rsquo;s own capstone, but it is deliberately scoped smaller (team project + architecture defense, no external-user acceptance testing or postmortem) — see this page&rsquo;s Team Software Project and Design Review entries above for what CIS 400 actually carries.</p>
+<p>This is the program&rsquo;s culminating assessment event and generates evidence across all six competency domains.</p>
+<p>Evidence generated: All domains; final evidence anchor for Adaptation-level claims</p>
+<hr>
+<p><em>Three of the five events map onto the two-year core (Code Archaeology → CIS 200, Data Investigation → CIS 260, and CIS 400 hosting both Design Review and Team Software Project); System Integration Project&rsquo;s move to the Year 3–4 capstone is a real scope decision that should be confirmed explicitly with faculty, not just inherited from this migration pass.</em></p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="recurring-assessment-types">Recurring Assessment Types</h1>
+
+<p>Recurring assessment types are direct assessment tasks that appear multiple times across the program, deepening in scale, scaffolding, and stakes with each pass. Unlike <a href="/two-year-refactor/5-assessment/signature-assessments/index.html">signature assessments</a>, which are single formal events, recurring types generate a continuous longitudinal evidence trail — the same kind of task, executed with increasing sophistication.</p>
+<p>Each recurring type is associated with a primary sub-competency but typically generates evidence for multiple sub-competencies simultaneously.</p>
+<p><strong>Re-mapped to the real course sequence, 2026-08-04</strong> (see <code>resources/design-log.md</code>). This round converts the Summary table&rsquo;s spans to real courses. The detailed per-domain tables below (Computational Reasoning through Professional Practice) get the same full-scan verification the threads and lenses already went through, one competency domain at a time, in follow-up rounds. Treat this Summary table&rsquo;s endpoints as a first-pass approximation until each domain&rsquo;s detail is re-checked.</p>
+<p><strong>Crosswalk notes affecting several rows below:</strong></p>
+<ul>
+<li><strong>Design Review is homed at CIS 400</strong> — see <code>signature-assessments.md</code>&rsquo;s entry. Any row involving &ldquo;Design Review&rdquo; ends there, not at CIS 300.</li>
+<li><strong>System Integration Project moved to the Year 3–4 program capstone</strong>, outside the two-year core — see <code>signature-assessments.md</code>. Rows that depended on it (deployment-at-scale, full multi-stakeholder requirements work, blameless postmortem, employer-facing reporting) now terminate there instead of inside the core.</li>
+<li><strong>A previously-envisioned Data Analysis &amp; Responsible AI course has no confirmed new-course home</strong>, except its AI-generated-code-critique content, which is confirmed to land in CIS 141 (see <code>content/4-curriculum-design/threads/practice-ai-assisted.md</code>). Rows depending on its other content are marked unconfirmed pending a course-designer/faculty placement decision.</li>
+<li><strong>A git-history capstone assessment originally envisioned for CIS 115 is explicitly unplaced</strong> — <code>resources/reference/degree-maps/cs.md</code>&rsquo;s CIS 115 entry lists it as a piece that did <em>not</em> get incorporated there. Rows starting from it are marked unconfirmed.</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<table>
+  <thead>
+      <tr>
+          <th>#</th>
+          <th>Assessment Type</th>
+          <th>Primary Sub-competency</th>
+          <th>Course Span</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Code Archaeology</td>
+          <td>Analyze Computational Systems</td>
+          <td>CIS 200 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Design Brief</td>
+          <td>Develop Abstractions</td>
+          <td>CIS 200 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Formal Analysis</td>
+          <td>Apply Formal Reasoning</td>
+          <td>CIS 115 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Algorithm Evaluation Task</td>
+          <td>Evaluate Algorithmic Solutions</td>
+          <td>CIS 300 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Implementation Task</td>
+          <td>Implement Software Solutions</td>
+          <td>CIS 116 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Verification Task</td>
+          <td>Verify Software Quality</td>
+          <td>CIS 200 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>Debugging Challenge</td>
+          <td>Debug Software Systems</td>
+          <td>CIS 200 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>Maintenance Task</td>
+          <td>Maintain Software Systems</td>
+          <td>CIS 200 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>Data Pipeline Task</td>
+          <td>Manage Data Resources</td>
+          <td>CIS 200 → <em>unconfirmed</em></td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>Data Investigation</td>
+          <td>Investigate Questions with Data</td>
+          <td>CIS 260 → <em>unconfirmed</em></td>
+      </tr>
+      <tr>
+          <td>11</td>
+          <td>Data Communication Task</td>
+          <td>Communicate Data Insights</td>
+          <td>CIS 120 → CIS 320 <em>(resolved in the Data and Information round — doesn&rsquo;t depend on the unplaced data-analysis content after all)</em></td>
+      </tr>
+      <tr>
+          <td>12</td>
+          <td>System Analysis Task</td>
+          <td>Analyze System Behavior</td>
+          <td>CIS 115 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>13</td>
+          <td>Environment Configuration Task</td>
+          <td>Manage Computing Environments</td>
+          <td>CIS 200 → CIS 400</td>
+      </tr>
+      <tr>
+          <td>14</td>
+          <td>Deployment Task</td>
+          <td>Deploy Operational Systems</td>
+          <td>CIS 251/CIS 400 → Year 3–4 capstone</td>
+      </tr>
+      <tr>
+          <td>15</td>
+          <td>Requirements Analysis Task</td>
+          <td>Gather and Analyze Requirements</td>
+          <td>CIS 120 → CIS 320 <em>(resolved: full depth is a Software Architecture specialization elective, not core, per <code>cs.md</code>&rsquo;s CIS 320 entry)</em></td>
+      </tr>
+      <tr>
+          <td>16</td>
+          <td>Usability Evaluation</td>
+          <td>Design Human-Centered Solutions</td>
+          <td>CIS 120 → CIS 320 <em>(same resolution — full depth is the same specialization elective)</em></td>
+      </tr>
+      <tr>
+          <td>17</td>
+          <td>Ethical Evaluation</td>
+          <td>Evaluate Ethical Implications</td>
+          <td>CIS 120 → CIS 141 / <em>unconfirmed (data integration; broader data-analysis content)</em></td>
+      </tr>
+      <tr>
+          <td>18</td>
+          <td>Technical Explanation Task</td>
+          <td>Communicate Technical Information</td>
+          <td>CIS 200 → CIS 320 <em>(full depth: same specialization elective)</em></td>
+      </tr>
+      <tr>
+          <td>19</td>
+          <td>Collaboration Task</td>
+          <td>Collaborate on Software Teams</td>
+          <td><em>unconfirmed (git-history)</em> → CIS 400</td>
+      </tr>
+      <tr>
+          <td>20</td>
+          <td>AI-Assisted Practice Task</td>
+          <td>Utilize AI Responsibly</td>
+          <td>CIS 200 → CIS 141</td>
+      </tr>
+      <tr>
+          <td>21</td>
+          <td>Reflection Assessment</td>
+          <td>Reflect on Professional Growth</td>
+          <td>CIS 200 → CIS 400 <em>(core ceiling; full postmortem/employer-facing reporting now at the Year 3–4 capstone)</em></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="cross-domain-types">Cross-domain types</h3>
+<p>Three types generate substantial evidence for multiple sub-competencies and appear in rubrics for each:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Type</th>
+          <th>Primary</th>
+          <th>Also serves</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Design Brief</td>
+          <td>Develop Abstractions (CR)</td>
+          <td>Design Software Systems (SD); Design Human-Centered Solutions (HCP)</td>
+      </tr>
+      <tr>
+          <td>Algorithm Evaluation Task</td>
+          <td>Evaluate Algorithmic Solutions (CR)</td>
+          <td>Represent Information (DI)</td>
+      </tr>
+      <tr>
+          <td>Code Archaeology</td>
+          <td>Analyze Computational Systems (CR)</td>
+          <td>Maintain Software Systems (SD)</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="level-ceiling-by-evidence-tier">Level ceiling by evidence tier</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Evidence tier</th>
+          <th>Ceiling</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Automated (telemetry, H5P, git, IDE, AI logs)</td>
+          <td>Application</td>
+      </tr>
+      <tr>
+          <td>Recurring assessment types (direct, rubric-evaluated)</td>
+          <td>Adaptation</td>
+      </tr>
+      <tr>
+          <td>TA/LA role, club leadership, peer mentoring</td>
+          <td>Leadership</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="computational-reasoning">Computational Reasoning</h2>
+<p><strong>Domain re-checked against real course-design pages, 2026-08-04</strong> — same full-scan method as the thread pass (not just mechanical crosswalk substitution). Headline finding: <strong>CIS 301 (Logical Foundations of Programming) was absent from this whole domain</strong>, because it&rsquo;s a genuinely new/restructured course with no single direct predecessor. Its real content (pre/post-conditions, loop invariants, function specifications, proof by induction/contradiction, quantifiers, natural deduction) is a much stronger, more directly confirmed fit for Formal Analysis than the rows it&rsquo;s replacing below. This matches the same CIS 301 fit already confirmed independently in the Correctness &amp; Verification thread review.</p>
+<h3 id="code-archaeology">Code Archaeology</h3>
+<p>Students investigate an existing codebase — without prior familiarity — to explain its behavior, structure, and design decisions. Scale and substrate complexity increase with each pass.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Familiar languages, single module — trace control flow and explain behavior. Confirmed as CIS 200&rsquo;s formal Code Archaeology pass (Code Comprehension thread), building on CIS 116&rsquo;s informal &ldquo;read, interpret, modify&rdquo; seed (SLO 4).</td>
+          <td>Function/module</td>
+      </tr>
+      <tr>
+          <td>CIS 200, continued</td>
+          <td>Encapsulation-boundary archaeology — explain a design across a component boundary. <strong>Partially unconfirmed</strong>: a specific &ldquo;unfamiliar paradigm&rdquo; vehicle has no successor anywhere in the current design; only the general encapsulation-boundary framing (per course-designer&rsquo;s CIS 200 placement) carries forward.</td>
+          <td>Module boundary</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema archaeology — read an existing schema and explain the design decisions embedded in it. <strong>Unconfirmed</strong> — not in CIS 260&rsquo;s drafted SLOs/schedule; plausible fit with Module 6 (Database Design) but not spelled out.</td>
+          <td>Data model</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Git history archaeology — read a PR or commit history, explain what changed and why. Reasonably supported by CIS 400&rsquo;s confirmed collaborative-git content, though not this specific assessment framing.</td>
+          <td>System evolution</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Integrated system archaeology — trace behavior across multiple components and data stores. Depends on the orphaned data-integration content already flagged in the lens pass. CIS 300&rsquo;s graph unit could carry a narrower &ldquo;multi-component&rdquo; version if this gets rescoped.</td>
+          <td>Multi-component</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Production system archaeology — diagnose a live bottleneck, explain interaction under load. Confirmed — matches the &ldquo;performance optimization against a real bottleneck&rdquo; item just added to <code>cis-400.md</code>&rsquo;s Confirmed Design Intent section.</td>
+          <td>Full system under stress</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Also generates evidence for: Maintain Software Systems</em></p>
+<hr>
+<h3 id="design-brief">Design Brief</h3>
+<p>Students design an abstraction, interface, or system component to a problem or specification, with scaffolding decreasing and scope increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Design a module&rsquo;s public interface — specify what&rsquo;s hidden vs. exposed. Supported by CIS 200&rsquo;s real SLO 4 (compose a class through design/implementation/testing).</td>
+          <td>Single component, template provided</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Design an ADT contract before any implementation — pre/post-conditions, guarantees. Confirmed — CIS 300&rsquo;s real schedule teaches contract-first at every ADT pass (applications before implementations), already verified in the Data Structures thread review.</td>
+          <td>Single component, less scaffolding</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Design an API across a network boundary — endpoints, request/response shapes, error contracts (the &ldquo;build&rdquo; side of the CIS 300/CIS 320 client-server pairing). The related consume/integrate sub-aspects spread across CIS 120, CIS 200, CIS 220, and CIS 320 instead — see this domain&rsquo;s note above.</td>
+          <td>Component-to-component</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Design a database schema — abstract a messy real-world domain into a formal relational model. Reasonably supported (SLO 10, Module 6).</td>
+          <td>Domain model, open-ended</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Choose and defend the right abstraction tier for the problem (graph vs. relational vs. document). <strong>Re-homed from CIS 300 to CIS 400</strong> — this is Design Review content (choose <em>and defend</em>), which converges on CIS 400; see <code>signature-assessments.md</code>.</td>
+          <td>Multi-option, tradeoff-driven</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>System-level design — compose abstractions across multiple layers for a novel integration problem. Matches CIS 400&rsquo;s team-project scope; CIS 225&rsquo;s protocol-layering content is a lighter contributing touch, not the primary carrier.</td>
+          <td>Full system, novel context</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Also generates evidence for: Design Software Systems; Design Human-Centered Solutions</em></p>
+<hr>
+<h3 id="formal-analysis">Formal Analysis</h3>
+<p>Students construct a formal argument — a proof, specification, complexity bound, or correctness argument — with the form and scope escalating across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>MATH Logic and Sets (Y1 Fall)</td>
+          <td>Truth tables, predicate logic exercises, set proofs. CIS 115 contributes a lighter Boolean-logic/bitwise-operations touch alongside it.</td>
+          <td>Single proposition/expression, template provided</td>
+      </tr>
+      <tr>
+          <td><strong>CIS 301</strong> (Y2 Fall) — Logical Foundations of Programming</td>
+          <td>Pre/post-condition specification; recursive correctness argument (proof by induction). <strong>Re-homed here</strong>, per this domain&rsquo;s headline finding above — directly confirmed against CIS 301&rsquo;s real schedule (pre/post-conditions, loop invariants, function specifications, proof by induction). MATH Recursive and Modular Computation (Y2 Fall) contributes the recursive-structures/modular-arithmetic substrate.</td>
+          <td>Single function, less scaffolding</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Big-O analysis of sorting/searching algorithms; formal graph properties. Confirmed (SLO 6); MATH Graphs, Trees, and Maps (Y1 Spring) contributes the formal graph-theory substrate ahead of it.</td>
+          <td>Algorithm-scale, student constructs the bound</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), woven throughout CIS 116/200/300</td>
+          <td>Test suite as formal specification — what does this test formally guarantee, and what does it leave unverified? Formalized in CIS 400, confirmed as woven throughout the core plus formalized there.</td>
+          <td>System behavior, open-ended adequacy argument</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall) / CIS 400 (Y2 Spring)</td>
+          <td>Correctness argument for a graph algorithm (CIS 300); evaluate a peer&rsquo;s formal argument in Design Review (CIS 400, per the Design Review re-homing above).</td>
+          <td>Multi-step, peer-facing</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Formal + empirical reconciliation — construct the argument for why Big-O prediction diverges from observed behavior. Confirmed, same &ldquo;real bottleneck&rdquo; Confirmed Design Intent item as Code Archaeology&rsquo;s terminal pass above.</td>
+          <td>Real system, formal model boundary case</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="algorithm-evaluation-task">Algorithm Evaluation Task</h3>
+<p>Students compare alternative algorithms, data structures, or data models and justify a selection for a specific context using formal and/or empirical evidence.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Compare two implementations of the same ADT contract — same interface, different performance. Confirmed (SLO 2/6).</td>
+          <td>Single structure, implementations provided</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Compare sorting/searching algorithms by complexity for a specified scenario; adjacency list vs. matrix. Confirmed in scope, though note <code>cis-300.md</code>&rsquo;s open &ldquo;Proposed Changes&rdquo; reordering sorting content relative to the graph unit.</td>
+          <td>Algorithm-scale, student constructs the analysis</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Justify index strategy (still a proposed, undrafted addition — see <code>cis-260.md</code>) or schema design choice (Module 6); compare relational vs. graph model for a given domain.</td>
+          <td>Data model scale, open-ended</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall) / CIS 400 (Y2 Spring)</td>
+          <td>Multi-objective tradeoff — Dijkstra vs. A* (CIS 300); defended in Design Review (CIS 400, re-homed per above). <strong>Data-store selection with competing constraints is unplaced</strong> — depends on the same orphaned data-integration content flagged under Code Archaeology.</td>
+          <td>Multi-algorithm, defended in Design Review</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Production system — evaluate choices where formal and empirical evidence must both be brought to bear. Confirmed, same real-bottleneck Confirmed Design Intent item.</td>
+          <td>Real system, novel context</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Also generates evidence for: Represent Information</em></p>
+<hr>
+<h2 id="software-development">Software Development</h2>
+<p><strong>Domain re-checked against real course-design pages, 2026-08-04.</strong> Two recurring patterns in this domain: the Design-Review-defense content converges on CIS 400 (already established in the two domains above), and several rows depended on content that&rsquo;s since moved to the Year 3–4 capstone (Round 1) or is still unplaced pending the data-integration/data-analysis placement decisions.</p>
+<h3 id="implementation-task">Implementation Task</h3>
+<p>Students implement a software solution to a specification, with scaffolding removed and scope expanded across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 116 (Y1 Fall)</td>
+          <td>Single function or module — requirements fully specified, familiar language, no design decisions.</td>
+          <td>Function/module</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Data transformation pipelines (confirmed, SLO 5 &ldquo;collection classes and iterators&rdquo;).</td>
+          <td>Function/module</td>
+      </tr>
+      <tr>
+          <td>CIS 220 (Y1 Spring)</td>
+          <td>Fetch-and-render with async/event handling — confirmed against CIS 220&rsquo;s event-loop/asynchronous-coordination outcomes.</td>
+          <td>Component</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring) / CIS 300 (Y2 Fall)</td>
+          <td>OOP with type-annotated contracts (CIS 200); implementing ADTs to a pre-defined contract (CIS 300, confirmed contract-first).</td>
+          <td>Component</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall) / CIS 220 &amp; CIS 320 (Y1 Spring / Y2 Fall)</td>
+          <td>Building a full API — server side (CIS 300, the &ldquo;build&rdquo; verb) and client side / web components (CIS 220/CIS 320, the &ldquo;integrate&rdquo; verb).</td>
+          <td>System boundary</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Collaborative implementation — team workflows, PR-based development.</td>
+          <td>Shared system</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Graph algorithm implementation in a non-trivial problem context.</td>
+          <td>Component</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring) / CIS 320 (Y2 Fall)</td>
+          <td>Production-grade implementation (CIS 400); human-centered system work (CIS 320). <strong>Data-analysis-notebook content is unconfirmed</strong> — depends on the unplaced data-analysis/responsible-AI content flagged throughout this pass.</td>
+          <td>Full production system</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: automated evidence (IDE telemetry, git commits, H5P exercises) is richer here than anywhere else in the program — this sub-competency is most thoroughly covered by the telemetry tier up to Application. The gap is at Independence and above, which requires direct assessment.</p>
+<hr>
+<h3 id="verification-task">Verification Task</h3>
+<p>Students design and implement a verification strategy for a software system, with the balance shifting toward strategy design at higher levels.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Write a regression test for a specific code repair — verification as a safety net.</td>
+          <td>Single function, guided</td>
+      </tr>
+      <tr>
+          <td><strong>CIS 301</strong> (Y2 Fall) / CIS 200 (Y1 Spring)</td>
+          <td>Write pre/post-conditions and test cases that exercise them — <strong>re-homed to CIS 301</strong> per this pass&rsquo;s Round 2 finding (its real content, not CIS 300&rsquo;s). Type annotations as static verification stays at CIS 200.</td>
+          <td>Single function, formal spec</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Design and implement a test suite including property-based tests — argue adequacy of coverage.</td>
+          <td>System, open-ended strategy</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Performance validation for a production system. <strong>Acceptance testing with real users is no longer at this ceiling</strong> — CIS 320 carries the core&rsquo;s own bounded acceptance-criteria/A-B-testing exposure instead; full acceptance testing at System-Integration-Project scale moved to the Year 3–4 capstone (Round 1).</td>
+          <td>Novel multi-component, real users</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="debugging-challenge">Debugging Challenge</h3>
+<p>Students diagnose and fix defects in given code, with scaffolding removed and system complexity increased across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Single-function bug in a familiar language, guided hints.</td>
+          <td>Function, guided</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Bug at an encapsulation boundary — trace exception across module boundary.</td>
+          <td>Component boundary</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Write a failing test that exposes the bug, then fix it — test-first diagnosis.</td>
+          <td>System, no hints</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Code review — find latent bugs in a peer&rsquo;s code before they manifest.</td>
+          <td>Peer codebase</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Diagnose from logs and monitoring data; no direct code access.</td>
+          <td>Production system</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>The terminal pass here, &ldquo;blameless postmortem — diagnosing what went wrong at the system/team level,&rdquo; lives at the Year 3–4 capstone, not the core (Round 1; also independently confirmed in <code>thread-sociotechnical.md</code>). CIS 400&rsquo;s own ceiling is the lighter individually-written responsibility retrospective, not a full blameless postmortem.</em></p>
+<hr>
+<h3 id="maintenance-task">Maintenance Task</h3>
+<p>Students modify an existing codebase to meet a changed requirement, without breaking existing behavior.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Git-as-archaeology / semantic versioning as &ldquo;software evolves over time.&rdquo; <strong>Unconfirmed</strong> — this depended on a git-history capstone assessment that <code>cs.md</code>&rsquo;s CIS 115 entry explicitly lists as not incorporated there (same finding as Round 2&rsquo;s Collaboration Task start).</td>
+          <td>—</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Repair a bug using commit/revert safely — small, guided modification.</td>
+          <td>Single function, scaffolded</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Add a method to an existing class while preserving encapsulation.</td>
+          <td>Component boundary</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema migration — evolve a data model without breaking existing records. <strong>Unconfirmed</strong> — not in CIS 260&rsquo;s drafted SLOs/schedule.</td>
+          <td>Data layer, high stakes</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Feature branch PR — implement a change in a shared codebase, pass code review.</td>
+          <td>Shared codebase</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>API versioning — evolve a public interface while maintaining backward compatibility. Confirmed (the &ldquo;Software Versioning&rdquo; topic).</td>
+          <td>Production system</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="data-and-information">Data and Information</h2>
+<p><strong>Domain re-checked against real course-design pages, 2026-08-04.</strong> This is the domain most affected by unplaced/unconfirmed content: a data-integration scenario (unplaced per the user&rsquo;s Round 1 direction) and a Data Analysis &amp; Responsible AI course (unconfirmed except its AI-code-critique slice, which lands in CIS 141) both anchor several rows here. One genuine resolution, though: Data Communication Task&rsquo;s terminal &ldquo;honest visualization&rdquo; pass turns out <strong>not</strong> to depend on the unplaced data-analysis content after all — see below.</p>
+<h3 id="data-pipeline-task">Data Pipeline Task</h3>
+<p>Students acquire, transform, and prepare data for a stated purpose, with source complexity and ethical constraints increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Parse and reshape a single CSV/JSON source to a specified output format.</td>
+          <td>Single source, specified transformation</td>
+      </tr>
+      <tr>
+          <td>CIS 200 / CIS 300 (Y1 Spring / Y2 Fall) / CIS 260 (Y1 Spring)</td>
+          <td>API-backed pipeline (CIS 200/300, the &ldquo;consume&rdquo; verb) and SQL query pipeline (CIS 260) — multi-step transformation chain.</td>
+          <td>Multi-step, student designs the chain</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Integrate multiple heterogeneous sources; identify and mitigate re-identification risk. Same orphaned data-integration content already flagged in the lens pass and earlier rounds.</td>
+          <td>Multi-source, ethical constraint</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Notebook pipeline with data provenance and ethical documentation. Depends on the unconfirmed data-analysis content, beyond its AI-code-critique slice (→ CIS 141).</td>
+          <td>Full lifecycle, novel domain</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="data-investigation">Data Investigation</h3>
+<p>Students investigate a question using data and statistical methods, with the question openness and methodological rigor increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Describe a dataset — compute and interpret summary statistics, identify distribution shape. <strong>STAT 410 has no drafted content yet</strong> (per <code>resources/reference/degree-maps/cs.md</code>) — it&rsquo;s the confirmed successor to the old four-course non-calculus statistics sequence, but this specific pass can&rsquo;t be checked against real course content the way the CIS-numbered rows in this pass have been.</td>
+          <td>Single dataset, guided methods</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Data Investigation (signature) — investigate a student-driven question with a novel dataset. Confirmed, matches <code>signature-assessments.md</code>.</td>
+          <td>Open-ended, no template</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Probability-based investigation — compute likelihoods, reason formally about uncertainty. Same STAT 410 caveat as above.</td>
+          <td>Inference under uncertainty</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Sampling investigation — design a sampling strategy, evaluate whether evidence supports a conclusion. Same STAT 410 caveat.</td>
+          <td>Methodology design</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Full notebook investigation with visualization, ethical framing, and honest uncertainty reporting. Depends on the unconfirmed data-analysis content.</td>
+          <td>Novel domain, public-facing conclusions</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Correlation and regression — investigating relationships between variables; causal vs. correlational reasoning. Same STAT 410 caveat.</td>
+          <td>—</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="data-communication-task">Data Communication Task</h3>
+<p>Students create visualizations or explanations that communicate data-driven findings to a specified audience, with audience complexity and ethical stakes increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Audience &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>Visual hierarchy and accessibility — is this information legible and accessible to all readers? Confirmed (CIS 120&rsquo;s real &ldquo;Web Accessibility&rdquo; topic).</td>
+          <td>Any reader; accessibility compliance</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Interactive/dynamic chart that updates as data changes, consuming data from the CIS 300 service layer. <strong>Unconfirmed</strong> — proposed, not yet drafted; see <code>cis-320.md</code>&rsquo;s &ldquo;Proposed Changes.&rdquo;</td>
+          <td>Technical context; implementation fidelity</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Statistical chart selection — choose and create the right chart type for the data&rsquo;s distributional properties. STAT 410 has no drafted content yet.</td>
+          <td>Analytical audience; appropriateness of form</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Honest visualization with ethical documentation — what does this chart claim, is the claim justified? <strong>Resolved, not unplaced</strong>: this is the same &ldquo;honest data visualization&rdquo; pass already confirmed as CIS 320&rsquo;s REPRESENT content in <code>thread-human-centered.md</code> — it does <strong>not</strong> depend on the unplaced data-analysis content this domain&rsquo;s other rows depend on. Still proposed/undrafted, but with a confirmed course home.</td>
+          <td>Public/mixed audience; ethical accountability</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>The terminal pass here also implies &ldquo;Design Review — communicating data-driven design decisions to critical peers and faculty under scrutiny.&rdquo; That&rsquo;s CIS 400 content, per <code>signature-assessments.md</code>&rsquo;s Design Review homing — folded into this type&rsquo;s evidence rather than kept as a separate row, consistent with how Design Review is treated in the other domains.</em></p>
+<hr>
+<h2 id="systems-and-infrastructure">Systems and Infrastructure</h2>
+<p><strong>Domain re-checked against real course-design pages, 2026-08-04.</strong> One structural flag applies to several rows below — <code>resources/reference/spiral-threads.md</code> already recorded it on 2026-07-15: <strong>deep OS/concurrency formalization</strong> (processes vs. threads, preemptive vs. cooperative scheduling, kernel vs. user space, the actor model, comparative fault-tolerance patterns) has <strong>no confirmed new-course home</strong>. CIS 220 carries the required ABET OS-<em>exposure</em> anchor at a lighter level (&ldquo;browser as mini-OS&rdquo;), and CIS 400 absorbed general deployment/operations content, but whether the deeper theoretical material survives anywhere (core or Systems Elective) was never decided. Rows depending on it are marked accordingly rather than asserted as CIS 400 content by default.</p>
+<h3 id="system-analysis-task">System Analysis Task</h3>
+<p>Students trace behavior through a computing system using observation and measurement, with system complexity and the gap between formal models and empirical reality increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Trace stack/heap state through a function call sequence. Depends on stack/heap content that <code>cs.md</code>&rsquo;s CIS 115 entry explicitly lists as not incorporated there — same finding as elsewhere in this pass.</td>
+          <td>Memory model, guided</td>
+      </tr>
+      <tr>
+          <td>CIS 220 (Y1 Spring)</td>
+          <td>Trace an async fetch through the event loop — explain callback ordering. Confirmed — this is CIS 220&rsquo;s own &ldquo;browser as mini-OS&rdquo; framing.</td>
+          <td>Concurrency model, guided</td>
+      </tr>
+      <tr>
+          <td>CIS 300 (Y2 Fall)</td>
+          <td>Trace a request through the full server pipeline — explain behavior at each stage (the &ldquo;build&rdquo; side of the CIS 300/CIS 320 pairing).</td>
+          <td>Multi-stage system</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Diagnose a production bottleneck using monitoring data — explain why empirical behavior diverges from Big-O prediction. Confirmed against <code>cis-400.md</code>&rsquo;s Confirmed Design Intent section.</td>
+          <td>Real system under load</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Complementary to Code Archaeology: Code Archaeology traces behavior through code; System Analysis Task traces behavior through operational signals and system interactions.</em></p>
+<hr>
+<h3 id="environment-configuration-task">Environment Configuration Task</h3>
+<p>Students configure a computing environment to support a specified development or operational purpose, with scope and coordination complexity increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Configure git — username, email, .gitignore, initial repository setup.</td>
+          <td>Single tool, personal toolchain</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Configure type checker and linter — static analysis integrated into the workflow.</td>
+          <td>Static analysis toolchain</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Configure a test pipeline — test runner, coverage thresholds, CI trigger on push.</td>
+          <td>Integrated automation</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Configure a shared team environment — branch protection, PR templates, shared linting config.</td>
+          <td>Collaborative toolchain</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Configure a production environment — containers, environment variables, secrets, monitoring, hardening. Confirmed — matches the &ldquo;harden the system before it goes live&rdquo; Confirmed Design Intent item added during the lens pass.</td>
+          <td>Production-grade, real constraints</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="deployment-task">Deployment Task</h3>
+<p>Students deploy, validate, and monitor a software system in an operational environment.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Tag a release — ensure tests pass, cut a semantic version tag, document what changed.</td>
+          <td>Single service, staging environment</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Deploy a containerized service — configure, deploy, monitor, and respond to an operational issue. Confirmed.</td>
+          <td>Production environment, real constraints</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring) / Systems Elective (Y4) or <em>unconfirmed</em></td>
+          <td>API versioning and containers/monitoring are confirmed CIS 400 content. <strong>Fault-tolerance comparison (actor model, circuit breakers) is the same unconfirmed deep-OS/concurrency content flagged at the top of this domain</strong> — plausibly Systems Elective territory (CIS 520/525/625), not confirmed as core content.</td>
+          <td>—</td>
+      </tr>
+      <tr>
+          <td>Year 3–4 capstone</td>
+          <td>System Integration Project deployment — multi-component system for real user acceptance; postmortem on what broke. <strong>Moved out of the core</strong>, per <code>signature-assessments.md</code>&rsquo;s Round 1 finding.</td>
+          <td>Novel multi-component, live users</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Note: this sub-competency is concentrated at CIS 400 within the core. The earlier touchpoints (CIS 200&rsquo;s tooling, CIS 400&rsquo;s own testing/versioning content) are seeds; full acceptance-tested, real-user deployment with a postmortem is now a Year 3–4-capstone-level event, not a core one.</em></p>
+<hr>
+<h2 id="human-centered-practice">Human-Centered Practice</h2>
+<p><strong>Domain re-checked against real course-design pages, 2026-08-04.</strong> This resolves the two rows Round 1 flagged (Requirements Analysis Task, Usability Evaluation) — their previously-assumed endpoint split into different content once the design moved to real courses. <code>cs.md</code>&rsquo;s own CIS 320 entry is explicit: CIS 320 carries &ldquo;one bounded exposure to acceptance-criteria/A-B-testing process work&hellip; not a full requirements-gathering methodology, just enough that every student has the experience once,&rdquo; with <strong>a full deep dive deliberately deferred to a Software Architecture specialization elective</strong>. So the core&rsquo;s ceiling for this whole family of passes is CIS 320&rsquo;s bounded version; the &ldquo;full multi-method investigation, conflicting stakeholders&rdquo; version isn&rsquo;t a core event at all — it&rsquo;s upper-division specialization depth, not the Year 3–4 general capstone this pass had guessed in Round 1.</p>
+<h3 id="requirements-analysis-task">Requirements Analysis Task</h3>
+<p>Students identify stakeholder needs and translate them into system requirements, with method formality and stakeholder complexity increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>Identify user needs informally — who is this for, what accessibility requirements follow from their context?</td>
+          <td>Single user type, guided</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Survey design — design a valid instrument for a specified research question; critique a given survey for bias. STAT 410 has no drafted content yet.</td>
+          <td>Research design, data collection</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Stakeholder interview + requirements brief — conduct an interview, produce a documented requirements artifact. Plausible fit with CIS 400&rsquo;s confirmed estimation/scoping content, though not drafted at this specific granularity.</td>
+          <td>Real human, formal output</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Bounded acceptance-criteria exposure — every student gets this once. <strong>Full multi-method investigation with conflicting stakeholders is not core content</strong> — confirmed deferred to a Software Architecture specialization elective (<code>cs.md</code>&rsquo;s CIS 320 entry).</td>
+          <td>Novel context, real users, ambiguous needs <em>(elective, not core)</em></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="usability-evaluation">Usability Evaluation</h3>
+<p>Students evaluate an existing design or interface against human-centered criteria, with the complexity of the system and the evaluation method increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>Accessibility audit — evaluate an existing page against accessibility criteria (contrast, keyboard navigation, screen reader). Confirmed.</td>
+          <td>Checklist-guided, single page</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Component usability evaluation — does this component&rsquo;s interface make sense from the user&rsquo;s perspective? Unconfirmed — proposed, not yet drafted.</td>
+          <td>Interface design, less scaffolding</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — peers evaluate each other&rsquo;s system designs for human-centeredness and usability fit. Re-homed to CIS 400 per <code>signature-assessments.md</code>.</td>
+          <td>Peer-facing, multi-dimension critique</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Heuristic evaluation, A/B analysis against acceptance criteria. Confirmed — this is CIS 320&rsquo;s real, bounded FITNESS content. <strong>Full user-testing-sessions-with-real-users depth is a Software Architecture specialization elective</strong>, not core.</td>
+          <td>Real users, novel system <em>(elective, not core)</em></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="ethical-evaluation">Ethical Evaluation</h3>
+<p>Students identify and reason about the ethical implications of a computational decision or system, with the scope of harm and the novelty of the context increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 / CIS 120 (Y1 Spring / Y1 Fall)</td>
+          <td>Data minimization analysis — given a pipeline or form, identify what data is collected and argue for what should be removed. The confirmed carrier is CIS 120 (per the lens pass&rsquo;s narrowed row); the CIS 200 half of this claim is thin.</td>
+          <td>Single decision, guided framework</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema ethics documentation — justify access control and data minimization decisions in a schema design. Confirmed design intent, undrafted — see <code>cis-260.md</code>&rsquo;s &ldquo;Proposed Changes.&rdquo;</td>
+          <td>Design-level, formal documentation</td>
+      </tr>
+      <tr>
+          <td>CIS 251 (Y2 Fall) / CIS 400 (Y2 Spring)</td>
+          <td>Security threat analysis (CIS 251, confirmed against its real SLOs) + responsibility retrospective (CIS 400, confirmed).</td>
+          <td>System-level, collaborative accountability</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Re-identification risk analysis — identify risks from dataset combination and propose mitigations. Same orphaned data-integration content flagged throughout this pass.</td>
+          <td>Integration-level, emergent harm</td>
+      </tr>
+      <tr>
+          <td>CIS 141 (Y2 Spring) / <em>unplaced</em></td>
+          <td>AI-assisted analysis critique — evaluate an AI-generated artifact for correctness, bias, security risk (confirmed, CIS 141 is the terminal pass for the AI-Assisted Development practice). Broader data-ethics content beyond the AI-critique slice remains unconfirmed.</td>
+          <td>Novel context, high stakes</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>This type&rsquo;s &ldquo;blameless postmortem&rdquo; component of the Adaptation level lives at the Year 3–4 capstone, not the core — see <code>signature-assessments.md</code>.</em></p>
+<hr>
+<h3 id="technical-explanation-task">Technical Explanation Task</h3>
+<p>Students communicate technical information to a specified audience, with audience diversity and communication stakes increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Audience &amp; Stakes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Type-annotated interface documentation — document a component&rsquo;s contract for a peer developer.</td>
+          <td>Peer developer; asynchronous, low stakes</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema-decision documentation — explain design choices to a future maintainer without your context. Confirmed design intent, undrafted.</td>
+          <td>Future maintainer; asynchronous, medium stakes</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>PR description and code review — communicate what changed, why, and what to look for.</td>
+          <td>Team; professional, collaborative</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review presentation — defend technical decisions to critical peers and faculty. Re-homed to CIS 400 per <code>signature-assessments.md</code>. CIS 501&rsquo;s confirmed &ldquo;present and defend a design&rdquo; pass (Professional Practices lens) is an even higher-stakes later instance of the same skill.</td>
+          <td>Critical audience; synchronous, high stakes</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Stakeholder translation — communicate technical constraints and tradeoffs to non-technical decision-makers, at CIS 320&rsquo;s bounded scope. <strong>Full depth is the same Software Architecture specialization elective</strong> flagged throughout this domain, not core.</td>
+          <td>Non-technical; consequential, novel context <em>(elective, not core)</em></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="professional-practice">Professional Practice</h2>
+<p><strong>Domain re-checked against real course-design pages, 2026-08-04 — the last of the six.</strong> AI-Assisted Practice Task maps cleanly onto the four-stage progression <code>content/4-curriculum-design/threads/practice-ai-assisted.md</code> already confirmed (CIS 116/200 → CIS 260 → CIS 400 → CIS 141) — the cleanest resolution of any recurring type touched by the data-analysis placement question in this whole pass, since that thread file settled it independently before this round even started. Collaboration Task and Reflection Assessment both carry the now-familiar unplaced-git-history and relocated-postmortem findings.</p>
+<h3 id="collaboration-task">Collaboration Task</h3>
+<p>Students coordinate work in a shared version-controlled codebase, with the collaborative complexity and team accountability increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Git history exploration — read a repo&rsquo;s log, diff, and blame to reconstruct what a collaborator changed and why. Depends on a git-history capstone that <code>cs.md</code>&rsquo;s CIS 115 entry explicitly lists as not incorporated there — same finding as Round 2/3&rsquo;s Maintenance Task and this Summary table&rsquo;s row 19.</td>
+          <td>Read-only, solo</td>
+      </tr>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Commit/revert safety net — use git to checkpoint and recover during a repair task.</td>
+          <td>Write, solo</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Solo feature branch — implement a schema change on a branch, merge cleanly. Confirmed design intent, undrafted — see <code>cis-260.md</code>&rsquo;s &ldquo;Proposed Changes.&rdquo;</td>
+          <td>Branch/merge, solo</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Full collaborative PR cycle — branch, implement, open PR, respond to review, merge. Confirmed. Conway&rsquo;s Law enacted; the Team Software Project begins here.</td>
+          <td>Team, professional workflow</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Sustained team collaboration on the historical-archive project — consolidated into this single course rather than spread across three old blocks, per <code>signature-assessments.md</code>&rsquo;s Round 1 finding. <strong>Postmortem accountability is not part of this pass</strong> — that&rsquo;s moved to the Year 3–4 capstone; CIS 400&rsquo;s own ceiling is the individually-written responsibility retrospective.</td>
+          <td>Real product, team</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="ai-assisted-practice-task">AI-Assisted Practice Task</h3>
+<p>Students use AI tools for a specified purpose and are assessed on their evaluation, verification, and responsible use of AI outputs, with stakes and verification complexity increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Stakes &amp; Verification Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 116 / CIS 200 (Y1 Fall / Y1 Spring)</td>
+          <td>AI-as-explainer — use AI to explain unfamiliar code; verify the explanation against actual runtime behavior. Confirmed, stage 1 of <code>practice-ai-assisted.md</code>&rsquo;s four-stage progression.</td>
+          <td>Low stakes; verification by empirical observation</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>AI design brainstorm — generate alternatives with AI, select and justify one, document where AI reasoning was flawed. Confirmed, stage 2.</td>
+          <td>Medium stakes; verification by design argument</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>AI-generated tests — evaluate coverage, find gaps, verify test correctness and adequacy. Confirmed, stage 3.</td>
+          <td>Medium stakes; verification by coverage analysis</td>
+      </tr>
+      <tr>
+          <td>CIS 141 (Y2 Spring)</td>
+          <td>AI code critique — evaluate AI-generated code for correctness, security vulnerabilities, and bias. Confirmed, stage 4 — the terminal pass, also the prerequisite skill for the Year 3–4 Agentic AI specialization.</td>
+          <td>High stakes; verification by security and correctness analysis</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="reflection-assessment">Reflection Assessment</h3>
+<p>Students reflect on their own practice, identify growth areas, and plan improvements, with the accountability dimension and the evidence base for reflection increasing across passes.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Post-Code Archaeology debrief — what strategies worked and what would you do differently?</td>
+          <td>Individual, prompted, low stakes</td>
+      </tr>
+      <tr>
+          <td>CIS 300 / CIS 260 (Y2 Fall / Y1 Spring)</td>
+          <td>Backward reflection with new tools — revisit an earlier decision (Big-O reasoning, schema design) and argue what you&rsquo;d change now.</td>
+          <td>Individual, cross-temporal, no prompts</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Responsibility retrospective — individually-written reflection on ethical and professional practice during the team project. Confirmed.</td>
+          <td>Individual, structured, accountability dimension</td>
+      </tr>
+      <tr>
+          <td>Year 3–4 capstone</td>
+          <td>Blameless postmortem + employer-facing competency report — systemic failure analysis and curated growth narrative. <strong>Moved out of the two-year core</strong> — see <code>signature-assessments.md</code>&rsquo;s Round 1 finding; CIS 400&rsquo;s own reflection ceiling is the responsibility retrospective above, not this event.</td>
+          <td>Real consequences; public-facing artifact</td>
+      </tr>
+  </tbody>
+</table>
+
+  <footer class="footline">
+  </footer>
+</article>
+          </section>
+        </div>
+      </main>
+      
+      
+      
+    </div>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1790565267" defer></script>
+  <script src="/two-year-refactor/js/embed-iframe.min.js?1790565267" defer></script>
+  </body>
+</html>

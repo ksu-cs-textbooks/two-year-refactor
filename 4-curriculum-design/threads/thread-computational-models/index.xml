@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Models :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/4-curriculum-design/threads/thread-computational-models/index.html</link>
+    <description>Working draft for faculty review. A spiral deepens through escalating passes across the two-year core. This is the flagship spiral; one of eight spirals (with three lenses and one bounded practice — twelve threads total, plus two cross-cutting norms).&#xA;In one line: The landscape of ways to express computation — imperative, functional, declarative, dataflow, logic/constraint — with ‘how does each model handle failure’ woven through.&#xA;Character FLAGSHIP. The spine is the TAXONOMY of models, not control flow. Error-handling is a cross-cutting property of each model, not the spine. Genuinely uncommon undergraduate content — most programs teach imperative + try/catch as the only model and never surface declarative, dataflow, or logic/constraint models.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/4-curriculum-design/threads/thread-computational-models/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

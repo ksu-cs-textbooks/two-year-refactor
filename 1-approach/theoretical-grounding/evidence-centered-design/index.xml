@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evidence-Centered Design :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/evidence-centered-design/index.html</link>
+    <description>Working draft for faculty review. This page describes the general research basis for designing assessment around explicit evidentiary reasoning. For where this is operationalized in the program, see Chapter 5 — particularly The Competency Model, which already states the core ECD commitment: competencies belong to the program, and courses are evidence-generating contexts.&#xA;What evidence-centered design is Evidence-centered design (ECD) reframes assessment design as building an explicit evidentiary argument, not writing a set of test items (Mislevy et al., 2003). The claim you want to make about a student — “this student can reason about concurrency,” “this student can design a normalized schema” — is not directly observable. An assessment is only useful to the extent that a specific, designed-in-advance chain of reasoning connects something you can observe (a work product, a performance, an answer) back to that unobservable claim. ECD’s core discipline is to design that chain deliberately, before writing a single task, rather than writing tasks first and hoping they happen to support the claims you later want to make.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/evidence-centered-design/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

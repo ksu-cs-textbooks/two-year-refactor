@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS XXX - Agentic Software Development :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-xxx/index.html</link>
+    <description>Course Description This course introduces students to agentic software engineering: building software and systems with AI agents through disciplined, repeatable, and scalable practices rather than “vibe coding.”&#xA;Credit Hours 3 credits&#xA;Course Prerequisites Prerequisite: CIS 501&#xA;Course Overview The course begins by teaching students to implement a simple coding agent. LLM-based agents are themselves a computing platform: they operate through a set of primitives that includes calling an LLM with context, invoking tools, and receiving instructions from a human developer. Each step incurs costs and may introduce errors or security risks. To use agents effectively, students need to understand their anatomy, develop a mental model of their execution, estimate costs, and identify potential sources of failure and security vulnerabilities. This understanding also enables students to customize and extend agents for greater effectiveness and efficiency in a particular development context. The course also examines how agents interact with conventional development tools, such as testing frameworks and source code repositories, and how agentic development changes established practices or calls for new tools.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-xxx/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

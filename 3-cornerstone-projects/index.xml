@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cornerstone Projects :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/index.html</link>
+    <description>Real, ongoing software systems and institutional assets used throughout the curriculum as exemplars and living labs, in place of invented examples and disposable one-off assignments.&#xA;Some of these are systems the department builds and operates, with students as their developers — a long-lived, production codebase with real users, extended and maintained across cohorts rather than discarded at the end of a semester. Others are established, external infrastructure — real institutions with their own priorities and constraints — that students learn to integrate with rather than build themselves. Both kinds are deliberate: a curriculum that only ever gives students systems built for their own benefit never teaches them what it’s like to depend on, or be depended on by, something outside their control.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kansas Historical Data</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.html</guid>
+      <description>Living document. This page will change as development continues. Last updated: September 27, 2026.&#xA;Working title. The codebase and the hosted platform may end up with different names.&#xA;What it is The Kansas Historical Data Project has three parts:&#xA;An open-source platform for collecting, curating, and publishing crowdsourced historical data. A digital archive of oral histories, scanned documents, and photographs. Contributors can upload these materials, and anyone can search and retrieve them. An interactive data visualization tool for exploring the data through maps, timelines, and charts. Everything on the platform, including data and archive items, can be searched and organized by place and time.</description>
+    </item>
+    <item>
+      <title>Classroom Plant-Sensor Network</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html</guid>
+      <description>Living document. This page will change as development continues. Last updated: September 28, 2026.&#xA;What it is Raspberry Pi sensors installed in classrooms where this program’s courses are taught, publishing live readings through a JSON API. It is under active development — curriculum needs can inform its design, not just consume whatever already exists. Right now that means a single unauthenticated GET endpoint returning the room’s temperature; additional sensor readings (humidity, light, soil moisture), authenticated write access, historical/time-series data, and real-time streaming are all planned but not yet built. Computer vision is a likely further direction down the road.</description>
+    </item>
+    <item>
+      <title>Kansas Mesonet</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/kansas-mesonet/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/kansas-mesonet/index.html</guid>
+      <description>Living document. This page will change as development continues. Last updated: September 28, 2026.&#xA;What it is The Kansas Mesonet is a statewide network of automated weather and soil-monitoring stations, operated by K-State’s Weather Data Library, reporting precipitation, air and soil temperature, humidity, wind, solar radiation, and soil moisture in near-real time.&#xA;Why we’re using it Unlike Konza Code, the Kansas Historical Data project, and the classroom plant-sensor network, this isn’t something the department is building — it’s established, live, external infrastructure with its own operational priorities, independent of this program’s schedule. K-State is pursuing a collaboration with the Mesonet team to expand its API for classroom use, rather than building a new system from scratch.</description>
+    </item>
+    <item>
+      <title>Konza Code</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/konza-code/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/konza-code/index.html</guid>
+      <description>Living document. This page will change as development continues. Last updated: September 27, 2026.&#xA;What it is Konza Code is a block-based programming environment for K-12 students. It is a new project in the K-State Computer Science department, forked from MIT’s Scratch. We renamed it to avoid Scratch trademark issues. The name also reflects the feature that sets it apart: a switchable text panel. Students can view and edit the same program as blocks or as text.</description>
+    </item>
+  </channel>
+</rss>

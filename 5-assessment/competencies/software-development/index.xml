@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Development :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/5-assessment/competencies/software-development/index.html</link>
+    <description>Re-checked against real course-design pages, 2026-08-04 — see resources/design-log.md. Two things propagate through this whole domain: the Design Review defense converges on CIS 400 (established in the Computational Reasoning round), and several rows depended on content that’s since moved to the Year 3–4 program capstone (Round 1: System Integration Project, full acceptance testing, blameless postmortem).&#xA;Design Software Systems I can design software systems that satisfy identified requirements and constraints.&#xA;I create and communicate system designs that consider functionality, maintainability, security, usability, and performance.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/5-assessment/competencies/software-development/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

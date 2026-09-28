@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communications Elective :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/communication-elective/index.html</link>
+    <description>The ability to confidently and effectively communicate technical ideas to audiences of widely varying backgrounds is a critical skill for every computer scientist. The communication elective provides a safe and encouraging environment for developing these skills. Students must choose one of the following:&#xA;COMM 323 - Nonverbal Communication (3 hours) COMM 326 - Group Communication (3 hours) MANGT 220 - Principles of Management (3 hours) THTRE 171 - Fundamentals of Acting (3 hours) Note: Taking THTRE 171 also satisfies KSC 060 (core communication requirement) THTRE 265 – Fundamentals of Improvisation (3 hours)</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/communication-elective/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="description" content="Living document. This page will change as development continues. Last updated: September 27, 2026.
+Working title. The codebase and the hosted platform may end up with different names.
+What it is The Kansas Historical Data Project has three parts:
+An open-source platform for collecting, curating, and publishing crowdsourced historical data. A digital archive of oral histories, scanned documents, and photographs. Contributors can upload these materials, and anyone can search and retrieve them. An interactive data visualization tool for exploring the data through maps, timelines, and charts. Everything on the platform, including data and archive items, can be searched and organized by place and time.">
+    <meta name="author" content="Department of Computer Science">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta name="twitter:title" content="Kansas Historical Data :: CS Two Year Refactor">
+    <meta name="twitter:description" content="Living document. This page will change as development continues. Last updated: September 27, 2026.
+Working title. The codebase and the hosted platform may end up with different names.
+What it is The Kansas Historical Data Project has three parts:
+An open-source platform for collecting, curating, and publishing crowdsourced historical data. A digital archive of oral histories, scanned documents, and photographs. Contributors can upload these materials, and anyone can search and retrieve them. An interactive data visualization tool for exploring the data through maps, timelines, and charts. Everything on the platform, including data and archive items, can be searched and organized by place and time.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.html">
+    <meta property="og:site_name" content="CS Two Year Refactor">
+    <meta property="og:title" content="Kansas Historical Data :: CS Two Year Refactor">
+    <meta property="og:description" content="Living document. This page will change as development continues. Last updated: September 27, 2026.
+Working title. The codebase and the hosted platform may end up with different names.
+What it is The Kansas Historical Data Project has three parts:
+An open-source platform for collecting, curating, and publishing crowdsourced historical data. A digital archive of oral histories, scanned documents, and photographs. Contributors can upload these materials, and anyone can search and retrieve them. An interactive data visualization tool for exploring the data through maps, timelines, and charts. Everything on the platform, including data and archive items, can be searched and organized by place and time.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Cornerstone Projects">
+    <meta property="article:modified_time" content="2026-09-28T03:08:36+00:00">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta itemprop="name" content="Kansas Historical Data :: CS Two Year Refactor">
+    <meta itemprop="description" content="Living document. This page will change as development continues. Last updated: September 27, 2026.
+Working title. The codebase and the hosted platform may end up with different names.
+What it is The Kansas Historical Data Project has three parts:
+An open-source platform for collecting, curating, and publishing crowdsourced historical data. A digital archive of oral histories, scanned documents, and photographs. Contributors can upload these materials, and anyone can search and retrieve them. An interactive data visualization tool for exploring the data through maps, timelines, and charts. Everything on the platform, including data and archive items, can be searched and organized by place and time.">
+    <meta itemprop="dateModified" content="2026-09-28T03:08:36+00:00">
+    <meta itemprop="wordCount" content="1139">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <title>Kansas Historical Data :: CS Two Year Refactor</title>
+    <link href="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.xml" rel="alternate" type="application/rss+xml" title="Kansas Historical Data :: CS Two Year Refactor">
+    <link href="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.print.html" rel="alternate" type="text/html" title="Kansas Historical Data :: CS Two Year Refactor">
+    <link href="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/tele.html" rel="alternate" type="text/html" title="Kansas Historical Data :: CS Two Year Refactor">
+    <link href="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/embed.html" rel="alternate" type="text/html" title="Kansas Historical Data :: CS Two Year Refactor">
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1790565267" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1790565267";
+    </script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-html.min.css?1790565267" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/3-cornerstone-projects\/kansas-historical-data\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/two-year-refactor';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'light-theme', 'dark-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=true;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/two-year-refactor/css/custom.css?1790565267" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-url="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#what-it-is">What it is</a></li>
+    <li><a href="#why-were-building-it">Why we&rsquo;re building it</a></li>
+    <li><a href="#core-data-sources">Core data sources</a></li>
+    <li><a href="#the-archive">The archive</a></li>
+    <li><a href="#contributors-and-audience">Contributors and audience</a></li>
+    <li><a href="#partners">Partners</a></li>
+    <li><a href="#role-in-the-undergraduate-curriculum">Role in the undergraduate curriculum</a></li>
+    <li><a href="#architecture">Architecture</a></li>
+    <li><a href="#tech-stack">Tech stack</a></li>
+    <li><a href="#status">Status</a></li>
+    <li><a href="#open-items">Open items</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/two-year-refactor/index.html"><span itemprop="name">Two-Year CS Redesign</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/two-year-refactor/3-cornerstone-projects/index.html"><span itemprop="name">Cornerstone Projects</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Kansas Historical Data</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/two-year-refactor/edit/main/content/3-cornerstone-projects/kansas-historical-data.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/3-cornerstone-projects/index.html" title="Cornerstone Projects (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html" title="Classroom Plant-Sensor Network (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 3-cornerstone-projects" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="kansas-historical-data">Kansas Historical Data</h1>
+
+<blockquote>
+<p><strong>Living document.</strong> This page will change as development continues. <em>Last updated: September 27, 2026.</em></p>
+<p><em>Working title. The codebase and the hosted platform may end up with different names.</em></p></blockquote>
+<h2 id="what-it-is">What it is</h2>
+<p>The Kansas Historical Data Project has three parts:</p>
+<ol>
+<li><strong>An open-source platform</strong> for collecting, curating, and publishing crowdsourced historical data.</li>
+<li><strong>A digital archive</strong> of oral histories, scanned documents, and photographs. Contributors can upload these materials, and anyone can search and retrieve them.</li>
+<li><strong>An interactive data visualization tool</strong> for exploring the data through maps, timelines, and charts.</li>
+</ol>
+<p>Everything on the platform, including data and archive items, can be searched and organized by <strong>place</strong> and <strong>time</strong>.</p>
+<p>The software is open source and designed to be hosted by anyone, including other states. The department&rsquo;s hosted instance covers <strong>Kansas only</strong>.</p>
+<h2 id="why-were-building-it">Why we&rsquo;re building it</h2>
+<p>Kansas history is scattered across many places: county museums, local historical societies, archives, government records, and community memory. That makes it hard to find, compare, or visualize. This project gives these contributors a shared place to submit historical data. The data is then validated and curated, and anyone can explore the results.</p>
+<p>A central story the data can tell is <strong>rural change</strong>. One explanation for rural outmigration is that advances in agricultural technology reduced the need for farm labor. Transportation and institutions also shaped which towns grew and which declined. These include where the railroads ran, where the interstates went, and which schools consolidated. The project brings these data sources together so users can explore how these forces relate over time and across places.</p>
+<h2 id="core-data-sources">Core data sources</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Source</th>
+          <th>What it adds</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>USDA Census of Agriculture</td>
+          <td>Farm numbers, farm size, and agricultural production over time</td>
+      </tr>
+      <tr>
+          <td>U.S. Census</td>
+          <td>Population change at the county and town level</td>
+      </tr>
+      <tr>
+          <td>Railroads</td>
+          <td>Rail lines and their construction and abandonment over time</td>
+      </tr>
+      <tr>
+          <td>Interstate highways</td>
+          <td>Highway routes and when they opened</td>
+      </tr>
+      <tr>
+          <td>School consolidations</td>
+          <td>Closures and mergers of school districts over time</td>
+      </tr>
+  </tbody>
+</table>
+<p>Crowdsourced contributions add local detail on top of these core sources.</p>
+<h2 id="the-archive">The archive</h2>
+<p>The archive preserves the human side of this history alongside the data:</p>
+<ul>
+<li><strong>Oral histories</strong>, recorded as audio, video, or both</li>
+<li><strong>Scanned documents</strong>, such as records, letters, newspapers, and maps</li>
+<li><strong>Photographs</strong></li>
+</ul>
+<p>Each item is tied to places and dates. That lets people browse it on a map or a timeline and find it alongside the data. For example, a user could see an oral history about a school closing next to the consolidation record and the population trend for the same town.</p>
+<p>The project also supplies data to other department efforts. For example, it feeds the curated data APIs in <a href="/two-year-refactor/3-cornerstone-projects/konza-code/index.html">Konza Code</a>, which let K-12 students program with real Kansas history.</p>
+<h2 id="contributors-and-audience">Contributors and audience</h2>
+<p>The project is built for people who both <strong>produce</strong> and <strong>consume</strong> history:</p>
+<ul>
+<li><strong>Professional historians</strong></li>
+<li><strong>Amateur and hobby historians</strong></li>
+<li><strong>County and town history museums, historical societies, and archives</strong></li>
+<li><strong>County and city officials</strong></li>
+<li><strong>K-12 teachers and students</strong>, who both use and contribute data and archive materials</li>
+<li><strong>K-State students.</strong> K-State already engages undergraduates in this kind of work through history courses and the Chapman Center for Rural Studies.</li>
+<li><strong>Researchers and the public</strong></li>
+</ul>
+<h2 id="partners">Partners</h2>
+<ul>
+<li>Chapman Center for Rural Studies, K-State</li>
+<li>Rural Education Center, K-State</li>
+</ul>
+<h2 id="role-in-the-undergraduate-curriculum">Role in the undergraduate curriculum</h2>
+<p>This is a <strong>cornerstone project</strong> in the redesigned B.S. in Computer Science. Undergraduates build, extend, maintain, and operate it. They work on a long-lived codebase with real users instead of disposable course projects. Its curated datasets can also serve as <strong>real-world data sources</strong> for coursework.</p>
+<p>It offers direct experience with:</p>
+<ul>
+<li><strong>Enterprise application development.</strong> The back end uses ASP.NET Core, Entity Framework Core, and PostgreSQL. Many of our graduates&rsquo; employers use this stack.</li>
+<li><strong>Contrast with Konza Code.</strong> The Konza Code site uses Elixir/Phoenix, where state and failure are handled by actors and supervision. This project uses conventional object-oriented, layered enterprise architecture. Students see two different answers to the same kinds of problems.</li>
+<li><strong>Polyglot systems.</strong> The project combines C#, Python, SQL, and JavaScript/Vue. Each language is used where it fits, and the parts are joined by clear data contracts.</li>
+<li><strong>Data engineering.</strong> Students build ingestion, validation, and a Python transformation pipeline that turns raw submissions into published datasets.</li>
+<li><strong>Data quality and provenance.</strong> Crowdsourced data from contributors with very different levels of expertise needs sourcing, review, and ways to resolve conflicting records. This is core material for the Data Science track.</li>
+<li><strong>Geospatial and temporal data.</strong> Students work with spatial databases, GeoJSON, historical boundaries that shift over time, and uncertain or approximate dates.</li>
+<li><strong>Media and digital archives.</strong> Students handle large uploads, storage of audio, video, and images, streaming and retrieval, metadata, and long-term preservation.</li>
+<li><strong>Search.</strong> Students build search that combines text, place, and time.</li>
+<li><strong>Visualization.</strong> Students design clear, honest interactive visuals with D3.js.</li>
+<li><strong>Web architecture tradeoffs.</strong> A static-file front end sits beside a dynamic curation back end. Students study when static publishing is the better design.</li>
+<li><strong>Security and trust.</strong> Open contributions require roles and permissions, moderation, and protection against vandalism and data poisoning. The archive adds concerns about uploaded files and personal content in oral histories. The project also involves K-12 contributors. This work suits the Cybersecurity track.</li>
+<li><strong>Interdisciplinary work.</strong> Students work with historians, the Chapman Center, K-12 educators, and Statistics.</li>
+<li><strong>Open source.</strong> Students maintain a public codebase meant for other states to adopt.</li>
+</ul>
+<p><em>Which courses touch the project, and at what depth, will be filled in as the course sequence is finalized.</em></p>
+<h2 id="architecture">Architecture</h2>
+<p>The system has three stages:</p>
+<ol>
+<li><strong>Raw data repository.</strong> Stores original submissions, source material, and archive media unchanged.</li>
+<li><strong>Curation and validation workflow.</strong> Contributors and reviewers check, correct, describe, and approve data and archive items.</li>
+<li><strong>Transformation pipeline.</strong> Regenerates the static JSON/GeoJSON files that the visualization tool reads.</li>
+</ol>
+<p>The visualization tool runs entirely in the browser and reads only static files. This keeps it fast and cheap to host, and it is decoupled from the back end. The archive&rsquo;s upload, search, and retrieval features are served by the ASP.NET Core application.</p>
+<h2 id="tech-stack">Tech stack</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Technology</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Visualization tool (client)</td>
+          <td>Vue + D3.js, reading static JSON/GeoJSON (already built)</td>
+      </tr>
+      <tr>
+          <td>Web app, curation, and archive back end</td>
+          <td>C# / ASP.NET Core</td>
+      </tr>
+      <tr>
+          <td>Data access</td>
+          <td>Entity Framework Core</td>
+      </tr>
+      <tr>
+          <td>Database</td>
+          <td>PostgreSQL with PostGIS</td>
+      </tr>
+      <tr>
+          <td>Media storage</td>
+          <td>To be decided</td>
+      </tr>
+      <tr>
+          <td>Transformation pipeline</td>
+          <td>Python and its geospatial libraries</td>
+      </tr>
+      <tr>
+          <td>Hosting</td>
+          <td>To be decided</td>
+      </tr>
+      <tr>
+          <td>License</td>
+          <td>Permissive, either Apache 2.0 or MIT, so other states have wide latitude in how they host and adapt it</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="status">Status</h2>
+<p>The client-side visualization tool exists. The repository, curation workflow, archive, and pipeline are actively being built.</p>
+<h2 id="open-items">Open items</h2>
+<ul>
+<li>Names for the codebase and the hosted platform</li>
+<li>Final license choice between Apache 2.0 and MIT</li>
+<li>Hosting and media storage</li>
+<li>Contribution and review model, including roles for each contributor group and safeguards for K-12 participants</li>
+<li>Oral history consent, release forms, and rights for uploaded materials</li>
+<li>Accessibility of archive media, such as transcripts and captions</li>
+<li>Metadata standards for archive items</li>
+<li>Specific datasets and archival sources for each core data source</li>
+<li>Course mapping: which courses, which competencies, and at what depth</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Nathan H. Bean
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/hugo-starter/commit/ba14cb645d701af273c6c03c8a5c10f7d9448d7e">Sep 28, 2026</a>
+</p>
+
+</div>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+
+
+<a id="logo" href="/two-year-refactor/">
+    <img src="/two-year-refactor/images/core-logo-on-purple.svg" alt="Computational Core Logo" style="width: 100%">
+</a>
+
+        </div>
+        <search><form action="/two-year-refactor/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/1-approach/index.html"><input type="checkbox" id="R-section-60da6fe14415649ee91034caa61a492f" aria-controls="R-subsections-60da6fe14415649ee91034caa61a492f"><label for="R-section-60da6fe14415649ee91034caa61a492f"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Approach</span></label><a class="padding" href="/two-year-refactor/1-approach/index.html"><b>1. </b>Approach</a><ul id="R-subsections-60da6fe14415649ee91034caa61a492f" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/index.html"><input type="checkbox" id="R-section-df3b6525651bcdebc6d9b27371192bea" aria-controls="R-subsections-df3b6525651bcdebc6d9b27371192bea" checked><label for="R-section-df3b6525651bcdebc6d9b27371192bea"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Theoretical Grounding</span></label><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/index.html"><b>1.1. </b>Theoretical Grounding</a><ul id="R-subsections-df3b6525651bcdebc6d9b27371192bea" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html">Spiral Curriculum</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html">Legitimate Peripheral Participation &amp; Communities of Practice</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/evidence-centered-design/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/evidence-centered-design/index.html">Evidence-Centered Design</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.html">Boundary Crossing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/universal-design-for-learning/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/universal-design-for-learning/index.html">Universal Design for Learning</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/timeline/index.html"><a class="padding" href="/two-year-refactor/1-approach/timeline/index.html"><b>1.2. </b>Implementation Timeline</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/evaluation/index.html"><a class="padding" href="/two-year-refactor/1-approach/evaluation/index.html"><b>1.3. </b>Evaluation Strategy</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/index.html"><input type="checkbox" id="R-section-5552c087b22b00cc0f1e53bb467820c7" aria-controls="R-subsections-5552c087b22b00cc0f1e53bb467820c7"><label for="R-section-5552c087b22b00cc0f1e53bb467820c7"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Catalog</span></label><a class="padding" href="/two-year-refactor/2-catalog/index.html"><b>2. </b>Catalog</a><ul id="R-subsections-5552c087b22b00cc0f1e53bb467820c7" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/computing-foundations/index.html"><a class="padding" href="/two-year-refactor/2-catalog/computing-foundations/index.html">Computing Foundations</a></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/2-catalog/degrees/index.html"><input type="checkbox" id="R-section-db94b49d8f0b9cc1893c6cfffb8b213c" aria-controls="R-subsections-db94b49d8f0b9cc1893c6cfffb8b213c" checked><label for="R-section-db94b49d8f0b9cc1893c6cfffb8b213c"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Degree Programs</span></label><a class="padding" href="/two-year-refactor/2-catalog/degrees/index.html"><b>2.1. </b>Degree Programs</a><ul id="R-subsections-db94b49d8f0b9cc1893c6cfffb8b213c" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/degrees/computer-science/index.html"><a class="padding" href="/two-year-refactor/2-catalog/degrees/computer-science/index.html">Computer Science</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.html"><a class="padding" href="/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.html">Artificial Intelligence</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/degrees/cybersecurity/index.html"><a class="padding" href="/two-year-refactor/2-catalog/degrees/cybersecurity/index.html">Cybersecurity</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/2-catalog/courses/index.html"><input type="checkbox" id="R-section-3a89ec4dcc28a43eb057b343c434df37" aria-controls="R-subsections-3a89ec4dcc28a43eb057b343c434df37" checked><label for="R-section-3a89ec4dcc28a43eb057b343c434df37"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Courses</span></label><a class="padding" href="/two-year-refactor/2-catalog/courses/index.html"><b>2.2. </b>Courses</a><ul id="R-subsections-3a89ec4dcc28a43eb057b343c434df37" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-115/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-115/index.html">CIS 115 - Introduction to Computer Science</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-116/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-116/index.html">CIS 116 – Introduction to Programming</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-120/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-120/index.html">CIS 120 – Web Foundations</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-140/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-140/index.html">CIS 140 – Foundations of Artificial Intelligence</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-141/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-141/index.html">CIS 141 – Privacy and Artificial  Intelligence</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-142/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-142/index.html">CIS 142 – Artificial Intelligence and Cybersecurity</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-200/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-200/index.html">CIS 200 - Programming Fundamentals</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-220/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-220/index.html">CIS 220 - Platform Programming</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-225/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-225/index.html">CIS 225 - Foundations of Computer Networks</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-251/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-251/index.html">CIS 251 - Foundations of Cybersecurity</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-260/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-260/index.html">CIS 260 - Foundations of Relational Databases</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-300/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-300/index.html">CIS 300 - Data and Program Structures</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-301/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-301/index.html">CIS 301 - Logical Foundations of Programming</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-308/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-308/index.html">CIS 308 - C Language Laboratory</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-320/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-320/index.html">CIS 320 - User Experience Development</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-400/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-400/index.html">CIS 400 - Software Design, Implementation, and Testing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-401/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-401/index.html">CIS 401 - Software Design, Implementation, and Testing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-415/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-415/index.html">CIS 415 - Ethics and Conduct for Computing Professionals</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-450/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-450/index.html">CIS 450 - Computer Architecture and Operations</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-501/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-501/index.html">CIS 501 - Software Architecture and Design</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-505/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-505/index.html">CIS 505 - Introduction to Programming Languages</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-520/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-520/index.html">CIS 520 - Operating Systems I</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-525/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-525/index.html">CIS 525 - Introduction to Network Programming</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-560/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-560/index.html">CIS 560 - Database System Concepts</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-575/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-575/index.html">CIS 575 - Introduction to Algorithm Analysis</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-598/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-598/index.html">CIS 598 - Computer Science Project</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-625/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-625/index.html">CIS 625 - Concurrent Software Systems</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-643/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-643/index.html">CIS 643 - Software Engineering Project II</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-xxx/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-xxx/index.html">CIS XXX - Agentic Software Development</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/stat-xxx/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/stat-xxx/index.html">STAT XXX - Statistical Foundations of Data Science</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/2-catalog/elective-lists/index.html"><input type="checkbox" id="R-section-13ecf9abcc922203e15ca4ba74c649bc" aria-controls="R-subsections-13ecf9abcc922203e15ca4ba74c649bc" checked><label for="R-section-13ecf9abcc922203e15ca4ba74c649bc"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Elective Lists</span></label><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/index.html"><b>3. </b>Elective Lists</a><ul id="R-subsections-13ecf9abcc922203e15ca4ba74c649bc" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/elective-lists/ai-application-area/index.html"><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/ai-application-area/index.html">AI Application Area Elective</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/elective-lists/communication-elective/index.html"><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/communication-elective/index.html">Communications Elective</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/elective-lists/cybersecurity-elective/index.html"><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/cybersecurity-elective/index.html">Cybersecurity Elective</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/elective-lists/linear-algebra-elective/index.html"><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/linear-algebra-elective/index.html">Linear Algebra Elective</a></li></ul></li></ul></li>
+            <li class="parent " data-nav-id="/two-year-refactor/3-cornerstone-projects/index.html"><input type="checkbox" id="R-section-ace8be240af225f6e22d6502fb1df37e" aria-controls="R-subsections-ace8be240af225f6e22d6502fb1df37e" checked><label for="R-section-ace8be240af225f6e22d6502fb1df37e"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Cornerstone Projects</span></label><a class="padding" href="/two-year-refactor/3-cornerstone-projects/index.html"><b>3. </b>Cornerstone Projects</a><ul id="R-subsections-ace8be240af225f6e22d6502fb1df37e" class="collapsible-menu">
+            <li class="active " data-nav-id="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.html"><a class="padding" href="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.html">Kansas Historical Data</a></li>
+            <li class="" data-nav-id="/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html"><a class="padding" href="/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html">Classroom Plant-Sensor Network</a></li>
+            <li class="" data-nav-id="/two-year-refactor/3-cornerstone-projects/kansas-mesonet/index.html"><a class="padding" href="/two-year-refactor/3-cornerstone-projects/kansas-mesonet/index.html">Kansas Mesonet</a></li>
+            <li class="" data-nav-id="/two-year-refactor/3-cornerstone-projects/konza-code/index.html"><a class="padding" href="/two-year-refactor/3-cornerstone-projects/konza-code/index.html">Konza Code</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/index.html"><input type="checkbox" id="R-section-3cb41433895e9826144a95e358bb6902" aria-controls="R-subsections-3cb41433895e9826144a95e358bb6902"><label for="R-section-3cb41433895e9826144a95e358bb6902"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Core Design</span></label><a class="padding" href="/two-year-refactor/4-curriculum-design/index.html"><b>4. </b>Core Design</a><ul id="R-subsections-3cb41433895e9826144a95e358bb6902" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/overview/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/overview/index.html">Program Overview</a></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/4-curriculum-design/threads/index.html"><input type="checkbox" id="R-section-fc4a64be7e772c9f36dd4a58eba29292" aria-controls="R-subsections-fc4a64be7e772c9f36dd4a58eba29292" checked><label for="R-section-fc4a64be7e772c9f36dd4a58eba29292"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Threads</span></label><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/index.html"><b>1.2 </b>Threads</a><ul id="R-subsections-fc4a64be7e772c9f36dd4a58eba29292" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-data-structures/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-data-structures/index.html">Data Structures &amp; Representation</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-code-comprehension/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-code-comprehension/index.html">Code Comprehension</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-human-centered/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-human-centered/index.html">Human-Centered Computing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-algorithmic/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-algorithmic/index.html">Algorithmic Thinking &amp; Complexity</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-computational-models/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-computational-models/index.html">Computational Models</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-correctness-verification/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-correctness-verification/index.html">Correctness &amp; Verification</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-boundaries-contracts/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-boundaries-contracts/index.html">Boundaries &amp; Contracts</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-sociotechnical/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-sociotechnical/index.html">Sociotechnical Structure</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/practice-ai-assisted/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/practice-ai-assisted/index.html">AI-Assisted Development (bounded practice)</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/4-curriculum-design/lenses/index.html"><input type="checkbox" id="R-section-7957959fa77c28a601b3eaad4129a2fe" aria-controls="R-subsections-7957959fa77c28a601b3eaad4129a2fe" checked><label for="R-section-7957959fa77c28a601b3eaad4129a2fe"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Lenses</span></label><a class="padding" href="/two-year-refactor/4-curriculum-design/lenses/index.html"><b>1.3 </b>Lenses</a><ul id="R-subsections-7957959fa77c28a601b3eaad4129a2fe" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/lenses/lens-trustworthy-computing/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/lenses/lens-trustworthy-computing/index.html">Trustworthy Computing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/lenses/lens-optimization/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/lenses/lens-optimization/index.html">Optimization Reasoning</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/lenses/lens-professional-practices/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/lenses/lens-professional-practices/index.html">Professional Practices</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/index.html"><input type="checkbox" id="R-section-4a51e392def0623c68c829ff37de3f16" aria-controls="R-subsections-4a51e392def0623c68c829ff37de3f16"><label for="R-section-4a51e392def0623c68c829ff37de3f16"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Competency-Based Assessment</span></label><a class="padding" href="/two-year-refactor/5-assessment/index.html"><b>5. </b>Competency-Based Assessment</a><ul id="R-subsections-4a51e392def0623c68c829ff37de3f16" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competency-model/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competency-model/index.html">The Competency Model</a></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/5-assessment/competencies/index.html"><input type="checkbox" id="R-section-23e9bb9f57f372479374a03a7187abe0" aria-controls="R-subsections-23e9bb9f57f372479374a03a7187abe0" checked><label for="R-section-23e9bb9f57f372479374a03a7187abe0"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Competencies</span></label><a class="padding" href="/two-year-refactor/5-assessment/competencies/index.html"><b>2.1 </b>Competencies</a><ul id="R-subsections-23e9bb9f57f372479374a03a7187abe0" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/computational-reasoning/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/computational-reasoning/index.html">1. Computational Reasoning</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/software-development/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/software-development/index.html">2. Software Development</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/data-and-information/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/data-and-information/index.html">3. Data and Information</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/systems-and-infrastructure/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/systems-and-infrastructure/index.html">4. Systems and Infrastructure</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/human-centered-practice/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/human-centered-practice/index.html">5. Human-Centered Practice</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/professional-practice/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/professional-practice/index.html">6. Professional Practice</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/signature-assessments/index.html"><a class="padding" href="/two-year-refactor/5-assessment/signature-assessments/index.html">Signature Assessments</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/recurring-assessments/index.html"><a class="padding" href="/two-year-refactor/5-assessment/recurring-assessments/index.html">Recurring Assessment Types</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/7-references/index.html"><a class="padding" href="/two-year-refactor/7-references/index.html">References</a></li>
+            <li class="" data-nav-id="/two-year-refactor/core-design/index.html"><input type="checkbox" id="R-section-2403114f33a8770397a77e6fe0b78d0f" aria-controls="R-subsections-2403114f33a8770397a77e6fe0b78d0f"><label for="R-section-2403114f33a8770397a77e6fe0b78d0f"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Core-Designs</span></label><a class="padding" href="/two-year-refactor/core-design/index.html">Core-Designs</a><ul id="R-subsections-2403114f33a8770397a77e6fe0b78d0f" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/core-design/degree_maps/index.html"><input type="checkbox" id="R-section-2b6dc343827481eb6c5607896ba10c6c" aria-controls="R-subsections-2b6dc343827481eb6c5607896ba10c6c" checked><label for="R-section-2b6dc343827481eb6c5607896ba10c6c"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Degree Maps</span></label><a class="padding" href="/two-year-refactor/core-design/degree_maps/index.html"><b>1.1. </b>Degree Maps</a><ul id="R-subsections-2b6dc343827481eb6c5607896ba10c6c" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/core-design/degree_maps/artificial_intelligence/index.html"><a class="padding" href="/two-year-refactor/core-design/degree_maps/artificial_intelligence/index.html">Artificially Intelligent Systems</a></li>
+            <li class="" data-nav-id="/two-year-refactor/core-design/degree_maps/computer_science/index.html"><a class="padding" href="/two-year-refactor/core-design/degree_maps/computer_science/index.html">Computer Science</a></li>
+            <li class="" data-nav-id="/two-year-refactor/core-design/degree_maps/cyber_security/index.html"><a class="padding" href="/two-year-refactor/core-design/degree_maps/cyber_security/index.html">Cybersecurity</a></li></ul></li></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>KSU Auto</option>
+                    <option id="R-select-variant-light-theme" value="light-theme">KSU Light</option>
+                    <option id="R-select-variant-dark-theme" value="dark-theme">KSU Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
+      </div>
+    </aside>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1790565267" defer></script>
+  </body>
+</html>

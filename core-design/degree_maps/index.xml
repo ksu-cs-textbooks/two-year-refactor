@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Degree Maps :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/degree_maps/index.html</link>
+    <description>The proposed degree maps for our program.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/core-design/degree_maps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificially Intelligent Systems</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/degree_maps/artificial_intelligence/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/degree_maps/artificial_intelligence/index.html</guid>
+      <description>This is a proposed degree map based on the revised 2-year curriculum created from our existing degree map.&#xA;Year 1 Semester 1 Course Credits CIS 115 - Introduction to Computer Science 2 CIS 116 - Introduction to Programming 1 DEN 161 - Engineering Problem Solving 1 CIS 120 - Web Foundations 1 MATH XXX - Logic and Sets 1 MATH XXX - Counting Finite Configurations 1 ENGL 100 - Expository Writing I (KSC010) 3 Core Communication Requirements (KSC020) 3 Social and Behavioral Science Requirement (KSC050) 3 Total 16 Year 1 Semester 2 Course Credits CIS 260 - Foundations of Relational Databases 1 CIS 200 - Programming Fundamentals 3† CIS 220 - Foundations of Platform Programming 1† Calculus Slot (MATH 220 or higher) (KSC030) 4 MATH XXX - Recursive and Modular Computation 1 MATH XXX - Graphs, Trees, and Maps 1 ENGL 200 - Expository Writing II (KSC010) 3 Total 15 † May need to be combined into a single course due to instructional load</description>
+    </item>
+    <item>
+      <title>Computer Science</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/degree_maps/computer_science/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/degree_maps/computer_science/index.html</guid>
+      <description>This is a proposed degree map based on the revised 2-year curriculum created from our existing degree map.&#xA;Year 1 Semester 1 Course Credits CIS 115 - Introduction to Computer Science 2 CIS 116 - Introduction to Programming 1 DEN 161 - Engineering Problem Solving 1 CIS 120 - Web Foundations 1 MATH XXX - Logic and Sets 1 MATH XXX - Counting Finite Configurations 1 ENGL 100 - Expository Writing I (KSC010) 3 Core Communication Requirements (KSC020) 3 Social and Behavioral Science Requirement (KSC050) 3 Total 16 Year 1 Semester 2 Course Credits CIS 260 - Foundations of Relational Databases 1 CIS 200 - Programming Fundamentals 3† CIS 220 - Foundations of Platform Programming 1† Calculus Slot (MATH 220 or higher) (KSC030) 4 MATH XXX - Recursive and Modular Computation 1 MATH XXX - Graphs, Trees, and Maps 1 ENGL 200 - Expository Writing II (KSC010) 3 Total 15 † May need to be combined into a single course due to instructional load</description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/degree_maps/cyber_security/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/core-design/degree_maps/cyber_security/index.html</guid>
+      <description>This is a proposed degree map based on the revised 2-year curriculum created from our existing degree map.&#xA;Year 1 Semester 1 Course Credits CIS 115 - Introduction to Computer Science 2 CIS 116 - Introduction to Programming 1 DEN 161 - Engineering Problem Solving 1 CIS 120 - Web Foundations 1 MATH XXX - Logic and Sets 1 MATH XXX - Counting Finite Configurations 1 ENGL 100 - Expository Writing I (KSC010) 3 Core Communication Requirements (KSC020) 3 Social and Behavioral Science Requirement (KSC050) 3 Total 16 Year 1 Semester 2 Course Credits CIS 260 - Foundations of Relational Databases 1 CIS 200 - Programming Fundamentals 3† CIS 220 - Foundations of Platform Programming 1† Calculus Slot (MATH 220 or higher) (KSC030) 4 MATH XXX - Recursive and Modular Computation 1 MATH XXX - Graphs, Trees, and Maps 1 ENGL 200 - Expository Writing II (KSC010) 3 Total 15 † May need to be combined into a single course due to instructional load</description>
+    </item>
+  </channel>
+</rss>

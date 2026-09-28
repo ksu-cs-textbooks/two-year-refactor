@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersecurity :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/cybersecurity/index.html</link>
+    <description>The Cybersecurity degree leverages the department’s expertise in cybersecurity and designation as a Center for Academic Excellence in Cybersecurity Research, providing hands-on training including systems-level thinking and secure coding practices. As a specialization degree, students earning a Bachelors in AI will also earn a Bachelors of Computer Science with no additional coursework required.&#xA;The Bachelor of Cybersecurity is accredited by ABET.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

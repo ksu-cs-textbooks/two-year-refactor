@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legitimate Peripheral Participation &amp; Communities of Practice :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html</link>
+    <description>Working draft for faculty review. This page describes the general research basis for treating learning as participation in a practice, not just acquisition of content. For where this shows up concretely in the curriculum, see Chapter 3’s cornerstone projects — real, ongoing software systems students join and take on progressively larger roles in over the two-year core.&#xA;What legitimate peripheral participation is Lave and Wenger’s central claim, developed from ethnographic studies of apprenticeship — Yucatec Mayan midwives, tailors in Vai and Gola communities, U.S. Navy quartermasters, meat cutters, and members of Alcoholics Anonymous — is that learning is not primarily an individual, cognitive process of absorbing decontextualized knowledge (Lave &amp; Wenger, 1991). It is a process of increasing participation in a community of practice: a group of people bound together by a shared activity they are actually doing.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

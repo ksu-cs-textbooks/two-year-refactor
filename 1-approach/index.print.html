@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="description" content="This chapter lays out the research basis for the redesign, the plan for building it, and how we’ll know whether it worked.
+Theoretical Grounding surveys the learning-science and assessment-design literature behind the curriculum’s key structural choices — spiral revisiting, communities of practice, evidence-centered assessment design, boundary crossing, and universal design for learning — each page closing with an honest assessment of what the evidence actually supports. The Implementation Timeline lays out the multi-year schedule for building, teaching, and evaluating every course in the two-year core, from initial learning-objective identification through course-by-course creation and post-launch review. The Evaluation Strategy specifies the validated instruments and administration schedule for measuring whether the redesign actually improves learning outcomes, comparing legacy and redesigned cohorts at the same program milestones rather than assuming the change works.">
+    <meta name="author" content="Department of Computer Science">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta name="twitter:title" content="Approach :: CS Two Year Refactor">
+    <meta name="twitter:description" content="This chapter lays out the research basis for the redesign, the plan for building it, and how we’ll know whether it worked.
+Theoretical Grounding surveys the learning-science and assessment-design literature behind the curriculum’s key structural choices — spiral revisiting, communities of practice, evidence-centered assessment design, boundary crossing, and universal design for learning — each page closing with an honest assessment of what the evidence actually supports. The Implementation Timeline lays out the multi-year schedule for building, teaching, and evaluating every course in the two-year core, from initial learning-objective identification through course-by-course creation and post-launch review. The Evaluation Strategy specifies the validated instruments and administration schedule for measuring whether the redesign actually improves learning outcomes, comparing legacy and redesigned cohorts at the same program milestones rather than assuming the change works.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/index.html">
+    <meta property="og:site_name" content="CS Two Year Refactor">
+    <meta property="og:title" content="Approach :: CS Two Year Refactor">
+    <meta property="og:description" content="This chapter lays out the research basis for the redesign, the plan for building it, and how we’ll know whether it worked.
+Theoretical Grounding surveys the learning-science and assessment-design literature behind the curriculum’s key structural choices — spiral revisiting, communities of practice, evidence-centered assessment design, boundary crossing, and universal design for learning — each page closing with an honest assessment of what the evidence actually supports. The Implementation Timeline lays out the multi-year schedule for building, teaching, and evaluating every course in the two-year core, from initial learning-objective identification through course-by-course creation and post-launch review. The Evaluation Strategy specifies the validated instruments and administration schedule for measuring whether the redesign actually improves learning outcomes, comparing legacy and redesigned cohorts at the same program milestones rather than assuming the change works.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta itemprop="name" content="Approach :: CS Two Year Refactor">
+    <meta itemprop="description" content="This chapter lays out the research basis for the redesign, the plan for building it, and how we’ll know whether it worked.
+Theoretical Grounding surveys the learning-science and assessment-design literature behind the curriculum’s key structural choices — spiral revisiting, communities of practice, evidence-centered assessment design, boundary crossing, and universal design for learning — each page closing with an honest assessment of what the evidence actually supports. The Implementation Timeline lays out the multi-year schedule for building, teaching, and evaluating every course in the two-year core, from initial learning-objective identification through course-by-course creation and post-launch review. The Evaluation Strategy specifies the validated instruments and administration schedule for measuring whether the redesign actually improves learning outcomes, comparing legacy and redesigned cohorts at the same program milestones rather than assuming the change works.">
+    <meta itemprop="dateModified" content="2026-09-28T03:08:36+00:00">
+    <meta itemprop="wordCount" content="130">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <title>Approach :: CS Two Year Refactor</title>
+    <link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/index.html" rel="canonical" type="text/html" title="Approach :: CS Two Year Refactor">
+    <link href="/two-year-refactor/1-approach/index.xml" rel="alternate" type="application/rss+xml" title="Approach :: CS Two Year Refactor">
+    <link href="/two-year-refactor/1-approach/tele.html" rel="alternate" type="text/html" title="Approach :: CS Two Year Refactor">
+    <link href="/two-year-refactor/1-approach/embed.html" rel="alternate" type="text/html" title="Approach :: CS Two Year Refactor">
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1790565267" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1790565267";
+    </script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-print.min.css?1790565267" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/1-approach\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/two-year-refactor';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/two-year-refactor/css/custom.css?1790565267" rel="stylesheet">
+  </head>
+  <body class="mobile-support embed print" data-url="/two-year-refactor/1-approach/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      
+      
+      
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 1-approach" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="approach">Approach</h1>
+
+<p>This chapter lays out the research basis for the redesign, the plan for building it, and how we&rsquo;ll know whether it worked.</p>
+<ul>
+<li><a href="/two-year-refactor/1-approach/theoretical-grounding/index.html">Theoretical Grounding</a> surveys the learning-science and assessment-design literature behind the curriculum&rsquo;s key structural choices — spiral revisiting, communities of practice, evidence-centered assessment design, boundary crossing, and universal design for learning — each page closing with an honest assessment of what the evidence actually supports.</li>
+<li>The <a href="/two-year-refactor/1-approach/timeline/index.html">Implementation Timeline</a> lays out the multi-year schedule for building, teaching, and evaluating every course in the two-year core, from initial learning-objective identification through course-by-course creation and post-launch review.</li>
+<li>The <a href="/two-year-refactor/1-approach/evaluation/index.html">Evaluation Strategy</a> specifies the validated instruments and administration schedule for measuring whether the redesign actually improves learning outcomes, comparing legacy and redesigned cohorts at the same program milestones rather than assuming the change works.</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+          <section>
+            <h1 class="a11y-only">Subsections of Approach</h1>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="theoretical-grounding">Theoretical Grounding</h1>
+
+<p>The research literature underlying this curriculum&rsquo;s key design decisions — spiral curriculum, communities of practice, evidence-centered assessment design, boundary crossing, and universal design for learning — each presented on its own page, closing with an honest assessment of what the evidence actually supports.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+          <section>
+            <h1 class="a11y-only">Subsections of Theoretical Grounding</h1>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="spiral-curriculum">Spiral Curriculum</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. This page describes the general research basis for spiral curriculum design. For how this specific two-year core applies it — the twelve named threads and their course-by-course escalation — see the Curriculum Design chapter and <code>content/pedagogy/spiral-method.md</code>.</em></p></blockquote>
+<h2 id="what-a-spiral-curriculum-is">What a spiral curriculum is</h2>
+<p>A spiral curriculum revisits the same core ideas repeatedly across a program, with each pass going deeper than the last, rather than teaching a topic once and moving on. The model originates with Bruner (<a href="/two-year-refactor/7-references/index.html#bruner-1960">Bruner, 1960</a>), whose central claim is that &ldquo;any subject can be taught effectively in some intellectually honest form to any child at any stage of development&rdquo; — achieved not by simplifying the subject, but by presenting it at a level of formality appropriate to the learner&rsquo;s current stage, then returning to it later at a higher level of rigor.</p>
+<p>This is a different bet than the alternative &ldquo;coverage&rdquo; model, where a topic is taught once, assessed, and left behind. Coverage is efficient but brittle: a concept encountered once is easy to lose. A spiral is slower per topic but treats the <em>return</em> to an idea — not the first encounter — as where real understanding is built.</p>
+<h2 id="what-makes-a-spiral-curriculum-specifically">What makes a spiral curriculum, specifically</h2>
+<p>Bruner&rsquo;s original formulation is a philosophical claim more than a design specification. Harden and Stamper (<a href="/two-year-refactor/7-references/index.html#harden-stamper-1999">Harden &amp; Stamper, 1999</a>) give the most widely used operational criteria, developed for medical education and now applied broadly. A curriculum earns the &ldquo;spiral&rdquo; label when it satisfies all of the following, not just some:</p>
+<ul>
+<li><strong>Topics are revisited</strong> more than once over the course of the program.</li>
+<li><strong>Difficulty increases</strong> at each revisit — a later pass is not a repeat of an earlier one.</li>
+<li><strong>New learning is explicitly linked</strong> to what the learner already knows, rather than presented as freestanding.</li>
+<li><strong>Competence is made visible</strong> to the learner as it develops across passes, not only assessed at the end.</li>
+<li><strong>The whole structure stays coherent</strong> — a spiral is an organized deepening, not just topics recurring incidentally.</li>
+</ul>
+<p>A curriculum that merely repeats the same material at the same depth is not a spiral by this definition; neither is one where topics happen to recur without any deliberate design connecting the passes.</p>
+<h2 id="why-a-spiral-fits-computer-science-specifically">Why a spiral fits computer science specifically</h2>
+<p>Bruner&rsquo;s 1960 book proposed the model without empirical testing, and spiral curricula are difficult to evaluate in isolation because they are usually bundled with other constructivist, inquiry-based methods — so it is hard to attribute outcomes to the spiral structure specifically (<a href="/two-year-refactor/7-references/index.html#ireland-mouthaan-2020">Ireland &amp; Mouthaan, 2020</a>). Ireland and Mouthaan&rsquo;s analysis adds a further, practically relevant point: the case for a spiral is stronger for well-structured domains with a clear internal logic and dependency order — their examples are mathematics and science — than for domains without that structure, where a non-linear (&ldquo;network&rdquo;) model may fit better. Computer science&rsquo;s dependency-heavy concept structure (data before algorithms, syntax before semantics, mechanism before its higher-level use) places it closer to the well-structured end of that spectrum, which is part of the argument for using a spiral here. A shorter practitioner summary of the same three defining features — revisiting, increasing complexity, and connection to prior learning — is given by Johnston (<a href="/two-year-refactor/7-references/index.html#johnston-2012">Johnston, 2012</a>).</p>
+<h2 id="the-mechanism-why-revisiting-should-work">The mechanism: why revisiting should work</h2>
+<p>The strongest causal evidence relevant to spiral design does not come from testing whole curricula — it comes from cognitive-science research on the underlying mechanism a spiral relies on: revisiting material after a delay rather than massing it into one pass. Cepeda and colleagues&rsquo; meta-analysis synthesized 839 separate effect estimates from 317 experiments across 184 published articles on distributed (spaced) practice (<a href="/two-year-refactor/7-references/index.html#cepeda-2006">Cepeda et al., 2006</a>) — one of the largest, most replicated effects in learning science. Their key design finding is directly relevant to spiral pacing: the ideal gap between exposures is not fixed, it grows as the required retention interval grows — a concept meant to be retained for years needs wider-spaced revisits than one only needed for next week&rsquo;s quiz.</p>
+<p>That said, this lab-derived effect is markedly weaker and less consistent when tested directly in real college STEM courses. A nine-course meta-analysis of spaced retrieval practice embedded in actual class quizzes found only a small overall benefit (a 2.06-percentage-point average gain on end-of-semester tests) that reached significance only when one course (Calculus I) was included in the pooled analysis, and vanished across the other eight (<a href="/two-year-refactor/7-references/index.html#bego-2024">Bego et al., 2024</a>). Only 2 of the 9 courses individually showed a statistically significant effect, despite identical study procedures across all of them. The lesson: the spacing effect is real and mechanistically well-grounded, but it does not automatically or uniformly translate into a measurable classroom-level gain — spiral design should be understood as <em>applying</em> a genuine mechanism, not as a mechanism that guarantees a specific effect size in any given course.</p>
+<h2 id="curriculum-level-evidence-in-cs">Curriculum-level evidence in CS</h2>
+<p>Direct evidence from a spiral-redesigned CS curriculum is limited to a single published study, not an independently replicated body of work. Lionelle et al. restructured a CS 1 course around spaced, interleaved retrieval of core topics and reported that students in the spiral redesign outperformed a traditional-sequence cohort by 9% on the CS 1 final exam, and that the CS 1→CS 2 retention rate rose by 9.2% overall and 19.2% among women, with CS 2 students from the spiral cohort also showing higher grades across assessments and a 15% increase in CS 2 passing rates (<a href="/two-year-refactor/7-references/index.html#lionelle-2022">Lionelle et al., 2022</a>).</p>
+<p>These numbers are worth citing as encouraging, targeted, discipline-specific evidence — but they should not be overweighted. It is one course, at one institution, not yet independently replicated; the retention-percentage figures in particular are close enough to the noise floor of a single-cohort comparison that they should be read as suggestive rather than conclusive until another program reproduces them. This curriculum&rsquo;s own competency-based assessment design (Chapter 5) is positioned to generate exactly this kind of curriculum-level evidence over time, which the field currently lacks.</p>
+<h2 id="curriculum-level-evidence-in-medical-education">Curriculum-level evidence in medical education</h2>
+<p>Medical education has the most mature track record of spiral-curriculum adoption, and its outcomes are a useful, more sobering counterweight to the CS result above. Fraser et al. compared a spiral-curriculum cohort against prior block-curriculum cohorts on concussion-related knowledge and found &ldquo;comparable or superior knowledge retention&hellip; despite substantially reduced clinical exposure&rdquo; — a real but modest result, and one where the block cohort&rsquo;s greater direct clinical exposure was itself an advantage the spiral cohort didn&rsquo;t get (<a href="/two-year-refactor/7-references/index.html#fraser-2019">Fraser et al., 2019</a>). This is not an unambiguous win for the spiral design; it is closer to &ldquo;held its own on knowledge while trading away something else.&rdquo;</p>
+<p>A separate study tracking three graduating classes across a spiral-curriculum rollout found USMLE Step 1 scores — the standard high-stakes outcome measure in U.S. medical education — were essentially flat across the transition (224, 229, and 227 out of the classes before and after the spiral was introduced), i.e., no detectable score benefit from the spiral redesign on the one outcome measure medical schools care about most (<a href="/two-year-refactor/7-references/index.html#maltagliati-2023">Maltagliati et al., 2023</a>). Taken together, the two most careful medical-education studies available report modest-to-flat outcomes, not a clear empirical win — the honest continuation of the same evidence picture Ireland and Mouthaan describe.</p>
+<h2 id="documented-implementation-risk">Documented implementation risk</h2>
+<p>A spiral is harder to run than a linear sequence, and that cost shows up in the literature, not just in theory. A study of a spiral-progression rollout in Philippine junior-high science documented concrete failure modes: instructional materials that were never fully distributed to teachers, poor implementation planning, and insufficient teacher training time before the change took effect (<a href="/two-year-refactor/7-references/index.html#dunton-co-2019">Dunton &amp; Co, 2019</a>) — a coordination and training burden, not a flaw in the spiral concept itself, but a real cost this program&rsquo;s rollout needs to plan for explicitly. A multi-year case study of a spiral curriculum built for an electrical and computer engineering program reported, after several years of rollout, that the intended benefits of the spiral structure had not yet clearly shown up in outcomes, with no comparison against a non-spiral cohort to confirm a benefit either way (<a href="/two-year-refactor/7-references/index.html#yost-2008">Yost et al., 2008</a>) — an honest example of a CS-adjacent spiral adoption whose payoff was not fast or obvious in practice.</p>
+<p>Harden and Stamper&rsquo;s fifth criterion — that a spiral must &ldquo;stay coherent,&rdquo; not just have topics recur — is the design-level answer to this risk: a spiral without deliberate faculty coordination and a shared map of what&rsquo;s revisited where is exactly the kind of implementation the Philippine and ECE cases describe.</p>
+<h2 id="in-summary">In summary</h2>
+<p>The theoretical and structural case for a spiral remains strong: Harden and Stamper&rsquo;s design criteria are well-established and computer science&rsquo;s dependency-heavy structure fits the model well. The causal case is real but modest and uneven — the spacing/retrieval mechanism a spiral relies on is one of the best-replicated effects in learning science at the laboratory level, but its effect size shrinks and becomes inconsistent when tested in real courses; the one CS-specific curriculum study available reports encouraging numbers that await independent replication; and the most mature body of curriculum-level evidence, from medical education, shows modest-to-flat outcomes on hard measures rather than a clear win. Implementation risk is documented, not hypothetical, and is best addressed by treating coherence — Harden and Stamper&rsquo;s fifth criterion — as a first-class design requirement, not an afterthought.</p>
+<p>This curriculum treats the spiral as the best-supported design bet available for a dependency-heavy discipline like computer science — grounded in a well-evidenced cognitive mechanism and a small but real body of favorable curriculum-level data — while being explicit that it is a bet informed by strong theory and partial evidence, not a claim already settled by data.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="legitimate-peripheral-participation--communities-of-practice">Legitimate Peripheral Participation &amp; Communities of Practice</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. This page describes the general research basis for treating learning as participation in a practice, not just acquisition of content. For where this shows up concretely in the curriculum, see Chapter 3&rsquo;s cornerstone projects — real, ongoing software systems students join and take on progressively larger roles in over the two-year core.</em></p></blockquote>
+<h2 id="what-legitimate-peripheral-participation-is">What legitimate peripheral participation is</h2>
+<p>Lave and Wenger&rsquo;s central claim, developed from ethnographic studies of apprenticeship — Yucatec Mayan midwives, tailors in Vai and Gola communities, U.S. Navy quartermasters, meat cutters, and members of Alcoholics Anonymous — is that learning is not primarily an individual, cognitive process of absorbing decontextualized knowledge (<a href="/two-year-refactor/7-references/index.html#lave-wenger-1991">Lave &amp; Wenger, 1991</a>). It is a process of increasing participation in a <strong>community of practice</strong>: a group of people bound together by a shared activity they are actually doing.</p>
+<p>A newcomer starts at the <em>periphery</em> — doing real, low-stakes-but-genuine work (not a simulation or a graded exercise divorced from the practice) that is still recognized by the community as legitimate. As competence and trust grow, the newcomer takes on more central, higher-stakes tasks, and their identity shifts from outsider to full practitioner. The learning and the identity change are the same process, not two separate things — you don&rsquo;t first learn to be a tailor and then join the tailors; you become a tailor by progressively doing more of what tailors do, alongside tailors.</p>
+<p>This is a sharp contrast with a curriculum that treats a discipline as a body of content to transmit, then tests for retention afterward. Under legitimate peripheral participation (LPP), the practice comes first; the content is learned in service of participating in it.</p>
+<h2 id="what-makes-a-community-of-practice-specifically">What makes a community of practice, specifically</h2>
+<p>Lave and Wenger&rsquo;s original 1991 book introduces the concept through case studies rather than a checklist. Wenger&rsquo;s later, solo elaboration gives the operational criteria used since (<a href="/two-year-refactor/7-references/index.html#wenger-1998">Wenger, 1998</a>): a community of practice exists where three elements are jointly present, not any one alone —</p>
+<ul>
+<li><strong>Mutual engagement</strong> — members actually interact and coordinate around a shared activity, not just share a label or credential.</li>
+<li><strong>Joint enterprise</strong> — the group is accountable to a shared goal it has negotiated together, not one handed down without buy-in.</li>
+<li><strong>Shared repertoire</strong> — the group accumulates its own concepts, tools, jargon, war stories, and routines over time, which newcomers learn by using, not by being handed a glossary.</li>
+</ul>
+<p>A classroom that merely groups students to work in parallel on individually-graded assignments does not meet this bar — there is no joint enterprise and no accumulating shared repertoire. A studio or project team that owns a real, evolving artifact and is jointly accountable for it is much closer to the model.</p>
+<h2 id="the-classroom-translation-cognitive-apprenticeship">The classroom translation: cognitive apprenticeship</h2>
+<p>Lave and Wenger&rsquo;s cases are workplace apprenticeships, not classrooms, which raises an immediate question for a curriculum design: what does &ldquo;legitimate peripheral participation&rdquo; mean when the setting is a course, not a trade? Collins, Brown, and Newman&rsquo;s cognitive apprenticeship framework is the standard answer, translating the apprenticeship structure into concrete instructional moves for cognitive (not just manual) skills (<a href="/two-year-refactor/7-references/index.html#collins-1989">Collins et al., 1989</a>): an expert models a task while making their normally-invisible thinking visible, the novice attempts it under coaching and scaffolding that fades as competence grows, and the novice periodically articulates and reflects on their own process rather than only producing output. This is the mechanism by which a bounded, gradable course activity can still function as genuine peripheral participation rather than an isolated exercise.</p>
+<h2 id="why-this-fits-a-cornerstone-project-curriculum">Why this fits a cornerstone-project curriculum</h2>
+<p>A curriculum organized around real, ongoing software systems — rather than only disposable toy assignments — is a direct structural bet on LPP. A first-semester student&rsquo;s contribution to a cornerstone project (see Chapter 3) can be genuinely peripheral: small, bounded, closely coached, but still a real change to a real system that other students and the system&rsquo;s actual stakeholders depend on — not a simulation of the work. As a student advances through the two-year core, their role in the same project (or a more advanced one) can move toward the center: larger scope, less coaching, more accountability for decisions other students will build on. This is the same trajectory Lave and Wenger describe, and it is also why cornerstone projects and the spiral curriculum (see <a href="/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html">Spiral Curriculum</a>) reinforce each other: a spiral revisits the <em>same concepts</em> with increasing formal rigor; LPP revisits the <em>same practice</em> with increasing centrality and stakes. They are two lenses on the same underlying design move — deliberate, structured return, not a single pass.</p>
+<h2 id="what-the-evidence-actually-supports">What the evidence actually supports</h2>
+<p>Lave and Wenger&rsquo;s book is an interpretive, ethnographic argument, not a controlled study — it is best read as a powerful <em>descriptive and analytic</em> account of how apprenticeship learning actually works, not as a causal claim that has been tested against an alternative model the way a curricular intervention would be. Its influence has been enormous (the terms &ldquo;community of practice&rdquo; and &ldquo;legitimate peripheral participation&rdquo; are now standard vocabulary well beyond education, especially in workplace and organizational learning research), but that influence is a measure of the framework&rsquo;s explanatory reach, not by itself evidence that designing a course around it improves measurable learning outcomes.</p>
+<p>The more direct, testable evidence sits one level down, in the cognitive apprenticeship literature that operationalizes these ideas into specific classroom techniques (modeling, coaching, scaffolding with fading, articulation, reflection) — this is the same evidentiary pattern as the spiral curriculum page: a strong, well-argued theoretical case, with the more rigorous causal evidence living in the <em>adjacent, more concrete</em> instructional mechanisms rather than in tests of the overarching framework itself. A dedicated evidence pass — parallel to the one run for the spiral curriculum page — is the right next step before this page&rsquo;s claims are treated as fully load-bearing; it has not been done yet for this page.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="evidence-centered-design">Evidence-Centered Design</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. This page describes the general research basis for designing assessment around explicit evidentiary reasoning. For where this is operationalized in the program, see Chapter 5 — particularly <a href="/two-year-refactor/5-assessment/competency-model/index.html">The Competency Model</a>, which already states the core ECD commitment: competencies belong to the program, and courses are evidence-generating contexts.</em></p></blockquote>
+<h2 id="what-evidence-centered-design-is">What evidence-centered design is</h2>
+<p>Evidence-centered design (ECD) reframes assessment design as building an explicit <strong>evidentiary argument</strong>, not writing a set of test items (<a href="/two-year-refactor/7-references/index.html#mislevy-steinberg-almond-2003">Mislevy et al., 2003</a>). The claim you want to make about a student — &ldquo;this student can reason about concurrency,&rdquo; &ldquo;this student can design a normalized schema&rdquo; — is not directly observable. An assessment is only useful to the extent that a specific, designed-in-advance chain of reasoning connects something you <em>can</em> observe (a work product, a performance, an answer) back to that unobservable claim. ECD&rsquo;s core discipline is to design that chain deliberately, before writing a single task, rather than writing tasks first and hoping they happen to support the claims you later want to make.</p>
+<p>This inverts the usual order of assessment design. The starting question is not &ldquo;what should we ask students to do?&rdquo; but &ldquo;what claim do we want to make about the student, and what evidence would actually justify that claim?&rdquo; Tasks are then engineered specifically to elicit that evidence — a task that doesn&rsquo;t produce evidence bearing on a real claim is not doing assessment work, however elaborate it looks.</p>
+<h2 id="the-three-models">The three models</h2>
+<p>Mislevy, Steinberg, and Almond formalize the evidentiary chain as three interlocking models, each with a specific job:</p>
+<ul>
+<li><strong>The student model</strong> — the claims themselves: the set of knowledge, skills, and abilities (KSAs) the assessment is designed to support inferences about. This is the &ldquo;what are we actually trying to find out&rdquo; layer.</li>
+<li><strong>The evidence model</strong> — the rules connecting a student&rsquo;s observable work to the student model. It has two parts: how do you identify and score the salient features of a work product (an evaluation rule), and how does that score update belief about the student-model claims (a measurement rule)? This is the layer that makes the inference <em>rigorous</em> rather than impressionistic.</li>
+<li><strong>The task model</strong> — the specification of the situation presented to the student: what materials, prompts, constraints, and affordances are given, and what form the resulting work product takes. This is the layer that actually elicits the evidence the evidence model needs.</li>
+</ul>
+<p>A later elaboration extends this into a five-layer process — domain analysis, domain modeling, the conceptual assessment framework (the three models above), assessment implementation, and assessment delivery — for scaling the same discipline from a single task up to an operational testing program (<a href="/two-year-refactor/7-references/index.html#mislevy-almond-lukas-2003">Mislevy et al., 2003</a>; <a href="/two-year-refactor/7-references/index.html#mislevy-haertel-2006">Mislevy &amp; Haertel, 2006</a>). The common thread across every layer is the same: nothing is built until it&rsquo;s traceable back to a specific claim and a specific piece of evidence that would support or undercut it.</p>
+<h2 id="why-this-fits-a-competency-based-curriculum">Why this fits a competency-based curriculum</h2>
+<p>A program that separates competency status from course grades — as this one does — cannot get away with informal, after-the-fact assessment design. If a competency claim (&ldquo;this student has attained Computational Reasoning&rdquo;) is going to be certified across many different courses, each potentially using different tasks, the programmatic-level integrity of that claim depends entirely on whether every course&rsquo;s tasks were actually designed to produce real evidence for it, not just designed to look topically related. ECD is the discipline that keeps that honest: every signature assessment and recurring assessment type in Chapter 5 is implicitly a task model, every competency in the competency model is a student-model claim, and every rubric or scoring guide connecting the two is an evidence model. Naming this explicitly is what lets the program audit itself — is there an actual evidentiary chain from this task to this competency claim, or just a plausible-sounding label?</p>
+<p>This also gives a concrete, checkable failure mode to watch for as courses are built out: a task that produces a grade but no clear evidence for any specific competency claim is not doing programmatic assessment work, however legitimate it is as a course requirement.</p>
+<h2 id="what-the-evidence-actually-supports">What the evidence actually supports</h2>
+<p>ECD is a design methodology and a quality-assurance discipline, not itself a causal intervention to be tested against a control group — the relevant question is not &ldquo;does ECD raise test scores&rdquo; but &ldquo;does building an assessment this way produce a more defensible validity argument than building one without this discipline.&rdquo; On that question, ECD&rsquo;s track record is real but institutional rather than experimental: it was developed at Educational Testing Service and has been the explicit design basis for large operational assessment and simulation-based testing programs (Cisco Networking Academy&rsquo;s assessments and NetPASS, intelligent-tutoring and diagnostic systems like ACED, and components of NAEP), which is evidence of adoption and perceived design rigor by testing organizations with strong incentives to get validity right, not a controlled comparison against alternative design methods.</p>
+<p>This is the same evidentiary shape as the other pages in this chapter: a strong, well-specified design framework with real institutional adoption, whose main empirical backing is in the broader validity-argument literature it draws from (educational measurement and validity theory) rather than in head-to-head outcome studies of &ldquo;ECD-designed assessments&rdquo; versus otherwise-designed ones. A dedicated evidence pass, parallel to the one already run for the spiral curriculum page, has not yet been done for this page.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="boundary-crossing">Boundary Crossing</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. This page describes the general research basis for learning that happens when a student moves between different practices, not just deeper within one. See <a href="/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html">Legitimate Peripheral Participation &amp; Communities of Practice</a> for the companion theory about deepening within a single community.</em></p></blockquote>
+<h2 id="what-boundary-crossing-is">What boundary crossing is</h2>
+<p>Legitimate peripheral participation describes how a newcomer moves toward the center of a <em>single</em> community of practice. Boundary crossing addresses the different, harder problem of what happens when a person has to move <em>between</em> practices that don&rsquo;t share the same norms, tools, vocabulary, or notion of what counts as good work — a student moving from a CS classroom into a domain-expert&rsquo;s lab, or from the shared two-year core into a specialization with its own conventions (<a href="/two-year-refactor/7-references/index.html#akkerman-bakker-2011">Akkerman &amp; Bakker, 2011</a>). Akkerman and Bakker&rsquo;s synthesis treats this as a real cognitive and social achievement, not friction to be minimized: something is actually learned in the act of crossing, precisely because the two sides don&rsquo;t automatically understand each other.</p>
+<p>The discontinuity at a boundary is the point, not an obstacle to design around. A student who only ever works within one community never has to make their own assumptions explicit enough for someone outside that community to use them — that work of making the implicit explicit is where boundary-crossing learning happens.</p>
+<h2 id="four-ways-learning-happens-at-a-boundary">Four ways learning happens at a boundary</h2>
+<p>Akkerman and Bakker&rsquo;s review identifies four distinct learning mechanisms that occur at boundaries, not one:</p>
+<ul>
+<li><strong>Identification</strong> — figuring out what each side actually means by a shared term or goal, which often turns out to differ more than either side assumed. Learning here is realizing the two practices weren&rsquo;t already talking about the same thing.</li>
+<li><strong>Coordination</strong> — building working procedures and shared artifacts that let the two practices cooperate without either one having to change. This is usually the most common and lowest-friction mechanism, and it is where boundary objects (below) do their work.</li>
+<li><strong>Reflection</strong> — using the outside perspective to see your own practice&rsquo;s assumptions from the outside. A student explaining a design decision to a domain expert who doesn&rsquo;t share CS&rsquo;s default assumptions often learns more about their own reasoning than the domain expert learns from them.</li>
+<li><strong>Transformation</strong> — the boundary itself changes both practices, producing a genuinely new, hybrid way of working that didn&rsquo;t exist on either side before.</li>
+</ul>
+<p>These are not stages a crossing must move through in order — most real boundary crossings only ever reach coordination, and that is a legitimate, useful outcome, not a failure to reach transformation.</p>
+<h2 id="boundary-objects">Boundary objects</h2>
+<p>Coordination across a boundary is rarely done through shared understanding alone — it is usually mediated by a <strong>boundary object</strong>: an artifact concrete and structured enough to support coordinated work across the boundary, while being flexible enough for each side to interpret it in terms of their own practice (<a href="/two-year-refactor/7-references/index.html#star-griesemer-1989">Star &amp; Griesemer, 1989</a>). Star and Griesemer&rsquo;s original example is a natural history museum&rsquo;s shared specimen collection, interpreted differently by amateur collectors, professional taxonomists, and university administrators, yet stable enough to let all three groups coordinate around it.</p>
+<p>Software engineering runs on boundary objects: an API contract, a database schema, a shared specification, or an architecture diagram is exactly this kind of artifact — precise enough to coordinate real work, while each side (frontend and backend, engineering and product, this program&rsquo;s students and an external domain-expert stakeholder) reads it against their own practice&rsquo;s concerns. This program already names a related idea from a different intellectual tradition — the Boundaries &amp; Contracts thread in Chapter 4 treats a boundary as a software-design concept (an interface&rsquo;s promise about behavior, independent of what&rsquo;s behind it), grounded in design-by-contract and systems thinking, not in sociocultural learning theory. The two ideas reinforce each other productively — a well-designed software contract <em>is</em> a boundary object in Star and Griesemer&rsquo;s sense — but they come from different literatures and answer different questions; this page is about what a student learns by having to build and use one, not about how to specify one correctly.</p>
+<h2 id="why-this-fits-this-curriculum">Why this fits this curriculum</h2>
+<p>Two structural features of this program are literal boundary crossings, not just metaphorical ones. First, the cornerstone projects (Chapter 3) put students in contact with real stakeholders and domains outside computer science — a project&rsquo;s value as a <em>boundary-crossing</em> experience depends on whether it actually requires students to build something like a boundary object (a spec, a data contract, a shared vocabulary document) for a real outside audience, not just complete a CS assignment that happens to have a non-CS theme. Second, the transition from the shared two-year core into a specialization (Chapter 2) is itself a boundary crossing between the core&rsquo;s practice and each specialization&rsquo;s more specific one — the twelve core threads function as the &ldquo;identification&rdquo; and &ldquo;coordination&rdquo; work that make that later crossing easier, per the specialization on-ramp framing already used in this program&rsquo;s design (see the Catalog chapter).</p>
+<p>The practical design implication is that these crossings should be designed for, not assumed to happen automatically: a course that puts students in front of a real external stakeholder without ever asking them to produce an artifact that stakeholder can actually use is skipping the coordination mechanism that makes the crossing educative in the first place.</p>
+<h2 id="what-the-evidence-actually-supports">What the evidence actually supports</h2>
+<p>Akkerman and Bakker&rsquo;s paper is itself a literature review and theoretical synthesis, not a new empirical study — its evidentiary weight comes from the breadth and consistency of the many qualitative case studies it draws together across professional, educational, and workplace-learning settings, not from a single controlled comparison. Star and Griesemer&rsquo;s boundary-objects concept has a similar status: enormously influential and widely applied (well beyond education, into science and technology studies, organizational studies, and software engineering itself), but originating from a single historical case study, not a causal test. Both are best read as well-evidenced <em>descriptive and analytic</em> frameworks — they explain what is happening at a boundary and give a vocabulary for designing around it — rather than as interventions with a measured effect size on a learning outcome. A dedicated evidence pass, parallel to the one already run for the spiral curriculum page, has not yet been done for this page.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="universal-design-for-learning">Universal Design for Learning</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. This page describes the general research basis for designing course materials with built-in flexibility rather than retrofitted accommodations.</em></p></blockquote>
+<h2 id="what-universal-design-for-learning-is">What Universal Design for Learning is</h2>
+<p>Universal Design for Learning (UDL) applies an idea from architecture — design a building&rsquo;s entrances and spaces to work for the widest range of bodies from the start, rather than building for one &ldquo;standard&rdquo; body and bolting on a wheelchair ramp later — to instructional design. CAST&rsquo;s foundational articulation frames the target of instruction as the &ldquo;expert learner,&rdquo; and its central premise is that learner variability is the norm, not the exception: a course designed for one imagined average student will systematically underserve everyone who doesn&rsquo;t match that profile, whereas a course built with multiple ways in from the outset serves a much wider range of learners without requiring an individual accommodation request for each one (<a href="/two-year-refactor/7-references/index.html#rose-meyer-2002">Rose &amp; Meyer, 2002</a>). The current operational version of the framework is maintained and periodically revised by CAST (<a href="/two-year-refactor/7-references/index.html#cast-2024">CAST, 2024</a>).</p>
+<h2 id="the-three-principles-operationalized">The three principles, operationalized</h2>
+<p>UDL organizes its guidance around three principles, each targeting a different part of the learning process:</p>
+<ul>
+<li><strong>Multiple means of engagement</strong> — the <em>why</em> of learning: options for recruiting interest, sustaining effort and persistence through a task, and developing self-regulation. Answers &ldquo;why would a student stay motivated through this.&rdquo;</li>
+<li><strong>Multiple means of representation</strong> — the <em>what</em> of learning: options for perception, for language and symbols, and for comprehension. Answers &ldquo;how does the material actually reach a student whose default way of taking in information doesn&rsquo;t fit the way it was presented.&rdquo;</li>
+<li><strong>Multiple means of action and expression</strong> — the <em>how</em> of learning: options for physical action, for expression and communication, and for executive function (planning and monitoring one&rsquo;s own work). Answers &ldquo;how does a student show what they know&rdquo; — a written exam is one option among several, not the only legitimate one.</li>
+</ul>
+<p>The operative design move under all three is the same: build the alternative pathways into the course from the start, rather than treating &ldquo;let me get you the material a different way&rdquo; as a special-case accommodation triggered only after a student self-identifies a need.</p>
+<h2 id="where-this-fits-a-cs-core--and-where-the-fit-is-thinner">Where this fits a CS core — and where the fit is thinner</h2>
+<p>The most CS-specific applied work in this space comes from K-12: the UDL4CS research-practice partnership (University of Florida, CSTA, and district partners) maintains an actively updated set of UDL guidelines mapped specifically to CS teaching strategies, and NYC&rsquo;s CS4All initiative publishes a comparable practical resource. Both are useful as concrete examples of what a UDL principle looks like translated into an actual CS lesson, but both target K-12 classrooms, not an undergraduate, competency-based core — a translation gap worth naming explicitly rather than assuming K-12 exemplars carry over unchanged to adult learners in this program.</p>
+<p>A more directly transferable piece of guidance is implementation-level rather than content-level: Israel, Lash, and Ray&rsquo;s practitioner guidance argues for starting with one or two UDL checkpoints per unit rather than attempting the full framework everywhere at once (<a href="/two-year-refactor/7-references/index.html#israel-2017">Israel et al., 2017</a>). That maps well onto this curriculum&rsquo;s own phased, page-by-page authoring process (this site is itself being built one chapter at a time) — UDL adoption across the two-year core should be expected to follow the same incremental pattern, not arrive fully formed in every course on day one.</p>
+<h2 id="what-the-evidence-actually-supports">What the evidence actually supports</h2>
+<p>UDL&rsquo;s three principles are grounded in a real evidence base at the level of the underlying cognitive and affective mechanisms they draw on (multiple means of representation, for instance, overlaps directly with dual-coding and multimedia-learning research), and the framework has seen wide adoption and continuous institutional revision — CAST has iterated the guidelines through multiple major versions, most recently version 3.0. That adoption and iteration is evidence of practitioner and organizational confidence in the framework, not the same thing as controlled evidence that adopting UDL, as a whole design framework, causally improves measured learning outcomes in a given course. UDL is broad by design — three principles, nine guidelines, and many possible concrete instantiations of each — which makes it inherently difficult to test as a single intervention the way a specific technique can be tested; a course can honestly claim to &ldquo;use UDL&rdquo; while making very different concrete choices from another course that also claims to.</p>
+<p>This is the same evidentiary shape as the other pages in this chapter: a well-specified, widely-adopted design framework whose supporting evidence is strongest at the level of its component mechanisms and weakest at the level of &ldquo;the framework as a whole, causally.&rdquo; A dedicated evidence pass, parallel to the one already run for the spiral curriculum page, has not yet been done for this page.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+          </section>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="implementation-timeline">Implementation Timeline</h1>
+
+<p>Implementation timeline for the two-year core redesign, from learning-objective identification through a full development-to-evaluation cycle for every course in the core.</p>
+<h2 id="methodology-why-each-course-gets-five-phases-not-one">Methodology: why each course gets five phases, not one</h2>
+<p>&ldquo;Course creation&rdquo; is not the end of the work — a course that is designed, taught once, and never checked against evidence is exactly the gap this program&rsquo;s own <a href="/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html">Spiral Curriculum</a> page flags in the wider field (&ldquo;this curriculum&rsquo;s own competency-based assessment design is positioned to generate exactly this kind of curriculum-level evidence over time, which the field currently lacks&rdquo;). This timeline is that evidence pipeline, applied on a schedule. Each course cohort goes through five phases:</p>
+<ol>
+<li><strong>Baseline assessment</strong> — a validated concept inventory (or equivalent instrument, where one doesn&rsquo;t yet exist for a given topic) administered to students in the <em>current</em> version of the course, in its last semester before the redesigned version replaces it.</li>
+<li><strong>Course creation/refactoring</strong> — the design work itself, which can run concurrently with the course&rsquo;s own baseline semester and beyond, since redesigning a course while its old version is still being taught is normal.</li>
+<li><strong>First teaching, new version</strong> — the course&rsquo;s first offering under the redesigned curriculum.</li>
+<li><strong>Post-assessment</strong> — the same (or an equivalent) concept inventory, administered at the end of that first new-version offering, so the pre/post comparison isolates the redesign&rsquo;s effect rather than mixing it with mid-semester noise.</li>
+<li><strong>Course evaluation</strong> — a broader review (post-assessment results alongside grades, DFW rates, and instructor/student feedback) synthesized once post-assessment data is in hand.</li>
+</ol>
+<p><strong>New courses do not get a comparison assessment.</strong> Baseline and post-assessment require a <em>current</em> offering of that course to measure against; several core courses are new course numbers with no predecessor at that number — CIS 120, 260, 225, 251, 140, and CIS 401 (the new fork of CIS 400). Those courses still go through creation, first teaching, and course evaluation; they simply skip phases 1 and 4. Only courses being redesigned under an existing number get the concept-inventory comparison: CIS 115, 116, 200, 300, 301, and 308.</p>
+<pre class="mermaid align-center zoomable">
+gantt
+    title Two-Year Core Implementation Timeline
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+
+    section Summer 2026
+    Identify Learning Objectives                        :done, objectives, 2026-06-01, 2026-08-15
+
+    section Fall 2026
+    Curriculum Approval                                 :active, approval, 2026-08-16, 2027-05-15
+    Y1-Fall Baseline Assessment (CIS 115/116)            :active, y1f-base, 2026-08-16, 2026-12-15
+    Y1-Fall Course Creation/Refactoring                  :active, y1f-dev, 2026-08-16, 2027-08-15
+    Y1-Spring Course Creation/Refactoring                :active, y1s-dev, 2026-08-16, 2027-08-15
+
+    section Spring 2027
+    Curriculum Approved                                 :milestone, approved, 2027-05-15, 0d
+    Y1-Spring Baseline Assessment (CIS 200)              :y1s-base, 2027-01-01, 2027-05-15
+
+    section Summer 2027
+    Year 1 Courses Ready to Teach                       :milestone, y1ready, 2027-08-15, 0d
+
+    section Fall 2027
+    Y1-Fall First Taught, New Version                    :y1f-teach, 2027-08-16, 2027-12-15
+    Y1-Fall Post-Assessment (CIS 115/116)                :milestone, y1f-post, 2027-12-15, 0d
+    Y2-Fall Baseline Assessment (CIS 300/301)            :y2f-base, 2027-08-16, 2027-12-15
+    Y2-Fall Course Creation/Refactoring                  :y2f-dev, 2027-08-16, 2028-08-15
+    Y2-Spring Course Creation/Refactoring                :y2s-dev, 2027-08-16, 2028-08-15
+
+    section Spring 2028
+    Y1-Fall Course Evaluation                            :y1f-eval, 2028-01-01, 2028-05-15
+    Y1-Spring First Taught, New Version                  :y1s-teach, 2028-01-01, 2028-05-15
+    Y1-Spring Post-Assessment (CIS 200)                  :milestone, y1s-post, 2028-05-15, 0d
+    Y2-Spring Baseline Assessment (CIS 308)              :y2s-base, 2028-01-01, 2028-05-15
+
+    section Summer 2028
+    Year 2 Courses Ready to Teach                       :milestone, y2ready, 2028-08-15, 0d
+
+    section Fall 2028
+    Y1-Spring Course Evaluation                          :y1s-eval, 2028-08-16, 2028-12-15
+    Y2-Fall First Taught, New Version                    :y2f-teach, 2028-08-16, 2028-12-15
+    Y2-Fall Post-Assessment (CIS 300/301)                :milestone, y2f-post, 2028-12-15, 0d
+
+    section Spring 2029
+    Y2-Fall Course Evaluation                            :y2f-eval, 2029-01-01, 2029-05-15
+    Y2-Spring First Taught, New Version                  :y2s-teach, 2029-01-01, 2029-05-15
+    Y2-Spring Post-Assessment (CIS 308)                  :milestone, y2s-post, 2029-05-15, 0d
+
+    section Fall 2029
+    Y2-Spring Course Evaluation                          :y2s-eval, 2029-08-16, 2029-12-15
+</pre>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="evaluation-strategy">Evaluation Strategy</h1>
+
+<p>These instruments will compare student learning under the legacy B.S. in CS with learning under the redesigned curriculum, at the cohort level. They will not be used to certify individual students. That is the use most concept inventories were built for, so the rigorously validated ones can be adopted as they are.</p>
+<p><strong>Recommended battery.</strong></p>
+<ul>
+<li><strong>Knowledge:</strong> SCS1 (CS1), BDSI (data structures), CAOS or BLIS (statistics), DLCI (digital logic, if it is in the core), and CCI (entry to the Cybersecurity track).</li>
+<li><strong>Affective panel:</strong> the Steinhorst programming self-efficacy scale, the Computing Attitudes Survey, the Mahadeo–Hazari–Potvin computing identity items, and the 2026 SIGCSE belonging survey.
+<strong>Most urgent: collect legacy baseline data now.</strong> Every legacy cohort that goes untested is data that cannot be recovered.</li>
+</ul>
+<ol>
+<li>Request access to the secure instruments this fall. That means the SCS1 Google Group and the BDSI, DLCI and CCI authors.</li>
+<li>Test current first- and second-year students in spring 2027.</li>
+<li>Build local instruments for the gap areas (discrete math, OOP) and pilot them on legacy students before the old curriculum ends.
+Two or three legacy cohorts support an interrupted time series. That design is much stronger than a single before/after comparison.</li>
+</ol>
+<h2 id="evaluation-design">Evaluation design</h2>
+<p>The strongest feasible design is an interrupted time series. It compares several legacy cohorts with several new-curriculum cohorts on the same instruments, at the same program milestones, under the same conditions.</p>
+<ul>
+<li><strong>Multiple legacy cohorts.</strong> They show how much scores drift from year to year without any curriculum change. A shift at the transition then has to exceed that drift. One legacy cohort cannot separate the curriculum effect from an unusual year.</li>
+<li><strong>Milestones, not course names.</strong> A spiral curriculum spreads topics across courses. &ldquo;End of CS1&rdquo; in the legacy program may not cover the same material as its nearest counterpart in the new one. Testing both programs at entry, end of year 1, and end of year 2 compares learning rather than content timing. It also shows whether the spiral delays some outcomes and then catches up.</li>
+<li><strong>Retention as its own outcome.</strong> Give SCS1 again at the end of year 2 in both curricula. The spiral&rsquo;s central claim is revisiting and retention, and a second SCS1 tests that claim directly. A legacy student who finished CS1 eighteen months earlier is the right comparison.</li>
+<li><strong>Identical administration conditions.</strong> On low-stakes tests, a change in student motivation can swamp the curriculum effect. Keep these the same for every cohort:
+<ul>
+<li>incentive (e.g., participation credit, not graded on correctness)</li>
+<li>setting and proctoring</li>
+<li>time limit</li>
+<li>instrument version</li>
+<li>use of the full instrument, never subsets</li>
+</ul>
+</li>
+<li><strong>Freeze the battery.</strong> Don&rsquo;t swap instruments partway through. If a better instrument appears, such as the SCS1-based CS1 assessment in development, run it alongside the original for at least one overlapping cohort.</li>
+<li><strong>Covariates at entry.</strong> Record these for every student:
+<ul>
+<li>prior programming experience and high school CS coursework</li>
+<li>math placement</li>
+<li>transfer status</li>
+<li>first-generation status and demographics (for disaggregation)</li>
+<li>Kansas K-12 outreach participation</li>
+<li>self-reported generative AI use</li>
+</ul>
+</li>
+</ul>
+<h2 id="administration-schedule">Administration schedule</h2>
+<p>Every cohort, legacy and new, takes the same instruments at the same four milestones. The SCS1 retest at the end of year 2 is the key addition, because it tests the spiral&rsquo;s retention claim.</p>
+<p>The <strong>affective panel</strong> is the Steinhorst self-efficacy scale, CAS, the computing identity items, and the belonging survey.</p>
+<p><strong>Core (all students)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Milestone</th>
+          <th>Instruments</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Entry (start of year 1)</td>
+          <td>Covariate survey; affective panel. No SCS1 pretest, because of its floor effect with novices.</td>
+      </tr>
+      <tr>
+          <td>End of year 1</td>
+          <td>SCS1, full 27 items; affective panel; CAOS or BLIS if statistics is taught in year 1</td>
+      </tr>
+      <tr>
+          <td><strong>End of year 2 (core exit)</strong></td>
+          <td><strong>SCS1 again, to measure retention</strong>; BDSI; CAOS or BLIS; DLCI if taught; local discrete math and OOP items; AILIT for all students; affective panel</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Tracks (years 3–4)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Track</th>
+          <th>Instruments</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Cybersecurity</td>
+          <td>CCI after the first security course; CCA at graduation</td>
+      </tr>
+      <tr>
+          <td>AI</td>
+          <td>AILIT retest. No validated technical ML concept inventory exists.</td>
+      </tr>
+      <tr>
+          <td>Data Science</td>
+          <td>BLIS or CAOS retest; DLSES. No validated technical data science concept inventory exists.</td>
+      </tr>
+      <tr>
+          <td>CS</td>
+          <td>DPCI (preliminary); local algorithm items</td>
+      </tr>
+      <tr>
+          <td>All tracks</td>
+          <td>Affective panel again at graduation</td>
+      </tr>
+  </tbody>
+</table>
+<p>Legacy students have no tracks. Give the track instruments to legacy students at the equivalent point, for example CCI after their first security course, and compare them with the matching new track.</p>
+<p><strong>Legacy baseline plan for 2026–27</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>When</th>
+          <th>Who</th>
+          <th>What</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Oct–Nov 2026</td>
+          <td>Program team</td>
+          <td>Request SCS1, BDSI, DLCI, CCI and CCA access. Submit the IRB protocol, with consent for publication. Draft the covariate survey.</td>
+      </tr>
+      <tr>
+          <td>Spring 2027</td>
+          <td>Current year 1 (legacy)</td>
+          <td>End-of-year-1 battery, plus the covariate survey. The fall 2026 entry window has passed, so collect covariates retrospectively.</td>
+      </tr>
+      <tr>
+          <td>Spring 2027</td>
+          <td>Current year 2 (legacy)</td>
+          <td>End-of-year-2 battery, including the SCS1 retest. Pilot the local discrete math and OOP items.</td>
+      </tr>
+      <tr>
+          <td>Spring 2027</td>
+          <td>Legacy students in security, stats and upper-level courses</td>
+          <td>CCI, CAOS or BLIS, and AILIT, at the milestones matching each new track.</td>
+      </tr>
+      <tr>
+          <td>Fall 2027 onward</td>
+          <td>Each entering cohort</td>
+          <td>Full schedule. Repeat each year until at least two new-curriculum cohorts have reached the end of year 2.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="instruments-by-topic">Instruments by topic</h2>
+<p>Each entry gives what the instrument measures, its validity evidence, how to get it, and how well it suits cohort comparison.</p>
+<h3 id="introductory-programming">Introductory programming</h3>
+<p><strong>SCS1 (Second CS1 Assessment).</strong> 27 multiple-choice items in pseudocode, 60 minutes, isomorphic to FCS1.</p>
+<ul>
+<li><strong>Evidence:</strong> correlated with FCS1 (n = 183), think-alouds, and an IRT reanalysis (Xie et al., SIGCSE 2019). It is hard: 22 of 27 items were classified hard, and four items are too difficult as a pre-test.</li>
+<li><strong>Citations:</strong> Parker, Guzdial &amp; Engleman, ICER 2016, <a href="https://doi.org/10.1145/2960310.2960316" rel="external" target="_blank">doi:10.1145/2960310.2960316</a>. Retrospective: Parker, Guzdial &amp; Tew, ICER 2021, <a href="https://doi.org/10.1145/3446871.3469744" rel="external" target="_blank">doi:10.1145/3446871.3469744</a>.</li>
+<li><strong>Access:</strong> free on request through the authors&rsquo; Google Group; no redistribution.</li>
+<li><strong>Fit:</strong> good at the group level. The difficulty compresses scores and lowers sensitivity to small cohort differences, so use the full instrument and IRT scoring. It is unsuitable as an entry pre-test.
+<strong>FCS1.</strong> The original, and deliberately restricted. Use SCS1 instead.</li>
+</ul>
+<p><strong>CS1 assessment in development.</strong> Parker et al., SIGCSE TS 2026, <a href="https://doi.org/10.1145/3770761.3777236" rel="external" target="_blank">doi:10.1145/3770761.3777236</a>. It is subscale-based and adaptable. If it is released mid-study, run it alongside SCS1 rather than replacing it.</p>
+<h3 id="data-structures">Data structures</h3>
+<p><strong>BDSI (Basic Data Structures Inventory).</strong> 13 pseudocode items covering lists, trees, stacks and sets, about one hour.</p>
+<ul>
+<li>
+<p><strong>Evidence:</strong> 99 interviews at up to five institutions and an open-ended pilot with 408 students. A single-factor CFA fit well, and Ferguson&rsquo;s delta was 0.96. Multi-institution norms are in TOCE 22(1), <a href="https://doi.org/10.1145/3470654" rel="external" target="_blank">doi:10.1145/3470654</a>.</p>
+</li>
+<li>
+<p><strong>Citation:</strong> Porter et al., ICER 2019, <a href="https://doi.org/10.1145/3291279.3339404" rel="external" target="_blank">doi:10.1145/3291279.3339404</a>.</p>
+</li>
+<li>
+<p><strong>Access:</strong> from the authors, or on LASSO.</p>
+</li>
+<li>
+<p><strong>Fit:</strong> good at the group level. The 13 items are fine for comparing means. It does not cover functional paradigms. LASSO data show transfer students score lower, so disaggregate by transfer status.
+<strong>Recursion and algorithms (partial validation).</strong></p>
+</li>
+<li>
+<p>Basic Recursion CI: Hamouda et al., 2017, <a href="https://doi.org/10.1080/08993408.2017.1414728" rel="external" target="_blank">doi:10.1080/08993408.2017.1414728</a>.</p>
+</li>
+<li>
+<p>Dynamic Programming CI: <a href="https://arxiv.org/abs/2411.14655" rel="external" target="_blank">arXiv 2411.14655</a>. Upper-division, n = 172.
+Use either only as a secondary outcome.</p>
+</li>
+</ul>
+<h3 id="digital-logic">Digital logic</h3>
+<p><strong>DLCI (Digital Logic Concept Inventory).</strong> Built with a Delphi process, misconception interviews, and multi-institution classical test theory. See Herman, Zilles &amp; Loui, <em>Computer Science Education</em>, 2014.</p>
+<p>The developers say it is valid only as a post-test. Give it after the systems or architecture course in both curricula, and use the full instrument, since short subsets have produced α ≈ .42.</p>
+<h3 id="cybersecurity">Cybersecurity</h3>
+<p><strong>CCI (Cybersecurity Concept Inventory).</strong> 25 items, about 45 minutes. Validated with 354 students from 29 institutions using CTT and IRT. Poulsen et al., TOCE 2022, <a href="https://doi.org/10.1145/3451346" rel="external" target="_blank">doi:10.1145/3451346</a>.</p>
+<p><strong>CCA (Cybersecurity Curriculum Assessment).</strong> 25 harder items, validated with 193 students at seven institutions. SIGCSE TS 2023, <a href="https://doi.org/10.1145/3545945.3569762" rel="external" target="_blank">doi:10.1145/3545945.3569762</a>.</p>
+<p>Both are restricted; request them from the authors. Use CCI after the first security course and CCA at graduation.</p>
+<h3 id="statistics">Statistics</h3>
+<p><strong>CAOS.</strong> 40 items, α = 0.82 with 1,470 students at 33 institutions. See delMas et al., <em>SERJ</em> 6(2), 2007. Available through ARTIST.</p>
+<p><strong>BLIS.</strong> 37 items, α = .83, N = 940, IRT scoring. See Ziegler &amp; Garfield, <em>SERJ</em> 17(2), 2018, <a href="https://doi.org/10.52041/serj.v17i2.164" rel="external" target="_blank">doi:10.52041/serj.v17i2.164</a>. Open access and closer to modern simulation-based courses.</p>
+<p>Pick one and hold it fixed. National pre/post gains on CAOS are small, about 9 points, so a curriculum effect will be modest.</p>
+<p><strong>Secondary options:</strong> GOALS-2 (simulation form), SCI, and LOCUS. SATS-36 measures attitudes toward statistics.</p>
+<h3 id="ai-and-data-literacy">AI and data literacy</h3>
+<p><strong>AILIT and AILIT-S.</strong> IRT-validated with 1,465 students in three countries. Hornberger et al., <a href="https://doi.org/10.1016/j.caeai.2023.100165" rel="external" target="_blank">doi:10.1016/j.caeai.2023.100165</a>. They measure literacy, not technical ML.</p>
+<p><strong>DLSES (data literacy self-efficacy).</strong> 29 items, n = 1,816. Kim et al., <em>PLOS ONE</em>, 2025, <a href="https://doi.org/10.1371/journal.pone.0322104" rel="external" target="_blank">doi:10.1371/journal.pone.0322104</a>.</p>
+<h3 id="self-efficacy-attitudes-identity-belonging">Self-efficacy, attitudes, identity, belonging</h3>
+<ul>
+<li><strong>Steinhorst programming self-efficacy (recommended).</strong> 20 language-agnostic items in four subscales. Steinhorst et al., ICER 2020, <a href="https://doi.org/10.1145/3372782.3406281" rel="external" target="_blank">doi:10.1145/3372782.3406281</a>. Independently revalidated in 2025 (α &gt; .90, <a href="https://doi.org/10.1145/3641554.3701813" rel="external" target="_blank">doi:10.1145/3641554.3701813</a>), with a generative AI extension at ICER 2026 (<a href="https://doi.org/10.1145/3765964.3811645" rel="external" target="_blank">doi:10.1145/3765964.3811645</a>).</li>
+<li><strong>Ramalingam &amp; Wiedenbeck CPSES.</strong> 32 items, C++-primed, dated. Use it only for comparison with older literature.</li>
+<li><strong>Computing Attitudes Survey (CAS).</strong> Five subscales, validated on a multi-institution sample. Dorn &amp; Tew, 2015, <a href="https://doi.org/10.1080/08993408.2015.1014142" rel="external" target="_blank">doi:10.1080/08993408.2015.1014142</a>.</li>
+<li><strong>Computing identity.</strong> Interest, competence/performance, and recognition items. CFA with more than 1,700 students at 22 institutions. Mahadeo, Hazari &amp; Potvin, TOCE 2020, <a href="https://doi.org/10.1145/3365571" rel="external" target="_blank">doi:10.1145/3365571</a>.</li>
+<li><strong>Sense of belonging.</strong> A 12-item survey in four components, SIGCSE TS 2026, <a href="https://doi.org/10.1145/3770762.3772521" rel="external" target="_blank">doi:10.1145/3770762.3772521</a>. It was built for first- and second-year courses but is not yet replicated. The Moudgalya et al. (SIGCSE 2021) 26-item scale is an alternative.</li>
+</ul>
+<h2 id="summary-comparison">Summary comparison</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Instrument</th>
+          <th>Construct</th>
+          <th>Items</th>
+          <th>Evidence</th>
+          <th>Access</th>
+          <th>Milestone</th>
+          <th>Fit for cohort comparison</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>SCS1</td>
+          <td>CS1 programming</td>
+          <td>27 MC</td>
+          <td>Rigorous; IRT reanalysis</td>
+          <td>On request</td>
+          <td>End Y1, end Y2</td>
+          <td>Good; hard, so use IRT scoring</td>
+      </tr>
+      <tr>
+          <td>BDSI</td>
+          <td>Data structures</td>
+          <td>13 MC</td>
+          <td>Rigorous; multi-institution CFA</td>
+          <td>On request / LASSO</td>
+          <td>End Y2</td>
+          <td>Good</td>
+      </tr>
+      <tr>
+          <td>DLCI</td>
+          <td>Digital logic</td>
+          <td>MC</td>
+          <td>Rigorous; post-test only</td>
+          <td>Authors</td>
+          <td>After systems course</td>
+          <td>Good if taught in both curricula</td>
+      </tr>
+      <tr>
+          <td>CCI</td>
+          <td>Cybersecurity, intro</td>
+          <td>25 MC</td>
+          <td>Rigorous; n = 354, 29 institutions</td>
+          <td>Restricted</td>
+          <td>After 1st security course</td>
+          <td>Good</td>
+      </tr>
+      <tr>
+          <td>CCA</td>
+          <td>Cybersecurity, advanced</td>
+          <td>25 MC</td>
+          <td>Rigorous; n = 193</td>
+          <td>Restricted</td>
+          <td>Graduation</td>
+          <td>Good; small legacy samples</td>
+      </tr>
+      <tr>
+          <td>CAOS or BLIS</td>
+          <td>Intro statistics</td>
+          <td>40 / 37</td>
+          <td>Rigorous</td>
+          <td>ARTIST / open</td>
+          <td>End Y1 or Y2; DS retest</td>
+          <td>Good; expect small effects</td>
+      </tr>
+      <tr>
+          <td>AILIT</td>
+          <td>AI literacy</td>
+          <td>28</td>
+          <td>IRT, 3 countries</td>
+          <td>Published</td>
+          <td>End Y2; AI retest</td>
+          <td>Literacy only</td>
+      </tr>
+      <tr>
+          <td>Recursion CI, DPCI</td>
+          <td>Recursion, dynamic programming</td>
+          <td>Varies</td>
+          <td>Partial</td>
+          <td>In papers</td>
+          <td>Upper-level</td>
+          <td>Secondary outcome</td>
+      </tr>
+      <tr>
+          <td>Steinhorst</td>
+          <td>Programming self-efficacy</td>
+          <td>20 Likert</td>
+          <td>Rigorous; revalidated 2025</td>
+          <td>Published</td>
+          <td>Every milestone</td>
+          <td>Good; check invariance</td>
+      </tr>
+      <tr>
+          <td>CAS</td>
+          <td>Computing attitudes</td>
+          <td>Likert</td>
+          <td>Rigorous</td>
+          <td>Published</td>
+          <td>Every milestone</td>
+          <td>Good; check invariance</td>
+      </tr>
+      <tr>
+          <td>Mahadeo et al.</td>
+          <td>Computing identity</td>
+          <td>Short Likert</td>
+          <td>CFA, n &gt; 1,700</td>
+          <td>Published</td>
+          <td>Every milestone</td>
+          <td>Good</td>
+      </tr>
+      <tr>
+          <td>Belonging (2026)</td>
+          <td>Sense of belonging</td>
+          <td>12 Likert</td>
+          <td>Preliminary</td>
+          <td>Published</td>
+          <td>Every milestone</td>
+          <td>Promising; not replicated</td>
+      </tr>
+      <tr>
+          <td>DLSES</td>
+          <td>Data literacy self-efficacy</td>
+          <td>29 Likert</td>
+          <td>CFA, n = 1,816</td>
+          <td>Open</td>
+          <td>DS track</td>
+          <td>Good</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="gaps-to-fill-before-the-legacy-window-closes">Gaps to fill before the legacy window closes</h2>
+<p>Five foundational areas have no validated instrument. For a before/after comparison, any local instrument has to exist and be piloted on legacy students before the last legacy cohort passes the matching milestone. Otherwise there is nothing to compare against.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Area</th>
+          <th>What exists</th>
+          <th>Recommended local build</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Discrete math, logic, proof</td>
+          <td>Proof comprehension tests validated for 3 specific proofs (Mejía-Ramos et al., 2017, <a href="https://doi.org/10.1080/14794802.2017.1325776" rel="external" target="_blank">doi:10.1080/14794802.2017.1325776</a>). An ITiCSE working group plan only.</td>
+          <td>20–25 items covering propositional logic, sets and functions, induction, and proof reading. Build them with the Mejía-Ramos protocol. Reuse DLCI&rsquo;s Boolean items.</td>
+      </tr>
+      <tr>
+          <td>OOP and functional paradigms</td>
+          <td>An OOP self-efficacy scale (ICER 2025, <a href="https://doi.org/10.1145/3702652.3744212" rel="external" target="_blank">doi:10.1145/3702652.3744212</a>), preliminary. No knowledge instrument.</td>
+          <td>Misconception-based items on objects, references, inheritance, and higher-order functions. Add the OOP self-efficacy scale to the affective panel.</td>
+      </tr>
+      <tr>
+          <td>Memory, pointers, references</td>
+          <td>Covered only indirectly through BDSI&rsquo;s linked-list items.</td>
+          <td>Tracing items, which can share a pilot with the OOP items.</td>
+      </tr>
+      <tr>
+          <td>Technical data science</td>
+          <td>Nothing validated.</td>
+          <td>Items on data wrangling, visualization reading, and resampling. The GOALS-2 simulation form is a partial stand-in.</td>
+      </tr>
+      <tr>
+          <td>Technical ML for the AI track</td>
+          <td>Only literacy measures (AILIT) and the single-country CTAT (2026).</td>
+          <td>Local items tied to track competencies, piloted on legacy students taking the existing ML electives.</td>
+      </tr>
+  </tbody>
+</table>
+<p>For each local instrument, pilot it on 150 or more legacy students, run IRT or CFA, then freeze it. Publishing these instruments would itself be a contribution, since the gaps are field-wide.</p>
+<h2 id="threats-to-validity-and-analysis-plan">Threats to validity and analysis plan</h2>
+<p>The main threat is that new-curriculum cohorts differ from legacy cohorts for reasons unrelated to the curriculum. The design and analysis should rule these out explicitly.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Threat</th>
+          <th>Mitigation</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Changes in incoming students (admissions, K-12 outreach reaching rural Kansas students, pandemic-era preparation)</td>
+          <td>Adjust for entry covariates. Report the outreach participants as a subgroup.</td>
+      </tr>
+      <tr>
+          <td>Generative AI shifting what students learn and how they perform, independent of curriculum</td>
+          <td>Record self-reported AI use at every milestone. Where both scales exist, add the GenAI extension of the Steinhorst scale. Interpret 2025–2028 trends cautiously.</td>
+      </tr>
+      <tr>
+          <td>Differences in low-stakes test effort</td>
+          <td>Identical incentive and conditions for every cohort. Flag rapid guessing (response time) and too-fast completion.</td>
+      </tr>
+      <tr>
+          <td>Selective attrition, since the spiral may change who persists to year 2</td>
+          <td>Report milestone participation and retention by cohort. Compare the entry covariates of students who persist with those who leave.</td>
+      </tr>
+      <tr>
+          <td>Instructor or course-offering changes during the rollout</td>
+          <td>Record who taught each core course per term, and include it in the models.</td>
+      </tr>
+      <tr>
+          <td>Attitude scales functioning differently across cohorts</td>
+          <td>Test measurement invariance (configural, metric, scalar) before comparing means.</td>
+      </tr>
+      <tr>
+          <td>Test items leaking into coursework</td>
+          <td>Keep secure items out of graded work. Don&rsquo;t use instructors&rsquo; course materials as inventory items.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Analysis.</strong></p>
+<ul>
+<li><strong>Primary:</strong> mixed-effects models of IRT-scaled scores. Curriculum (legacy vs new) and cohort are fixed effects, with entry covariates. Section or instructor is a random effect.</li>
+<li><strong>Time series:</strong> a cohort-level interrupted time series that estimates the level change at the transition against the legacy trend.</li>
+<li><strong>Retention:</strong> a curriculum × milestone interaction on SCS1 from the end of year 1 to the end of year 2.</li>
+<li><strong>Equity:</strong> disaggregate by transfer status, first-generation status, gender, and outreach participation.
+<strong>Power.</strong> A two-group comparison needs about 175 students per group to detect d = 0.3 with 80% power (two-sided α = .05). Individual cohorts may fall short for some measures, so pool legacy cohorts, and treat track-level comparisons as descriptive unless samples allow.</li>
+</ul>
+<p><strong>IRB.</strong> Program evaluation is often exempt. Because you intend to publish, get consent for research use from the first legacy cohort, so baseline data doesn&rsquo;t have to be discarded later.</p>
+<h2 id="repositories-reviews-and-caveats">Repositories, reviews and caveats</h2>
+<p><strong>Repositories</strong></p>
+<ul>
+<li>
+<p><a href="https://csedresearch.org/resources/our-resources/overview/" rel="external" target="_blank">CSEdResearch.org evaluation instruments</a>: a filterable database of cognitive and noncognitive instruments.</p>
+</li>
+<li>
+<p><a href="https://dbserc.secure.pitt.edu/Assessment/Assessments-Computer-Science" rel="external" target="_blank">dB-SERC computer science assessments</a>: flags which instruments lack validity testing.</p>
+</li>
+<li>
+<p><a href="https://lassoeducation.org/basic-data-structures-inventory/" rel="external" target="_blank">LASSO</a>: online pre/post administration, including BDSI.</p>
+</li>
+<li>
+<p><a href="https://www.causeweb.org/cause/research/topics/assessment" rel="external" target="_blank">CAUSEweb assessment resources</a>: statistics instruments.
+<strong>Reviews</strong></p>
+</li>
+<li>
+<p>Ali et al., &ldquo;Taking Stock of Concept Inventories in Computing Education,&rdquo; ICER 2023, <a href="https://doi.org/10.1145/3568813.3600120" rel="external" target="_blank">doi:10.1145/3568813.3600120</a>.</p>
+</li>
+<li>
+<p>Taylor et al., &ldquo;Computer Science Concept Inventories: Past and Future,&rdquo; <em>Computer Science Education</em> 24(4), 2014.</p>
+</li>
+<li>
+<p>The data structures and algorithms misconceptions SLR, <em>Computer Science Education</em>, 2026, <a href="https://doi.org/10.1080/08993408.2026.2633989" rel="external" target="_blank">doi:10.1080/08993408.2026.2633989</a>.</p>
+</li>
+<li>
+<p>Große-Bölting et al. on identity in higher computing education, TOCE 2023, <a href="https://doi.org/10.1145/3606707" rel="external" target="_blank">doi:10.1145/3606707</a>.</p>
+</li>
+<li>
+<p>Runa et al. on belonging, <em>Educational Research Review</em>, 2025, <a href="https://doi.org/10.1016/j.edurev.2025.100683" rel="external" target="_blank">doi:10.1016/j.edurev.2025.100683</a>.
+<strong>Caveats</strong></p>
+</li>
+<li>
+<p>Some figures came from secondary sources rather than the instruments&rsquo; own reports: SATS-36 reliabilities, LOCUS reliability, and the CCI item count. Check them against the primary papers before reporting.</p>
+</li>
+<li>
+<p>Access terms change. Confirm current distribution with each author team.</p>
+</li>
+<li>
+<p>The 2025–26 instruments (belonging survey, OOP self-efficacy, the SCS1 successor, CTAT, DPCI) have only developer-run, single-context validation.</p>
+</li>
+<li>
+<p>Much of the validity evidence predates widespread generative AI use in courses.</p>
+</li>
+</ul>
+
+  <footer class="footline">
+  </footer>
+</article>
+          </section>
+        </div>
+      </main>
+      
+      
+      
+    </div>
+    <script src="/two-year-refactor/js/js-yaml/js-yaml.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/d3/d3-color.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/d3/d3-dispatch.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/d3/d3-drag.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/d3/d3-ease.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/d3/d3-interpolate.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/d3/d3-selection.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/d3/d3-timer.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/d3/d3-transition.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/d3/d3-zoom.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/mermaid/mermaid.min.js?1790565267" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{ \"securityLevel\": \"loose\" }");
+    </script>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1790565267" defer></script>
+  <script src="/two-year-refactor/js/embed-iframe.min.js?1790565267" defer></script>
+  </body>
+</html>

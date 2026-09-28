@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Universal Design for Learning :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/universal-design-for-learning/index.html</link>
+    <description>Working draft for faculty review. This page describes the general research basis for designing course materials with built-in flexibility rather than retrofitted accommodations.&#xA;What Universal Design for Learning is Universal Design for Learning (UDL) applies an idea from architecture — design a building’s entrances and spaces to work for the widest range of bodies from the start, rather than building for one “standard” body and bolting on a wheelchair ramp later — to instructional design. CAST’s foundational articulation frames the target of instruction as the “expert learner,” and its central premise is that learner variability is the norm, not the exception: a course designed for one imagined average student will systematically underserve everyone who doesn’t match that profile, whereas a course built with multiple ways in from the outset serves a much wider range of learners without requiring an individual accommodation request for each one (Rose &amp; Meyer, 2002). The current operational version of the framework is maintained and periodically revised by CAST (CAST, 2024).</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/universal-design-for-learning/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

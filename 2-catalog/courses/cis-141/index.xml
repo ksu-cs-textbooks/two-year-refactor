@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 141 – Privacy and Artificial  Intelligence :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-141/index.html</link>
+    <description>Course Description Philosophical definitions of privacy, metrics (differential privacy, information leakage) and modern privacy tools as they apply, or apply to, AI. Hands-on applications to structured (tabular) and unstructured (images, videos) data. Timely real-world privacy problems faced by, and caused by, AI.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-141/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

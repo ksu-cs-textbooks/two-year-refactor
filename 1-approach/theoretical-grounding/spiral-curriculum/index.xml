@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spiral Curriculum :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html</link>
+    <description>Working draft for faculty review. This page describes the general research basis for spiral curriculum design. For how this specific two-year core applies it — the twelve named threads and their course-by-course escalation — see the Curriculum Design chapter and content/pedagogy/spiral-method.md.&#xA;What a spiral curriculum is A spiral curriculum revisits the same core ideas repeatedly across a program, with each pass going deeper than the last, rather than teaching a topic once and moving on. The model originates with Bruner (Bruner, 1960), whose central claim is that “any subject can be taught effectively in some intellectually honest form to any child at any stage of development” — achieved not by simplifying the subject, but by presenting it at a level of formality appropriate to the learner’s current stage, then returning to it later at a higher level of rigor.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

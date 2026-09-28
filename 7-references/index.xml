@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>References :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/7-references/index.html</link>
+    <description>Full citations for sources referenced throughout this site, in IEEE style, alphabetical by first author. Each entry has a stable anchor; in-text citations elsewhere on the site link here by name (e.g. #bruner-1960), not by number, so the list can grow without breaking existing links.&#xA;Akkerman &amp; Bakker, 2011 S. F. Akkerman and A. Bakker, “Boundary crossing and boundary objects,” Review of Educational Research, vol. 81, no. 2, pp. 132–169, 2011.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/7-references/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

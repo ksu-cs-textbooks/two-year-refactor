@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems and Infrastructure :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/5-assessment/competencies/systems-and-infrastructure/index.html</link>
+    <description>Re-checked against real course-design pages, 2026-08-04 — see resources/design-log.md. One structural flag applies throughout, already on record in resources/reference/spiral-threads.md since 2026-07-15: deep OS/concurrency formalization (processes vs. threads, scheduling, kernel/user space, the actor model, comparative fault-tolerance patterns) has no confirmed new-course home. CIS 220 carries the required ABET OS-exposure anchor at a lighter level; whether the deeper theoretical material survives in the core or only at the Systems Elective (CIS 520/525/625) was never decided. Rows depending on it are marked accordingly.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/5-assessment/competencies/systems-and-infrastructure/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

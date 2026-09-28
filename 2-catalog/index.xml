@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Catalog :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/index.html</link>
+    <description>This chapter is the department’s course catalog: the shared foundation every degree builds on, the degrees themselves, the individual courses, and the elective lists that give students room to specialize.&#xA;Computing Foundations describes the two-year core shared identically across every degree, before specialization begins in the upper division. Degree Programs covers the three degrees built on that core — Computer Science, Cybersecurity, and Artificial Intelligence — including how the two specializations relate to the flagship CS degree. Courses lists every individual course offered by the department, plus service courses from other departments, ordered by course number. Elective Lists gives the curated lists electives are drawn from.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computing Foundations</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/computing-foundations/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/computing-foundations/index.html</guid>
+      <description>All degrees offered by the Department of Computer Science (the Bachelor of Computer Science, the Bachelor of Cybersecurity, and the Bachelor of Artificial Intelligence) share a rigorous 2-year (4-semester) experience grounding students in the foundations of computer science. This sequence of courses draws upon research-backed practices in its design (see chapter 1), where students explore and extend real-world, complex production software systems (see chapter 3) leading to a capstone software development experience at the end of the second year.</description>
+    </item>
+    <item>
+      <title>Degree Programs</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/index.html</guid>
+      <description>Three degree programs — Computer Science, Cybersecurity, and Artificial Intelligence — share the same two-year computational foundation before specializing entirely in the upper division. See Computing Foundations for that shared core, its design rationale, and the full course-by-course breakdown.&#xA;Cybersecurity and Artificial Intelligence are not separate degrees built from scratch — each is the Computer Science degree with a curated choice of upper-division electives. A student completing either specialization earns both that specialization’s degree and a Bachelor of Computer Science, with no additional coursework or cost beyond what the Computer Science degree already requires. A student can instead forgo a named specialization and use that same elective flexibility to chart their own path toward the career they envision.</description>
+    </item>
+    <item>
+      <title>Courses</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/index.html</guid>
+      <description>The individual courses offered by the Department of Computer Science, and service courses offered by other departments.</description>
+    </item>
+    <item>
+      <title>Elective Lists</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/elective-lists/index.html</guid>
+      <description>The curated lists from which electives courses can be drawn.</description>
+    </item>
+  </channel>
+</rss>

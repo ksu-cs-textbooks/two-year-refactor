@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theoretical Grounding :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/index.html</link>
+    <description>The research literature underlying this curriculum’s key design decisions — spiral curriculum, communities of practice, evidence-centered assessment design, boundary crossing, and universal design for learning — each presented on its own page, closing with an honest assessment of what the evidence actually supports.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spiral Curriculum</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html</guid>
+      <description>Working draft for faculty review. This page describes the general research basis for spiral curriculum design. For how this specific two-year core applies it — the twelve named threads and their course-by-course escalation — see the Curriculum Design chapter and content/pedagogy/spiral-method.md.&#xA;What a spiral curriculum is A spiral curriculum revisits the same core ideas repeatedly across a program, with each pass going deeper than the last, rather than teaching a topic once and moving on. The model originates with Bruner (Bruner, 1960), whose central claim is that “any subject can be taught effectively in some intellectually honest form to any child at any stage of development” — achieved not by simplifying the subject, but by presenting it at a level of formality appropriate to the learner’s current stage, then returning to it later at a higher level of rigor.</description>
+    </item>
+    <item>
+      <title>Legitimate Peripheral Participation &amp; Communities of Practice</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html</guid>
+      <description>Working draft for faculty review. This page describes the general research basis for treating learning as participation in a practice, not just acquisition of content. For where this shows up concretely in the curriculum, see Chapter 3’s cornerstone projects — real, ongoing software systems students join and take on progressively larger roles in over the two-year core.&#xA;What legitimate peripheral participation is Lave and Wenger’s central claim, developed from ethnographic studies of apprenticeship — Yucatec Mayan midwives, tailors in Vai and Gola communities, U.S. Navy quartermasters, meat cutters, and members of Alcoholics Anonymous — is that learning is not primarily an individual, cognitive process of absorbing decontextualized knowledge (Lave &amp; Wenger, 1991). It is a process of increasing participation in a community of practice: a group of people bound together by a shared activity they are actually doing.</description>
+    </item>
+    <item>
+      <title>Evidence-Centered Design</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/evidence-centered-design/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/evidence-centered-design/index.html</guid>
+      <description>Working draft for faculty review. This page describes the general research basis for designing assessment around explicit evidentiary reasoning. For where this is operationalized in the program, see Chapter 5 — particularly The Competency Model, which already states the core ECD commitment: competencies belong to the program, and courses are evidence-generating contexts.&#xA;What evidence-centered design is Evidence-centered design (ECD) reframes assessment design as building an explicit evidentiary argument, not writing a set of test items (Mislevy et al., 2003). The claim you want to make about a student — “this student can reason about concurrency,” “this student can design a normalized schema” — is not directly observable. An assessment is only useful to the extent that a specific, designed-in-advance chain of reasoning connects something you can observe (a work product, a performance, an answer) back to that unobservable claim. ECD’s core discipline is to design that chain deliberately, before writing a single task, rather than writing tasks first and hoping they happen to support the claims you later want to make.</description>
+    </item>
+    <item>
+      <title>Boundary Crossing</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.html</guid>
+      <description>Working draft for faculty review. This page describes the general research basis for learning that happens when a student moves between different practices, not just deeper within one. See Legitimate Peripheral Participation &amp; Communities of Practice for the companion theory about deepening within a single community.&#xA;What boundary crossing is Legitimate peripheral participation describes how a newcomer moves toward the center of a single community of practice. Boundary crossing addresses the different, harder problem of what happens when a person has to move between practices that don’t share the same norms, tools, vocabulary, or notion of what counts as good work — a student moving from a CS classroom into a domain-expert’s lab, or from the shared two-year core into a specialization with its own conventions (Akkerman &amp; Bakker, 2011). Akkerman and Bakker’s synthesis treats this as a real cognitive and social achievement, not friction to be minimized: something is actually learned in the act of crossing, precisely because the two sides don’t automatically understand each other.</description>
+    </item>
+    <item>
+      <title>Universal Design for Learning</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/universal-design-for-learning/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/1-approach/theoretical-grounding/universal-design-for-learning/index.html</guid>
+      <description>Working draft for faculty review. This page describes the general research basis for designing course materials with built-in flexibility rather than retrofitted accommodations.&#xA;What Universal Design for Learning is Universal Design for Learning (UDL) applies an idea from architecture — design a building’s entrances and spaces to work for the widest range of bodies from the start, rather than building for one “standard” body and bolting on a wheelchair ramp later — to instructional design. CAST’s foundational articulation frames the target of instruction as the “expert learner,” and its central premise is that learner variability is the norm, not the exception: a course designed for one imagined average student will systematically underserve everyone who doesn’t match that profile, whereas a course built with multiple ways in from the outset serves a much wider range of learners without requiring an individual accommodation request for each one (Rose &amp; Meyer, 2002). The current operational version of the framework is maintained and periodically revised by CAST (CAST, 2024).</description>
+    </item>
+  </channel>
+</rss>

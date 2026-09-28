@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kansas Mesonet :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/kansas-mesonet/index.html</link>
+    <description>Living document. This page will change as development continues. Last updated: September 28, 2026.&#xA;What it is The Kansas Mesonet is a statewide network of automated weather and soil-monitoring stations, operated by K-State’s Weather Data Library, reporting precipitation, air and soil temperature, humidity, wind, solar radiation, and soil moisture in near-real time.&#xA;Why we’re using it Unlike Konza Code, the Kansas Historical Data project, and the classroom plant-sensor network, this isn’t something the department is building — it’s established, live, external infrastructure with its own operational priorities, independent of this program’s schedule. K-State is pursuing a collaboration with the Mesonet team to expand its API for classroom use, rather than building a new system from scratch.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/3-cornerstone-projects/kansas-mesonet/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

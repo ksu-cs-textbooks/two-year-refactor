@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="description" content="Re-checked against real course-design pages, 2026-08-04 — see resources/design-log.md. This resolves two rows Round 1 flagged (Requirements Analysis Task, Usability Evaluation): their previously-assumed endpoint didn’t map cleanly onto a real course, and cs.md’s own CIS 320 entry is explicit that CIS 320 carries only a bounded, every-student-gets-this-once exposure to acceptance-criteria/requirements work — “not a full requirements-gathering methodology” — with full depth deliberately deferred to a Software Architecture specialization elective, not the Year 3–4 general capstone this pass had guessed in Round 1.">
+    <meta name="author" content="Department of Computer Science">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta name="twitter:title" content="Human-Centered Practice :: CS Two Year Refactor">
+    <meta name="twitter:description" content="Re-checked against real course-design pages, 2026-08-04 — see resources/design-log.md. This resolves two rows Round 1 flagged (Requirements Analysis Task, Usability Evaluation): their previously-assumed endpoint didn’t map cleanly onto a real course, and cs.md’s own CIS 320 entry is explicit that CIS 320 carries only a bounded, every-student-gets-this-once exposure to acceptance-criteria/requirements work — “not a full requirements-gathering methodology” — with full depth deliberately deferred to a Software Architecture specialization elective, not the Year 3–4 general capstone this pass had guessed in Round 1.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/5-assessment/competencies/human-centered-practice/index.html">
+    <meta property="og:site_name" content="CS Two Year Refactor">
+    <meta property="og:title" content="Human-Centered Practice :: CS Two Year Refactor">
+    <meta property="og:description" content="Re-checked against real course-design pages, 2026-08-04 — see resources/design-log.md. This resolves two rows Round 1 flagged (Requirements Analysis Task, Usability Evaluation): their previously-assumed endpoint didn’t map cleanly onto a real course, and cs.md’s own CIS 320 entry is explicit that CIS 320 carries only a bounded, every-student-gets-this-once exposure to acceptance-criteria/requirements work — “not a full requirements-gathering methodology” — with full depth deliberately deferred to a Software Architecture specialization elective, not the Year 3–4 general capstone this pass had guessed in Round 1.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Competency-Based Assessment">
+    <meta property="article:modified_time" content="2026-09-28T03:08:36+00:00">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta itemprop="name" content="Human-Centered Practice :: CS Two Year Refactor">
+    <meta itemprop="description" content="Re-checked against real course-design pages, 2026-08-04 — see resources/design-log.md. This resolves two rows Round 1 flagged (Requirements Analysis Task, Usability Evaluation): their previously-assumed endpoint didn’t map cleanly onto a real course, and cs.md’s own CIS 320 entry is explicit that CIS 320 carries only a bounded, every-student-gets-this-once exposure to acceptance-criteria/requirements work — “not a full requirements-gathering methodology” — with full depth deliberately deferred to a Software Architecture specialization elective, not the Year 3–4 general capstone this pass had guessed in Round 1.">
+    <meta itemprop="dateModified" content="2026-09-28T03:08:36+00:00">
+    <meta itemprop="wordCount" content="1710">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <title>Human-Centered Practice :: CS Two Year Refactor</title>
+    <link href="/two-year-refactor/5-assessment/competencies/human-centered-practice/index.xml" rel="alternate" type="application/rss+xml" title="Human-Centered Practice :: CS Two Year Refactor">
+    <link href="/two-year-refactor/5-assessment/competencies/human-centered-practice/index.print.html" rel="alternate" type="text/html" title="Human-Centered Practice :: CS Two Year Refactor">
+    <link href="/two-year-refactor/5-assessment/competencies/human-centered-practice/tele.html" rel="alternate" type="text/html" title="Human-Centered Practice :: CS Two Year Refactor">
+    <link href="/two-year-refactor/5-assessment/competencies/human-centered-practice/embed.html" rel="alternate" type="text/html" title="Human-Centered Practice :: CS Two Year Refactor">
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1790565267" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1790565267";
+    </script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-html.min.css?1790565267" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/5-assessment\/competencies\/human-centered-practice\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/two-year-refactor';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'light-theme', 'dark-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=true;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/two-year-refactor/css/custom.css?1790565267" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-url="/two-year-refactor/5-assessment/competencies/human-centered-practice/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#gather-and-analyze-requirements">Gather and Analyze Requirements</a></li>
+        <li><a href="#design-human-centered-solutions">Design Human-Centered Solutions</a></li>
+        <li><a href="#evaluate-ethical-implications">Evaluate Ethical Implications</a></li>
+        <li><a href="#communicate-technical-information">Communicate Technical Information</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/two-year-refactor/index.html"><span itemprop="name">Two-Year CS Redesign</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/two-year-refactor/5-assessment/index.html"><span itemprop="name">Competency-Based Assessment</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/two-year-refactor/5-assessment/competencies/index.html"><span itemprop="name">Competencies</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Human-Centered Practice</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/two-year-refactor/edit/main/content/5-assessment/competencies/human-centered-practice.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/5-assessment/competencies/human-centered-practice/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/5-assessment/competencies/systems-and-infrastructure/index.html" title="Systems and Infrastructure (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/5-assessment/competencies/professional-practice/index.html" title="Professional Practice (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/5-assessment/competencies/human-centered-practice/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/two-year-refactor/5-assessment/competencies/human-centered-practice/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 5-assessment" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="human-centered-practice">Human-Centered Practice</h1>
+
+<p><em>Re-checked against real course-design pages, 2026-08-04 — see <code>resources/design-log.md</code>. This resolves two rows Round 1 flagged (Requirements Analysis Task, Usability Evaluation): their previously-assumed endpoint didn&rsquo;t map cleanly onto a real course, and <code>cs.md</code>&rsquo;s own CIS 320 entry is explicit that CIS 320 carries only a bounded, every-student-gets-this-once exposure to acceptance-criteria/requirements work — &ldquo;not a full requirements-gathering methodology&rdquo; — with full depth deliberately deferred to a <strong>Software Architecture specialization elective</strong>, not the Year 3–4 general capstone this pass had guessed in Round 1.</em></p>
+<h3 id="gather-and-analyze-requirements">Gather and Analyze Requirements</h3>
+<p><strong>I can identify stakeholder needs and translate them into actionable system requirements.</strong></p>
+<p>I use appropriate methods to understand problems, clarify expectations, and define criteria for successful solutions.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>Accessibility and data-minimization as non-functional requirements — first encounter with requirements imposed by human needs rather than technical constraints. Confirmed (per the lens pass&rsquo;s narrowed CIS 120 row).</td>
+      </tr>
+      <tr>
+          <td>STAT 410 (Y2 Spring)</td>
+          <td>Survey design as a data collection methodology — constructing valid survey instruments, question bias, Likert scales, sampling considerations. STAT 410 has no drafted content yet.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Team project scoping — assessed requirements artifact: conduct a stakeholder interview and produce a functional/non-functional requirements brief before implementation begins. Plausible fit with CIS 400&rsquo;s confirmed estimation/scoping content, not drafted at this specific granularity.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — defending choices against stated requirements; requirements surface through critique. Re-homed to CIS 400 per <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Bounded exposure — every student translates ambiguous needs into acceptance criteria once. <strong>Formal requirements-gathering methods, stakeholder interviews, and qualitative/quantitative investigation at full depth are not core content</strong> — confirmed deferred to a Software Architecture specialization elective.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: the STAT 410 survey-design content requires coordination with the statistics department — survey design is within scope for a statistics course (sampling, instrument validity, response bias) but the extension needs their buy-in. Unrelated to this pass&rsquo;s STAT 410 drafting caveat, but still open.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured requirements analysis — given a stakeholder description, identify and categorize functional and non-functional requirements</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Requirements brief — conduct a requirements analysis for a specified system; define acceptance criteria without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 320&rsquo;s bounded acceptance-criteria work, within the core&rsquo;s own scope. (The old &ldquo;System Integration Project&rdquo; ceiling — gathering requirements from real stakeholders with ambiguous or conflicting needs — is not a core event; it&rsquo;s Software Architecture specialization-elective depth.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA facilitating requirements workshops; leading stakeholder interviews for a team project</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Requirements Analysis Task — deepens from informal user-needs identification (CIS 120) through CIS 320&rsquo;s bounded acceptance-criteria exposure; full multi-method investigation with real stakeholders is specialization-elective depth, not a core ceiling.</p>
+<hr>
+<h3 id="design-human-centered-solutions">Design Human-Centered Solutions</h3>
+<p><strong>I can design computational solutions that account for human needs, accessibility, usability, and context.</strong></p>
+<p>I evaluate design decisions based on their impact on the people and communities who interact with the system.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>First pass — semantic HTML, accessibility substrate, data-minimization in forms; designing for all users as a baseline constraint.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Interactive/data-driven visualization and web component architecture — designing data-driven and component-based interfaces. Unconfirmed — proposed, not yet drafted.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — defending human-centered design choices under peer scrutiny; usability as a named dimension of the critique. Re-homed to CIS 400 per <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Bounded exposure — requirements-driven design and UX validation at CIS 320&rsquo;s every-student-gets-this-once scope. <strong>UX research methods and real-user validation at full depth are Software Architecture specialization-elective content</strong>, not core.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Design Brief (human-centered lens) — design an accessible interface or experience for a specified user and scenario</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended Design Brief — given a problem and a user population, design a human-centered solution without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>CIS 320&rsquo;s bounded design-for-real-users work, within the core&rsquo;s own scope. (The old &ldquo;System Integration Project&rdquo; ceiling — designing for real users with ambiguous needs and iterating on validation results — is specialization-elective depth, not a core event.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>Design Review critique (TA/LA role) — evaluating whether a peer&rsquo;s design genuinely serves human needs; leading UX evaluation sessions</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring types:</strong> Design Brief (creating a human-centered solution) and Usability Evaluation (assessing an existing design against human-centered criteria) — see below.</p>
+<p><strong>Second recurring type — Usability Evaluation:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Pass</th>
+          <th>Scale &amp; Challenge</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>Accessibility audit — evaluate an existing page against accessibility criteria (contrast, keyboard navigation, screen reader). Confirmed.</td>
+          <td>Checklist-guided, single page</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Component usability evaluation — does this component&rsquo;s interface make sense from the user&rsquo;s perspective? Unconfirmed, proposed.</td>
+          <td>Interface design, less scaffolding</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — peers evaluate each other&rsquo;s system designs for human-centeredness and usability fit.</td>
+          <td>Peer-facing, multi-dimension</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Heuristic evaluation, A/B analysis against acceptance criteria. Confirmed — CIS 320&rsquo;s real, bounded FITNESS content. <strong>Full user-testing-sessions-with-real-users depth is Software Architecture specialization-elective content</strong>, not core.</td>
+          <td>Real users, novel system <em>(elective, not core)</em></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="evaluate-ethical-implications">Evaluate Ethical Implications</h3>
+<p><strong>I can evaluate the ethical, social, and professional implications of computational decisions and actions.</strong></p>
+<p>I apply ethical reasoning to identify risks, responsibilities, and consequences when designing and using computational systems.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 120 (Y1 Fall)</td>
+          <td>First pass — data minimization as an embedded constraint: what data should this pipeline collect, and why? Accessibility as ethical obligation. The CIS 200 half of this old claim is thin — the confirmed carrier is CIS 120.</td>
+      </tr>
+      <tr>
+          <td>CIS 300 / CIS 320 (Y2 Fall)</td>
+          <td>Conway&rsquo;s Law seed — organizational structure shapes what gets built and who it serves. <strong>Unconfirmed</strong> — same client/server-vehicle documentation gap already logged in <code>thread-sociotechnical.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema ethics — access control and data minimization decisions documented and justified; least-privilege at the data layer. Confirmed design intent, undrafted — see <code>cis-260.md</code>&rsquo;s &ldquo;Proposed Changes.&rdquo;</td>
+      </tr>
+      <tr>
+          <td>CIS 251 (Y2 Fall)</td>
+          <td>Threat identification, authentication, authorization; least data collection as a security and ethical principle. Confirmed against CIS 251&rsquo;s real SLOs.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Responsibility retrospective — the team project includes an assessed, individually-written ethical accountability reflection. Confirmed.</td>
+      </tr>
+      <tr>
+          <td><em>unplaced</em></td>
+          <td>Re-identification risk — combining individually innocuous datasets creates privacy harms neither dataset posed alone. Same orphaned data-integration content flagged throughout this pass.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Harden-before-live as ethical practice. Confirmed. <strong>Blameless postmortem as systemic accountability has moved to the Year 3–4 capstone</strong> — see <code>signature-assessments.md</code>.</td>
+      </tr>
+      <tr>
+          <td>CIS 141 (Y2 Spring) / <em>unplaced</em></td>
+          <td>AI-generated code critique for correctness, security, and responsible use — confirmed, CIS 141 is the terminal pass for the AI-Assisted Development bounded practice. Broader data-ethics/honest-visualization framing beyond the AI-critique slice is unconfirmed (honest visualization itself is resolved elsewhere — see <code>competencies/data-and-information.md</code> — but the combined &ldquo;data ethics + AI critique&rdquo; framing this row implies isn&rsquo;t a single confirmed course pass).</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: ethical reasoning in this program is grounded in concrete technical decisions — data minimization, access control, re-identification risk, honest visualization — rather than abstract philosophical frameworks. The escalation is from single-decision ethics (CIS 120) through AI-assisted development ethics (CIS 141), with the team-level accountability ceiling now split between CIS 400 (responsibility retrospective, core) and the Year 3–4 capstone (blameless postmortem).</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Structured ethical analysis — given a system and context, identify ethical risks and responsibilities using a provided framework</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Open-ended ethical evaluation — given a design decision, independently construct an ethical argument without a framework</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Responsibility retrospective (CIS 400) — evaluate ethical responsibilities in a real collaborative project, within the core&rsquo;s own scope. (Blameless postmortem, the old co-anchor, is now Year 3–4-capstone-level.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>Leading responsibility retrospectives; TA/LA facilitating ethical discussion in Design Review (CIS 400). (Leading blameless postmortems is now Year 3–4-capstone-level.)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Ethical Evaluation — deepens from data minimization analysis (CIS 120) through AI-assisted analysis critique (CIS 141). Escalates from single-decision ethics → design ethics → system ethics → AI ethics; full integration-scale ethics (re-identification, blameless postmortem) is unplaced or relocated, not a confirmed core ceiling.</p>
+<hr>
+<h3 id="communicate-technical-information">Communicate Technical Information</h3>
+<p><strong>I can communicate technical concepts, decisions, and results to technical and non-technical audiences.</strong></p>
+<p>I create documentation, presentations, visualizations, and explanations that support understanding and informed decision-making.</p>
+<p><strong>Primary evidence contexts:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Course</th>
+          <th>Work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CIS 200 (Y1 Spring)</td>
+          <td>Type annotations and interface specifications — the type signature communicates a contract to peer developers; first explicit technical documentation.</td>
+      </tr>
+      <tr>
+          <td>CIS 260 (Y1 Spring)</td>
+          <td>Schema-decision documentation — documenting design choices and their rationale for future maintainers. Confirmed design intent, undrafted.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring), formalized (woven throughout)</td>
+          <td>Test naming and documentation — what does this test guarantee, and for whom?</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>PR descriptions, commit messages, code review comments — professional asynchronous technical communication.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Design Review — present and defend technical decisions to a critical peer and faculty audience; highest-stakes synchronous technical communication within the core. Re-homed to CIS 400 per <code>signature-assessments.md</code>. CIS 501&rsquo;s confirmed &ldquo;present and defend a design&rdquo; pass is an even higher-stakes later instance of the same skill.</td>
+      </tr>
+      <tr>
+          <td>CIS 400 (Y2 Spring)</td>
+          <td>Operational runbooks and API documentation — technical communication that outlives the author and must be read under pressure.</td>
+      </tr>
+      <tr>
+          <td>CIS 320 (Y2 Fall)</td>
+          <td>Stakeholder communication — translate technical constraints and design decisions for non-technical decision-makers, at CIS 320&rsquo;s bounded scope. <strong>Full depth is the same Software Architecture specialization elective</strong> flagged throughout this domain.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: automated evidence (git telemetry) captures the presence of commit messages and PR descriptions but not their quality — this sub-competency requires rubric-based direct assessment at every touchpoint.</p>
+<p><strong>Assessment types by level:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Assessment type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Application</td>
+          <td>Technical documentation task — write API documentation, a PR description, or a test name for a specified audience and purpose</td>
+      </tr>
+      <tr>
+          <td>Independence</td>
+          <td>Audience-appropriate explanation — given a technical concept or decision, produce documentation appropriate for a specified audience without a template</td>
+      </tr>
+      <tr>
+          <td>Adaptation</td>
+          <td>Design Review (CIS 400) — defend technical decisions under live critique; CIS 320&rsquo;s bounded stakeholder translation. (Full stakeholder-translation depth with real, consequential decision-making is specialization-elective content.)</td>
+      </tr>
+      <tr>
+          <td>Leadership</td>
+          <td>TA/LA creating learning materials for students; writing runbooks adopted by a team; leading documentation sprints</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Recurring type:</strong> Technical Explanation Task — deepens from type-annotated interface docs for a peer developer (CIS 200) through CIS 400&rsquo;s Design Review and CIS 320&rsquo;s bounded stakeholder translation. Audience escalates: peer developer → future maintainer → team → critical panel → non-technical stakeholders (specialization-elective depth for the last step).</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Nathan H. Bean
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/hugo-starter/commit/ba14cb645d701af273c6c03c8a5c10f7d9448d7e">Sep 28, 2026</a>
+</p>
+
+</div>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+
+
+<a id="logo" href="/two-year-refactor/">
+    <img src="/two-year-refactor/images/core-logo-on-purple.svg" alt="Computational Core Logo" style="width: 100%">
+</a>
+
+        </div>
+        <search><form action="/two-year-refactor/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/1-approach/index.html"><input type="checkbox" id="R-section-60da6fe14415649ee91034caa61a492f" aria-controls="R-subsections-60da6fe14415649ee91034caa61a492f"><label for="R-section-60da6fe14415649ee91034caa61a492f"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Approach</span></label><a class="padding" href="/two-year-refactor/1-approach/index.html"><b>1. </b>Approach</a><ul id="R-subsections-60da6fe14415649ee91034caa61a492f" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/index.html"><input type="checkbox" id="R-section-df3b6525651bcdebc6d9b27371192bea" aria-controls="R-subsections-df3b6525651bcdebc6d9b27371192bea" checked><label for="R-section-df3b6525651bcdebc6d9b27371192bea"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Theoretical Grounding</span></label><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/index.html"><b>1.1. </b>Theoretical Grounding</a><ul id="R-subsections-df3b6525651bcdebc6d9b27371192bea" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/spiral-curriculum/index.html">Spiral Curriculum</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/legitimate-peripheral-participation/index.html">Legitimate Peripheral Participation &amp; Communities of Practice</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/evidence-centered-design/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/evidence-centered-design/index.html">Evidence-Centered Design</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/boundary-crossing/index.html">Boundary Crossing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/theoretical-grounding/universal-design-for-learning/index.html"><a class="padding" href="/two-year-refactor/1-approach/theoretical-grounding/universal-design-for-learning/index.html">Universal Design for Learning</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/timeline/index.html"><a class="padding" href="/two-year-refactor/1-approach/timeline/index.html"><b>1.2. </b>Implementation Timeline</a></li>
+            <li class="" data-nav-id="/two-year-refactor/1-approach/evaluation/index.html"><a class="padding" href="/two-year-refactor/1-approach/evaluation/index.html"><b>1.3. </b>Evaluation Strategy</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/index.html"><input type="checkbox" id="R-section-5552c087b22b00cc0f1e53bb467820c7" aria-controls="R-subsections-5552c087b22b00cc0f1e53bb467820c7"><label for="R-section-5552c087b22b00cc0f1e53bb467820c7"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Catalog</span></label><a class="padding" href="/two-year-refactor/2-catalog/index.html"><b>2. </b>Catalog</a><ul id="R-subsections-5552c087b22b00cc0f1e53bb467820c7" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/computing-foundations/index.html"><a class="padding" href="/two-year-refactor/2-catalog/computing-foundations/index.html">Computing Foundations</a></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/2-catalog/degrees/index.html"><input type="checkbox" id="R-section-db94b49d8f0b9cc1893c6cfffb8b213c" aria-controls="R-subsections-db94b49d8f0b9cc1893c6cfffb8b213c" checked><label for="R-section-db94b49d8f0b9cc1893c6cfffb8b213c"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Degree Programs</span></label><a class="padding" href="/two-year-refactor/2-catalog/degrees/index.html"><b>2.1. </b>Degree Programs</a><ul id="R-subsections-db94b49d8f0b9cc1893c6cfffb8b213c" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/degrees/computer-science/index.html"><a class="padding" href="/two-year-refactor/2-catalog/degrees/computer-science/index.html">Computer Science</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.html"><a class="padding" href="/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.html">Artificial Intelligence</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/degrees/cybersecurity/index.html"><a class="padding" href="/two-year-refactor/2-catalog/degrees/cybersecurity/index.html">Cybersecurity</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/2-catalog/courses/index.html"><input type="checkbox" id="R-section-3a89ec4dcc28a43eb057b343c434df37" aria-controls="R-subsections-3a89ec4dcc28a43eb057b343c434df37" checked><label for="R-section-3a89ec4dcc28a43eb057b343c434df37"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Courses</span></label><a class="padding" href="/two-year-refactor/2-catalog/courses/index.html"><b>2.2. </b>Courses</a><ul id="R-subsections-3a89ec4dcc28a43eb057b343c434df37" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-115/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-115/index.html">CIS 115 - Introduction to Computer Science</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-116/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-116/index.html">CIS 116 – Introduction to Programming</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-120/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-120/index.html">CIS 120 – Web Foundations</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-140/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-140/index.html">CIS 140 – Foundations of Artificial Intelligence</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-141/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-141/index.html">CIS 141 – Privacy and Artificial  Intelligence</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-142/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-142/index.html">CIS 142 – Artificial Intelligence and Cybersecurity</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-200/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-200/index.html">CIS 200 - Programming Fundamentals</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-220/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-220/index.html">CIS 220 - Platform Programming</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-225/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-225/index.html">CIS 225 - Foundations of Computer Networks</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-251/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-251/index.html">CIS 251 - Foundations of Cybersecurity</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-260/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-260/index.html">CIS 260 - Foundations of Relational Databases</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-300/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-300/index.html">CIS 300 - Data and Program Structures</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-301/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-301/index.html">CIS 301 - Logical Foundations of Programming</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-308/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-308/index.html">CIS 308 - C Language Laboratory</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-320/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-320/index.html">CIS 320 - User Experience Development</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-400/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-400/index.html">CIS 400 - Software Design, Implementation, and Testing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-401/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-401/index.html">CIS 401 - Software Design, Implementation, and Testing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-415/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-415/index.html">CIS 415 - Ethics and Conduct for Computing Professionals</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-450/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-450/index.html">CIS 450 - Computer Architecture and Operations</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-501/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-501/index.html">CIS 501 - Software Architecture and Design</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-505/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-505/index.html">CIS 505 - Introduction to Programming Languages</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-520/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-520/index.html">CIS 520 - Operating Systems I</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-525/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-525/index.html">CIS 525 - Introduction to Network Programming</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-560/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-560/index.html">CIS 560 - Database System Concepts</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-575/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-575/index.html">CIS 575 - Introduction to Algorithm Analysis</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-598/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-598/index.html">CIS 598 - Computer Science Project</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-625/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-625/index.html">CIS 625 - Concurrent Software Systems</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-643/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-643/index.html">CIS 643 - Software Engineering Project II</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/cis-xxx/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/cis-xxx/index.html">CIS XXX - Agentic Software Development</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/courses/stat-xxx/index.html"><a class="padding" href="/two-year-refactor/2-catalog/courses/stat-xxx/index.html">STAT XXX - Statistical Foundations of Data Science</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/2-catalog/elective-lists/index.html"><input type="checkbox" id="R-section-13ecf9abcc922203e15ca4ba74c649bc" aria-controls="R-subsections-13ecf9abcc922203e15ca4ba74c649bc" checked><label for="R-section-13ecf9abcc922203e15ca4ba74c649bc"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Elective Lists</span></label><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/index.html"><b>3. </b>Elective Lists</a><ul id="R-subsections-13ecf9abcc922203e15ca4ba74c649bc" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/elective-lists/ai-application-area/index.html"><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/ai-application-area/index.html">AI Application Area Elective</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/elective-lists/communication-elective/index.html"><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/communication-elective/index.html">Communications Elective</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/elective-lists/cybersecurity-elective/index.html"><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/cybersecurity-elective/index.html">Cybersecurity Elective</a></li>
+            <li class="" data-nav-id="/two-year-refactor/2-catalog/elective-lists/linear-algebra-elective/index.html"><a class="padding" href="/two-year-refactor/2-catalog/elective-lists/linear-algebra-elective/index.html">Linear Algebra Elective</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/3-cornerstone-projects/index.html"><input type="checkbox" id="R-section-ace8be240af225f6e22d6502fb1df37e" aria-controls="R-subsections-ace8be240af225f6e22d6502fb1df37e"><label for="R-section-ace8be240af225f6e22d6502fb1df37e"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Cornerstone Projects</span></label><a class="padding" href="/two-year-refactor/3-cornerstone-projects/index.html"><b>3. </b>Cornerstone Projects</a><ul id="R-subsections-ace8be240af225f6e22d6502fb1df37e" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.html"><a class="padding" href="/two-year-refactor/3-cornerstone-projects/kansas-historical-data/index.html">Kansas Historical Data</a></li>
+            <li class="" data-nav-id="/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html"><a class="padding" href="/two-year-refactor/3-cornerstone-projects/classroom-plant-sensor-network/index.html">Classroom Plant-Sensor Network</a></li>
+            <li class="" data-nav-id="/two-year-refactor/3-cornerstone-projects/kansas-mesonet/index.html"><a class="padding" href="/two-year-refactor/3-cornerstone-projects/kansas-mesonet/index.html">Kansas Mesonet</a></li>
+            <li class="" data-nav-id="/two-year-refactor/3-cornerstone-projects/konza-code/index.html"><a class="padding" href="/two-year-refactor/3-cornerstone-projects/konza-code/index.html">Konza Code</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/index.html"><input type="checkbox" id="R-section-3cb41433895e9826144a95e358bb6902" aria-controls="R-subsections-3cb41433895e9826144a95e358bb6902"><label for="R-section-3cb41433895e9826144a95e358bb6902"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Core Design</span></label><a class="padding" href="/two-year-refactor/4-curriculum-design/index.html"><b>4. </b>Core Design</a><ul id="R-subsections-3cb41433895e9826144a95e358bb6902" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/overview/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/overview/index.html">Program Overview</a></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/4-curriculum-design/threads/index.html"><input type="checkbox" id="R-section-fc4a64be7e772c9f36dd4a58eba29292" aria-controls="R-subsections-fc4a64be7e772c9f36dd4a58eba29292" checked><label for="R-section-fc4a64be7e772c9f36dd4a58eba29292"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Threads</span></label><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/index.html"><b>1.2 </b>Threads</a><ul id="R-subsections-fc4a64be7e772c9f36dd4a58eba29292" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-data-structures/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-data-structures/index.html">Data Structures &amp; Representation</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-code-comprehension/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-code-comprehension/index.html">Code Comprehension</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-human-centered/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-human-centered/index.html">Human-Centered Computing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-algorithmic/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-algorithmic/index.html">Algorithmic Thinking &amp; Complexity</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-computational-models/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-computational-models/index.html">Computational Models</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-correctness-verification/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-correctness-verification/index.html">Correctness &amp; Verification</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-boundaries-contracts/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-boundaries-contracts/index.html">Boundaries &amp; Contracts</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/thread-sociotechnical/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/thread-sociotechnical/index.html">Sociotechnical Structure</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/threads/practice-ai-assisted/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/threads/practice-ai-assisted/index.html">AI-Assisted Development (bounded practice)</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/4-curriculum-design/lenses/index.html"><input type="checkbox" id="R-section-7957959fa77c28a601b3eaad4129a2fe" aria-controls="R-subsections-7957959fa77c28a601b3eaad4129a2fe" checked><label for="R-section-7957959fa77c28a601b3eaad4129a2fe"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Lenses</span></label><a class="padding" href="/two-year-refactor/4-curriculum-design/lenses/index.html"><b>1.3 </b>Lenses</a><ul id="R-subsections-7957959fa77c28a601b3eaad4129a2fe" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/lenses/lens-trustworthy-computing/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/lenses/lens-trustworthy-computing/index.html">Trustworthy Computing</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/lenses/lens-optimization/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/lenses/lens-optimization/index.html">Optimization Reasoning</a></li>
+            <li class="" data-nav-id="/two-year-refactor/4-curriculum-design/lenses/lens-professional-practices/index.html"><a class="padding" href="/two-year-refactor/4-curriculum-design/lenses/lens-professional-practices/index.html">Professional Practices</a></li></ul></li></ul></li>
+            <li class="parent " data-nav-id="/two-year-refactor/5-assessment/index.html"><input type="checkbox" id="R-section-4a51e392def0623c68c829ff37de3f16" aria-controls="R-subsections-4a51e392def0623c68c829ff37de3f16" checked><label for="R-section-4a51e392def0623c68c829ff37de3f16"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Competency-Based Assessment</span></label><a class="padding" href="/two-year-refactor/5-assessment/index.html"><b>5. </b>Competency-Based Assessment</a><ul id="R-subsections-4a51e392def0623c68c829ff37de3f16" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competency-model/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competency-model/index.html">The Competency Model</a></li>
+            <li class="parent alwaysopen " data-nav-id="/two-year-refactor/5-assessment/competencies/index.html"><input type="checkbox" id="R-section-23e9bb9f57f372479374a03a7187abe0" aria-controls="R-subsections-23e9bb9f57f372479374a03a7187abe0" checked><label for="R-section-23e9bb9f57f372479374a03a7187abe0"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Competencies</span></label><a class="padding" href="/two-year-refactor/5-assessment/competencies/index.html"><b>2.1 </b>Competencies</a><ul id="R-subsections-23e9bb9f57f372479374a03a7187abe0" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/computational-reasoning/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/computational-reasoning/index.html">1. Computational Reasoning</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/software-development/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/software-development/index.html">2. Software Development</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/data-and-information/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/data-and-information/index.html">3. Data and Information</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/systems-and-infrastructure/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/systems-and-infrastructure/index.html">4. Systems and Infrastructure</a></li>
+            <li class="active " data-nav-id="/two-year-refactor/5-assessment/competencies/human-centered-practice/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/human-centered-practice/index.html">5. Human-Centered Practice</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/competencies/professional-practice/index.html"><a class="padding" href="/two-year-refactor/5-assessment/competencies/professional-practice/index.html">6. Professional Practice</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/signature-assessments/index.html"><a class="padding" href="/two-year-refactor/5-assessment/signature-assessments/index.html">Signature Assessments</a></li>
+            <li class="" data-nav-id="/two-year-refactor/5-assessment/recurring-assessments/index.html"><a class="padding" href="/two-year-refactor/5-assessment/recurring-assessments/index.html">Recurring Assessment Types</a></li></ul></li>
+            <li class="" data-nav-id="/two-year-refactor/7-references/index.html"><a class="padding" href="/two-year-refactor/7-references/index.html">References</a></li>
+            <li class="" data-nav-id="/two-year-refactor/core-design/index.html"><input type="checkbox" id="R-section-2403114f33a8770397a77e6fe0b78d0f" aria-controls="R-subsections-2403114f33a8770397a77e6fe0b78d0f"><label for="R-section-2403114f33a8770397a77e6fe0b78d0f"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Core-Designs</span></label><a class="padding" href="/two-year-refactor/core-design/index.html">Core-Designs</a><ul id="R-subsections-2403114f33a8770397a77e6fe0b78d0f" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/two-year-refactor/core-design/degree_maps/index.html"><input type="checkbox" id="R-section-2b6dc343827481eb6c5607896ba10c6c" aria-controls="R-subsections-2b6dc343827481eb6c5607896ba10c6c" checked><label for="R-section-2b6dc343827481eb6c5607896ba10c6c"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Degree Maps</span></label><a class="padding" href="/two-year-refactor/core-design/degree_maps/index.html"><b>1.1. </b>Degree Maps</a><ul id="R-subsections-2b6dc343827481eb6c5607896ba10c6c" class="collapsible-menu">
+            <li class="" data-nav-id="/two-year-refactor/core-design/degree_maps/artificial_intelligence/index.html"><a class="padding" href="/two-year-refactor/core-design/degree_maps/artificial_intelligence/index.html">Artificially Intelligent Systems</a></li>
+            <li class="" data-nav-id="/two-year-refactor/core-design/degree_maps/computer_science/index.html"><a class="padding" href="/two-year-refactor/core-design/degree_maps/computer_science/index.html">Computer Science</a></li>
+            <li class="" data-nav-id="/two-year-refactor/core-design/degree_maps/cyber_security/index.html"><a class="padding" href="/two-year-refactor/core-design/degree_maps/cyber_security/index.html">Cybersecurity</a></li></ul></li></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>KSU Auto</option>
+                    <option id="R-select-variant-light-theme" value="light-theme">KSU Light</option>
+                    <option id="R-select-variant-dark-theme" value="dark-theme">KSU Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
+      </div>
+    </aside>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1790565267" defer></script>
+  </body>
+</html>

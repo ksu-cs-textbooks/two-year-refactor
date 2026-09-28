@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="description" content="Working draft for faculty review. Maps the College Board AP Cybersecurity curriculum (Course and Exam Description, 2026–27) against the two-year core to answer two questions: (1) where does a student who earned AP Cybersecurity credit already have foundation, and (2) where does the core not deliver what the AP course develops? The binding use case is the Cybersecurity specialization: this analysis identifies the pre-college foundation the specialization can build on and the gaps it must address.">
+    <meta name="author" content="Department of Computer Science">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta name="twitter:title" content="AP Cybersecurity Alignment Analysis :: CS Two Year Refactor">
+    <meta name="twitter:description" content="Working draft for faculty review. Maps the College Board AP Cybersecurity curriculum (Course and Exam Description, 2026–27) against the two-year core to answer two questions: (1) where does a student who earned AP Cybersecurity credit already have foundation, and (2) where does the core not deliver what the AP course develops? The binding use case is the Cybersecurity specialization: this analysis identifies the pre-college foundation the specialization can build on and the gaps it must address.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/two-year-refactor/6-analyses/ap-cybersecurity/index.html">
+    <meta property="og:site_name" content="CS Two Year Refactor">
+    <meta property="og:title" content="AP Cybersecurity Alignment Analysis :: CS Two Year Refactor">
+    <meta property="og:description" content="Working draft for faculty review. Maps the College Board AP Cybersecurity curriculum (Course and Exam Description, 2026–27) against the two-year core to answer two questions: (1) where does a student who earned AP Cybersecurity credit already have foundation, and (2) where does the core not deliver what the AP course develops? The binding use case is the Cybersecurity specialization: this analysis identifies the pre-college foundation the specialization can build on and the gaps it must address.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Analyses">
+    <meta property="article:modified_time" content="2026-09-28T03:08:36+00:00">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <meta itemprop="name" content="AP Cybersecurity Alignment Analysis :: CS Two Year Refactor">
+    <meta itemprop="description" content="Working draft for faculty review. Maps the College Board AP Cybersecurity curriculum (Course and Exam Description, 2026–27) against the two-year core to answer two questions: (1) where does a student who earned AP Cybersecurity credit already have foundation, and (2) where does the core not deliver what the AP course develops? The binding use case is the Cybersecurity specialization: this analysis identifies the pre-college foundation the specialization can build on and the gaps it must address.">
+    <meta itemprop="dateModified" content="2026-09-28T03:08:36+00:00">
+    <meta itemprop="wordCount" content="2929">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/two-year-refactor/images/hero.png">
+    <title>AP Cybersecurity Alignment Analysis :: CS Two Year Refactor</title>
+    <link href="https://textbooks.cs.ksu.edu/two-year-refactor/6-analyses/ap-cybersecurity/index.html" rel="canonical" type="text/html" title="AP Cybersecurity Alignment Analysis :: CS Two Year Refactor">
+    <link href="/two-year-refactor/6-analyses/ap-cybersecurity/index.xml" rel="alternate" type="application/rss+xml" title="AP Cybersecurity Alignment Analysis :: CS Two Year Refactor">
+    <link href="/two-year-refactor/6-analyses/ap-cybersecurity/index.print.html" rel="alternate" type="text/html" title="AP Cybersecurity Alignment Analysis :: CS Two Year Refactor">
+    <link href="/two-year-refactor/6-analyses/ap-cybersecurity/embed.html" rel="alternate" type="text/html" title="AP Cybersecurity Alignment Analysis :: CS Two Year Refactor">
+    <link href="/two-year-refactor/css/auto-complete/auto-complete.min.css?1790565267" rel="stylesheet">
+    <script src="/two-year-refactor/js/auto-complete/auto-complete.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search-lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/search.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/two-year-refactor/searchindex.en.js?1790565267";
+    </script>
+    <script src="/two-year-refactor/js/lunr/lunr.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.stemmer.support.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.multi.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/lunr/lunr.en.min.js?1790565267" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/two-year-refactor/fonts/fontawesome/css/fontawesome-all.min.css?1790565267" rel="stylesheet"></noscript>
+    <link href="/two-year-refactor/css/perfect-scrollbar/perfect-scrollbar.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/theme.min.css?1790565267" rel="stylesheet">
+    <link href="/two-year-refactor/css/format-html.min.css?1790565267" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/6-analyses\/ap-cybersecurity\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/two-year-refactor';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/two-year-refactor/css/custom.css?1790565267" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-url="/two-year-refactor/6-analyses/ap-cybersecurity/index.html">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      
+      
+      
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 6-analyses" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="ap-cybersecurity-alignment-analysis">AP Cybersecurity Alignment Analysis</h1>
+
+<blockquote>
+<p><em>Working draft for faculty review. Maps the College Board AP Cybersecurity curriculum (Course and Exam Description, 2026–27) against the two-year core to answer two questions: (1) where does a student who earned AP Cybersecurity credit already have foundation, and (2) where does the core <strong>not</strong> deliver what the AP course develops? The binding use case is the Cybersecurity specialization: this analysis identifies the pre-college foundation the specialization can build on and the gaps it must address.</em></p>
+<p>Checked against the real, drafted course-design pages — mainly CIS 251 (Foundations of Cybersecurity), CIS 225 (Foundations of Computer Networks), CIS 400, CIS 260, and CIS 120. <strong>CIS 251&rsquo;s real content is uneven</strong>: CIA triad, authentication/authorization, MFA, malware, and social-engineering content are all explicitly named — but least privilege, formal threat modeling, and applied cryptography tied to the core&rsquo;s modular-arithmetic content are <em>not</em> in the real course (the same finding made in <code>specializations/cybersecurity.md</code>&rsquo;s 2026-08-04 revisit). Status ratings below reflect the real content directly.</p></blockquote>
+<h2 id="about-the-ap-cybersecurity-course">About the AP Cybersecurity course</h2>
+<p>AP Cybersecurity launched as a pilot in 2024–25, expanded in 2025–26, and goes nationwide in 2026–27 with the first official AP exam in May 2027. The course is a year-long, high-school-level introduction organized into <strong>five units</strong> (roughly 32 instructional weeks) and assessed against <strong>three spiraling core skills</strong> — <em>Analyze Risk</em>, <em>Mitigate Risk</em>, and <em>Detect Attacks</em> — each weighted at 25%–40% of the AP exam score.</p>
+<p>The five units:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Unit</th>
+          <th>Title</th>
+          <th>Approx. weeks</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Introduction to Security</td>
+          <td>1–4</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Securing Spaces</td>
+          <td>5–10</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>Securing Networks</td>
+          <td>11–18</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Securing Devices</td>
+          <td>19–26</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Securing Applications &amp; Data</td>
+          <td>27–32</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="unit-by-unit-coverage-mapping">Unit-by-unit coverage mapping</h2>
+<h3 id="unit-1--introduction-to-security">Unit 1 — Introduction to Security</h3>
+<table>
+  <thead>
+      <tr>
+          <th>AP topic</th>
+          <th>AP content</th>
+          <th>Core coverage</th>
+          <th>Course</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.1 Social Engineering</td>
+          <td>Phishing, spear-phishing, whaling; vishing; smishing; pretexting; urgency and intimidation tactics</td>
+          <td>CIS 251&rsquo;s real Week 4 (&ldquo;Threats and Attackers&rdquo;) explicitly names phishing, social engineering, and insider threats. Channel-specific variants (vishing, smishing, spear-phishing, whaling) and specific tactics are not named.</td>
+          <td>CIS 251</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>1.2 Authentication</td>
+          <td>Password attacks (brute force, credential stuffing, password spraying); strengthening with length and uniqueness; MFA (know/have/are factors)</td>
+          <td>CIS 251&rsquo;s Week 2 covers authentication explicitly; Week 5 (&ldquo;Protecting Systems and Data&rdquo;) explicitly names MFA. Attack specifics (brute force, credential stuffing, spraying) and the formal know/have/are factor model are not named.</td>
+          <td>CIS 251</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>1.3 Public Networks</td>
+          <td>Public Wi-Fi interception risks; evil twin and rogue access points; VPNs as encrypted tunnels on untrusted networks</td>
+          <td>CIS 225&rsquo;s real content (socket-based network programming; security and encryption of network communications) and CIS 251&rsquo;s Week 5 (encryption) together give a general foundation, but neither names VPNs, TLS specifically, or wireless-attack specifics (evil twin, rogue access points).</td>
+          <td>CIS 225; CIS 251</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>1.4 AI-Powered Threats</td>
+          <td>AI-generated phishing (scaled, multilingual); deepfakes and voice cloning for impersonation; LLM prompt injection; training-data poisoning; AI-assisted malware and reconnaissance</td>
+          <td>Not covered. The bounded AI-Assisted Development practice addresses AI as a code-writing collaborator, not as an attack vector.</td>
+          <td>—</td>
+          <td><strong>Gap</strong></td>
+      </tr>
+      <tr>
+          <td>1.5 AI in Defense</td>
+          <td>AI-powered threat detection and automated incident response</td>
+          <td>CIS 141 (the confirmed terminal pass for the AI-Assisted Development practice) covers high-stakes verification of AI-generated code for security, but AI as a defensive/detection tool in cyber operations generally is not covered.</td>
+          <td>CIS 141 (adjacent)</td>
+          <td><strong>Gap</strong></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="unit-2--securing-spaces">Unit 2 — Securing Spaces</h3>
+<table>
+  <thead>
+      <tr>
+          <th>AP topic</th>
+          <th>AP content</th>
+          <th>Core coverage</th>
+          <th>Course</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>2.1 Security Foundations</td>
+          <td>CIA triad (confidentiality, integrity, availability); risk assessment (likelihood × severity matrix); risk response strategies (accept, transfer, mitigate, avoid); threat actor taxonomy (script kiddies to nation-states); six-phase cyberattack lifecycle (recon → weaponize → deliver → exploit → maintain → exfil); defense-in-depth</td>
+          <td>CIS 251&rsquo;s SLO 2 explicitly names the <strong>CIA triad</strong>, and Week 6 (&ldquo;Risk Management and Incident Response&rdquo;) covers risk assessment directly. The formal risk matrix, response-strategy taxonomy, threat-actor taxonomy, attack lifecycle, and defense-in-depth as a named pattern are not in the real content.</td>
+          <td>CIS 251</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>2.2 Physical Attacks</td>
+          <td>Tailgating; shoulder surfing; dumpster diving; card cloning and RFID skimming</td>
+          <td>Not covered anywhere in the core.</td>
+          <td>—</td>
+          <td><strong>Gap</strong></td>
+      </tr>
+      <tr>
+          <td>2.3 Physical Protection</td>
+          <td>Physical access controls (locks, card readers, mantraps/vestibules, bollards); clean-desk policy; insider threat program</td>
+          <td>Not covered anywhere in the core.</td>
+          <td>—</td>
+          <td><strong>Gap</strong></td>
+      </tr>
+      <tr>
+          <td>2.4 Detecting Physical Attacks</td>
+          <td>Security cameras; guards; motion sensors; placement and coverage strategy</td>
+          <td>Not covered anywhere in the core.</td>
+          <td>—</td>
+          <td><strong>Gap</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>Unit 2 is the largest single gap between the two curricula. The K-State core has a strong <em>software</em> security posture but no physical security content at all — by design, since the core is a programming and systems foundation rather than a security-operations curriculum.</p>
+<hr>
+<h3 id="unit-3--securing-networks">Unit 3 — Securing Networks</h3>
+<table>
+  <thead>
+      <tr>
+          <th>AP topic</th>
+          <th>AP content</th>
+          <th>Core coverage</th>
+          <th>Course</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>3.1 Network Attacks</td>
+          <td>ARP spoofing and ARP poisoning; MAC flooding; DNS poisoning; DoS and DDoS; on-path (man-in-the-middle) attacks; packet sniffing</td>
+          <td>CIS 225&rsquo;s real, confirmed content (OSI 7-layer model, packet encapsulation, common protocols, security vulnerability assessment) gives the protocol-layer foundation that makes these attacks comprehensible, but the specific attack procedures, tools, and defenses are not named in its drafted SLOs.</td>
+          <td>CIS 225</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>3.2 Wireless Controls</td>
+          <td>Managerial and administrative controls; WPA2/3 and wireless authentication; SSID management; war driving awareness</td>
+          <td>CIS 225 introduces the network stack conceptually; CIS 251&rsquo;s Week 5 (encryption) is a light foundation for the WPA2/3 encryption model. Operational wireless security — SSID management, war driving, wireless access control policies — is not covered.</td>
+          <td>CIS 225; CIS 251 (foundation)</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>3.3 Network Segmentation</td>
+          <td>Network segmentation strategy; VLANs and VLAN tagging; DMZ architecture for public-facing services</td>
+          <td>CIS 225 covers IP addressing and protocol structure generally — the foundation for understanding why segmentation works — but VLANs and DMZ as named architectural patterns aren&rsquo;t in its drafted content.</td>
+          <td>CIS 225</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>3.4 Firewalls</td>
+          <td>Stateless packet filtering; stateful inspection; next-generation firewalls (NGFW, deep packet inspection, application-layer filtering); writing and reading firewall rules</td>
+          <td>CIS 225 covers the protocol layer packet filtering operates on; CIS 400&rsquo;s confirmed &ldquo;harden the system before it goes live&rdquo; content (Confirmed Design Intent) is a real, applied deployment-security pass. Firewall architecture and rule syntax specifically are not named anywhere.</td>
+          <td>CIS 225; CIS 400</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>3.5 Monitoring</td>
+          <td>IDS vs. IPS (detect-and-alert vs. detect-and-block); SIEM (centralized log aggregation and correlation); network traffic analysis</td>
+          <td>CIS 400&rsquo;s confirmed deployment/monitoring content (containers, monitoring and logging tooling) covers operational monitoring of a live system generally. IDS/IPS and SIEM as specific security-monitoring architectures are not named.</td>
+          <td>CIS 400 (partial)</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>Students arrive at the Cybersecurity specialization with real protocol-layer theory from CIS 225 (OSI model, encapsulation, protocols) that makes Unit 3 concepts comprehensible, even though the specific attack procedures and tooling this unit covers aren&rsquo;t in the core. That residual gap — security-operations specifics: attack procedures, wireless access management, VLAN administration, and firewall rule authoring — belongs naturally in the first Cybersecurity specialization course, which can teach it against a real theoretical foundation students already have.</p>
+<hr>
+<h3 id="unit-4--securing-devices">Unit 4 — Securing Devices</h3>
+<table>
+  <thead>
+      <tr>
+          <th>AP topic</th>
+          <th>AP content</th>
+          <th>Core coverage</th>
+          <th>Course</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>4.1 Malware</td>
+          <td>Nine malware types: virus, worm, trojan horse, ransomware, spyware, keylogger, logic bomb, rootkit, fileless malware; infection vectors</td>
+          <td>CIS 251&rsquo;s Week 4 explicitly names malware as a topic. The nine-type taxonomy and specific propagation mechanisms are not covered.</td>
+          <td>CIS 251</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>4.2 Authentication &amp; Hashing</td>
+          <td>Four authentication factors (something you know/have/are/somewhere you are); password storage via cryptographic hashing; collision resistance and pre-image resistance; MD5, SHA-1 (deprecated), SHA-256, SHA-512</td>
+          <td>CIS 251 covers authentication (Week 2) and encryption generally (Week 5). Grounding this in the core&rsquo;s discrete-math modular-arithmetic content is proposed design intent, not yet drafted into the course (per <code>specializations/cybersecurity.md</code>&rsquo;s 2026-08-04 revisit). Specific algorithm names and hash properties (collision/pre-image resistance) are not covered.</td>
+          <td>CIS 251</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>4.3 Device Hardening</td>
+          <td>Anti-malware and endpoint detection; patch management; host-based firewall; configuration hardening; least privilege; IoT security considerations; mobile device management (MDM)</td>
+          <td>CIS 400&rsquo;s confirmed hardening content applies here directly. CIS 251&rsquo;s real SLOs have no explicit least-privilege framing (see the same 2026-08-04 revisit). Patch management, MDM, and IoT-specific controls are not covered.</td>
+          <td>CIS 400</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>4.4 Detecting Device Attacks</td>
+          <td>Indicators of compromise (IoC); log analysis for device-level anomalies; detection controls and alerting</td>
+          <td>CIS 400 covers operational monitoring. A &ldquo;blameless postmortem&rdquo; pass that instills incident-response culture lives at the Year 3–4 program capstone, outside the two-year core (see <code>signature-assessments.md</code>&rsquo;s 2026-08-04 finding). IoC as a named concept and device-level detection specifics are not covered.</td>
+          <td>CIS 400 (partial)</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="unit-5--securing-applications--data">Unit 5 — Securing Applications &amp; Data</h3>
+<table>
+  <thead>
+      <tr>
+          <th>AP topic</th>
+          <th>AP content</th>
+          <th>Core coverage</th>
+          <th>Course</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>5.1 Application Attacks</td>
+          <td>SQL injection (untrusted input into database queries); XSS — reflected (Type I) and stored (Type II) cross-site scripting</td>
+          <td>CIS 260 provides the SQL foundation needed to understand injection; CIS 120 (Web Foundations) provides the DOM/web context for XSS. Neither course nor CIS 251 names these attack patterns explicitly.</td>
+          <td>CIS 260; CIS 120</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>5.2 Access Controls</td>
+          <td>Role-based access control; authorization vs. authentication; principle of least privilege</td>
+          <td>CIS 251 covers authentication and authorization (Week 2). CIS 260&rsquo;s access-control-as-schema-dimension content is confirmed design intent that hasn&rsquo;t actually been drafted into the course (see <code>cis-260.md</code>&rsquo;s &ldquo;Proposed Changes,&rdquo; logged during the 2026-08-04 lens-pass review) — not yet real content. Least privilege isn&rsquo;t explicitly named in either course.</td>
+          <td>CIS 251; CIS 260 (proposed)</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>5.3–5.4 Cryptography</td>
+          <td>Symmetric encryption (AES — shared secret); asymmetric encryption (RSA — public/private pair); key exchange; digital signatures and non-repudiation; PKI and certificate authority trust chains; HTTPS and TLS handshake</td>
+          <td>CIS 251&rsquo;s Week 5 covers encryption generically (&ldquo;passwords, MFA, encryption, backups, updates&rdquo;). Symmetric/asymmetric distinction, key exchange, digital signatures, PKI, and HTTPS/TLS are not named anywhere in its real content.</td>
+          <td>CIS 251 (light)</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+      <tr>
+          <td>5.5 Input Sanitization</td>
+          <td>Input validation and sanitization as a secure-by-design coding practice; parameterized queries as SQL-injection defense; output encoding as XSS defense</td>
+          <td>Not covered. Secure coding practices as a named category are absent from the core&rsquo;s drafted content.</td>
+          <td>—</td>
+          <td><strong>Gap</strong></td>
+      </tr>
+      <tr>
+          <td>5.6 Data Integrity</td>
+          <td>Hash-based integrity verification (file and message integrity); detecting data tampering through hash comparison; monitoring for data-integrity violations</td>
+          <td>CIS 251&rsquo;s Week 5 encryption content is a light, generic foundation; hash-based integrity verification as a specific use case is not named.</td>
+          <td>CIS 251 (light)</td>
+          <td><strong>Partial</strong></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="the-ap-core-skills-and-where-the-core-develops-them">The AP core skills and where the core develops them</h2>
+<table>
+  <thead>
+      <tr>
+          <th>AP skill</th>
+          <th>Description (from CED)</th>
+          <th>Core development</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Analyze Risk</strong> (25–40%)</td>
+          <td>Evaluate risk to organizational assets by identifying threats, vulnerabilities, and likelihood × impact</td>
+          <td>CIS 251&rsquo;s Week 6 (risk assessment) and Week 4 (threats/attackers) are the primary home. The Trustworthy Computing lens applies risk thinking wherever security is relevant throughout the core. The formal risk-assessment frameworks (likelihood/severity matrix, risk response strategies) the AP course uses are not in the real content.</td>
+      </tr>
+      <tr>
+          <td><strong>Mitigate Risk</strong> (25–40%)</td>
+          <td>Implement protective and deterrent controls across people, networks, devices, and applications</td>
+          <td>Covered at the <em>principle</em> level (data minimization, hardening, trust boundaries as contracts, defensive best practices per CIS 251&rsquo;s Week 5). Physical, network, and many device controls are outside the core&rsquo;s scope.</td>
+      </tr>
+      <tr>
+          <td><strong>Detect Attacks</strong> (25–40%)</td>
+          <td>Implement detection methods, monitor systems, analyze logs and network data as evidence</td>
+          <td>CIS 400&rsquo;s confirmed operational-monitoring content covers the software-operations side. IDS/IPS, SIEM, IoC detection, and network traffic analysis are outside the core.</td>
+      </tr>
+      <tr>
+          <td><strong>Collaborate</strong></td>
+          <td>Work with others and with AI tools to accomplish tasks</td>
+          <td>Covered strongly — CIS 400&rsquo;s confirmed team-project content (Sociotechnical Structure) and the AI-Assisted Development bounded practice.</td>
+      </tr>
+      <tr>
+          <td><strong>Communicate Concepts</strong></td>
+          <td>Explain key cybersecurity concepts to technical and non-technical audiences</td>
+          <td>The Professional Practices lens (documentation) and CIS 320&rsquo;s bounded Human-Centered Computing content develop technical communication broadly; security-concept explanation specifically is not practiced.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="coverage-summary">Coverage summary</h2>
+<h3 id="covered-by-the-core-ap-student-arrives-with-this-foundation">Covered by the core (AP student arrives with this foundation)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>Core home</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Authentication and authorization concepts</td>
+          <td>CIS 251</td>
+      </tr>
+      <tr>
+          <td>CIA triad</td>
+          <td>CIS 251</td>
+      </tr>
+      <tr>
+          <td>Malware and social-engineering awareness</td>
+          <td>CIS 251</td>
+      </tr>
+      <tr>
+          <td>Errors as attack surface (verbose stack traces, information leakage)</td>
+          <td>Computational Models thread + Trustworthy Computing lens</td>
+      </tr>
+      <tr>
+          <td>Trust boundaries as explicit contracts</td>
+          <td>Boundaries &amp; Contracts thread</td>
+      </tr>
+      <tr>
+          <td>Security hardening before deployment</td>
+          <td>CIS 400</td>
+      </tr>
+      <tr>
+          <td>Operational monitoring of live systems</td>
+          <td>CIS 400</td>
+      </tr>
+      <tr>
+          <td>OSI protocol stack theory (7-layer model, packet encapsulation, common protocols)</td>
+          <td>CIS 225</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="partially-covered-concept-is-in-the-core-ap-depth-not-fully-matched">Partially covered (concept is in the core, AP depth not fully matched)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>What the core has</th>
+          <th>What&rsquo;s missing</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Threat identification</td>
+          <td>CIS 251 names threats/attackers, risk</td>
+          <td>CIA-triad-adjacent frameworks (attack lifecycle, threat actor taxonomy) not named</td>
+      </tr>
+      <tr>
+          <td>Social engineering</td>
+          <td>CIS 251 Week 4 names phishing, social engineering, insider threats</td>
+          <td>Channel-specific variants (vishing/smishing/spear-phishing) not required</td>
+      </tr>
+      <tr>
+          <td>Malware</td>
+          <td>CIS 251 Week 4 names malware</td>
+          <td>Nine-type taxonomy and propagation mechanics not required</td>
+      </tr>
+      <tr>
+          <td>MFA</td>
+          <td>CIS 251 Week 5 names MFA explicitly</td>
+          <td>Know/have/are factor model not formalized</td>
+      </tr>
+      <tr>
+          <td>Cryptographic hashing / encryption</td>
+          <td>CIS 251 Week 5 names encryption generically</td>
+          <td>Algorithm names, symmetric/asymmetric distinction, hash properties not required</td>
+      </tr>
+      <tr>
+          <td>SQL injection / XSS</td>
+          <td>CIS 260 + CIS 120 prerequisite foundations</td>
+          <td>Named attack patterns not required</td>
+      </tr>
+      <tr>
+          <td>Access controls</td>
+          <td>CIS 251 authn/authz</td>
+          <td>Least privilege not named; CIS 260&rsquo;s schema-level access control is proposed, not built</td>
+      </tr>
+      <tr>
+          <td>Device hardening</td>
+          <td>CIS 400 hardening content</td>
+          <td>Patching, anti-malware, MDM, IoT not required</td>
+      </tr>
+      <tr>
+          <td>Security monitoring</td>
+          <td>CIS 400 operational monitoring</td>
+          <td>IDS/IPS, SIEM not named</td>
+      </tr>
+      <tr>
+          <td>Network-layer attacks (ARP, MAC, DNS, DoS, MitM, packet sniffing)</td>
+          <td>CIS 225 covers the protocols under each attack</td>
+          <td>Attack procedures, tools, and defenses not required</td>
+      </tr>
+      <tr>
+          <td>VPN as encrypted tunnel; public Wi-Fi risk</td>
+          <td>CIS 225 protocol foundation + CIS 251 encryption</td>
+          <td>Wireless-attack specifics (evil twin, rogue AP) not required</td>
+      </tr>
+      <tr>
+          <td>Network segmentation</td>
+          <td>CIS 225 IP/protocol foundation</td>
+          <td>VLANs and DMZ as named architecture not required</td>
+      </tr>
+      <tr>
+          <td>Firewalls</td>
+          <td>CIS 225 protocol layer + CIS 400 hardening</td>
+          <td>Stateless/stateful/NGFW architecture and rule writing not required</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="gaps--not-in-the-core">Gaps — not in the core</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>AP unit</th>
+          <th>Why it is absent from the core</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Formal risk-assessment methodology (matrix, response strategies)</td>
+          <td>2.1</td>
+          <td>Core addresses risk implicitly in design decisions and CIS 251&rsquo;s general framing, not as a formal operational methodology</td>
+      </tr>
+      <tr>
+          <td>Defense-in-depth as an explicit strategy</td>
+          <td>2.1</td>
+          <td>The Trustworthy Computing lens <em>is</em> defense-in-depth in practice but never names it as a pattern</td>
+      </tr>
+      <tr>
+          <td>Threat actor taxonomy</td>
+          <td>2.1</td>
+          <td>Out of scope — the core is a programming and systems foundation, not a security-operations curriculum</td>
+      </tr>
+      <tr>
+          <td>Cyberattack lifecycle / kill chain</td>
+          <td>2.1</td>
+          <td>Same — security-operations framing not in the core&rsquo;s scope</td>
+      </tr>
+      <tr>
+          <td>Physical security (Units 2.2–2.4, ~10 weeks)</td>
+          <td>2.2–2.4</td>
+          <td>Entirely out of scope for a programming core</td>
+      </tr>
+      <tr>
+          <td>IDS/IPS and SIEM</td>
+          <td>3.5</td>
+          <td>Security-operations tooling, not covered in the core</td>
+      </tr>
+      <tr>
+          <td>Input sanitization / secure-by-design coding</td>
+          <td>5.5</td>
+          <td>Not required anywhere in the core&rsquo;s drafted content</td>
+      </tr>
+      <tr>
+          <td>PKI, digital signatures, HTTPS/TLS handshake</td>
+          <td>5.3–5.4</td>
+          <td>Not in CIS 251&rsquo;s real content</td>
+      </tr>
+      <tr>
+          <td>AI as an attack vector (deepfakes, voice cloning, LLM manipulation)</td>
+          <td>1.4</td>
+          <td>The AI-Assisted Development bounded practice covers AI as a collaborator, not as a threat</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="implications-for-the-cybersecurity-specialization">Implications for the Cybersecurity specialization</h2>
+<p>The AP Cybersecurity mapping reveals two distinct gaps that the specialization must address:</p>
+<p><strong>1. Security-operations vocabulary and frameworks.</strong> The core develops a <em>design</em> security posture (data minimization, defensive best practices, hardening, trust boundaries) but not the <em>operational</em> vocabulary the AP course teaches: formal risk matrices, attack lifecycle, threat actor taxonomy, IDS/IPS, SIEM, IoC. A first course in the Cybersecurity specialization should introduce these frameworks explicitly, positioning them as the professional language that organizes what the student already understands from the core.</p>
+<p><strong>2. The CIS 225 networking foundation.</strong> CIS 225 (Foundations of Computer Networks, Y2 Fall) resolves what used to be a major prerequisite gap: students now arrive at the Cybersecurity specialization with real protocol theory (the OSI 7-layer model, packet encapsulation, common protocols) that makes network attacks, segmentation, and firewalls comprehensible. The residual gap is security-operations specifics: attack procedures, wireless access management, VLAN administration, and firewall rule authoring. These belong naturally in the first Cybersecurity specialization course. All Cybersecurity specialization courses that require network-layer knowledge should list CIS 225 as a prerequisite.</p>
+<p><strong>What the core does deliver.</strong> A student completing the two-year core arrives at the Cybersecurity specialization with:</p>
+<ul>
+<li>Real, though genuinely thin in places, security foundations from CIS 251: CIA triad, authentication/authorization, malware and social-engineering awareness, risk assessment, defensive best practices</li>
+<li>Real protocol-layer networking theory from CIS 225</li>
+<li>Security hardening as a practiced deployment step (CIS 400)</li>
+<li>Trust-boundary thinking embedded across the entire Boundaries &amp; Contracts thread</li>
+<li>Applied cryptography and least-privilege framing are <strong>not yet real content</strong> — both are confirmed design intent for CIS 251 that hasn&rsquo;t been drafted in, a genuine open item rather than settled foundation (see <code>specializations/cybersecurity.md</code>&rsquo;s faculty concerns)</li>
+</ul>
+<p>These are foundations for advanced cybersecurity coursework built through building and operating systems rather than through survey study — but genuinely thin in places (applied cryptography, formal risk frameworks, least privilege). The gap is both operational breadth (frameworks, physical security, network tooling) <em>and</em> some core content that was planned but never drafted.</p>
+<hr>
+<h2 id="open-questions-for-faculty-review">Open questions for faculty review</h2>
+<ol>
+<li><strong>CIS 251&rsquo;s undrafted content.</strong> Applied cryptography (tied to the core&rsquo;s modular-arithmetic content) and least privilege are both confirmed design intent for CIS 251 that never made it into the course&rsquo;s real SLOs or schedule. Whether to draft them in, or accept the thinner real scope, is a live decision — see <code>specializations/cybersecurity.md</code>&rsquo;s faculty concerns for the same finding from a different angle.</li>
+<li><strong>Networking prerequisite sequencing.</strong> CIS 225 (Y2 Fall) resolves the placement question. The remaining question for the Cybersecurity specialization is sequencing: specialization courses that build on network-layer theory should list CIS 225 as a prerequisite, which means they cannot be taken earlier than Y2 Fall. A student who enters the specialization immediately after completing the core is well positioned; a student seeking earlier entry would need a bridging arrangement.</li>
+<li><strong>Placement credit.</strong> Should AP Cybersecurity satisfy any core requirement or grant placement into the specialization? This mapping suggests it is <em>not</em> a core substitute (the AP course does not cover the programming, systems-thinking, and software-security-design content the core provides), but it may warrant placement into an accelerated track within the specialization.</li>
+<li><strong>AP alignment for incoming students.</strong> Students who took AP Cybersecurity will have strong operational vocabulary (CIA triad, attack lifecycle, threat actor taxonomy, network attack names) that the core does not develop. Acknowledging this in specialization advising — treating AP Cybersecurity as complementary rather than overlapping — would help those students understand the value of the core rather than feeling they&rsquo;ve already &ldquo;done security.&rdquo;</li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+      
+      
+      
+    </div>
+    <script src="/two-year-refactor/js/clipboard/clipboard.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/perfect-scrollbar/perfect-scrollbar.min.js?1790565267" defer></script>
+    <script src="/two-year-refactor/js/theme.min.js?1790565267" defer></script>
+      
+      
+      
+    </div> 
+  <script src="/two-year-refactor/js/tele-scroll.min.js?1790565267" defer></script>
+  </body>
+</html>

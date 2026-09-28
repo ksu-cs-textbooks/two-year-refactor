@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 120 – Web Foundations :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-120/index.html</link>
+    <description>Course Description The Internet, web browsers, and web-page-development technology: web-page design and implementation with Hypertext Markup Language (HTML), CSS, and JavaScript utilizing a modern webpage design. Students will also get hands-on experience deploying their own website.&#xA;Course Overview This course.&#xA;Course Goals and Learning Outcomes Construct standards-compliant web pages using HTML, CSS, and JavaScript while maintaining separation of concerns. Develop accessible web pages that conform to established usability and accessibility guidelines. Implement responsive, modern page layouts and visual styling using CSS. Create interactive web functionality through JavaScript and Document Object Model manipulation. Retrieve, process, and display data from Web APIs using JavaScript. Evaluate websites using industry standards for user experience and design quality. Course Prerequisites None/varies by topic. Instructor permission required.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-120/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
