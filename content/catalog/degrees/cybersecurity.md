@@ -26,17 +26,17 @@ The Bachelor of Cybersecurity is accredited by ABET.
           courses: [
             { subject: "CIS", number: 115, name: "Introduction to Computing Science", hours: 2 },
             { subject: "CIS", number: 116, name: "Introduction to Programming", hours: 1 },
-            { subject: "DEN", number: 161, name: "Engineering Problem Solving", hours: 1 },
             { subject: "CIS", number: 120, name: "Web Foundations", hours: 1 },
-            { subject: "MATH", number: "XXX", name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
+            { subject: "MATH", number: 200, name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
             {
               subject: "MATH",
-              number: "XXX",
+              number: 201,
               name: "Counting Finite Configurations",
               hours: 1,
               dur: 0.5,
               place: "end",
             },
+            { subject: "DEN", number: 161, name: "Engineering Problem Solving", hours: 1 },            
             { subject: "ENGL", number: 100, name: "Expository Writing I", hours: 3 },
             { type: "elective", name: "Core Communication Requirement", hours: 3 },
             { type: "elective", name: "Social & Behavioral Sciences Requirement", hours: 3 },
@@ -45,18 +45,18 @@ The Bachelor of Cybersecurity is accredited by ABET.
         {
           name: "Spring",
           courses: [
-            { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
             { subject: "CIS", number: 200, name: "Programming Fundamentals", hours: 4 },
+            { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
             { type: "elective", name: "Calculus (choose I, II, or III)", hours: 4 },
             {
               subject: "MATH",
-              number: "XXX",
+              number: 202,
               name: "Recursive and Modular Computation",
               hours: 1,
               dur: 0.5,
               place: "start",
             },
-            { subject: "MATH", number: "XXX", name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
+            { subject: "MATH", number: 203, name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
             { subject: "ENGL", number: 200, name: "Expository Writing II", hours: 3 },
           ],
         },
@@ -87,8 +87,8 @@ The Bachelor of Cybersecurity is accredited by ABET.
               name: "Software Design, Implementation, and Testing",
               hours: 3,
             },
-            { subject: "ECE", number: 241, name: "Introduction to Electrical and Computer Engineering", hours: 3 },            
-            { subject: "STAT", number: "XXX", name: "Computational Statistics", hours: 4 },
+            { subject: "ECE", number: 241, name: "Introduction to Electrical and Computer Engineering", hours: 3 },
+            { subject: "STAT", number: 492, name: "Probability and Statistics for Data Science", hours: 4 },
             { subject: "SOCIO", number: 211, name: "Introduction to Sociology", hours: 3 }
           ],
         },
@@ -110,10 +110,10 @@ The Bachelor of Cybersecurity is accredited by ABET.
         {
           name: "Spring",
           courses: [
-            { subject: "CIS", number: 560, name: "Database System Concepts", hours: 3 },
-            { subject: "CIS", number: 553, name: "Fundamentals of Cryptography", hours: 3 },
-            { subject: "CIS", number: 575, name: "Introduction to Algorithm Analysis", hours: 3 },
             { subject: "CIS", number: 415, name: "Ethics and Conduct for Computing Professionals", hours: 3 },
+            { subject: "CIS", number: 553, name: "Fundamentals of Cryptography", hours: 3 },
+            { subject: "CIS", number: 560, name: "Database System Concepts", hours: 3 },
+            { subject: "CIS", number: 575, name: "Introduction to Algorithm Analysis", hours: 3 },
             { subject: "CRIM", number: 550, name: "Cybercrime, Security, and Society", hours: 3 }
           ],
         },
@@ -125,9 +125,9 @@ The Bachelor of Cybersecurity is accredited by ABET.
         {
           name: "Fall",
           courses: [
-            { subject: "CIS", number: 551, name: "Fundamentals of Computer and Information Security", hours: 3 },
+            { subject: "CIS", number: 511, name: "Introduction to Agentic Software Engineering", hours: 3 },
             { subject: "CIS", number: 525, name: "Introduction to Network Programming", hours: 3 },
-            { subject: "CIS", number: "XXX", name: "Agentic Software Development", hours: 3 },
+            { subject: "CIS", number: 551, name: "Fundamentals of Computer and Information Security", hours: 3 },
             { type: "elective", name: "Arts & Humanities Requirement", hours: 3 },
             { type: "elective", name: "Free Elective", hours: 3 },
           ],

@@ -30,10 +30,10 @@ The Bachelor in Computer Science is accredited by ABET.
               { subject: "CIS", number: 116, name: "Introduction to Programming", hours: 1 },
               { subject: "DEN", number: 161, name: "Engineering Problem Solving", hours: 1 },
               { subject: "CIS", number: 120, name: "Web Foundations", hours: 1 },
-              { subject: "MATH", number: "XXX", name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
+              { subject: "MATH", number: 200, name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
               {
                 subject: "MATH",
-                number: "XXX",
+                number: 201,
                 name: "Counting Finite Configurations",
                 hours: 1,
                 dur: 0.5,
@@ -47,18 +47,18 @@ The Bachelor in Computer Science is accredited by ABET.
           {
             name: "Spring",
             courses: [
-              { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
               { subject: "CIS", number: 200, name: "Programming Fundamentals", hours: 4 },
+              { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
               { type: "elective", name: "Calculus (choose I, II, or III)", hours: 4 },
               {
                 subject: "MATH",
-                number: "XXX",
+                number: 202,
                 name: "Recursive and Modular Computation",
                 hours: 1,
                 dur: 0.5,
                 place: "start",
               },
-              { subject: "MATH", number: "XXX", name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
+              { subject: "MATH", number: 203, name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
               { subject: "ENGL", number: 200, name: "Expository Writing II", hours: 3 },
             ],
           },
@@ -90,7 +90,7 @@ The Bachelor in Computer Science is accredited by ABET.
                 hours: 3,
               },
               { subject: "ECE", number: 241, name: "Introduction to Electrical and Computer Engineering", hours: 3 },
-              { subject: "STAT", number: "XXX", name: "Computational Statistics", hours: 4 },
+              { subject: "STAT", number: 490, name: "Probability and Statistics for Data Science", hours: 4 },
               { type: "elective", name: "Required Communications Elective", hours: 3 }
             ],
           },
@@ -129,7 +129,7 @@ The Bachelor in Computer Science is accredited by ABET.
             courses: [
               { type: "elective", name: "Systems Elective (CIS 520, 525, or 625)", hours: 3 },
               { type: "elective", name: "Technical Elective", hours: 3 },
-              { subject: "CIS", number: "XXX", name: "Agentic Software Development", hours: 3 },
+              { subject: "CIS", number: "511", name: "Introduction to Agentic Software Engineering", hours: 3 },
               { type: "elective", name: "Arts & Humanities Requirement", hours: 3 },
               { type: "elective", name: "Free Elective", hours: 3 },
             ],

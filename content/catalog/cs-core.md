@@ -4,10 +4,9 @@ weight = 10
 ordinal = "2.0"
 +++
 
-The Computer Science core presents a cohesive 2-year (4-semester) experience grounding students in the foundations of computer science. It adopts a spiral curriculum integrating hands-on code reading, debugging, and development exercises, including working with four cornerstone software projects throughout and culminating in a two-year capstone experience. The core is shared across the department's bachelors degrees: [Computer Science]
+The Computer Science core presents a cohesive 2-year (4-semester) experience grounding students in the foundations of computer science. It adopts a spiral curriculum integrating hands-on code reading, debugging, and development exercises, including working with four cornerstone software projects throughout and culminating in a two-year capstone experience. The core is shared across the department's bachelors degrees: Computer Science, Cybersecurity, and Artificial Intelligence Systems & Applications.
 
-
-The core spans four 16-week semesters (Years 1–2) and is **identical across every degree** — specialization happens entirely in the upper division. It combines CIS/MATH/STAT courses with K-State Core general-education requirements:
+The core spans four 16-week semesters (Years 1–2) and is **identical across every degree** — specialization happens entirely in the upper division. It combines CIS/MATH/STATS courses with K-State Core general-education requirements:
 
 {{< degree-map style="min-width: 1200px">}}
 <script type="module">
@@ -27,17 +26,17 @@ The core spans four 16-week semesters (Years 1–2) and is **identical across ev
             courses: [
               { subject: "CIS", number: 115, name: "Introduction to Computing Science", hours: 2 },
               { subject: "CIS", number: 116, name: "Introduction to Programming", hours: 1 },
-              { subject: "DEN", number: 161, name: "Engineering Problem Solving", hours: 1 },
               { subject: "CIS", number: 120, name: "Web Foundations", hours: 1 },
-              { subject: "MATH", number: "XXX", name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
+              { subject: "MATH", number: 200, name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
               {
                 subject: "MATH",
-                number: "XXX",
+                number: 201,
                 name: "Counting Finite Configurations",
                 hours: 1,
                 dur: 0.5,
                 place: "end",
               },
+              { subject: "DEN", number: 161, name: "Engineering Problem Solving", hours: 1 },
               { subject: "ENGL", number: 100, name: "Expository Writing I", hours: 3 },
               { type: "elective", name: "Core Communication Requirement", hours: 3 },
               { type: "elective", name: "Social & Behavioral Sciences Requirement", hours: 3 },
@@ -46,18 +45,18 @@ The core spans four 16-week semesters (Years 1–2) and is **identical across ev
           {
             name: "Spring",
             courses: [
-              { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
               { subject: "CIS", number: 200, name: "Programming Fundamentals", hours: 4 },
+              { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
               { type: "elective", name: "Calculus (choose I, II, or III)", hours: 4 },
               {
                 subject: "MATH",
-                number: "XXX",
+                number: 202,
                 name: "Recursive and Modular Computation",
                 hours: 1,
                 dur: 0.5,
                 place: "start",
               },
-              { subject: "MATH", number: "XXX", name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
+              { subject: "MATH", number: 203, name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
               { subject: "ENGL", number: 200, name: "Expository Writing II", hours: 3 },
             ],
           },
@@ -89,8 +88,8 @@ The core spans four 16-week semesters (Years 1–2) and is **identical across ev
                 hours: 3,
               },
               { subject: "ECE", number: 241, name: "Introduction to Electrical and Computer Engineering", hours: 3 },
-              { subject: "STAT", number: "XXX", name: "Computational Statistics", hours: 4 },
-              { type: "elective", name: "Required Communicaitons Elective", hours: 3 }
+              { subject: "STATS", number: 490, name: "Computational Statistics", hours: 4 },
+              { type: "elective", name: "Required Communications Elective", hours: 3 }
             ],
           },
         ],

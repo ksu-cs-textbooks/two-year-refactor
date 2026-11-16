@@ -1,5 +1,5 @@
 +++
-title = "STAT XXX - Computational Statistics"
+title = "STAT 490 - Probability and Statistics for Data Science"
 +++
 
 > This document describes a proposed computational statistics course to serve the common computing foundation being developed by the department of computing science. This course is intended to be housed in the Department of Statistics and will be co-designed with computer science faculty. Exact numbering is not yet determined.
