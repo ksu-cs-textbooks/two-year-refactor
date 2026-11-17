@@ -1,5 +1,5 @@
 +++
-title = "STAT XXX - Statistical Foundations of Data Science"
+title = "STATS 492 - Statistical Foundations of Data Science"
 weight = 9001
 +++
 

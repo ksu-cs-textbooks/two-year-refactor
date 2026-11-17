@@ -11,7 +11,7 @@ The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditati
 {{< degree-map style="width: 2300px" >}}
 <script type="module">
   const plan = {
-    name: "Bachelor of Science in Artificial Intelligence",
+    name: "Bachelor of Science in Artificial Intelligence Systems & Applications",
     version: "Draft",
     theme: {
       color: "#512888",
@@ -26,17 +26,17 @@ The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditati
             courses: [
               { subject: "CIS", number: 115, name: "Introduction to Computing Science", hours: 2 },
               { subject: "CIS", number: 116, name: "Introduction to Programming", hours: 1 },
-              { subject: "DEN", number: 161, name: "Engineering Problem Solving", hours: 1 },
               { subject: "CIS", number: 120, name: "Web Foundations", hours: 1 },
-              { subject: "MATH", number: "XXX", name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
+              { subject: "MATH", number: "200", name: "Logic and Sets", hours: 1, dur: 0.5, place: "start" },
               {
                 subject: "MATH",
-                number: "XXX",
+                number: "201",
                 name: "Counting Finite Configurations",
                 hours: 1,
                 dur: 0.5,
                 place: "end",
               },
+              { subject: "DEN", number: 161, name: "Engineering Problem Solving", hours: 1 },
               { subject: "ENGL", number: 100, name: "Expository Writing I", hours: 3 },
               { type: "elective", name: "Core Communication Requirement", hours: 3 },
               { type: "elective", name: "Social & Behavioral Sciences Requirement", hours: 3 },
@@ -45,18 +45,18 @@ The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditati
           {
             name: "Spring",
             courses: [
-              { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
               { subject: "CIS", number: 200, name: "Programming Fundamentals", hours: 4 },
+              { subject: "CIS", number: 260, name: "Foundations of Relational Databases", hours: 1 },
               { type: "elective", name: "Calculus (choose I, II, or III)", hours: 4 },
               {
                 subject: "MATH",
-                number: "XXX",
+                number: "202",
                 name: "Recursive and Modular Computation",
                 hours: 1,
                 dur: 0.5,
                 place: "start",
               },
-              { subject: "MATH", number: "XXX", name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
+              { subject: "MATH", number: "203", name: "Graphs, Trees, and Maps", hours: 1, dur: 0.5, place: "end" },
               { subject: "ENGL", number: 200, name: "Expository Writing II", hours: 3 },
             ],
           },
@@ -68,11 +68,11 @@ The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditati
           {
             name: "Fall",
             courses: [
-              { subject: "CIS", number: 300, name: "Data and Program Structures", hours: 3 },
-              { subject: "CIS", number: 301, name: "Logical Foundations of Programming", hours: 3 },
-              { type: "elective", name: "Linear Algebra (MATH 350, 515, or 551)", hours: 3 },
               { subject: "CIS", number: 225, name: "Foundations of Computer Networks", hours: 1, dur: 0.5, place: "start" },
               { subject: "CIS", number: 251, name: "Foundations of Cybersecurity", hours: 1, dur: 0.5, place: "end" },
+              { subject: "CIS", number: 300, name: "Data and Program Structures", hours: 3 },
+              { subject: "CIS", number: 301, name: "Logical Foundations of Programming", hours: 3 },
+              { type: "elective", name: "Linear Algebra (MATH 350, 515, or 551)", hours: 3 },              
               { type: "elective", name: "Natural & Physical Sciences Requirement (with Lab)", hours: 4 },
             ],
           },
@@ -87,8 +87,8 @@ The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditati
                 name: "Software Design, Implementation, and Testing",
                 hours: 3,
               },
-              { subject: "ECE", number: 241, name: "Introduction to Electrical and Computer Engineering", hours: 3 },            
-              { subject: "STAT", number: "XXX", name: "Computational Statistics", hours: 4 },
+              { subject: "ECE", number: 241, name: "Introduction to Electrical and Computer Engineering", hours: 3 },
+              { subject: "STAT", number: "492", name: "Probability and Statistics for Data Science", hours: 4 },
               { type: "elective", name: "Required Communications Elective", hours: 3 }
             ],
           },
@@ -103,16 +103,16 @@ The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditati
               { subject: "CIS", number: 450, name: "Computer Architecture and Operations", hours: 3 },
               { subject: "CIS", number: 501, name: "Software Architecture and Design", hours: 3 },
               { subject: "CIS", number: 505, name: "Introduction to Programming Languages", hours: 3 },
-              { subject: "CIS", number: 530, name: "Introduction to Artificial Intelligence", hours: 3 },
-              { type: "elective", name: "Social and Behavioral Sciences Requirement", hours: 3 },
+              { subject: "CIS", number: 533, name: "Introduction to Data Science Foundations", hours: 3 },
+              { type: "elective", name: "Social and Behavioral Sciences Requirement", hours: 3 }
             ],
           },
           {
             name: "Spring",
             courses: [
-              { subject: "CIS", number: 560, name: "Database System Concepts", hours: 3 },
-              { subject: "CIS", number: 575, name: "Introduction to Algorithm Analysis", hours: 3 },
               { subject: "CIS", number: 415, name: "Ethics and Conduct for Computing Professionals", hours: 3 },
+              { subject: "CIS", number: 530, name: "Introduction to Artificial Intelligence", hours: 3 },
+              { subject: "CIS", number: 560, name: "Database System Concepts", hours: 3 },
               { type: "elective", name: "Arts & Humanities Requirement", hours: 3 },
               { type: "elective", name: "Free Elective", hours: 3 },
             ],
@@ -125,9 +125,9 @@ The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditati
           {
             name: "Fall",
             courses: [
+              { subject: "CIS", number: 511, name: "Introduction to Agentic Software Engineering", hours: 3 },
+              { subject: "CIS", number: 531, name: "Introduction to Programming Techniques for Data Science and Analytics", hours: 3 },
               { subject: "CIS", number: 532, name: "Introduction to Deep Learning", hours: 3 },
-              { subject: "CIS", number: 533, name: "Introduction to Data Science Foundations", hours: 3 },
-              { subject: "CIS", number: "XXX", name: "Agentic Software Development", hours: 3 },
               { type: "elective", name: "Arts & Humanities Requirement", hours: 3 },
               { type: "elective", name: "Free Elective", hours: 3 },
             ],
@@ -135,10 +135,10 @@ The Bachelor of Artificial Intelligence will be reviewed by ABET for accreditati
           {
             name: "Spring",
             courses: [
+              { subject: "CIS", number: 535, name: "Introduction to Knowledge Graphs", hours: 3 },
+              { subject: "CIS", number: 575, name: "Introduction to Algorithm Analysis", hours: 3 },
               { subject: "CIS", number: 597, name: "AI Capstone", hours: 3 },
-              { subject: "CIS", number: 536, name: "Knowledge Graphs", hours: 3 },
               { type: "elective", name: "AI Application Area", hours: 3 },
-              { type: "elective", name: "Systems Elective (CIS 520, 525, or 625)", hours: 3 },
               { type: "elective", name: "Technical Writing (ENGL 415 or 516)", hours: 3 },
             ],
           },
