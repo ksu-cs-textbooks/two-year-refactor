@@ -155,6 +155,13 @@
       <description>Course Description History, programming language concepts including type, scope and extent, abstraction mechanisms and control; programming paradigms, including one or more of logic, functional, and object-oriented programming, and programming languages supporting the selected paradigms; interpreters, compilers and virtual machines for the selected languages; storage management and garbage collection; type checking and type inference.&#xA;Credit Hours 3 credits&#xA;Course Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md (2026-07-14) confirms this course is “leaning required” — not fully settled, but no longer just “may become an elective” — and is the confirmed home for most of the core’s formal-language content (grammars, parsing), anchoring the ABET “computer science theory” formal-languages sub-area.</description>
     </item>
     <item>
+      <title>CIS 511 - Introduction to Agentic Software Engineering</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-511/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-511/index.html</guid>
+      <description>Course Description This course introduces students to agentic software engineering: building software and systems with AI agents through disciplined, repeatable, and scalable practices rather than “vibe coding.”&#xA;Credit Hours 3 credits&#xA;Course Prerequisites Prerequisite: CIS 501&#xA;Course Overview The course begins by teaching students to implement a simple coding agent. LLM-based agents are themselves a computing platform: they operate through a set of primitives that includes calling an LLM with context, invoking tools, and receiving instructions from a human developer. Each step incurs costs and may introduce errors or security risks. To use agents effectively, students need to understand their anatomy, develop a mental model of their execution, estimate costs, and identify potential sources of failure and security vulnerabilities. This understanding also enables students to customize and extend agents for greater effectiveness and efficiency in a particular development context. The course also examines how agents interact with conventional development tools, such as testing frameworks and source code repositories, and how agentic development changes established practices or calls for new tools.</description>
+    </item>
+    <item>
       <title>CIS 520 - Operating Systems I</title>
       <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-520/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -204,17 +211,38 @@
       <description>Course Description Continuation of CIS 642. Final implementation, integration, and testing of a software system. Introduction to configuration management, project management, and software maintenance.&#xA;Credit Hours 3 credits&#xA;Course Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md lists this as one of three choices (with CIS 598, DEN 591) for the Year 4 Capstone. Note the prerequisite below (CIS 642, taken the preceding semester) isn’t itself in the current core’s Year 3–4 elective structure as documented — worth confirming this pathway is actually reachable under the redesigned map before treating it as a settled capstone option.</description>
     </item>
     <item>
-      <title>CIS XXX - Agentic Software Development</title>
-      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-xxx/index.html</link>
+      <title>MATH 200 - Logic and Sets</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-200/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-xxx/index.html</guid>
-      <description>Course Description This course introduces students to agentic software engineering: building software and systems with AI agents through disciplined, repeatable, and scalable practices rather than “vibe coding.”&#xA;Credit Hours 3 credits&#xA;Course Prerequisites Prerequisite: CIS 501&#xA;Course Overview The course begins by teaching students to implement a simple coding agent. LLM-based agents are themselves a computing platform: they operate through a set of primitives that includes calling an LLM with context, invoking tools, and receiving instructions from a human developer. Each step incurs costs and may introduce errors or security risks. To use agents effectively, students need to understand their anatomy, develop a mental model of their execution, estimate costs, and identify potential sources of failure and security vulnerabilities. This understanding also enables students to customize and extend agents for greater effectiveness and efficiency in a particular development context. The course also examines how agents interact with conventional development tools, such as testing frameworks and source code repositories, and how agentic development changes established practices or calls for new tools.</description>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-200/index.html</guid>
+      <description>Course Description This course introduces the language and structures used for mathematical reasoning in computer science. Students translate statements into propositional logic, analyze truth and logical equivalence, work with normal forms and satisfiability, and use sets, functions, and relations to model discrete systems.&#xA;Credit Hours 1 credit&#xA;Course Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:&#xA;Explain basic terminology and operations for sets, relations, and functions. Relate examples to the appropriate set, function, or relation model. Convert statements to propositional and predicate logic expressions. Course Prerequisites Prerequisite: College algebra</description>
     </item>
     <item>
-      <title>STAT XXX - Statistical Foundations of Data Science</title>
-      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/stat-xxx/index.html</link>
+      <title>MATH 201 - Counting Finite Configurations</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-201/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/stat-xxx/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-201/index.html</guid>
+      <description>Course Description This course develops systematic methods for counting finite configurations. Students work with finite sets and cardinality, apply sum and product rules, use permutations and combinations, and solve problems with binomial coefficients, the Binomial Theorem, the pigeonhole principle, and inclusion-exclusion.&#xA;Credit Hours 1 credit&#xA;Course Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:&#xA;Calculate the size of a finite set and distinguish between finite and infinite sets based on cardinality. Apply counting arguments such as the multiplication principle, inclusion-exclusion principle, and pigeonhole principle. Compute permutations and combinations of a set. Demonstrate knowledge of binomial coefficients and the Binomial Theorem. Course Prerequisites Prerequisite: MATH 200</description>
+    </item>
+    <item>
+      <title>MATH 202 - Recursive and Modular Computation</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-202/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-202/index.html</guid>
+      <description>Course Description This course studies recursive processes and arithmetic on the integers. Students work with recursive definitions and recurrence relations, analyze arithmetic, geometric, and logistic sequences, use mathematical induction, and perform computations involving divisibility, prime factorization, modular arithmetic, greatest common divisors, and Euclid’s Algorithm.&#xA;Credit Hours 1 credit&#xA;Course Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:&#xA;Apply proof techniques of direct proof, proof by contradiction, weak and strong induction. Distinguish between inductive and recursive definitions and formulas. Apply recursive definitions and solve basic recurrence relations. Perform computations involving modular arithmetic. Use Euclid’s Algorithm and compute the greatest common divisor of two integers. Course Prerequisites Prerequisite: MATH 201</description>
+    </item>
+    <item>
+      <title>MATH 203 - Graphs, Trees, and Networks</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-203/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-203/index.html</guid>
+      <description>Course Description This course introduces graphs and trees as models for networks and discrete structures. Students use graph terminology, recognize important graph classes, work with matrix and weighted representations, apply traversal and shortest-path algorithms, and analyze trees, spanning trees, planar graphs, Euler paths, and Hamiltonian paths.&#xA;Credit Hours 1 credit&#xA;Course Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:&#xA;Apply proof techniques of direct proof, proof by contradiction, weak and strong induction. Distinguish between inductive and recursive definitions and formulas. Apply recursive definitions and solve basic recurrence relations. Perform computations involving modular arithmetic. Use Euclid’s Algorithm and compute the greatest common divisor of two integers. Course Prerequisites Prerequisite: MATH 202</description>
+    </item>
+    <item>
+      <title>STATS 492 - Statistical Foundations of Data Science</title>
+      <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/stats-492/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/stats-492/index.html</guid>
       <description>This document describes a proposed computational statistics course to serve the common computing foundation being developed by the department of computing science. This course is intended to be housed in the Department of Statistics and will be co-designed with computer science faculty. Exact numbering is not yet determined.&#xA;Also important to note is that between this course, the discrete mathematics sequence, and calculus, the following ABET accreditation requirements must be met: At least 9 semester credit hours (or equivalent) must include statistical inference and modeling, linear algebra, probability, data visualization, and optimization topics.</description>
     </item>
   </channel>

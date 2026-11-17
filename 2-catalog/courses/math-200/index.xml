@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATH 200 - Logic and Sets :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-200/index.html</link>
+    <description>Course Description This course introduces the language and structures used for mathematical reasoning in computer science. Students translate statements into propositional logic, analyze truth and logical equivalence, work with normal forms and satisfiability, and use sets, functions, and relations to model discrete systems.&#xA;Credit Hours 1 credit&#xA;Course Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:&#xA;Explain basic terminology and operations for sets, relations, and functions. Relate examples to the appropriate set, function, or relation model. Convert statements to propositional and predicate logic expressions. Course Prerequisites Prerequisite: College algebra</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-200/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATH 201 - Counting Finite Configurations :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-201/index.html</link>
+    <description>Course Description This course develops systematic methods for counting finite configurations. Students work with finite sets and cardinality, apply sum and product rules, use permutations and combinations, and solve problems with binomial coefficients, the Binomial Theorem, the pigeonhole principle, and inclusion-exclusion.&#xA;Credit Hours 1 credit&#xA;Course Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:&#xA;Calculate the size of a finite set and distinguish between finite and infinite sets based on cardinality. Apply counting arguments such as the multiplication principle, inclusion-exclusion principle, and pigeonhole principle. Compute permutations and combinations of a set. Demonstrate knowledge of binomial coefficients and the Binomial Theorem. Course Prerequisites Prerequisite: MATH 200</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-201/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

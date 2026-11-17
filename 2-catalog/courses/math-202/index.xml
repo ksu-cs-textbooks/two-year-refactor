@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATH 202 - Recursive and Modular Computation :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-202/index.html</link>
+    <description>Course Description This course studies recursive processes and arithmetic on the integers. Students work with recursive definitions and recurrence relations, analyze arithmetic, geometric, and logistic sequences, use mathematical induction, and perform computations involving divisibility, prime factorization, modular arithmetic, greatest common divisors, and Euclid’s Algorithm.&#xA;Credit Hours 1 credit&#xA;Course Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:&#xA;Apply proof techniques of direct proof, proof by contradiction, weak and strong induction. Distinguish between inductive and recursive definitions and formulas. Apply recursive definitions and solve basic recurrence relations. Perform computations involving modular arithmetic. Use Euclid’s Algorithm and compute the greatest common divisor of two integers. Course Prerequisites Prerequisite: MATH 201</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-202/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

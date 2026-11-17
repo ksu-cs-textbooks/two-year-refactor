@@ -50,7 +50,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Catalog \u003e Degree Programs",
     "description": "The department’s flagship degree, the Bachelor in Computer Science retains its flexibility as a degree option providing students with many electives. This flexibility allows students to customize the degree to the career they have chosen for themselves, mixing computing know-how from technical electives with other-discipline domain knowledge from unrestricted electives.\nOur specialization degrees – Artificial Intelligence and Cybersecurity – are essentially the computer science degree with specific electives chosen. Thus, every major graduating with a specialization degree also earns a Bachelor of Computer Science with no additional coursework required.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-17T16:49:48-06:00",
     "tags": [],
     "title": "Computer Science",
     "uri": "/two-year-refactor/2-catalog/degrees/computer-science/index.html"
@@ -66,7 +66,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Catalog",
     "description": "All degrees offered by the Department of Computer Science (the Bachelor of Computer Science, the Bachelor of Cybersecurity, and the Bachelor of Artificial Intelligence) share a rigorous 2-year (4-semester) experience grounding students in the foundations of computer science. This sequence of courses draws upon research-backed practices in its design (see chapter 1), where students explore and extend real-world, complex production software systems (see chapter 3) leading to a capstone software development experience at the end of the second year.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-17T16:49:48-06:00",
     "tags": [],
     "title": "Computing Foundations",
     "uri": "/two-year-refactor/2-catalog/computing-foundations/index.html"
@@ -138,7 +138,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Catalog \u003e Degree Programs",
     "description": "Proposed for Fall 2027, the Artificial Intelligence degree builds upon the department’s expertise and existing courses in AI, machine learning, and knowledge representation to present a cohesive synthesis of modern AI techniques and architectures. As a specialization degree, students earning a Bachelors in AI will also earn a Bachelors of Computer Science with no additional coursework required.\nThe Bachelor of Artificial Intelligence will be reviewed by ABET for accreditation in our next cycle.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-17T16:49:48-06:00",
     "tags": [],
     "title": "Artificial Intelligence",
     "uri": "/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.html"
@@ -266,7 +266,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Catalog \u003e Degree Programs",
     "description": "The Cybersecurity degree leverages the department’s expertise in cybersecurity and designation as a Center for Academic Excellence in Cybersecurity Research, providing hands-on training including systems-level thinking and secure coding practices. As a specialization degree, students earning a Bachelors in AI will also earn a Bachelors of Computer Science with no additional coursework required.\nThe Bachelor of Cybersecurity is accredited by ABET.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-17T16:49:48-06:00",
     "tags": [],
     "title": "Cybersecurity",
     "uri": "/two-year-refactor/2-catalog/degrees/cybersecurity/index.html"
@@ -721,6 +721,14 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description This course introduces students to agentic software engineering: building software and systems with AI agents through disciplined, repeatable, and scalable practices rather than “vibe coding.”\nCredit Hours 3 credits\nCourse Prerequisites Prerequisite: CIS 501\nCourse Overview The course begins by teaching students to implement a simple coding agent. LLM-based agents are themselves a computing platform: they operate through a set of primitives that includes calling an LLM with context, invoking tools, and receiving instructions from a human developer. Each step incurs costs and may introduce errors or security risks. To use agents effectively, students need to understand their anatomy, develop a mental model of their execution, estimate costs, and identify potential sources of failure and security vulnerabilities. This understanding also enables students to customize and extend agents for greater effectiveness and efficiency in a particular development context. The course also examines how agents interact with conventional development tools, such as testing frameworks and source code repositories, and how agentic development changes established practices or calls for new tools.",
+    "modified": "2026-11-17T16:49:48-06:00",
+    "tags": [],
+    "title": "CIS 511 - Introduction to Agentic Software Engineering",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-511/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
     "description": "Course Description Operating systems concepts, services, and implementation: interrupt processing, processes, concurrency, deadlocks, resource scheduling and system structure; resource management: real and virtual storage, input/output systems, disk scheduling and file systems; design and construction of concurrent programs.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md lists this as one of three choices (with CIS 525, CIS 625) for the Year 4 Systems Elective, which “fulfils ABET networking and OS requirements; may become a regular tech elective instead.”",
     "modified": "2026-09-28T03:08:36+00:00",
     "tags": [],
@@ -777,19 +785,43 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description This course introduces students to agentic software engineering: building software and systems with AI agents through disciplined, repeatable, and scalable practices rather than “vibe coding.”\nCredit Hours 3 credits\nCourse Prerequisites Prerequisite: CIS 501\nCourse Overview The course begins by teaching students to implement a simple coding agent. LLM-based agents are themselves a computing platform: they operate through a set of primitives that includes calling an LLM with context, invoking tools, and receiving instructions from a human developer. Each step incurs costs and may introduce errors or security risks. To use agents effectively, students need to understand their anatomy, develop a mental model of their execution, estimate costs, and identify potential sources of failure and security vulnerabilities. This understanding also enables students to customize and extend agents for greater effectiveness and efficiency in a particular development context. The course also examines how agents interact with conventional development tools, such as testing frameworks and source code repositories, and how agentic development changes established practices or calls for new tools.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description This course introduces the language and structures used for mathematical reasoning in computer science. Students translate statements into propositional logic, analyze truth and logical equivalence, work with normal forms and satisfiability, and use sets, functions, and relations to model discrete systems.\nCredit Hours 1 credit\nCourse Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:\nExplain basic terminology and operations for sets, relations, and functions. Relate examples to the appropriate set, function, or relation model. Convert statements to propositional and predicate logic expressions. Course Prerequisites Prerequisite: College algebra",
+    "modified": "2026-11-17T16:49:48-06:00",
     "tags": [],
-    "title": "CIS XXX - Agentic Software Development",
-    "uri": "/two-year-refactor/2-catalog/courses/cis-xxx/index.html"
+    "title": "MATH 200 - Logic and Sets",
+    "uri": "/two-year-refactor/2-catalog/courses/math-200/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description This course develops systematic methods for counting finite configurations. Students work with finite sets and cardinality, apply sum and product rules, use permutations and combinations, and solve problems with binomial coefficients, the Binomial Theorem, the pigeonhole principle, and inclusion-exclusion.\nCredit Hours 1 credit\nCourse Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:\nCalculate the size of a finite set and distinguish between finite and infinite sets based on cardinality. Apply counting arguments such as the multiplication principle, inclusion-exclusion principle, and pigeonhole principle. Compute permutations and combinations of a set. Demonstrate knowledge of binomial coefficients and the Binomial Theorem. Course Prerequisites Prerequisite: MATH 200",
+    "modified": "2026-11-17T16:49:48-06:00",
+    "tags": [],
+    "title": "MATH 201 - Counting Finite Configurations",
+    "uri": "/two-year-refactor/2-catalog/courses/math-201/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description This course studies recursive processes and arithmetic on the integers. Students work with recursive definitions and recurrence relations, analyze arithmetic, geometric, and logistic sequences, use mathematical induction, and perform computations involving divisibility, prime factorization, modular arithmetic, greatest common divisors, and Euclid’s Algorithm.\nCredit Hours 1 credit\nCourse Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:\nApply proof techniques of direct proof, proof by contradiction, weak and strong induction. Distinguish between inductive and recursive definitions and formulas. Apply recursive definitions and solve basic recurrence relations. Perform computations involving modular arithmetic. Use Euclid’s Algorithm and compute the greatest common divisor of two integers. Course Prerequisites Prerequisite: MATH 201",
+    "modified": "2026-11-17T16:49:48-06:00",
+    "tags": [],
+    "title": "MATH 202 - Recursive and Modular Computation",
+    "uri": "/two-year-refactor/2-catalog/courses/math-202/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description This course introduces graphs and trees as models for networks and discrete structures. Students use graph terminology, recognize important graph classes, work with matrix and weighted representations, apply traversal and shortest-path algorithms, and analyze trees, spanning trees, planar graphs, Euler paths, and Hamiltonian paths.\nCredit Hours 1 credit\nCourse Goals and Learning Outcomes Measurable Outcomes. Through graded coursework, upon successful completion of this course, students will:\nApply proof techniques of direct proof, proof by contradiction, weak and strong induction. Distinguish between inductive and recursive definitions and formulas. Apply recursive definitions and solve basic recurrence relations. Perform computations involving modular arithmetic. Use Euclid’s Algorithm and compute the greatest common divisor of two integers. Course Prerequisites Prerequisite: MATH 202",
+    "modified": "2026-11-17T16:49:48-06:00",
+    "tags": [],
+    "title": "MATH 203 - Graphs, Trees, and Networks",
+    "uri": "/two-year-refactor/2-catalog/courses/math-203/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
     "description": "This document describes a proposed computational statistics course to serve the common computing foundation being developed by the department of computing science. This course is intended to be housed in the Department of Statistics and will be co-designed with computer science faculty. Exact numbering is not yet determined.\nAlso important to note is that between this course, the discrete mathematics sequence, and calculus, the following ABET accreditation requirements must be met: At least 9 semester credit hours (or equivalent) must include statistical inference and modeling, linear algebra, probability, data visualization, and optimization topics.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-17T16:49:48-06:00",
     "tags": [],
-    "title": "STAT XXX - Statistical Foundations of Data Science",
-    "uri": "/two-year-refactor/2-catalog/courses/stat-xxx/index.html"
+    "title": "STATS 492 - Statistical Foundations of Data Science",
+    "uri": "/two-year-refactor/2-catalog/courses/stats-492/index.html"
   },
   {
     "breadcrumb": "",
