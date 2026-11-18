@@ -10,17 +10,12 @@
 		},
         "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
 	},
+  "overrideFeatureInstallOrder": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/anthropics/devcontainer-features/claude-code"
+  ],
 	"customizations": {
 		"vscode": {
-			// Set *default* container specific settings.json values on container create.
-			"settings": {
-			 	"terminal.integrated.shell.linux": {
-					"CLAUDE_CODE_GIT_BASH_PATH": "/bin/zsh"
-				},
-				"claudeCode.environmentVariables": {
-					"CLAUDE_CODE_GIT_BASH_PATH": "/bin/zsh"
-				}
-			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"bungcip.better-toml",

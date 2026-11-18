@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-09-28T03:04:36.345Z",
-    "fileCount": 406,
+    "lastScanned": "2026-11-18T14:59:48.798Z",
+    "fileCount": 407,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "880d5cb0fcdc17b397863920495bbe9fc808e5ede5105dac8babb4f013a0c14d",
-    "storeUpdatedAt": "2026-09-28T03:04:36.358Z",
-    "rootHash": "7cd6a670d6ffd7e8"
+    "renderedHash": "1db0af4fe054d04565df5f0ced50f793bb26222a6e76b3b12bd29ef952ed008e",
+    "storeUpdatedAt": "2026-11-18T14:59:48.829Z",
+    "rootHash": "23c3a9d9a193e5bd"
   },
   "files": {
     ".devcontainer/devcontainer-lock.json": {
@@ -4631,6 +4631,15 @@
       "size": 940,
       "mtimeMs": 1790564676300.4092,
       "updatedAt": "2026-09-28T03:04:36.343Z",
+      "source": "hook"
+    },
+    ".claude/settings.json": {
+      "description": "",
+      "tokens": 958,
+      "hash": "1d1942abf3f76ff7",
+      "size": 3350,
+      "mtimeMs": 1795013988676.1648,
+      "updatedAt": "2026-11-18T14:59:48.793Z",
       "source": "hook"
     }
   },

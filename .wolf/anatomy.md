@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-09-28T03:04:36.345Z
-> Files: 406 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-18T14:59:48.798Z
+> Files: 407 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -15,6 +15,10 @@
 - `go.sum` — Go dependency checksums (~285 tok)
 - `hugo.toml` — Base URL where the site will be hosted (~9787 tok)
 - `README.md` — Project documentation (~23 tok)
+
+## .claude/
+
+- `settings.json` (~958 tok)
 
 ## .claude/agents/
 
