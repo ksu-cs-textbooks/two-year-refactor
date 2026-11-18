@@ -1,6 +1,7 @@
 +++
 title = "CIS 220 - Platform Programming"
 weight = 220
+draft = true
 +++
 
 > *Potential new course to be developed. Initial offering would focus on programs written for the web browser. Serves as a vehicle for providing event-driven programming and operating systems coverage for progammer-specific needs. Serves as part of a three-course progression, CIS 120 → CIS 220 → CIS 320.  May need to be merged with CIS 320 to minimize staffing requirements.*

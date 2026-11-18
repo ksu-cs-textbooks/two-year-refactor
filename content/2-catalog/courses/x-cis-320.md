@@ -1,6 +1,7 @@
 +++
 title = "CIS 320 - User Experience Development"
 weight = 320
+draft = true
 +++
 
 > *Potential new course to be developed. Initial offering would focus on vue as a component-based UX library for the web. Serves as part of a three-course progression, CIS 120 → CIS 220 → CIS 320.  May need to be merged with CIS 220 to minimize staffing requirements.*
