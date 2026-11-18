@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 551 - Fundamentals of Computer and Information Security :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-551/index.html</link>
+    <description>Course Description An introduction to computer and information security, including common attack techniques, application of cryptography in security, authentication and authorization, network security, enterprise network defense, web security, and analysis of design flaws that render a system vulnerable. Course projects provide hands-on experience on both the defense and offense aspects in cyberspace.&#xA;Credit Hours 3 credits&#xA;Course Goals and Learning Outcomes TBD&#xA;Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-551/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

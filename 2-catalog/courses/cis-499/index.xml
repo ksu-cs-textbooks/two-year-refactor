@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 499 - Honors Research/Thesis :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-499/index.html</link>
+    <description>Course Description Individual research problem selected with approval of faculty advisor. A report/thesis is presented orally and in writing during the last semester.&#xA;Credit Hours 2–4 credits&#xA;Course Goals and Learning Outcomes TBD&#xA;Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-499/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

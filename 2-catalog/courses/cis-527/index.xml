@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 527 - Enterprise Systems Administration :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-527/index.html</link>
+    <description>Course Description Administration of the Linux operating system, including installation, configuration, distributed file systems, firewalls and security, shell scripting, and user account management.&#xA;Credit Hours 3 credits&#xA;Course Goals and Learning Outcomes Upon completion of this course, students will be able to:&#xA;Understand the major components of an enterprise level computer network and server system. Design and implement a simple enterprise level server system and network, as well as provision workstations on that network quickly and easily. Communicate information about enterprise systems clearly and effectively to users of all skill levels and interests. Develop ways to increase efficiency by automating tasks whenever possible using scripting and configuration management tools. Understand and describe security risks in any enterprise system and any ways that they can be mitigated. Show how to monitor enterprise systems for problems and use that information to locate and fix any issues within the system. Work with cloud technologies and describe how they can be integrated into an enterprise information technology setup. Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-527/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

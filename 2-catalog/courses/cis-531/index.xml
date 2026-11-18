@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 531 - Introduction to Programming Techniques for Data Science and Analytics :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-531/index.html</link>
+    <description>Course Description Introduction to programming techniques for working with big data. Survey of programming concepts that underlie the MapReduce architecture, their implementation, and specific tools for data integration and data transformation. Basic databases and query processing in the context of real-world problems.&#xA;Credit Hours 3 credits&#xA;Course Goals and Learning Outcomes TBD&#xA;Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-531/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

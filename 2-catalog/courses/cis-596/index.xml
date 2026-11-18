@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 596 - Entrepreneurial Computer Science Project :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-596/index.html</link>
+    <description>Course Description Directed studies: selection, investigation and report on some topic not covered in prior courses; may include an implementation and/or experimentation component; may be done in collaboration with other students. Completion of a final report with literature review and project evaluation.&#xA;Credit Hours 3 credits&#xA;Course Goals and Learning Outcomes Upon completion of this course, students will be able to:&#xA;Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions. (ABET 1) Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline. (ABET 2) Communicate effectively in a variety of professional contexts. (ABET 3) Apply computer science theory and software development fundamentals to produce computing-based solutions. (ABET 6) Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-596/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

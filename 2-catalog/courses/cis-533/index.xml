@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 533 - Introduction to Data Science Foundations :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-533/index.html</link>
+    <description>Course Description Introduction to the foundations of data science and data analytics. Computer science concepts used for making discoveries in data. Data wrangling, feature engineering, classification, regression, clustering, outlier detection, societal aspects of data science, and more. Analysis of real-word data.&#xA;Credit Hours 3 credits&#xA;Course Goals and Learning Outcomes Upon completion of this course, students will be able to:&#xA;Define and profile data science problems, and solve it using machine learning and data analytics tools. Understand and be able to apply basic machine learning and data analytic techniques. Identify machine learning and computing strategies to approach and solve problems using data. Understand discovery methods and their application to turn data into knowledge. Use statistical inference to explore data and determine the significance of discoveries. Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-533/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -136,6 +136,14 @@ var relearn_lti_index = [
     "uri": "/two-year-refactor/4-curriculum-design/lenses/lens-trustworthy-computing/index.html"
   },
   {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Presentation of professional problems and practices by students, faculty, and industry professionals associated with computing and information sciences.\nCredit Hours 0 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 015 - Undergraduate Seminar",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-015/index.html"
+  },
+  {
     "breadcrumb": "Catalog \u003e Degree Programs",
     "description": "Proposed for Fall 2027, the Artificial Intelligence degree builds upon the department’s expertise and existing courses in AI, machine learning, and knowledge representation to present a cohesive synthesis of modern AI techniques and architectures. As a specialization degree, students earning a Bachelors in AI will also earn a Bachelors of Computer Science with no additional coursework required.\nThe Bachelor of Artificial Intelligence will be reviewed by ABET for accreditation in our next cycle.",
     "modified": "2026-11-17T16:49:48-06:00",
@@ -536,6 +544,14 @@ var relearn_lti_index = [
     "uri": "/two-year-refactor/4-curriculum-design/threads/thread-boundaries-contracts/index.html"
   },
   {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Presentation of professional problems and practices by students, faculty, and professionals associated with computing science.\nCredit Hours 0 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 090 - CIS Scholars Seminar",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-090/index.html"
+  },
+  {
     "breadcrumb": "Core Design \u003e Threads",
     "description": "Working draft for faculty review. A spiral deepens through escalating passes across the two-year core. This is the spiral; one of eight spirals (with three lenses and one bounded practice — twelve threads total, plus two cross-cutting norms).\nIn one line: Systems and the humans who build them are one structural fabric (Conway’s Law) — seed → enact → defend, continuing to reflect beyond the core.\nCharacter Models the builders structurally, not just the users. Owns the collective dimension: teamwork, code review as team coordination, and Conway’s Law. (Individual craft — documentation, version-control mechanics, self-reflection — lives in the Professional Practices lens; the two meet at a deliberate seam in CIS 400, where the team produces something together but every assessed artifact stays individually attributable — see the Program Overview.)",
     "modified": "2026-09-28T03:08:36+00:00",
@@ -553,67 +569,75 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description A survey of the discipline of Computing Science and its interaction with other disciplines, incorporating historical development, theories, and tools of Computing Science (algorithm design and programming). Topics include: mechanical and digital computers, computational thinking, security, simulation, data science, web technologies, and more. Students will be able to explore real-world problems within computer science and research current topics.\nCredit Hours 2 credits\nCourse Overview This course is an introduction to the history, fundamental theories, basic programming, and research areas within Computing Science and its related disciplines. Computing Science has a direct impact on many facets of daily life, but very few of us ever take the time to wonder how it all works. This course aims to fill that void.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description TBD\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
-    "title": "CIS 115 - Introduction to Computer Science",
+    "title": "CIS 110 - Introduction to Personal Computing",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-110/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description A survey of the discipline of Computing Science and its interaction with other disciplines, incorporating historical development, theories, and tools of Computing Science (algorithm design and programming). Topics include: mechanical and digital computers, computational thinking, security, simulation, data science, web technologies, and more. Students will be able to explore real-world problems within computer science and research current topics.\nCredit Hours 2 credits\nCourse Overview This course is an introduction to the history, fundamental theories, basic programming, and research areas within Computing Science and its related disciplines. Computing Science has a direct impact on many facets of daily life, but very few of us ever take the time to wonder how it all works. This course aims to fill that void.",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 115 - Introduction to Computing Science",
     "uri": "/two-year-refactor/2-catalog/courses/cis-115/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description An introduction to programming by exploring core concepts such as variables, conditionals, iteration, basic data structures, functions, and classes. Hands-on activities to learn and apply concepts to real-world problems and ideas. Students will gain a solid foundation in programming, setting the stage for further study and professional use.\nCourse Overview This course serves as a primary introduction to modern programming by exploring core concepts such as variables, conditionals, iteration, and functions. To accomplish this goal, we will do several hands-on learning activities. While doing so, we will try to relate the concepts we are learning to real-world problems and ideas. Students will gain a solid foundation in programming, setting the stage for further study and professional use.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description An introduction to programming by exploring core concepts such as variables, conditionals, iteration, basic data structures, functions, and classes. Hands-on activities to learn and apply concepts to real-world problems and ideas. Students will gain a solid foundation in programming, setting the stage for further study and professional use.\nCredit Hours 1 credit\nCourse Overview This course serves as a primary introduction to modern programming by exploring core concepts such as variables, conditionals, iteration, and functions. To accomplish this goal, we will do several hands-on learning activities. While doing so, we will try to relate the concepts we are learning to real-world problems and ideas. Students will gain a solid foundation in programming, setting the stage for further study and professional use.",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
-    "title": "CIS 116 – Introduction to Programming",
+    "title": "CIS 116 - Introduction to Programming",
     "uri": "/two-year-refactor/2-catalog/courses/cis-116/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description The Internet, web browsers, and web-page-development technology: web-page design and implementation with Hypertext Markup Language (HTML), CSS, and JavaScript utilizing a modern webpage design. Students will also get hands-on experience deploying their own website.\nCourse Overview This course.\nCourse Goals and Learning Outcomes Construct standards-compliant web pages using HTML, CSS, and JavaScript while maintaining separation of concerns. Develop accessible web pages that conform to established usability and accessibility guidelines. Implement responsive, modern page layouts and visual styling using CSS. Create interactive web functionality through JavaScript and Document Object Model manipulation. Retrieve, process, and display data from Web APIs using JavaScript. Evaluate websites using industry standards for user experience and design quality. Course Prerequisites None/varies by topic. Instructor permission required.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Participation in various professional development activities at an international university.\nCredit Hours 1 credit\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 118 - International Professional Development Experience",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-118/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description The Internet, web browsers, and web-page-development technology: web-page design and implementation with Hypertext Markup Language (HTML), CSS, and JavaScript utilizing a modern webpage design. Students will also get hands-on experience deploying their own website.\nCourse Overview This course.\nCourse Goals and Learning Outcomes Construct standards-compliant web pages using HTML, CSS, and JavaScript while maintaining separation of concerns. Develop accessible web pages that conform to established usability and accessibility guidelines. Implement responsive, modern page layouts and visual styling using CSS. Create interactive web functionality through JavaScript and Document Object Model manipulation. Retrieve, process, and display data from Web APIs using JavaScript. Evaluate websites using industry standards for user experience and design quality. Course Prerequisites None.",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 120 – Web Foundations",
     "uri": "/two-year-refactor/2-catalog/courses/cis-120/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Hands-on introduction to Artificial Intelligence (AI). This course explores foundational topics like data handling, supervised and unsupervised learning, neural networks, natural language processing, computer vision, and the ethical implications of AI. Interactive labs and projects are used to develop real AI applications and reflect on their impact in society.\nCourse Overview This course.\nCourse Goals and Learning Outcomes Describe the fundamental concepts of artificial intelligence and data science and their roles in modern society. Identify common applications of AI and data science across a variety of disciplines and industries. Explain the basic data science workflow, including data collection, preparation, analysis, and interpretation. Use introductory data analysis tools to explore and visualize datasets. Interpret and communicate insights derived from data analyses and AI-generated outputs. Recognize ethical, legal, and societal considerations associated with AI and data-driven decision making. Apply generative AI tools responsibly to support problem-solving, information analysis, and content creation. Evaluate the strengths and limitations of AI systems and data-driven models. Course Prerequisites None? Co or prerequisite CIS 116 (or equivalent programming course).",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Hands-on introduction to Artificial Intelligence (AI). This course explores foundational topics like data handling, supervised and unsupervised learning, neural networks, natural language processing, computer vision, and the ethical implications of AI. Interactive labs and projects are used to develop real AI applications and reflect on their impact in society.\nCourse Overview This course.\nCourse Goals and Learning Outcomes Describe the fundamental concepts of artificial intelligence and data science and their roles in modern society. Identify common applications of AI and data science across a variety of disciplines and industries. Explain the basic data science workflow, including data collection, preparation, analysis, and interpretation. Use introductory data analysis tools to explore and visualize datasets. Interpret and communicate insights derived from data analyses and AI-generated outputs. Recognize ethical, legal, and societal considerations associated with AI and data-driven decision making. Apply generative AI tools responsibly to support problem-solving, information analysis, and content creation. Evaluate the strengths and limitations of AI systems and data-driven models. Course Prerequisites Co or prerequisite CIS 116 (or equivalent programming course).",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 140 – Foundations of Artificial Intelligence",
     "uri": "/two-year-refactor/2-catalog/courses/cis-140/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Philosophical definitions of privacy, metrics (differential privacy, information leakage) and modern privacy tools as they apply, or apply to, AI. Hands-on applications to structured (tabular) and unstructured (images, videos) data. Timely real-world privacy problems faced by, and caused by, AI.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Topics of special interest in computing and information sciences.\nCredit Hours 1–3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
-    "title": "CIS 141 – Privacy and Artificial  Intelligence",
-    "uri": "/two-year-refactor/2-catalog/courses/cis-141/index.html"
+    "title": "CIS 190 - Undergraduate Seminar in Computing and Information Science",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-190/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Introduction to the rapidly evolving intersection of Artificial Intelligence and Cybersecurity. Students will explore how AI technologies—such as machine learning algorithms—can enhance system security, while also examining the vulnerabilities that adversaries exploit and the strategies used to defend against them. Through real-world case studies, interactive labs, and hands-on activities, students will gain practical experience with both offensive and defensive techniques in AI security. The course also includes a forward-looking discussion on emerging research, including work being conducted at K-State.",
-    "modified": "2026-09-28T03:08:36+00:00",
-    "tags": [],
-    "title": "CIS 142 – Artificial Intelligence and Cybersecurity",
-    "uri": "/two-year-refactor/2-catalog/courses/cis-142/index.html"
-  },
-  {
-    "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Principles of algorithm design and their application to procedural programming: state, control structures, methods. Patterns of conditional and iterative control structure. Program testing. Introduction to arrays, classes, and objects. Programming projects.\nCredit Hours 3 credits\nCourse Overview Learn the fundamentals of writing computer programs – specific instructions in a language that the computer can understand. Every computer application you use and every interactive website you visit is the result of a computer program. In this class, we will learn to write computer programs in Java and C# – however, the skills we will develop will apply to all programming languages.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Principles of algorithm design and their application to procedural programming: state, control structures, methods. Patterns of conditional and iterative control structure. Program testing. Introduction to arrays, classes, and objects. Programming projects.\nCredit Hours 4 credits\nCourse Overview Learn the fundamentals of writing computer programs – specific instructions in a language that the computer can understand. Every computer application you use and every interactive website you visit is the result of a computer program. In this class, we will learn to write computer programs in Java and C# – however, the skills we will develop will apply to all programming languages.",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
     "title": "CIS 200 - Programming Fundamentals",
     "uri": "/two-year-refactor/2-catalog/courses/cis-200/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Potential new course to be developed. Initial offering would focus on programs written for the web browser. Serves as a vehicle for providing event-driven programming and operating systems coverage for progammer-specific needs. Serves as part of a three-course progression, CIS 120 → CIS 220 → CIS 320. May need to be merged with CIS 320 to minimize staffing requirements.\nCourse Description Programming against an interactive computing platform’s execution and event model — how the platform schedules code, isolates security boundaries, and supports concurrent and asynchronous behavior. Sections focus on a specific platform (e.g. web, mobile, desktop); consult the section syllabus for the platform and tools used. (Proposed catalog description, per resources/reference/degree-maps/cs.md.)",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Application of computers to engineering problems. Abstraction and problem solving; algorithms; control structures; input/output; functions; arrays and array processing.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
-    "title": "CIS 220 - Platform Programming",
-    "uri": "/two-year-refactor/2-catalog/courses/cis-220/index.html"
+    "title": "CIS 209 - Computer Programming for Engineers",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-209/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
@@ -626,7 +650,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Catalog \u003e Courses",
     "description": "Course Description This course introduces the fundamental concepts of cybersecurity, including how digital systems communicate, common cyber threats, security principles, risk management, ethical considerations, and career opportunities in the field. Students will develop a cybersecurity mindset through case studies, discussions, and hands-on activities.\nCredit Hours 1 credit\nCourse Overview This course serves as a basic introduction to cybersecurity with a focus on exploring common threats and mitigations. Students will learn key principles such as the CIA triad, authentication, authorization, encryption, trust, and more. The course will include case studies of common cybersecurity threats and incidents and discussions on how to prevent them in the future. Students should leave the course with a defensive mindset and an understanding of risks and vulnerabilities present in modern technology.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 251 - Foundations of Cybersecurity",
     "uri": "/two-year-refactor/2-catalog/courses/cis-251/index.html"
@@ -634,49 +658,57 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Catalog \u003e Courses",
     "description": "Course Description This 1‑credit hour course introduces students to Structured Query Language (SQL) for retrieving and analyzing data in relational databases. Students will learn to write basic queries to select, filter, summarize, and combine data from multiple tables using hands‑on exercises and real‑world examples.\nCredit Hours 1 credit\nCourse Overview The objective of this course is to provide students with the foundations to understand simple relational databases. With this knowledge, students will be able to understand and write SQL queries to find, organize, and summarize information from real-world datasets.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 260 - Foundations of Relational Databases",
     "uri": "/two-year-refactor/2-catalog/courses/cis-260/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description A study of common data and program structures together with associated algorithms. Topics include interfaces, design patterns, and common data structures (such as arrays, stacks, queues, lists, trees, graphs, hash tables), as well as common algorithms that utilize these structures. Students will gain experience with both use and implementation of these structures and algorithms using a modern programming language. Students will also learn the various tradeoffs involving performance and software maintainability in data structure choice.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description A study of common data and program structures together with associated algorithms. Topics include interfaces, design patterns, arrays, stacks, queues, lists, trees, hash tables, recursion, binary search, and tree traversals. Experience with both use and implementation of these structures and algorithms using a modern programming language. Discussion of tradeoffs involving performance and software maintainability.\nCredit Hours 3 credits\nCourse Overview This course examines the fundamental data structures, algorithms, and software design principles used in modern computing. Students will learn to analyze, implement, and apply common data structures such as arrays, stacks, queues, lists, trees, graphs, hash tables and more, along with the algorithms that operate on them. Through hands-on programming experiences, students will explore interfaces, abstraction, and design patterns while developing solutions to computational problems and data structures. Emphasis is placed on evaluating algorithm efficiency, understanding performance tradeoffs, and selecting appropriate data structures to create efficient and maintainable software.",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
     "title": "CIS 300 - Data and Program Structures",
     "uri": "/two-year-refactor/2-catalog/courses/cis-300/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Logical formalisms used to model and reason about computer systems. Propositional and predicate logic, syntax, semantics, and proof theory; soundness and completeness issues. Mathematical induction. Program verification: invariants and program logics.\nCredit Hours 2 credits\nCourse Overview This course provides an introduction to formal logic and its application to mathematical reasoning and software correctness. Students will learn to represent and analyze logical statements using propositional and predicate logic, evaluate arguments and proofs, and apply formal reasoning techniques such as equivalence laws, deduction rules, contradiction, and induction. Topics include truth tables, sets, quantifiers, logical proofs, and the translation of natural language into formal symbolic expressions. The course also examines the use of logic in computing, with an emphasis on reasoning about program correctness through specifications, preconditions, postconditions, invariants, loops, functions, and program termination. By the end of the course, students will be able to apply formal methods to analyze logical arguments and verify the correctness of computational systems.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Logical formalisms used to model and reason about computer systems. Propositional and predicate logic, syntax, semantics, and proof theory; soundness and completeness issues. Mathematical induction. Program verification: invariants and program logics.\nCredit Hours 3 credits\nCourse Overview This course provides an introduction to formal logic and its application to mathematical reasoning and software correctness. Students will learn to represent and analyze logical statements using propositional and predicate logic, evaluate arguments and proofs, and apply formal reasoning techniques such as equivalence laws, deduction rules, contradiction, and induction. Topics include truth tables, sets, quantifiers, logical proofs, and the translation of natural language into formal symbolic expressions. The course also examines the use of logic in computing, with an emphasis on reasoning about program correctness through specifications, preconditions, postconditions, invariants, loops, functions, and program termination. By the end of the course, students will be able to apply formal methods to analyze logical arguments and verify the correctness of computational systems.",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
     "title": "CIS 301 - Logical Foundations of Programming",
     "uri": "/two-year-refactor/2-catalog/courses/cis-301/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Fundamentals of programming in C.\nCredit Hours 1 credit\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md notes this course “might be replaced with any 1-credit programming language course” — not yet decided whether C specifically remains the vehicle under the redesign.\nCourse Goals and Learning Outcomes Not yet drafted — pending course-designer’s detailed pass.\nCourse Prerequisites Prerequisite: CIS 300 (current catalog).",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Fundamentals of programming in C.\nCredit Hours 1 credit\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md notes this course “might be replaced with any 1-credit programming language course” — not yet decided whether C specifically remains the vehicle under the redesign.\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites Prerequisite: CIS 300 (current catalog).",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
     "title": "CIS 308 - C Language Laboratory",
     "uri": "/two-year-refactor/2-catalog/courses/cis-308/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Potential new course to be developed. Initial offering would focus on vue as a component-based UX library for the web. Serves as part of a three-course progression, CIS 120 → CIS 220 → CIS 320. May need to be merged with CIS 220 to minimize staffing requirements.\nCourse Description Building user-facing interfaces using a component-based architecture, consuming data from a provided service layer, with an introduction to validating a design against user needs. Sections focus on a specific platform (e.g. web, mobile, desktop); consult the section syllabus for the platform and tools used. (Proposed catalog description, per resources/reference/degree-maps/cs.md.)",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Knowledge and skills needed to administer and defend computer networks and systems. Topics include the basics of computer networks, intelligence gathering, network scanning and sniffing, password security and cracking, vulnerability exploitation, distributed denial of service, logging and auditing, and wireless network security and cracking. Practice using an isolated computing network.\nCredit Hours 1 credit\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
-    "title": "CIS 320 - User Experience Development",
-    "uri": "/two-year-refactor/2-catalog/courses/cis-320/index.html"
+    "title": "CIS 351 - Cyber Defense Basics",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-351/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "CIS 400 is being reimagined as a mid-level capstone course, where students use what they have learned in the first two years to create a significant programming project. This is not dissimilar to what the course currently does, but the current model utlizes highly prescriptive milestones that are trivialized by generative AI usage.\nCourse Description A study of concepts and techniques used to produce quality software programs. Object-oriented concepts, models, execution environments, design and testing techniques. Extensive application of these concepts and techniques to the development of non-trivial software programs.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Honors Seminar in Computer Science\nCredit Hours 1–3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
-    "title": "CIS 400 - Software Design, Implementation, and Testing",
+    "title": "CIS 397 - Honors Seminar in Computer Science",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-397/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "CIS 400 is being reimagined as a mid-level capstone course, where students use what they have learned in the first two years to create a significant programming project. This is not dissimilar to what the course currently does, but the current model utilizes highly prescriptive milestones that are trivialized by generative AI usage.\nCourse Description A study of concepts and techniques used to produce quality software programs. Object-oriented concepts, models, execution environments, design and testing techniques. Extensive application of these concepts and techniques to the development of non-trivial software programs.",
+    "modified": "2026-11-18T12:54:44-06:00",
+    "tags": [],
+    "title": "CIS 400 - Object-Oriented Design, Implementation, and Testing",
     "uri": "/two-year-refactor/2-catalog/courses/cis-400/index.html"
   },
   {
@@ -689,32 +721,56 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description A study of the ethical issues raised by computing technologies and the impact on society. Exploration of how one might justify actions in regard to ethical dilemmas within the fields of technology, computer science, information security, and artificial intelligence. Other topics include an examination of terminology used, Professional Codes of Conduct for computer science professionals, ethics of software development, and ethical issues relating to privacy and intellectual property in cyberspace.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description A study of the ethical issues raised by computing technologies and the impact on society. Exploration of how one might justify actions in regard to ethical dilemmas within the fields of technology, computer science, information security, and artificial intelligence. Other topics include an examination of terminology used, Profession Codes of Conduct for computer science professionals, ethics of software development, and ethical issues relating to privacy and intellectual property in cyberspace.",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 415 - Ethics and Conduct for Computing Professionals",
     "uri": "/two-year-refactor/2-catalog/courses/cis-415/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Introduction to modern computer architectures: register transfer abstraction, addressing modes, basic operations (data transfer, arithmetic/logic, and control operations). Basic Operating System concepts and operations. Understanding relationships of higher-level language constructs to corresponding assembly instruction sequences generated by compilers. Introduction to interrupts and low-level I/O operations.\nCredit Hours 3 credits (current catalog). Redesign note: resources/reference/degree-maps/cs.md flags this “may become an elective in new program as some content migrates down to earlier courses” — CIS 115 already absorbed the computer-architecture content (number representation, Boolean logic, register/register-transfer model) as part of the 2026-07-13/14 ABET coverage-check work.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Introduction to modern computer architectures: register transfer abstraction, addressing modes, basic operations (data transfer, arithmetic/logic, and control operations). Basic Operating System concepts and operations. Understanding relationships of higher-level language constructs to corresponding assembly instruction sequences generated by compilers. Introduction to interrupts and low-level I/O operations.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites Prerequisite: ECE 241 and CIS 308 (current catalog).",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 450 - Computer Architecture and Operations",
     "uri": "/two-year-refactor/2-catalog/courses/cis-450/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Principles and patterns for design and structure of software, development of object-oriented models, examples of software architecture.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md notes this course will “probably [shift] focus to incorporate more AI usage as a development tool.” It’s also the confirmed host for the Professional Practices lens’s professional-communication pass (presenting and defending a design to an audience, individually assessed even when the design was a team effort) — see content/4-curriculum-design/lenses/lens-professional-practices.md. This is also the course a dedicated acceptance-testing elective is planned to sit alongside for the Software Architecture specialization (not yet drafted).",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Current topics in computer science.\nCredit Hours 1–4 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 490 - Special Topics in Computer Science",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-490/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Open to students pursuing undergraduate research projects.\nCredit Hours 0–3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 497 - Undergraduate Research Experience",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-497/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Individual research problem selected with approval of faculty advisor. A report/thesis is presented orally and in writing during the last semester.\nCredit Hours 2–4 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 499 - Honors Research/Thesis",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-499/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Principles and patterns for design and structure of software, development of object-oriented models, examples of software architecture.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites Prerequisite: CIS 400 (current catalog).",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 501 - Software Architecture and Design",
     "uri": "/two-year-refactor/2-catalog/courses/cis-501/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description History, programming language concepts including type, scope and extent, abstraction mechanisms and control; programming paradigms, including one or more of logic, functional, and object-oriented programming, and programming languages supporting the selected paradigms; interpreters, compilers and virtual machines for the selected languages; storage management and garbage collection; type checking and type inference.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md (2026-07-14) confirms this course is “leaning required” — not fully settled, but no longer just “may become an elective” — and is the confirmed home for most of the core’s formal-language content (grammars, parsing), anchoring the ABET “computer science theory” formal-languages sub-area.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description History, programming language concepts including type, scope and extent, abstraction mechanisms and control; programming paradigms, including one or more of logic, functional, and object-oriented programming, and programming languages supporting the selected paradigms; interpreters, compilers and virtual machines for the selected languages; storage management and garbage collection; type checking and type inference.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites Prerequisite: CIS 301, CIS 400 (current catalog).",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 505 - Introduction to Programming Languages",
     "uri": "/two-year-refactor/2-catalog/courses/cis-505/index.html"
@@ -729,59 +785,235 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Operating systems concepts, services, and implementation: interrupt processing, processes, concurrency, deadlocks, resource scheduling and system structure; resource management: real and virtual storage, input/output systems, disk scheduling and file systems; design and construction of concurrent programs.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md lists this as one of three choices (with CIS 525, CIS 625) for the Year 4 Systems Elective, which “fulfils ABET networking and OS requirements; may become a regular tech elective instead.”",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Operating systems concepts, services, and implementation: interrupt processing, processes, concurrency, deadlocks, resource scheduling and system structure; resource management: real and virtual storage, input/output systems, disk scheduling and file systems; design and construction of concurrent programs.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites Prerequisite: CIS 450 or ECE 431; CIS 308, and CIS 400 or CIS 501 (current catalog).",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 520 - Operating Systems I",
     "uri": "/two-year-refactor/2-catalog/courses/cis-520/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Introduction to basic data structures such as stacks, queues, lists, and priority queues, and algorithmic techniques for sorting, searching and hashing. Emphasis on modularity and reuse. Introduction to the concept of object-oriented design and interface specifications.\nCredit Hours 1 credit\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 522 - Introduction to Data Structures",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-522/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Introduction to concurrent programming techniques based on message passing primitives (send/receive) and shared memory (semaphore based P/V operations and monitor-based wait/signal operations).\nCredit Hours 1 credit\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 523 - Introduction to Concurrent Programming",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-523/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
     "description": "Course Description Basic inter-process communication and network programming concepts including client-server and peer-to-peer, communication protocol use and specification, reliable and secure communication, and network applications including web technologies, electronic mail, and file transfer with a focus on application and implementation.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md lists this as one of three choices (with CIS 520, CIS 625) for the Year 4 Systems Elective, which “fulfils ABET networking and OS requirements; may become a regular tech elective instead.”",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 525 - Introduction to Network Programming",
     "uri": "/two-year-refactor/2-catalog/courses/cis-525/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Fundamental principles and best practices of web development, user interface design, web API design, advanced web interfaces, web development frameworks, single-page web applications, web standards and accessibility issues.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 526 - Web Application Development",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-526/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Administration of the Linux operating system, including installation, configuration, distributed file systems, firewalls and security, shell scripting, and user account management.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes Upon completion of this course, students will be able to:\nUnderstand the major components of an enterprise level computer network and server system. Design and implement a simple enterprise level server system and network, as well as provision workstations on that network quickly and easily. Communicate information about enterprise systems clearly and effectively to users of all skill levels and interests. Develop ways to increase efficiency by automating tasks whenever possible using scripting and configuration management tools. Understand and describe security risks in any enterprise system and any ways that they can be mitigated. Show how to monitor enterprise systems for problems and use that information to locate and fix any issues within the system. Work with cloud technologies and describe how they can be integrated into an enterprise information technology setup. Course Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 527 - Enterprise Systems Administration",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-527/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Fundamental background in intelligent systems for undergraduate students. Intelligent agents, problem-solving, uninformed and informed (heuristic) search, game tree search, foundations of knowledge representation and reasoning using logic and probability, and a first introduction to planning and machine learning. AI topics include the problem areas of natural language processing (NLP) and perception and methodologies such as artificial neural networks and genetic and evolutionary computation. Applications to practical design and development of intelligent systems will be emphasized, leading to individual projects on current topics and applications in AI.",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 530 - Introduction to Artificial Intelligence",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-530/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Introduction to programming techniques for working with big data. Survey of programming concepts that underlie the MapReduce architecture, their implementation, and specific tools for data integration and data transformation. Basic databases and query processing in the context of real-world problems.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 531 - Introduction to Programming Techniques for Data Science and Analytics",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-531/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Foundations of deep learning, with focus on different types of modern neural network architectures (such as convolutional neural networks, recurrent neural networks, and transformers). Regularization and optimization in the context of deep learning. Frameworks and tools for building and training deep neural networks.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 532 - Introduction to Deep Learning",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-532/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Introduction to the foundations of data science and data analytics. Computer science concepts used for making discoveries in data. Data wrangling, feature engineering, classification, regression, clustering, outlier detection, societal aspects of data science, and more. Analysis of real-word data.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes Upon completion of this course, students will be able to:\nDefine and profile data science problems, and solve it using machine learning and data analytics tools. Understand and be able to apply basic machine learning and data analytic techniques. Identify machine learning and computing strategies to approach and solve problems using data. Understand discovery methods and their application to turn data into knowledge. Use statistical inference to explore data and determine the significance of discoveries. Course Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 533 - Introduction to Data Science Foundations",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-533/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Introduction to computer graphics for undergraduate students. Mathematical foundations (e.g., linear, affine, and projective transformations) and fundamental topics in realistic rendering: view normalization, clipping and culling, scan conversion of lines and polygons, shading and illumination, texture mapping, user interfaces, picking, and collision handling. Intermediate topics include shaders, procedural textures, particle systems, basics of animation, fractals, color theory, and ray tracing.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 536 - Introduction to Computer Graphics",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-536/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Theory and applications of computer vision. Introduction to computer vision, introduction to image formation,\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 537 - Computer Vision",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-537/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description An introduction to computer and information security, including common attack techniques, application of cryptography in security, authentication and authorization, network security, enterprise network defense, web security, and analysis of design flaws that render a system vulnerable. Course projects provide hands-on experience on both the defense and offense aspects in cyberspace.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 551 - Fundamentals of Computer and Information Security",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-551/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Introduction to the fundamentals of cryptography, including mathematical background, classical ciphers, public key encryption, block and stream ciphers, cryptographic hash functions, digital signatures, common attacks, and basic security protocols.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 553 - Fundamentals of Cryptography",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-553/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
     "description": "Course Description Concepts, approaches, and techniques in database management. Representation of information as data, data storage techniques, foundations of logical data models, data retrieval, database design, transaction management, integrity and security.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md flags this “may become an elective,” and notes it as the elective-depth capstone on the computability arc seeded in CIS 115 and deepened in CIS 301 (P vs. NP, NP-completeness). It is also, as of the 2026-07-15 core-design regeneration, the only place in the degree map that still covers non-relational/NoSQL databases — that content was dropped from the required core as a confirmed, intentional scope reduction. See content/4-curriculum-design/threads/thread-data-structures.md for the full note.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
     "title": "CIS 560 - Database System Concepts",
     "uri": "/two-year-refactor/2-catalog/courses/cis-560/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description The development and implementation of computer science solutions to practical data science problems in science and industry. Implementing computer programs and applying computational tools to turn real-world data into knowledge and solve real-world data science problems. Includes a substantial capstone component.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 561 - Introduction to Data Science in Practice",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-561/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Formal languages, automata, regular expressions, grammars, introduction to computability theory. Reading and writing informal mathematical proofs pertaining to these topics.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 570 - Introduction to Formal Language Theory",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-570/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
     "description": "Course Description An introduction to mathematical analysis of time- and space-complexity of algorithms, including worst-case, average-case, and amortized complexity. An examination of various algorithmic designs, such as greedy algorithms, divide-and-conquer algorithms, and dynamic programming algorithms. Techniques for proving correctness of algorithms.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md flags this “may become an elective,” and it’s the confirmed elective-depth home for P vs. NP (paired with CIS 560’s own elective-depth NP-completeness content) on top of the required CIS 300/301 algorithmic foundation.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
     "title": "CIS 575 - Introduction to Algorithm Analysis",
     "uri": "/two-year-refactor/2-catalog/courses/cis-575/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Fundamental principles of programming games. Foundational game algorithms and data structures. Two-dimensional graphics and game world simulation. Development for multiple platforms. Utilization of game programming libraries. Design of multiple games incorporating topics covered.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 580 - Fundamentals of Game Programming",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-580/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Selected topics in computer science.\nCredit Hours 1–4 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 590 - Special Topics in Computer Science",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-590/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Directed studies: selection, investigation and report on some topic not covered in prior courses; may include an implementation and/or experimentation component; may be done in collaboration with other students. Completion of a final report with literature review and project evaluation.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes Upon completion of this course, students will be able to:\nAnalyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions. (ABET 1) Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline. (ABET 2) Communicate effectively in a variety of professional contexts. (ABET 3) Apply computer science theory and software development fundamentals to produce computing-based solutions. (ABET 6) Course Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 596 - Entrepreneurial Computer Science Project",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-596/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
     "description": "Course Description Directed studies: selection, investigation and report on some topic not covered in prior courses; may include an implementation and/or experimentation component; may be done in collaboration with other students. Completion of a plan, two reviews, and a final report with literature review and project evaluation.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md lists this as one of three choices (with CIS 643, DEN 591) for the Year 4 Capstone. This is distinct in purpose from CIS 400’s capstone-of-the-core: the Year 4 Capstone validates the whole degree plus specialization work, where CIS 400 validates the two-year core alone.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
     "title": "CIS 598 - Computer Science Project",
     "uri": "/two-year-refactor/2-catalog/courses/cis-598/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Directed studies: selection, investigation and report on some topic not covered in prior security courses; may include an implementation and/or experimentation component; may be done in collaboration with other students. Completion of a final report with literature review and project evaluation.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 599 - Cybersecurity Project",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-599/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
     "description": "Course Description Architecture, design, modeling, implementation, and verification of concurrent, parallel, and distributed software; aspects such as real-time programming, parallel simulation; fault-tolerant programming; grid computing, embedded systems control.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md lists this as one of three choices (with CIS 520, CIS 525) for the Year 4 Systems Elective, and confirms it as legitimate elective depth sitting on top of CIS 300’s required concurrent-algorithms/thread-safe-data-structures content — the same “required foundation, elective depth” pattern used elsewhere (e.g., CIS 560/575 on top of CIS 300/301).",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "modified": "2026-11-18T15:25:33+00:00",
     "tags": [],
     "title": "CIS 625 - Concurrent Software Systems",
     "uri": "/two-year-refactor/2-catalog/courses/cis-625/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",
-    "description": "Course Description Continuation of CIS 642. Final implementation, integration, and testing of a software system. Introduction to configuration management, project management, and software maintenance.\nCredit Hours 3 credits\nCourse Overview Not yet drafted — pending course-designer’s detailed pass. resources/reference/degree-maps/cs.md lists this as one of three choices (with CIS 598, DEN 591) for the Year 4 Capstone. Note the prerequisite below (CIS 642, taken the preceding semester) isn’t itself in the current core’s Year 3–4 elective structure as documented — worth confirming this pathway is actually reachable under the redesigned map before treating it as a settled capstone option.",
-    "modified": "2026-09-28T03:08:36+00:00",
+    "description": "Course Description Survey of software testing methodologies; evaluation of software testing strategies; experience in a variety of software testing practices.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 640 - Software Testing Techniques",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-640/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description The first semester of a two-semester capstone course. Current practices of software development, requirements, design, prototyping, measures and evaluation. Specification, design, and prototyping of a software system.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes Upon completion of this course, students will be able to:\nAnalyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions. (ABET 1) Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline. (ABET 2) Communicate effectively in a variety of professional contexts. (ABET 3) Apply computer science theory and software development fundamentals to produce computing-based solutions. (ABET 6) Function effectively as a member or leader of a team engaged in software engineering activities. Course Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 642 - Software Engineering Project I",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-642/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Continuation of CIS 642. Final implementation, integration, and testing of a software system. Introduction to configuration management, project management, and software maintenance.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes Upon completion of this course, students will be able to:\nAnalyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions. (ABET 1) Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline. (ABET 2) Communicate effectively in a variety of professional contexts. (ABET 3) Apply computer science theory and software development fundamentals to produce computing-based solutions. (ABET 6) Function effectively as a member or leader of a team engaged in software engineering activities. Course Prerequisites Prerequisite: CIS 642, which must be taken in the preceding semester (current catalog).",
+    "modified": "2026-11-18T12:54:44-06:00",
     "tags": [],
     "title": "CIS 643 - Software Engineering Project II",
     "uri": "/two-year-refactor/2-catalog/courses/cis-643/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description Fundamentals of security and reliability of computing systems from both hardware and software perspectives. Topics include symmetric and asymmetric cryptography, artificial intelligence (AI) safety and security, selected topics from hardware-based security, introduction to reliability and fault tolerance, hardware fault tolerance, and software fault tolerance.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 655 - Security and Reliability of Computing Systems",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-655/index.html"
+  },
+  {
+    "breadcrumb": "Catalog \u003e Courses",
+    "description": "Course Description The department will suggest various design or implementation projects for individuals or groups in areas such as translators, interpreters, microprogramming, minicomputer operating systems, graphics, numerical software, etc.\nCredit Hours 3 credits\nCourse Goals and Learning Outcomes TBD\nCourse Prerequisites TBD",
+    "modified": "2026-11-18T15:25:33+00:00",
+    "tags": [],
+    "title": "CIS 690 - Implementation Projects",
+    "uri": "/two-year-refactor/2-catalog/courses/cis-690/index.html"
   },
   {
     "breadcrumb": "Catalog \u003e Courses",

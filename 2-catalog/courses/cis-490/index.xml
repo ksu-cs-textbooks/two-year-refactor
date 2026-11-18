@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 490 - Special Topics in Computer Science :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-490/index.html</link>
+    <description>Course Description Current topics in computer science.&#xA;Credit Hours 1–4 credits&#xA;Course Goals and Learning Outcomes TBD&#xA;Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-490/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

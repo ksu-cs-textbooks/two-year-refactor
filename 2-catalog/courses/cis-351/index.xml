@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 351 - Cyber Defense Basics :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-351/index.html</link>
+    <description>Course Description Knowledge and skills needed to administer and defend computer networks and systems. Topics include the basics of computer networks, intelligence gathering, network scanning and sniffing, password security and cracking, vulnerability exploitation, distributed denial of service, logging and auditing, and wireless network security and cracking. Practice using an isolated computing network.&#xA;Credit Hours 1 credit&#xA;Course Goals and Learning Outcomes TBD&#xA;Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-351/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -69,6 +69,10 @@
     <lastmod>2026-09-28T03:08:36+00:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-015/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/degrees/artificial-intelligence/index.html</loc>
     <lastmod>2026-11-17T16:49:48-06:00</lastmod>
   </url>
@@ -269,6 +273,10 @@
     <lastmod>2026-09-28T03:08:36+00:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-090/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/4-curriculum-design/threads/thread-sociotechnical/index.html</loc>
     <lastmod>2026-09-28T03:08:36+00:00</lastmod>
   </url>
@@ -277,36 +285,40 @@
     <lastmod>2026-09-28T03:08:36+00:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-110/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-115/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-116/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-118/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-120/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-140/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-141/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-142/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-190/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-200/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-220/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-209/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-225/index.html</loc>
@@ -314,31 +326,35 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-251/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-260/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-300/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-301/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-308/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-320/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-351/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-397/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-400/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-401/index.html</loc>
@@ -346,19 +362,31 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-415/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-450/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-490/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-497/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-499/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-501/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-505/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-511/index.html</loc>
@@ -366,31 +394,119 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-520/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-522/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-523/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-525/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-526/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-527/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-530/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-531/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-532/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-533/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-536/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-537/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-551/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-553/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-560/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-561/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-570/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-575/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-580/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-590/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-596/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-598/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-599/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-625/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-640/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-642/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-643/index.html</loc>
-    <lastmod>2026-09-28T03:08:36+00:00</lastmod>
+    <lastmod>2026-11-18T12:54:44-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-655/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-690/index.html</loc>
+    <lastmod>2026-11-18T15:25:33+00:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/math-200/index.html</loc>

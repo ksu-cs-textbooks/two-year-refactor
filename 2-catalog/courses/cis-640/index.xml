@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 640 - Software Testing Techniques :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-640/index.html</link>
+    <description>Course Description Survey of software testing methodologies; evaluation of software testing strategies; experience in a variety of software testing practices.&#xA;Credit Hours 3 credits&#xA;Course Goals and Learning Outcomes TBD&#xA;Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-640/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

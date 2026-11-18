@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 530 - Introduction to Artificial Intelligence :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-530/index.html</link>
+    <description>Course Description Fundamental background in intelligent systems for undergraduate students. Intelligent agents, problem-solving, uninformed and informed (heuristic) search, game tree search, foundations of knowledge representation and reasoning using logic and probability, and a first introduction to planning and machine learning. AI topics include the problem areas of natural language processing (NLP) and perception and methodologies such as artificial neural networks and genetic and evolutionary computation. Applications to practical design and development of intelligent systems will be emphasized, leading to individual projects on current topics and applications in AI.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-530/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 536 - Introduction to Computer Graphics :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-536/index.html</link>
+    <description>Course Description Introduction to computer graphics for undergraduate students. Mathematical foundations (e.g., linear, affine, and projective transformations) and fundamental topics in realistic rendering: view normalization, clipping and culling, scan conversion of lines and polygons, shading and illumination, texture mapping, user interfaces, picking, and collision handling. Intermediate topics include shaders, procedural textures, particle systems, basics of animation, fractals, color theory, and ray tracing.&#xA;Credit Hours 3 credits&#xA;Course Goals and Learning Outcomes TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-536/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

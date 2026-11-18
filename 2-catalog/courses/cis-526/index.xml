@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 526 - Web Application Development :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-526/index.html</link>
+    <description>Course Description Fundamental principles and best practices of web development, user interface design, web API design, advanced web interfaces, web development frameworks, single-page web applications, web standards and accessibility issues.&#xA;Credit Hours 3 credits&#xA;Course Goals and Learning Outcomes TBD&#xA;Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-526/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

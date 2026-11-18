@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIS 655 - Security and Reliability of Computing Systems :: CS Two Year Refactor</title>
+    <link>https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-655/index.html</link>
+    <description>Course Description Fundamentals of security and reliability of computing systems from both hardware and software perspectives. Topics include symmetric and asymmetric cryptography, artificial intelligence (AI) safety and security, selected topics from hardware-based security, introduction to reliability and fault tolerance, hardware fault tolerance, and software fault tolerance.&#xA;Credit Hours 3 credits&#xA;Course Goals and Learning Outcomes TBD&#xA;Course Prerequisites TBD</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/two-year-refactor/2-catalog/courses/cis-655/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
